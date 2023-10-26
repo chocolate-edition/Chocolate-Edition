@@ -1,0 +1,6 @@
+
+[general]
+	#Mobspawner timer before being locked. time in ticks. use redstone signal on top of block to circumvent lock.
+	#Range: > 1
+	spawner_lock_after = 24000
+

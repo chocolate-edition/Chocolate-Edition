@@ -1,0 +1,6 @@
+
+#Server configuration settings
+[server]
+	#Restricts players to use only a controller when playing on the server. Be warned that this is not guaranteed and players may still be able to use keyboard and mouse input.
+	restrictToController = false
+

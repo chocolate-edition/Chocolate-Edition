@@ -1,0 +1,1 @@
+craftingTable.addShapeless("cloth",<item:majruszsdifficulty:cloth>, [<item:minecraft:white_wool>,<item:minecraft:white_wool>,<item:minecraft:white_wool>,<item:minecraft:white_wool>,<item:minecraft:string>,<item:minecraft:string>,<item:minecraft:string>,<item:minecraft:string>,<item:born_in_chaos_v1:pieceofdarkmetal>]);

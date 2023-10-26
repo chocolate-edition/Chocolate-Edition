@@ -1,0 +1,8 @@
+// Large files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.zip
+*.7z
+.obsidian/workspace.json

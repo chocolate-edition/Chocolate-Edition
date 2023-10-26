@@ -1,0 +1,228 @@
+
+[client]
+	hide_indicator = false
+	force_indicator_rendering = true
+	#Range: 0.0 ~ 1.0
+	font_size = 0.5032051282051282
+	#Range: 0 ~ 1024
+	render_distance = 64
+	change_color_when_crit = true
+
+	[client.color]
+
+		[client.color.in_fire_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 150
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.lightning_bolt_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 80
+			#Range: 0 ~ 255
+			blue = 255
+
+		[client.color.on_fire_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 150
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.lava_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 150
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.hot_floor_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 150
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.in_wall_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 225
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.cramming_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 225
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.drown_damage]
+			#Range: 0 ~ 255
+			red = 0
+			#Range: 0 ~ 255
+			green = 20
+			#Range: 0 ~ 255
+			blue = 255
+
+		[client.color.starve_damage]
+			#Range: 0 ~ 255
+			red = 150
+			#Range: 0 ~ 255
+			green = 100
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.cactus_damage]
+			#Range: 0 ~ 255
+			red = 0
+			#Range: 0 ~ 255
+			green = 255
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.fall_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 225
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.fly_into_wall_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 225
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.out_of_world_damage]
+			#Range: 0 ~ 255
+			red = 0
+			#Range: 0 ~ 255
+			green = 0
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.generic_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 140
+			#Range: 0 ~ 255
+			blue = 54
+
+		[client.color.magic_damage]
+			#Range: 0 ~ 255
+			red = 0
+			#Range: 0 ~ 255
+			green = 255
+			#Range: 0 ~ 255
+			blue = 160
+
+		[client.color.wither_damage]
+			#Range: 0 ~ 255
+			red = 25
+			#Range: 0 ~ 255
+			green = 25
+			#Range: 0 ~ 255
+			blue = 25
+
+		[client.color.anvil_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 225
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.falling_block_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 225
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.dragon_breath_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 255
+			#Range: 0 ~ 255
+			blue = 255
+
+		[client.color.dry_out_damage]
+			#Range: 0 ~ 255
+			red = 158
+			#Range: 0 ~ 255
+			green = 79
+			#Range: 0 ~ 255
+			blue = 72
+
+		[client.color.sweet_berry_bush_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 0
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.freeze_damage]
+			#Range: 0 ~ 255
+			red = 0
+			#Range: 0 ~ 255
+			green = 255
+			#Range: 0 ~ 255
+			blue = 255
+
+		[client.color.falling_stalactite_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 162
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.stalagmite_damage]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 178
+			#Range: 0 ~ 255
+			blue = 0
+
+		[client.color.critical]
+			#Range: 0 ~ 255
+			red = 255
+			#Range: 0 ~ 255
+			green = 83
+			#Range: 0 ~ 255
+			blue = 31
+
+		[client.color.heal]
+			#Range: 0 ~ 255
+			red = 85
+			#Range: 0 ~ 255
+			green = 255
+			#Range: 0 ~ 255
+			blue = 85
+
+		[client.color.immune]
+			#Range: 0 ~ 255
+			red = 0
+			#Range: 0 ~ 255
+			green = 0
+			#Range: 0 ~ 255
+			blue = 0
+

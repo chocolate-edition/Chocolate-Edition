@@ -1,0 +1,1031 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "53659F546FCEEC84"
+	group: "7C84C11C55BE6D87"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "citadel:citadel_book"
+	id: "53659F546FCEEC84"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "citadel:citadel_book"
+			id: "5B597BC0F1B671E2"
+			shape: "rsquare"
+			size: 3.0d
+			subtitle: "Documents All Dialogue/Lore Unlocks."
+			title: "The Story So Far..."
+			x: -4.5d
+			y: 0.48d
+		}
+		{
+			dependencies: [
+				"5B597BC0F1B671E2"
+				"2243BA6B2363797E"
+			]
+			description: [
+				"      *you feel a faint vision come over you, of a event long ago. It is of an ancient place- somewhere lost to time. Over a lit table surrounded by engulfing dark, you notice some people- villagers, illagers, piglins, endermen,  and many more. An eye of ender is placed on the table, it's power entrenching- and everything goes white*"
+				""
+				"*you feel the sudden urge to look in your quest book*"
+			]
+			icon: "minecraft:crafting_table"
+			id: "26D1445D673CC2CA"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "4B15512CC65D6CE2"
+				title: "Vision at 0 Eyes"
+				type: "checkmark"
+			}]
+			x: -1.75d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"26D1445D673CC2CA"
+				"7930E1E5F6FA73C1"
+			]
+			description: [
+				"      I see you've started to collect some eyes, hmm? Oh, sorry for scaring you. Do not be afraid, for I am but a lowly ender being speaking to your mind. I cannot interact with your plane of existence directly, I am using all our Power to merely talk to you via the Power of your Eyes. I have only come to ask you for help. My realm has been locked away in space for the past 1,000 years, as a result of some gods of the other realms quarreling with mine. This has left us common folk awaiting someone to come open the portal that sealed us here for generations. "
+				""
+				"     Those eyes are the source of all magic, created long ago by the gods that imprisoned us here, and if you were to get your hands on 12 of them, you'd be Powerful enough to open the gate- and free this realm from it's curse! If you do that, my people and I would give you all our Power. "
+				""
+				""
+				"     Already, because of those eyes you've created, you have become Powerful enough to use complex storage, a slightly stronger material infused with the god Neptune's Essence, Neptunium and enter the Underworld! So please, for our sake, keep it coming. Take this offering, the only thing i can materialize into your world from here, as a sign of peace. And please don't forget: the more eyes you collect, the more Powerful you become..."
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:heart_container"
+			}
+			id: "3886B58078762548"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "501F4CAB9D3D254E"
+				title: "Ender Communicator #1 (3 eyes)"
+				type: "checkmark"
+			}]
+			x: -0.25d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3886B58078762548"
+				"08B75FB792CB7704"
+			]
+			description: [
+				"      Congratulations, my friend, you have become Powerful enough that you have awakened the Spirits of Light and Dark. You can enter their domains, Everbright and Everdawn, which are even more fantastical worlds! You are also now powerful enough to summon Ancient Underworld Demons, such as the Wither, utilize the quintessential Treasure of the deepist pits of Hell, Netherite, and fight New Reawakened enemies all across the world; which all combined give you access to all the materials you need to create all 12 eyes! "
+				""
+				"      With that in mind, you've proven that you're significantly more usef- I mean, helpful than I had ever previously imagined. Have another gift from us to commend your adventure so far. This is the closest I've been in so long.. "
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:heart_container"
+			}
+			id: "77A690789262F7DD"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "3DAC60EF8EBC03B5"
+				title: "Ender Communicator #2 (6 eyes)"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"77A690789262F7DD"
+				"301C5436C1E55DAD"
+			]
+			description: [
+				"      Wow, I can't believe just how much Power you've Reawakened...  With your new Powers come new knowledge this time, such as the ability to read scrolls, how to Infuse Enchanted tools's enchants to books, the knowledge to create Weapons using the Lifeblood obtained from the Spirits of the Dark, Dark Metal, and ancient knowledge of advanced machinery that can automate the production of a vast array of resources! "
+				" "
+				"      All this time, we've thought it was all gone… I mean, all this knowledge of old civilizations we thought was lost; to war and the unrivaled dominion of Time. May your collecting of the final eyes necessary finally tell the Gods of old that my realm isn't theirs to conquer..."
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:heart_container"
+			}
+			id: "42549F31A5908C38"
+			tasks: [{
+				id: "3FE65224DC2DB479"
+				title: "Ender Communicator #3 (9 eyes)"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"42549F31A5908C38"
+				"422EFAD138D3A1DB"
+			]
+			description: [
+				"     I can finally feel my skin again... You now have enough Power to use all but the most Powerful gear, which is only available to those with strength surpassing gods, and, of course, ascend to the one realm beyond all realms. Here's your last gift- as a final mark of my sincerest respect."
+				""
+				""
+				"      However, I do have just one last thing to say. I.. Never thought I would see this day. The Union of the Eyes, Balance restored to the universe, a world finally resembling what once was... It almost makes me want to give up on my quest for Freedom, and go back to what once was. You see, I don't even remember what freedom feels like- and I've been beating myself up for so long, that I've almost lost my sanity. Hell, I've lost everything, from my Power, to everyone I've held dear, at the hands of the Gods who put me here. But now, after so, so much sacrifice, preparation, and p a t i e n c e, "
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:heart_container"
+			}
+			id: "61C945F5E24A351B"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "056D58459B571DC8"
+				title: "Ender Communicator #4 (12 eyes)"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"61C945F5E24A351B"
+				"422EFAD138D3A1DB"
+			]
+			description: [
+				"     I've done it. You see, those 'Gods' that put me here, weren't really gods- but insignificant little oaves who couldn't accept their fate. Though they might as well have been gods, because they had the whole package- stubbornness, savagery, and being the ones in charge of a Broken World. And just because I sought to finish what they started, take the responsibility and be the bad guy- to stop the endless suffering- they suddenly grew a conscience. They tried to defy their nature to stop me. I wasn't having it. Where were they when I was weak? No, that world couldn't be fixed."
+				""
+				"     I could've wiped them off the face of the earth in an instant if it wasn't for the main source of their Power -the eyes, which were Power incarnate. Forged with the combined power of civilizations, I tried to steal them from the stronghold where they were kept, but they had replaced the gates, and sucked me into this vile place of nothingness. They couldn't even have the honor to fight me head on. No, they had to trap me here, in the farthest reaches of the Universe, break the eyes so that I could never get out, and starve me of Energy. While I constantly tried to break out- it was no use. I hadn't studied the eye's Power, and I thought it was too late."
+				""
+				"     But after finding you, I realized just how painfully simple it was- all I had to do was act all friendly, and get you curious enough to put those eyes back together. My freedom, and a new source of power, will now finally transform me back to my True Self and beyond. I will come into your worlds, and free them all- from their power. And after restoring myself to my former glory- I will burn the remaining little devils that put me here to the ground. But, because I've come to respect your lust for Power, and want a fight with honor, I will let you have a final chance to see my power unfold. Throw an Eye and follow the direction it goes in to make your way to one of the gates. The victory will go to who deserves it.\");"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:heart_container"
+			}
+			id: "6E4531A53C3CEBD0"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "139D9C5287D876CF"
+				title: "Entity #1 (12 eyes)"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6E4531A53C3CEBD0"
+				"48602E78DFC281AF"
+			]
+			description: [
+				"      The voice that previously spoke to you is gone, but a new voice calls out: Hi! My name is Christi, and I'm the new guy. Don't worry, I'm not here to take over any realms, I'm just here to say congratulations! You can now utilize the strongest tools in all the realms!!! You probably won't need it, but I found this last heart laying around so I think I'll give it to you as thanks. "
+				""
+				"      Thank you so much for playing this modpack all the way through, it took me hundreds of hours to figure out how to put this all together. I really hope you enjoyed! Now have fun being a Master of the Realms. Oh, and could you do one more thing for me? I put a final quest in your book, I'd like you to take a look. It's been a long time since I've been in my old home; I miss it very much."
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:heart_container"
+			}
+			id: "3D795AD965FEE976"
+			rewards: [{
+				id: "16C565214FCE0150"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "paraglider:heart_container"
+					tag: {
+						display: {
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Christi's Gift\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "31B8A427ADDBD9D9"
+				title: "Message from Christi (16 eyes)"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5B597BC0F1B671E2"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:ender_eye"
+			}
+			id: "5B7CBE6418C5C392"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "79C8616D3EA984F5"
+				title: "Items Unlocked every Three Eyes"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"5B7CBE6418C5C392"
+				"7930E1E5F6FA73C1"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7E7A9B546C15BE8A"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "50DC76AD1854656A"
+				title: "3 eyes"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"7E7A9B546C15BE8A"
+				"08B75FB792CB7704"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "318AC3A4B80FAB8E"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "13D1C8B972A341D6"
+				title: "6 eyes"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"318AC3A4B80FAB8E"
+				"301C5436C1E55DAD"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "33B00255BDE26589"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "769EF25E7F967057"
+				title: "9 eyes"
+				type: "checkmark"
+			}]
+			x: -1.75d
+			y: -7.25d
+		}
+		{
+			dependencies: [
+				"33B00255BDE26589"
+				"422EFAD138D3A1DB"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51E899661EDC06BD"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "008137A11DF580E1"
+				title: "12 eyes"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -7.25d
+		}
+		{
+			dependencies: [
+				"51E899661EDC06BD"
+				"48602E78DFC281AF"
+			]
+			icon: {
+				Count: 1b
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "766544EE45C62981"
+			size: 2.0d
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "45443D63532D7B57"
+				title: "16 eyes"
+				type: "checkmark"
+			}]
+			x: 9.75d
+			y: -7.199999999999999d
+		}
+		{
+			dependencies: ["7E7A9B546C15BE8A"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/nether_portal"
+				}
+			}
+			id: "0E7AC1DAD88A9579"
+			tasks: [{
+				id: "318BEECFB038BDC1"
+				title: "Nether"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E7A9B546C15BE8A"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:backpack"
+				tag: {
+					Inventory: [
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+				}
+			}
+			id: "2674DC3F83126E23"
+			tasks: [{
+				id: "4D1240E6E1ACBF67"
+				title: "Backpack"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["7E7A9B546C15BE8A"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "aquaculture:neptunium_ingot"
+			}
+			id: "20CD4D828F833E56"
+			tasks: [{
+				id: "0F6FA04ADA13BBB9"
+				title: "Neptunium"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E7A9B546C15BE8A"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "toms_storage:ts.storage_terminal"
+			}
+			id: "4DD63443C58D3C4D"
+			tasks: [{
+				id: "4F208E2E850EBBCD"
+				title: "Storage Terminal (Easy storage system access)"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["318AC3A4B80FAB8E"]
+			icon: {
+				Count: 1b
+				id: "wstweaks:blaze_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6754660507496A32"
+			subtitle: "One-shots skeletons, and beheads them."
+			tasks: [{
+				id: "0576BEA6B354426E"
+				title: "Blaze Blade"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["318AC3A4B80FAB8E"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "15F2D8BAFA731EBC"
+			tasks: [{
+				id: "2DA432B1200D5365"
+				title: "Summoning Wither"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["318AC3A4B80FAB8E"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:netherite_ingot"
+			}
+			id: "11B8AA6D97B89961"
+			subtitle: "Armor, Diving Gear, Samurai Gear, Weapons"
+			tasks: [{
+				id: "5B2E9974F468DE8E"
+				title: "Netherite"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["318AC3A4B80FAB8E"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:item/misc/portal_mix"
+				}
+			}
+			id: "0B695F62F4DE6879"
+			tasks: [{
+				id: "35DD7EB5263754D1"
+				title: "Everbright/Everdawn "
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["318AC3A4B80FAB8E"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "meetyourfight:mossy_tooth"
+			}
+			id: "38DE652401E40BA8"
+			subtitle: "Bone Raker(Swampjaw), Cocktail Cutlass(Dame Fortuna), Blossoming Mind(Rosalyne), Spectres Grasp(Bellringer)"
+			tasks: [{
+				id: "273C613F134AF05C"
+				title: "Simple Boss trinkets"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["318AC3A4B80FAB8E"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "majruszsdifficulty:item/advancement_expert"
+				}
+			}
+			id: "3FFC286F3D0CF299"
+			subtitle: "Unlocked by going to the Everbright or Everdawn, which release the spirits of Light and Dark. Spawns hundreds of new, unique mobs all over the world. The new mobs are REALLY tough.."
+			tasks: [{
+				id: "3DE4000CD51C8B52"
+				title: "Expert Mode"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["33B00255BDE26589"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
+			id: "42DDD8BA2B3F82A8"
+			tasks: [{
+				id: "38F08D1D16DADDAD"
+				title: "Dark Metal"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: -8.25d
+		}
+		{
+			dependencies: ["33B00255BDE26589"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "infusion_table:infusion_table"
+			}
+			id: "0D77A6690CFF6C34"
+			tasks: [{
+				id: "4804279977DE3643"
+				title: "Infusion Table"
+				type: "checkmark"
+			}]
+			title: "Disenchanting"
+			x: -0.75d
+			y: -8.2d
+		}
+		{
+			dependencies: ["33B00255BDE26589"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							effects: ["tetra:gem_expertise"]
+							glyphs: [
+								14
+								13
+								14
+								15
+							]
+							intricate: 0b
+							key: "gem_expertise"
+							material: 0
+							ribbon: "2bffee"
+						}]
+					}
+				}
+			}
+			id: "2A0B969D67CC2842"
+			subtitle: "Howling, Throwing Knife, Sturdy Guard"
+			tasks: [{
+				id: "451732645D164962"
+				title: "Simple Scrolls"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -7.25d
+		}
+		{
+			dependencies: ["318AC3A4B80FAB8E"]
+			icon: "create:mechanical_drill"
+			id: "4456FB6F2CF773D2"
+			subtitle: "Drills, rollers, harvesters, ploughs, saws, portable storage connectors"
+			tasks: [{
+				id: "271C1EC39C86F09C"
+				title: "Easy Automation"
+				type: "checkmark"
+			}]
+			x: -0.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["33B00255BDE26589"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "create:redstone_link"
+			}
+			id: "4D19845BA82BCDFA"
+			tasks: [{
+				id: "47593B7B916841C7"
+				title: "Wireless Redstone"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["33B00255BDE26589"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "create:cart_assembler"
+			}
+			id: "6CF3DC92422C57AF"
+			tasks: [{
+				id: "4D5232FA7D57F78E"
+				title: "Contraptions"
+				type: "checkmark"
+			}]
+			x: -1.75d
+			y: -8.75d
+		}
+		{
+			dependencies: ["51E899661EDC06BD"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "aquamirae:abyssal_amethyst"
+			}
+			id: "0D4AA9326ABA5E66"
+			tasks: [{
+				id: "3713FDB5B07F7168"
+				title: "Abyssal Amethyst"
+				type: "checkmark"
+			}]
+			x: 5.15d
+			y: -5.5d
+		}
+		{
+			dependencies: ["51E899661EDC06BD"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enigmaticlegacy:darkest_scroll"
+			}
+			id: "2951AC8E93ACE03E"
+			subtitle: "Katana Blade, Mace Head, Crucible Blade, Hammer, Compound String, Murasama Blade, Rending Scissor, Key Guard, Dreadnought Stave, Halberd Head, Flamberge Blade"
+			tasks: [{
+				id: "05E3F29DC385B98C"
+				title: "Advanced Scrolls"
+				type: "checkmark"
+			}]
+			x: 3.8499999999999996d
+			y: -5.45d
+		}
+		{
+			dependencies: ["51E899661EDC06BD"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:end_portal_frame"
+			}
+			id: "6E0117CF9284743E"
+			tasks: [{
+				id: "4AAC6DE104CBB4DF"
+				title: "End"
+				type: "checkmark"
+			}]
+			x: 3.25d
+			y: -6.5d
+		}
+		{
+			dependencies: ["51E899661EDC06BD"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "mutantmonsters:endersoul_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "44F2FAB3F71A2450"
+			subtitle: "Passages toll(Bellringer), Ace of iron(Dame Fortuna), Caged Heart(Swampjaw), Twilights Thorn(Rosalyne), Endersoul Hand(Mutant Enderman)"
+			tasks: [{
+				id: "1F4913E6A580256D"
+				title: "Advanced Boss Trinkets"
+				type: "checkmark"
+			}]
+			x: 5.75d
+			y: -6.5d
+		}
+		{
+			dependencies: ["51E899661EDC06BD"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D22F160331E9973"
+			subtitle: "Bone Staff(lich), Infernal Forge(Netherite monstrosity), Tidal Claws (Leviathan), Monstrous Helm(Netherite Monstrosity), Gauntlet of Guard(Ender Guardian), Wither Assault Shoulder Weapon(Harbinger)"
+			tasks: [{
+				id: "118C0332736779C7"
+				title: "Powerful Unbreakable Boss Items"
+				type: "checkmark"
+			}]
+			x: 5.75d
+			y: -8.0d
+		}
+		{
+			dependencies: ["51E899661EDC06BD"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enlightened_end:adamantite_ingot"
+			}
+			id: "196EBA20D76813E3"
+			tasks: [{
+				id: "127EA549D085A3D5"
+				title: "Adamantite"
+				type: "checkmark"
+			}]
+			x: 3.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["51E899661EDC06BD"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "majruszsdifficulty:enderium_ingot"
+			}
+			id: "3D2A2A76CF46AA51"
+			tasks: [{
+				id: "4AB3B1E83FA88904"
+				title: "Enderium"
+				type: "checkmark"
+			}]
+			x: 3.8499999999999996d
+			y: -8.95d
+		}
+		{
+			dependencies: ["51E899661EDC06BD"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enigmaticlegacy:etherium_ingot"
+			}
+			id: "208224F4AD9F45DB"
+			subtitle: "Quest ingots"
+			tasks: [{
+				id: "75B13C3669205E94"
+				title: "Etherium"
+				type: "checkmark"
+			}]
+			x: 5.15d
+			y: -9.0d
+		}
+		{
+			dependencies: ["766544EE45C62981"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:the_incinerator"
+			}
+			id: "1049F5C9FB3A6B37"
+			tasks: [{
+				id: "0F735FC185DF6EBB"
+				title: "Godlike Unbreakable Boss Weapons"
+				type: "checkmark"
+			}]
+			x: 9.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["766544EE45C62981"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "alexsmobs:tarantula_hawk_elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "17F803F9A5A15E31"
+			tasks: [{
+				id: "0E4297702A177148"
+				title: "Advanced Elytras"
+				type: "checkmark"
+			}]
+			x: 9.75d
+			y: -9.5d
+		}
+		{
+			dependencies: ["766544EE45C62981"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "579424FC81326EE1"
+			tasks: [{
+				id: "56201D72BEA5C0C5"
+				title: "Ignitium"
+				type: "checkmark"
+			}]
+			x: 11.700000000000003d
+			y: -8.999999999999998d
+		}
+		{
+			dependencies: ["766544EE45C62981"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:witherite_ingot"
+			}
+			id: "4D01AE1087F655CB"
+			tasks: [{
+				id: "351A97EF3A07227C"
+				title: "Witherite"
+				type: "checkmark"
+			}]
+			x: 11.700000000000003d
+			y: -5.5d
+		}
+		{
+			dependencies: ["766544EE45C62981"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:shattered_dimensional_carver"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "581D0DDCE25134AA"
+			tasks: [{
+				id: "375D62ACF6AD62A3"
+				title: "Dimensional Carver"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: -7.25d
+		}
+		{
+			dependencies: ["766544EE45C62981"]
+			icon: "minecraft:command_block"
+			id: "14627EFC8F677E32"
+			size: 1.5d
+			tasks: [{
+				id: "17C0213205D39A6A"
+				title: "Something 1,000,000 Blocks out..."
+				type: "checkmark"
+			}]
+			x: 15.75d
+			y: -7.25d
+		}
+		{
+			dependencies: ["7E7A9B546C15BE8A"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "predators:wave_of_abyss"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1A963FC6B4A2E745"
+			subtitle: "Sultan of Fegefeuer(Scarab), Prisblade(Prisnautilus), Earthbreaker(Amethyst Colossus), Huntsman Spear(Huntsman), Weathering Tome(Prisnautilus), Wave of Abyss(Prisnautilus)"
+			tasks: [{
+				id: "624448058ACB14A3"
+				title: "Simple Boss Items"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["7E7A9B546C15BE8A"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2BA5B714AD740F98"
+			tasks: [{
+				id: "487982AE10FD9CF5"
+				title: "Night Gear"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["766544EE45C62981"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "celestisynth:celestial_core"
+			}
+			id: "4BB1D790E1FA5D44"
+			tasks: [{
+				id: "6B08F871C6723120"
+				title: "Celestial Cores"
+				type: "checkmark"
+			}]
+			x: 12.25d
+			y: -7.25d
+		}
+	]
+	title: "Dialogue and Unlocks"
+}

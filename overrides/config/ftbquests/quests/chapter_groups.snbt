@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "7C84C11C55BE6D87", title: "General" }
+		{ id: "1C888CDB8EF0A7FB", title: "The Eyes" }
+		{ id: "3D2821671D9C1986", title: "Combat Specialist" }
+		{ id: "119FC24B3E70152E", title: "Explorer's Essentials" }
+		{ id: "63490B07EE89C951", title: "Craftsmanship and Building " }
+		{ id: "19D40E06A79DCA18", title: "Resource Gathering" }
+		{ id: "7E47C3CA27AD68C7", title: "Agriculture Infrastructure" }
+	]
+}

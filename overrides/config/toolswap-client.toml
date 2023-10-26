@@ -1,0 +1,19 @@
+#If this is on, tool with 1 durability left will be saved. Only works for BREAKING a block, not stripping, flattening, or tilting.
+save = false
+#If items should be saved, this is the minimum durability which they are allowed to have.
+#Range: > 1
+min_durability = 1
+#If this is on, harvest level of tools will be ignored on breaking blocks. Otherwise it will always search for the lowest possible tool.
+ignore_harvest_level = true
+#If this is on, sneaking will not swap your tool.
+sneak_to_prevent = true
+#Set the mode in which order the tools will be chosen.
+#LEVEL = sorted by harvest level, lowest first
+#LEVEL_INVERTED = sorted by harvest level, highest first
+#LEFT_TO_RIGHT = sorted from left to right
+#RIGHT_TO_LEFT = sorted from right to left
+#ENCHANTED_FIRST = sorted by harvest level, highest enchanted item first
+#ENCHANTED_LAST = sorted by harvest level, highest unenchanted item first
+#Allowed Values: LEVEL, LEVEL_INVERTED, LEFT_TO_RIGHT, RIGHT_TO_LEFT, ENCHANTED_FIRST, ENCHANTED_LAST
+sorttype = "LEVEL"
+

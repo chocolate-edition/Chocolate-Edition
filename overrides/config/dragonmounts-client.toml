@@ -1,0 +1,3 @@
+#Should flight controls use the game camera (true) or vertical keybinds? (false)
+camera_flight_controls = true
+

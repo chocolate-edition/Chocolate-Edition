@@ -1,0 +1,14 @@
+
+[Config]
+	"Basalt Delta Ash Piles" = true
+	#Determines the frequency of ecto spawning, set to a decimal inbetween 0 and 1 to decrease frequency
+	"Ecto Spawnrate" = 1.0
+	#Defines whether soul sludge will generate in the soul sand valley
+	"Soul Sludge Patches" = true
+	#Defines whether the Nether Reactor is enabled
+	"Nether Reactor" = true
+	#Defines whether a necronium tool will save upon death in the players hand
+	"Necronium Afterlife" = true
+	#Defines whether soul weeds will generate in the soul sand valley
+	"Soul Weed Generation" = true
+

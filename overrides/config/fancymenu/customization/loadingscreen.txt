@@ -1,0 +1,61 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 140
+  width = 360
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = d7d60f74-0b52-4050-bfd2-8cebde72b4631694556005796
+  y = 135
+  height = 90
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = f415cfc4-6fdd-42ac-b38e-a48bd778aa5a1694556005796
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 140
+  width = 360
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 56ad0699-3ab5-4e27-b5ff-e729b5aa5f2d1694556005796
+  y = 294
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  name = iphone
+  x = 259
+  width = 112
+  actionid = 5ad1595f-a348-4767-9c3f-50ec9a4b24311694556012668
+  action = addslideshow
+  y = 11
+  height = 118
+}
+

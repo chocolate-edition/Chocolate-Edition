@@ -1,0 +1,1 @@
+craftingTable.addShapeless("windcaller_chestplate",<item:dungeons_mobs:windcaller_chestplate>,[<item:minecraft:amethyst_shard>,<item:dungeons_mobs:windcaller_helmet>.anyDamage(),<item:nourished_nether:necronium_ingot>]);

@@ -1,0 +1,1 @@
+<blockstate:javd:portal_block>.destroySpeed = -1;

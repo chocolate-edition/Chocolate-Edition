@@ -1,0 +1,308 @@
+{
+	id: "2C55E6433389EF4F"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:thorns"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:bane_of_arthropods"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:knockback"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fire_aspect"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:power"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:punch"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:luck_of_the_sea"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:lure"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:loyalty"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:impaling"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:riptide"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:piercing"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+	]
+	title: "Tomes"
+}

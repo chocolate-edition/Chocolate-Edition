@@ -1,0 +1,13 @@
+
+#Server configuration settings
+[server]
+	#The minimum follow range for hostile mobs
+	#Only overridden if the original mob's follow range was lower
+	#Default value: 32. Vanilla behaviour: 16
+	#Range: 0.0 ~ 2048.0
+	minHostileFollowRange = 32.0
+	#A list of follow range overrides. Entry format: "mod:entity_id,range"
+	#Example: ["minecraft:creeper,32","minecraft:zombie,16"]
+	#Default value: []
+	mobFollowRangeOverrides = ["mutantmonsters:mutant_skeleton,96","mutantmonsters:mutant_zombie,96","mutantmonsters:mutant_creeper,96","mutantmonsters:mutant_enderman,96","mutantmore:mutant_blaze,96","mutantmore:mutant_shulker,96","mutantmore:mutant_wither_skeleton,96","predators:prisnautilus,96","predators:rock_boss,96","predators:scarab,96","predators:huntsman,96"," meetyourfight:swampjaw,96"," meetyourfight:bellringer,96"," meetyourfight:dame_fortuna,96"," meetyourfight:rosalyne,96"," queen_bee:queen_bee,96"," born_in_chaos_v1:sir_pumpkinhead,96"," alexsmobs:warped_mosco,96", "cataclysm:ignis,96", "cataclysm:netherite_monstrosity,96", "cataclysm:the_leviathan,96", "cataclysm:the_harbinger,96", "graveyard:lich,96", "iter_rpg:insatiable,96", "iter_rpg:sorrowsealed,96", "cataclysm:ender_guardian,96", "cataclysm:ender_golem,96", "cataclysm:ignited_revenant,96", "iter_rpg:hobgoblin,96", "blue_skies:arachnarch,96", "blue_skies:starlit_crusher,96", "blue_skies:summoner,96","blue_skies:alchemist,96", "illageandspillage:freakager,96","illageandspillage:magispeller,96","illageandspillage:spiritcaller,96","minecraft:wither,96","minecraft:warden,96","minecraft:elder_guardian,96"]
+

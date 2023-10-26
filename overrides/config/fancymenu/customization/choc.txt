@@ -1,0 +1,336 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = true
+  custom_menu_title = Minecraft Chocolate Edition
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = choc
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-left
+  x = 2
+  action = movebutton
+  y = -8
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  width = 196
+  action = resizebutton
+  height = 7
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 14
+  action = movebutton
+  y = 135
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 196
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = top-left
+  x = 185
+  action = movebutton
+  y = 166
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 48
+  action = movebutton
+  y = 225
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 128
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 14
+  action = movebutton
+  y = 107
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 196
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = top-left
+  x = 261
+  action = movebutton
+  y = 178
+}
+
+customization {
+  identifier = %id=604346%
+  orientation = top-left
+  x = 19
+  action = movebutton
+  y = 197
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = top-left
+  x = 185
+  action = movebutton
+  y = 225
+}
+
+customization {
+  identifier = %id=628382%
+  orientation = top-left
+  x = 19
+  action = movebutton
+  y = 225
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 48
+  action = movebutton
+  y = 166
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 128
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 20
+  action = movebutton
+  y = 165
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-left
+  x = 48
+  action = movebutton
+  y = 196
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 128
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=3763461%
+  orientation = top-left
+  x = 185
+  action = movebutton
+  y = 196
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = top-left
+  x = 565
+  action = movebutton
+  y = 45
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 3cf75797-7bf8-4ea9-bcff-4789bb8710651694547184995
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 122
+  action = deep_customization_element:title_screen_branding
+  actionid = 3a3f3198-0237-49c2-ad1e-8b0d604da6b61694547185003
+  y = 308
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 02e118c4-9ffc-46ce-b737-e22141726d681694547185003
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = cd23f91a-fa5f-48ff-b9b2-3618442d11e81694547185003
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = e69f924b-aec5-4e4d-8373-1c80120082561694547185003
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-left
+  splash_color = #ffff00
+  hidden = false
+  x = 217
+  width = 60
+  splash_rotation = -10
+  action = deep_customization_element:title_screen_splash
+  actionid = 57b975c7-d0f8-4de8-8b05-2f1db89939ad1694547185003
+  y = 116
+  height = 30
+}
+
+customization {
+  path = config/fancymenu/customguis/logo2.png
+  orientation = top-left
+  x = -8
+  width = 270
+  action = addtexture
+  actionid = 89ed5beb-aee2-413e-936a-b998ab5994ff1694552698788
+  y = 9
+  height = 99
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/ejrrmHXFUX%btnaction_splitter_fm%
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = Discord
+  x = 53
+  width = 20
+  action = addbutton
+  actionid = 4bffd2f7-f7e8-4ce0-9a15-25df49bad3961694564652215
+  y = 259
+  backgroundnormal = config/fancymenu/customguis/dicsord.png
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://legacy.curseforge.com/members/richestprune/projects%btnaction_splitter_fm%
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = Projects
+  x = 85
+  width = 20
+  action = addbutton
+  actionid = 50883c98-7c74-49d6-bb38-2ab3879312f11694567111319
+  y = 258
+  backgroundnormal = config/fancymenu/customguis/cf.png
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.youtube.com/@PoorPrune/featured%btnaction_splitter_fm%
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = Channel
+  x = 151
+  width = 20
+  action = addbutton
+  actionid = 06574b77-468d-4d53-a1e3-83e1d5e4f6d11694581482486
+  y = 259
+  backgroundnormal = config/fancymenu/customguis/yutub.png
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/RichPrune%btnaction_splitter_fm%
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = Issues
+  x = 118
+  width = 20
+  action = addbutton
+  actionid = 0eab0573-3030-4e73-9073-c2094914a14e1694581484545
+  y = 258
+  backgroundnormal = config/fancymenu/customguis/ghu.png
+  height = 20
+}
+
+customization {
+  identifier = %id=604322%
+  orientation = top-left
+  x = 608
+  action = movebutton
+  y = 16
+}
+

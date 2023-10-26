@@ -1,0 +1,64 @@
+
+[general]
+	#Enable/Disable ReplayMod Support
+	enabled = true
+	#Internal Version Number. NO TOUCHY!
+	version = 1
+
+#The Replay Browser Event
+[replay_viewer]
+	#Enable/Disable the ReplayMod Replay Viewer Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Browsing Replays"
+	#The second line of text under the app name
+	state = "%player% is browsing the library"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Replay Editor Event
+[replay_editor]
+	#Enable/Disable the ReplayMod Editor Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Editing a video"
+	#The second line of text under the app name
+	state = "%player% is reviewing footage"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Replay Rendering Event
+[replay_render]
+	#Enable/Disable the ReplayMod Rendering Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Exporting a video with %replaytimeleft% left"
+	#The second line of text under the app name
+	state = "Rendering %replayframe%/%replaytotal% frames"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+

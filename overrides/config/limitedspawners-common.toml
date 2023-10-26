@@ -1,0 +1,5 @@
+
+[limitedspawners]
+	#Limit of mobs a spawner can spawn in total
+	limit = 20
+

@@ -1,0 +1,161 @@
+{
+	id: "6D4C439697A42BDB"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:music_disc_5"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "mutantmore:music_disc_hunted"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "mutantmore:music_disc_found"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "mutantmore:music_disc_approach"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "idas:music_disc_slither"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "integrated_stronghold:music_disc_sight"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "integrated_stronghold:music_disc_forlorn"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "alexsmobs:music_disc_daze"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:music_disc_netherite_monstrosity"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:music_disc_ender_guardian"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:music_disc_ignis"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:music_disc_the_harbinger"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:music_disc_the_leviathan"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:music_disc_endermosh"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "unusualend:music_disc_flying_ships"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "unusualend:music_disc_endstone_golem_theme"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enlightened_end:sprog_music_disc"
+			}
+		}
+	]
+	title: "Endgame Discs"
+}

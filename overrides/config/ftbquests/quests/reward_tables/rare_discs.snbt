@@ -1,0 +1,179 @@
+{
+	id: "67E6CB9A4DA2C28E"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "infernalexp:music_disc_soul_spunk"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "infernalexp:music_disc_flush"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "conjurer_illager:music_disc_delve_deeper"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "aquamirae:music_disc_horizon"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "aquamirae:music_disc_forsaken_drownage"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "meetyourfight:music_disc_magnum"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "meetyourfight:music_disc_frogpunch"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "iter_rpg:mournful_abyss_disc"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "born_in_chaos_v1:serpumpkinhead_m"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "born_in_chaos_v1:anluka_doors"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "idas:music_disc_calidum"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:music_disc_pigstep"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:blinding_rage"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:defying_starlight"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:venomous_encounter"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:population"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "alexsmobs:music_disc_thime"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "finsandtails:music_disc_crashing_tides"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "graveyard:incarnated_evil_music_disc"
+			}
+		}
+	]
+	title: "Rare Discs"
+}

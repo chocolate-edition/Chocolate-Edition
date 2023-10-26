@@ -1,0 +1,55 @@
+
+<ruleset>
+	<rule stacksize="16">
+		<or>
+
+			<condition>id = minecraft:enchanted_book</condition>
+			<condition>id = minecraft:potion</condition>
+			<condition>id = minecraft:splash_potion</condition>
+			<condition>id = minecraft:lingering_potion</condition>
+		</or>
+
+	</rule>
+	<rule stacksize="256">
+		<condition>is_block true</condition>
+		<condition>is_food false</condition>
+		<condition>id != minecraft:cake</condition>
+		<condition>id != brewinandchewin:scarlet_cheese_wheel</condition>
+		<condition>id != brewinandchewin:unripe_scarlet_cheese_wheel</condition>
+		<condition>id != brewinandchewin:flaxen_cheese_wheel</condition>
+		<condition>id != brewinandchewin:unripe_flaxen_cheese_wheel</condition>
+		<condition>id != brewinandchewin:quiche</condition>
+		<condition>id != brewinandchewin:fiery_fondue_pot</condition>
+		<condition>id != brewinandchewin:pizza</condition>
+		<condition>id != farmersrespite:coffee_cake</condition>
+		<condition>id != farmersrespite:rose_hip_pie</condition>
+		<condition>id != delightful:salmonberry_pie</condition>
+		<condition>id != farmersdelight:rice_roll_medley_block</condition>
+		<condition>id != farmersdelight:rice</condition>
+		<condition>id != netherdepthsupgrade:nether_rice_roll_medley_block</condition>
+		<condition>id != farmersdelight:shepherds_pie_block</condition>
+		<condition>id != farmersdelight:honey_glazed_ham_block</condition>
+		<condition>id != farmersdelight:stuffed_pumpkin_block</condition>
+		<condition>id != farmersdelight:roast_chicken_block</condition>
+		<condition>id != farmersdelight:sweet_berry_cheesecake</condition>
+		<condition>id != farmersdelight:apple_pie</condition>
+		<condition>id != blue_skies:cherry_pie</condition>
+		<condition>id != farmersdelight:chocolate_pie</condition>
+		<condition>id != autumnity:pancake</condition>
+		<condition>id != supplementaries:pancake</condition>
+		<condition>id != enigmaticlegacy:cosmic_cake</condition>
+
+	</rule>
+	<rule stacksize="64">
+		<or>
+			<condition>stacksize gt 1</condition>
+			<condition>id = finsandtails:seafood_soup</condition>
+			<condition>id = autumnity:foul_soup</condition>
+			<condition>id = nourished_nether:nether_fungus_stew</condition>
+			<condition>id = enlightened_end:chorus_soup</condition>
+			<condition>id = infernalexp:blindsight_tongue_stew</condition>
+			<condition>id = ecologics:tropical_stew</condition>
+		</or>
+
+	</rule>
+</ruleset>

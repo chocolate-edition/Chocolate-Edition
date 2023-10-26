@@ -1,0 +1,1 @@
+craftingTable.addShapeless("witch_pupil",<item:endrem:witch_pupil>, [<item:minecraft:spider_eye>,<item:minecraft:gunpowder>,<item:minecraft:gunpowder>,<item:minecraft:sugar>,<item:minecraft:sugar>,<item:minecraft:redstone>,<item:minecraft:redstone>,<item:minecraft:glowstone_dust>,<item:minecraft:glowstone_dust>]);

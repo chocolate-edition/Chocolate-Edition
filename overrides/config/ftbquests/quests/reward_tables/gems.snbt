@@ -1,0 +1,48 @@
+{
+	id: "6B548B89D65BC62B"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "epicsamurai:ruby"
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "epicsamurai:jade"
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "epicsamurai:aquamarine"
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "epicsamurai:onyx"
+			}
+		}
+	]
+	title: "Gems"
+}

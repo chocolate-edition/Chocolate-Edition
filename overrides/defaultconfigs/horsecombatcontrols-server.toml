@@ -1,0 +1,8 @@
+
+#General Settings
+[general]
+	#Lock controls to the combat mode
+	lock_combat_mode = false
+	#Cancel horse random rearing
+	cancel_rand_rearing = true
+

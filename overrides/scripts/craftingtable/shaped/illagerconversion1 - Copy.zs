@@ -1,0 +1,1 @@
+craftingTable.addShapeless("iceologer2_chestplate",<item:dungeons_mobs:iceologer_chestplate>,[<item:minecraft:amethyst_shard>,<item:dungeons_mobs:iceologer_leggings>.anyDamage(),<item:nourished_nether:necronium_ingot>]);

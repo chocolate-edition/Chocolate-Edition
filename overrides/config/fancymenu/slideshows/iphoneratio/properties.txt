@@ -1,0 +1,9 @@
+type = slideshow
+
+slideshow-meta {
+   name = iphone
+   x = 600
+   y = 200
+   duration = 5.0
+   fadespeed = 12.0
+}

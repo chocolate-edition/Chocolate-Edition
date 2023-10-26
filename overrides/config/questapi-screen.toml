@@ -1,0 +1,7 @@
+
+["Screen configuration"]
+	#Which quest tracked design you want to see
+	"Quest Tracked Screen" = "questapi"
+	#Which design you want to see on quest log
+	"Quest Log Screen" = "questapi"
+

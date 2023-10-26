@@ -1,0 +1,21 @@
+{
+	# When enabled, toasts regarding the advancement progression will be disabled.
+	# Default: false
+	disable_advancements_toasts: false
+	
+	# When enabled, toasts regarding the recipe unlocks will be disabled.
+	# Default: false
+	disable_recipe_toasts: false
+	
+	# When enabled, toasts regarding the in-game start tutorial will be disabled.
+	# Default: true
+	disable_tutorial_toasts: true
+	
+	# The seed to use for the world. Only used if world_uses_static_seed is enabled.
+	# Default: ""
+	static_seed: ""
+	
+	# When enabled, the world will always use the same seed, regardless of the world name.
+	# Default: false
+	world_uses_static_seed: false
+}

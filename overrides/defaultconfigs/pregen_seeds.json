@@ -1,0 +1,54 @@
+{
+	"level_seeds": [
+		{
+			"dim": "minecraft:the_end",
+			"seed": 6435961312412371123
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": 6435961312412371123
+		},
+		{
+			"dim": "blue_skies:everbright",
+			"seed": 6435961312412371123
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": 6435961312412371123
+		},
+		{
+			"dim": "blue_skies:everdawn",
+			"seed": 6435961312412371123
+		},
+		{
+			"dim": "witherstormmod:bowels",
+			"seed": 6435961312412371123
+		}
+	],
+	"structure_seeds": [
+		{
+			"dim": "minecraft:the_end",
+			"seed": 6435961312412371123
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": 6435961312412371123
+		},
+		{
+			"dim": "blue_skies:everbright",
+			"seed": 6435961312412371123
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": 6435961312412371123
+		},
+		{
+			"dim": "blue_skies:everdawn",
+			"seed": 6435961312412371123
+		},
+		{
+			"dim": "witherstormmod:bowels",
+			"seed": 6435961312412371123
+		}
+	]
+}

@@ -1,0 +1,2 @@
+
+craftingTable.addShaped("warpstone",<item:waystones:warp_stone>,[[<item:minecraft:air>,<item:minecraft:diamond>,<item:minecraft:air>],[<item:minecraft:emerald>,<item:minecraft:ender_pearl>,<item:minecraft:redstone>],[<item:minecraft:air>,<item:minecraft:lapis_lazuli>,<item:minecraft:air>]]);

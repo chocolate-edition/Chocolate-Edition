@@ -1,0 +1,74 @@
+#Whether these limitations will be imposed to players
+limitations_imposed = true
+
+["Action Permissions"]
+	permit_BreakfallReady = false
+	permit_CatLeap = false
+	permit_ClimbUp = true
+	permit_ClingToCliff = true
+	permit_Crawl = true
+	permit_Dive = false
+	permit_Dodge = false
+	permit_FastRun = true
+	permit_Flipping = false
+	permit_HangDown = false
+	permit_HorizontalWallRun = false
+	permit_JumpFromBar = false
+	permit_QuickTurn = false
+	permit_Roll = false
+	permit_Slide = false
+	permit_Tap = false
+	permit_Vault = true
+	permit_WallJump = false
+	permit_WallSlide = false
+
+[Stamina]
+	#Limitation of max stamina
+	#Range: 300 ~ 100000
+	max_value_of_stamina = 2000
+	#Limitation of max stamina recovery
+	#Range: 1 ~ 10000
+	max_value_of_stamina_recovery = 100
+	#Allow Infinite Stamina
+	infinite_stamina = true
+
+	[Stamina."Least Consumption"]
+		#Range: 0 ~ 10000
+		stamina_consumption_of_BreakfallReady = 0
+		#Range: 0 ~ 10000
+		stamina_consumption_of_CatLeap = 150
+		#Range: 0 ~ 10000
+		stamina_consumption_of_ClimbUp = 150
+		#Range: 0 ~ 10000
+		stamina_consumption_of_ClingToCliff = 2
+		#Range: 0 ~ 10000
+		stamina_consumption_of_Crawl = 0
+		#Range: 0 ~ 10000
+		stamina_consumption_of_Dive = 0
+		#Range: 0 ~ 10000
+		stamina_consumption_of_Dodge = 80
+		#Range: 0 ~ 10000
+		stamina_consumption_of_FastRun = 3
+		#Range: 0 ~ 10000
+		stamina_consumption_of_Flipping = 80
+		#Range: 0 ~ 10000
+		stamina_consumption_of_HangDown = 3
+		#Range: 0 ~ 10000
+		stamina_consumption_of_HorizontalWallRun = 2
+		#Range: 0 ~ 10000
+		stamina_consumption_of_JumpFromBar = 100
+		#Range: 0 ~ 10000
+		stamina_consumption_of_QuickTurn = 0
+		#Range: 0 ~ 10000
+		stamina_consumption_of_Roll = 100
+		#Range: 0 ~ 10000
+		stamina_consumption_of_Slide = 0
+		#Range: 0 ~ 10000
+		stamina_consumption_of_Tap = 100
+		#Range: 0 ~ 10000
+		stamina_consumption_of_Vault = 50
+		#Range: 0 ~ 10000
+		stamina_consumption_of_WallJump = 120
+		#Range: 0 ~ 10000
+		stamina_consumption_of_WallSlide = 2
+

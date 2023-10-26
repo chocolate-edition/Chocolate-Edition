@@ -1,0 +1,94 @@
+[
+  {
+    "key": "key.ftbchunks.map.custom",
+    "color": "GOLD"
+  },
+  {
+    "key": "key.ftbchunks.add_waypoint.custom",
+    "color": "GOLD"
+  },
+  {
+    "key": "key.ftbquests.quests.custom",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.curios.open.desc.custom",
+    "color": "DARK_GREEN"
+  },
+  {
+    "key": "keybinds.bettercombat.toggle_mine_with_weapons.custom",
+    "color": "DARK_AQUA"
+  },
+  {
+    "key": "toolswap.key.toggle_toolswap_mode.custom",
+    "color": "DARK_AQUA"
+  },
+  {
+    "key": "key.dungeons_libraries.curiosintegration.description_slot1.custom",
+    "color": "DARK_RED"
+  },
+  {
+    "key": "key.dungeons_libraries.curiosintegration.description_slot2.custom",
+    "color": "DARK_RED"
+  },
+  {
+    "key": "key.dungeons_libraries.curiosintegration.description_slot3.custom",
+    "color": "DARK_RED"
+  },
+  {
+    "key": "key.spellstoneAbility.custom",
+    "color": "DARK_RED"
+  },
+  {
+    "key": "key.callhorse.desc.custom",
+    "color": "DARK_PURPLE"
+  },
+  {
+    "key": "key.sethorse.desc.custom",
+    "color": "DARK_PURPLE"
+  },
+  {
+    "key": "key.dragonmounts.flight_descent.custom",
+    "color": "DARK_PURPLE"
+  },
+  {
+    "key": "key.playerlist",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.firstperson.toggle.custom",
+    "color": "GRAY"
+  },
+  {
+    "key": "key.enderRing.custom",
+    "color": "RED"
+  },
+  {
+    "key": "create.keyinfo.toolbelt.custom",
+    "color": "RED"
+  },
+  {
+    "key": "key.toms_storage.open_terminal.custom",
+    "color": "RED"
+  },
+  {
+    "key": "tetra.toolbelt.binding.access.custom",
+    "color": "RED"
+  },
+  {
+    "key": "tetra.toolbelt.binding.open.custom",
+    "color": "RED"
+  },
+  {
+    "key": "tetra.toolbelt.binding.restock.custom",
+    "color": "RED"
+  },
+  {
+    "key": "key.fullscreen",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.personality.sit.custom",
+    "color": "YELLOW"
+  }
+]

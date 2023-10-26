@@ -1,0 +1,18 @@
+{
+	// If right-clicking beds in the air should enable the quick feature.
+	"enableQuickBeds": true,
+	// If right-clicking cartography tables in the air should enable the quick feature.
+	"enableQuickCartographyTables": true,
+	// If right-clicking crafting tables in the air should enable the quick feature.
+	"enableQuickCraftingTables": true,
+	// If right-clicking ender chests in the air should enable the quick feature.
+	"enableQuickEnderChests": true,
+	// If right-clicking grindstones in the air should enable the quick feature.
+	"enableQuickGrindstones": true,
+	// If right-clicking shulker boxes in the air should enable the quick feature.
+	"enableQuickShulkerBoxes": true,
+	// If right-clicking smithing tables in the air should enable the quick feature.
+	"enableQuickSmithingTables": true,
+	// If right-clicking stonecutters in the air should enable the quick feature.
+	"enableQuickStonecutters": true
+}

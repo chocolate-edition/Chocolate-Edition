@@ -1,0 +1,16 @@
+
+[execute_command]
+	#Permission level used. 2 is enough for everything except server and debug commands.
+	#Range: 0 ~ 4
+	permission_level = 2
+	#If true, this sends the command results in chat. Shouldn't be used during actual gameplay
+	show_output = false
+
+[prevent_usage]
+	#Whether to enforce food restrictions or not
+	enforce_food_restrictions = true
+
+[modify_player_spawn]
+	#Whether finding a spawn for Modify Player Spawn should happen on a separate thread or not
+	separate_finding_thread = true
+

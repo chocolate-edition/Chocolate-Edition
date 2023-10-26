@@ -1,0 +1,12 @@
+
+["Fishing Dangers Config"]
+	#Danger spawn chance, default:0.1
+	"Danger spawn chance" = 0.2
+	#Dangers list. Example: ["minecraft:tnt","minecraft:drowned","minecraft:fireball","minecraft:anvil","minecraft:player", "minecraft:lightning"]
+	"Dangers List" = ["minecraft:pufferfish", "minecraft:drowned", "minecraft:guardian", "minecraft:elder_guardian", "aquamirae:anglerfish", "creeperoverhaul:ocean_creeper", "cataclysm:deepling", "upgrade_aquatic:thrasher", "rottencreatures:immortal", "rottencreatures:dead_beard", "cataclysm:deepling_angler", "cataclysm:deepling_brute", "cataclysm:coralssus", "cataclysm:deepling_priest"]
+	#Chance of each entity in Dangers list, match with Dangers list order 
+	#First number will be the spawn chance of the first entity in danger list 
+	#Total chance should be between 0 and 1. 
+	#Example: [0.5,0.3,0.15,0.05]
+	"Chance List" = [0.05, 0.1, 0.05, 0.01, 0.05, 0.05, 0.05, 0.05, 0.03, 0.05, 0.03, 0.05, 0.03, 0.05]
+

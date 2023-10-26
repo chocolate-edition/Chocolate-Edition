@@ -1,0 +1,538 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "the_final_chapter"
+	group: "7C84C11C55BE6D87"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "witherstormmod:item/command_block_book"
+		}
+	}
+	id: "748D039F0F054584"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "chocolate:textures/87.png"
+			order: 3
+			rotation: 0.0d
+			width: 18.7683284457478d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "chocolate:textures/77.png"
+			order: 3
+			rotation: 21.0d
+			width: 6.0d
+			x: 2.4d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "chocolate:textures/86.png"
+			order: 3
+			rotation: 21.0d
+			width: 8.752136752136753d
+			x: -4.901196581196582d
+			y: 9.452307692307693d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "malum:textures/gui/book/pages/crafting_page.png"
+			order: 3
+			rotation: -20.0d
+			width: 15.0d
+			x: 19.8d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "aether:textures/gui/menu/lore_book.png"
+			rotation: 20.0d
+			width: 20.0d
+			x: -2.4d
+			y: 16.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "chocolate:textures/42.png"
+			order: 3
+			rotation: -10.0d
+			width: 2.5d
+			x: 17.4d
+			y: -0.1d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "minecraft:textures/map/map_background.png"
+			rotation: -10.0d
+			width: 3.5d
+			x: 17.4d
+			y: -0.2d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "chocolate:textures/73.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 6.6d
+			y: 3.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"08DB361144003BDE"
+				"5F3F3F6DCBA94A9A"
+				"79CF3A07DD3F2943"
+				"1FF146E87C182DB5"
+				"6C25A0462994DDCC"
+				"5814782FCC7C13A8"
+				"39C3CC09EB7DD7A7"
+				"013219DDB4A2D820"
+				"5D51C23DB0D0DF94"
+				"71EC88C426B29736"
+				"0E2BD307EC9FDCE2"
+				"79E89D7E6EEDB01E"
+				"08ABB9CD687B8134"
+				"32F23E04C1AFA302"
+				"53D0FA1AA4F83273"
+				"661A9113A7A863B0"
+			]
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "witherstormmod:item/withered_nether_star"
+				}
+			}
+			id: "77962090906709F2"
+			size: 2.0d
+			tasks: [{
+				id: "60757D593647E82B"
+				title: "Click here."
+				type: "checkmark"
+			}]
+			x: 7.44d
+			y: 1.28d
+		}
+		{
+			dependencies: ["77962090906709F2"]
+			hide: true
+			id: "65BA6771D256335D"
+			subtitle: "Craft a dimensional carver from the void worm eye you acquired."
+			tasks: [{
+				id: "542BE45855AEC31C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "And so it begins..."
+			x: 8.8d
+			y: -0.24d
+		}
+		{
+			dependencies: ["65BA6771D256335D"]
+			hide: true
+			id: "17ED8E2DC717DCA1"
+			subtitle: "Shatter the dimensional carver and break the 3rd dimension to travel 1 million blocks in the direction you are facing."
+			tasks: [{
+				id: "1E8983D326A84469"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:shattered_dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.44d
+			y: -0.84d
+		}
+		{
+			dependencies: ["17ED8E2DC717DCA1"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:bricks"
+			}
+			id: "250FB1316F1A61A3"
+			subtitle: "Floating in the sky at either (x=1million,z=0),(x=-1million,z=0),(x=0,z=1million), or (x=0,z=-1million); you will find a house. Look inside, and on top..."
+			tasks: [{
+				id: "41E49D7F46A25C29"
+				title: "Where it all began"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["250FB1316F1A61A3"]
+			icon: "minecraft:command_block"
+			id: "18D13DCDDA5080A0"
+			subtitle: "Start the calamity. DO NOT go home at this time, or you will just lead the destruction to the things you hold dear..."
+			tasks: [{
+				id: "522783397B364FB3"
+				title: "Summon Entity"
+				type: "checkmark"
+			}]
+			x: 17.92d
+			y: 9.52d
+		}
+		{
+			dependencies: ["32674F4787FE06D1"]
+			id: "19C23ACB2FF5781A"
+			subtitle: "From Suspicious Stew, a Diamond, Golden Apple, and Wither Rose to cure wither sickness."
+			tasks: [
+				{
+					id: "5C0993C173B48567"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "witherstormmod:golden_apple_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "3C5CE817E52EB40A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "110A0703A6265D78"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:wither_rose"
+					}
+					type: "item"
+				}
+				{
+					id: "2592FBF51457091D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:suspicious_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "22A618B99894885B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a golden apple stew "
+			x: 5.64d
+			y: 1.52d
+		}
+		{
+			dependencies: ["1E48FE8883774588"]
+			id: "479C411320E3B21C"
+			subtitle: "Use a Enchanted Command block Book to craft Super Tnt by surrounding it with 4 tnt and 4 gunpowder."
+			tasks: [{
+				id: "1AB3CD7EC40AE921"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "witherstormmod:super_tnt"
+				}
+				type: "item"
+			}]
+			x: 4.08d
+			y: 0.6d
+		}
+		{
+			dependencies: ["19C23ACB2FF5781A"]
+			id: "1E48FE8883774588"
+			tasks: [{
+				id: "1AFC93AD66F74EAA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "witherstormmod:command_block_book"
+				}
+				type: "item"
+			}]
+			title: "Get a Enchanted Command Block Book from a Withered Symbiont."
+			x: 5.56d
+			y: 0.28d
+		}
+		{
+			dependencies: ["479C411320E3B21C"]
+			id: "56A747BED0373E4C"
+			subtitle: "Surround a Super Tnt with 4 blaze and 4 more gunpowder to craft a Formidibomb. Then, place and light it, and wait for the Wither Storm to suck it up into it's gullet."
+			tasks: [{
+				id: "71C11CC4FF050FDA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "witherstormmod:formidibomb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.84d
+			y: 8.76d
+		}
+		{
+			dependencies: ["18D13DCDDA5080A0"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "artifacts:item/running_shoes"
+				}
+			}
+			id: "32674F4787FE06D1"
+			subtitle: "Shoot the Wither Storm's Eyes to stop it's beams temporarily."
+			tasks: [{
+				id: "02B55E0D3D59DE2F"
+				title: "run"
+				type: "checkmark"
+			}]
+			x: 6.44d
+			y: 2.84d
+		}
+		{
+			dependencies: ["6BC57B376D59322D"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enlightened_end:items/final_sword"
+				}
+			}
+			id: "29B6754E6DDFEF8E"
+			rewards: [
+				{
+					id: "135597C60A0591E3"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					id: "0A0189EDA49FDC09"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "celestisynth:celestial_crafting_table"
+					}
+					type: "item"
+				}
+				{
+					id: "4DD45FAE56B055A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "celestisynth:celestial_core"
+					}
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "End this."
+			tasks: [
+				{
+					id: "765184396BD665F3"
+					title: "Fight"
+					type: "checkmark"
+				}
+				{
+					id: "20D50336FB412789"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "witherstormmod:withered_nether_star"
+					}
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["56A747BED0373E4C"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:command_block"
+			}
+			id: "62EEBCFD21A4CC45"
+			subtitle: "Go to kill the command block at it's heart..."
+			tasks: [{
+				id: "790213959F96904D"
+				title: "Go to kill the command block at it's heart..."
+				type: "checkmark"
+			}]
+			title: "Is that it?"
+			x: 1.25d
+			y: 14.75d
+		}
+		{
+			dependencies: ["62EEBCFD21A4CC45"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "witherstormmod:withered_flesh"
+			}
+			id: "6C114F2F338CC7DF"
+			subtitle: "Launch it into the opening made by the formidibomb."
+			tasks: [
+				{
+					id: "2A4F41067FBAD08F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "386E40392A568E3D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+							"dungeons_libraries:ranged_abilities": {
+								dynamicChargeTime: 0.0f
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BFFB52E72B2A685"
+					title: "Shoot into it's Bowels."
+					type: "checkmark"
+				}
+			]
+			title: "Hold an Ender pearl in one hand and a Crossbow in the other"
+			x: 4.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["6C114F2F338CC7DF"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "unusualend:wither_orb"
+			}
+			id: "6BC57B376D59322D"
+			subtitle: "Enter the Bowels."
+			tasks: [
+				{
+					id: "39AEF5C1E53157C0"
+					title: "Where am I?"
+					type: "checkmark"
+				}
+				{
+					dimension: "witherstormmod:bowels"
+					id: "5D2539E52E4FC337"
+					type: "dimension"
+				}
+			]
+			x: 6.5d
+			y: 5.5d
+		}
+	]
+	title: "The Final Chapter?"
+}

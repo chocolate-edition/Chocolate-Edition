@@ -1,0 +1,9 @@
+
+#General settings for the mod.
+[general]
+	#Should neutral mobs like pigs not be affected?
+	ignoreNeutralMobs = false
+	#The range to notify other mobs.
+	#Range: 0.0 ~ 512.0
+	range = 8.0
+

@@ -1,0 +1,1 @@
+craftingTable.addShapeless("geomancer_helmet",<item:dungeons_mobs:geomancer_helmet>,[<item:minecraft:amethyst_shard>,<item:dungeons_mobs:geomancer_chestplate>.anyDamage(),<item:nourished_nether:necronium_ingot>]);

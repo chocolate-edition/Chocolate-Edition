@@ -1,0 +1,1 @@
+craftingTable.addShaped("ender_chest",<item:minecraft:ender_chest>,[[<item:minecraft:obsidian>,<item:iter_rpg:ametrine_shard>,<item:minecraft:obsidian>],[<item:iter_rpg:ametrine_shard>,<item:minecraft:ender_eye>,<item:iter_rpg:ametrine_shard>],[<item:minecraft:obsidian>,<item:iter_rpg:ametrine_shard>,<item:minecraft:obsidian>]]);

@@ -1,0 +1,1 @@
+craftingTable.addShaped("undead_soul",<item:endrem:undead_soul>, [[<item:nourished_nether:ectoplasm>,<item:alexsmobs:ghostly_pickaxe>.reuse().anyDamage(),<item:nourished_nether:ectoplasm>],[<item:alexsmobs:skreecher_soul>,<item:infernalexp:spirit_eye>,<item:quark:soul_bead>],[<item:nourished_nether:ectoplasm>,<item:quark:ancient_fruit>,<item:nourished_nether:ectoplasm>]]);

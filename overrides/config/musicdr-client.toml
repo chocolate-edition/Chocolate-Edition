@@ -1,0 +1,34 @@
+
+[music]
+	#Music Duration Reducer Config
+	#Minimum delay for next song to play
+	#Range: 0.0 ~ 1.7976931348623157E308
+	mindelay = 0.0
+	#Maximum delay for next song to play
+	#Range: 0.0 ~ 1.7976931348623157E308
+	maxdelay = 30.0
+	#Divide delays of length instead?
+	divide = false
+	#Division delay amount
+	#Range: 0.0 ~ 1.7976931348623157E308
+	division = 2.0
+
+	[music.experimental]
+		#Music Duration Reducer Experimental Config
+		#Change pitch/key randomly each time a song starts
+		distortPitch = false
+		#Chooses pitches in a bell curve
+		bellDistribution = true
+		#Reciprocal of Standard Deviation for Bell Distrobution
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		bellStandardDeviationReciprocal = 2.0
+		#The chance for a song to change pitch/key
+		#Range: 0.0 ~ 1.0
+		chanceToPitchChange = 0.3
+		#Minimum key change, Set lower for slower/lower music.
+		#Range: -12.0 ~ 12.0
+		minNoteChange = -12.0
+		#Maximum key change, Set higher for faster/higher music.
+		#Range: -12.0 ~ 12.0
+		maxNoteChange = 12.0
+

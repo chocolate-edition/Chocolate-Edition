@@ -1,0 +1,5 @@
+{
+	# When enabled, players will be able to use beds in the nether.
+	# Default: false
+	allow_beds_in_the_nether: false
+}

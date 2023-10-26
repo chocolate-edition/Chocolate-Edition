@@ -1,0 +1,6 @@
+#The Y value in which void fog takes effect. (Min World Height + Y Value)
+#Range: > 0
+y = 64
+#Enable the effect everywhere in the mod Voidscape's main Dimension.
+voidscape = true
+

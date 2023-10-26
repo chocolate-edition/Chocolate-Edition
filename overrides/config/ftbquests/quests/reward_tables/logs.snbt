@@ -1,0 +1,298 @@
+{
+	id: "28C4D52FC72C104F"
+	loot_size: 1000
+	order_index: 0
+	rewards: [
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:oak_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:spruce_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:birch_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:jungle_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:acacia_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:dark_oak_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:mangrove_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "environmental:willow_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "environmental:cherry_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "environmental:wisteria_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "upgrade_aquatic:driftwood_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "upgrade_aquatic:river_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "autumnity:maple_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:blossom_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:azalea_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "ecologics:coconut_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "ecologics:walnut_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "ecologics:flowering_azalea_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:bluebright_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:starlit_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:frostbright_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:lunar_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:dusk_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:maple_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:crystallized_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:cherry_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "born_in_chaos_v1:smoldering_scorched_log"
+			}
+		}
+		{
+			count: 1000
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "born_in_chaos_v1:scorched_log"
+			}
+		}
+	]
+	title: "Logs"
+}

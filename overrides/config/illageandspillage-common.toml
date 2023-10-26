@@ -1,0 +1,157 @@
+
+["Raid settings"]
+	#How many Igniters each wave
+	#Requires game restart
+	#Must have no more and no less than 8 integers
+	igniter_raidcount = [0, 0, 1, 2, 0, 2, 1, 4]
+	#How many Twittollagers each wave
+	#Requires game restart
+	#Must have no more and no less than 8 integers
+	twittollager_raidcount = [0, 0, 0, 0, 1, 0, 2, 1]
+	#How many Crocofangs each wave
+	#Requires game restart
+	#Must have no more and no less than 8 integers
+	crocofang_raidcount = [0, 0, 1, 0, 1, 2, 1, 3]
+	#How many Absorbers each wave
+	#Requires game restart
+	#Must have no more and no less than 8 integers
+	absorber_raidcount = [0, 0, 0, 0, 1, 0, 0, 2]
+	#How many Preservers each wave
+	#Requires game restart
+	#Must have no more and no less than 8 integers
+	preserver_raidcount = [0, 0, 0, 1, 2, 0, 3, 4]
+	#How many Magispellers each wave
+	#Requires game restart
+	#Must have no more and no less than 8 integers
+	magispeller_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+	#Controls if Magispeller should despawn if it spawns in the 7th wave before the bonus wave.
+	#Overrides magispeller_raidcount
+	#Default = true
+	magispeller_onlyOneAllowed = true
+	#Should the Magispeller only be allowed to fight once all other raiders in the wave are killed?
+	#Default = true
+	magispeller_forcefield = true
+	#How many Spiritcallers each wave
+	#Requires game restart
+	#Must have no more and no less than 8 integers
+	spiritcaller_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+	#Controls if Spiritcaller should despawn if it spawns in the 7th wave before the bonus wave.
+	#Overrides spiritcaller_raidcount
+	#Default = true
+	spiritcaller_onlyOneAllowed = true
+	#Should the Spiritcaller only be allowed to fight once all other raiders in the wave are killed?
+	#Default = true
+	spiritcaller_forcefield = true
+	#How many Freakagers each wave
+	#Requires game restart
+	#Must have no more and no less than 8 integers
+	freakager_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+	#Controls if Freakager should despawn if it spawns in the 7th wave before the bonus wave.
+	#Overrides freakager_raidcount
+	#Default = true
+	freakager_onlyOneAllowed = true
+	#Should the Freakager only be allowed to fight once all other raiders in the wave are killed?
+	#Default = true
+	freakager_forcefield = true
+
+	["Raid settings"."Boss Randomizer settings"]
+		#How many Boss Randomizers each wave
+		#Requires game restart
+		#Must have no more and no less than 8 integers
+		#Note that Boss Randomizers on the final Raid wave will be considered the 'Final Boss'
+		bossrandomizer_raidcount = [0, 0, 0, 0, 1, 0, 0, 1]
+		#Mobs put in this list will be randomly selected by the Boss Randomizer.
+		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
+		#You can use the /summon command to scroll through and find the IDs for mobs you want!
+		#Invalid entity registry names will spawn the boss randomizer itself as an illager. Same goes for if this list is empty
+		#Only entities extending the Abstract Raider class will actually join the Raid upon spawning
+		#Requires game restart
+		bossrandomizer_bosstypes = ["illageandspillage:spiritcaller", "illageandspillage:freakager"]
+		#Mobs put in this list will be randomly selected by the Final Boss Randomizer. Only insanely powerful mobs like the Magispeller should go here
+		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
+		#You can use the /summon command to scroll through and find the IDs for mobs you want!
+		#Invalid entity registry names will spawn the boss randomizer itself as an illager. Same goes for if this list is empty
+		#Only entities extending the Abstract Raider class will actually join the Raid upon spawning
+		#Requires game restart
+		bossrandomizer_finalbosstypes = ["illageandspillage:magispeller"]
+		#Controls if the Boss Randomizer should despawn if it spawns in the 7th wave before the bonus wave.
+		#Overrides bossrandomizer_raidcount
+		#Default = true
+		bossrandomizer_onlyOneAllowed = true
+		#Should Boss Randomizer be allowed to spawn special bosses depending on the calendar date?
+		#Default = true
+		bossrandomizer_seasonalBosses = true
+		#Should Boss Randomizer broadcast the spawning of a boss with a sound?
+		#Default = true
+		bossrandomizer_broadcastBossSpawn = true
+
+	["Raid settings"."Spiritcaller settings"]
+		#Mobs put in this list have 'souls' the Spiritcaller can steal.
+		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
+		#You can use the /summon command to scroll through and find the IDs for mobs you want!
+		#Requires game restart
+		spiritcaller_stealableMobs = ["minecraft:villager", "minecraft:wandering_trader", "minecraft:pig", "minecraft:cow", "minecraft:sheep", "minecraft:chicken", "minecraft:cat", "minecraft:zombie", "minecraft:husk", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:enderman"]
+		#Mobs put in this list won't be attacked by mobs attacking the Spiritcaller, when their souls are taken.
+		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
+		#You can use the /summon command to scroll through and find the IDs for mobs you want!
+		#Only actually happens if the mob is in spiritcaller_stealableMobs
+		#Requires game restart
+		spiritcaller_wontAttack = ["minecraft:villager", "minecraft:wandering_trader"]
+
+	["Raid settings"."Misc settings"]
+		#Controls if Igniter should cause block damage with its fireballs.
+		#As of now its fireballs will still use the normal fire block; basically don't set this to true if you care about your world.
+		#Default = false
+		#Note that Igniter's block damage is still affected by the mobGriefing gamerule
+		igniter_canBurnBlocks = false
+		#Mobs put in this list will be randomly chosen to be the mob riding a Crocofang.
+		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
+		#You can use the /summon command to scroll through and find the IDs for mobs you want!
+		#Invalid entity registry names will have the Crocofang being ridden by nothing. Same goes for if this list is empty
+		#Only entities extending the Abstract Raider class will actually join the Raid upon spawning
+		#Requires game restart
+		crocofang_rideableMobs = ["minecraft:pillager", "illageandspillage:igniter", "minecraft:vindicator"]
+		#Blocks the Devastator can't break.
+		#Format must be like 'examplemod:block'. Example: "minecraft:bedrock"
+		#You can use the /setblock command to scroll through and find the IDs for blocks you want!
+		#Invalid registry names will do nothing, so if you notice the Devastator is destroying a block it shouldn't, check this list for errors
+		#Requires game restart
+		devastator_cantBreak = ["minecraft:obsidian", "minecraft:bedrock", "minecraft:command_block", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier"]
+		#Controls if Devastator should leave behind ghost blocks in its destruction
+		#Don't set this to true if you care about your world.
+		#Default = false
+		#Note that Devastator's block damage is still affected by the mobGriefing gamerule
+		devastator_ghostBlocks = false
+		#Time that Ghost Blocks take to repair
+		#Default = 6000 (5 minutes)
+		#Range: > 1
+		ghostblock_repairTime = 6000
+		#The damage mode for Absorber.
+		#On false, Absorber will always take 1 damage from anything. On true, Absorber will take a maximum of 1 damage per hit.
+		#Default = false
+		absorber_damageMode = false
+		#Illagers the Preserver will ignore.
+		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
+		#You can use the /summon command to scroll through and find the IDs for mobs you want!
+		#Requires game restart
+		preserver_cannotProtect = ["illageandspillage:magispeller", "illageandspillage:spiritcaller", "illageandspillage:freakager"]
+		#Determines if Magispeller is allowed to use balloons to break his fall.
+		#Default = true
+		magispeller_balloonAllowed = true
+		#Time in minutes that the Spellbound Book will go into cooldown for.
+		#Default = 60 (1 hour)
+		#Set to 0 to disable cooldown
+		#Range: > 0
+		spellboundbook_rechargeTime = 60
+		#Time in minutes that the Spellbound Book gives Misconduction for.
+		#Default = 40
+		#Range: > 1
+		spellboundbook_effectTime = 40
+		#Determines if Magispeller's death animation should distract other-team mobs. Mainly for Mob Battles.
+		#Default = true
+		magispeller_distractEnemies = true
+		#The amount of attacks Ragno needs to use in a row before stunning.
+		#Default = 4
+		#Range: > 1
+		ragno_attackTimes = 4
+

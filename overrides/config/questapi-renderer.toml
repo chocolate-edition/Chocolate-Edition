@@ -1,0 +1,6 @@
+
+["Renderer configuration"]
+	#How long ! mark takes to update on change entity data.
+	#Lower value = Smoothness + Lager
+	"Quest Mark ! Update Cooldown" = 5
+

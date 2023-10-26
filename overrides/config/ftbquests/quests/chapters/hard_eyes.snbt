@@ -1,0 +1,2252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hard_eyes"
+	group: "1C888CDB8EF0A7FB"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": { }
+		}
+		id: "endrem:nether_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7E7CC1FAB9CCCB3E"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 20.0d
+		hover: [ ]
+		image: "chocolate:textures/74.png"
+		rotation: 0.0d
+		width: 26.6666d
+		x: 31.5d
+		y: 0.25d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"&oEyes DO NOT have to crafted in order shown here&r"
+				"------------------------"
+				"The shape of each quest indicates where that item comes from:"
+				""
+				"Circle: Undefined"
+				"Square: Crafted or Mob drop"
+				"Rounded Square: Mob drop"
+				"Pentagon: Structure loot or found in the world"
+				"Gear: Crafted"
+			]
+			id: "5B4CB0F76C78E90B"
+			subtitle: "COMPLETE AN MEDIUM EYE TO ACCESS THE HARD EYES HERE"
+			tasks: [{
+				id: "58FDFA1E4E6A3DD8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:ender_eye"
+				}
+				type: "item"
+			}]
+			title: "The End?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2243BA6B2363797E"
+				"7F6DE0D493399E44"
+				"5B4CB0F76C78E90B"
+			]
+			dependency_requirement: "one_started"
+			description: ["The Nature's Compass is your best friend when exploring for a certain item, block, mob or structure. Most eyes are tied to a biome, use this compass to save yourself hours of searching."]
+			id: "6E82D41A5D6E3044"
+			size: 2.0d
+			subtitle: "&lUSE IT!&r"
+			tasks: [{
+				id: "6995AD2EA1EA8185"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Your Best Friend"
+			x: 0.0d
+			y: -2.75d
+		}
+		{
+			dependencies: [
+				"3C7BA7C9118807C8"
+				"4C3FCE81433FD862"
+				"6E05D1C8587A1450"
+				"5911F2E35A1BCF6E"
+				"78FA635FF475D3A9"
+				"2BC54D19712E7E19"
+				"48528DB674C9BBD0"
+				"0F399B0FB108E920"
+				"5B4CB0F76C78E90B"
+			]
+			description: ["&4Requires Nether Access&r"]
+			id: "71EC88C426B29736"
+			min_width: 600
+			rewards: [
+				{
+					id: "676945F8A36A3C5C"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					count: 12
+					id: "606A8D63A74CFD55"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4C4BC7D702FBCE97"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4B1945FF9D8C64A6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:blazing_core"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "\"The Eye of Living Hell\""
+			tasks: [{
+				id: "62781CFB35B8EEAE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "0F399B0FB108E920"
+			shape: "gear"
+			subtitle: "- Cindershell Shard: dropped from cindershells, which spawn in nether wastes biomes."
+			tasks: [{
+				id: "14B57E72B0F6F0FD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "cnb:cindershell_shell_shard"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 5.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "78FA635FF475D3A9"
+			shape: "gear"
+			subtitle: "- Crimson Mosquito Larva: Crafted from a maggot(fly, a common bug in every biome drop), and crimson mosquito probuscis which is obtained by killing a crimson mosquito(in the crimson wastes biome) before it can suck your blood."
+			tasks: [{
+				id: "7EF080C11EF58307"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:mosquito_larva"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "48528DB674C9BBD0"
+			shape: "pentagon"
+			subtitle: "- Hone: Gild III: A scroll crafted from two Gild II scrolls which are themselves crafted from 4 Gild I scrolls. You get these scrolls from piglin bartering and nether fortresses."
+			tasks: [{
+				id: "0E7E914E3F562351"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								glyphs: [I;
+									13
+									14
+									14
+									15
+								]
+								intricate: 1
+								key: "hone/gild_3"
+								material: 2
+								ribbon: "deb243"
+								schematics: [
+									"tetra:hone/gild_1"
+									"tetra:hone/gild_2"
+									"tetra:hone/gild_3"
+								]
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 6.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "3C7BA7C9118807C8"
+			shape: "pentagon"
+			subtitle: "- Netherite scrap: Smelted from ancient debris, rarely found in some important structures like bastions but mainly mined from the nether depths."
+			tasks: [{
+				count: 2L
+				id: "1013212FFF7FC96D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:netherite_scrap"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 5.75d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"736B2982E17FB397"
+				"3D00409C843A9902"
+				"12A4F6FBBFFBDB1F"
+				"28641FEA9B69688C"
+				"7DB7CD45F3E298CE"
+				"213877F5900CC9CE"
+				"5DA4FF9594050625"
+			]
+			id: "6E05D1C8587A1450"
+			size: 1.5d
+			subtitle: "- Fiery Fondue Pot: The many demons of hell require a delicious nether pot dish as an offering to give you their eye. "
+			tasks: [{
+				id: "4ED06F203093E39B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "brewinandchewin:fiery_fondue_pot"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 5.0d
+			y: -3.375d
+		}
+		{
+			dependencies: [
+				"13D52E7DEAA9AF41"
+				"1DE478584B4AB9C7"
+				"49643764214E1F1A"
+				"2DE8E8B3ACF8D52B"
+				"7CA78CF54A919FAA"
+				"4A9C0EB46625DA66"
+				"5DA4FF9594050625"
+			]
+			id: "2BC54D19712E7E19"
+			shape: "circle"
+			size: 1.5d
+			subtitle: "- Nether Rice roll medley: The many demons of hell require a delicious nether fish dish as an offering to give you their eye. "
+			tasks: [{
+				id: "3FE2952BC53167DC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:nether_rice_roll_medley_block"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "4C3FCE81433FD862"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "- Mutant Blaze Core: Dropped from mutant blaze, a monster that can be summoned by feeding a blaze Formula y(10% chance to work, brewed with crying obsidian and a harming 1 potion) or Compound Z(100% Chance, brewed with formula Y and a mutant wither skeleton skull/blaze core/mutant shulker shell)."
+			tasks: [{
+				id: "401EB88DB4EC5407"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "mutantmore:mutant_blaze_core"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 3.5999999999999996d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "5911F2E35A1BCF6E"
+			shape: "square"
+			size: 1.2d
+			subtitle: "- Wildfire Crown: A crown crafted from 5 wildfire crown pieces, dropped from Wildfires(knight blazes with shields) in the Nether's Citadel structure that spawns in most biomes."
+			tasks: [{
+				id: "20684E1A91486BB4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "friendsandfoes:wildfire_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 3.5999999999999996d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "43281916E1BFCA95"
+			subtitle: "• Craft a lava fishing rod out of blaze rods, 2 netherite scrap and chains. Fish, slice, craft with rice the following:"
+			tasks: [{
+				id: "2C657B74FFB22A40"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:lava_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"43281916E1BFCA95"
+				"5DA4FF9594050625"
+			]
+			id: "1DE478584B4AB9C7"
+			subtitle: "• Craft a warped kelp roll with rice(grown in shallow water), a carrot, and 3 warped kelp found in lava lakes. Cut it with a knife in a cutting board to get 3 warped slices."
+			tasks: [{
+				count: 3L
+				id: "349A5B526B2AD930"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:warped_kelp_roll_slice"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"43281916E1BFCA95"
+				"5DA4FF9594050625"
+			]
+			id: "13D52E7DEAA9AF41"
+			subtitle: "• Soul suckers in the soul sand valley, soul suckers can be used to craft some lovely boots "
+			tasks: [{
+				id: "1B10BBA55ACE582C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:soulsucker"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"43281916E1BFCA95"
+				"5DA4FF9594050625"
+			]
+			id: "49643764214E1F1A"
+			subtitle: "• Magma cube fish in the basalt deltas "
+			tasks: [{
+				id: "41CC84652FDA3905"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:magmacubefish"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"43281916E1BFCA95"
+				"5DA4FF9594050625"
+			]
+			id: "2DE8E8B3ACF8D52B"
+			subtitle: "• Lava pufferfish in the warped forest, lava pufferfish can be used to brew a new potion"
+			tasks: [{
+				id: "7AE8A9B6D4BD310A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:lava_pufferfish"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"43281916E1BFCA95"
+				"5DA4FF9594050625"
+			]
+			id: "7CA78CF54A919FAA"
+			subtitle: "• Glowdine in the crimson forest"
+			tasks: [{
+				id: "128E9C4A9E9BCB99"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:glowdine"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"43281916E1BFCA95"
+				"5DA4FF9594050625"
+			]
+			id: "4A9C0EB46625DA66"
+			subtitle: "• Searing cod in the nether wastes"
+			tasks: [{
+				id: "1849DC0502D531F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:searing_cod"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3276D2A914468D30"
+				"5DA4FF9594050625"
+			]
+			id: "213877F5900CC9CE"
+			subtitle: "• Cook tomato sauce from 2 tomatoes and a bowl in a cooking pot."
+			tasks: [{
+				id: "7E93B1F1691ABF95"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersdelight:tomato_sauce"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3276D2A914468D30"
+				"5DA4FF9594050625"
+			]
+			id: "7DB7CD45F3E298CE"
+			subtitle: "• Get a common potato most likely from village chests/farms"
+			tasks: [{
+				id: "6FB79C9B98922F8A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potato"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3276D2A914468D30"
+				"5DA4FF9594050625"
+			]
+			id: "28641FEA9B69688C"
+			subtitle: "• Bake bread out of wheat"
+			tasks: [{
+				id: "7FD560F4F731E0AA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3276D2A914468D30"
+				"5DA4FF9594050625"
+			]
+			id: "12A4F6FBBFFBDB1F"
+			subtitle: "• Milk a cow"
+			tasks: [{
+				id: "7F7DB0FB85F3C4EF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersdelight:milk_bottle"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3276D2A914468D30"
+				"5DA4FF9594050625"
+			]
+			id: "736B2982E17FB397"
+			subtitle: "Ham:• Cut a pig or hoglin's leg off with a knife"
+			tasks: [{
+				id: "20D96BFF7B72BC50"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersdelight:ham"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3276D2A914468D30"
+				"5DA4FF9594050625"
+			]
+			id: "3D00409C843A9902"
+			subtitle: "• Ferment a scarlet cheese wheel(two crimson fungi, sugar and milk) in a keg crafted from iron, wood and a honeycomb(obtained by putting a campfire under a beehive filled with honey and clicking with shears, or trading with a beekeeper). Then leave the unripe cheese to ripen on the ground"
+			tasks: [{
+				id: "594634D07BBF827B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "brewinandchewin:scarlet_cheese_wheel"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "3276D2A914468D30"
+			tasks: [{
+				id: "567122EA4F758732"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersdelight:cooking_pot"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5DA4FF9594050625"
+				"5B4CB0F76C78E90B"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "mutantmore:formula_y"
+			}
+			id: "757BE6AD45565739"
+			subtitle: "Converts wither skeletons, blazes, and shulkers."
+			tasks: [{
+				id: "1F15A0F155A2331F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "mutantmore:formula_y"
+				}
+				type: "item"
+			}]
+			title: "Used in Nether Eye"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0E2449E482A1D7E2"
+				"5F7C62DDC7CE2B3B"
+				"0C5F57C2C92A9A63"
+				"591065D6EBEC1D7F"
+				"7086C734E73F508A"
+				"1EEAC4DCC67432CB"
+				"5DA4FF9594050625"
+				"5B4CB0F76C78E90B"
+			]
+			description: [
+				"! Need Nether Access"
+				"- Candle Holder x2:Candles commonly found in structures, or made from honeycombs/animalfat(rarely from a knife on a fatty animal) and string. Craft with iron."
+				"- Totem of Post Mortem: Put a totem of undying in a soul forge(crafted with soul quartz, obtained by left clicking rich soul soil in soulsand valleys)"
+				"- Magma/Frozen flesh: Drops from magma zombies in the nether wastes, and frostbitten zombies in cold biomes at night."
+				"- Necronium x2:transmute gold in a soul forge(crafted with soul quartz, obtained by left clicking rich soul soil in soulsand valleys"
+				"- Undead Soul:"
+				"• Ectoplasm x4:Drops from spirits in the soulsand valley."
+				"• Spirit eye: Craft 4 salt clumps dropped from soul sand valley Embodies, creatures made of soul sand."
+				"• Ancient Fruit:Found on ancient trees, the saplings of which can be found in Ancient Cities. Gives xp when eaten. Use the Nature's Compass to find a deep dark, and keep trying different deep darks until you find one. Most A. cities spawn under mountains."
+				"• Soul Bead:dropped from Wraiths in the soul sand valleys. Will fly toward the nearest nether fortress when used."
+				"• Skreecher soul: Drops from skreechers, creatures in the deep dark ceiling that shriek to summon the warden upon sighting you. Take them out with a bow before they see you. Use the Nature's Compass to find a deep dark, and keep trying different deep darks until you find one. Most A. cities spawn under mountains."
+				"* Cerebus Fang: Wave 5 of the undead army, summonable with cloth that drops from night mobs or naturally spawned by killing a lot of undead at night sometimes. Notifies you in chat when they're approaching."
+			]
+			id: "08ABB9CD687B8134"
+			min_width: 600
+			rewards: [
+				{
+					id: "65EAA090E7FCFD85"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					count: 5
+					id: "7ED04B28704F3DF2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					id: "28B341210EB7A14B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:monster_charm"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "\"The Eye of Immaterial Essence\""
+			tasks: [{
+				id: "319FC4B906495477"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "0E2449E482A1D7E2"
+			subtitle: "- Candle Holder: Candles commonly found in structures, or made from honeycombs/animalfat(rarely from a knife on a fatty animal) and string. Craft with iron. Since this is an advanced eye, these are needed for the protection ritual."
+			tasks: [{
+				count: 2L
+				id: "0861606B0B54E301"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "supplementaries:candle_holder"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "0C5F57C2C92A9A63"
+			subtitle: "- Necronium: transmute gold in a soul forge(crafted with soul quartz, obtained by left clicking rich soul soil in soulsand valleys"
+			tasks: [{
+				count: 2L
+				id: "3CD4E947C1F2DDE6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nourished_nether:necronium_ingot"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "5F7C62DDC7CE2B3B"
+			subtitle: "- Frozen flesh: Drops from frostbitten zombies in cold biomes at night."
+			tasks: [{
+				id: "26BB4B80AB97AE3E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "rottencreatures:frozen_rotten_flesh"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "7086C734E73F508A"
+			subtitle: "- Magma flesh: Drops from magma zombies in the nether wastes."
+			tasks: [{
+				id: "6C4FCD474D174C31"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "rottencreatures:magma_rotten_flesh"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4935C41AD3A3656D"
+				"6638DA5BD386FAFD"
+				"6CC87A6CF640E3EE"
+				"75C88EA34373D5B2"
+				"277BF54909EA71D4"
+				"7C5B3D95AA243F97"
+				"5DA4FF9594050625"
+				"74344EF2E027EBC8"
+			]
+			id: "591065D6EBEC1D7F"
+			size: 1.2d
+			subtitle: "- Undead Soul: Material only obtained by crafting with the following:"
+			tasks: [{
+				id: "534F691DA1E3F838"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endrem:undead_soul"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "1EEAC4DCC67432CB"
+			size: 1.2d
+			subtitle: "- Totem of Post Mortem: Put a totem of undying in a soul forge(crafted with soul quartz, obtained by left clicking rich soul soil in soulsand valleys)"
+			tasks: [{
+				id: "677C9DEB7017839A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nourished_nether:totem_of_post_mortem"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "4935C41AD3A3656D"
+			subtitle: "• Ectoplasm x4: Made using a slimeball in a soul forge."
+			tasks: [{
+				count: 4L
+				id: "79C7299DE0047A96"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nourished_nether:ectoplasm"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 9.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "7C5B3D95AA243F97"
+			subtitle: "• Soul Bead: dropped from Wraiths in the soul sand valleys and many structures. Will fly toward the nearest nether fortress when used."
+			tasks: [{
+				id: "01C157552553461F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "quark:soul_bead"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 12.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "75C88EA34373D5B2"
+			subtitle: "• Ancient Fruit: Found on ancient trees, the saplings of which can be found in Ancient Cities. Gives xp when eaten. Use the Nature's Compass to find a deep dark, and keep trying different deep darks until you find one. Most A. cities spawn under mountains."
+			tasks: [{
+				id: "0FB6F346653D2771"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "quark:ancient_fruit"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 9.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "277BF54909EA71D4"
+			subtitle: "• Skreecher soul: Drops from skreechers, creatures in the deep dark ceiling that shriek to summon the warden upon sighting you. Take them out with a bow before they see you. Use the Nature's Compass to find a deep dark, and keep trying different deep darks until you find one. Most A. cities spawn under mountains."
+			tasks: [{
+				id: "36886428052B011A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:skreecher_soul"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 12.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "6638DA5BD386FAFD"
+			subtitle: "• Cerberus Fang: Drops from Cerberus, the fifth wave final boss of the undead army, who only appears in expert mode(go to any dimension)(see more in \"mechanics added\")."
+			tasks: [{
+				id: "7273EF49588408FD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:cerberus_fang"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "6CC87A6CF640E3EE"
+			tasks: [{
+				id: "38FE0F5C892701D5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "infernalexp:spirit_eye"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "354CC5CDC5CF89AB"
+			subtitle: "Drops from Embody"
+			tasks: [{
+				count: 4L
+				id: "7102477C7434210A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "infernalexp:soul_salt_clump"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 9.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "7A884FB902C21C84"
+			tasks: [{
+				id: "1F11F6AAFD2EACE5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:undead_battle_standard"
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 12.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "74344EF2E027EBC8"
+			subtitle: "• Ghostly Pickaxe: Drops from Underminers which spawn when you've spent a long time in an Abandoned Mineshaft"
+			tasks: [{
+				id: "375DB8F38D035D99"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:ghostly_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 11.0d
+			y: 4.75d
+		}
+		{
+			dependencies: [
+				"0225AF6973F618EA"
+				"2855B2AE36A1292B"
+				"04E8F70039A689B6"
+				"6651B105BA122D6B"
+				"2047ABCB211046C1"
+				"1F2C6DA2C722AEE2"
+				"5DA4FF9594050625"
+				"5B4CB0F76C78E90B"
+			]
+			id: "53D0FA1AA4F83273"
+			min_width: 600
+			rewards: [
+				{
+					id: "4223618221925062"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					id: "15575ACB78F87EC3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:witherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "0E7E34573F33195F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					id: "1A622E9240AA8A17"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:void_pearl"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.5d
+			subtitle: "\"The Eye of Death\""
+			tasks: [{
+				id: "1AE17A3C7C837F84"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "2047ABCB211046C1"
+			subtitle: "- Dark Metal Ingot: Dropped as pieces or piles of dark metal from enemies/loot in some dark overworld structures. Can be used for armor, strong weapons and items."
+			tasks: [{
+				count: 4L
+				id: "13127EC50860A55E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "born_in_chaos_v1:dark_metal_ingot"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 15.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "6651B105BA122D6B"
+			subtitle: "- Wither Sword: Dropped sometimes from the loot bag dropped from killing the wither. Don't worry though, you wont have to farm as the bags often drop skulls."
+			tasks: [{
+				id: "57759EF4F1B722BB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:wither_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 18.5d
+			y: -3.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "04E8F70039A689B6"
+			subtitle: "- Mutant Wither Skeleton Skull: Main drop from the mutant wither skeleton."
+			tasks: [{
+				id: "66117C8644E7A44C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "mutantmore:mutant_wither_skeleton_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 15.5d
+			y: -3.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "2855B2AE36A1292B"
+			size: 1.5d
+			subtitle: "- Nether Star: Main drop from the wither."
+			tasks: [{
+				id: "1780478FF79E52DF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 17.0d
+			y: -4.125d
+		}
+		{
+			dependencies: [
+				"03D2602D7633065D"
+				"6A0D1506919C6916"
+				"72E55A21ACBBD6BA"
+				"092285126EA7CA02"
+				"3BA2BC50CE5E9ECA"
+				"502FA13F744B08D7"
+				"244C9FED599C2AA0"
+				"75CAED209D19FB5E"
+				"68EEBCFB605E22C5"
+				"5DA4FF9594050625"
+			]
+			id: "0225AF6973F618EA"
+			subtitle: "- Dark Potion: Unbrewable potion that you must craft from the ingredients below:"
+			tasks: [{
+				id: "2CF2C2D3061A2750"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "illageandspillage:mutation"
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 17.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "244C9FED599C2AA0"
+			subtitle: "Bug Pheromones:Cockroach Wing made from 9 fragments dropped by cockroaches."
+			tasks: [{
+				id: "3A21445B8EDA1F89"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:bug_pheromones"
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 18.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "03D2602D7633065D"
+			subtitle: "Magical Energy Bottle: Ethereal Spirit(common night mobs), firelight dust(firelight in nether)."
+			tasks: [{
+				id: "2A4F012F0E1B8CCE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "born_in_chaos_v1:bottle_of_magical_energy"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 15.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "092285126EA7CA02"
+			subtitle: "Soulsteal: Soul Heart drops from Soul Vultures."
+			tasks: [{
+				id: "423B8C641602DCF4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:soulsteal"
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 16.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "75CAED209D19FB5E"
+			subtitle: "Blindsight Tongue: Drops 30% from Blindsights in Glowstone Canyon, Quartz Flats or Infernal Dunes."
+			tasks: [{
+				id: "457E9CF9615C0DC5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "infernalexp:blindsight_tongue"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 17.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "68EEBCFB605E22C5"
+			subtitle: "Pile of Dark Metal: Crafted from pieces or dropped as piles from enemies/loot in some dark overworld structures."
+			tasks: [{
+				id: "666C90AE105B6330"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "born_in_chaos_v1:pileof_dark_metal"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 15.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "6A0D1506919C6916"
+			subtitle: "Nightmare Claw: Nightmare Stalkers drop these at night."
+			tasks: [{
+				id: "3EF7003E14BA6CD7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "born_in_chaos_v1:nightmare_claw"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 18.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "72E55A21ACBBD6BA"
+			subtitle: "Fire Light Dust: Dropped from firelights in the nether wastes/crimson"
+			tasks: [{
+				id: "0CE8DB5D2CC45857"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "born_in_chaos_v1:fire_dust"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "502FA13F744B08D7"
+			subtitle: "Brewed with Ascus bomb"
+			tasks: [{
+				id: "0C69378E653E63AB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "infernalexp:infection"
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"11EB58C5F48536DD"
+				"03BB1C8C61DDB8E0"
+				"76E34E602F9BFD92"
+				"15EEED62C887F2F1"
+				"3FA97B2508510341"
+				"5DA4FF9594050625"
+			]
+			id: "3BA2BC50CE5E9ECA"
+			subtitle: "Wither Dross: W. Rose, Sac, Wart, Bone, searing hot:4 hot blocks surrounding keg."
+			tasks: [{
+				id: "5B93BBEEBE5837B3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "brewinandchewin:withering_dross"
+					tag: {
+						Purity: -1
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 20.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "15EEED62C887F2F1"
+			subtitle: "Wither Rose: Mobs killed by wither drop this."
+			tasks: [{
+				id: "03B643C0AA0CFAE6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:wither_rose"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 21.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "11EB58C5F48536DD"
+			tasks: [{
+				id: "0AD05C9B01246DBB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:ink_sac"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "3FA97B2508510341"
+			tasks: [{
+				id: "6A09C8F03E8DB3F3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:bone"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "76E34E602F9BFD92"
+			subtitle: "Nether Wart: From Nether fortresses."
+			tasks: [{
+				id: "636E89922EABF9C6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:nether_wart"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 21.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			icon: "minecraft:magma_block"
+			id: "67B83B29ACE8DCC5"
+			subtitle: "Used to heat a keg"
+			tasks: [{
+				id: "1491F2BCBDBAD125"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:magma_block"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			icon: "majruszsdifficulty:wither_treasure_bag"
+			id: "4964257DDC5555F4"
+			subtitle: "Dropped by killing the wither."
+			tasks: [{
+				id: "175FD55D40B7AE36"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:wither_treasure_bag"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 19.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "375A0FBACF8C89BA"
+			subtitle: "Wither skulls rarely(1/40) drop from w. skeletons."
+			tasks: [{
+				count: 3L
+				id: "2BBB0E6D479659B0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:wither_skeleton_skull"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 16.0d
+			y: -4.75d
+		}
+		{
+			dependencies: [
+				"0A3A296F42C68949"
+				"1C1EFBEAFC82D809"
+				"77926207252B4981"
+				"5DA4FF9594050625"
+			]
+			id: "03BB1C8C61DDB8E0"
+			subtitle: "Salty Folly: Vodka, Pickle, Kelp, Milk, two cold blocks surrounding keg."
+			tasks: [{
+				id: "566785F030CCC094"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "brewinandchewin:salty_folly"
+					tag: {
+						Purity: -1
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "0A3A296F42C68949"
+			subtitle: "Sea Pickle: Coral Reefs."
+			tasks: [{
+				id: "6B4ECA4F08BAEC5B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:sea_pickle"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 17.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "1C1EFBEAFC82D809"
+			subtitle: "Dried Kelp: Smelted deep ocean kelp."
+			tasks: [{
+				count: 2L
+				id: "67A1B608AB7B6541"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:dried_kelp"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "77926207252B4981"
+			subtitle: "Vodka: Potatoes, wheat, water, neutral temp."
+			tasks: [{
+				id: "128C4A9D200F5DAF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "brewinandchewin:vodka"
+					tag: {
+						Purity: -1
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "1F2C6DA2C722AEE2"
+			subtitle: "- Blazing Chili: Made with coffee, blaze powder, and nether wart in a cooking pot."
+			tasks: [{
+				id: "1D7313995142F4E1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersrespite:blazing_chili"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 18.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "06342B618BE49377"
+			subtitle: "Used to brew coffee. Found in the nether."
+			tasks: [{
+				id: "2B2ABE45B1D69213"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersrespite:coffee_berries"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 19.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "7A802249786A287E"
+			tasks: [{
+				id: "29585842F952DEA2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "brewinandchewin:keg"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 16.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "67DE26F4537FDCC7"
+			subtitle: "Soul heart: gathered by letting a soul vulture drain your soul on hit five times then slaying them, which has a chance to drop them."
+			tasks: [{
+				id: "5860CEABAEEB3107"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:soul_heart"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 16.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "7A1AAC2D2E0518D6"
+			tasks: [{
+				id: "54FB0B6321FBB630"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "infernalexp:ascus_bomb"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "68415FF3EBFE63A2"
+			tasks: [{
+				id: "5443C836388A3B33"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "born_in_chaos_v1:ethereal_spirit"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 14.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "5111231066242D1D"
+			tasks: [{
+				id: "67E7C578C210D8DF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:cockroach_wing"
+				}
+				type: "item"
+			}]
+			title: "Used in Wither Eye"
+			x: 19.25d
+			y: 3.25d
+		}
+		{
+			dependencies: [
+				"658E5F0FE30F2DFF"
+				"1454FDDDF7DFCF77"
+				"132FF9B7E304FC6E"
+				"7001914B9E76738B"
+				"0E280AFA126ACAA0"
+				"078C492B745F47B0"
+				"56E093ED13AE7A09"
+				"5E52473F6313BBE2"
+				"4AE5F97A227CE0EF"
+				"5DA4FF9594050625"
+				"5B4CB0F76C78E90B"
+			]
+			id: "08DB361144003BDE"
+			min_width: 600
+			rewards: [
+				{
+					id: "380C4042DA9D02FF"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					id: "7E130DC6170A6054"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "waystones:waystone"
+					}
+					title: "Use them freely..."
+					type: "item"
+				}
+				{
+					count: 24
+					id: "5C999317CAE78A17"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:etherium_ore"
+					}
+					type: "item"
+				}
+				{
+					id: "45DFD1359AEA07BA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:eye_of_nebula"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 3.0d
+			subtitle: "\"The Eye of Beyond\""
+			tasks: [{
+				id: "4BA6A19CEAEDD41C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "..."
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5DA4FF9594050625"
+				"71FD02F37D3FB343"
+			]
+			id: "5E52473F6313BBE2"
+			size: 1.5d
+			subtitle: "Void Worm Eye: Drops from Void Worm. Used for dimensional carvers, which you'll need for something..."
+			tasks: [{
+				id: "3D5595533C6F04C9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:void_worm_eye"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 30.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "0E280AFA126ACAA0"
+			size: 1.5d
+			subtitle: "Mutant Shulker Shell: Drops from Mutant Shulkers."
+			tasks: [{
+				id: "62CF28823217EF51"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "mutantmore:mutant_shulker_shell"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 27.75d
+			y: -1.125d
+		}
+		{
+			dependencies: [
+				"5DA4FF9594050625"
+				"0D04CF00A9040EBD"
+			]
+			id: "078C492B745F47B0"
+			size: 1.5d
+			subtitle: "Void Core: Obsidian Golem's Main Drop(miniboss in the end citadel)."
+			tasks: [{
+				id: "5B4ED097936195CF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "cataclysm:void_core"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 27.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "7001914B9E76738B"
+			size: 1.5d
+			subtitle: "Void Fragment: Drops from Void Elemental."
+			tasks: [{
+				id: "3BD597B11661108A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iter_rpg:void_fragment"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 32.25d
+			y: 1.125d
+		}
+		{
+			dependencies: [
+				"5DA4FF9594050625"
+				"26347D8A95505E00"
+			]
+			id: "4AE5F97A227CE0EF"
+			size: 1.5d
+			tasks: [{
+				id: "5284A0F616B03CFF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:enderium_ingot"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 31.875d
+			y: -4.125d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "132FF9B7E304FC6E"
+			size: 1.5d
+			tasks: [{
+				id: "0C20E732D87B4424"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "unusualend:void_totem"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 32.625d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "56E093ED13AE7A09"
+			size: 1.5d
+			subtitle: "Ancient Shard: Also used to respawn in the end, create larger barrels and make fading doors."
+			tasks: [{
+				id: "7511B83F6E6FCBFC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "unusualend:ancient_shard"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 27.375d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"5DA4FF9594050625"
+				"5C7DC40A0BA64840"
+			]
+			id: "658E5F0FE30F2DFF"
+			size: 1.5d
+			tasks: [{
+				id: "3EE1A27B5B0B7FEF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enlightened_end:adamantite_ingot"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 32.25d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"5DA4FF9594050625"
+				"2C71C6EB00048A7C"
+			]
+			id: "1454FDDDF7DFCF77"
+			size: 1.5d
+			tasks: [{
+				id: "292E0F51580FE5DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:irradium_bar"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 28.5d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"27A8FCC193076FD2"
+				"5DA4FF9594050625"
+			]
+			id: "26347D8A95505E00"
+			size: 1.5d
+			tasks: [{
+				id: "30D6BA03660B5E31"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:enderium_shard_locator"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 30.375d
+			y: -5.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "27A8FCC193076FD2"
+			size: 1.5d
+			tasks: [{
+				id: "3976D6B08CD8B1D0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:ender_dragon_treasure_bag"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 28.875d
+			y: -5.625d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "2C71C6EB00048A7C"
+			size: 1.5d
+			subtitle: "Found in undergrowth biomes(under islands) in the End"
+			tasks: [{
+				id: "2D34FC9E2F09E80E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:raw_irradium"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 28.875d
+			y: 5.625d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "0D04CF00A9040EBD"
+			size: 1.5d
+			tasks: [{
+				id: "02B72361FB28A5D1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "cataclysm:void_eye"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 27.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/end_city.png"
+				}
+			}
+			id: "48793273BCBDD8B4"
+			size: 1.5d
+			subtitle: "Obtainable from loot chests in an Ancient End City (Small end city with shooter traps with an altar at the top that when right clicked summons the Endstone Golem boss)."
+			tasks: [{
+				id: "366AA71A7D4AF0DC"
+				type: "checkmark"
+			}]
+			title: "Used in ..."
+			x: 25.875d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "71FD02F37D3FB343"
+			size: 1.5d
+			subtitle: "Capsid: Place a Crimson Mosquito Larva inside to get a mysterious worm. Throw it into the void and..."
+			tasks: [{
+				id: "45FFF08EB99F2871"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:capsid"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 31.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "5C7DC40A0BA64840"
+			size: 1.5d
+			subtitle: "Found at void level; drops nuggets."
+			tasks: [{
+				id: "73EB23D05B0D5224"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_node"
+				}
+				type: "item"
+			}]
+			title: "Used in ..."
+			x: 33.375d
+			y: -3.375d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/end_city.png"
+				}
+			}
+			id: "50A2C19A88C07A5D"
+			size: 1.5d
+			subtitle: "Obtainable from loot chests in an Ancient End City (Small end city with shooter traps with an altar at the top that when right clicked summons the Endstone Golem boss)."
+			tasks: [{
+				id: "045B0FEE58D9FB24"
+				type: "checkmark"
+			}]
+			title: "Used in ..."
+			x: 34.125d
+			y: -1.5d
+		}
+	]
+	title: "Hard Eyes"
+}

@@ -1,0 +1,1792 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "medium_eyes"
+	group: "1C888CDB8EF0A7FB"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": { }
+		}
+		id: "endrem:old_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "41B280726CE5B655"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"020C00ED08689F49"
+				"38EFD6D0A625817F"
+				"78ACEF95F5AC1A80"
+				"0EDB0A43D58260CC"
+				"18C7095EA653E6A0"
+				"5D2FF35EF4B82FB5"
+				"38AFF53FB7F892F5"
+				"26D3D8E0CB67417A"
+				"67C88BA22DD11E4E"
+				"3901079844A43EC1"
+				"4639E43A5B5C4F18"
+			]
+			description: [""]
+			id: "0E2BD307EC9FDCE2"
+			min_width: 600
+			rewards: [
+				{
+					id: "3D0DFFD682DB0AFB"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 3
+					id: "70A00674290D7308"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "2E0FDC0F398B8F6E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "mutantmonsters:chemical_x"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "\"The Eye of Sands of Time\""
+			tasks: [{
+				id: "3CD8CD5F77A0EFB8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "020C00ED08689F49"
+			shape: "rsquare"
+			subtitle: "- Mutant Skeleton Skull: Slay a mutant skeleton that rarely spawns at night, or can be summoned by applying chemical x to a normal skeleton. Not used during crafting."
+			tasks: [{
+				id: "670A5CD61AF54C95"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Old Eye "
+			x: 5.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "5D2FF35EF4B82FB5"
+			shape: "rsquare"
+			subtitle: "- Glow Coke: Go to the Quartz Flats/ Glowstone Canyon/ Infernal Dunes Biome and slay a glowsquito    "
+			tasks: [{
+				id: "75AC9CC5DD58D53B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "infernalexp:glowcoal"
+				}
+				type: "item"
+			}]
+			title: "Used in Old Eye "
+			x: 4.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "0EDB0A43D58260CC"
+			shape: "pentagon"
+			subtitle: "- Glowsilk: Find a glow silk cocoon of a glowsilk moth. \"Their inert cocoons can be found in the same Y levels as ancient debris(from my testing maybe a few blocks higher like y=18), but also exposed to air, in multiple biomes (Crimson Forest, Basalt Deltas and Glowstone Canyon); which when broken drop silk. The silk can be used to repair your tools and armour. Use silk touch on a cocoon to make a Glowsilk Bow in a Smithing Table, capable of firing arrows naturally covered in Moth Dust that light up the trajectory they fly in.\""
+			tasks: [{
+				id: "05D38192C51F7115"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "infernalexp:glowsilk"
+				}
+				type: "item"
+			}]
+			title: "Used in Old Eye "
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "78ACEF95F5AC1A80"
+			shape: "gear"
+			subtitle: "- Pocket of sand: Surround a guster eye(from slaying a guster which spawns during desert sandstorms) with leather and sand."
+			tasks: [{
+				id: "5F4604A930760F58"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:pocket_sand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Old Eye "
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "18C7095EA653E6A0"
+			shape: "gear"
+			subtitle: "- Sombrero: Slay a rattlesnake for its tail, craft a maraca and play it around a cockroach. Slay the cockroach while it dances to get a sombrero."
+			tasks: [{
+				id: "025A5D4FF16E48FC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:sombrero"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Old Eye "
+			x: 3.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "26D3D8E0CB67417A"
+			shape: "rsquare"
+			subtitle: "- Roadrunner Feather: Slay a roadrunner."
+			tasks: [{
+				id: "1BEA95ED342C1EE7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:roadrunner_feather"
+				}
+				type: "item"
+			}]
+			title: "Used in Old Eye "
+			x: 3.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "38EFD6D0A625817F"
+			shape: "rsquare"
+			subtitle: "- Emu: Slay an Emu."
+			tasks: [{
+				id: "15671B26E812B77A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:emu_feather"
+				}
+				type: "item"
+			}]
+			title: "Used in Old Eye "
+			x: 6.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "38AFF53FB7F892F5"
+			shape: "gear"
+			tasks: [{
+				id: "08CAC65FE757F230"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "unusualend:gilded_pearl"
+				}
+				type: "item"
+			}]
+			title: "Used in Old Eye "
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "67C88BA22DD11E4E"
+			shape: "gear"
+			subtitle: "- Tropical Stew: Cook in a cooking pot a crab leg(dropped from crabs that spawn on the beach), rice(found as rice panicles in the wild and grown via placing rice in shallow water), and onion(also found in the wild)."
+			tasks: [{
+				id: "088EBCFD1783C5D6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "ecologics:tropical_stew"
+				}
+				type: "item"
+			}]
+			title: "Used in Old Eye "
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "2EFC3E90DCE495B9"
+			shape: "rsquare"
+			subtitle: "Drops from a Guster"
+			tasks: [{
+				id: "5F5E97A81F988850"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:guster_eye"
+				}
+				type: "item"
+			}]
+			title: "Used in Old Eye "
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "4C005CF6BE04173D"
+			shape: "gear"
+			subtitle: "Made from wood and a snake rattle"
+			tasks: [{
+				id: "4A0567777B8BFF93"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:maraca"
+				}
+				type: "item"
+			}]
+			title: "Used in Old Eye "
+			x: 2.5d
+			y: -1.75d
+		}
+		{
+			description: [
+				"&oEyes DO NOT have to crafted in order shown here&r"
+				"------------------------"
+				"The shape of each quest indicates where that item comes from:"
+				""
+				"Circle: Undefined"
+				"Square: Crafted or Mob drop"
+				"Rounded Square: Mob drop"
+				"Pentagon: Structure loot or found in the world"
+				"Gear: Crafted"
+			]
+			id: "4639E43A5B5C4F18"
+			subtitle: "COMPLETE AN EASY EYE TO ACCESS THE MEDIUM EYES HERE"
+			tasks: [{
+				id: "39315579336E746E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:ender_eye"
+				}
+				type: "item"
+			}]
+			title: "Half way there!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2243BA6B2363797E"
+				"7F6DE0D493399E44"
+				"4639E43A5B5C4F18"
+			]
+			dependency_requirement: "one_started"
+			description: ["The Nature's Compass is your best friend when exploring for a certain item, block, mob or structure. Most eyes are tied to a biome, use this compass to save yourself hours of searching."]
+			id: "7162B46DC8850971"
+			size: 2.0d
+			subtitle: "&lUSE IT!&r"
+			tasks: [{
+				id: "58E0863F521A0B4C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Your Best Friend"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3EBF36DD88B9160B"
+				"7B9F7F39C7137C90"
+				"113D4BA79CC86A77"
+				"06C834D042C504DA"
+				"22EFDA10E1F0B9C6"
+				"7FC09806C695EBF9"
+				"1C696FDFF7187550"
+				"0C9E6FDDE4225B3E"
+				"4639E43A5B5C4F18"
+			]
+			description: ["&4Requires Nether Access!&r"]
+			id: "32F23E04C1AFA302"
+			min_width: 600
+			rewards: [
+				{
+					id: "681FC9BDF6EB1968"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					count: 3
+					id: "56459383D89A9906"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:death_totem"
+					}
+					type: "item"
+				}
+				{
+					id: "7884AF36C7BE2100"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:mud_ball"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "\"The Eye of Suspicious Concoction\""
+			tasks: [{
+				id: "49F64E875F822CBB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "22EFDA10E1F0B9C6"
+			shape: "gear"
+			subtitle: "- Witch Pupil: Craft a spider eye, 2 glowstone dust, 2 sugar, 2 redstone, and 2 gunpowder(all drops from the witch and common materials)."
+			tasks: [{
+				id: "2F864ACA34A3BBED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endrem:witch_pupil"
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 11.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "0C9E6FDDE4225B3E"
+			shape: "rsquare"
+			subtitle: "- Rabbit's foot: Drops rarely from rabbits or in village chests."
+			tasks: [{
+				id: "50F15EFF7C806788"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:rabbit_foot"
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 11.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "113D4BA79CC86A77"
+			subtitle: "- Gongylidia: obtained by interacting with a fungal covered chamber block underneath a leafcutter ant mound(in jungles). However, unless a shroomlight is nearby the ants will become hostile."
+			tasks: [{
+				id: "1C2733C60413794A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:gongylidia"
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 8.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "1C696FDFF7187550"
+			shape: "rsquare"
+			subtitle: "- Ghast tear: Drops from ghasts half the time."
+			tasks: [{
+				id: "46D8D88F3A9522D3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:ghast_tear"
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "3EBF36DD88B9160B"
+			shape: "rsquare"
+			subtitle: "- Banana Slug Slime: Kill a banana slug found in old growth forests(use the nature's compass)."
+			tasks: [{
+				id: "32649405C614311A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:banana_slug_slime"
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 10.0d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"3BE77139FF984D4B"
+				"3901079844A43EC1"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enlightened_end:ooze_bottle"
+			}
+			id: "7B9F7F39C7137C90"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "- Ooze Bottle: Unbrewable potion that you must craft from the ingredients above:"
+			tasks: [{
+				id: "3A3FB0CCB42B0B29"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enlightened_end:ooze_bottle"
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "7FC09806C695EBF9"
+			shape: "gear"
+			subtitle: "- Fire resistance Potion: Brew a magma cream(dropped in a brewing stand with an awkward potion(brewed from nether wart in fortresses and water bottles)"
+			tasks: [{
+				id: "4D7C8524E2931AC6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 11.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "06C834D042C504DA"
+			shape: "gear"
+			subtitle: "- Freeze: Brew a frozen flesh from a snow zombie over a awkward potion."
+			tasks: [{
+				id: "59759ADE7B4EA1AB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "rottencreatures:freeze"
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 8.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "30A0DAAC54FC17B0"
+			shape: "gear"
+			subtitle: "- Harming Potion: Brewed using a fermented spider eye on a poison/healing potion, which are themselves brewed from either jellyfish,spider eye, glistering melon or leech."
+			tasks: [{
+				id: "3B9DBA8974AA6664"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:harming"
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 9.5d
+			y: -4.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "19FF4CFFDAEFFFD0"
+			shape: "gear"
+			subtitle: "- Slowness Potion: Brewed using a fermented spider eye on a leaping/swiftness potion,, which are themselves brewed from either rabbit feet or sugar."
+			tasks: [{
+				id: "5E8C02B0352E5B00"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:slowness"
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 11.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "4F37E9D06D520A53"
+			shape: "gear"
+			subtitle: "- Poison Potion: Brewed using Spider eye or jellyfish."
+			tasks: [{
+				id: "7FF6F77326C602C5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:poison"
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 8.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "0A52A2DA2FADD59A"
+			shape: "gear"
+			subtitle: "- Weakness Potion: brewed with a fermented spider eye on a regular water bottle."
+			tasks: [{
+				id: "08EB4727879086AC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:weakness"
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 10.5d
+			y: -4.25d
+		}
+		{
+			dependencies: [
+				"30A0DAAC54FC17B0"
+				"4F37E9D06D520A53"
+				"7028435821472450"
+				"638FFB7A23D3679D"
+				"189DA392BC3ED45C"
+				"19FF4CFFDAEFFFD0"
+				"0A52A2DA2FADD59A"
+				"1CAC88E972C255A8"
+			]
+			id: "3BE77139FF984D4B"
+			shape: "gear"
+			subtitle: "• Corrupted Potion:Made from corrupted wart, which is crafted using 4 wart and one frozen flesh dropped from a Frostbitten zombie spawning in cold biomes at night."
+			tasks: [{
+				id: "36EFDCB42B847BB1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "rottencreatures:corrupted"
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 10.0d
+			y: -5.75d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "1CAC88E972C255A8"
+			shape: "rsquare"
+			subtitle: "- Lionfish: They are found near coral in warm and unfrozen ocean biomes. Lionfish Buckets can be purchased from the Wandering trader."
+			tasks: [{
+				id: "796DD1B82EC5D8E6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "upgrade_aquatic:lionfish"
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 8.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "638FFB7A23D3679D"
+			shape: "rsquare"
+			subtitle: "- Lizard Tail: Lizards spawn in arid biomes and swamps; kill them and their tail will flail off; kill the tail for the item."
+			tasks: [{
+				id: "71E59D1F7EAF8098"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "naturalist:lizard_tail"
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 9.5d
+			y: -7.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "7028435821472450"
+			shape: "pentagon"
+			subtitle: "- Lily of the valley: Semi-rare flower only spawning in the flower forest biome."
+			tasks: [{
+				id: "094D3110E5F95C1D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:lily_of_the_valley"
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 11.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "189DA392BC3ED45C"
+			shape: "rsquare"
+			subtitle: "- Pufferfish: common fish loot in all bodies of water."
+			tasks: [{
+				id: "6FEC5FF6B9BEF152"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:pufferfish"
+				}
+				type: "item"
+			}]
+			title: "Used in Witch Eye"
+			x: 10.5d
+			y: -7.25d
+		}
+		{
+			dependencies: [
+				"08C15F0BF071E029"
+				"3F8EA6DCD5D6F333"
+				"6A3880FB783D3A96"
+				"23D3CCC196FC85B7"
+				"2231AC759A31CFDF"
+				"72E2D16CD4878594"
+				"4084E3F126B5E68D"
+				"1080E32645BA4E43"
+				"3901079844A43EC1"
+				"4639E43A5B5C4F18"
+				"480C1E862A882A6E"
+			]
+			description: ["&3Requires Everbright and Everdawn Access&r"]
+			id: "5F3F3F6DCBA94A9A"
+			min_width: 600
+			rewards: [
+				{
+					id: "7253C57104DC8928"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					count: 12
+					id: "273CD5B6E5F91C3A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:charoite"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6B8B4F0F7687A459"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:diopside_gem"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "\"The Eye of Glacial Epochs\""
+			tasks: [{
+				id: "3D7518596248F907"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "1080E32645BA4E43"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "- Snowbloom: Flowers found in the Everbright."
+			tasks: [{
+				id: "49769B34E039514C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:snowbloom"
+				}
+				type: "item"
+			}]
+			title: "Used in Cold Eye"
+			x: 14.1d
+			y: 2.1d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "6A3880FB783D3A96"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "- Nightcress: Flower found in the Everdawn."
+			tasks: [{
+				id: "2924934B45579E1F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:nightcress"
+				}
+				type: "item"
+			}]
+			title: "Used in Cold Eye"
+			x: 15.899999999999999d
+			y: 2.1d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "3F8EA6DCD5D6F333"
+			shape: "rsquare"
+			subtitle: "- Soul Fragment: Dropped commonly from Everbright Frost spirits and Polargeists."
+			tasks: [{
+				id: "3E0F456F1EA79C3C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:soul_fragment"
+				}
+				type: "item"
+			}]
+			title: "Used in Cold Eye"
+			x: 16.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "23D3CCC196FC85B7"
+			shape: "rsquare"
+			subtitle: "- Star flare: Dropped commonly from Everbright Frost spirits. "
+			tasks: [{
+				id: "006553D83F42DE00"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:star_flare"
+				}
+				type: "item"
+			}]
+			title: "Used in Cold Eye"
+			x: 13.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "72E2D16CD4878594"
+			shape: "rsquare"
+			subtitle: "- Totem of Freezing: Dropped from iceologers, illagers that spawn in raids in cold biomes or huts in cold biomes."
+			tasks: [{
+				id: "2ABB26AAB9DFB697"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "friendsandfoes:totem_of_freezing"
+				}
+				type: "item"
+			}]
+			title: "Used in Cold Eye"
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "2231AC759A31CFDF"
+			shape: "rsquare"
+			subtitle: "- Froststalker Horn: Dropped from a froststalker 23% of the time in cold biomes."
+			tasks: [{
+				id: "6759354012E325D4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:froststalker_horn"
+				}
+				type: "item"
+			}]
+			title: "Used in Cold Eye"
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "08C15F0BF071E029"
+			shape: "pentagon"
+			subtitle: "- Wisteria Niveis: Found in frozen ocean."
+			tasks: [{
+				id: "78F797D21F074C7E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "aquamirae:wisteria_niveis"
+				}
+				type: "item"
+			}]
+			title: "Used in Cold Eye"
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "4084E3F126B5E68D"
+			shape: "circle"
+			subtitle: "- Golden Moth in a Jar: Capture a golden moth in a frozen ocean with a empty bottle."
+			tasks: [{
+				id: "1F4046D08F0A68F7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "aquamirae:golden_moth_in_a_jar"
+				}
+				type: "item"
+			}]
+			title: "Used in Cold Eye"
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			description: [
+				"Summoner(Everbright)"
+				"Alchemist(Everdawn)"
+				""
+				"Both bosses found in the top of the tower structures in each dimension."
+			]
+			id: "480C1E862A882A6E"
+			size: 1.5d
+			subtitle: "- Dusk/Ethereal Arc: Dropped from the Summoner/Alchemist bosses."
+			tasks: [{
+				id: "38574C47CFA2CCBC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "blue_skies:dusk_arc"
+								tag: {
+									ArcLevel: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "blue_skies:ethereal_arc"
+								tag: {
+									ArcLevel: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Cold Eye"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4745ADC9BFC65D1F"
+				"6A94387CF000274E"
+				"1A1D77C3D3BAA973"
+				"59A6F0198AD4895C"
+				"1C04909A51F2FB64"
+				"1F4C67597B974429"
+				"2D806ACAE4E200E5"
+				"79568A0EE4526B24"
+				"3901079844A43EC1"
+				"4639E43A5B5C4F18"
+			]
+			description: [
+				"&4Requires Nether Access&r"
+				""
+				"Requires Tetra Forge Access:"
+				""
+				"Located by buying a map from a cartographer or by crafting a scanner out of a holosphere and following the noise when close."
+				"Forge ruins also have the machinery to get a Tier 5 Tetra hammer and craft the powerful Tetra tools. While not necessary after this, I recommend Tetra as it is fun to customize your vanilla weapons."
+			]
+			id: "1FF146E87C182DB5"
+			min_width: 600
+			rewards: [
+				{
+					id: "5B22BA63DF0C38BE"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					count: 16
+					id: "6D7149DFA5672484"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:ancient_debris"
+					}
+					type: "item"
+				}
+				{
+					id: "2592D4A7226A2F91"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:unsettling_kimono"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "\"The Eye of Dark Forgery\""
+			tasks: [{
+				id: "1277F9203C00EB60"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "1A1D77C3D3BAA973"
+			shape: "gear"
+			subtitle: "- Lodestone: Found in bastion bridges chests, structures like some village houses or crafted with 8 chiseled brick and 1 netherite ingot. If right clicked with a compass, compass points toward it. Kept upon crafting."
+			tasks: [{
+				id: "7803045A85F3CCF2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:lodestone"
+				}
+				type: "item"
+			}]
+			title: "Used in Cursed Eye"
+			x: 20.7d
+			y: -2.4d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			description: [""]
+			id: "59A6F0198AD4895C"
+			shape: "gear"
+			subtitle: "- Forged Steel Ingot: Smelted from Resonant alloy."
+			tasks: [{
+				count: 2L
+				id: "20C712E9C05BF06F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "art_of_forging:forged_steel_ingot"
+				}
+				type: "item"
+			}]
+			title: "Used in Cursed Eye"
+			x: 19.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "79568A0EE4526B24"
+			shape: "pentagon"
+			subtitle: "- Pigstep Disc: Found in bastions."
+			tasks: [{
+				id: "1802DA007F98FA6D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:music_disc_pigstep"
+				}
+				type: "item"
+			}]
+			title: "Used in Cursed Eye"
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "2D806ACAE4E200E5"
+			shape: "rsquare"
+			subtitle: "- C418-11: Chance to be dropped when a skeleton shoots a creeper dead."
+			tasks: [{
+				id: "6EEE4E943A3B651E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:music_disc_11"
+				}
+				type: "item"
+			}]
+			title: "Used in Cursed Eye"
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "1C04909A51F2FB64"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "- Endersoul Hand: Dropped from mutant enderman, which rarely spawns at night, or by using chemical X on a regular enderman. Kept on crafting."
+			tasks: [{
+				id: "7F4D7571938C458C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Cursed Eye"
+			x: 20.0d
+			y: 2.6999999999999997d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "1F4C67597B974429"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "- Gilded Pearl: Craft an eye of ender with 8 gold."
+			tasks: [{
+				id: "0E5B0262DE5ACF41"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "unusualend:gilded_pearl"
+				}
+				type: "item"
+			}]
+			title: "Used in Cursed Eye"
+			x: 20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "4745ADC9BFC65D1F"
+			shape: "pentagon"
+			subtitle: "- Flex Mesh: Found in forge ruins crates; also used for tetra smithing."
+			tasks: [{
+				id: "315AA61699E6209D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:forged_mesh"
+				}
+				type: "item"
+			}]
+			title: "Used in Cursed Eye"
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "6A94387CF000274E"
+			shape: "pentagon"
+			subtitle: "- Bolt: Found in forge ruins crates; also used for tetra smithing."
+			tasks: [{
+				id: "164E1FA63C8F20DE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:forged_bolt"
+				}
+				type: "item"
+			}]
+			title: "Used in Cursed Eye"
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "77E2E80A44FA9FC7"
+			tasks: [{
+				id: "69925AAF2142F530"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			title: "Used in Cursed Eye"
+			x: 21.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "26C5120628FD2ED7"
+			subtitle: "Discs puchased in shop: Discs can be purchased from these four gems in the shop."
+			tasks: [{
+				id: "3B4E0EAE256F46F1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Cursed Eye"
+			x: 21.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "702C0DF7B78BB89C"
+			subtitle: "Roughly 20 Emeralds: Trade with a cartographer for maps to a forge ruin to get bolts/flex mesh/scraps."
+			tasks: [{
+				count: 20L
+				id: "3E436B4F13C2A311"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			title: "Used in Cursed Eye"
+			x: 18.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			description: [""]
+			id: "628C3C324A0B135B"
+			subtitle: "Found as loot in Tetra forge ruins."
+			tasks: [{
+				id: "1685DFCC70071D64"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:metal_scrap"
+				}
+				type: "item"
+			}]
+			x: 18.25d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3742FEB8EAC00B28"
+				"3386F8BCC804078B"
+				"3A662BA51CA58EA0"
+				"4DCEBB3481F829EA"
+				"4CFFF31F1921587F"
+				"52BB8B9AA1148EDB"
+				"0BAD152A36BB7BB3"
+				"3901079844A43EC1"
+				"5A9DA1D756B2174C"
+				"4639E43A5B5C4F18"
+			]
+			description: ["&cNeed Easy Raid Access in Multiple Biomes&r"]
+			id: "5D51C23DB0D0DF94"
+			min_width: 600
+			rewards: [
+				{
+					id: "60D92DFF2306071B"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					count: 16
+					id: "1642004B8D7D13DC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "70726CC9B1C89E14"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:villager_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24A838B84BEF2C7F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:superstitious_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "\"The Eye of Strange Sorcery\""
+			tasks: [{
+				id: "6ABD85A0E5F366E4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "3386F8BCC804078B"
+			shape: "square"
+			subtitle: "- Geomancer beads: Dropped from geomancers, illagers that roam the savanna or spawn in raids, or crafted from other geomancer drops with amethyst and necronium."
+			tasks: [{
+				id: "7E79F73C13B2EF8D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [{
+								data: [ ]
+								source: "dungeons_libraries:gear_config"
+							}]
+						}
+					}
+					id: "dungeons_mobs:geomancer_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Magical Eye"
+			x: 26.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "3742FEB8EAC00B28"
+			shape: "square"
+			subtitle: "- Windcaller robes: Dropped from windcallers, illagers that spawn in plains/mountain raids or crafted from other windcaller drops with amethyst and necronium."
+			tasks: [{
+				id: "44B277FE87FBC1C5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [{
+								data: [ ]
+								source: "dungeons_libraries:gear_config"
+							}]
+						}
+					}
+					id: "dungeons_mobs:windcaller_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Magical Eye"
+			x: 23.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "52BB8B9AA1148EDB"
+			shape: "square"
+			subtitle: "- Mage robe: Dropped from mages, illagers that spawn in raids or crafted from other mage drops with amethyst and necronium."
+			tasks: [{
+				id: "331B1C27E2387914"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [{
+								data: [ ]
+								source: "dungeons_libraries:gear_config"
+							}]
+						}
+					}
+					id: "dungeons_mobs:mage_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Magical Eye"
+			x: 26.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "3A662BA51CA58EA0"
+			shape: "square"
+			subtitle: "- Iceologer cloak: Dropped from iceologers, illagers that spawn in cold biome raids or crafted from other iceologer drops with amethyst and necronium."
+			tasks: [{
+				id: "569A3C63AA16158D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [{
+								data: [ ]
+								source: "dungeons_libraries:gear_config"
+							}]
+						}
+					}
+					id: "dungeons_mobs:iceologer_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Magical Eye"
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "4CFFF31F1921587F"
+			shape: "square"
+			subtitle: "- Necromancer staff: Dropped from necromancers, undead minibosses that spawn at night or are crafted from other necromancer drops with an orb of the summoner and bone handle (both dropped from other night mobs) and necronium."
+			tasks: [{
+				id: "26129FB62761B3B0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "dungeons_mobs:necromancer_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Magical Eye"
+			x: 25.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "5A9DA1D756B2174C"
+			optional: true
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "- Boss item:Bag of spoils(freakager), Totem of banishment(Magispeller) and Spellbound Book(Spiritcaller) are all boss drops from illagers that can be fought at the end of a late raid wave. These bosses are quite hard and require research and prep beforehand. Not used upon crafting."
+			tasks: [
+				{
+					id: "02CB7C0F54B82F15"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "illageandspillage:bag_of_horrors"
+					}
+					type: "item"
+				}
+				{
+					id: "761AA3EA7258030C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "illageandspillage:totem_of_banishment"
+					}
+					type: "item"
+				}
+				{
+					id: "7BF0FEBA4C60CDF3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Used in Magical Eye"
+			x: 25.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "0BAD152A36BB7BB3"
+			shape: "rsquare"
+			subtitle: "- Totem of undying: Drops from evokers, illagers that spawn in raids, some illager structures  or rare woodland mansions in dark forest biomes as their home."
+			tasks: [{
+				id: "31EB9AAA92CC7E98"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
+			title: "Used in Magical Eye"
+			x: 23.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "4DCEBB3481F829EA"
+			shape: "rsquare"
+			subtitle: "- Totem of Illusion:Dropped from illusioners, illagers that spawn in raids, illager structures or huts in forests."
+			tasks: [{
+				id: "56A9BA6C25D082FA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "friendsandfoes:totem_of_illusion"
+				}
+				type: "item"
+			}]
+			title: "Used in Magical Eye"
+			x: 26.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "2B92FBB04AABB9DD"
+			subtitle: "Transmute gold in a soul forge"
+			tasks: [{
+				id: "1A1D1DB97A562CD9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nourished_nether:necronium_ingot"
+				}
+				type: "item"
+			}]
+			title: "Used in Magical Eye"
+			x: 24.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			id: "5AC9DBC00FA39698"
+			subtitle: "Use a hoe on Rich Soul Sludge to aquire Soul Quartz"
+			tasks: [{
+				id: "6940CAAFD68027B6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nourished_nether:soul_forge"
+				}
+				type: "item"
+			}]
+			title: "Used in Magical Eye"
+			x: 25.5d
+			y: -4.75d
+		}
+	]
+	title: "Medium Eyes"
+}

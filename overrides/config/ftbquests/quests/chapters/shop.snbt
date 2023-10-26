@@ -1,0 +1,6723 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "shop"
+	group: "7C84C11C55BE6D87"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/money_bag"
+		}
+	}
+	id: "60BED89AB5908868"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "simplehats:hatbag_common"
+			}
+			id: "05BEAD7AD5B5C858"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "0F1A822658619F49"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "simplehats:hatbag_common"
+				}
+				type: "item"
+			}]
+			subtitle: "4 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				disable_toast: true
+				id: "37F570CFA3284C87"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Common Hat Bag"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["05BEAD7AD5B5C858"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "simplehats:hatbag_uncommon"
+			}
+			id: "361B8D4D61F6ABD6"
+			rewards: [{
+				id: "0D90C67B1E015E03"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "simplehats:hatbag_uncommon"
+				}
+				type: "item"
+			}]
+			subtitle: "8 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				disable_toast: true
+				id: "0DA6869EBC723DC1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Uncommon Hat Bag"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["361B8D4D61F6ABD6"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "simplehats:hatbag_rare"
+			}
+			id: "58C7309942B340B3"
+			rewards: [{
+				id: "70988266C9CA68DE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "simplehats:hatbag_rare"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "6C9B3E9704CA7A55"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Rare Hat Bag"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["58C7309942B340B3"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "simplehats:hatbag_epic"
+			}
+			id: "133ADEAE54EC48C2"
+			rewards: [{
+				id: "19912D48939CCAFB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "simplehats:hatbag_epic"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "2214E8EFDB068847"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Epic Hat Bag"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["133ADEAE54EC48C2"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "simplehats:hatscraps_halloween"
+			}
+			id: "631B76921A9652F9"
+			rewards: [
+				{
+					id: "4C73D4F4A318AF10"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatbag_easter"
+					}
+					type: "item"
+				}
+				{
+					id: "6DDF859494EE857E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatbag_summer"
+					}
+					type: "item"
+				}
+				{
+					id: "7FE61868769C694B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatbag_halloween"
+					}
+					type: "item"
+				}
+				{
+					id: "766DBEC2D1687557"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatbag_festive"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "11F5B4ADC91AB69C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Seasonal Hat Bags"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "simplehats:haticon"
+			}
+			id: "73A81EBD69D0D52B"
+			size: 2.0d
+			title: "Hat Bags Shop"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/color_rgb"
+				}
+			}
+			id: "58D01207597B1CB1"
+			size: 2.0d
+			title: "Other Cosmetics"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["570A40D361B38191"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
+				}
+			}
+			id: "483734D4DB7B48DA"
+			rewards: [{
+				id: "7447B8480A8791A3"
+				table_id: 741995069763322621L
+				type: "random"
+			}]
+			subtitle: "6 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				disable_toast: true
+				id: "79A7A86F51F02677"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Animal Garments"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["605DB7A7CAC22D8D"]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/waystone.png"
+				}
+			}
+			id: "1ADD0E43A0AB08F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "783D7919520DFC7C"
+				table_id: 3842210377748175949L
+				type: "random"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "24A9B2B04FE0B724"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Cultural Commodities"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1ADD0E43A0AB08F0"]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "fantasyfurniture:block/necrolord/wool"
+				}
+			}
+			id: "284875B7BC0F9038"
+			rewards: [{
+				id: "11B02CDDB026F959"
+				table_id: 2163794384129370734L
+				type: "random"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "29E3C6400A7E66B9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Fantasy Wear"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["483734D4DB7B48DA"]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "simplehats:headphonesblue"
+			}
+			id: "605DB7A7CAC22D8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63E1053342E9B906"
+				table_id: 7398090636226533060L
+				type: "random"
+			}]
+			subtitle: "8 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				disable_toast: true
+				id: "54029B54272C98D1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Headphones"
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/iceandfire/sea_serpent.png"
+				}
+			}
+			id: "570A40D361B38191"
+			progression_mode: "flexible"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24CD55E5D126B10B"
+				table_id: 7247308976081322477L
+				type: "random"
+			}]
+			subtitle: "4 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				disable_toast: true
+				id: "6914DBDFF5B5E39D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Medieval Gear"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:jukebox"
+			}
+			id: "53A3F9C9AE711F8B"
+			size: 2.0d
+			title: "Disc Shop"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:music_disc_otherside"
+			}
+			id: "597D2203D24F3676"
+			progression_mode: "flexible"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "668B5D447CB6CA1B"
+				table_id: 1510758457672623106L
+				type: "choice"
+			}]
+			subtitle: "1 ruby/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3E1EDF03B98FFB4A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Common Discs"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["597D2203D24F3676"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:music_disc_crickets"
+			}
+			id: "31380D77E063E5B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41AA70A6059B7F67"
+				table_id: 9109226029139713607L
+				type: "choice"
+			}]
+			subtitle: "4 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				disable_toast: true
+				id: "60D68A75D9E6086C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Ambience Discs"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["31380D77E063E5B4"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "aquamirae:music_disc_forsaken_drownage"
+			}
+			id: "779866B55EF54228"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "086373431C821F86"
+				table_id: 7486895294137942670L
+				type: "choice"
+			}]
+			subtitle: "8 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				disable_toast: true
+				id: "135CBE60F263F540"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Rare Discs"
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["779866B55EF54228"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:music_disc_ignis"
+			}
+			id: "3845F9E0464F45E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "678FC1710C0A18C7"
+				table_id: 7875744162432429019L
+				type: "loot"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "612CB9B6F57A4033"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Endgame Discs"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/money"
+				}
+			}
+			id: "75B161D78BD03E9D"
+			size: 2.0d
+			subtitle: "Appear upon completing eyes."
+			title: "Rare Items"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"26F5CDC3A27E6711"
+			]
+			disable_toast: true
+			icon: "enigmaticlegacy:etherium_ore"
+			id: "6A4D81E6E2C2104E"
+			rewards: [{
+				id: "5C7D785F678BFBD5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:etherium_ore"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "57C448DD0BB0D7BD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Etherium (Cryptic Eye)"
+			x: 4.5d
+			y: 3.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"3F62CCBF121468D2"
+			]
+			disable_toast: true
+			icon: "enigmaticlegacy:lore_inscriber"
+			id: "7581E9FAF9DFB2E1"
+			rewards: [
+				{
+					id: "4FBE4E2A7CC43814"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:lore_inscriber"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6D8F271DA8949103"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:lore_fragment"
+						tag: {
+							display: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "2BBA1BC6463B1916"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Architect's Inkwell (Black Eye)"
+			x: 8.5d
+			y: 0.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"28ED7103917C560F"
+			]
+			disable_toast: true
+			icon: "enigmaticlegacy:animal_guidebook"
+			id: "238E512F739B5C04"
+			rewards: [{
+				id: "62F46D5923065278"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:animal_guidebook"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "72462BB7AEFCF163"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Guide to Animal Companionship (Corrupted Eye)"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"3F62CCBF121468D2"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:insignia"
+				tag: { }
+			}
+			id: "73463871CA3A4F83"
+			rewards: [{
+				id: "35CC9F02D21F52AD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:insignia"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "4 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				disable_toast: true
+				id: "0CEBB18F90AC9D72"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Charming Insignia (Black Eye)"
+			x: 4.5d
+			y: 0.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"2AA1C467D47839EE"
+			]
+			disable_toast: true
+			icon: "enigmaticlegacy:cosmic_cake"
+			id: "6D8B472DECFE5637"
+			rewards: [{
+				id: "56337114B2A4B30C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:cosmic_cake"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "1C145A3AAA5F1C61"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Eternal Cake (Magical Eye)"
+			x: 4.5d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"2AA1C467D47839EE"
+			]
+			disable_toast: true
+			icon: "enigmaticlegacy:astral_potato"
+			id: "750BFF6EA440FD51"
+			rewards: [{
+				count: 16
+				id: "681C21DD5C52642E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:astral_potato"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "6AC83DA90ACFB60E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Teleportato (Magical Eye)"
+			x: 8.5d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"26F5CDC3A27E6711"
+			]
+			disable_toast: true
+			icon: "enigmaticlegacy:ender_rod"
+			id: "06A5853F597B3AF3"
+			rewards: [{
+				count: 4
+				id: "7475A61DAFC25DFD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:ender_rod"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "77CA40820D61D85A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Ender Rod (Cryptic Eye)"
+			x: 8.5d
+			y: 3.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"28ED7103917C560F"
+			]
+			disable_toast: true
+			icon: "enigmaticlegacy:hunter_guidebook"
+			id: "1186C47F5C9BD494"
+			rewards: [{
+				id: "56D772DB46021084"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:hunter_guidebook"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "3B1025C7BD29ED7B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Guide to Feral Hunt (Corrupted Eye)"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enigmaticlegacy:cursed_ring"
+			}
+			id: "0ECC678E3BD73D26"
+			size: 2.5d
+			title: "Exclusive Unlocked Quest Items "
+			x: 2.25d
+			y: -10.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "iter_rpg:items/elemental_sword"
+				}
+			}
+			id: "5BE94C88FE6C9C13"
+			rewards: [{
+				id: "439D9779E8ACC546"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "36327504D8A69272"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:crafting_table"
+				}
+				type: "item"
+			}]
+			title: "Combat Specialist"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/recovery_compass_03"
+				}
+			}
+			id: "6D8D04807B5E4EAE"
+			rewards: [{
+				id: "609659F09BBEBE3F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "65FA6F761AAF22CB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:crafting_table"
+				}
+				type: "item"
+			}]
+			title: "Explorer's Essentials"
+			x: 0.75d
+			y: -11.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "iter_rpg:big_vase"
+			}
+			id: "5BEC64C3A86BF8DD"
+			rewards: [{
+				id: "451AD879302A2CD0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "66243030294BB85C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:crafting_table"
+				}
+				type: "item"
+			}]
+			title: "Craftsmanship and Building"
+			x: 2.25d
+			y: -12.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:ender_chest"
+			}
+			id: "615D275A59F5A721"
+			rewards: [{
+				id: "38AACABDD35D752F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "013164A674A52ABF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:crafting_table"
+				}
+				type: "item"
+			}]
+			title: "Resource Gathering"
+			x: 3.75d
+			y: -11.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "farmersdelight:roast_chicken_block"
+			}
+			id: "0B04E6219666D4B5"
+			rewards: [{
+				id: "647ECB0A5D932B1F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "660735BE15DD46FC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:crafting_table"
+				}
+				type: "item"
+			}]
+			title: "Agriculture Infrastructure"
+			x: 4.5d
+			y: -9.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"1B565AFA2A27674E"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:broken_ankh"
+			id: "1BD5DAA71D765ABC"
+			rewards: [{
+				id: "3DDDB3F97A63F22F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:broken_ankh"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "00899BAC97D2E0B0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: -1.75d
+			y: -15.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"6300F26804E97256"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:dark_nelumbo"
+			id: "6731FCCB9519F3F8"
+			rewards: [{
+				id: "7CE23E4A1E0BEC50"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:dark_nelumbo"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "3569818EAA35F56A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"1FF3B2BF6F6B36B1"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:lucky_rock"
+			id: "6C79648BACE6AC55"
+			rewards: [{
+				id: "455AC17D8AAF5787"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:lucky_rock"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "71B3988068546DB7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: 2.25d
+			y: -15.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"6CDF8842944CB30A"
+			]
+			disable_toast: true
+			hide: true
+			icon: "enigmaticlegacy:ender_ring"
+			id: "45250411916E643A"
+			rewards: [{
+				id: "555028EFAF1DFB6A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:ender_ring"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "354474D60F299A14"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: 0.0d
+			y: -14.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"6CDF8842944CB30A"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:spider_legs"
+			id: "03164E4C7FE7974A"
+			rewards: [{
+				id: "69C02EF78DF71E75"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:spider_legs"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "66CE9E8CC0C39FD2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: -1.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"1B565AFA2A27674E"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:scarab_amulet"
+			id: "0896208CF5E47FF4"
+			rewards: [{
+				id: "19BADAB35962FE99"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:scarab_amulet"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "6E4456EEC6337178"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: -0.75d
+			y: -15.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"76211D45EEC4C6FB"
+			]
+			disable_toast: true
+			hide: true
+			icon: "enigmaticlegacy:angel_blessing"
+			id: "5D395CEE09D087CB"
+			rewards: [{
+				id: "08B0BF27ACF84A19"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:angel_blessing"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "137DCA6BEE518AF6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: -2.5d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"2CF80F2D16A11F98"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C790650CA58E1D8"
+			rewards: [{
+				id: "22AF26194550EC15"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "5C1017497E9742CE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: -2.75d
+			y: -16.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"2CF80F2D16A11F98"
+			]
+			disable_toast: true
+			icon: "nameless_trinkets:cracked_crown"
+			id: "52097196E3C3A953"
+			rewards: [{
+				id: "27CC82B708CC2997"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:cracked_crown"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "0B959FD5E6BB760F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: -1.5d
+			y: -17.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"600B0D3E261C5DFF"
+			]
+			disable_toast: true
+			icon: "nameless_trinkets:true_heart_of_the_sea"
+			id: "2A9FDE3408624124"
+			rewards: [{
+				id: "0D465A556E4B7B5A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:true_heart_of_the_sea"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "525053ED8FC0A6FB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: -3.75d
+			y: -15.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"1FF3B2BF6F6B36B1"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:blaze_nucleus"
+			id: "29E57DEAEC603CD6"
+			rewards: [{
+				id: "01EC8E259FF0C952"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:blaze_nucleus"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "1E87BF54207F6CED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: 3.5d
+			y: -14.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"32CDE0D2F4998D6A"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:pocket_lightning_rod"
+			id: "73CB2DDEB8ACDC1A"
+			rewards: [{
+				id: "72C74A9F88180016"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:pocket_lightning_rod"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "222FC31929C82D4A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: 1.0d
+			y: -14.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0B04E6219666D4B5"
+				"176A1DFDD6E6C380"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:what_magnet"
+			id: "141C10B723C2B72C"
+			rewards: [{
+				id: "4A6647564D066488"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:what_magnet"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "7A9419C35E9701F6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: 6.75d
+			y: -11.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0B04E6219666D4B5"
+				"6644450AA0272F47"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:tick"
+			id: "2043ADE47423010F"
+			rewards: [{
+				id: "45A2C025BCCF7262"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:tick"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "2AD0313B050D3F48"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0B04E6219666D4B5"
+				"347B108577190795"
+				"021E0A5D7122A335"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:fertilizer"
+			id: "5D2415BF7C60BDE7"
+			rewards: [{
+				id: "14978CE7FB7E82E0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:fertilizer"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "5EE5DECF53BA063E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: 6.75d
+			y: -8.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"165160F462EEDD6C"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:wooden_stick"
+			id: "057478C1969A0539"
+			rewards: [{
+				id: "63FB87F99B51B8AB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:wooden_stick"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "18C36C3C4C3F29E1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: 4.25d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"4E451AF0D1080358"
+			]
+			disable_toast: true
+			hide: true
+			hide_text_until_complete: false
+			icon: "nameless_trinkets:amphibious_hands"
+			id: "6F3A9DB5A99B01B3"
+			rewards: [{
+				id: "21AC325E72C6404E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:amphibious_hands"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "3596BAA7467C4E0A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: 5.5d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"6F776273DD6621A3"
+			]
+			disable_toast: true
+			hide: true
+			icon: "enigmaticlegacy:magnet_ring"
+			id: "5BDC10BCF016F499"
+			rewards: [{
+				id: "1F6F1B56D77EF5AF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:magnet_ring"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "1AB5DD96E1FA4703"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: 5.75d
+			y: -12.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"2789BC698B16F910"
+			]
+			disable_toast: true
+			icon: "enigmaticlegacy:unholy_grail"
+			id: "515AB8C7225FA3AF"
+			rewards: [{
+				id: "3DEDA76B8827B73E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:unholy_grail"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "29C295338D074BD1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: -2.0d
+			y: -11.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"0D39CF7F5D22BB8C"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:ice_cube"
+			id: "4E84E2155D347CE8"
+			rewards: [{
+				id: "435D05545B0234C2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:ice_cube"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "76E3D8FD409D691B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: -2.0d
+			y: -8.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"09F543BDEC3FCE78"
+			]
+			disable_toast: true
+			hide: true
+			icon: "enigmaticlegacy:golem_heart"
+			id: "11CECA8A9E3405AC"
+			rewards: [{
+				id: "376015C51A01576F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:golem_heart"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "04FA4F7619253B03"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: -3.25d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"07D1A40AF367E828"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:moon_stone"
+			id: "2153EB449A745817"
+			rewards: [{
+				id: "305E6469C24726FA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:moon_stone"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "1E7A87DDFBB32B02"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"51EB69EA7089D474"
+			]
+			disable_toast: true
+			hide: true
+			icon: "enigmaticlegacy:ocean_stone"
+			id: "757AB3261849624B"
+			rewards: [{
+				id: "19B7B1DCC14CCE43"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:ocean_stone"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "59659A6D00F5ED17"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: -3.25d
+			y: -8.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0B04E6219666D4B5"
+				"021E0A5D7122A335"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:callus"
+			id: "5801BF46F8D5FD25"
+			rewards: [{
+				id: "57FB33B4E70F801A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:callus"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "2EE15D584EB781F4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 8.0d
+			y: -8.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0B04E6219666D4B5"
+				"0F13D524741AA224"
+			]
+			disable_toast: true
+			hide: true
+			icon: "enigmaticlegacy:infinimeal"
+			id: "6CC74BC8C669E75E"
+			rewards: [{
+				id: "06138BF7F53F766E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:infinimeal"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "61F2BBA082EF8E09"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 8.0d
+			y: -11.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0B04E6219666D4B5"
+				"021E0A5D7122A335"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:sleeping_pills"
+			id: "44FC0940F2A8DB8A"
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "4F515D202CAAEF2A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 7.5d
+			y: -12.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"698500AC02D8341B"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:gills"
+			id: "14B7D829D24BA3A4"
+			rewards: [{
+				id: "1BD0C9AA96A783FB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:gills"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "707EA2745F6BB361"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 7.25d
+			y: -14.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"08AC50217BF99F2D"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:light_gloves"
+			id: "622108D5D90A1C06"
+			rewards: [{
+				id: "40C506F8A7A908DD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:light_gloves"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "2EEBB921BEB920FF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 6.5d
+			y: -15.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"1AA455699DF78287"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:broken_magnet"
+			id: "65355199EAA92168"
+			rewards: [{
+				id: "5FEAE20500D8965B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:broken_magnet"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "29BF439421300005"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 5.5d
+			y: -15.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"498A3DBD04037298"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:puffer_fish_liver"
+			id: "71BADE6DC79BADA8"
+			rewards: [{
+				id: "50422DC229EBB7D3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:puffer_fish_liver"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "6558EA4C9785057A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 3.0d
+			y: -16.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"3E266A191BFB9274"
+			]
+			disable_toast: true
+			hide: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:mining_charm"
+				tag: { }
+			}
+			id: "554B22E930E451C2"
+			rewards: [{
+				id: "2D491ECFAFE3C663"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "1FBB93C1E4C9A882"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 1.5d
+			y: -16.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"03FB6F9849BE8B2A"
+			]
+			disable_toast: true
+			icon: "nameless_trinkets:reverse_card"
+			id: "5CDB117FDE9A8568"
+			rewards: [{
+				id: "3FC139C72FB00D9A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:reverse_card"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "0799F6686EFACBFA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: -4.5d
+			y: -8.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"70F43ACD23281C26"
+			]
+			disable_toast: true
+			icon: "nameless_trinkets:super_magnet"
+			id: "30E6F7ED2E722917"
+			rewards: [{
+				id: "641EE966FAA82BFD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:super_magnet"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "04CB269D734CF7CB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"70F43ACD23281C26"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:forbidden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C9767AB886D921D"
+			rewards: [{
+				id: "17039322343DF92C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "3D9D830C7810BE52"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: -4.5d
+			y: -11.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"65C0F179B3EFCCCA"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:xp_scroll"
+				tag: { }
+			}
+			id: "73A0D5567830A505"
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "05353695851048F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: 1.25d
+			y: -17.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"65C0F179B3EFCCCA"
+			]
+			disable_toast: true
+			icon: "nameless_trinkets:reforger"
+			id: "7EB31DABBB2867AD"
+			rewards: [{
+				id: "4F0CC59A6F67F97A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:puffer_fish_liver"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "59CA32D9A4DF0D6A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: 2.25d
+			y: -18.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"2287D80377221AA3"
+			]
+			disable_toast: true
+			icon: "nameless_trinkets:fractured_nullstone"
+			id: "311BE15ADA7196D4"
+			rewards: [{
+				id: "63D16858F6FB7391"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:fractured_nullstone"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "7EC4F9037F31CE86"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: 8.25d
+			y: -15.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"747103F5B1F7EADE"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:ascension_amulet"
+				tag: { }
+			}
+			id: "469F0A22F89EA1F8"
+			rewards: [{
+				id: "16E54FAFC1DE8994"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "362A0C6047CB782D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: 6.0d
+			y: -16.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"747103F5B1F7EADE"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:astral_breaker"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40F5E870338680A5"
+			rewards: [{
+				id: "7A47C388BC3D6BA8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:astral_breaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "6F94C76D6FF51585"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: 7.25d
+			y: -16.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"4EA3C0F4B8085A4A"
+			]
+			disable_toast: true
+			icon: "nameless_trinkets:ghast_eye"
+			id: "3C186ACFFF8FBCC2"
+			rewards: [{
+				id: "227EE0D9FE81FC00"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:ghast_eye"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "4115B357381BF95A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: 3.25d
+			y: -17.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0B04E6219666D4B5"
+				"0F13D524741AA224"
+			]
+			disable_toast: true
+			icon: "nameless_trinkets:speed_force"
+			id: "4F3F57141048C4FC"
+			rewards: [{
+				id: "113EED25F456A599"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:light_gloves"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "4F6D2934D1FE6507"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: 9.25d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0B04E6219666D4B5"
+				"34F0BAF3474C246B"
+			]
+			disable_toast: true
+			icon: "nameless_trinkets:rage_mind"
+			id: "7CE37B39E57869AD"
+			rewards: [{
+				id: "7FA81C905A61C746"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:rage_mind"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "37CCFACDDDC63D55"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0B04E6219666D4B5"
+				"43BA4C779406A821"
+			]
+			disable_toast: true
+			icon: "nameless_trinkets:four_leaf_clover"
+			id: "53EE532E70D1B8B3"
+			rewards: [{
+				id: "6C6B44396169B453"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:four_leaf_clover"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "38377DD72BE7300B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "256x Gems"
+			x: 9.25d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"36FB82F2E3A88F0F"
+			]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				id: "cataclysm:final_fractal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A1481A10240F378"
+			rewards: [{
+				id: "3527BCFC254B5BE3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "cataclysm:final_fractal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx. Defeat all bosses."
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "1F447C1B5CE77F90"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Worldender"
+			x: -6.75d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0B04E6219666D4B5"
+				"6DBD672B53D72C87"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:experience_magnet"
+			id: "1B031C11787F76CE"
+			rewards: [{
+				id: "643FCEA9D5B3F187"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:experience_magnet"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "2D7E30FE0500CD69"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 7.5d
+			y: -7.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0B04E6219666D4B5"
+				"6DBD672B53D72C87"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:tear_of_the_sea"
+			id: "7EFC13A1ADECCFD9"
+			rewards: [{
+				id: "08F15F0274C2FFC0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:tear_of_the_sea"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "74C561D1F58C51B4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"2287D80377221AA3"
+			]
+			disable_toast: true
+			hide: true
+			icon: "nameless_trinkets:miners_soul"
+			id: "68BA9B9A7ADD5405"
+			rewards: [{
+				id: "5E3640E441AB64C1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:miners_soul"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "47FBA53B0080CEBF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 4.5d
+			y: -15.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"08AC50217BF99F2D"
+			]
+			disable_toast: true
+			hide: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:void_stone"
+				tag: { }
+			}
+			id: "7912C594D0A9F900"
+			rewards: [{
+				id: "0175D4889DCE90CA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:void_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "7EC9FB853CCDBFBC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:blocks/argilitlit"
+				}
+			}
+			id: "20F2C6E5C8B5D747"
+			size: 2.0d
+			title: "Other Unlocks"
+			x: 2.25d
+			y: -7.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"34F0BAF3474C246B"
+				"021E0A5D7122A335"
+				"6DBD672B53D72C87"
+				"0F13D524741AA224"
+				"43BA4C779406A821"
+				"0B04E6219666D4B5"
+			]
+			disable_toast: true
+			hide: false
+			icon: "enigmaticlegacy:enchantment_transposer"
+			id: "7D17220ABA17FD93"
+			rewards: [{
+				id: "084E3871EDF757E3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:enchantment_transposer"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx. Unlock all Five Late-Game Food Collectathons."
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "311676A2BC621F24"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Hungering Prodigy"
+			x: 11.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"20F2C6E5C8B5D747"
+				"08ABB9CD687B8134"
+			]
+			disable_toast: true
+			hide: true
+			icon: "enigmaticlegacy:monster_charm"
+			id: "316176226614570C"
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "5CFC839530A98C3F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 1.0d
+			y: -6.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"20F2C6E5C8B5D747"
+				"08DB361144003BDE"
+			]
+			disable_toast: true
+			hide: true
+			icon: "enigmaticlegacy:eye_of_nebula"
+			id: "226B98BFC19BC4B8"
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "62E0B597B1868C2A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"20F2C6E5C8B5D747"
+				"53D0FA1AA4F83273"
+			]
+			disable_toast: true
+			hide: true
+			icon: "enigmaticlegacy:void_pearl"
+			id: "55C27D3B81A52389"
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "56548129960848EF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 3.5d
+			y: -6.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"20F2C6E5C8B5D747"
+				"71EC88C426B29736"
+			]
+			disable_toast: true
+			icon: "enigmaticlegacy:blazing_core"
+			id: "2B6AC8B53E138CD3"
+			shape: "circle"
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "5477E8BDFC06E441"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"20F2C6E5C8B5D747"
+				"48602E78DFC281AF"
+			]
+			disable_toast: true
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:anti_vessel"
+			}
+			id: "0BDD8DEF065A72D6"
+			rewards: [{
+				id: "64DDDA81F44E621C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "paraglider:anti_vessel"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "6E477D0492CC6F57"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 2.25d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0BDD8DEF065A72D6"
+				"20F2C6E5C8B5D747"
+			]
+			disable_toast: true
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:heart_container"
+			}
+			id: "29032E1622F0C239"
+			rewards: [{
+				id: "020B30F297E23DF8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "paraglider:heart_container"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "562554E5B4868EE6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: 2.25d
+			y: -4.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"5D0DDE86949AED66"
+			]
+			disable_toast: true
+			hide: true
+			icon: "celestisynth:celestial_crafting_table"
+			id: "23B180EA2F1F917E"
+			rewards: [{
+				id: "34DB9C65BCBF5EDF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "celestisynth:celestial_crafting_table"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "4416D0A596D4AE39"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Celestial Workbench (True Ending)"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"5D0DDE86949AED66"
+			]
+			disable_toast: true
+			hide: true
+			icon: "celestisynth:celestial_core"
+			id: "36E007F52CA76393"
+			rewards: [{
+				id: "16EAC356772E25B1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "celestisynth:celestial_core"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "6F578D31EDB63D1A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Celestial Core (True Ending)"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"1B565AFA2A27674E"
+				"6300F26804E97256"
+				"2CF80F2D16A11F98"
+			]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enigmaticlegacy:escape_scroll"
+			}
+			id: "00984E2A2C114E27"
+			rewards: [{
+				count: 5
+				id: "311A9726A4FB121F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:escape_scroll"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx. See all Giant Structures, Nether Structures, and Villages."
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "7ED0D75B44AF01FE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Cheater of Death"
+			x: -3.5d
+			y: -17.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"4EA3C0F4B8085A4A"
+				"65C0F179B3EFCCCA"
+			]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "17053AFB5DDA5D16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6867F00864FF8172"
+				table_id: 3194712686991109967L
+				title: "Choice of Any Tome"
+				type: "choice"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx. Acquire all Tetra and Create materials."
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "3B8748EE089BADA8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Creationist"
+			x: 2.25d
+			y: -19.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"2287D80377221AA3"
+				"165160F462EEDD6C"
+				"08AC50217BF99F2D"
+			]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enigmaticlegacy:mending_mixture"
+			}
+			id: "369DC95CD8D32734"
+			rewards: [{
+				count: 16
+				id: "030E2C252998D96D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:mending_mixture"
+				}
+				type: "item"
+			}]
+			subtitle: "256 rubies/jade/aquamarine/onyx. Collect all early game and end game gems, and all Ingots."
+			tasks: [{
+				consume_items: true
+				count: 256L
+				disable_toast: true
+				id: "7D21BFF3AAA7DE42"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Alloy Welder"
+			x: 8.25d
+			y: -17.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"07D1A40AF367E828"
+			]
+			disable_toast: true
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:dragon_egg"
+			}
+			id: "637D323A8A0E1045"
+			rewards: [{
+				id: "484A4BEE7C01B9F6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:dragon_egg"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "6FBFBF24ED378878"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: -2.25d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"615D275A59F5A721"
+				"165160F462EEDD6C"
+			]
+			disable_toast: true
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enigmaticlegacy:golden_ring"
+			}
+			id: "3F459DEFCF351255"
+			rewards: [{
+				id: "590DDBB194F6646D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:golden_ring"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "68D62138EF1F7B85"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "16x Gems"
+			x: 4.5d
+			y: -12.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"17904E8641926EC1"
+			]
+			disable_toast: true
+			icon: "quark:blank_rune"
+			id: "3600BBB37365FD5C"
+			rewards: [{
+				id: "5A99DF61B27D5834"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "quark:blank_rune"
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "4C2C25480F07DFED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Blank Rune (Clockwork Eye)"
+			x: 3.5d
+			y: -0.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"17904E8641926EC1"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "quark:backpack"
+				tag: {
+					Inventory: [
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+				}
+			}
+			id: "11FE3B90FFB22900"
+			rewards: [{
+				id: "02CC3BE3A09F7047"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "quark:backpack"
+					tag: {
+						Inventory: [
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "16 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "41C2A66B727EE56F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Backpack (Clockwork Eye)"
+			x: 9.5d
+			y: -0.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"07D1A40AF367E828"
+			]
+			disable_toast: true
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "nameless_trinkets:dragons_eye"
+			}
+			id: "5F13208053EF06AE"
+			rewards: [{
+				id: "4CF985FC2A8F5D0B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:dragons_eye"
+				}
+				type: "item"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "091AF9669CEEA7A5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "64x Gems"
+			x: -3.5d
+			y: -9.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"75B161D78BD03E9D"
+				"2A496E134CB63E7E"
+			]
+			disable_toast: true
+			hide: true
+			icon: "artifacts:mimic_spawn_egg"
+			id: "142A58038DE818CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BA289F57D59AC47"
+				table_id: 5327006391416214689L
+				type: "choice"
+			}]
+			subtitle: "64 rubies/jade/aquamarine/onyx"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "2D6AF8C16E6F80EA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:ruby"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:jade"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:aquamarine"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "epicsamurai:onyx"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Buy ANY Artifact"
+			x: 6.5d
+			y: -0.75d
+		}
+	]
+	title: "Shop"
+}

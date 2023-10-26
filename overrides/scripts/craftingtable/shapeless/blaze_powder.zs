@@ -1,0 +1,1 @@
+craftingTable.addShapeless("blaze_powder",<item:minecraft:blaze_powder> * 2, [<item:endrem:witch_pupil>,<item:minecraft:fire_charge>]);

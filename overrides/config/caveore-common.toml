@@ -1,0 +1,15 @@
+
+["Ore settings"]
+	#List of blocks to which ores are allowed to spawn next to. This does not override existing spawn restrictions of the ores, as those are restrictions on the block they can spawn instead of.  e.g. format :  ["minecraft:air", "minecraft:cave_air"]
+	caveblocks = ["minecraft:air", "minecraft:cave_air", "minecraft:water", "minecraft:lava"]
+	#List of excluded ores beeing affected, these are mod-specific. : e.g. format :  ["mod:orename", "minecraft:iron_ore"]
+	excludedOres = ["minecraft:diamond_ore", "minecraft:gold_ore", "minecraft:iron_ore", "minecraft:copper_ore", "minecraft:coal_ore", "create:zinc_ore", "minecraft:redstone_ore", "minecraft:lapis_ore", "minecraft:emerald_ore", "minecraft:nether_quartz_ore", "minecraft:nether_gold_ore", "enlightened_end:malachite_ore", "enlightened_end:bismuth_ore", "minecraft:deepslate_diamond_ore", "minecraft:deepslate_gold_ore", "minecraft:deepslate_iron_ore", "minecraft:deepslate_copper_ore", "minecraft:deepslate_coal_ore", "create:deepslate_zinc_ore", "minecraft:deepslate_redstone_ore", "minecraft:deepslate_lapis_ore", "minecraft:deepslate_emerald_ore", "blue_skies:ventium_ore", "blue_skies:horizonite_ore", "blue_skies:falsite_ore", "blue_skies:everbright_aquite_ore", "blue_skies:everbright_charoite_ore", "blue_skies:everbright_diopside_ore", "blue_skies:everbright_emerald_ore", "blue_skies:everbright_moonstone_ore", "blue_skies:everbright_portal", "blue_skies:everbright_pyrope_ore", "blue_skies:everdawn_aquite_ore", "blue_skies:everdawn_charoite_ore", "blue_skies:everdawn_diopside_ore", "blue_skies:everdawn_emerald_ore", "blue_skies:everdawn_moonstone_ore", "blue_skies:everdawn_pyrope_ore", "epicsamurai:silver_ore", "epicsamurai:deepslate_silver_ore", "epicsamurai:onyx_ore", "epicsamurai:deepslate_onyx_ore", "epicsamurai:aquamarine_ore", "epicsamurai:deepslate_aquamarine_ore", "epicsamurai:jade_ore", "epicsamurai:deepslate_jade_ore", "epicsamurai:ruby_ore", "epicsamurai:deepslate_ruby_ore", "iter_rpg:magmanum_ore", "iter_rpg:ametrine_ore"]
+	#Invert the exluded list to an included only list, of which ores are affected. Default = false
+	inverted = true
+	#Chance for an ore vein to appear, reduced below 100% to reduce spawn rates.
+	#Range: 1 ~ 100
+	spawnchance = 100
+	#Alters chance of ores to not get spawned on air, increase to have more ores spawning on air.
+	#Range: 0.10000000149011612 ~ 100.0
+	airChance = 15.0
+
