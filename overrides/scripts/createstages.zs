@@ -144,6 +144,7 @@ CTEventManager.register<GameStageAdded>((event) => {
 var itemsStageOne = [
 	<item:quark:backpack>,
 	<item:toms_storage:ts.storage_terminal>,
+	<item:toms_storage:ts.crafting_terminal>,
 	<item:aquaculture:neptunium_axe>,
 	<item:aquaculture:neptunium_block>,
 	<item:aquaculture:neptunium_boots>,
