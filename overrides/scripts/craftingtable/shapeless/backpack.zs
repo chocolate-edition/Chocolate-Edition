@@ -1,1 +1,0 @@
-craftingTable.addShaped("backpack1",<item:sophisticatedbackpacks:backpack>, [[<item:minecraft:leather>,<item:epicsamurai:silver_ingot>,<item:minecraft:leather>],[<item:minecraft:bundle>,<item:quark:backpack>,<item:minecraft:bundle>],[<item:epicsamurai:silver_ingot>,<item:epicsamurai:silver_ingot>,<item:epicsamurai:silver_ingot>]]);
