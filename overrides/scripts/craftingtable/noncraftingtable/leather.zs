@@ -1,0 +1,1 @@
+<recipetype:farmersdelight:cutting>.addRecipe("yeti_hide_to_leather", <item:cnb:yeti_hide>, [(<item:minecraft:leather> * 2)], <tag:items:forge:tools/knives>);

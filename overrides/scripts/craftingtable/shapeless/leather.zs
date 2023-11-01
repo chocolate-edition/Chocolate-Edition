@@ -1,2 +1,1 @@
 craftingTable.addShapeless("leather",<item:minecraft:leather>, [<item:born_in_chaos_v1:smoked_flesh>,<item:born_in_chaos_v1:smoked_flesh>,<item:born_in_chaos_v1:smoked_flesh>,<item:born_in_chaos_v1:smoked_flesh>,<item:born_in_chaos_v1:smoked_flesh>,<item:born_in_chaos_v1:smoked_flesh>,<item:born_in_chaos_v1:smoked_flesh>,<item:born_in_chaos_v1:smoked_flesh>,<item:born_in_chaos_v1:smoked_flesh>]);
-craftingTable.addShapeless("yeti_to_leather",<item:minecraft:leather> * 2, [<item:cnb:yeti_hide>]);
