@@ -1,1 +1,0 @@
-craftingTable.addShapeless("mage2_chestplate",<item:dungeons_mobs:mage_chestplate>,[<item:minecraft:amethyst_shard>,<item:dungeons_mobs:mage_leggings>.anyDamage(),<item:nourished_nether:necronium_ingot>]);
