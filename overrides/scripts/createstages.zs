@@ -365,27 +365,27 @@ var itemsStageFive = [
 
 for item in itemsStageOne {
 	ItemStages.restrict(item.anyDamage(), "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-	//mods.recipestages.Recipes.setRecipeStage("one", item);
+	mods.recipestages.Recipes.setRecipeStage("one", item);
 }
 
 for item in itemsStageTwo {
 	ItemStages.restrict(item.anyDamage(), "two").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//	mods.recipestages.Recipes.setRecipeStage("two", item);
+	mods.recipestages.Recipes.setRecipeStage("two", item);
 }
 
 for item in itemsStageThree {
 	ItemStages.restrict(item.anyDamage(), "three").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-	//mods.recipestages.Recipes.setRecipeStage("three", item);
+	mods.recipestages.Recipes.setRecipeStage("three", item);
 }
 
 for item in itemsStageFour {
 	ItemStages.restrict(item.anyDamage(), "four").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-	//mods.recipestages.Recipes.setRecipeStage("four", item);
+	mods.recipestages.Recipes.setRecipeStage("four", item);
 }
 
 for item in itemsStageFive {
 	ItemStages.restrict(item.anyDamage(), "five").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//	mods.recipestages.Recipes.setRecipeStage("five", item);
+	mods.recipestages.Recipes.setRecipeStage("five", item);
 }
 
 /* gotta figure this out for later
@@ -402,7 +402,7 @@ for index, itemArray in stagedItemArrays {
 
 ItemStages.createModRestriction("witherstormmod", "five").preventInventory(false).preventPickup(false);
 Jei.hideModIngredients("witherstormmod", path => false);
-//mods.recipestages.Recipes.setRecipeStageByMod("five", "witherstormmod");
+mods.recipestages.Recipes.setRecipeStageByMod("five", "witherstormmod");
 
 DimensionStages.stageDimensionWithMessage("minecraft:the_nether","The Nether requires 3 eyes worth of power to enter...", "one");
 DimensionStages.stageDimensionWithMessage("blue_skies:everbright","The Everbright requires 6 eyes worth of power to enter...", "two");
