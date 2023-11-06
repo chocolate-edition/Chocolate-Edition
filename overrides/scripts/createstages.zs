@@ -16,64 +16,36 @@ import mods.jeitweaker.ingredient.JeiIngredient;
 import crafttweaker.api.game.Server;
 import crafttweaker.api.world.ServerLevel;
 
-StageHelper.grantStageWhenPickedUp(<item:minecraft:crafting_table>,  "firstcontact");
-StageHelper.grantStageWhenPickedUp(<item:endrem:witch_eye>,  "witch_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:magical_eye>,  "magical_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:rogue_eye>,  "rogue_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:evil_eye>,  "evil_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:cursed_eye>,  "cursed_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:corrupted_eye>,  "corrupted_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:cold_eye>,  "cold_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:old_eye>,  "old_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:lost_eye>,  "lost_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:nether_eye>,  "nether_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:guardian_eye>,  "guardian_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:undead_eye>,  "undead_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:exotic_eye>,  "exotic_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:cryptic_eye>,  "cryptic_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:black_eye>,  "black_eye");
-StageHelper.grantStageWhenPickedUp(<item:endrem:wither_eye>,  "wither_eye");
+// Crafting Table and Eye stages moved to FTB Quests
 
-StageHelper.grantStageWhenCrafting(<item:minecraft:crafting_table>,  "firstcontact");
-StageHelper.grantStageWhenCrafting(<item:endrem:witch_eye>,  "witch_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:magical_eye>,  "magical_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:rogue_eye>,  "rogue_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:evil_eye>,  "evil_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:cursed_eye>,  "cursed_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:corrupted_eye>,  "corrupted_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:cold_eye>,  "cold_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:old_eye>,  "old_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:lost_eye>,  "lost_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:nether_eye>,  "nether_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:guardian_eye>,  "guardian_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:undead_eye>,  "undead_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:exotic_eye>,  "exotic_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:cryptic_eye>,  "cryptic_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:black_eye>,  "black_eye");
-StageHelper.grantStageWhenCrafting(<item:endrem:wither_eye>,  "wither_eye");
-
+var eyesArray = [
+	"witch_eye",
+	"magical_eye",
+	"rogue_eye",
+	"evil_eye",
+	"cursed_eye",
+	"corrupted_eye",
+	"cold_eye",
+	"old_eye",
+	"lost_eye",
+	"nether_eye",
+	"guardian_eye",
+	"undead_eye",
+	"exotic_eye",
+	"cryptic_eye",
+	"black_eye",
+	"wither_eye"
+] as string[];
 
 CTEventManager.register<GameStageAdded>((event) => {
     var count = 0;
-
-    if (event.player.hasGameStage("witch_eye")){count++;}
-    if (event.player.hasGameStage("magical_eye")){count++;}
-    if (event.player.hasGameStage("rogue_eye")){count++;}
-    if (event.player.hasGameStage("evil_eye")){count++;}
-    if (event.player.hasGameStage("cursed_eye")){count++;}
-    if (event.player.hasGameStage("corrupted_eye")){count++;}
-    if (event.player.hasGameStage("cold_eye")){count++;}
-    if (event.player.hasGameStage("old_eye")){count++;}
-    if (event.player.hasGameStage("lost_eye")){count++;}
-    if (event.player.hasGameStage("nether_eye")){count++;}
-    if (event.player.hasGameStage("guardian_eye")){count++;}
-    if (event.player.hasGameStage("undead_eye")){count++;}
-    if (event.player.hasGameStage("exotic_eye")){count++;}
-    if (event.player.hasGameStage("cryptic_eye")){count++;}
-    if (event.player.hasGameStage("black_eye")){count++;}
-    if (event.player.hasGameStage("wither_eye")){count++;}
-    
- if (count==16 && !event.player.hasGameStage("five")){
+	// counts the eyes lol
+	for eye in eyesArray {
+		if(event.player.hasGameStage(eye)) {count++;}
+	}
+	
+	
+	if (count==16 && !event.player.hasGameStage("five")){
         event.player.addGameStage("five");
 	    event.player.sendMessage("The voice that previously spoke to you is gone, but a new voice calls out: Hi! My name is Christi, and I'm the new guy. Don't worry, I'm not here to take over any realms, I'm just here to say congratulations! You can now utilize the strongest tools in all the realms!!! You probably won't need it, but i found this last heart laying around so I think I'll give it to you as thanks. Thank you so much for playing this modpack all the way through, it took me hundreds of hours to figure out how to put this all together. I really hope you enjoyed! Now have fun being a Master of the Realms. Oh, and could you do one more thing for me? I put a final quest in your book, I'd like you to take a look. It's been a long time since I've been in my old home; I miss it very much.");
         event.player.give(<item:paraglider:heart_container> );
@@ -87,8 +59,6 @@ CTEventManager.register<GameStageAdded>((event) => {
 	    event.player.sendMessage("I've done it. You see, those 'Gods' that put me here, weren't really gods- but insignificant little oaves who couldn't accept their fate. Though they might as well have been gods, because they had the whole package- stubbornness, savagery, and being the ones in charge of a Broken World. And just because I sought to finish what they started, take the responsibility and be the bad guy- to stop the endless suffering- they suddenly grew a conscience. They tried to defy their nature to stop me. I wasn't having it. Where were they when I was weak? No, that world couldn't be fixed.");
         event.player.sendMessage("I could've wiped them off the face of the earth in an instant if it wasn't for the main source of their Power -the eyes, which were Power incarnate. Forged with the combined power of civilizations, I tried to steal them from the stronghold where they were kept, but they had replaced the gates, and sucked me into this vile place of nothingness. They couldn't even have the honor to fight me head on. No, they had to trap me here, in the farthest reaches of the Universe, break the eyes so that I could never get out, and starve me of Energy. While I constantly tried to break out- it was no use. I hadn't studied the eye's Power, and I thought it was too late."); 
 	    event.player.sendMessage("But after finding you, I realized just how painfully simple it was- all I had to do was act all friendly, and get you curious enough to put those eyes back together. My freedom, and a new source of power, will now finally transform me back to my True Self and beyond. I will come into your worlds, and free them all- from their power. And after restoring myself to my former glory- I will burn the remaining little devils that put me here to the ground. But, because I've come to respect your lust for Power, and want a fight with honor, I will let you have a final chance to see my power unfold. Throw an Eye and follow the direction it goes in to make your way to one of the gates. The victory will go to who deserves it.");
-
-
     }
     else if (count==9 && !event.player.hasGameStage("three")){
         event.player.addGameStage("three");
@@ -114,8 +84,15 @@ CTEventManager.register<GameStageAdded>((event) => {
 	    event.player.sendMessage("*you feel the sudden urge to look in your quest book*");      
 
     }
-    event.player.sendMessage("Your eye count is " + count);
-
+	
+	// separated loop from eye count bc i need the count to be completed BEFORE the command starts spitting out your eye count
+	for eye in eyesArray {
+		if(event.stage == eye)
+			if (count!=16)
+				event.player.sendMessage("§dYou have collected §b" + count + "§d of the Eyes.");
+			else
+				event.player.sendMessage("§dYou have collected §ball§d of the Eyes.");
+	}
 }
         
 );

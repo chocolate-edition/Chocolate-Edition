@@ -6,7 +6,7 @@
 	group: ""
 	icon: "minecraft:barrier"
 	id: "2C7D4E108CF721D5"
-	order_index: 0
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -175,6 +175,14 @@
 		}
 		{
 			id: "2243BA6B2363797E"
+			rewards: [{
+				auto: "invisible"
+				command: "gamestage add @s firstcontact"
+				id: "3078E0438AF94E07"
+				player_command: true
+				silent: true
+				type: "command"
+			}]
 			tasks: [{
 				id: "2CCF1836B3D063C1"
 				item: {
@@ -391,6 +399,23 @@
 		}
 		{
 			id: "26F5CDC3A27E6711"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s cryptic_eye"
+					id: "6431E90056EEA3EF"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @s [\"\",{\"text\":\"You feel the Cryptic Eye infuse you with \",\"italic\":true,\"color\":\"aqua\"},{\"text\":\"its cryptic powers\",\"obfuscated\":true,\"italic\":true,\"color\":\"aqua\"},{\"text\":\".\",\"italic\":true,\"color\":\"aqua\"}]"
+					id: "16ED8C82DF3C2A81"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "1CEE639594BE0DD0"
 				item: {
@@ -410,6 +435,23 @@
 		}
 		{
 			id: "28ED7103917C560F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s corrupted_eye"
+					id: "4B5C45AD7A975B04"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Corrupted Eye imbue you with its evocative powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "45522EBDD7C3A226"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "11EE7BFA715BA83E"
 				item: {
@@ -429,6 +471,23 @@
 		}
 		{
 			id: "16CD44D1EAAD88D3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s exotic_eye"
+					id: "721FDDC91A947180"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Exotic Eye imbue you with its neptunian powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "0DFF8FAC51A44A98"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "746A555EEA216121"
 				item: {
@@ -448,6 +507,23 @@
 		}
 		{
 			id: "2A496E134CB63E7E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s lost_eye"
+					id: "47A9FB49AEE67B27"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Lost Eye imbue you with its forgotten powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "38172E4FB273A5A9"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "6699E56C50F6A43D"
 				item: {
@@ -467,6 +543,23 @@
 		}
 		{
 			id: "3F62CCBF121468D2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s black_eye"
+					id: "470417D4082CAF47"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Black Eye imbue you with its thalassic powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "2D9048D45FA67F3C"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "59B48E0BB042AAB2"
 				item: {
@@ -486,6 +579,23 @@
 		}
 		{
 			id: "2E4EE153568E8132"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s undead_eye"
+					id: "04F5666772A3A707"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Undead Eye imbue you with its necromantic powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "5077DA688AF257BB"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "60B0367F137CA5D7"
 				item: {
@@ -505,6 +615,23 @@
 		}
 		{
 			id: "7C8D4F502A2DAC2A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s witch_eye"
+					id: "5BBFB88C12F80E5D"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Witch Eye imbue you with its alchemical powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "062394478FD88A08"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "70496EE113180102"
 				item: {
@@ -524,6 +651,23 @@
 		}
 		{
 			id: "53188B23D4464DEA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s wither_eye"
+					id: "4C6B8CEFC744A98B"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Wither Eye imbue you with its entropic powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "74098828D9AEE695"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "26878CC0221922DD"
 				item: {
@@ -543,6 +687,23 @@
 		}
 		{
 			id: "4ABF1EDF8EFC3E27"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s rogue_eye"
+					id: "7922F67B3F5F6CC3"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Rogue Eye imbue you with its wild powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "683F1B83DC889E0A"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "14FF947A01206B43"
 				item: {
@@ -562,6 +723,23 @@
 		}
 		{
 			id: "17BF3479C0BAF570"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s old_eye"
+					id: "381E6B5745779D42"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Old Eye imbue you with its ancient powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "79C1722B55FE0003"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "6316EFEC4B6763D6"
 				item: {
@@ -581,6 +759,23 @@
 		}
 		{
 			id: "08B9F71B7670B011"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s cursed_eye"
+					id: "130631DE5757EB1B"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Cursed Eye imbue you with its dark powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "40D1A4E5A2EA2726"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "379E6BB548F0DA63"
 				item: {
@@ -600,6 +795,23 @@
 		}
 		{
 			id: "6A7E8AD8ECEAE0C1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s nether_eye"
+					id: "07D276D722DDAEFD"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Nether Eye imbue you with its infernal powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "7D8AAE7C9F775986"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "2499EDA2C42C65DE"
 				item: {
@@ -619,6 +831,23 @@
 		}
 		{
 			id: "6829E942B18CC267"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s guardian_eye"
+					id: "7B0A2D03CAA86B7A"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Guardian Eye imbue you with its protective powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "18411B27512FD825"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "5F0C0A99136CA564"
 				item: {
@@ -638,6 +867,23 @@
 		}
 		{
 			id: "17904E8641926EC1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s evil_eye"
+					id: "5484A07DF49D1465"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Clockwork Eye imbue you with its technological powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "18880BED77D4DC31"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "4DA35BF267D78654"
 				item: {
@@ -657,6 +903,23 @@
 		}
 		{
 			id: "61E4E3CF5CD42AFE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s cold_eye"
+					id: "6686005D6A181795"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Cold Eye imbue you with its cryonic powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "645EDB18F139BD34"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "16F3D7A6421FB3F0"
 				item: {
@@ -676,6 +939,23 @@
 		}
 		{
 			id: "2AA1C467D47839EE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s magical_eye"
+					id: "480196EC3E90DFB1"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @s [\"\",{\"text\":\"You feel the Magical Eye imbue you with its mystic powers...\",\"color\":\"aqua\",\"italic\":true}]"
+					id: "2357647309F10B9D"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "2F2F389A640464EC"
 				item: {
@@ -1749,6 +2029,32 @@
 			x: -4.5d
 			y: 7.0d
 		}
+		{
+			id: "77894D16FA6D447F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage clear @s"
+					id: "04C961C035EC8D86"
+					player_command: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "ftbquests change_progress @s reset 2C7D4E108CF721D5"
+					id: "032B2C9A927A0CB6"
+					player_command: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "56F4B22CD96E4376"
+				title: "Remove all progress (debug)"
+				type: "checkmark"
+			}]
+			x: -7.75d
+			y: 5.75d
+		}
 	]
-	title: "temps"
+	title: "Flags"
 }
