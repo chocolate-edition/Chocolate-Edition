@@ -3,7 +3,7 @@
 deathPenaltyMin = 0
 #The reduction in percentage applied to all diet groups upon death.
 #Range: 0 ~ 100
-deathPenaltyLoss = 100
+deathPenaltyLoss = 0
 #The method to apply for losses due to death penalties.
 #AMOUNT = Reduce by a flat percentage amount
 #PERCENT = Reduce by a percent of the current value
