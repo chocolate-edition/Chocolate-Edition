@@ -479,7 +479,7 @@
 	"Parrot Eggs" = true
 	"Color Runes" = true
 	"Seed Pouch" = true
-	"Bundle Recipe" = true
+	"Bundle Recipe" = false
 	"Ambient Discs" = true
 	"Endermosh Music Disc" = true
 	"Beacon Redirection" = true
