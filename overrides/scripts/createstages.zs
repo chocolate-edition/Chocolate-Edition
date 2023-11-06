@@ -84,6 +84,9 @@ CTEventManager.register<GameStageAdded>((event) => {
 	    event.player.sendMessage("*you feel the sudden urge to look in your quest book*");      
 
     }
+
+
+
 	
 	// separated loop from eye count bc i need the count to be completed BEFORE the command starts spitting out your eye count
 	for eye in eyesArray {
@@ -94,8 +97,11 @@ CTEventManager.register<GameStageAdded>((event) => {
 				event.player.sendMessage("§dYou have collected §ball§d of the Eyes.");
 	}
 }
-        
+   
+   
 );
+
+
 //preventPickup(false);
 //preventInventory(false);
 //setHiddenInJEI(false); 
@@ -118,6 +124,9 @@ CTEventManager.register<GameStageAdded>((event) => {
 
 // shittily coded arrays and loops courtesy of yours truly guyperson1
 
+
+
+// --------------------------------------------------- ITEM STAGE ONE ------------------------------------------------------------------//
 var itemsStageOne = [
 	<item:quark:backpack>,
 	<item:toms_storage:ts.storage_terminal>,
@@ -147,6 +156,7 @@ var itemsStageOne = [
 	<item:born_in_chaos_v1:nightmare_mantleofthe_night_leggings>,
 	<item:born_in_chaos_v1:nightmare_mantleofthe_night_chestplate>,
 	<item:born_in_chaos_v1:nightmare_mantleofthe_night_helmet>,
+	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:backpack>,
 	<item:sophisticatedbackpacks:iron_backpack>,
 	<item:sophisticatedbackpacks:filter_upgrade>,
@@ -162,6 +172,8 @@ var itemsStageOne = [
 	<item:sophisticatedbackpacks:auto_blasting_upgrade>
 ];
 
+
+// --------------------------------------------------- ITEM STAGE TW0 ------------------------------------------------------------------//
 var itemsStageTwo = [
 	<item:wstweaks:blaze_blade>,
 	<item:wstweaks:lava_blade>,
@@ -199,6 +211,7 @@ var itemsStageTwo = [
 	<item:create:mechanical_saw>,
 	<item:create:portable_storage_interface>,
 	<item:create:cart_assembler>,
+	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:gold_backpack>,
 	<item:sophisticatedbackpacks:compacting_upgrade>,
 	<item:sophisticatedbackpacks:advanced_compacting_upgrade>,
@@ -209,6 +222,9 @@ var itemsStageTwo = [
 	<item:sophisticatedbackpacks:stack_upgrade_tier_1>
 ];
 
+
+
+// --------------------------------------------------- ITEM STAGE THREE ------------------------------------------------------------------//
 var itemsStageThree = [
 	<item:infusion_table:infusion_table>,
 	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/howling"], ribbon: "faf396", glyphs: [8, 9, 10, 5], key: "sword/howling"}]}}),
@@ -230,6 +246,7 @@ var itemsStageThree = [
 	<item:born_in_chaos_v1:skullbreaker_hammer>,
 	<item:born_in_chaos_v1:trident_hayfork>,
 	<item:born_in_chaos_v1:dark_ritual_dagger>,
+	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:diamond_backpack>,
 	<item:sophisticatedbackpacks:feeding_upgrade>,
 	<item:sophisticatedbackpacks:advanced_feeding_upgrade>,
@@ -239,6 +256,9 @@ var itemsStageThree = [
 	
 ];
 
+
+
+// --------------------------------------------------- ITEM STAGE FOUR ------------------------------------------------------------------//
 var itemsStageFour = [
 	<item:cataclysm:infernal_forge>,
 	<item:cataclysm:tidal_claws>,
@@ -308,6 +328,7 @@ var itemsStageFour = [
 	<item:graveyard:white_bone_staff>,
 	<item:graveyard:black_bone_staff>,
 	<item:graveyard:purple_bone_staff>,
+	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:netherite_backpack>,
 	<item:sophisticatedbackpacks:xp_pump_upgrade>,
 	<item:sophisticatedbackpacks:everlasting_upgrade>,
@@ -315,6 +336,9 @@ var itemsStageFour = [
 	<item:sophisticatedbackpacks:stack_upgrade_tier_4>,
 ];
 
+
+
+// --------------------------------------------------- ITEM STAGE FIVE ------------------------------------------------------------------//
 var itemsStageFive = [
 	<item:cataclysm:ignitium_elytra_chestplate>,
 	<item:cataclysm:ignitium_boots>,
@@ -340,28 +364,28 @@ var itemsStageFive = [
 
 
 for item in itemsStageOne {
-	ItemStages.restrict(item, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-	mods.recipestages.Recipes.setRecipeStage("one", item);
+	ItemStages.restrict(item.anyDamage(), "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+	//mods.recipestages.Recipes.setRecipeStage("one", item);
 }
 
 for item in itemsStageTwo {
-	ItemStages.restrict(item, "two").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-	mods.recipestages.Recipes.setRecipeStage("two", item);
+	ItemStages.restrict(item.anyDamage(), "two").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+//	mods.recipestages.Recipes.setRecipeStage("two", item);
 }
 
 for item in itemsStageThree {
-	ItemStages.restrict(item, "three").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-	mods.recipestages.Recipes.setRecipeStage("three", item);
+	ItemStages.restrict(item.anyDamage(), "three").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+	//mods.recipestages.Recipes.setRecipeStage("three", item);
 }
 
 for item in itemsStageFour {
-	ItemStages.restrict(item, "four").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-	mods.recipestages.Recipes.setRecipeStage("four", item);
+	ItemStages.restrict(item.anyDamage(), "four").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+	//mods.recipestages.Recipes.setRecipeStage("four", item);
 }
 
 for item in itemsStageFive {
-	ItemStages.restrict(item, "five").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-	mods.recipestages.Recipes.setRecipeStage("five", item);
+	ItemStages.restrict(item.anyDamage(), "five").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+//	mods.recipestages.Recipes.setRecipeStage("five", item);
 }
 
 /* gotta figure this out for later
@@ -370,7 +394,7 @@ var stagedItemArrays = [itemsStageOne, itemsStageTwo, itemsStageThree, itemsStag
 
 for index, itemArray in stagedItemArrays {
 	for item in itemArray {
-		ItemStages.restrict(item, stages[index]).preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+		ItemStages.restrict(item.anyDamage(), stages[index]).preventInventory(false).preventPickup(false).setHiddenInJEI(false);
 		mods.recipestages.Recipes.setRecipeStage(stages[index], item);
 	}
 }
@@ -378,7 +402,7 @@ for index, itemArray in stagedItemArrays {
 
 ItemStages.createModRestriction("witherstormmod", "five").preventInventory(false).preventPickup(false);
 Jei.hideModIngredients("witherstormmod", path => false);
-mods.recipestages.Recipes.setRecipeStageByMod("five", "witherstormmod");
+//mods.recipestages.Recipes.setRecipeStageByMod("five", "witherstormmod");
 
 DimensionStages.stageDimensionWithMessage("minecraft:the_nether","The Nether requires 3 eyes worth of power to enter...", "one");
 DimensionStages.stageDimensionWithMessage("blue_skies:everbright","The Everbright requires 6 eyes worth of power to enter...", "two");
