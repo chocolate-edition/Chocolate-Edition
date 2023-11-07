@@ -37,3 +37,11 @@
 <tag:items:chocolate:raid_boss_items>.add(<item:illageandspillage:totem_of_banishment>);
 <tag:items:chocolate:raid_boss_items>.add(<item:illageandspillage:spellbound_book>);
 <tag:items:chocolate:raid_boss_items>.add(<item:illageandspillage:bag_of_horrors>);
+
+// ----- Diamond Heart Gems -----
+<tag:items:chocolate:diamond_heart_gems>.add(<item:minecraft:diamond>);
+<tag:items:chocolate:diamond_heart_gems>.add(<item:minecraft:emerald>);
+<tag:items:chocolate:diamond_heart_gems>.add(<item:epicsamurai:ruby>);
+<tag:items:chocolate:diamond_heart_gems>.add(<item:epicsamurai:aquamarine>);
+<tag:items:chocolate:diamond_heart_gems>.add(<item:epicsamurai:jade>);
+<tag:items:chocolate:diamond_heart_gems>.add(<item:epicsamurai:onyx>);
