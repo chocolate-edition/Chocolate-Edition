@@ -298,7 +298,7 @@
     B:TwistedMirrorEnabled=false
 
     # Whether or not Ultimate Potions should be enabled. [default: true, synchronized: yes]
-    B:UltimatePotionsEnabled=false
+    B:UltimatePotionsEnabled=true
 
     # Whether or not Unholy Grail should be enabled. [default: true, synchronized: yes]
     B:UnholyGrailEnabled=false
