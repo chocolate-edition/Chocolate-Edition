@@ -1,4 +1,4 @@
-import crafttweaker.api.events.CTEventManager;
+	import crafttweaker.api.events.CTEventManager;
 import crafttweaker.api.event.entity.player.interact.EntityInteractEvent;
 import crafttweaker.api.util.InteractionHand;
 import crafttweaker.api.text.Component;
@@ -362,6 +362,38 @@ var itemsStageFive = [
 	<item:alexsmobs:dimensional_carver>
 ];
 
+// --------------------------------------------------- CURSED (DISABLED) ITEMS ------------------------------------------------------------------//
+
+var itemsCursed = [
+	<item:enigmaticlegacy:cursed_ring>,
+	<item:enigmaticlegacy:enigmatic_eye>,
+	<item:enigmaticlegacy:recall_potion>,
+	<item:enigmaticlegacy:end_anchor>,
+	<item:enigmaticlegacy:the_infinitum>,
+	<item:enigmaticlegacy:avarice_scroll>,
+	<item:enigmaticlegacy:cursed_scroll>,
+	<item:enigmaticlegacy:darkest_scroll>,
+	<item:enigmaticlegacy:cosmic_scroll>,
+	<item:enigmaticlegacy:evil_essence>,
+	<item:enigmaticlegacy:evil_ingot>,
+	<item:enigmaticlegacy:eldritch_amulet>,
+	<item:enigmaticlegacy:soul_compass>,
+	<item:enigmaticlegacy:astral_fruit>,
+	<item:enigmaticlegacy:ender_slayer>,
+	<item:enigmaticlegacy:cursed_stone>,
+	<item:enigmaticlegacy:twisted_heart>,
+	<item:enigmaticlegacy:guardian_heart>,
+	<item:enigmaticlegacy:berserk_charm>,
+	<item:enigmaticlegacy:twisted_mirror>,
+	<item:enigmaticlegacy:curse_transposer>,
+	<item:enigmaticlegacy:twisted_potion>,
+	<item:enigmaticlegacy:infernal_shield>,
+	<item:enigmaticlegacy:enchanter_pearl>,
+	<item:enigmaticlegacy:abyssal_heart>,
+	<item:enigmaticlegacy:desolation_ring>,
+	<item:enigmaticlegacy:the_twist>,
+	<item:enigmaticlegacy:soul_crystal>
+];
 
 for item in itemsStageOne {
 	ItemStages.restrict(item.anyDamage(), "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
@@ -386,6 +418,14 @@ for item in itemsStageFour {
 for item in itemsStageFive {
 	ItemStages.restrict(item.anyDamage(), "five").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
 	mods.recipestages.Recipes.setRecipeStage("five", item);
+<<<<<<< Updated upstream
+=======
+}
+
+for item in itemsCursed {
+	ItemStages.restrict(item.anyDamage(), "enigma").preventInventory(false).preventPickup(false).hiddenName("§cEnigmatic Item");
+	mods.recipestages.Recipes.setRecipeStage("enigma", item);
+>>>>>>> Stashed changes
 }
 
 /* gotta figure this out for later
@@ -413,5 +453,5 @@ DimensionStages.stageDimensionWithMessage("javd:void", "The N E X U S requires 1
 
 
 
-ItemStages.restrict(<item:supplementaries:sack>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-ItemStages.restrict(<item:iter_rpg:nightfall>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+ItemStages.restrict(<item:supplementaries:sack>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
+ItemStages.restrict(<item:iter_rpg:nightfall>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
