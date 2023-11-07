@@ -38,6 +38,14 @@
 <tag:items:chocolate:raid_boss_items>.add(<item:illageandspillage:spellbound_book>);
 <tag:items:chocolate:raid_boss_items>.add(<item:illageandspillage:bag_of_horrors>);
 
+// ----- Blue Skies Tower Boss Arcs -----
+<tag:items:chocolate:tower_arcs>.add(<item:blue_skies:ethereal_arc>);
+<tag:items:chocolate:tower_arcs>.add(<item:blue_skies:dusk_arc>);
+
+// ----- Guardian Eye Pearls -----
+<tag:items:chocolate:guardian_pearls>.add(<item:crittersandcompanions:pearl>);
+<tag:items:chocolate:guardian_pearls>.add(<item:iter_rpg:pearl>);
+
 // ----- Diamond Heart Gems -----
 <tag:items:chocolate:diamond_heart_gems>.add(<item:minecraft:diamond>);
 <tag:items:chocolate:diamond_heart_gems>.add(<item:minecraft:emerald>);
