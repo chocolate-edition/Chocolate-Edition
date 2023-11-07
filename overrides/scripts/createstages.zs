@@ -418,14 +418,11 @@ for item in itemsStageFour {
 for item in itemsStageFive {
 	ItemStages.restrict(item.anyDamage(), "five").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
 	mods.recipestages.Recipes.setRecipeStage("five", item);
-<<<<<<< Updated upstream
-=======
 }
 
 for item in itemsCursed {
 	ItemStages.restrict(item.anyDamage(), "enigma").preventInventory(false).preventPickup(false).hiddenName("§cEnigmatic Item");
-	mods.recipestages.Recipes.setRecipeStage("enigma", item);
->>>>>>> Stashed changes
+	craftingTable.remove(item);
 }
 
 /* gotta figure this out for later
@@ -440,7 +437,7 @@ for index, itemArray in stagedItemArrays {
 }
 */
 
-ItemStages.createModRestriction("witherstormmod", "five").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("witherstormmod", "five").preventInventory(false).preventPickup(false).hiddenName("§cUnsettling Item");
 Jei.hideModIngredients("witherstormmod", path => false);
 mods.recipestages.Recipes.setRecipeStageByMod("five", "witherstormmod");
 
