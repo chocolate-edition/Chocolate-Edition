@@ -1,0 +1,3 @@
+<recipetype:create:mixing>.addRecipe("steel_from_iron", <constant:create:heat_condition:heated>, [<item:epicsamurai:steel_ingot> * 2], [<item:minecraft:iron_ingot> * 2, <item:minecraft:coal> * 2], [], 200);
+<recipetype:create:mixing>.addRecipe("steel_from_gobsteel", <constant:create:heat_condition:heated>, [<item:epicsamurai:steel_ingot> * 3], [<item:iter_rpg:gobsteel_scrap> * 2, <item:minecraft:coal> * 2], [], 200);
+<recipetype:create:mixing>.addRecipe("steel_from_ventium", <constant:create:heat_condition:heated>, [<item:epicsamurai:steel_ingot> * 3], [<item:blue_skies:ventium_ingot> * 2, <item:minecraft:coal> * 2], [], 200);

@@ -16,7 +16,7 @@ import mods.jeitweaker.ingredient.JeiIngredient;
 import crafttweaker.api.game.Server;
 import crafttweaker.api.world.ServerLevel;
 
-# priority 99
+#priority -10
 
 // Crafting Table and Eye stages moved to FTB Quests
 
