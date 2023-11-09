@@ -70,7 +70,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -407,6 +407,18 @@
 			title: "Your Final Challenge"
 			x: 0.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["7CFCF3BA7E2B325C"]
+			id: "6E19CC4003AB0A59"
+			subtitle: "&4<-- Hover on the left side of the screen"
+			tasks: [{
+				id: "0ABFB8801C83BE80"
+				title: "Chapter Selector"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
 		}
 	]
 	title: "Welcome!"
