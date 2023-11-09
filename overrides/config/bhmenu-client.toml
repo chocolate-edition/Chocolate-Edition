@@ -13,7 +13,7 @@ pack_edit_mode = true
 [modules]
 
 	[modules.server_creator_banner]
-		enabled = true
+		enabled = false
 
 		#Modpack Configs
 		[modules.server_creator_banner.pack]
