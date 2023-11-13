@@ -80,19 +80,18 @@ CTEventManager.register<GameStageAdded>((event) => {
         event.player.give(<item:paraglider:heart_container>);
 
     }
-        else if (event.player.hasGameStage("firstcontact") && !event.player.hasGameStage("zero")){
+    else if (event.player.hasGameStage("firstcontact") && !event.player.hasGameStage("zero")){
         event.player.addGameStage("zero");
 	    event.player.sendMessage("*you feel a faint vision come over you, of a event long ago. It is of an ancient place- somewhere lost to time. Over a lit table surrounded by engulfing dark, you notice some people- villagers, illagers, piglins, endermen,  and many more. An eye of ender is placed on the table, it's power entrenching- and everything goes white*");
 	    event.player.sendMessage("*you feel the sudden urge to look in your quest book*");
-		event.player.give(<item:ftbquests:book>);
+		event.player.give(
+			<item:ftbquests:book>.withTag({display: {Lore: ["{\"text\":\"Quests can also be opened with a button in your inventory (top left)\"}", "{\"text\":\"You can also bind Quests to a keybind in Controls\"}"], Name: ""}})
+		);
 
     }
-
-
-
 	
-	// separated loop from eye count bc i need the count to be completed BEFORE the command starts spitting out your eye count
-	for eye in eyesArray {
+    // separated loop from eye count bc i need the count to be completed BEFORE the command starts spitting out your eye count
+    for eye in eyesArray {
 		if(event.stage == eye)
 			if (count!=16)
 				event.player.sendMessage("§dYou have collected §b" + count + "§d of the Eyes.");
@@ -103,28 +102,6 @@ CTEventManager.register<GameStageAdded>((event) => {
    
    
 );
-
-
-//preventPickup(false);
-//preventInventory(false);
-//setHiddenInJEI(false); 
-//ItemStages.restrict(<item:minecraft:white_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:black_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:green_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:blue_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:cyan_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:red_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:lime_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:purple_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:yellow_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:gray_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:light_gray_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:orange_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:magenta_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:pink_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:brown_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-//ItemStages.restrict(<item:minecraft:light_blue_bed>, "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-
 // shittily coded arrays and loops courtesy of yours truly guyperson1
 
 
