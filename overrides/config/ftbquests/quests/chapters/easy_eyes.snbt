@@ -547,7 +547,7 @@
 			shape: "rsquare"
 			subtitle: "Kill Enderman at night, trade with Piglins/Clerics, or find in chests"
 			tasks: [{
-				id: "4E9A2BA0AA34144F"
+				id: "46288EC1E8A3D0E4"
 				item: {
 					Count: 1b
 					ForgeCaps: {
@@ -555,6 +555,9 @@
 					}
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Ender Pearls\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -2628,7 +2631,7 @@
 			shape: "gear"
 			subtitle: "Crafted from varying materials and upgradable"
 			tasks: [{
-				id: "1DD85B73B5456F24"
+				id: "5C676BDF53D42B62"
 				item: {
 					Count: 1b
 					ForgeCaps: {
@@ -2636,6 +2639,9 @@
 					}
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Fishing Rods\"}"
+						}
 						items: [
 							{
 								Count: 1b
