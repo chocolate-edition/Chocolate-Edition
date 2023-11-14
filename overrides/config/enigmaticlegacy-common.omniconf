@@ -34,7 +34,7 @@
     B:AstralBreakerEnabled=false
 
     # Whether or not Astral Dust should be enabled. [default: true, synchronized: yes]
-    B:AstralDustEnabled=false
+    B:AstralDustEnabled=true
 
     # Whether or not Astral Potato should be enabled. [default: true, synchronized: yes]
     B:AstralPotatoEnabled=false
@@ -178,7 +178,7 @@
     B:HeartoftheCosmosEnabled=false
 
     # Whether or not Heart of the Earth should be enabled. [default: true, synchronized: yes]
-    B:HeartoftheEarthEnabled=false
+    B:HeartoftheEarthEnabled=true
 
     # Whether or not Heart of the Golem should be enabled. [default: true, synchronized: yes]
     B:HeartoftheGolemEnabled=false
