@@ -196,7 +196,7 @@
 [automation]
 	Gravisand = true
 	"Metal Buttons" = true
-	"Dispensers Place Blocks" = true
+	"Dispensers Place Blocks" = false
 	"Jukebox Automation" = true
 	Chute = true
 	"Feeding Trough" = true
