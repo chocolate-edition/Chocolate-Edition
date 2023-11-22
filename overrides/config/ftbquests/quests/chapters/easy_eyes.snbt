@@ -119,6 +119,23 @@
 					}
 					type: "item"
 				}
+				{
+					id: "655EE854F8EDEF9E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:smite"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			subtitle: "Dropped by Mutant Zombies"
@@ -1339,210 +1356,17 @@
 					type: "item"
 				}
 				{
-					id: "18E2DFE6DF0D6347"
+					id: "0A9FA507D54D7260"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "quark:slime_in_a_bucket"
+						id: "alexsmobs:blobfish_bucket"
 						tag: {
 							display: {
-								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_red\",\"text\":\"Paul, Devourer of Blobs\"}"
-							}
-							slime_nbt: {
-								AABB: [
-									-229.84038097260782d
-									63.0d
-									-1448.399758495613d
-									-229.32018101809808d
-									63.520199954509735d
-									-1447.8795585411033d
-								]
-								AbsorptionAmount: 0.0f
-								Air: 300s
-								ArmorDropChances: [
-									0.085f
-									0.085f
-									0.085f
-									0.085f
-								]
-								ArmorItems: [
-									{ }
-									{ }
-									{ }
-									{ }
-								]
-								Attributes: [
-									{
-										Base: 0.0d
-										Name: "minecraft:generic.knockback_resistance"
-									}
-									{
-										Base: 1.0d
-										Name: "dungeons_libraries:ranged_damage_multiplier"
-									}
-									{
-										Base: 16.0d
-										Name: "minecraft:generic.follow_range"
-									}
-									{
-										Base: 0.0d
-										Name: "forge:step_height_addition"
-									}
-									{
-										Base: 0.08d
-										Name: "forge:entity_gravity"
-									}
-									{
-										Base: 1.0d
-										Name: "minecraft:generic.attack_damage"
-									}
-									{
-										Base: 0.30000001192092896d
-										Name: "minecraft:generic.movement_speed"
-									}
-									{
-										Base: 1.0d
-										Name: "minecraft:generic.max_health"
-									}
-								]
-								Brain: {
-									memories: { }
-								}
-								CanPickUpLoot: 0b
-								CanUpdate: 1b
-								CitadelData: { }
-								CustomName: "{\"text\":\"§4Paul, Devourer of Blobs\"}"
-								DeathTime: 0s
-								FallDistance: 0.0f
-								FallFlying: 0b
-								Fire: -1s
-								ForgeCaps: {
-									"cataclysm:charge_cap": {
-										ChargeDamage: 0.0f
-										ChargeTime: 0
-										KnockbackSpeed: 0.0f
-										dx: 0.0f
-										dz: 0.0f
-										isCharge: 0b
-										timer: 0
-									}
-									"cataclysm:hook_cap": {
-										hasHook: 0b
-									}
-									"dungeons_libraries:combo": {
-										arrowsInCounter: 0
-										artifactSynergy: 0b
-										comboCount: 0
-										comboTimer: 0
-										echoCooldown: 0
-										flamingArrowsCount: 0
-										harpoonCount: 0
-										jumpCooldownTimer: 0
-										jumpCounter: 0
-										lastExplorerCheckpoint: [
-											0.0d
-											0.0d
-											0.0d
-										]
-										lastLuckyExplorerCheckpoint: [
-											0.0d
-											0.0d
-											0.0d
-										]
-										painCycleStacks: 0
-										refreshmentCounter: 0
-										shadowForm: 0b
-										thunderingArrowsCount: 0
-										tormentArrowsCount: 0
-									}
-									"dungeons_libraries:elite_mob": { }
-									"dungeons_libraries:master": {
-										followers: [ ]
-										summoned: [ ]
-									}
-									"dungeons_libraries:minion": {
-										follower_duration: 0
-										is_summon: 0b
-										is_temporary: 0b
-										reverts_on_expiration: 0b
-									}
-									"dungeons_libraries:soul_caster": {
-										souls: 0.0f
-									}
-									"dungeons_libraries:timers": {
-										EnchantmentTimers: [ ]
-									}
-									"mutantmore:entityheat": {
-										CoolDelay: 0
-										HeatAmount: -0.025d
-									}
-									"mutantmore:mutantshulkershieldshoottimer": {
-										ShootTime: 0
-									}
-									"structure_gel:gel_entity": {
-										portal: "structure_gel:empty"
-									}
-								}
-								ForgeData: { }
-								HandDropChances: [
-									0.085f
-									0.085f
-								]
-								HandItems: [
-									{ }
-									{ }
-								]
-								Health: 1.0f
-								HurtByTimestamp: 0
-								HurtTime: 0s
-								Invulnerable: 0b
-								LastBlockPos: -62947046625217L
-								LeftHanded: 0b
-								Motion: [
-									0.0d
-									-0.0784000015258789d
-									0.0d
-								]
-								OnGround: 1b
-								PersistenceRequired: 1b
-								PortalCooldown: 0
-								Pos: [
-									-229.58028099535295d
-									63.0d
-									-1448.1396585183581d
-								]
-								Rotation: [
-									52.137222f
-									0.0f
-								]
-								Size: 0
-								Tags: [
-									"in.eid_1"
-									"in.eid_3"
-									"in.eid_5"
-									"in.checked"
-									"in.eid_6"
-									"in.eid_7"
-									"in.eid_9"
-									"in.eid_11"
-									"in.eid_13"
-								]
-								UUID: [I;
-									-2082534007
-									477839664
-									-1103299095
-									-987069068
-								]
-								apathy-spawnPosition: [
-									-229.69276501069297d
-									63.5d
-									-1448.2298000454903d
-								]
-								fireType: "minecraft:fire"
-								id: "minecraft:slime"
-								wasOnGround: 1b
+								Lore: [ ]
+								Name: "{\"text\":\"§6blobperson1 the Blobfish\"}"
 							}
 						}
 					}
@@ -3369,7 +3193,11 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
-			description: ["This item can be obtained by breaking &eJungle Leaves&r. When dropped near a &9Gorilla&r, it will pick up the &eBanana&r and eat it, which has a chance of taming the &9Gorilla&r. "]
+			description: [
+				"This item can be obtained by breaking &eJungle Leaves&r. "
+				""
+				"The Banan is also used in taming &9Gorillas&r, which can be done by dropping the item near them and letting them eat it."
+			]
 			id: "6F30EEE77C0CE5B4"
 			rewards: [{
 				count: 8
@@ -3657,7 +3485,11 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
-			description: ["This item can be found as loot in various dungeon chests or in Shipwrecks, and it can also be traded by &aClerics&r in exchange for &eEmeralds&r. When splashed, it'll drop experience. It is also used in the powerful &eExperience Pump Upgrade&r once twelve eyes have been collected, which can siphon fluid experience from your &eBackpack&r to repair Mending items."]
+			description: [
+				"This item can be found as loot in various dungeon chests or in Shipwrecks, and it can also be traded by &aClerics&r in exchange for &eEmeralds&r. "
+				""
+				"When splashed, it'll drop experience. It is also used in the powerful &eExperience Pump Upgrade&r once twelve eyes have been collected, which can siphon fluid experience from your &eBackpack&r to repair Mending items."
+			]
 			id: "24DA109F627782F3"
 			rewards: [{
 				id: "6289FCE9BF5F9FF6"
