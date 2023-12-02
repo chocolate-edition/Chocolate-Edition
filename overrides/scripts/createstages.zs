@@ -184,14 +184,14 @@ var itemsStageTwo = [
 	<item:meetyourfight:cocktail_cutlass>,
 	<item:meetyourfight:blossoming_mind>,
 	<item:meetyourfight:spectres_grasp>,
-	<item:create:mechanical_drill>,
-	<item:create:mechanical_roller>,
-	<item:create:mechanical_harvester>,
-	<item:create:mechanical_plough>,
-	<item:create:mechanical_saw>,
-	<item:create:portable_storage_interface>,
-	<item:create:cart_assembler>,
-	<item:create:linked_controller>,
+	//<item:create:mechanical_drill>,
+	//<item:create:mechanical_roller>,
+	//<item:create:mechanical_harvester>,
+	//<item:create:mechanical_plough>,
+	//<item:create:mechanical_saw>,
+	//<item:create:portable_storage_interface>,
+	//<item:create:cart_assembler>,
+	//<item:create:linked_controller>,
 	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:gold_backpack>,
 	<item:sophisticatedbackpacks:compacting_upgrade>,
@@ -211,7 +211,7 @@ var itemsStageThree = [
 	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/howling"], ribbon: "faf396", glyphs: [8, 9, 10, 5], key: "sword/howling"}]}}),
 	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/throwing_knife"], ribbon: "b8ced9", glyphs: [4, 1, 0, 5], key: "sword/throwing_knife"}]}}),
 	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/sturdy_guard"], ribbon: "bcb8b5", glyphs: [3, 2, 2, 1], key: "sword/sturdy_guard"}]}}),
-	<item:create:redstone_link>,
+	//<item:create:redstone_link>,
 	<item:born_in_chaos_v1:dark_metal_armor_helmet>,
 	<item:born_in_chaos_v1:dark_metal_armor_chestplate>,
 	<item:born_in_chaos_v1:dark_metal_armor_leggings>,
@@ -409,6 +409,20 @@ for item in itemsCursed {
 	ItemStages.restrict(item.anyDamage(), "enigma").preventInventory(false).preventPickup(false).hiddenName("§cEnigmatic Item");
 	craftingTable.remove(item);
 }
+
+
+/* need to figure this out - for satchel of exlixirs gate
+
+ItemStages.restrict(item.anyDamage(), "witch_eye").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+	<tag:items:chocolate:witch_eye>.add(item);
+	mods.recipestages.Recipes.setRecipeStage("witch_eye", item);
+
+
+	*/
+
+
+
+
 
 /* gotta figure this out for later
 var stages = ["one", "two", "three", "four", "five"] as string[];
