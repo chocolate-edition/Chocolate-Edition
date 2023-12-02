@@ -7,11 +7,13 @@
 // Used in Magical Eye
 <tag:items:chocolate:windcaller>.add(<item:dungeons_mobs:windcaller_helmet>);
 <tag:items:chocolate:windcaller>.add(<item:dungeons_mobs:windcaller_chestplate>);
+<tag:items:chocolate:windcaller>.add(<item:dungeons_mobs:windcaller_staff>);
 
 // ----- Geomancer Armor -----
 // Used in Magical Eye
 <tag:items:chocolate:geomancer>.add(<item:dungeons_mobs:geomancer_helmet>);
 <tag:items:chocolate:geomancer>.add(<item:dungeons_mobs:geomancer_chestplate>);
+<tag:items:chocolate:geomancer>.add(<item:dungeons_mobs:geomancer_staff>);
 
 // ----- Mage Armor -----
 // Used in Magical Eye
