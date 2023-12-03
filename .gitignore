@@ -6,3 +6,4 @@
 *.zip
 *.7z
 .obsidian/workspace.json
+*.sh

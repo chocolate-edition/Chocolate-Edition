@@ -1,0 +1,10 @@
+{
+  "runItOn": {
+    "commands": [
+      {
+        "match": "overrides",
+        "cmd": "bash copyToInstance.sh"
+      }
+    ]
+  }
+}
