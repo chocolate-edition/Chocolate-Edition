@@ -4,6 +4,7 @@
 # example path: 
 # C:\Users\user\curseforge\minecraft\Instances\dev build The Chocolate Edition - [FORGE]
 
-path="your instance path"
+path="PATH"
 echo copying files to $path
 cp -r ./overrides/. "$path"
+
