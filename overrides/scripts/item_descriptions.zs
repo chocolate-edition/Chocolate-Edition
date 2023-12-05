@@ -208,7 +208,7 @@ i(<item:blue_skies:loot_bag_arachnarch>, "arachnarch_post");
 
 // ----- Unusual Prehistory -----
 
-
+/*
 i(<item:oddorganisms:leptictidium_spawn_egg>, "leptictidium");
 i(<item:oddorganisms:eolactoria_spawn_egg>, "eolactoria");
 i(<item:oddorganisms:doedicurus_spawn_egg>, "doedicurus");
@@ -258,18 +258,7 @@ i(<item:unusualprehistory:anuro_spawn_egg>, "anuro");
 i(<item:unusualprehistory:antarcto_spawn_egg>, "antarcto");
 i(<item:unusualprehistory:ammon_spawn_egg>, "ammon");
 
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 
