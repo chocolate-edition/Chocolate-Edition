@@ -1,0 +1,9 @@
+#!/bin/bash
+# copies the contents of ./overrides to your development instance of minecraft
+# ? replace <your instance path> with the absolute path to your minecraft instance, then rename this file to remove .example
+# example path: 
+# C:\Users\user\curseforge\minecraft\Instances\dev build The Chocolate Edition - [FORGE]
+
+path="your instance path"
+echo copying files to $path
+cp -r ./overrides/. "$path"
