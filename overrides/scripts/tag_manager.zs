@@ -79,3 +79,7 @@
 <tag:items:chocolate:lionfish>.add(<item:upgrade_aquatic:lionfish>);
 <tag:items:chocolate:lionfish>.add(<item:upgrade_aquatic:cooked_lionfish>);
 
+// ----- puffer fish ----
+// Use in ooze bottle
+<tag:items:chocolate:pufferfish>.add(<item:minecraft:pufferfish>);
+<tag:items:chocolate:pufferfish>.add(<item:netherdepthsupgrade:lava_pufferfish>);
