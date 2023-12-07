@@ -83,3 +83,8 @@
 // Use in ooze bottle
 <tag:items:chocolate:pufferfish>.add(<item:minecraft:pufferfish>);
 <tag:items:chocolate:pufferfish>.add(<item:netherdepthsupgrade:lava_pufferfish>);
+
+// ----- lizard_tail ----
+// Use in ooze bottle
+<tag:items:chocolate:lizard_tail>.add(<item:naturalist:cooked_lizard_tail>);
+<tag:items:chocolate:lizard_tail>.add(<item:naturalist:lizard_tail>);
