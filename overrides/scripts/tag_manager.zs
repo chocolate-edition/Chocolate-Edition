@@ -71,3 +71,11 @@
 <tag:items:chocolate:glow_item>.add(<item:minecraft:glow_berries>);
 <tag:items:chocolate:glow_item>.add(<item:naturalist:glow_goop>);
 <tag:items:chocolate:glow_item>.add(<item:infernalexp:glownuggets>);
+
+
+// ----- Lion fish ----
+// Use in ooze bottle
+<tag:items:chocolate:lionfish>.add(<item:cataclysm:lionfish>);
+<tag:items:chocolate:lionfish>.add(<item:upgrade_aquatic:lionfish>);
+<tag:items:chocolate:lionfish>.add(<item:upgrade_aquatic:cooked_lionfish>);
+
