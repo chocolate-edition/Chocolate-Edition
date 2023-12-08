@@ -1,6 +1,6 @@
 import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 
-var blasting_conversions = {
+var blastingConversions = {
     <item:minecraft:raw_copper_block> : <item:minecraft:copper_block>,
     <item:minecraft:raw_gold_block> : <item:minecraft:gold_block>,
     <item:minecraft:raw_iron_block> : <item:minecraft:iron_block>,
@@ -16,17 +16,16 @@ var blasting_conversions = {
 };
 
 //for all the blocks that need smelting
-
-for raw, blasted in blasting_conversions //'raw' is the key/first value in the map, blasted is the second value in the map
+for raw, blasted in blastingConversions //'raw' is the key/first value in the map, blasted is the second value in the map
 {
-    var recipe_name = raw.toString();
+    var itemString = raw.toString();
 
     //sets the boundaries for recipe name string
-    var itemStringStart as usize = recipe_name.lastIndexOf(":") + 1;
-    var itemStringEnd as usize = recipe_name.length-1;
-    recipe_name = "blasted_" + raw.toString()[itemStringStart..itemStringEnd];
+    var itemStringStart as usize = itemString.lastIndexOf(":") + 1;
+    var itemStringEnd as usize = itemString.length-1;
+    var recipeName = "blasted_" + raw.toString()[itemStringStart..itemStringEnd];
 
     //adds the item recipe
-    blastFurnace.addRecipe(recipe_name, blasted, raw, 10, 300);
+    blastFurnace.addRecipe(recipeName, blasted, raw, 10, 300);
    
 } 
