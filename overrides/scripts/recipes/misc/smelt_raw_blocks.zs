@@ -26,6 +26,6 @@ for raw, blasted in blastingConversions //'raw' is the key/first value in the ma
     var recipeName = "blasted_" + raw.toString()[itemStringStart..itemStringEnd];
 
     //adds the item recipe
-    blastFurnace.addRecipe(recipeName, blasted, raw, 10, 300);
+    blastFurnace.addRecipe(recipeName, blasted, raw, 10, 800);
    
 } 
