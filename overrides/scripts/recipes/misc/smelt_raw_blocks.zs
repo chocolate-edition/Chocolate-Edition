@@ -39,8 +39,9 @@ for index, item in raw_items
     //sets the boundaries for recipe name string
     var itemStringStart as usize = recipe_name.lastIndexOf(":") + 1;
     var itemStringEnd as usize = recipe_name.length-1;
+    recipe_name = "blasted_" + item.toString()[itemStringStart..itemStringEnd];
 
     //adds the item recipe
-    blastFurnace.addRecipe("Blasted " + recipe_name[x..y], blasted_items[index], item, 10, 300);
+    blastFurnace.addRecipe(recipe_name, blasted_items[index], item, 10, 300);
     index ++;
-}
+} 
