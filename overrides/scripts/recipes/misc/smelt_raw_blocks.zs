@@ -40,6 +40,6 @@ var x as usize = recipe_name.lastIndexOf(":") + 1;
 var y as usize = recipe_name.length-1;
 
 //adds the item recipe
-blastFurnace.addRecipe(recipe_name[x..y], blasted_items[index], item, 10, 300);
+blastFurnace.addRecipe("Blasted " + recipe_name[x..y], blasted_items[index], item, 10, 300);
 index ++;
 }
