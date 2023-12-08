@@ -15,7 +15,7 @@ var raw_items = [
 <item:galosphere:raw_silver_block>
 ];
 
-var blasted_item = [
+var blasted_items = [
 <item:minecraft:copper_block>,
 <item:minecraft:gold_block>,
 <item:minecraft:iron_block>,
@@ -40,6 +40,6 @@ var x as usize = recipe_name.lastIndexOf(":") + 1;
 var y as usize = recipe_name.length-1;
 
 //adds the item recipe
-blastFurnace.addRecipe(recipe_name[x..y], blasted_item[index], item, 10, 300);
+blastFurnace.addRecipe(recipe_name[x..y], blasted_items[index], item, 10, 300);
 index ++;
 }
