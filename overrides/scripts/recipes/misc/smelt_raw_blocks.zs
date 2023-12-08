@@ -34,7 +34,8 @@ var blasted_items = [
 //for all the blocks that need smelting
 for index, item in raw_items
 {
-    
+    var recipe_name = item.toString();
+
     //sets the boundaries for recipe name string
     var itemStringStart as usize = recipe_name.lastIndexOf(":") + 1;
     var itemStringEnd as usize = recipe_name.length-1;
