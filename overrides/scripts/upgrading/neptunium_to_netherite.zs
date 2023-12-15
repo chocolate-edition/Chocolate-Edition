@@ -1,5 +1,3 @@
-import crafttweaker.api.recipe.SmithingRecipeManager;
-
 smithing.addRecipe("neptunium_to_netherite_helmet", <item:minecraft:netherite_helmet>, <item:aquaculture:neptunium_helmet>, <item:minecraft:netherite_ingot>);
 smithing.addRecipe("neptunium_to_netherite_chestplate", <item:minecraft:netherite_chestplate>, <item:aquaculture:neptunium_chestplate>, <item:minecraft:netherite_ingot>);
 smithing.addRecipe("neptunium_to_netherite_leggings", <item:minecraft:netherite_leggings>, <item:aquaculture:neptunium_leggings>, <item:minecraft:netherite_ingot>);
