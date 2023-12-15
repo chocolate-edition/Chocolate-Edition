@@ -1,4 +1,3 @@
-import crafttweaker.api.recipe.SmithingRecipeManager;
 import crafttweaker.api.entity.attribute.AttributeOperation;
 
 <item:enlightened_end:adamantite_armor_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Buff_Enderium_Helmet", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
