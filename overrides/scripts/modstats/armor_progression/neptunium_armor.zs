@@ -1,4 +1,3 @@
-import crafttweaker.api.recipe.SmithingRecipeManager;
 import crafttweaker.api.entity.attribute.AttributeOperation;
 
 <item:aquaculture:neptunium_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "Nerf_Dark_Metal_Helmet_Toughness", 0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
