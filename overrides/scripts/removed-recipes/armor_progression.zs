@@ -14,3 +14,8 @@ recipes.removeByName("recipestages:enigmaticlegacy_etherium_helmet");
 recipes.removeByName("recipestages:enigmaticlegacy_etherium_chestplate");
 recipes.removeByName("recipestages:enigmaticlegacy_etherium_leggings");
 recipes.removeByName("recipestages:enigmaticlegacy_etherium_boots");
+
+recipes.removeByName("cataclysm:smithing/ignitium_helmet");
+recipes.removeByName("cataclysm:smithing/ignitium_chestplate");
+recipes.removeByName("cataclysm:smithing/ignitium_leggings");
+recipes.removeByName("cataclysm:smithing/ignitium_boots");
