@@ -1,4 +1,3 @@
-import crafttweaker.api.recipe.SmithingRecipeManager;
 import crafttweaker.api.entity.attribute.AttributeOperation;
 
 <item:born_in_chaos_v1:dark_metal_armor_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Nerf_Dark_Metal_Chest", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
