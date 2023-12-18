@@ -13,7 +13,6 @@ public class AttributeIds {
 
   public static val swordAttack as string = "cb3f55d3-645c-4f38-a497-9c13a33db5cf";
   public static val swordSpeed as string = "fa233e1c-4180-4865-b01b-bcce9785aca3";
-  public static val swordStingerSpeed as string = "73c3c211-d2cd-4a96-baee-9e004fa33dd4";
 }
 
 
