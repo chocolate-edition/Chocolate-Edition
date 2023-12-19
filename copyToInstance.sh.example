@@ -5,19 +5,18 @@
 # C:\Users\user\curseforge\minecraft\Instances\dev build The Chocolate Edition - [FORGE]
 
 path="your instance path"
-echo replacing overrides in $path
 
 # Loop through each folder in the "overrides" directory
 for folder in "./overrides"/*; do
-    # Extract folder name without path
+    # Extract folder name without path. do not delete config as it contains paxi datapacks
     if [ -d "$folder" ]; then
-      folder_name=$(basename "$folder")
-      # Check if the corresponding folder exists in the target directory and delete it
-      if [ -d "$path/$folder_name" ]; then
-          rm -rf "$path/$folder_name"
-      else
-          echo "$folder_name does not exist in $path"
-      fi
+        folder_name=$(basename "$folder")
+        # Check if the corresponding folder exists in the target directory and delete it
+        if [[ -d "$path/$folder_name" && "$folder_name" != "config" ]]; then
+            echo "deleting $folder"
+            rm -rf "$path/$folder_name"
+        fi
     fi
 done
+echo copying overrides to $path
 cp -r ./overrides/. "$path"
