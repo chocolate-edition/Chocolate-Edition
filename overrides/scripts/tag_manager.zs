@@ -71,3 +71,20 @@
 <tag:items:chocolate:glow_item>.add(<item:minecraft:glow_berries>);
 <tag:items:chocolate:glow_item>.add(<item:naturalist:glow_goop>);
 <tag:items:chocolate:glow_item>.add(<item:infernalexp:glownuggets>);
+
+
+// ----- Lionfish ----
+// Used in Ooze Bottle
+<tag:items:chocolate:lionfish>.add(<item:cataclysm:lionfish>);
+<tag:items:chocolate:lionfish>.add(<item:upgrade_aquatic:lionfish>);
+<tag:items:chocolate:lionfish>.add(<item:upgrade_aquatic:cooked_lionfish>);
+
+// ----- Pufferfish ----
+// Used in Ooze Bottle
+<tag:items:chocolate:pufferfish>.add(<item:minecraft:pufferfish>);
+<tag:items:chocolate:pufferfish>.add(<item:netherdepthsupgrade:lava_pufferfish>);
+
+// ----- Lizard Tail ----
+// Used in Ooze Bottle
+<tag:items:chocolate:lizard_tail>.add(<item:naturalist:cooked_lizard_tail>);
+<tag:items:chocolate:lizard_tail>.add(<item:naturalist:lizard_tail>);
