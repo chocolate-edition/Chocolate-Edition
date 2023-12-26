@@ -37,22 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Alexish Mobs v1.0.zip",
-"Create Simple Storage 2.1.zip","Create Style Modded Compats v16.zip",
-"EclecticTrove-noconfig-1.19-1.2.0.zip","Everycomp Generated Pack",
-"Incendium_Optional_Resourcepack_1.20.1_v5.3.7 (1).zip","MusicComp.zip",
-"Supplementaries Generated Pack","quark:emote_resources","file/OLG_1.1.3_1.16+.zip",
-"file/[1.3] Enhanced Boss Bars.zip","resources/simplehats_hatdl.zip",
-"file/Realistic Combat Soundpack 1.19.2.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","
-file/Dark_transparent_Menu_UI.zip","file/Vibrating Wither Fix.zip","Visual+Titles.zip",
-"MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","OLG_1.1.3_1.16+.zip","Dark_transparent_Menu_UI.zip",
-"Realistic Combat Soundpack 1.19.2.zip","Vibrating Wither Fix.zip","WDA-NoFlyingStructures-1.18.2-1.19.2.zip",
-"WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip","[1.3] Enhanced Boss Bars.zip","norundownhouse-1.19.4.zip","wdaspacingtweaked.zip"]
-
-incompatibleResourcePacks:["Incendium_Optional_Resourcepack_1.20.1_v5.3.7 (1).zip","MusicComp.zip","quark:emote_resources",
-"file/OLG_1.1.3_1.16+.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","file/Dark_transparent_Menu_UI.zip",
-"MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","OLG_1.1.3_1.16+.zip","Dark_transparent_Menu_UI.zip","WDA-NoFlyingStructures-1.18.2-1.19.2.zip",
-"WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip","norundownhouse-1.19.4.zip","wdaspacingtweaked.zip"]
+resourcePacks:["vanilla","mod_resources","Alexish Mobs v1.0.zip","Create Simple Storage 2.1.zip","Create Style Modded Compats v16.zip","EclecticTrove-noconfig-1.19-1.2.0.zip","Everycomp Generated Pack","Incendium_Optional_Resourcepack_1.20.1_v5.3.7 (1).zip","MusicComp.zip","Supplementaries Generated Pack","quark:emote_resources","file/OLG_1.1.3_1.16+.zip","file/[1.3] Enhanced Boss Bars.zip","resources/simplehats_hatdl.zip","file/Realistic Combat Soundpack 1.19.2.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","file/Dark_transparent_Menu_UI.zip","file/Vibrating Wither Fix.zip","Visual+Titles.zip","MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","OLG_1.1.3_1.16+.zip","Dark_transparent_Menu_UI.zip","Realistic Combat Soundpack 1.19.2.zip","Vibrating Wither Fix.zip","WDA-NoFlyingStructures-1.18.2-1.19.2.zip","WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip","[1.3] Enhanced Boss Bars.zip","norundownhouse-1.19.4.zip","wdaspacingtweaked.zip"]
+incompatibleResourcePacks:["Incendium_Optional_Resourcepack_1.20.1_v5.3.7 (1).zip","MusicComp.zip","quark:emote_resources","file/OLG_1.1.3_1.16+.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","file/Dark_transparent_Menu_UI.zip","MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","OLG_1.1.3_1.16+.zip","Dark_transparent_Menu_UI.zip","WDA-NoFlyingStructures-1.18.2-1.19.2.zip","WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip","norundownhouse-1.19.4.zip","wdaspacingtweaked.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
