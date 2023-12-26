@@ -1,11 +1,11 @@
 version:3120
-autoJump:true
+autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:true
-entityShadows:true
+enableVsync:false
+entityShadows:false
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
@@ -26,19 +26,33 @@ screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
 gamma:0.5
-renderDistance:12
-simulationDistance:12
-entityDistanceScaling:1.0
+renderDistance:16
+simulationDistance:16
+entityDistanceScaling:2.0
 guiScale:0
 particles:0
-maxFps:120
+maxFps:260
 graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","Alexish Mobs v1.0.zip",
+"Create Simple Storage 2.1.zip","Create Style Modded Compats v16.zip",
+"EclecticTrove-noconfig-1.19-1.2.0.zip","Everycomp Generated Pack",
+"Incendium_Optional_Resourcepack_1.20.1_v5.3.7 (1).zip","MusicComp.zip",
+"Supplementaries Generated Pack","quark:emote_resources","file/OLG_1.1.3_1.16+.zip",
+"file/[1.3] Enhanced Boss Bars.zip","resources/simplehats_hatdl.zip",
+"file/Realistic Combat Soundpack 1.19.2.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","
+file/Dark_transparent_Menu_UI.zip","file/Vibrating Wither Fix.zip","Visual+Titles.zip",
+"MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","OLG_1.1.3_1.16+.zip","Dark_transparent_Menu_UI.zip",
+"Realistic Combat Soundpack 1.19.2.zip","Vibrating Wither Fix.zip","WDA-NoFlyingStructures-1.18.2-1.19.2.zip",
+"WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip","[1.3] Enhanced Boss Bars.zip","norundownhouse-1.19.4.zip","wdaspacingtweaked.zip"]
+
+incompatibleResourcePacks:["Incendium_Optional_Resourcepack_1.20.1_v5.3.7 (1).zip","MusicComp.zip","quark:emote_resources",
+"file/OLG_1.1.3_1.16+.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","file/Dark_transparent_Menu_UI.zip",
+"MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","OLG_1.1.3_1.16+.zip","Dark_transparent_Menu_UI.zip","WDA-NoFlyingStructures-1.18.2-1.19.2.zip",
+"WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip","norundownhouse-1.19.4.zip","wdaspacingtweaked.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -63,14 +77,14 @@ useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
 narrator:0
-tutorialStep:movement
+tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:false
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:false
 showAutosaveIndicator:true
@@ -191,7 +205,7 @@ key_key.spellstoneAbility:key.keyboard.k
 key_key.xpScroll:key.keyboard.j
 key_key.findme.search:key.keyboard.y
 key_key.ftbteams.open_gui:key.keyboard.unknown
-key_key.ftbquests.quests:key.keyboard.unknown
+key_key.ftbquests.quests:key.keyboard.grave.accent
 key_key.ftbchunks.map:key.keyboard.m
 key_key.ftbchunks.claim_manager:key.keyboard.unknown
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
