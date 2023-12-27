@@ -465,7 +465,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Drops from glittering Deepslate deep underground"
+			subtitle: "Dropped by glittering Deepslate deep underground"
 			tasks: [{
 				id: "6B95BB97DA0B3A4D"
 				item: {
@@ -678,7 +678,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "Drops from Ravagers in Raids"
+			subtitle: "Dropped by Ravagers in Raids"
 			tasks: [{
 				id: "237CC246E9B21840"
 				item: {
@@ -1940,7 +1940,7 @@
 				"2243BA6B2363797E"
 			]
 			description: [
-				"This item can be obtained by crafting an &eEmpty Blaze Burner&r with &eNetherrack&r and &ePressed Iron Sheets&r, and then activating it by using it on a &cBlaze&r or crafting it with a &eTotem of Undying&r."
+				"This item can be obtained by crafting an &eEmpty Blaze Burner&r with &eNetherrack&r and &ePressed Iron Sheets&r, and then activating it by using it on a &cBlaze&r"
 				""
 				"The &eBlaze Burner&r has three different stages: dormant, heated, and superheated. Higher tiers of heat have access to more mixing and pressing recipes. The &eBlaze Burner&r can be fed fuel items to become heated, and &eBlaze Cakes&r to become superheated. For more information, use the Ponder mechanic on the &eBlaze Burner&r."
 			]

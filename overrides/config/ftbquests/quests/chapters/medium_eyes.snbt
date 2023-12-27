@@ -453,9 +453,45 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &aRabbits&r or from looting village chests."
+				""
+				"&eRabbit's Foot&r can also be brewed with an &eAwkward Potions&r to make &ePotions of Leaping&r"
+			]
 			id: "0C9E6FDDE4225B3E"
+			rewards: [
+				{
+					id: "2492BD19A6707A88"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:lucky_scarf"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B0F18EE05D0AF04"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_leaping"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Rabbit's foot: Drops rarely from rabbits or in village chests."
+			subtitle: "Dropped by Rabbits"
 			tasks: [{
 				id: "50F15EFF7C806788"
 				item: {
@@ -467,7 +503,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Rabbit's Foot (Witch Eye)"
 			x: 11.0d
 			y: 2.25d
 		}
@@ -495,7 +531,7 @@
 			description: [
 				"This item can be obtained by killing &cGhasts&r found in the Nether."
 				""
-				"&eGhast Tears&r can also be used to craft &eEnd Crystals&r which can respawn the &4Ender Dragon&r as well as &ePotions of Regeneration&r."
+				"&eGhast Tears&r can also be brewed with an &eAwkward Potion&r to make &ePotions of Regeneration&r or craft &eEnd Crystals&r which can respawn the &4Ender Dragon&r. "
 			]
 			id: "1C696FDFF7187550"
 			rewards: [
@@ -545,9 +581,39 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &aBanana Slugs&r, which are found in forests."
+				""
+				"&eBanana Slug Slime&r can also be used to craft &eBanana Slug Slime Blocks&r. If one of these blocks touches &ewater,&r it quickly absorbes it and converts it into &eCrystallized Banana Slug Mucus&r - which makes it an extreamly effective way at clearing out a large amount of &ewater&r."
+			]
 			id: "3EBF36DD88B9160B"
+			rewards: [
+				{
+					id: "424CF59CB04F27D9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:banana_peel"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3B51FA088F0FD23B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:banana_slug_slime_block"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Banana Slug Slime: Kill a banana slug found in old growth forests(use the nature's compass)."
+			subtitle: "Dropped by Banana Slugs"
 			tasks: [{
 				id: "32649405C614311A"
 				item: {
@@ -559,7 +625,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Banana Slug Slime (Witch Eye)"
 			x: 10.0d
 			y: 2.75d
 		}
@@ -770,7 +836,32 @@
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "upgrade_aquatic:lionfish"
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "cataclysm:lionfish"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "upgrade_aquatic:lionfish"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "upgrade_aquatic:cooked_lionfish"
+							}
+						]
+					}
 				}
 				type: "item"
 			}]
@@ -790,7 +881,25 @@
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "naturalist:lizard_tail"
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "naturalist:cooked_lizard_tail"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "naturalist:lizard_tail"
+							}
+						]
+					}
 				}
 				type: "item"
 			}]
@@ -830,8 +939,27 @@
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "minecraft:pufferfish"
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:pufferfish"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "netherdepthsupgrade:lava_pufferfish"
+							}
+						]
+					}
 				}
+				title: "Pufferfish"
 				type: "item"
 			}]
 			title: "Used in Witch Eye"
