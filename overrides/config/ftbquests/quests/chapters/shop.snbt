@@ -15,20 +15,14 @@
 		}
 	}
 	id: "60BED89AB5908868"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: true
 			disable_toast: true
 			hide: false
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "simplehats:hatbag_common"
-			}
+			icon: "simplehats:hatbag_common"
 			id: "05BEAD7AD5B5C858"
 			progression_mode: "flexible"
 			rewards: [{
@@ -97,13 +91,7 @@
 			can_repeat: true
 			dependencies: ["05BEAD7AD5B5C858"]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "simplehats:hatbag_uncommon"
-			}
+			icon: "simplehats:hatbag_uncommon"
 			id: "361B8D4D61F6ABD6"
 			rewards: [{
 				id: "0D90C67B1E015E03"
@@ -171,13 +159,7 @@
 			can_repeat: true
 			dependencies: ["361B8D4D61F6ABD6"]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "simplehats:hatbag_rare"
-			}
+			icon: "simplehats:hatbag_rare"
 			id: "58C7309942B340B3"
 			rewards: [{
 				id: "70988266C9CA68DE"
@@ -245,13 +227,7 @@
 			can_repeat: true
 			dependencies: ["58C7309942B340B3"]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "simplehats:hatbag_epic"
-			}
+			icon: "simplehats:hatbag_epic"
 			id: "133ADEAE54EC48C2"
 			rewards: [{
 				id: "19912D48939CCAFB"
@@ -319,13 +295,7 @@
 			can_repeat: true
 			dependencies: ["133ADEAE54EC48C2"]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "simplehats:hatscraps_halloween"
-			}
+			icon: "simplehats:hatscraps_halloween"
 			id: "631B76921A9652F9"
 			rewards: [
 				{
@@ -425,13 +395,7 @@
 			y: 5.0d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "simplehats:haticon"
-			}
+			icon: "simplehats:haticon"
 			id: "73A81EBD69D0D52B"
 			size: 2.0d
 			title: "Hat Bags Shop"
@@ -664,13 +628,7 @@
 			dependencies: ["483734D4DB7B48DA"]
 			disable_toast: true
 			hide: false
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "simplehats:headphonesblue"
-			}
+			icon: "simplehats:headphonesblue"
 			id: "605DB7A7CAC22D8D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -800,13 +758,7 @@
 			y: -4.0d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:jukebox"
-			}
+			icon: "minecraft:jukebox"
 			id: "53A3F9C9AE711F8B"
 			size: 2.0d
 			title: "Disc Shop"
@@ -817,13 +769,7 @@
 			can_repeat: true
 			disable_toast: true
 			hide: false
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:music_disc_otherside"
-			}
+			icon: "minecraft:music_disc_otherside"
 			id: "597D2203D24F3676"
 			progression_mode: "flexible"
 			rewards: [{
@@ -886,13 +832,7 @@
 			can_repeat: true
 			dependencies: ["597D2203D24F3676"]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "quark:music_disc_crickets"
-			}
+			icon: "quark:music_disc_crickets"
 			id: "31380D77E063E5B4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -955,13 +895,7 @@
 			can_repeat: true
 			dependencies: ["31380D77E063E5B4"]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "aquamirae:music_disc_forsaken_drownage"
-			}
+			icon: "aquamirae:music_disc_forsaken_drownage"
 			id: "779866B55EF54228"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1024,13 +958,7 @@
 			can_repeat: true
 			dependencies: ["779866B55EF54228"]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "cataclysm:music_disc_ignis"
-			}
+			icon: "cataclysm:music_disc_ignis"
 			id: "3845F9E0464F45E6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1697,13 +1625,7 @@
 			y: -1.5d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enigmaticlegacy:cursed_ring"
-			}
+			icon: "enigmaticlegacy:cursed_ring"
 			id: "0ECC678E3BD73D26"
 			size: 2.5d
 			title: "Exclusive Unlocked Quest Items "
@@ -1769,13 +1691,7 @@
 			y: -11.75d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "iter_rpg:big_vase"
-			}
+			icon: "iter_rpg:big_vase"
 			id: "5BEC64C3A86BF8DD"
 			rewards: [{
 				id: "451AD879302A2CD0"
@@ -1798,13 +1714,7 @@
 			y: -12.75d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:ender_chest"
-			}
+			icon: "minecraft:ender_chest"
 			id: "615D275A59F5A721"
 			rewards: [{
 				id: "38AACABDD35D752F"
@@ -1827,13 +1737,7 @@
 			y: -11.75d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "farmersdelight:roast_chicken_block"
-			}
+			icon: "farmersdelight:roast_chicken_block"
 			id: "0B04E6219666D4B5"
 			rewards: [{
 				id: "647ECB0A5D932B1F"
@@ -5672,13 +5576,7 @@
 			]
 			disable_toast: true
 			hide: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "paraglider:anti_vessel"
-			}
+			icon: "paraglider:anti_vessel"
 			id: "0BDD8DEF065A72D6"
 			rewards: [{
 				id: "64DDDA81F44E621C"
@@ -5750,13 +5648,7 @@
 			]
 			disable_toast: true
 			hide: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "paraglider:heart_container"
-			}
+			icon: "paraglider:heart_container"
 			id: "29032E1622F0C239"
 			rewards: [{
 				id: "020B30F297E23DF8"
@@ -5974,13 +5866,7 @@
 			]
 			disable_toast: true
 			hide: false
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enigmaticlegacy:escape_scroll"
-			}
+			icon: "enigmaticlegacy:escape_scroll"
 			id: "00984E2A2C114E27"
 			rewards: [{
 				count: 5
@@ -6056,9 +5942,6 @@
 			hide: false
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "quark:ancient_tome"
 				tag: {
 					StoredEnchantments: [{
@@ -6136,13 +6019,7 @@
 			]
 			disable_toast: true
 			hide: false
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enigmaticlegacy:mending_mixture"
-			}
+			icon: "enigmaticlegacy:mending_mixture"
 			id: "369DC95CD8D32734"
 			rewards: [{
 				count: 16
@@ -6215,13 +6092,7 @@
 			]
 			disable_toast: true
 			hide: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:dragon_egg"
-			}
+			icon: "minecraft:dragon_egg"
 			id: "637D323A8A0E1045"
 			rewards: [{
 				id: "484A4BEE7C01B9F6"
@@ -6293,13 +6164,7 @@
 			]
 			disable_toast: true
 			hide: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enigmaticlegacy:golden_ring"
-			}
+			icon: "enigmaticlegacy:golden_ring"
 			id: "3F459DEFCF351255"
 			rewards: [{
 				id: "590DDBB194F6646D"
@@ -6443,9 +6308,6 @@
 			disable_toast: true
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "quark:backpack"
 				tag: {
 					Inventory: [
@@ -6581,13 +6443,7 @@
 			]
 			disable_toast: true
 			hide: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "nameless_trinkets:dragons_eye"
-			}
+			icon: "nameless_trinkets:dragons_eye"
 			id: "5F13208053EF06AE"
 			rewards: [{
 				id: "4CF985FC2A8F5D0B"

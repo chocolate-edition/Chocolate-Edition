@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "53659F546FCEEC84"
-	group: "54C30F6859F3A395"
+	group: ""
 	icon: "citadel:citadel_book"
 	id: "53659F546FCEEC84"
 	order_index: 0
@@ -760,9 +760,6 @@
 			dependencies: ["33B00255BDE26589"]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "tetra:scroll_rolled"
 				tag: {
 					BlockEntityTag: {
@@ -1028,9 +1025,6 @@
 			description: [""]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "tetra:scroll_rolled"
 				tag: {
 					BlockEntityTag: {
@@ -1693,9 +1687,6 @@
 			dependencies: ["766544EE45C62981"]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "alexsmobs:tarantula_hawk_elytra"
 				tag: {
 					Damage: 0
@@ -2007,13 +1998,7 @@
 		}
 		{
 			dependencies: ["766544EE45C62981"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "celestisynth:celestial_core"
-			}
+			icon: "celestisynth:celestial_core"
 			id: "4BB1D790E1FA5D44"
 			tasks: [{
 				id: "0502B93668055A4F"

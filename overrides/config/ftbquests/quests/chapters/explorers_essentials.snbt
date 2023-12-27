@@ -270,9 +270,6 @@
 			dependencies: ["73B9689F03906272"]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "waystones:warp_stone"
 				tag: {
 					Damage: 0
@@ -908,9 +905,6 @@
 				{
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "epicsamurai:red_samurai_helmet"
 						tag: {
 							Damage: 0
@@ -937,9 +931,6 @@
 				{
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "weavers_cosmetics:spider_armour_helmet"
 						tag: {
 							Damage: 0
@@ -951,26 +942,14 @@
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:smoldering_scorched_wood"
-					}
+					icon: "born_in_chaos_v1:smoldering_scorched_wood"
 					id: "4B2979DD5A30F5BC"
 					structure: "dungeons_arise:scorched_mines"
 					title: "Scorched Mines"
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "cnb:lizard_item_jungle"
-					}
+					icon: "cnb:lizard_item_jungle"
 					id: "3962C8A8B16DBF95"
 					structure: "dungeons_arise:keep_kayra"
 					title: "Keep Kayra (Forests)"
@@ -1003,13 +982,7 @@
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:spawn_structure_mound_hounds"
-					}
+					icon: "born_in_chaos_v1:spawn_structure_mound_hounds"
 					id: "0B8B50A5C23E5F40"
 					structure: "incendium:forbidden_castle"
 					title: "Piglin Castle (Nether) (Ash Barrens)"
@@ -1042,65 +1015,35 @@
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ecologics:sandcastle"
-					}
+					icon: "ecologics:sandcastle"
 					id: "4FCDCD236D1D5722"
 					structure: "idas:labyrinth"
 					title: "Labyrinth (Desert)"
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "iter_rpg:big_vase"
-					}
+					icon: "iter_rpg:big_vase"
 					id: "49540BC74DE63081"
 					structure: "idas:ancient_mines"
 					title: "Ancient Mines"
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:stained_black_argillite_brick_n"
-					}
+					icon: "born_in_chaos_v1:stained_black_argillite_brick_n"
 					id: "0DAE891F9652E2B4"
 					structure: "dungeons_arise:foundry"
 					title: "Foundry"
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:ai"
-					}
+					icon: "born_in_chaos_v1:ai"
 					id: "7693583FA4BB1DDC"
 					structure: "integrated_stronghold:stronghold"
 					title: "Stronghold"
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "enigmaticlegacy:astral_block"
-					}
+					icon: "enigmaticlegacy:astral_block"
 					id: "3245865D38DEBD0A"
 					structure: "dungeons_arise:aviary"
 					title: "Aviary (End)"

@@ -206,13 +206,7 @@
 		}
 		{
 			dependencies: ["4C32F92803377F8B"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "supplementaries:cage"
-			}
+			icon: "supplementaries:cage"
 			id: "604B51A11CDF0DB7"
 			optional: true
 			rewards: [{
@@ -2177,13 +2171,7 @@
 		{
 			dependencies: ["42535BF8C9EB90B8"]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "environmental:bird_of_paradise"
-			}
+			icon: "environmental:bird_of_paradise"
 			id: "149F89D26465B971"
 			subtitle: "Pet: Goodall Toucan: Jungle. Tamed with apple. When fed golden apples, toucans will apply the regen effect for 10 seconds to all entities within a 5 block radius. If fed a Notch apple, toucans will apply the effects of the apple to all entities in a 5 block radius. Squirrels spawn in the Plains biome. They can be fed walnuts to make them trust the player. If a Squirrel is trusting, they will pick up sapling items and plant them nearby. Squirrels can be bred with honeycomb if they are trusting."
 			tasks: [{
@@ -2429,13 +2417,7 @@
 		{
 			dependencies: ["2B1121B1895D6F89"]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:fern"
-			}
+			icon: "minecraft:fern"
 			id: "40230AE116CEFE3D"
 			tasks: [{
 				id: "21F19982C59A0BF0"
@@ -2484,13 +2466,7 @@
 		}
 		{
 			dependencies: ["42535BF8C9EB90B8"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:bamboo"
-			}
+			icon: "minecraft:bamboo"
 			id: "72BB114554D938B5"
 			subtitle: "Jungle, sleeps through day, Tameable with sweet berries, breedable with bamboo"
 			tasks: [{
@@ -2561,13 +2537,7 @@
 		}
 		{
 			dependencies: ["74DBD1E5FEDCD2E3"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "nameless_trinkets:creeper_sense"
-			}
+			icon: "nameless_trinkets:creeper_sense"
 			id: "6901025FE6C6E019"
 			subtitle: "Pet: Hatched from Mutant Creeper drop, Creeper Egg. Controlled using Creeper Minion tracker, made from Creeper shard, dropped from another Mutant Creeper. "
 			tasks: [{
@@ -2580,13 +2550,7 @@
 		}
 		{
 			dependencies: ["42535BF8C9EB90B8"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:glow_berries"
-			}
+			icon: "minecraft:glow_berries"
 			id: "062C6043D19B441E"
 			tasks: [{
 				id: "28F7F758D7EFAC50"
@@ -2690,13 +2654,7 @@
 		}
 		{
 			dependencies: ["2B1121B1895D6F89"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "celestisynth:starstruck_feather"
-			}
+			icon: "celestisynth:starstruck_feather"
 			id: "18718E9250A6A06A"
 			subtitle: "The Cardinal spawns in Forest, Swamp, Savanna, and Desert biome types.The Bluejay spawns in Taiga, Extreme Hills, and Snowy biome types.The Robin spawns in Forest, Plains, and Mountain biome types.The Canary spawns in Extreme Hills and Mountain biome types.All Bird variants spawn in groups of 1 to 4. Shima: Snowy biomes. All birds tamed with seeds, and can sit and stand. Can't be bred."
 			tasks: [{
@@ -2729,13 +2687,7 @@
 		}
 		{
 			dependencies: ["7A7D67929C872B51"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "infernalexp:strider_bucket"
-			}
+			icon: "infernalexp:strider_bucket"
 			id: "7C4D5AE9ACBAC97F"
 			tasks: [{
 				id: "1FFE6BE67875594C"
@@ -3030,13 +2982,7 @@
 		}
 		{
 			dependencies: ["26BD4CCB74B45570"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "graveyard:hanged_wither_skeleton"
-			}
+			icon: "graveyard:hanged_wither_skeleton"
 			id: "58C050366BD08E31"
 			subtitle: "suffering in eternal pain, the nameless hanged offers rare artifacts."
 			tasks: [{

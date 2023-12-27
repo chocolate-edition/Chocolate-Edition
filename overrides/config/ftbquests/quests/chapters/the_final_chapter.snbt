@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "the_final_chapter"
-	group: "54C30F6859F3A395"
+	group: ""
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
@@ -116,7 +116,7 @@
 			y: 3.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -279,13 +279,7 @@
 			tasks: [
 				{
 					dimension: "minecraft:overworld"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:compass"
-					}
+					icon: "minecraft:compass"
 					id: "4C4ABC5A892CDC94"
 					ignore_dimension: false
 					optional_task: true
@@ -423,13 +417,7 @@
 				""
 				"While you boast greater resistance to this illness, you are not immune. If you are inflicted with &2Wither Sickness&r, consuming &eGolden Apple Stew&r will slowly cure the malady. Feeding &eGolden Apple Stew&r to other mobs will cure them as well."
 			]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "witherstormmod:golden_apple_stew"
-			}
+			icon: "witherstormmod:golden_apple_stew"
 			id: "19C23ACB2FF5781A"
 			rewards: [{
 				count: 4
@@ -660,14 +648,6 @@
 				criterion: ""
 				icon: {
 					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [{
-								data: [ ]
-								source: "dungeons_libraries:gear_config"
-							}]
-						}
-					}
 					id: "dungeons_gear:wither_helmet"
 					tag: {
 						Damage: 0
@@ -949,24 +929,12 @@
 			can_repeat: true
 			dependencies: ["18D13DCDDA5080A0"]
 			description: ["You can submit one experience point to check the Wither Storm's current Phase."]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "witherstormmod:amulet"
-			}
+			icon: "witherstormmod:amulet"
 			id: "56E27A0E697BEB43"
 			rewards: [{
 				command: "data get entity @e[type=witherstormmod:wither_storm,limit=1] Phase"
 				exclude_from_claim_all: true
-				icon: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "witherstormmod:amulet"
-				}
+				icon: "witherstormmod:amulet"
 				id: "67022095843F11A5"
 				player_command: true
 				team_reward: false
