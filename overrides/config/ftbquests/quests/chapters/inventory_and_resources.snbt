@@ -2380,9 +2380,6 @@
 			dependencies: ["5DCD96A2FACE5201"]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "minecraft:splash_potion"
 				tag: {
 					Potion: "mutantmonsters:chemical_x"
@@ -2401,13 +2398,7 @@
 		}
 		{
 			dependencies: ["5DCD96A2FACE5201"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "mutantmore:formula_y"
-			}
+			icon: "mutantmore:formula_y"
 			id: "20DBE651687F0D1C"
 			shape: "gear"
 			tasks: [{
@@ -2832,13 +2823,7 @@
 		}
 		{
 			dependencies: ["6E0845CDD0BFB1EA"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "witherstormmod:command_block_book"
-			}
+			icon: "witherstormmod:command_block_book"
 			id: "699B043D4A972282"
 			subtitle: "Obtained from Symbiote. Crafts Formidibomb. Weapons made from it are unbreakable."
 			tasks: [{
@@ -2864,13 +2849,7 @@
 		}
 		{
 			dependencies: ["77FE2AD69390A075"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:netherite_ingot"
-			}
+			icon: "minecraft:netherite_ingot"
 			id: "325D4D4AD1DA4790"
 			size: 1.5d
 			tasks: [{
@@ -2883,13 +2862,7 @@
 		}
 		{
 			dependencies: ["419167339A36EBEE"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "born_in_chaos_v1:dark_metal_ingot"
-			}
+			icon: "born_in_chaos_v1:dark_metal_ingot"
 			id: "07B75CBEF0C135ED"
 			tasks: [{
 				id: "2F450D088C79B7B8"
@@ -2901,13 +2874,7 @@
 		}
 		{
 			dependencies: ["6C927D2F952ED4E7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "majruszsdifficulty:enderium_ingot"
-			}
+			icon: "majruszsdifficulty:enderium_ingot"
 			id: "23CDAC6ECE241C60"
 			tasks: [{
 				id: "641954294E9FB59B"
@@ -2971,13 +2938,7 @@
 		}
 		{
 			dependencies: ["77322EFE45DA7FFD"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "aquaculture:neptunium_ingot"
-			}
+			icon: "aquaculture:neptunium_ingot"
 			id: "7F2FB305AC337C5E"
 			tasks: [{
 				id: "7905235CD5971A93"
@@ -2989,13 +2950,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:oak_log"
-			}
+			icon: "minecraft:oak_log"
 			id: "5E42E5FA554E8FBD"
 			tasks: [{
 				id: "66F349E3F6B9D3AC"
@@ -3007,13 +2962,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:iron_ingot"
-			}
+			icon: "minecraft:iron_ingot"
 			id: "28DB68ED12E1F89F"
 			tasks: [{
 				id: "024095EA636A654E"
@@ -3025,13 +2974,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:copper_ingot"
-			}
+			icon: "minecraft:copper_ingot"
 			id: "62AE3F0E1812F47E"
 			tasks: [{
 				id: "3D1B35F74453C88F"
@@ -3043,13 +2986,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "create:zinc_ingot"
-			}
+			icon: "create:zinc_ingot"
 			id: "49BDD3BF3432CF77"
 			tasks: [{
 				id: "59875D3E370CD4A5"
@@ -3061,13 +2998,7 @@
 		}
 		{
 			dependencies: ["77322EFE45DA7FFD"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:lapis_lazuli"
-			}
+			icon: "minecraft:lapis_lazuli"
 			id: "27CF07AC1D33CB4E"
 			tasks: [{
 				id: "401A2108138A3B23"
@@ -3079,13 +3010,7 @@
 		}
 		{
 			dependencies: ["77322EFE45DA7FFD"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:redstone"
-			}
+			icon: "minecraft:redstone"
 			id: "127B1EC3F1C0BED0"
 			tasks: [{
 				id: "0395EA4577B292AF"
@@ -3097,13 +3022,7 @@
 		}
 		{
 			dependencies: ["77322EFE45DA7FFD"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "create:brass_ingot"
-			}
+			icon: "create:brass_ingot"
 			id: "66890200F4E97B1C"
 			tasks: [{
 				id: "351A935C2AA95E6B"
@@ -3115,13 +3034,7 @@
 		}
 		{
 			dependencies: ["77FE2AD69390A075"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "graveyard:dark_iron_ingot"
-			}
+			icon: "graveyard:dark_iron_ingot"
 			id: "6363A81E8943EA8C"
 			tasks: [{
 				id: "5E7AE0CEF01D1564"
@@ -3133,13 +3046,7 @@
 		}
 		{
 			dependencies: ["419167339A36EBEE"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "iter_rpg:elemental_ingot"
-			}
+			icon: "iter_rpg:elemental_ingot"
 			id: "304E89C12B7BC2EC"
 			tasks: [{
 				id: "357A6153D9981B6D"
@@ -3164,13 +3071,7 @@
 		}
 		{
 			dependencies: ["77437D5923589460"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "cataclysm:ignitium_ingot"
-			}
+			icon: "cataclysm:ignitium_ingot"
 			id: "7DE390304B71824E"
 			tasks: [{
 				id: "5054A7F9DEA1734F"
@@ -3182,13 +3083,7 @@
 		}
 		{
 			dependencies: ["77437D5923589460"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "cataclysm:witherite_ingot"
-			}
+			icon: "cataclysm:witherite_ingot"
 			id: "276988DDCE177F85"
 			tasks: [{
 				id: "3550FF87D0FB4762"
@@ -3200,13 +3095,7 @@
 		}
 		{
 			dependencies: ["6C927D2F952ED4E7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enlightened_end:adamantite_ingot"
-			}
+			icon: "enlightened_end:adamantite_ingot"
 			id: "7D52636088D872E2"
 			tasks: [{
 				id: "345E809BB45BAEA7"
@@ -3218,13 +3107,7 @@
 		}
 		{
 			dependencies: ["6C927D2F952ED4E7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enlightened_end:bismuth_ingot"
-			}
+			icon: "enlightened_end:bismuth_ingot"
 			id: "2222CF3F4EDE8BBB"
 			tasks: [{
 				id: "261521B3E75D7BC7"
@@ -3236,13 +3119,7 @@
 		}
 		{
 			dependencies: ["6C927D2F952ED4E7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enlightened_end:irradium_bar"
-			}
+			icon: "enlightened_end:irradium_bar"
 			id: "627C4D1631731854"
 			tasks: [{
 				id: "4753F23440F7115A"
@@ -3254,13 +3131,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:coal"
-			}
+			icon: "minecraft:coal"
 			id: "2602357615734A54"
 			tasks: [{
 				id: "6AB7C45BEF9C6614"
@@ -3272,13 +3143,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:gold_ingot"
-			}
+			icon: "minecraft:gold_ingot"
 			id: "484C898A6EF47AC4"
 			tasks: [{
 				id: "390D9DA5AE474732"
@@ -3316,13 +3181,7 @@
 		}
 		{
 			dependencies: ["77FE2AD69390A075"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "blue_skies:pyrope_gem"
-			}
+			icon: "blue_skies:pyrope_gem"
 			id: "6B00365B36E4E468"
 			tasks: [{
 				id: "2911DCFF5B1738B2"
@@ -3409,13 +3268,7 @@
 		}
 		{
 			dependencies: ["77322EFE45DA7FFD"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "epicsamurai:steel_ingot"
-			}
+			icon: "epicsamurai:steel_ingot"
 			id: "160B950C21470E6A"
 			tasks: [{
 				id: "23BE88828595BF5D"
@@ -3427,13 +3280,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "epicsamurai:silver_ingot"
-			}
+			icon: "epicsamurai:silver_ingot"
 			id: "2841A6815A7BF714"
 			tasks: [{
 				id: "75127AF26FA1051E"
@@ -3445,13 +3292,7 @@
 		}
 		{
 			dependencies: ["77322EFE45DA7FFD"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:quartz"
-			}
+			icon: "minecraft:quartz"
 			id: "7AC74091BA55FF47"
 			tasks: [{
 				id: "77330E3C0458B14F"
@@ -3463,13 +3304,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:stone"
-			}
+			icon: "minecraft:stone"
 			id: "1246F8B6159FEA5F"
 			tasks: [{
 				id: "1B0CAD3DEE2003A6"
@@ -3494,13 +3329,7 @@
 		}
 		{
 			dependencies: ["419167339A36EBEE"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "iter_rpg:empty_rune"
-			}
+			icon: "iter_rpg:empty_rune"
 			id: "368510AFF0D42368"
 			tasks: [{
 				id: "44445D70F47A7BF4"
@@ -3512,13 +3341,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "dustrial_decor:rusty_iron_ingot"
-			}
+			icon: "dustrial_decor:rusty_iron_ingot"
 			id: "6913103F30EF7294"
 			tasks: [{
 				id: "5BC25FFCE1BFD07B"
@@ -3530,13 +3353,7 @@
 		}
 		{
 			dependencies: ["419167339A36EBEE"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "art_of_forging:forged_steel_ingot"
-			}
+			icon: "art_of_forging:forged_steel_ingot"
 			id: "4491D4181538D7E1"
 			tasks: [{
 				id: "1BACA22B2D0CF344"
@@ -3548,13 +3365,7 @@
 		}
 		{
 			dependencies: ["77FE2AD69390A075"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "nourished_nether:necronium_ingot"
-			}
+			icon: "nourished_nether:necronium_ingot"
 			id: "72468F9CAF855049"
 			tasks: [{
 				id: "4FF8F96FDC8B2983"
@@ -3566,13 +3377,7 @@
 		}
 		{
 			dependencies: ["6C927D2F952ED4E7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enlightened_end:malachite"
-			}
+			icon: "enlightened_end:malachite"
 			id: "36F3219FFA632D06"
 			tasks: [{
 				id: "71CD91A09E4EE2F9"
@@ -3597,13 +3402,7 @@
 		}
 		{
 			dependencies: ["77FE2AD69390A075"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "blue_skies:moonstone_crystal"
-			}
+			icon: "blue_skies:moonstone_crystal"
 			id: "559DD889330928C0"
 			tasks: [{
 				id: "08128313E95A2BD3"
@@ -3615,13 +3414,7 @@
 		}
 		{
 			dependencies: ["77FE2AD69390A075"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "blue_skies:sunstone_crystal"
-			}
+			icon: "blue_skies:sunstone_crystal"
 			id: "79984B91995B3715"
 			tasks: [{
 				id: "7885699702FF64BC"
@@ -3633,13 +3426,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:amethyst_shard"
-			}
+			icon: "minecraft:amethyst_shard"
 			id: "57B60A83E04F8056"
 			tasks: [{
 				id: "14C0E21D63A60EA1"
@@ -3664,13 +3451,7 @@
 		}
 		{
 			dependencies: ["6C927D2F952ED4E7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "unusualend:shiny_crystal"
-			}
+			icon: "unusualend:shiny_crystal"
 			id: "0701D6328CF2214D"
 			subtitle: "Converts warped items into end variants. Crafts a undead slaying dagger. Gloopstone Nests are small lone islands in the Small End Islands, made out of Gloopstone, a mixture of insect remains. These islands have been isolated for long, resulting in this agglomerate. The mixture seems to have been a favorable ground for the formation of Shiny Crystals, gems with regenerative properties, which can only be found inside of nests. The nest is also covered of Endermite Eggs, which will have a chance to weaken and hatch Endermites or Enderblobs when a nearby player isn't sneaking or invisible, making it dangerous to attempt to mine Shiny Gloopstones. Normal eggs can be picked up by a player, but cracked ones will hatch instantly instead. "
 			tasks: [{
@@ -3683,13 +3464,7 @@
 		}
 		{
 			dependencies: ["6C927D2F952ED4E7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enlightened_end:glacium"
-			}
+			icon: "enlightened_end:glacium"
 			id: "443D93759C7EAE5A"
 			tasks: [{
 				id: "53D5F84350468913"
@@ -3701,13 +3476,7 @@
 		}
 		{
 			dependencies: ["419167339A36EBEE"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "aquamirae:abyssal_amethyst"
-			}
+			icon: "aquamirae:abyssal_amethyst"
 			id: "0CBB094B73199382"
 			tasks: [{
 				id: "793674C5B84AF69E"
@@ -3719,13 +3488,7 @@
 		}
 		{
 			dependencies: ["6C927D2F952ED4E7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:nether_star"
-			}
+			icon: "minecraft:nether_star"
 			id: "748F5D89206FB32D"
 			tasks: [{
 				id: "49BAF737532BC0E8"
@@ -3737,13 +3500,7 @@
 		}
 		{
 			dependencies: ["419167339A36EBEE"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:echo_shard"
-			}
+			icon: "minecraft:echo_shard"
 			id: "436785A7140C6420"
 			tasks: [{
 				id: "76BC7A59BB00CB53"
@@ -3755,13 +3512,7 @@
 		}
 		{
 			dependencies: ["77322EFE45DA7FFD"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "iter_rpg:gobsteel_scrap"
-			}
+			icon: "iter_rpg:gobsteel_scrap"
 			id: "03B76C6F0A7461ED"
 			tasks: [{
 				id: "336D9E0A1DE3C64A"
@@ -3773,13 +3524,7 @@
 		}
 		{
 			dependencies: ["77322EFE45DA7FFD"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "tetra:pristine_diamond"
-			}
+			icon: "tetra:pristine_diamond"
 			id: "227CBF8A295CA0CB"
 			tasks: [{
 				id: "78DF14A594341892"
@@ -3791,13 +3536,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "finsandtails:spindly_gem"
-			}
+			icon: "finsandtails:spindly_gem"
 			id: "747DB708A7A444BF"
 			tasks: [{
 				id: "778EE6BF3F8CB624"
@@ -3963,13 +3702,7 @@
 		}
 		{
 			dependencies: ["77437D5923589460"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enigmaticlegacy:ender_rod"
-			}
+			icon: "enigmaticlegacy:ender_rod"
 			id: "6AF0B5F73C2B9153"
 			subtitle: "Unlocked in the shop via the Cryptic Eye."
 			tasks: [{

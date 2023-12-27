@@ -204,13 +204,7 @@
 		}
 		{
 			dependencies: ["520E8FDF7962AB70"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:blast_furnace"
-			}
+			icon: "minecraft:blast_furnace"
 			id: "7DB33F9688241F01"
 			tasks: [{
 				id: "10E7B797CC91479C"
@@ -3328,13 +3322,7 @@
 		}
 		{
 			dependencies: ["336F71809948E52A"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "supplementaries:safe"
-			}
+			icon: "supplementaries:safe"
 			id: "4747900FBDE04539"
 			tasks: [{
 				id: "25FAF47A56C9EA75"
@@ -3426,13 +3414,7 @@
 		{
 			dependencies: ["3F9D63A6BBCB546F"]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:oak_chest_boat"
-			}
+			icon: "minecraft:oak_chest_boat"
 			id: "6EB15914E6C60FC8"
 			subtitle: "Boats can contain chests, and be used to transport goods from base to base."
 			tasks: [{
@@ -3446,13 +3428,7 @@
 		{
 			dependencies: ["3F9D63A6BBCB546F"]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "domesticationinnovation:drum"
-			}
+			icon: "domesticationinnovation:drum"
 			id: "129CFC060B10EF0A"
 			tasks: [{
 				id: "780BB7607A85CC43"

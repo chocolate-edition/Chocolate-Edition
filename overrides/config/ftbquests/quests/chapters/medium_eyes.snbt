@@ -5,9 +5,6 @@
 	group: "1C888CDB8EF0A7FB"
 	icon: {
 		Count: 1b
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": { }
-		}
 		id: "endrem:old_eye"
 		tag: {
 			Damage: 0
@@ -495,9 +492,42 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &cGhasts&r found in the Nether."
+				""
+				"&eGhast Tears&r can also be used to craft &eEnd Crystals&r which can respawn the &4Ender Dragon&r as well as &ePotions of Regeneration&r."
+			]
 			id: "1C696FDFF7187550"
+			rewards: [
+				{
+					id: "38EB3D97E569553F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:ghast_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4F0CD618B3436D06"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "unusualend:regeneration"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Ghast tear: Drops from ghasts half the time."
+			subtitle: "Dropped by Ghasts"
 			tasks: [{
 				id: "46D8D88F3A9522D3"
 				item: {
@@ -509,7 +539,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Ghast Tear (Witch Eye)"
 			x: 9.0d
 			y: 2.25d
 		}
@@ -538,13 +568,7 @@
 				"3BE77139FF984D4B"
 				"3901079844A43EC1"
 			]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enlightened_end:ooze_bottle"
-			}
+			icon: "enlightened_end:ooze_bottle"
 			id: "7B9F7F39C7137C90"
 			shape: "gear"
 			size: 1.5d
