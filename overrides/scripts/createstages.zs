@@ -379,7 +379,7 @@ var itemsCursed = [
 //Eye gates
 	ItemStages.restrict(<item:dungeons_gear:satchel_of_elixirs>.anyDamage(), "witch_eye").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
 	<tag:items:chocolate:witch_gate>.add(<item:dungeons_gear:satchel_of_elixirs>);
-	mods.recipestages.Recipes.setRecipeStage("one", <item:dungeons_gear:satchel_of_elixirs>);
+	mods.recipestages.Recipes.setRecipeStage("witch_eye", <item:dungeons_gear:satchel_of_elixirs>);
 
 //Stage gates
 for item in itemsStageOne {
