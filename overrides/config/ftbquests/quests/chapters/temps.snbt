@@ -218,6 +218,14 @@
 			]
 			id: "7930E1E5F6FA73C1"
 			min_required_dependencies: 3
+			rewards: [{
+				auto: "invisible"
+				command: "gamestage add @s one"
+				id: "3C892DF619009F69"
+				player_command: true
+				silent: true
+				type: "command"
+			}]
 			tasks: [{
 				id: "2338C24C40F92400"
 				item: {
@@ -994,6 +1002,14 @@
 			]
 			id: "08B75FB792CB7704"
 			min_required_dependencies: 6
+			rewards: [{
+				auto: "invisible"
+				command: "gamestage add @s two"
+				id: "00C4609B8CD6A016"
+				player_command: true
+				silent: true
+				type: "command"
+			}]
 			tasks: [{
 				id: "1DD228926C92C77A"
 				item: {
@@ -1194,6 +1210,14 @@
 			]
 			id: "301C5436C1E55DAD"
 			min_required_dependencies: 9
+			rewards: [{
+				auto: "invisible"
+				command: "gamestage add @s three"
+				id: "73F936CC0077E514"
+				player_command: true
+				silent: true
+				type: "command"
+			}]
 			tasks: [{
 				id: "0AD18D487A424979"
 				item: {
@@ -1394,6 +1418,14 @@
 			]
 			id: "422EFAD138D3A1DB"
 			min_required_dependencies: 12
+			rewards: [{
+				auto: "invisible"
+				command: "gamestage add @s four"
+				id: "1FA42241E805FA22"
+				player_command: true
+				silent: true
+				type: "command"
+			}]
 			tasks: [{
 				id: "282D7B09F4EA9572"
 				item: {
@@ -1593,6 +1625,14 @@
 				"28ED7103917C560F"
 			]
 			id: "48602E78DFC281AF"
+			rewards: [{
+				auto: "invisible"
+				command: "gamestage add @s five"
+				id: "4805F867317F09D8"
+				player_command: true
+				silent: true
+				type: "command"
+			}]
 			tasks: [{
 				id: "020891BE57B4479A"
 				item: {
