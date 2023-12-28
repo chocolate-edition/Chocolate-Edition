@@ -433,9 +433,90 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item is crafted from a variety of brewing related ingredients! "
+				""
+				"• &eSpider Eyes&r - dropped by &cSpiders&r and &cWitches&r or found in dungeon loot chests."
+				""
+				"• &eGlowstone dust&r - dropped by &cWitches&r and by mining &eGlowstone&r."
+				""
+				"• &eRedstone dust&r - dropped by &cWitches&r and by mining &eRedstone Ore&r."
+				""
+				"• &eGunpowder&r - dropped by &cWitches&r and &cCreepers&r."
+				""
+				"• &eSugar&r - dropped by &cWitches&r and crafted with &eSugar Cane&r."
+				""
+				""
+				"The &eWitch's Pupil&r can also be used to craft &eFire Charges&r into &eBlaze Powder&r"
+			]
 			id: "22EFDA10E1F0B9C6"
+			rewards: [
+				{
+					id: "445D1423CB8BFD88"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:zigzagwitchhat"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0DA2B298B274539C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:sugar"
+					}
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					count: 10
+					id: "732AF5E0E1A18524"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:redstone"
+					}
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0D9DEFB08B1FA551"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:gunpowder"
+					}
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5E167079E29DFA54"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:glowstone_dust"
+					}
+					random_bonus: 10
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Witch Pupil: Craft a spider eye, 2 glowstone dust, 2 sugar, 2 redstone, and 2 gunpowder(all drops from the witch and common materials)."
+			subtitle: "Crafted using a Spider Eye, Glowstone Dust, Redstone Dust, Gunpowder, and Sugar"
 			tasks: [{
 				id: "2F864ACA34A3BBED"
 				item: {
@@ -447,7 +528,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Witch Pupil (Witch Eye)"
 			x: 11.75d
 			y: 1.25d
 		}
@@ -509,8 +590,41 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by interacting with a fungal-covered &eLeafcutter Ant Chamber&r found underneath a &6Leafcutter Ant&r mounds in jungles"
+				""
+				""
+				"However, unless a &eShroomlight&r is nearby the &6Leafcutter Ants&r, and their Queen, will become hostile"
+				""
+				"&eGongylidia&r can be fed to &6Leafcutter Ants&r to heal or pacify them. It can also be fed to the queen to increase the size of the colony."
+			]
 			id: "113D4BA79CC86A77"
-			subtitle: "- Gongylidia: obtained by interacting with a fungal covered chamber block underneath a leafcutter ant mound(in jungles). However, unless a shroomlight is nearby the ants will become hostile."
+			rewards: [
+				{
+					id: "4DB62ADFFF3EE258"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:leafcutter_ant_pupa"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5874276C93BBE34A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:gongylidia"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Interact with fungal covered blocks under an anthill"
 			tasks: [{
 				id: "1C2733C60413794A"
 				item: {
@@ -522,7 +636,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Gongylidia (Witch Eye)"
 			x: 8.25d
 			y: 1.25d
 		}

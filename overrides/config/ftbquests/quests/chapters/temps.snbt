@@ -2095,6 +2095,34 @@
 			x: -7.75d
 			y: 5.75d
 		}
+		{
+			description: [
+				"&4Dark Red&r - Bosses"
+				""
+				"&cRed&r - Hositle Mobs"
+				""
+				"&6Orange&r - Neutral Mobs (Wolf - Neutral till attacked)"
+				""
+				"&aGreen&r - Passive Mobs"
+				""
+				"&eYellow&r - Item"
+				""
+				"&2Dark Green&r - Status Effect"
+				""
+				""
+				"Guy used &6orange&r as Command block"
+				"&5Purple&r seems to be WS based"
+				"&1Dark Blue&r might be tamed animals"
+			]
+			id: "144F4B7563C335A4"
+			tasks: [{
+				id: "1772699C8A700FBB"
+				type: "custom"
+			}]
+			title: "Color Key"
+			x: -7.75d
+			y: 7.0d
+		}
 	]
 	title: "Flags"
 }

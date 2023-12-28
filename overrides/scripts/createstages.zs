@@ -102,7 +102,7 @@ CTEventManager.register<GameStageAdded>((event) => {
    
    
 );
-// shittily coded arrays and loops courtesy of yours truly guyperson1
+// shittily coded arrays and loops courtesy of yours truly guyperson1 
 
 
 
