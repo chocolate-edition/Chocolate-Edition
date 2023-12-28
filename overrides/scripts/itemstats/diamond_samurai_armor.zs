@@ -14,3 +14,4 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:epicsamurai:diamond_samurai_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, AttributeIds.chestplate, "Buff_Diamond_Samuraite_Chest_resist", 0.05, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:epicsamurai:diamond_samurai_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, AttributeIds.leggings, "Buff_Diamond_Samuraite_Leggings_resist", 0.05, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 <item:epicsamurai:diamond_samurai_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, AttributeIds.boots, "Buff_Diamond_Samuraite_Helmet_resist", 0.05, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+ 

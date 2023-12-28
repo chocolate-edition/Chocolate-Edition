@@ -5,9 +5,6 @@
 	group: "1C888CDB8EF0A7FB"
 	icon: {
 		Count: 1b
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": { }
-		}
 		id: "endrem:old_eye"
 		tag: {
 			Damage: 0
@@ -538,13 +535,7 @@
 				"3BE77139FF984D4B"
 				"3901079844A43EC1"
 			]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enlightened_end:ooze_bottle"
-			}
+			icon: "enlightened_end:ooze_bottle"
 			id: "7B9F7F39C7137C90"
 			shape: "gear"
 			size: 1.5d
