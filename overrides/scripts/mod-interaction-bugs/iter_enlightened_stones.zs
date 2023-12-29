@@ -7,7 +7,7 @@ import crafttweaker.api.loot.param.LootContextParams;
 import crafttweaker.api.item.ItemStack;
 import crafttweaker.api.util.math.Vec3;
 import crafttweaker.api.block.BlockState;
-
+/*
 // iter rpg and enlightned end stone types do not drop when mined with tetras pick,or pickarang 
 
 val buggedTools = [
@@ -57,3 +57,4 @@ CTEventManager.register<BlockBreakEvent>((event) => {
     event.getWorld().addFreshEntity(item);
   }
 });
+*/

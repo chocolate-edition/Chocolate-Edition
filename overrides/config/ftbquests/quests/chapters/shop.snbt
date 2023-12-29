@@ -5576,13 +5576,7 @@
 			]
 			disable_toast: true
 			hide: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "paraglider:anti_vessel"
-			}
+			icon: "paraglider:anti_vessel"
 			id: "0BDD8DEF065A72D6"
 			rewards: [{
 				id: "64DDDA81F44E621C"
@@ -5654,13 +5648,7 @@
 			]
 			disable_toast: true
 			hide: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "paraglider:heart_container"
-			}
+			icon: "paraglider:heart_container"
 			id: "29032E1622F0C239"
 			rewards: [{
 				id: "020B30F297E23DF8"
@@ -6031,13 +6019,7 @@
 			]
 			disable_toast: true
 			hide: false
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enigmaticlegacy:mending_mixture"
-			}
+			icon: "enigmaticlegacy:mending_mixture"
 			id: "369DC95CD8D32734"
 			rewards: [{
 				count: 16
@@ -6326,9 +6308,6 @@
 			disable_toast: true
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "quark:backpack"
 				tag: {
 					Inventory: [

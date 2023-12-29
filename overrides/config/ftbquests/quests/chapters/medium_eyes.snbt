@@ -714,7 +714,6 @@
 					type: "item"
 				}
 				{
-					count: 5
 					id: "3B51FA088F0FD23B"
 					item: {
 						Count: 1b
@@ -770,9 +769,42 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtainted by brewing a &eMagma Cream&r with an &eAwkward Potion&r"
+				""
+				""
+				"A &ePotion of Fire Resistance&r, when paired with a &ePotion of Lava Vision&r, makes a great way to traverse the the lava lakes of the nether! You might even see some fish down there!"
+			]
 			id: "7FC09806C695EBF9"
+			rewards: [
+				{
+					id: "2BFA093ED7823B48"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "netherdepthsupgrade:long_lava_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7107C5FF51F71344"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Fire resistance Potion: Brew a magma cream(dropped in a brewing stand with an awkward potion(brewed from nether wart in fortresses and water bottles)"
+			subtitle: "Brew a Magma Cream with an Awkward Potion"
 			tasks: [{
 				id: "4D7C8524E2931AC6"
 				item: {
@@ -787,15 +819,79 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
-			x: 11.25d
+			title: "Potion of Fire Resistance (Witch Eye)"
+			x: 8.75d
 			y: -1.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtainted by brewing a &eFrozen Rotten Flesh&r with an &eCorrupted Potion&r"
+				""
+				"&eFrozen Rotten Flesh&r drops from the &cForstbitten&r, which can be found in cold and snowy biomes"
+				""
+				"A &eCorrupted Poition&r obtained by brewing a &eCorrupted Wart&r with an &eAkward Potion&r"
+				""
+				""
+				"&eSplash Potions of Freeze&r and &eArrows of Freeze&r are extreamly useful in combat"
+			]
 			id: "06C834D042C504DA"
+			rewards: [
+				{
+					id: "13DB710FE0C0B857"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [{
+										id: "dungeons_gear:freezing"
+										lvl: 1s
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_gear:freezing_foil"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "704FF971BD551ECE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "rottencreatures:strong_freeze"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6036E005F425004C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "rottencreatures:strong_freeze"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Freeze: Brew a frozen flesh from a snow zombie over a awkward potion."
+			subtitle: "Brew Frozen Rotten Flesh with an Corrupted Potion"
 			tasks: [{
 				id: "59759ADE7B4EA1AB"
 				item: {
@@ -810,8 +906,8 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
-			x: 8.75d
+			title: "Potion of Freeze (Witch Eye)"
+			x: 11.25d
 			y: -1.75d
 		}
 		{
