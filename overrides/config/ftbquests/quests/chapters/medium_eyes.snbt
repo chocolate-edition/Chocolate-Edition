@@ -747,11 +747,37 @@
 				"3BE77139FF984D4B"
 				"3901079844A43EC1"
 			]
+			description: [
+				"Lionfish: Dropped by &aLionfish&r found near coral in warm ocean biomes"
+				""
+				"Lizard Tail: Dropped by &aLizards&r"
+				""
+				"Pufferfish: Fished in most bodies of water or dropped by &6Pufferfish&r and &6Lava Pufferfish&r"
+				""
+				""
+				"Lily of the Valley:"
+				"Potion of Corruption:"
+				"Potion of Posion:"
+				"Potion of Harming:"
+				"Potion of Weakness:"
+				"Potion of Slowness:"
+			]
 			icon: "enlightened_end:ooze_bottle"
 			id: "7B9F7F39C7137C90"
+			rewards: [{
+				id: "1A70A4E5460CCE40"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enlightened_end:ooze_fluid_bucket"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "- Ooze Bottle: Unbrewable potion that you must craft from the ingredients above:"
+			subtitle: "Crafted with the knowledge of potion making"
 			tasks: [{
 				id: "3A3FB0CCB42B0B29"
 				item: {
@@ -829,9 +855,6 @@
 				"This item can be obtainted by brewing a &eFrozen Rotten Flesh&r with an &eCorrupted Potion&r"
 				""
 				"&eFrozen Rotten Flesh&r drops from the &cForstbitten&r, which can be found in cold and snowy biomes"
-				""
-				"A &eCorrupted Poition&r obtained by brewing a &eCorrupted Wart&r with an &eAkward Potion&r"
-				""
 				""
 				"&eSplash Potions of Freeze&r and &eArrows of Freeze&r are extreamly useful in combat"
 			]
@@ -912,9 +935,42 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by brewing a &eFermented Spider Eye&r with a &ePotion of Poison&r or &ePotion of Healing&r"]
 			id: "30A0DAAC54FC17B0"
+			rewards: [
+				{
+					count: 32
+					id: "5EC4253562509105"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "01F7BF76CA773537"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Harming Potion: Brewed using a fermented spider eye on a poison/healing potion, which are themselves brewed from either jellyfish,spider eye, glistering melon or leech."
+			subtitle: "Brewed using a Fermented Spider Eye and Potion of Healing or Poison"
 			tasks: [{
 				id: "3B9DBA8974AA6664"
 				item: {
@@ -929,15 +985,58 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Potion of Harming (Witch Eye)"
 			x: 9.5d
 			y: -4.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by brewing &eFermented Spider Eye&r with a &ePotion of Leaping&r or &ePotion of Swiftness&r"]
 			id: "19FF4CFFDAEFFFD0"
+			rewards: [
+				{
+					count: 32
+					id: "63742043A3694F97"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_slowness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D5D7CE6B53D9D47"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:speed_force"
+					}
+					type: "item"
+				}
+				{
+					id: "7774E60176A2DE78"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:turtle_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Slowness Potion: Brewed using a fermented spider eye on a leaping/swiftness potion,, which are themselves brewed from either rabbit feet or sugar."
+			subtitle: "Brewed using a Fermented Spider Eye and Potion of Leaping/Swiftness"
 			tasks: [{
 				id: "5E8C02B0352E5B00"
 				item: {
@@ -952,15 +1051,66 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Potion of Slowness (Witch Eye)"
 			x: 11.5d
 			y: -4.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be Obtained by brewing a &eSpider Eye&r, &eJellyfish&r, or &eStinger&r with an &eAwkward Potion&r. &eSpider Eyes&r drop from &cSpiders&r, &eJellyfish&r drop from &6Jellyfish&r, &eStringers&r drop from &4The Queen Bee&r"
+				""
+				"A &ePotion of Poison&r can be brewed with a &eFermented Spider Eye&r to make a &ePotion of Harming&r."
+			]
 			id: "4F37E9D06D520A53"
+			rewards: [
+				{
+					id: "441D199F12302423"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:long_poison_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "02A606725EBD6F54"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:long_poison"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7C811B382A3C4CE0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "unusualend:regeneration_ii"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Poison Potion: Brewed using Spider eye or jellyfish."
+			subtitle: "Brewed using Spider Eye, Jellyfish, or Stinger"
 			tasks: [{
 				id: "7FF6F77326C602C5"
 				item: {
@@ -975,15 +1125,48 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Potion of Poison (Witch Eye)"
 			x: 8.5d
 			y: -4.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by brewing a &eFermented Spider Eye&r with a &eWater Bottle&r."]
 			id: "0A52A2DA2FADD59A"
+			rewards: [
+				{
+					count: 32
+					id: "43E6039251561D6F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:long_weakness"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3D515F206599C4A2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Weakness Potion: brewed with a fermented spider eye on a regular water bottle."
+			subtitle: "Brewed using a Fermented Spider Eye and Water Bottle"
 			tasks: [{
 				id: "08EB4727879086AC"
 				item: {
@@ -998,7 +1181,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Potion of Weakness (Witch Eye)"
 			x: 10.5d
 			y: -4.25d
 		}
@@ -1013,9 +1196,46 @@
 				"0A52A2DA2FADD59A"
 				"1CAC88E972C255A8"
 			]
+			description: [
+				"A &eCorrupted Poition&r is obtained by brewing a &eCorrupted Wart&r with an &eAkward Potion&r."
+				""
+				""
+				"A &eCorrupted War&rt is crafted from &eCorruption,&r &eNether Wart&r, and &eFrozne Rotten Flesh&r"
+			]
 			id: "3BE77139FF984D4B"
+			rewards: [
+				{
+					count: 6
+					id: "5DACD2FD84B8DDA6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "rottencreatures:corrupted"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D0C0D3B24E87C62"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "endermanoverhaul:corrupted_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "• Corrupted Potion:Made from corrupted wart, which is crafted using 4 wart and one frozen flesh dropped from a Frostbitten zombie spawning in cold biomes at night."
+			subtitle: "Brewed using Corrupted Wart and Awkward Potion"
 			tasks: [{
 				id: "36EFDCB42B847BB1"
 				item: {
@@ -1030,15 +1250,54 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Corrupted Potion (Witch Eye)"
 			x: 10.0d
 			y: -5.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained ky killing &aLionfish&r or &cDeepling Lionfish&r. "
+				""
+				""
+				"&aLionfish&r spawn near coral in warm ocean biomes. They can also drop from &cGuardians&r and &4Elder Guardians&r. Lionfish can also be brewed into a &ePotion of Repellence&r by brewing it with an &eAwkward Potion&r."
+				""
+				""
+				"&cDeepling Lionfish&r spawn near Sunken Citys."
+			]
 			id: "1CAC88E972C255A8"
+			rewards: [
+				{
+					id: "6AC6351D795F1A29"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7570351F7B142DC6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "upgrade_aquatic:repellence_long"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Lionfish: They are found near coral in warm and unfrozen ocean biomes. Lionfish Buckets can be purchased from the Wandering trader."
+			subtitle: "Found near coral in warm ocean biomes"
 			tasks: [{
 				id: "796DD1B82EC5D8E6"
 				item: {
@@ -1075,15 +1334,27 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Lionfish (Witch Eye)"
 			x: 8.5d
 			y: -6.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained from &aLizards&r which spawn in arid biomes and swamps. Attacking them casuses their tale to fall off, killing the tail will drop the &eLizard Tail&r."]
 			id: "638FFB7A23D3679D"
+			rewards: [{
+				id: "09982E273B05616A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "cnb:lizard_egg"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Lizard Tail: Lizards spawn in arid biomes and swamps; kill them and their tail will flail off; kill the tail for the item."
+			subtitle: "Dropped by Lizards"
 			tasks: [{
 				id: "71E59D1F7EAF8098"
 				item: {
@@ -1113,15 +1384,44 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Lizard Tail (Witch Eye)"
 			x: 9.5d
 			y: -7.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by finding, and breaking, &eLily of the Valley&r in a flower forest"
+				""
+				"The &eLily of the Valley&r can also be used for &eWhite Dye&r"
+			]
 			id: "7028435821472450"
+			rewards: [
+				{
+					id: "104D59DE08822B79"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:flower_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "06BDE3808562AD17"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:lily_of_the_valley"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "- Lily of the valley: Semi-rare flower only spawning in the flower forest biome."
+			subtitle: "Found in flower forests"
 			tasks: [{
 				id: "094D3110E5F95C1D"
 				item: {
@@ -1133,15 +1433,52 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Lily of the Valley (Witch Eye)"
 			x: 11.5d
 			y: -6.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by fishing in most bodies of water and lava. You can also obtain it by killing &6Pufferfish&r, which spawn in warm and like warm ocean biomes, or &6Lava Pufferfish&r, which spawn in the Nether."
+				""
+				"&ePufferfish&r can be used to brew &ePotions of Water Breathing&r, when mixing it with an &eAwkward Potion&r"
+				""
+				"&eLava Pufferfish&r can be used to brew &ePotions of Withering&r, when mixing it with an &eAwkward Potion&r"
+			]
 			id: "189DA392BC3ED45C"
+			rewards: [
+				{
+					id: "59BC47565E0355FB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:charm_of_sinking"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B19B946D9E578C4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "netherdepthsupgrade:long_lava_vision"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Pufferfish: common fish loot in all bodies of water."
+			subtitle: "Fished in most bodies of water"
 			tasks: [{
 				id: "6FEC5FF6B9BEF152"
 				item: {
@@ -1172,7 +1509,7 @@
 				title: "Pufferfish"
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Pufferfish (Witch Eye)"
 			x: 10.5d
 			y: -7.25d
 		}
