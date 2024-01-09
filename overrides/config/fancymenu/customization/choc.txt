@@ -326,11 +326,3 @@ customization {
   height = 20
 }
 
-customization {
-  identifier = %id=604322%
-  orientation = top-left
-  x = 608
-  action = movebutton
-  y = 16
-}
-

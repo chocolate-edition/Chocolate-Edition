@@ -102,7 +102,7 @@ CTEventManager.register<GameStageAdded>((event) => {
    
    
 );
-// shittily coded arrays and loops courtesy of yours truly guyperson1
+// shittily coded arrays and loops courtesy of yours truly guyperson1 
 
 
 
@@ -377,9 +377,7 @@ var itemsCursed = [
 
 
 //Eye gates
-	ItemStages.restrict(<item:dungeons_gear:satchel_of_elixirs>.anyDamage(), "witch_eye").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
-	<tag:items:chocolate:witch_gate>.add(<item:dungeons_gear:satchel_of_elixirs>);
-	mods.recipestages.Recipes.setRecipeStage("witch_eye", <item:dungeons_gear:satchel_of_elixirs>);
+
 
 //Stage gates
 for item in itemsStageOne {
@@ -429,6 +427,7 @@ for index, itemArray in stagedItemArrays {
 }
 */
 
+
 ItemStages.createModRestriction("witherstormmod", "five").preventInventory(false).preventPickup(false).hiddenName("§cUnsettling Item");
 Jei.hideModIngredients("witherstormmod", path => false);
 mods.recipestages.Recipes.setRecipeStageByMod("five", "witherstormmod");
@@ -440,7 +439,7 @@ DimensionStages.stageDimensionWithMessage("minecraft:the_nether","The Nether req
 DimensionStages.stageDimensionWithMessage("blue_skies:everbright","The Everbright requires 6 eyes worth of power to enter...", "two");
 DimensionStages.stageDimensionWithMessage("blue_skies:everdawn","The Everdawn requires 6 eyes worth of power to enter...", "two");
 DimensionStages.stageDimensionWithMessage("minecraft:the_end", "The End requires 12 eyes worth of power, come back later...", "four");
-DimensionStages.stageDimensionWithMessage("javd:void", "The N E X U S requires 16 eyes worth of power, come back later...", "four");
+DimensionStages.stageDimensionWithMessage("javd:void", "The Nexus requires 16 eyes worth of power, come back n e v e r...", "four");
 
 
 

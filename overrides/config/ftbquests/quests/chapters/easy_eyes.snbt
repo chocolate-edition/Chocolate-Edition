@@ -465,7 +465,11 @@
 					type: "item"
 				}
 			]
+<<<<<<< Updated upstream
 			subtitle: "Drops from glittering Deepslate deep underground"
+=======
+			subtitle: "Dropped by glittering Deepslate deep underground"
+>>>>>>> Stashed changes
 			tasks: [{
 				id: "6B95BB97DA0B3A4D"
 				item: {
@@ -518,11 +522,15 @@
 				"----------------------"
 				"The shape of each quest indicates where that item comes from:"
 				""
-				"Circle: Undefined"
-				"Square: Crafted or Mob drop"
-				"Rounded Square: Mob drop"
-				"Pentagon: Structure loot or found in the world"
-				"Gear: Crafted"
+				"&aGear:&r Crafted"
+				""
+				"&aRounded Square:&r Mob drop"
+				""
+				"&aSquare:&r Crafted or Mob drop"
+				""
+				"&aPentagon:&r Structure loot or found in the world"
+				""
+				"&aCircle:&r Other"
 			]
 			id: "7F6DE0D493399E44"
 			rewards: [{
@@ -678,7 +686,11 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+<<<<<<< Updated upstream
 			subtitle: "Drops from Ravagers in Raids"
+=======
+			subtitle: "Dropped by Ravagers in Raids"
+>>>>>>> Stashed changes
 			tasks: [{
 				id: "237CC246E9B21840"
 				item: {
@@ -1940,7 +1952,11 @@
 				"2243BA6B2363797E"
 			]
 			description: [
+<<<<<<< Updated upstream
 				"This item can be obtained by crafting an &eEmpty Blaze Burner&r with &eNetherrack&r and &ePressed Iron Sheets&r, and then activating it by using it on a &cBlaze&r or crafting it with a &eTotem of Undying&r."
+=======
+				"This item can be obtained by crafting an &eEmpty Blaze Burner&r with &eNetherrack&r and &ePressed Iron Sheets&r, and then activating it by using it on a &cBlaze&r"
+>>>>>>> Stashed changes
 				""
 				"The &eBlaze Burner&r has three different stages: dormant, heated, and superheated. Higher tiers of heat have access to more mixing and pressing recipes. The &eBlaze Burner&r can be fed fuel items to become heated, and &eBlaze Cakes&r to become superheated. For more information, use the Ponder mechanic on the &eBlaze Burner&r."
 			]
@@ -3630,5 +3646,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Easy Eyes"
+	title: "&aEasy Eyes"
 }
