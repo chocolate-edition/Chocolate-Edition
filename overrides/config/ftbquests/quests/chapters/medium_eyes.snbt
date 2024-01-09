@@ -967,7 +967,7 @@
 			]
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "A flower found in the Everbright"
+			subtitle: "A flower found in the Frostbitten Forest"
 			tasks: [{
 				id: "49769B34E039514C"
 				item: {
@@ -1018,7 +1018,7 @@
 			]
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "A flower found in the Everdawn"
+			subtitle: "A flower found in the Onorthodox Valley"
 			tasks: [{
 				id: "2924934B45579E1F"
 				item: {
