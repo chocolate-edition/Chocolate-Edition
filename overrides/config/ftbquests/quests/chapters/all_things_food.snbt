@@ -818,6 +818,39 @@
 					}
 					type: "item"
 				}
+				{
+					id: "15B88B5BF05FE20A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:yucca_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "4CC5FBD70B190E12"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:morado_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "3A2039B9B852B30B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:rosewood_sapling"
+					}
+					type: "item"
+				}
 			]
 			title: "The Ultimate Treehugger"
 			x: -7.0d
@@ -1351,13 +1384,21 @@
 					type: "item"
 				}
 				{
+<<<<<<< Updated upstream
 					id: "7088EECFE736BC24"
+=======
+					id: "2F283A5E4037145F"
+>>>>>>> Stashed changes
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
+<<<<<<< Updated upstream
 						id: "enlightened_end:elevibloom_seeds"
+=======
+						id: "atmospheric:aloe_kernels"
+>>>>>>> Stashed changes
 					}
 					type: "item"
 				}
@@ -3462,6 +3503,39 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2630EC92C0B3C0EC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "galosphere:lichen_cordyceps"
+					}
+					type: "item"
+				}
+				{
+					id: "04F26C4728050BBA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:fiery_beans"
+					}
+					type: "item"
+				}
+				{
+					id: "11986641859AE33D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:aloe_leaves"
+					}
+					type: "item"
+				}
 			]
 			title: "Seasoned Vegetarian"
 			x: -5.625d
@@ -3974,6 +4048,17 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "enigmaticlegacy:astral_potato"
+					}
+					type: "item"
+				}
+				{
+					id: "3DEA6F2D9684FE0D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:yucca_gateau"
 					}
 					type: "item"
 				}
@@ -4897,6 +4982,39 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "enlightened_end:azure_berries"
+					}
+					type: "item"
+				}
+				{
+					id: "566D77F852B924FA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:elevibloom"
+					}
+					type: "item"
+				}
+				{
+					id: "378C7B6041CBA34D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:passionfruit"
+					}
+					type: "item"
+				}
+				{
+					id: "19CC3626D0A05E06"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:yucca_fruit"
 					}
 					type: "item"
 				}
