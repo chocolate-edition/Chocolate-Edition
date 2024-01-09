@@ -1350,6 +1350,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7088EECFE736BC24"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:elevibloom_seeds"
+					}
+					type: "item"
+				}
 			]
 			title: "Crop Hoarder"
 			x: -8.5d
