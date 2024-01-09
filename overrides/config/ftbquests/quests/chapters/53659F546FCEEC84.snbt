@@ -88,7 +88,13 @@
 				"      With that in mind, you've proven that you're significantly more usef- I mean, helpful than I had ever previously imagined. Have another gift from us to commend your adventure so far. This is the closest I've been in so long.. "
 			]
 			hide: true
-			icon: "paraglider:heart_container"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:heart_container"
+			}
 			id: "77A690789262F7DD"
 			shape: "hexagon"
 			tasks: [{
@@ -110,7 +116,13 @@
 				"      All this time, we've thought it was all gone… I mean, all this knowledge of old civilizations we thought was lost; to war and the unrivaled dominion of Time. May your collecting of the final eyes necessary finally tell the Gods of old that my realm isn't theirs to conquer..."
 			]
 			hide: true
-			icon: "paraglider:heart_container"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:heart_container"
+			}
 			id: "42549F31A5908C38"
 			shape: "hexagon"
 			tasks: [{
@@ -133,7 +145,13 @@
 				"      However, I do have just one last thing to say. I.. Never thought I would see this day. The Union of the Eyes, Balance restored to the universe, a world finally resembling what once was... It almost makes me want to give up on my quest for Freedom, and go back to what once was. You see, I don't even remember what freedom feels like- and I've been beating myself up for so long, that I've almost lost my sanity. Hell, I've lost everything, from my Power, to everyone I've held dear, at the hands of the Gods who put me here. But now, after so, so much sacrifice, preparation, and p a t i e n c e, "
 			]
 			hide: true
-			icon: "paraglider:heart_container"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:heart_container"
+			}
 			id: "61C945F5E24A351B"
 			shape: "hexagon"
 			tasks: [{
@@ -185,7 +203,13 @@
 				"      Thank you so much for playing this modpack all the way through, it took me hundreds of hours to figure out how to put this all together. I really hope you enjoyed! Now have fun being a Master of the Realms. Oh, and could you do one more thing for me? I put a final quest in your book, I'd like you to take a look. It's been a long time since I've been in my old home; I miss it very much."
 			]
 			hide: true
-			icon: "paraglider:heart_container"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "paraglider:heart_container"
+			}
 			id: "3D795AD965FEE976"
 			rewards: [{
 				id: "16C565214FCE0150"
