@@ -673,7 +673,13 @@
 				"5DA4FF9594050625"
 				"5B4CB0F76C78E90B"
 			]
-			icon: "mutantmore:formula_y"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "mutantmore:formula_y"
+			}
 			id: "757BE6AD45565739"
 			subtitle: "Converts wither skeletons, blazes, and shulkers."
 			tasks: [{

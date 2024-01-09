@@ -2380,6 +2380,9 @@
 			dependencies: ["5DCD96A2FACE5201"]
 			icon: {
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
 				id: "minecraft:splash_potion"
 				tag: {
 					Potion: "mutantmonsters:chemical_x"
@@ -2398,7 +2401,13 @@
 		}
 		{
 			dependencies: ["5DCD96A2FACE5201"]
-			icon: "mutantmore:formula_y"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "mutantmore:formula_y"
+			}
 			id: "20DBE651687F0D1C"
 			shape: "gear"
 			tasks: [{
@@ -2823,7 +2832,13 @@
 		}
 		{
 			dependencies: ["6E0845CDD0BFB1EA"]
-			icon: "witherstormmod:command_block_book"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "witherstormmod:command_block_book"
+			}
 			id: "699B043D4A972282"
 			subtitle: "Obtained from Symbiote. Crafts Formidibomb. Weapons made from it are unbreakable."
 			tasks: [{
@@ -3488,7 +3503,13 @@
 		}
 		{
 			dependencies: ["6C927D2F952ED4E7"]
-			icon: "minecraft:nether_star"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:nether_star"
+			}
 			id: "748F5D89206FB32D"
 			tasks: [{
 				id: "49BAF737532BC0E8"
