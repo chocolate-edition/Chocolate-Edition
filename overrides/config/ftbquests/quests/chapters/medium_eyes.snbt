@@ -819,7 +819,27 @@
 				"4639E43A5B5C4F18"
 				"480C1E862A882A6E"
 			]
-			description: ["&3Requires Everbright and Everdawn Access&r"]
+			description: [
+				"&3Requires Everbright and Everdawn Access&r"
+				""
+				"• Golden Moth in a Jar: Capture a &aGolden Moth&r in a &eBottle&r"
+				""
+				"• Nightcress: A flower found in the Everdawn"
+				""
+				"• Dawn/Ethereal Arc: Dropped by the &4Summoner&r or &4Alchemist&r"
+				""
+				"• Snowbloom: A flower found in the Everbright"
+				""
+				"• Wisteria Niveis: Found in Deep Frozen Ocean biomes"
+				""
+				"• Star Flare: Dropped By &aFrost Spirits&r"
+				""
+				"• Totem of Freezing: Dropped from &cIceologers&r"
+				""
+				"• Froststalker Horn: Dropped by &cFroststalkers&r"
+				""
+				"• Soul Fragment: Dropped by &aFrost Spirits&r and &cPolargeists&r"
+			]
 			id: "5F3F3F6DCBA94A9A"
 			min_width: 600
 			rewards: [
@@ -852,6 +872,32 @@
 					}
 					type: "item"
 				}
+				{
+					id: "48B675C157413BC0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:soulbound_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7DA2ED4D4EEB20EC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create_confectionery:soothing_hot_chocolate"
+					}
+					type: "item"
+				}
 			]
 			size: 2.0d
 			subtitle: "\"The Eye of Glacial Epochs\""
@@ -874,10 +920,54 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by exploring the Everbright - specifically in the Frostbitten Forest Clearing biome. "
+				""
+				"They can also be found at the top of the Everbright Blinding Dungeon Tower in the &4Summoner&r bossfight room"
+				""
+				"&eSnowblooms&r can also be turned into &eWhite Dye&r "
+			]
 			id: "1080E32645BA4E43"
+			rewards: [
+				{
+					count: 10
+					id: "3B81CFF7139060C2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:snowbloom"
+					}
+					type: "item"
+				}
+				{
+					id: "0BA6C3A59F743AB3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:snowmanbaby"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "78DC08C603B3FE36"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create_confectionery:soothing_hot_chocolate"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "- Snowbloom: Flowers found in the Everbright."
+			subtitle: "A flower found in the Everbright"
 			tasks: [{
 				id: "49769B34E039514C"
 				item: {
@@ -889,16 +979,46 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cold Eye"
+			title: "Snowbloom (Cold Eye)"
 			x: 14.1d
 			y: 2.1d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by exploring the Everdawn - specifically in the Unorthodox Valley biome."
+				""
+				"&eNightcresses&r can also be turned into &eBlue Dye&r"
+			]
 			id: "6A3880FB783D3A96"
+			rewards: [
+				{
+					count: 10
+					id: "438B7FCC572E012B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:nightcress"
+					}
+					type: "item"
+				}
+				{
+					id: "612EF25B9A0A29F0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:dark_nelumbo"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "- Nightcress: Flower found in the Everdawn."
+			subtitle: "A flower found in the Everdawn"
 			tasks: [{
 				id: "2924934B45579E1F"
 				item: {
@@ -910,15 +1030,61 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cold Eye"
+			title: "Nightcress (Cold Eye)"
 			x: 15.899999999999999d
 			y: 2.1d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &aFrost Spirits&r and &cPolargeists&r.&a Frost Spirits&r spawn upon killing &cArmored Frost Spirits&r."
+				""
+				""
+				"&eSoul Fragments&r can also be used in an &eAlchemy Table&r to create &eFalsite Ingots&r"
+			]
 			id: "3F8EA6DCD5D6F333"
+			rewards: [
+				{
+					count: 16
+					id: "604445A688632388"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:soul_fragment"
+					}
+					type: "item"
+				}
+				{
+					id: "11331441A53CE317"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:strong_soulsteal"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "593BD2319FE8774D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "endermanoverhaul:soul_pearl"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Soul Fragment: Dropped commonly from Everbright Frost spirits and Polargeists."
+			subtitle: "Dropped by Frost Spirits and Polargeists"
 			tasks: [{
 				id: "3E0F456F1EA79C3C"
 				item: {
@@ -930,15 +1096,31 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cold Eye"
+			title: "Soul Fragment (Cold Eye)"
 			x: 16.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &aFrost Spirits&r which spawn upon killing &cArmored Frost Spirits&r."
+				""
+				"&eStar Flares&r can be crafted into a &eStar Emitter&r which is a work station block for the &aStargazer Villager&r. When paired with an &eAstrolabe&r, you can teleport back to the location of the &eStar Emitter&r."
+			]
 			id: "23D3CCC196FC85B7"
+			rewards: [{
+				id: "538B37467F6CE2EF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:star_emitter"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Star flare: Dropped commonly from Everbright Frost spirits. "
+			subtitle: "Dropped By Frost Spirits"
 			tasks: [{
 				id: "006553D83F42DE00"
 				item: {
@@ -950,15 +1132,34 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cold Eye"
+			title: "Star Flare (Cold Eye)"
 			x: 13.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &cIceologers&r which spawn in raids that take place in cold biomes or igloos found in cold biomes"
+				""
+				"The &eTotem of Freezing&r - upon taking lethal damage - prevents death and gives a short burst of Speed"
+			]
 			id: "72E2D16CD4878594"
+			rewards: [{
+				id: "2163615F6C793424"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "dungeons_mobs:diamond_mountaineer_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Totem of Freezing: Dropped from iceologers, illagers that spawn in raids in cold biomes or huts in cold biomes."
+			subtitle: "Dropped from Iceologers"
 			tasks: [{
 				id: "2ABB26AAB9DFB697"
 				item: {
@@ -970,15 +1171,34 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cold Eye"
+			title: "Totem of Freezing (Cold Eye)"
 			x: 14.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &cFroststalkers&r found in Frozen Peaks and Ice Spikes biomes. "
+				""
+				"The &eFroststalker Horn&r can also be used to craft a &eFroststalker Helmet&r which allows you to blend in with any &cFroststalker&r pack...as long as you keep the peace. You can also breed &cFroststalkers&r while wearing the &eFroststalker Helmet&r"
+			]
 			id: "2231AC759A31CFDF"
+			rewards: [{
+				id: "39DE4304D03555D9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:froststalker_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Froststalker Horn: Dropped from a froststalker 23% of the time in cold biomes."
+			subtitle: "Dropped by Froststalkers"
 			tasks: [{
 				id: "6759354012E325D4"
 				item: {
@@ -990,15 +1210,57 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cold Eye"
+			title: "Froststalker Horn (Cold Eye)"
 			x: 15.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by exploring Deep Freezing Ocean biomes"
+				""
+				""
+				"&eWisteria Niveis&r can also be used to craft &eGreen Dye&r"
+			]
 			id: "08C15F0BF071E029"
+			rewards: [
+				{
+					count: 10
+					id: "0ED9FA92CEAF6441"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:wisteria_niveis"
+					}
+					type: "item"
+				}
+				{
+					id: "5640F6204D3DB7B8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:icedragonskull"
+					}
+					type: "item"
+				}
+				{
+					id: "3F4CC390A77345DD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:ice_cube"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "- Wisteria Niveis: Found in frozen ocean."
+			subtitle: "Found in Deep Frozen Ocean biomes"
 			tasks: [{
 				id: "78F797D21F074C7E"
 				item: {
@@ -1010,15 +1272,32 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cold Eye"
+			title: "Wisteria Niveis (Cold Eye)"
 			x: 13.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by clicking on a &aGolden Moth&r with a &eBottle&r. &aGolden Moths&r spawn in Frozen Oceans"
+				""
+				"Can also work as a fancy light source!"
+			]
 			id: "4084E3F126B5E68D"
+			rewards: [{
+				count: 16
+				id: "5A30AF7450599CB7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "aquamirae:golden_moth_in_a_jar"
+				}
+				type: "item"
+			}]
 			shape: "circle"
-			subtitle: "- Golden Moth in a Jar: Capture a golden moth in a frozen ocean with a empty bottle."
+			subtitle: "Capture a Golden Moth with a Bottle"
 			tasks: [{
 				id: "1F4046D08F0A68F7"
 				item: {
@@ -1030,21 +1309,31 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cold Eye"
+			title: "Golden Moth in a Jar (Cold Eye)"
 			x: 16.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"Summoner(Everbright)"
-				"Alchemist(Everdawn)"
+				"These items can be obtained by killing the &4Summoner&r and &4Alchemist&r which can be found in the Everbright Blinding Dunegon and Everdawn Blinding Dunegon respectively"
 				""
-				"Both bosses found in the top of the tower structures in each dimension."
+				"The &eDusk Arc&r is also grants invisibility while sneaking while the &eEthereal Arc&r grants a 10% Speed increase"
 			]
 			id: "480C1E862A882A6E"
+			rewards: [{
+				id: "5F759346DFAFA884"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:ethereal_wings"
+				}
+				type: "item"
+			}]
 			size: 1.5d
-			subtitle: "- Dusk/Ethereal Arc: Dropped from the Summoner/Alchemist bosses."
+			subtitle: "Dropped by the Summoner or Alchemist"
 			tasks: [{
 				id: "38574C47CFA2CCBC"
 				item: {
@@ -1080,7 +1369,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cold Eye"
+			title: "Dusk/Ethereal Arc (Cold Eye)"
 			x: 15.0d
 			y: 3.0d
 		}

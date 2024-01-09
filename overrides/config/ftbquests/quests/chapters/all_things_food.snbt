@@ -4362,6 +4362,182 @@
 					}
 					type: "item"
 				}
+				{
+					id: "322181E12D887403"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:cooked_monitor_tail"
+					}
+					type: "item"
+				}
+				{
+					id: "2AFC89611871B65C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:cooked_venison"
+					}
+					type: "item"
+				}
+				{
+					id: "68D310C832611ABC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "abnormals_delight:cooked_duck_fillet"
+					}
+					type: "item"
+				}
+				{
+					id: "7838A95A593CD4E9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "naturalist:cooked_catfish"
+					}
+					type: "item"
+				}
+				{
+					id: "1A7899C4444C68D6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "naturalist:cooked_bass"
+					}
+					type: "item"
+				}
+				{
+					id: "42F523CBAD2F3737"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "naturalist:cooked_venison"
+					}
+					type: "item"
+				}
+				{
+					id: "518E2A5314DAF2ED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:boiled_emu_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "1DF8DAA548F8FA6A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:cooked_charscale_moki"
+					}
+					type: "item"
+				}
+				{
+					id: "6555C601F8DE30CD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:cooked_horizofin_tunid"
+					}
+					type: "item"
+				}
+				{
+					id: "4C2F464F3C432330"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:cooked_municipal_monkfish"
+					}
+					type: "item"
+				}
+				{
+					id: "64C7BAD52793F469"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:cooked_grittle_flatfish"
+					}
+					type: "item"
+				}
+				{
+					id: "3873C4F24BCD7EA6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:cooked_hogchop"
+					}
+					type: "item"
+				}
+				{
+					id: "4F335706A905A0F6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "upgrade_aquatic:cooked_pike"
+					}
+					type: "item"
+				}
+				{
+					id: "5A63DF551E034752"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "upgrade_aquatic:cooked_lionfish"
+					}
+					type: "item"
+				}
+				{
+					id: "4FEAEC1CDFFA7581"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "upgrade_aquatic:cooked_perch"
+					}
+					type: "item"
+				}
+				{
+					id: "15ED8055A98482FA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bunchobugs:cooked_weevil_meat"
+					}
+					type: "item"
+				}
 			]
 			title: "It's not f***ing raw!"
 			x: -2.6999999999999997d
