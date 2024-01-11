@@ -4,9 +4,9 @@
 	// If enabled, player in creative mode will not be put in spectator mode on death.
 	"ignoreCreativePlayers": true,
 	// If enabled, players will keep their items on death, and no drop event will be ran. This will also ignore the 'dropItemsOnDeath' config.
-	"keepItemsOnDeath": true,
+	"keepItemsOnDeath": false,
 	// If enabled, players will drop their items on death as normal vanilla behaviour.
-	"dropItemsOnDeath": false,
+	"dropItemsOnDeath": true,
 	// If enabled, players will be respawned at the world spawn point. If disabled, they'll respawn wherever they're spectating.
 	"respawnAtWorldSpawn": true,
 	// If enabled, players will respawn when they logout while waiting for a respawn. Prevents players from getting stuck in spectator mode.
@@ -17,11 +17,11 @@
 	// min: -1, max: 3600
 	"respawnDelayInSeconds": 10,
 	// The message which is sent to the player on death. Leave empty to disable.
-	"onDeathMessage": "You died! You'll respawn in 10 seconds.",
+	"onDeathMessage": "You died! Your gamemode has been set to spectator.",
 	// The message which is sent to players when they respawn. Leave empty to disable.
-	"onRespawnMessage": "",
+	"onRespawnMessage": "You respawned.",
 	// The message which is sent to players when they are waiting to be respawned. The text '<seconds_left>' will be replaced with the actual seconds left. Leave empty to disable.
-	"waitingForRespawnMessage": "",
+	"waitingForRespawnMessage": "You will respawn in <seconds_left> seconds.",
 	// When a player falls into the void, this determines the y position that's set after when a player enters spectator mode.
 	// min: -50, max: 256
 	"lowestPossibleYCoordinate": -10

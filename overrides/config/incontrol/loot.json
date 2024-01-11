@@ -14,18 +14,6 @@
 
 {
 
-"mob":"minecraft:iron_golem",
-
-"player":true,
-
-"item":"minecraft:iron_ingot",
-
-"itemcount": "0/0/0"
-    
-},
-
-{
-
 "mob":"iter_rpg:hobgoblin",
 
 "player":true,
@@ -39,6 +27,17 @@
 {
 
 "mob":"naturalist:deer",
+
+"player":true,
+
+"item":"environmental:venison",
+
+"itemcount": "1-2/2-3/3-4"
+
+},
+{
+
+"mob":"goodall:deer",
 
 "player":true,
 

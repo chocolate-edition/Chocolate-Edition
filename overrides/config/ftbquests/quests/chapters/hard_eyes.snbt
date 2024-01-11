@@ -855,6 +855,7 @@
 				"277BF54909EA71D4"
 				"7C5B3D95AA243F97"
 				"5DA4FF9594050625"
+				"74344EF2E027EBC8"
 			]
 			id: "591065D6EBEC1D7F"
 			size: 1.2d
@@ -1044,6 +1045,28 @@
 			}]
 			title: "Used in Undead Eye"
 			x: 12.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			id: "74344EF2E027EBC8"
+			subtitle: "• Ghostly Pickaxe: Drops from Underminers which spawn when you've spent a long time in an Abandoned Mineshaft"
+			tasks: [{
+				id: "375DB8F38D035D99"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:ghostly_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Used in Undead Eye"
+			x: 11.0d
 			y: 4.75d
 		}
 		{
@@ -2216,5 +2239,5 @@
 			y: -1.5d
 		}
 	]
-	title: "&cHard Eyes"
+	title: "Hard Eyes"
 }

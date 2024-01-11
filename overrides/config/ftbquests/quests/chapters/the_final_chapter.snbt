@@ -3,11 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "the_final_chapter"
-<<<<<<< Updated upstream
 	group: ""
-=======
-	group: "1C888CDB8EF0A7FB"
->>>>>>> Stashed changes
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
@@ -667,7 +663,6 @@
 		}
 		{
 			dependencies: ["6BC57B376D59322D"]
-<<<<<<< Updated upstream
 			icon: {
 				Count: 1b
 				ForgeCaps: {
@@ -675,9 +670,6 @@
 				}
 				id: "witherstormmod:withered_nether_star"
 			}
-=======
-			icon: "witherstormmod:withered_nether_star"
->>>>>>> Stashed changes
 			id: "29B6754E6DDFEF8E"
 			rewards: [
 				{
@@ -961,5 +953,5 @@
 			y: 7.25d
 		}
 	]
-	title: "&5The Final Chapter?"
+	title: "The Final Chapter?"
 }

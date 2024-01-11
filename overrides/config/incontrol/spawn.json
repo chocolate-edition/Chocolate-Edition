@@ -4,6 +4,47 @@
     "dimension": [ "minecraft:the_end" ],
     "onjoin": true,
     "result": "deny"
-  }
+  },
+  {
+    "mob": [ "predators:prisnautilus", "predators:rock_boss", "predators:scarab", "predators:huntsman", "meetyourfight:swampjaw", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:rosalyne", "queen_bee:queen_bee", "born_in_chaos_v1:sir_pumpkinhead", "alexsmobs:warped_mosco", "iter_rpg:insatiable" ],
+    "mintime": 0,
+    "maxtime": 14000,
+    "result": "deny"
+  },
+  {
+    "mob": [ "predators:rock_boss" ],
+    "minheight": 0,
+    "result": "deny"
+  },
+  {
+    "mob": [ "predators:prisnautilus" ],
+    "minheight": 60,
+    "result": "deny"
+  },
+  {
+    "mob": [ "predators:ice_hound" ],
+    "mincount": 5,
+    "result": "deny"
+  },
+  {
+    "mob": [ "predators:prisnautilus", "predators:rock_boss", "predators:scarab", "predators:huntsman", "predators:hunter", "meetyourfight:swampjaw", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:rosalyne", "queen_bee:queen_bee", "born_in_chaos_v1:sir_pumpkinhead", "alexsmobs:warped_mosco", "iter_rpg:insatiable" ],
+    "mincount": {
+      "amount": 1,
 
+      "mob": [ "predators:prisnautilus", "predators:rock_boss", "predators:scarab", "predators:huntsman", "predators:hunter", "meetyourfight:swampjaw", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:rosalyne", "queen_bee:queen_bee", "born_in_chaos_v1:sir_pumpkinhead", "alexsmobs:warped_mosco", "iter_rpg:insatiable" ],
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": ["predators:scarab", "predators:huntsman", "predators:hunter", "meetyourfight:swampjaw", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:rosalyne", "queen_bee:queen_bee", "born_in_chaos_v1:sir_pumpkinhead", "alexsmobs:warped_mosco", "iter_rpg:insatiable" ],
+    "seesky": false,
+    "result": "deny"
+  },
+  {
+    "mob": [ "predators:prisnautilus", "predators:rock_boss", "predators:scarab", "predators:huntsman", "predators:hunter", "meetyourfight:swampjaw", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:rosalyne", "queen_bee:queen_bee", "born_in_chaos_v1:sir_pumpkinhead", "alexsmobs:warped_mosco", "iter_rpg:insatiable" ],
+
+    "random": ".97",
+    "result": "deny"
+  }
 ]

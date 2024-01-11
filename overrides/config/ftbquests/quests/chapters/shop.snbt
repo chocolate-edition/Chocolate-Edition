@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "shop"
-	group: "124DA5EC6A42A11D"
+	group: "7C84C11C55BE6D87"
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: {
@@ -15,11 +15,7 @@
 		}
 	}
 	id: "60BED89AB5908868"
-<<<<<<< Updated upstream
 	order_index: 0
-=======
-	order_index: 2
->>>>>>> Stashed changes
 	quest_links: [ ]
 	quests: [
 		{
@@ -2635,7 +2631,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"176A1DFDD6E6C380"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:what_magnet"
@@ -2704,7 +2703,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"6644450AA0272F47"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:tick"
@@ -2773,7 +2775,11 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"347B108577190795"
+				"021E0A5D7122A335"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:fertilizer"
@@ -3418,7 +3424,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"021E0A5D7122A335"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:callus"
@@ -3559,7 +3568,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"021E0A5D7122A335"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:sleeping_pills"
@@ -5240,6 +5252,7 @@
 			can_repeat: true
 			dependencies: [
 				"34F0BAF3474C246B"
+				"021E0A5D7122A335"
 				"6DBD672B53D72C87"
 				"0F13D524741AA224"
 				"43BA4C779406A821"
@@ -6562,5 +6575,5 @@
 			y: -0.75d
 		}
 	]
-	title: "&eShop"
+	title: "Shop"
 }
