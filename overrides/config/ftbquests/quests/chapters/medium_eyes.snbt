@@ -379,7 +379,25 @@
 				"0C9E6FDDE4225B3E"
 				"4639E43A5B5C4F18"
 			]
-			description: ["&4Requires Nether Access!&r"]
+			description: [
+				"&4Requires Nether Access!&r"
+				""
+				"• Potion of Fire Resistance - Brew a &eMagma Cream&r with an &eAwkward Potion&r"
+				""
+				"• Ooze Bottle - Crafted with the knowledge of potion making"
+				""
+				"• Potion of Freeze - Brew &eFrozen Rotten Flesh&r with an &eCorrupted Potion&r"
+				""
+				"• Gongylidia - Interact with fungal covered blocks under an anthill"
+				""
+				"• Ghast Tear - Dropped by &cGhasts&r"
+				""
+				"• Banana Slug Slime - Dropped by &aBanana Slugs&r"
+				""
+				"• Rabbit's Foot - Dropped by &aRabbits&r"
+				""
+				"• Witch Pupil - Crafted using a &eSpider Eye&r, &eGlowstone Dust&r, &eRedstone Dust&r, &eGunpowder&r, and &eSugar&r"
+			]
 			id: "32F23E04C1AFA302"
 			min_width: 600
 			rewards: [
@@ -433,9 +451,90 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item is crafted from a variety of brewing related ingredients! "
+				""
+				"• &eSpider Eyes&r - dropped by &cSpiders&r and &cWitches&r or found in dungeon loot chests."
+				""
+				"• &eGlowstone dust&r - dropped by &cWitches&r and by mining &eGlowstone&r."
+				""
+				"• &eRedstone dust&r - dropped by &cWitches&r and by mining &eRedstone Ore&r."
+				""
+				"• &eGunpowder&r - dropped by &cWitches&r and &cCreepers&r."
+				""
+				"• &eSugar&r - dropped by &cWitches&r and crafted with &eSugar Cane&r."
+				""
+				""
+				"The &eWitch's Pupil&r can also be used to craft &eFire Charges&r into &eBlaze Powder&r"
+			]
 			id: "22EFDA10E1F0B9C6"
+			rewards: [
+				{
+					id: "445D1423CB8BFD88"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:zigzagwitchhat"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0DA2B298B274539C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:sugar"
+					}
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					count: 10
+					id: "732AF5E0E1A18524"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:redstone"
+					}
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0D9DEFB08B1FA551"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:gunpowder"
+					}
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5E167079E29DFA54"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:glowstone_dust"
+					}
+					random_bonus: 10
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Witch Pupil: Craft a spider eye, 2 glowstone dust, 2 sugar, 2 redstone, and 2 gunpowder(all drops from the witch and common materials)."
+			subtitle: "Crafted using a Spider Eye, Glowstone Dust, Redstone Dust, Gunpowder, and Sugar"
 			tasks: [{
 				id: "2F864ACA34A3BBED"
 				item: {
@@ -447,15 +546,51 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Witch Pupil (Witch Eye)"
 			x: 11.75d
 			y: 1.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &aRabbits&r or from looting village chests."
+				""
+				"&eRabbit's Foot&r can also be brewed with an &eAwkward Potions&r to make &ePotions of Leaping&r"
+			]
 			id: "0C9E6FDDE4225B3E"
+			rewards: [
+				{
+					id: "2492BD19A6707A88"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:lucky_scarf"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B0F18EE05D0AF04"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_leaping"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Rabbit's foot: Drops rarely from rabbits or in village chests."
+			subtitle: "Dropped by Rabbits"
 			tasks: [{
 				id: "50F15EFF7C806788"
 				item: {
@@ -467,14 +602,47 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Rabbit's Foot (Witch Eye)"
 			x: 11.0d
 			y: 2.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by interacting with a fungal-covered &eLeafcutter Ant Chamber&r found underneath a &6Leafcutter Ant&r mounds in jungles"
+				""
+				""
+				"However, unless a &eShroomlight&r is nearby the &6Leafcutter Ants&r, and their Queen, will become hostile"
+				""
+				"&eGongylidia&r can be fed to &6Leafcutter Ants&r to heal or pacify them. It can also be fed to the queen to increase the size of the colony."
+			]
 			id: "113D4BA79CC86A77"
-			subtitle: "- Gongylidia: obtained by interacting with a fungal covered chamber block underneath a leafcutter ant mound(in jungles). However, unless a shroomlight is nearby the ants will become hostile."
+			rewards: [
+				{
+					id: "4DB62ADFFF3EE258"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:leafcutter_ant_pupa"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5874276C93BBE34A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:gongylidia"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Interact with fungal covered blocks under an anthill"
 			tasks: [{
 				id: "1C2733C60413794A"
 				item: {
@@ -486,15 +654,48 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Gongylidia (Witch Eye)"
 			x: 8.25d
 			y: 1.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &cGhasts&r found in the Nether."
+				""
+				"&eGhast Tears&r can also be brewed with an &eAwkward Potion&r to make &ePotions of Regeneration&r or craft &eEnd Crystals&r which can respawn the &4Ender Dragon&r. "
+			]
 			id: "1C696FDFF7187550"
+			rewards: [
+				{
+					id: "38EB3D97E569553F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:ghast_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4F0CD618B3436D06"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "unusualend:regeneration"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Ghast tear: Drops from ghasts half the time."
+			subtitle: "Dropped by Ghasts"
 			tasks: [{
 				id: "46D8D88F3A9522D3"
 				item: {
@@ -506,15 +707,44 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Ghast Tear (Witch Eye)"
 			x: 9.0d
 			y: 2.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &aBanana Slugs&r, which are found in forests."
+				""
+				"&eBanana Slug Slime&r can also be used to craft &eBanana Slug Slime Blocks&r. If one of these blocks touches &ewater,&r it quickly absorbes it and converts it into &eCrystallized Banana Slug Mucus&r - which makes it an extreamly effective way at clearing out a large amount of &ewater&r."
+			]
 			id: "3EBF36DD88B9160B"
+			rewards: [
+				{
+					id: "424CF59CB04F27D9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:banana_peel"
+					}
+					type: "item"
+				}
+				{
+					id: "3B51FA088F0FD23B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:banana_slug_slime_block"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Banana Slug Slime: Kill a banana slug found in old growth forests(use the nature's compass)."
+			subtitle: "Dropped by Banana Slugs"
 			tasks: [{
 				id: "32649405C614311A"
 				item: {
@@ -526,7 +756,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Banana Slug Slime (Witch Eye)"
 			x: 10.0d
 			y: 2.75d
 		}
@@ -535,11 +765,41 @@
 				"3BE77139FF984D4B"
 				"3901079844A43EC1"
 			]
+			description: [
+				"• Lionfish: Dropped by &aLionfish&r found near coral in warm ocean biomes"
+				""
+				"• Lizard Tail: Dropped by &aLizards&r"
+				""
+				"• Pufferfish: Fished in most bodies of water or dropped by &6Pufferfish&r and &6Lava Pufferfish&r"
+				""
+				"• Lily of the Valley: Found in flower forests"
+				""
+				"• Potion of Corruption: Brewed using &eCorrupted Wart&r and &eAwkward Potion&r"
+				""
+				"• Potion of Posion: Brewed using &eSpider Eye&r, &eJellyfish&r, or &eStinger&r"
+				""
+				"• Potion of Harming: Brewed using a &eFermented Spider Eye&r and &ePotion of Healing&r or &ePotion of Poison&r"
+				""
+				"• Potion of Weakness: Brewed using a &eFermented Spider Eye&r and &eWater Bottle&r"
+				""
+				"• Potion of Slowness: Brew &eFrozen Rotten Flesh&r with an &eCorrupted Potion&r"
+			]
 			icon: "enlightened_end:ooze_bottle"
 			id: "7B9F7F39C7137C90"
+			rewards: [{
+				id: "1A70A4E5460CCE40"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enlightened_end:ooze_fluid_bucket"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "- Ooze Bottle: Unbrewable potion that you must craft from the ingredients above:"
+			subtitle: "Crafted with the knowledge of potion making"
 			tasks: [{
 				id: "3A3FB0CCB42B0B29"
 				item: {
@@ -557,9 +817,42 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtainted by brewing a &eMagma Cream&r with an &eAwkward Potion&r"
+				""
+				""
+				"A &ePotion of Fire Resistance&r, when paired with a &ePotion of Lava Vision&r, makes a great way to traverse the the lava lakes of the nether! You might even see some fish down there!"
+			]
 			id: "7FC09806C695EBF9"
+			rewards: [
+				{
+					id: "2BFA093ED7823B48"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "netherdepthsupgrade:long_lava_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7107C5FF51F71344"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Fire resistance Potion: Brew a magma cream(dropped in a brewing stand with an awkward potion(brewed from nether wart in fortresses and water bottles)"
+			subtitle: "Brew a Magma Cream with an Awkward Potion"
 			tasks: [{
 				id: "4D7C8524E2931AC6"
 				item: {
@@ -574,15 +867,76 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
-			x: 11.25d
+			title: "Potion of Fire Resistance (Witch Eye)"
+			x: 8.75d
 			y: -1.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtainted by brewing a &eFrozen Rotten Flesh&r with an &eCorrupted Potion&r"
+				""
+				"&eFrozen Rotten Flesh&r drops from the &cForstbitten&r, which can be found in cold and snowy biomes"
+				""
+				"&eSplash Potions of Freeze&r and &eArrows of Freeze&r are extreamly useful in combat"
+			]
 			id: "06C834D042C504DA"
+			rewards: [
+				{
+					id: "13DB710FE0C0B857"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [{
+										id: "dungeons_gear:freezing"
+										lvl: 1s
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_gear:freezing_foil"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "704FF971BD551ECE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "rottencreatures:strong_freeze"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6036E005F425004C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "rottencreatures:strong_freeze"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Freeze: Brew a frozen flesh from a snow zombie over a awkward potion."
+			subtitle: "Brew Frozen Rotten Flesh with an Corrupted Potion"
 			tasks: [{
 				id: "59759ADE7B4EA1AB"
 				item: {
@@ -597,15 +951,48 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
-			x: 8.75d
+			title: "Potion of Freeze (Witch Eye)"
+			x: 11.25d
 			y: -1.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by brewing a &eFermented Spider Eye&r with a &ePotion of Poison&r or &ePotion of Healing&r"]
 			id: "30A0DAAC54FC17B0"
+			rewards: [
+				{
+					count: 32
+					id: "5EC4253562509105"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "01F7BF76CA773537"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Harming Potion: Brewed using a fermented spider eye on a poison/healing potion, which are themselves brewed from either jellyfish,spider eye, glistering melon or leech."
+			subtitle: "Brewed using a Fermented Spider Eye and Potion of Healing or Poison"
 			tasks: [{
 				id: "3B9DBA8974AA6664"
 				item: {
@@ -620,15 +1007,58 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Potion of Harming (Witch Eye)"
 			x: 9.5d
 			y: -4.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by brewing &eFermented Spider Eye&r with a &ePotion of Leaping&r or &ePotion of Swiftness&r"]
 			id: "19FF4CFFDAEFFFD0"
+			rewards: [
+				{
+					count: 32
+					id: "63742043A3694F97"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_slowness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D5D7CE6B53D9D47"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:speed_force"
+					}
+					type: "item"
+				}
+				{
+					id: "7774E60176A2DE78"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:turtle_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Slowness Potion: Brewed using a fermented spider eye on a leaping/swiftness potion,, which are themselves brewed from either rabbit feet or sugar."
+			subtitle: "Brewed using a Fermented Spider Eye and Potion of Leaping/Swiftness"
 			tasks: [{
 				id: "5E8C02B0352E5B00"
 				item: {
@@ -643,15 +1073,66 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Potion of Slowness (Witch Eye)"
 			x: 11.5d
 			y: -4.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be Obtained by brewing a &eSpider Eye&r, &eJellyfish&r, or &eStinger&r with an &eAwkward Potion&r. &eSpider Eyes&r drop from &cSpiders&r, &eJellyfish&r drop from &6Jellyfish&r, &eStringers&r drop from &4The Queen Bee&r"
+				""
+				"A &ePotion of Poison&r can be brewed with a &eFermented Spider Eye&r to make a &ePotion of Harming&r."
+			]
 			id: "4F37E9D06D520A53"
+			rewards: [
+				{
+					id: "441D199F12302423"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:long_poison_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "02A606725EBD6F54"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:long_poison"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7C811B382A3C4CE0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "unusualend:regeneration_ii"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Poison Potion: Brewed using Spider eye or jellyfish."
+			subtitle: "Brewed using Spider Eye, Jellyfish, or Stinger"
 			tasks: [{
 				id: "7FF6F77326C602C5"
 				item: {
@@ -666,15 +1147,48 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Potion of Poison (Witch Eye)"
 			x: 8.5d
 			y: -4.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by brewing a &eFermented Spider Eye&r with a &eWater Bottle&r."]
 			id: "0A52A2DA2FADD59A"
+			rewards: [
+				{
+					count: 32
+					id: "43E6039251561D6F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:long_weakness"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3D515F206599C4A2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Weakness Potion: brewed with a fermented spider eye on a regular water bottle."
+			subtitle: "Brewed using a Fermented Spider Eye and Water Bottle"
 			tasks: [{
 				id: "08EB4727879086AC"
 				item: {
@@ -689,7 +1203,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Potion of Weakness (Witch Eye)"
 			x: 10.5d
 			y: -4.25d
 		}
@@ -704,9 +1218,46 @@
 				"0A52A2DA2FADD59A"
 				"1CAC88E972C255A8"
 			]
+			description: [
+				"A &eCorrupted Poition&r is obtained by brewing a &eCorrupted Wart&r with an &eAkward Potion&r."
+				""
+				""
+				"A &eCorrupted War&rt is crafted from &eCorruption,&r &eNether Wart&r, and &eFrozne Rotten Flesh&r"
+			]
 			id: "3BE77139FF984D4B"
+			rewards: [
+				{
+					count: 6
+					id: "5DACD2FD84B8DDA6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "rottencreatures:corrupted"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D0C0D3B24E87C62"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "endermanoverhaul:corrupted_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "• Corrupted Potion:Made from corrupted wart, which is crafted using 4 wart and one frozen flesh dropped from a Frostbitten zombie spawning in cold biomes at night."
+			subtitle: "Brewed using Corrupted Wart and Awkward Potion"
 			tasks: [{
 				id: "36EFDCB42B847BB1"
 				item: {
@@ -721,15 +1272,54 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Corrupted Potion (Witch Eye)"
 			x: 10.0d
 			y: -5.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained ky killing &aLionfish&r or &cDeepling Lionfish&r. "
+				""
+				""
+				"&aLionfish&r spawn near coral in warm ocean biomes. They can also drop from &cGuardians&r and &4Elder Guardians&r. Lionfish can also be brewed into a &ePotion of Repellence&r by brewing it with an &eAwkward Potion&r."
+				""
+				""
+				"&cDeepling Lionfish&r spawn near Sunken Citys."
+			]
 			id: "1CAC88E972C255A8"
+			rewards: [
+				{
+					id: "6AC6351D795F1A29"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7570351F7B142DC6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "upgrade_aquatic:repellence_long"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Lionfish: They are found near coral in warm and unfrozen ocean biomes. Lionfish Buckets can be purchased from the Wandering trader."
+			subtitle: "Found near coral in warm ocean biomes"
 			tasks: [{
 				id: "796DD1B82EC5D8E6"
 				item: {
@@ -737,19 +1327,56 @@
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "upgrade_aquatic:lionfish"
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "cataclysm:lionfish"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "upgrade_aquatic:lionfish"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "upgrade_aquatic:cooked_lionfish"
+							}
+						]
+					}
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Lionfish (Witch Eye)"
 			x: 8.5d
 			y: -6.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained from &aLizards&r which spawn in arid biomes and swamps. Attacking them casuses their tale to fall off, killing the tail will drop the &eLizard Tail&r."]
 			id: "638FFB7A23D3679D"
+			rewards: [{
+				id: "09982E273B05616A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "cnb:lizard_egg"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Lizard Tail: Lizards spawn in arid biomes and swamps; kill them and their tail will flail off; kill the tail for the item."
+			subtitle: "Dropped by Lizards"
 			tasks: [{
 				id: "71E59D1F7EAF8098"
 				item: {
@@ -757,19 +1384,66 @@
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "naturalist:lizard_tail"
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "naturalist:cooked_lizard_tail"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "naturalist:lizard_tail"
+							}
+						]
+					}
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Lizard Tail (Witch Eye)"
 			x: 9.5d
 			y: -7.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by finding, and breaking, &eLily of the Valley&r in a flower forest"
+				""
+				"The &eLily of the Valley&r can also be used for &eWhite Dye&r"
+			]
 			id: "7028435821472450"
+			rewards: [
+				{
+					id: "104D59DE08822B79"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:flower_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "06BDE3808562AD17"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:lily_of_the_valley"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "- Lily of the valley: Semi-rare flower only spawning in the flower forest biome."
+			subtitle: "Found in flower forests"
 			tasks: [{
 				id: "094D3110E5F95C1D"
 				item: {
@@ -781,15 +1455,52 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Lily of the Valley (Witch Eye)"
 			x: 11.5d
 			y: -6.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by fishing in most bodies of water and lava. You can also obtain it by killing &6Pufferfish&r, which spawn in warm and like warm ocean biomes, or &6Lava Pufferfish&r, which spawn in the Nether."
+				""
+				"&ePufferfish&r can be used to brew &ePotions of Water Breathing&r, when mixing it with an &eAwkward Potion&r"
+				""
+				"&eLava Pufferfish&r can be used to brew &ePotions of Withering&r, when mixing it with an &eAwkward Potion&r"
+			]
 			id: "189DA392BC3ED45C"
+			rewards: [
+				{
+					id: "59BC47565E0355FB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:charm_of_sinking"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B19B946D9E578C4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "netherdepthsupgrade:long_lava_vision"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Pufferfish: common fish loot in all bodies of water."
+			subtitle: "Fished in most bodies of water"
 			tasks: [{
 				id: "6FEC5FF6B9BEF152"
 				item: {
@@ -797,11 +1508,30 @@
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "minecraft:pufferfish"
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:pufferfish"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "netherdepthsupgrade:lava_pufferfish"
+							}
+						]
+					}
 				}
+				title: "Pufferfish"
 				type: "item"
 			}]
-			title: "Used in Witch Eye"
+			title: "Pufferfish (Witch Eye)"
 			x: 10.5d
 			y: -7.25d
 		}

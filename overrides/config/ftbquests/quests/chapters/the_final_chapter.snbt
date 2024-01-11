@@ -663,13 +663,7 @@
 		}
 		{
 			dependencies: ["6BC57B376D59322D"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "witherstormmod:withered_nether_star"
-			}
+			icon: "witherstormmod:withered_nether_star"
 			id: "29B6754E6DDFEF8E"
 			rewards: [
 				{
