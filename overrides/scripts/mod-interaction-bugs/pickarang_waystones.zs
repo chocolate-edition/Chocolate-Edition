@@ -11,10 +11,10 @@ var rangs = [
 
 CTEventManager.register<BlockBreakEvent>((event) => {
   var block = event.getBlockState().block;
-  if !block.matches(<block:waystones:waystone>) {
+  if !block.matches(<block:waystones:waystone>) && !block.matches(<block:waystones:mossy_waystone>) && !block.matches(<block:waystones:sandy_waystone>){
     return;
   }
-  var tool = event.getPlayer().getMainHandItem().asIItemStack().anyDamage();
+  var tool = event.getPlayer().getMainHandItem().asIItemStack().withoutTag().anyDamage();
   for rang in rangs {
     if tool.matches(rang) {
       event.cancel();
