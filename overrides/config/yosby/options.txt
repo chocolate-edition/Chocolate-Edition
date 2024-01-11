@@ -4,7 +4,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:false
+enableVsync:true
 entityShadows:false
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -20,6 +20,7 @@ toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:true
 hideLightningFlashes:false
+<<<<<<< Updated upstream
 mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
@@ -31,14 +32,27 @@ simulationDistance:16
 entityDistanceScaling:2.0
 guiScale:0
 particles:0
+=======
+mouseSensitivity:0.5046948356807511
+fov:0.75
+screenEffectScale:0.0
+fovEffectScale:0.15552469748065859
+darknessEffectScale:1.0
+gamma:1.0
+renderDistance:18
+simulationDistance:10
+entityDistanceScaling:2.25
+guiScale:3
+particles:1
+>>>>>>> Stashed changes
 maxFps:260
 graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Alexish Mobs v1.0.zip","Create Simple Storage 2.1.zip","Create Style Modded Compats v16.zip","EclecticTrove-noconfig-1.19-1.2.0.zip","Everycomp Generated Pack","Incendium_Optional_Resourcepack_1.20.1_v5.3.7 (1).zip","MusicComp.zip","Supplementaries Generated Pack","quark:emote_resources","file/OLG_1.1.3_1.16+.zip","file/[1.3] Enhanced Boss Bars.zip","resources/simplehats_hatdl.zip","file/Realistic Combat Soundpack 1.19.2.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","file/Dark_transparent_Menu_UI.zip","file/Vibrating Wither Fix.zip","Visual+Titles.zip","MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","OLG_1.1.3_1.16+.zip","Dark_transparent_Menu_UI.zip","Realistic Combat Soundpack 1.19.2.zip","Vibrating Wither Fix.zip","WDA-NoFlyingStructures-1.18.2-1.19.2.zip","WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip","[1.3] Enhanced Boss Bars.zip","norundownhouse-1.19.4.zip","wdaspacingtweaked.zip"]
-incompatibleResourcePacks:["Incendium_Optional_Resourcepack_1.20.1_v5.3.7 (1).zip","MusicComp.zip","quark:emote_resources","file/OLG_1.1.3_1.16+.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","file/Dark_transparent_Menu_UI.zip","MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","OLG_1.1.3_1.16+.zip","Dark_transparent_Menu_UI.zip","WDA-NoFlyingStructures-1.18.2-1.19.2.zip","WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip","norundownhouse-1.19.4.zip","wdaspacingtweaked.zip"]
+resourcePacks:["vanilla","mod_resources","file/Create Style Modded Compats v16.zip","file/EclecticTrove-noconfig-1.19-1.2.0.zip","Everycomp Generated Pack","Supplementaries Generated Pack","quark:emote_resources","file/OLG_1.1.3_1.16+.zip","file/[1.3] Enhanced Boss Bars.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","file/Vibrating Wither Fix.zip","file/norundownhouse-1.19.4.zip","file/wdaspacingtweaked.zip","Alexish Mobs v1.0.zip","Create Style Modded Compats v16.zip","EclecticTrove-noconfig-1.19-1.2.0.zip","MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","OLG_1.1.3_1.16+.zip","Dark_transparent_Menu_UI.zip","Realistic Combat Soundpack 1.19.2.zip","Vibrating Wither Fix.zip","Visualtitles+Choc.zip","[1.3] Enhanced Boss Bars.zip","chocompatv1.1.zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/OLG_1.1.3_1.16+.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","file/norundownhouse-1.19.4.zip","file/wdaspacingtweaked.zip","MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","OLG_1.1.3_1.16+.zip","Dark_transparent_Menu_UI.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -113,6 +127,7 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.modernfix.config:key.keyboard.unknown
 key_key.paraglider.paragliderSettings:key.keyboard.p:CONTROL
+<<<<<<< Updated upstream
 key_key.iter_rpg.set_bonus_toggle_key:key.keyboard.v
 key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
 key_info.structure_gel.building_tool.redo:key.keyboard.y:CONTROL
@@ -122,6 +137,16 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_Options Gui:key.keyboard.i
+=======
+key_key.iter_rpg.set_bonus_toggle_key:key.keyboard.semicolon
+key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
+key_info.structure_gel.building_tool.redo:key.keyboard.y:CONTROL
+key_toolswap.key.toggle_toolswap_mode:key.keyboard.g
+key_key.curios.open.desc:key.keyboard.g:SHIFT
+key_iris.keybind.reload:key.keyboard.none
+key_iris.keybind.toggleShaders:key.keyboard.none
+key_iris.keybind.shaderPackSelection:key.keyboard.none
+>>>>>>> Stashed changes
 key_key.toms_storage.open_terminal:key.keyboard.b
 key_key.toggleVisualItemContents:key.keyboard.unknown
 key_key.toggleSelectedItemTooltips:key.keyboard.unknown
@@ -129,6 +154,7 @@ key_key.toggleCarriedItemTooltips:key.keyboard.unknown
 key_key.dungeons_libraries.curiosintegration.description_slot1:key.keyboard.v
 key_key.dungeons_libraries.curiosintegration.description_slot2:key.keyboard.b
 key_key.dungeons_libraries.curiosintegration.description_slot3:key.keyboard.n
+<<<<<<< Updated upstream
 key_key.jei.nextRecipePage:key.keyboard.page.down
 key_key.jei.previousPage:key.keyboard.unknown
 key_key.jei.cheatOneItem2:key.mouse.right
@@ -161,6 +187,40 @@ key_key.jei.showUses2:key.mouse.right
 key_key.zoom:key.keyboard.c
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
+=======
+key_key.jei.showUses2:key.mouse.right
+key_key.jei.focusSearch:key.keyboard.f:CONTROL
+key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
+key_key.jei.nextRecipePage:key.keyboard.page.down
+key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
+key_key.jei.previousSearch:key.keyboard.up
+key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
+key_key.jei.toggleCheatMode:key.keyboard.unknown
+key_key.jei.cheatOneItem:key.mouse.left
+key_key.jei.nextPage:key.keyboard.unknown
+key_key.jei.showRecipe:key.keyboard.r
+key_key.jei.clearSearchBar:key.mouse.right
+key_key.jei.cheatItemStack:key.mouse.left:SHIFT
+key_key.jei.previousPage:key.keyboard.unknown
+key_key.jei.closeRecipeGui:key.keyboard.escape
+key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
+key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
+key_key.jei.cheatItemStack2:key.mouse.middle
+key_key.jei.cheatOneItem2:key.mouse.right
+key_key.jei.recipeBack:key.keyboard.backspace
+key_key.jei.showUses:key.keyboard.u
+key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
+key_key.jei.showRecipe2:key.mouse.left
+key_key.jei.bookmark:key.keyboard.a
+key_key.jei.toggleEditMode:key.keyboard.unknown
+key_key.jei.nextSearch:key.keyboard.down
+key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
+key_key.jei.previousRecipePage:key.keyboard.page.up
+key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.zoom:key.keyboard.c
+key_keybinds.bettercombat.feint:key.keyboard.unknown
+key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.h
+>>>>>>> Stashed changes
 key_keybinds.combatroll.roll:key.keyboard.r
 key_key.damageindicator.hideIndicator.desc:key.keyboard.unknown
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
@@ -168,17 +228,31 @@ key_tetra.toolbelt.binding.access:key.keyboard.b
 key_tetra.toolbelt.binding.restock:key.keyboard.b:SHIFT
 key_tetra.toolbelt.binding.open:key.keyboard.b:ALT
 key_tetra.toolbelt.binding.secondary_use:key.keyboard.v
+<<<<<<< Updated upstream
+=======
+key_treechop.key.toggle_chopping:key.keyboard.unknown
+key_treechop.key.toggle_felling:key.keyboard.unknown
+key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
+key_treechop.key.open_settings_overlay:key.keyboard.n:CONTROL
+>>>>>>> Stashed changes
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
+<<<<<<< Updated upstream
+=======
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+>>>>>>> Stashed changes
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
+<<<<<<< Updated upstream
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+=======
+>>>>>>> Stashed changes
 key_key.carry.desc:key.keyboard.left.shift
 key_key.dragonmounts.flight_descent:key.keyboard.z
 key_key.ping:key.keyboard.v
@@ -186,13 +260,22 @@ key_ping.key.alert:key.keyboard.keypad.4
 key_ping.key.mine:key.keyboard.keypad.5
 key_ping.key.look:key.keyboard.keypad.6
 key_ping.key.goto:key.keyboard.keypad.8
+<<<<<<< Updated upstream
+=======
+key_key.cataclysm.ability:key.keyboard.v
+>>>>>>> Stashed changes
 key_key.enderRing:key.keyboard.i
 key_key.spellstoneAbility:key.keyboard.k
 key_key.xpScroll:key.keyboard.j
 key_key.findme.search:key.keyboard.y
 key_key.ftbteams.open_gui:key.keyboard.unknown
+<<<<<<< Updated upstream
 key_key.ftbquests.quests:key.keyboard.grave.accent
 key_key.ftbchunks.map:key.keyboard.m
+=======
+key_key.ftbquests.quests:key.keyboard.unknown
+key_key.ftbchunks.map:key.keyboard.right.bracket
+>>>>>>> Stashed changes
 key_key.ftbchunks.claim_manager:key.keyboard.unknown
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
@@ -202,18 +285,28 @@ key_key.trashslot.toggle:key.keyboard.t
 key_key.trashslot.toggleLock:key.keyboard.unknown
 key_key.trashslot.delete:key.keyboard.delete
 key_key.trashslot.deleteAll:key.keyboard.delete:SHIFT
+<<<<<<< Updated upstream
 key_dropoff.key.dump:key.keyboard.x
 key_dropoff.key.deposit:key.keyboard.c
 key_key.sethorse.desc:key.keyboard.p
 key_key.callhorse.desc:key.keyboard.v
 key_key.showstats.desc:key.keyboard.k
 key_key.enlightened_end.dashing_leggings_ability:key.keyboard.g
+=======
+key_dropoff.key.dump:key.keyboard.x:CONTROL
+key_dropoff.key.deposit:key.keyboard.c:CONTROL
+key_key.sethorse.desc:key.keyboard.p
+key_key.callhorse.desc:key.keyboard.v:SHIFT
+key_key.showstats.desc:key.keyboard.k:SHIFT
+key_key.enlightened_end.dashing_leggings_ability:key.keyboard.g:CONTROL
+>>>>>>> Stashed changes
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket
 key_key.journeymap.minimap_preset:key.keyboard.backslash
+<<<<<<< Updated upstream
 key_key.journeymap.create_waypoint:key.keyboard.b
 key_key.journeymap.toggle_waypoints:key.keyboard.z
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b
@@ -221,6 +314,15 @@ key_key.journeymap.fullscreen_chat_position:key.keyboard.c
 key_key.journeymap.map_toggle_alt:key.keyboard.j
 key_key.journeymap.fullscreen_waypoints:key.keyboard.n
 key_key.journeymap.minimap_toggle_alt:key.keyboard.j:CONTROL
+=======
+key_key.journeymap.create_waypoint:key.keyboard.n
+key_key.journeymap.toggle_waypoints:key.keyboard.z:CONTROL
+key_key.journeymap.fullscreen_create_waypoint:key.keyboard.n
+key_key.journeymap.fullscreen_chat_position:key.keyboard.c
+key_key.journeymap.map_toggle_alt:key.keyboard.m
+key_key.journeymap.fullscreen_waypoints:key.keyboard.n:SHIFT
+key_key.journeymap.minimap_toggle_alt:key.keyboard.m:SHIFT
+>>>>>>> Stashed changes
 key_key.journeymap.fullscreen_options:key.keyboard.o
 key_key.journeymap.fullscreen.north:key.keyboard.up
 key_key.journeymap.fullscreen.south:key.keyboard.down
@@ -228,7 +330,11 @@ key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
 key_key.configured.open_mod_list:key.keyboard.unknown
+<<<<<<< Updated upstream
 key_key.personality.crawl:key.keyboard.c
+=======
+key_key.personality.crawl:key.keyboard.c:SHIFT
+>>>>>>> Stashed changes
 key_key.personality.sit:key.keyboard.z
 key_key.craftingtweaks.rotate:key.keyboard.unknown
 key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown
@@ -246,13 +352,29 @@ key_key.craftingtweaks.decompressAll:key.keyboard.unknown
 key_key.craftingtweaks.refill_last:key.keyboard.tab:CONTROL
 key_key.craftingtweaks.refill_last_stack:key.keyboard.tab
 key_key.craftingtweaks.transfer_stack:key.keyboard.unknown
+<<<<<<< Updated upstream
+=======
+key_key.jade.config:key.keyboard.keypad.0
+key_key.jade.show_overlay:key.keyboard.keypad.1
+key_key.jade.toggle_liquid:key.keyboard.keypad.2
+key_key.jade.show_recipes:key.keyboard.keypad.3
+key_key.jade.show_uses:key.keyboard.keypad.4
+key_key.jade.narrate:key.keyboard.keypad.5
+key_key.jade.show_details:key.keyboard.left.shift
+>>>>>>> Stashed changes
 key_quark.keybind.variant_selector:key.keyboard.r
 key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.keybind.back:key.mouse.4
+<<<<<<< Updated upstream
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.keybind.change_hotbar:key.keyboard.z
+=======
+key_quark.keybind.sort_player:key.mouse.middle
+key_quark.keybind.sort_container:key.mouse.middle
+key_quark.keybind.change_hotbar:key.keyboard.z:SHIFT
+>>>>>>> Stashed changes
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
@@ -277,8 +399,13 @@ key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
 key_quark.keybind.lock_rotation:key.keyboard.k
 key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.diet.open.desc:key.keyboard.unknown
+<<<<<<< Updated upstream
 key_key.parcool.Crawl:key.keyboard.c
 key_key.parcool.ClingToCliff:key.mouse.right
+=======
+key_key.parcool.Crawl:key.keyboard.none
+key_key.parcool.ClingToCliff:key.keyboard.w
+>>>>>>> Stashed changes
 key_key.parcool.Breakfall:key.keyboard.r
 key_key.parcool.FastRun:key.keyboard.left.control
 key_key.parcool.Dodge:key.keyboard.r
@@ -290,6 +417,7 @@ key_key.parcool.openSetting:key.keyboard.p:ALT
 key_key.parcool.QuickTurn:key.keyboard.unknown
 key_key.parcool.Flipping:key.keyboard.unknown
 key_key.parcool.HangDown:key.mouse.right
+<<<<<<< Updated upstream
 key_key.inventoryhud.toggle:key.keyboard.i
 key_key.inventoryhud.openconfig:key.keyboard.o
 key_key.inventoryhud.togglepot:key.keyboard.unknown
@@ -298,6 +426,10 @@ key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_key.unusualprehistory.attack_key:key.keyboard.g
+=======
+key_Reload Menu | CTRL + ALT + :key.keyboard.r
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
+>>>>>>> Stashed changes
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.firstperson.toggle:key.keyboard.f6

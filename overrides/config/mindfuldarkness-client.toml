@@ -4,7 +4,7 @@ hide_in_game_switcher = false
 debug_container_types = true
 #Screens to add a dark mode toggle button to, so that toggling is possible outside of inventory menus.
 #Allowed Values: NONE, TITLE_SCREEN, PAUSE_SCREEN, BOTH
-dark_mode_toggle_screens = "BOTH"
+dark_mode_toggle_screens = "PAUSE_SCREEN"
 #Exclude certain menus from showing the dark mode switcher. Useful when the box intersects other screen elements.
 menu_blacklist = []
 #Specifies gui paths and resources to darken.
