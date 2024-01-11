@@ -2095,8 +2095,6 @@
 			x: -7.75d
 			y: 5.75d
 		}
-<<<<<<< Updated upstream
-=======
 		{
 			description: [
 				"&4Dark Red&r - Bosses"
@@ -2125,16 +2123,6 @@
 			x: -7.75d
 			y: 7.0d
 		}
-		{
-			id: "365FBE1832EFF3E0"
-			tasks: [{
-				id: "4A50826D0E5C30D3"
-				type: "custom"
-			}]
-			x: -1.75d
-			y: 5.5d
-		}
->>>>>>> Stashed changes
 	]
 	title: "Flags"
 }

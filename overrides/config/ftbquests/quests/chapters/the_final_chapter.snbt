@@ -3,11 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "the_final_chapter"
-<<<<<<< Updated upstream
-	group: ""
-=======
 	group: "1C888CDB8EF0A7FB"
->>>>>>> Stashed changes
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
