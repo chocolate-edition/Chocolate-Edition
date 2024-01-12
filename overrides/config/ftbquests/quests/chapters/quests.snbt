@@ -256,6 +256,7 @@
 			y: -4.375d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -369,39 +370,21 @@
 				}
 				{
 					entity: "illageandspillage:igniter"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "illageandspillage:igniter_spawn_egg"
-					}
+					icon: "illageandspillage:igniter_spawn_egg"
 					id: "4AB9BB6BA2CEDD72"
 					type: "kill"
 					value: 3L
 				}
 				{
 					entity: "illageandspillage:preserver"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "illageandspillage:preserver_spawn_egg"
-					}
+					icon: "illageandspillage:preserver_spawn_egg"
 					id: "7EC7F89B68C0A09C"
 					type: "kill"
 					value: 3L
 				}
 				{
 					entity: "illageandspillage:crocofang"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "illageandspillage:crocofang_spawn_egg"
-					}
+					icon: "illageandspillage:crocofang_spawn_egg"
 					id: "402EB2AB32D4833D"
 					type: "kill"
 					value: 3L
@@ -749,13 +732,7 @@
 				}
 				{
 					entity: "predators:huntsman"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "predators:huntsmans_plan"
-					}
+					icon: "predators:huntsmans_plan"
 					id: "177ECE7F3D75718A"
 					type: "kill"
 					value: 1L
@@ -1680,13 +1657,8 @@
 			y: -7.75d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:recovery_compass"
-			}
+			disable_toast: true
+			icon: "minecraft:recovery_compass"
 			id: "587E6366CEA64AA2"
 			shape: "rsquare"
 			size: 3.0d
@@ -3352,13 +3324,8 @@
 			y: -3.75d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "iter_rpg:big_vase"
-			}
+			disable_toast: true
+			icon: "iter_rpg:big_vase"
 			id: "7C7427D7E73540BE"
 			shape: "rsquare"
 			size: 3.0d
@@ -5288,13 +5255,7 @@
 		{
 			dependencies: ["7CFCF3BA7E2B325C"]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:ender_chest"
-			}
+			icon: "minecraft:ender_chest"
 			id: "4D041F90B8B6F99A"
 			shape: "rsquare"
 			size: 3.0d
@@ -7505,6 +7466,7 @@
 			y: 12.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"

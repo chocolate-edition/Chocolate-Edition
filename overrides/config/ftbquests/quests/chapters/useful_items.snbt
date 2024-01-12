@@ -630,13 +630,8 @@
 			y: -4.0d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:recovery_compass"
-			}
+			disable_toast: true
+			icon: "minecraft:recovery_compass"
 			id: "78E50217106635B5"
 			shape: "square"
 			size: 2.5d
@@ -647,6 +642,7 @@
 		}
 		{
 			dependencies: ["0D073B03B578CEC0"]
+			disable_toast: true
 			id: "0209D8EA435A391E"
 			rewards: [{
 				id: "6CEA20166CB92E03"
@@ -790,6 +786,7 @@
 		}
 		{
 			dependencies: ["78E50217106635B5"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -805,6 +802,7 @@
 		}
 		{
 			dependencies: ["78E50217106635B5"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1270,13 +1268,8 @@
 			y: 10.5d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "iter_rpg:big_vase"
-			}
+			disable_toast: true
+			icon: "iter_rpg:big_vase"
 			id: "03E1F82B1F4D6090"
 			shape: "square"
 			size: 2.5d
@@ -1287,6 +1280,7 @@
 		}
 		{
 			dependencies: ["03E1F82B1F4D6090"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1302,6 +1296,7 @@
 		}
 		{
 			dependencies: ["03E1F82B1F4D6090"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1637,13 +1632,7 @@
 		}
 		{
 			dependencies: ["7CFCF3BA7E2B325C"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:ender_chest"
-			}
+			icon: "minecraft:ender_chest"
 			id: "60855B118C2FE854"
 			shape: "square"
 			size: 2.5d
@@ -2140,13 +2129,8 @@
 			y: 3.5d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "farmersdelight:roast_chicken_block"
-			}
+			disable_toast: true
+			icon: "farmersdelight:roast_chicken_block"
 			id: "6F3E05793CF05637"
 			shape: "square"
 			size: 2.5d
@@ -2181,6 +2165,7 @@
 			y: 9.75d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -2195,6 +2180,7 @@
 			y: 9.75d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -2253,6 +2239,7 @@
 			y: 8.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
