@@ -1,0 +1,1 @@
+<recipetype:create:mixing>.addRecipe("forged_steel",<constant:create:heat_condition:superheated>, [<item:art_of_forging:forged_steel_ingot>], [<item:epicsamurai:steel_ingot> * 4, <item:art_of_forging:resonant_alloy> * 2], [<fluid:minecraft:lava>], 250);

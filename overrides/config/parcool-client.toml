@@ -1,27 +1,27 @@
 
 ["Possibility of Actions(Some do not have to work)"]
-	can_BreakfallReady = true
-	can_CatLeap = true
+	can_BreakfallReady = false
+	can_CatLeap = false
 	can_ClimbUp = true
 	can_ClingToCliff = true
-	can_Crawl = true
-	can_Dive = true
-	can_Dodge = true
+	can_Crawl = false
+	can_Dive = false
+	can_Dodge = false
 	can_FastRun = true
-	can_Flipping = true
+	can_Flipping = false
 	can_HangDown = true
 	can_HorizontalWallRun = true
 	can_JumpFromBar = true
-	can_QuickTurn = true
-	can_Roll = true
-	can_Slide = true
-	can_Tap = true
+	can_QuickTurn = false
+	can_Roll = false
+	can_Slide = false
+	can_Tap = false
 	can_Vault = true
 	can_WallJump = true
 	can_WallSlide = true
-	can_ClimbPoles = true
-	can_SkyDive = true
-	can_VerticalWallRun = true
+	can_ClimbPoles = false
+	can_SkyDive = false
+	can_VerticalWallRun = false
 
 ["Stamina HUD Configuration"]
 	#horizontal alignment
@@ -147,11 +147,11 @@
 		stamina_consumption_of_VerticalWallRun = 150
 		#Infinite Stamina (this needs a permission from server, even if it is on single player's game. normally permitted)
 		#Please check 'parcool-server.toml' in 'serverconfig' directory
-		infinite_stamina = false
+		infinite_stamina = true
 		#Infinite Stamina while player is cretive mode
 		infinite_stamina_if_creative_mode = true
 		#ParCool consume hanger value instead of stamina
-		use_hanger_instead = false
+		use_hanger_instead = true
 		#Range: 300 ~ 10000
 		max_stamina = 2000
 		#Range: 1 ~ 10000

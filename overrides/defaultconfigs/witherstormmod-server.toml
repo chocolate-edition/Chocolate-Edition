@@ -13,7 +13,7 @@
 	playerPickupChance = 8
 	#DEFAULT=1.0. Specifies a modifier value of the evolution rate attribute. The higher the value, the longer it takes for the Wither Storm to make a complete evolution (from phases 0 to 7), and vice versa. Cannot be lower than 0. Reload Type: NONE
 	#Range: 0.01 ~ 32.0
-	evolutionAttributeModifier = 1.0
+	evolutionAttributeModifier = 0.01
 	#DEFAULT=30. Specifies the amount of time in minutes that the Wither Storm's ultimate target must be stationary in order for it to accelerate. Reload Type: WORLD
 	#Range: 1 ~ 120
 	targetStationaryMinutes = 30
@@ -51,7 +51,7 @@
 	targettingDistractionsEnabled = true
 	#DEFAULT=25. Specifies the time in minutes that the Wither Storm should be distracted for, plus some random modifying and more. Reload Type: NONE
 	#Range: 1 ~ 25
-	distractionTimeMinutes = 15
+	distractionTimeMinutes = 3
 	#DEFAULT=1000. Distractions will not occur if the Wither Storm's ultimate target is outside the radius determined by this value + its target range. Although, if the ultimate target is inside the radius, but then leaves, a distraction can then later occur. Reload Type: NONE
 	#Range: 100 ~ 3000
 	maximumDistractionDistance = 1000
@@ -65,17 +65,17 @@
 	searchableRangeMultiplier = 1
 	#DEFAULT=2. For when the Wither Storm needs to wait to become distracted, this value (in minutes) will specifiy the wait time, plus a random modifier. Reload Type: NONE
 	#Range: 1 ~ 20
-	distractionWaitTime = 2
+	distractionWaitTime = 1
 	#DEFAULT=true. Specifies if Block Clusters should remove non-important items in its path. NOTE: Disabling can cause major lag. Reload Type: NONE
 	clustersRemoveItems = true
 	#DEFAULT=false. If true, the hitbox of the Wither Storm and Wither Storm Segment's will be shrunk vertically to one block. Enable if facing major server lag in the bigger Wither Storm phases. Reload Type: WORLD
 	squashHitbox = false
 	#DEFAULT=20. Alters the interval (in ticks) of picking up block clusters for the hunchback phases (phase 0 - 3). NOTE: This value changes the evolution speed of the Wither Storm significantly. Reload Type: NONE
 	#Range: 10 ~ 80
-	hunchbackClusterPickupInterval = 20
+	hunchbackClusterPickupInterval = 10
 	#DEFAULT=40. Alters the interval (in ticks) of picking up block clusters for the destroyer phases (phase 4 - 5). NOTE: This value changes the evolution speed of the Wither Storm significantly. Reload Type: NONE
 	#Range: 10 ~ 80
-	clusterPickupInterval = 40
+	clusterPickupInterval = 10
 	#DEFAULT=40. Alters the interval (in ticks) of picking up block clusters for the devourer phases (phase 6+). NOTE: This value changes the evolution speed of the Wither Storm significantly. Reload Type: NONE
 	#Range: 10 ~ 80
 	devourerClusterPickupInterval = 40
@@ -84,7 +84,7 @@
 	flyingHeight = 75
 	#DEFAULT=6. If the Wither Storm's ultimate target has a command block tool and the Wither Storm is at phase 7, a timer specified by this value (in minutes) + random will countdown until the hole will automatically appear. Reload Type: NONE
 	#Range: 1 ~ 30
-	tillShouldShowHole = 6
+	tillShouldShowHole = 1
 	#DEFAULT=NEAREST. Specifies the targeting type the Wither Storm should use to determine it's ultimate target. Reload Type: NONE
 	#Allowed Values: NEAREST, FARTHEST, GROUP, NONE
 	ultimateTargetingType = "NEAREST"
@@ -179,17 +179,17 @@
 		canSummonSmybiont = true
 		#DEFAULT=60. Specifies the minimum interval (+random) in seconds that the Wither Storm should check for Withered Symbiont spawn conditions. Reload Type: NONE
 		#Range: 1 ~ 240
-		minimumSpawnCheckInterval = 60
+		minimumSpawnCheckInterval = 10
 		#DEFAULT=10. Specifies the delay in minutes (+random) that the Wither Storm will be able to summon a Withered Symbiont. Reload Type: NONE
 		#Range: 1 ~ 20
-		witherStormSummingDelay = 10
+		witherStormSummingDelay = 1
 		#DEFAULT=5. Specifies the time in minutes (+random) that the players who killed a Withered Symbiont should be ignored by the Wither Storm for. Reload Type: NONE
 		#Range: 1 ~ 10
 		playerInvulnerableTime = 5
 		#DEFAULT=10. Specifies the delay in minutes (+random) that the Wither Storm should be able summon a Withered Symbiont for the player it summoned one for. Reload Type: NONE
 		#Range: 1 ~ 60
-		playerSummoningDelay = 10
+		playerSummoningDelay = 1
 		#DEFAULT=40. If a player kills a Withered Symbiont, their sumoning delay will be increased to this value in minutes (+random). Reload Type: NONE
 		#Range: 1 ~ 60
-		playerSummoningDelayOnKill = 40
+		playerSummoningDelayOnKill = 10
 

@@ -28,21 +28,21 @@
 				"2243BA6B2363797E"
 			]
 			description: [
-				"- Geode: Obtained by breaking a sparkling deepslate block found underground. Looks like normal deepslate, but occasionally shimmers white particles every few seconds."
+				"• Ancient Geode: Obtained by breaking glittering &eDeepslate&r blocks found underground, which look like normal &eDeepslate&r with occasional white particles every few seconds."
 				""
-				"- Hulk Hammer: Drops from a mutant zombie that rarely spawns at night, or can be summoned by applying chemical x to a normal zombie. Not used during crafting."
+				"• Hulk Hammer: Drops from &4Mutant Zombies&r, which rarely spawns at night or can be mutated from regular &cZombies&r using &eChemical X&r."
 				""
-				"- Rope Arrow(x32 rope): Craft an arrow plus rope crafted from flax, straw(obtained by cutting grass with a knife), yak hair or string. Repeatedly craft rope arrow with rope to fill the rope arrow with the maximum 32 rope."
+				"• Rope Arrow (x32 Rope): Crafted from an arrow and &eRope&r."
 				""
-				"- Antique Ink: Uncommonly dropped from vases randomly found underground, mostly at deepslate level. Break every vase you see while mining and you should be fine."
+				"• Voidquartz Shard: Found in clusters deep underground."
 				""
-				"- Bomb:Crafted from tnt or found in chests."
+				"• Bomb: Crafted from &eTNT&r or found in chests."
 				""
-				"- Glow Shroom:Crafted from red, brown mushroom, and glowstone dust; which can be acquired from the nether, structures, witches, crushing prismarine, etc. Used also to lure out Stonelings for the next crafting ingredient."
+				"• Glow Shroom: Crafted from &eRed Mushrooms&r, &eBrown Mushrooms&r, and &eGlowstone Dust&r."
 				""
-				"- Heart of diamond: Drops from stonelings, small creatures found deep underground that disappear when you get close unless you are holding a glow shroom. Also used to make a pickarang."
+				"• Heart of Diamond: Drops from &aStonelings&r, small creatures found deep underground that disappear when you approach unless you're holding a &eGlow Shroom&r."
 				""
-				"- Forgotten Hat: Drops from a rare, strong variant of a skeleton deep underground called the forgotten. "
+				"• Forgotten Hat: Drops from a rare, strong variant of a skeleton deep underground called the &cForgotten&r."
 			]
 			id: "013219DDB4A2D820"
 			min_width: 600
@@ -87,9 +87,58 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item is dropped by the &4Mutant Zombie&r (see entry in Combat Specialist), which spawns rarely at night or can be \"created\" by splashing &eChemical X&r on a regular &cZombie&r. It can be crafted into the &eLost Eye&r at any durability and is not consumed during crafting."
+				""
+				"You can right click on the ground with it to smash! Raaagh!"
+			]
 			id: "45741BF550369ED4"
+			rewards: [
+				{
+					count: 4
+					id: "7346398061F9D23A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:cooked_beef"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "06233CF6E93BC5F2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "graveyard:corruption"
+					}
+					type: "item"
+				}
+				{
+					id: "655EE854F8EDEF9E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:smite"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Hulk Hammer: Drops from a mutant zombie that rarely spawns at night, or can be summoned by applying chemical x to a normal zombie. Not used during crafting."
+			subtitle: "Dropped by Mutant Zombies"
 			tasks: [{
 				id: "241A5433062C60D7"
 				item: {
@@ -104,14 +153,33 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Lost Eye"
+			title: "Hulk Hammer (Lost Eye)"
 			x: 5.0d
 			y: -2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be found in the Glimmering Wealds biome underground below Y=0, or it can be crafted using a &eRed Mushroom&r, a &eBrown Mushroom&r, and &eGlowstone Dust&r&f."
+				""
+				"&eGlowstone Dust&r can be acquired from the Nether, structures, &cWitches&r, and crushing &ePrismarine Crystals&r. See the relevant quest for more!"
+				""
+				"&eGlow Shrooms&r can be used to lure out &aStonelings&r, which makes the &eHeart of Diamond&r much easier to get."
+			]
 			id: "1A8A4DEE5F184E8D"
-			subtitle: "- Glow Shroom: Found in the glimmering Weald biome or Crafted from red, brown mushroom, and glowstone dust; which can be acquired from the nether, structures, witches, crushing prismarine, etc. Used also to lure out Stonelings for the next crafting ingredient."
+			rewards: [{
+				count: 4
+				id: "553B4C10A2C1A10A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			subtitle: "Found in Glimmering Wealds or crafted"
 			tasks: [{
 				id: "09AC1760CD2AC864"
 				item: {
@@ -123,37 +191,105 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Lost Eye"
+			title: "Glow Shroom (Lost Eye)"
 			x: 4.0d
 			y: 1.75d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item is, as you might imagine, crafted with an &eArrow&r and some &eRope&r. To continue filling up its \"durability,\" craft the resultant &eRope Arrow&r with... MORE &eROPE&r!"
+				""
+				"Besides Eye-crafting utility, you can also fire this with a &eBow&r at ledges to create instant ropeways."
+			]
 			id: "7305893A0D8AC4FA"
-			shape: "gear"
-			subtitle: "- Rope Arrow (MUST BE FULL): Craft an arrow plus rope crafted from flax, straw(obtained by cutting grass with a knife), yak hair or string. Repeatedly craft rope arrow with rope to fill the rope arrow with the maximum 32 rope."
-			tasks: [{
-				id: "612C643DEF9083A7"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					count: 2
+					id: "58E7D9B8A1519C39"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "comforts:rope_and_nail"
 					}
-					id: "supplementaries:rope_arrow"
-					tag: {
-						Damage: 0
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Used in Lost Eye"
+				{
+					id: "177CCF5A1A6466FD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "comforts:hammock_white"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Crafted with Arrows and Rope"
+			tasks: [
+				{
+					id: "6CB23CB1C6477C83"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "supplementaries:rope_arrow"
+						tag: {
+							Damage: 32
+						}
+					}
+					match_nbt: false
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7303E1A42A2C58BC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "supplementaries:rope_arrow"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Rope Arrow (Lost Eye)"
 			x: 6.0d
 			y: 1.75d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be found in clusters deep underground!"
+				""
+				"&eVoidquartz Shards&r are also commonly used in crafting magical items! If you want to specialize as a mage, it may be in your interest to hoard these!"
+			]
 			id: "0E1620F72D0A2067"
-			subtitle: "- Voidquartz Shard: Found in outcrops deep underground."
+			rewards: [{
+				count: 2
+				id: "6871280E80D4E2F1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "iter_rpg:ametrine_shard"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Found in clusters deep underground"
 			tasks: [{
 				id: "159FED51E88B0A0C"
 				item: {
@@ -165,15 +301,33 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Lost Eye"
+			title: "Voidquartz Shard (Lost Eye)"
 			x: 3.5d
 			y: 0.75d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item drops from &aStonelings&r, which are small creatures found deep underground at Y=0 or below. They will run away if you approach them, unless you lure them in with a &eGlow Shroom&r. You can also duplicate them by crafting them with &eDiamonds&r and other gems."
+				""
+				"You can use a &eHeart of Diamond&r on a block of &eStone&r to create your own &aStoneling&r, or craft it into a &ePickarang&r."
+			]
 			id: "0D405C1EE3AF0E81"
+			rewards: [{
+				count: 2
+				id: "57C165462A46D9BA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:diamond"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Heart of diamond: Drops from stonelings, small creatures found deep underground that disappear when you get close unless you are holding a glow shroom. Also used to make a pickarang."
+			subtitle: "Drops from Stonelings"
 			tasks: [{
 				id: "42CD6E81E528237A"
 				item: {
@@ -185,15 +339,31 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Lost Eye"
+			title: "Heart of Diamond (Lost Eye)"
 			x: 4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item is dropped by a rare, powerful variant of a skeleton called the &cForgotten&r, which spawns deep underground at Y=0 or below. It can also be found in treasure dungeon chests. This item can be crafted into the &eLost Eye&r at any durability."
+				""
+				"When equipped, it gives increased reach and luck."
+			]
 			id: "5A9938C459DCF963"
+			rewards: [{
+				id: "2774C710319D664A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "quark:blank_rune"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Forgotten Hat: Drops from a rare, strong variant of a skeleton deep underground called the forgotten. Or treasure dungeon chests."
+			subtitle: "Dropped by Forgotten or found in Dungeon chests"
 			tasks: [{
 				id: "0F42C2227D33D7EE"
 				item: {
@@ -208,15 +378,44 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Lost Eye"
+			title: "Forgotten Hat (Lost Eye)"
 			x: 6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item can be crafted with &eTNT&r and &eIron&r, or looted in various chests. You can also throw it at people for fun!"]
 			id: "47BC213AD1CE06B3"
+			rewards: [
+				{
+					count: 4
+					id: "6361395F20AF4FC4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:gunpowder"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "45A932ED2FE67EF3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "supplementaries:bomb_blue"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "circle"
-			subtitle: "- Bomb: Crafted from tnt or found in underground chests."
+			subtitle: "Crafted from TNT or found in underground chests"
 			tasks: [{
 				id: "65A9E47C1EE317C5"
 				item: {
@@ -228,14 +427,45 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Lost Eye"
+			title: "Bomb (Lost Eye)"
 			x: 6.5d
 			y: 0.75d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by breaking the glittering &eDeepslate&r blocks found deep underground. Glittering &eDeepslate&r looks the same as its dull counterpart, however it occasionally emits white particles every few seconds."
+				""
+				"You can smash &eAncient Geodes&r in a Workbench using a Tetra &eHammer&r. Its drops are affected by the Fortune enchantment."
+			]
 			id: "661BED75B154EAE1"
-			subtitle: "- Geode: Obtained by breaking a sparkling deepslate block found underground. Looks like normal deepslate, but occasionally shimmers white particles every few seconds."
+			rewards: [
+				{
+					id: "194A62170923165D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:raw_iron"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "4CA62A021275E994"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:raw_gold"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by glittering Deepslate deep underground"
 			tasks: [{
 				id: "6B95BB97DA0B3A4D"
 				item: {
@@ -247,15 +477,20 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Lost Eye"
+			title: "Ancient Geode (Lost Eye)"
 			x: 5.0d
 			y: 2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"&eFire Charges&r can be dropped by &cWraiths&r, which spawn at night."
+				""
+				"&eBlaze Rods&r are dropped by &cBlazes&r, which spawn in the Nether."
+			]
 			id: "41B55A1B1C300F99"
 			shape: "square"
-			subtitle: "Craft from a witch pupil(glowstone,redstone,sugar,gunpowder) and fire charge(dropped from wraiths at night), or Blaze rods dropped from blazes in the nether."
+			subtitle: "Craft from a Witch Pupil and Fire Charge, or from Blaze Rods"
 			tasks: [{
 				id: "74E5E8B318780B50"
 				item: {
@@ -279,17 +514,33 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"&oEyes DO NOT have to crafted in order shown here&r"
-				"------------------------"
+				"&oEyes DO NOT have to crafted in the order shown here!&r"
+				"----------------------"
 				"The shape of each quest indicates where that item comes from:"
 				""
-				"Circle: Undefined"
-				"Square: Crafted or Mob drop"
-				"Rounded Square: Mob drop"
-				"Pentagon: Structure loot or found in the world"
-				"Gear: Crafted"
+				"&aGear:&r Crafted"
+				""
+				"&aRounded Square:&r Mob drop"
+				""
+				"&aSquare:&r Crafted or Mob drop"
+				""
+				"&aPentagon:&r Structure loot or found in the world"
+				""
+				"&aCircle:&r Other"
 			]
 			id: "7F6DE0D493399E44"
+			rewards: [{
+				count: 3
+				id: "59C41F0DEE59868B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
 			subtitle: "&lLet the adventure begin!&r"
 			tasks: [{
 				id: "274B33E98BE33C43"
@@ -302,23 +553,100 @@
 				}
 				type: "item"
 			}]
-			title: "A simple Eye"
+			title: "A Simple Eye"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by trading with &aClerics&r, bartering with &cPiglins&r, killing &cEndermen&r, or by finding it in chests."
+				""
+				"Besides the basic &eEnder Pearl&r, there are multiple different variants of it that drop from different &cEndermen&r across the world. These differing types of &eEnder Pearls&r have their own effects when thrown. Go ahead and try them out!"
+			]
 			id: "44E5BB061B798E9F"
 			shape: "rsquare"
-			subtitle: "Kill enderman at night, Trade with piglins/clerics, or find in chests."
+			subtitle: "Kill Enderman at night, trade with Piglins/Clerics, or find in chests"
 			tasks: [{
-				id: "5446736D24A6922F"
+				id: "46288EC1E8A3D0E4"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "minecraft:ender_pearl"
+					id: "itemfilters:or"
+					tag: {
+						display: {
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Ender Pearls\"}"
+						}
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:ender_pearl"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endermanoverhaul:corrupted_pearl"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endermanoverhaul:soul_pearl"
+								tag: { }
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endermanoverhaul:ancient_pearl"
+								tag: { }
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endermanoverhaul:bubble_pearl"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endermanoverhaul:summoner_pearl"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endermanoverhaul:icy_pearl"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endermanoverhaul:crimson_pearl"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endermanoverhaul:warped_pearl"
+							}
+						]
+					}
 				}
 				type: "item"
 			}]
@@ -328,9 +656,33 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item is dropped by &cRavagers&r in Village Raids! You can activate one by approaching a village with &2Bad Omen&r."
+				""
+				"&eRavager Hide&r is also used to craft &eBackpacks&r."
+			]
 			id: "6B8B7A2841D0820D"
+			rewards: [{
+				id: "55578D81A912D096"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [{
+								data: [ ]
+								source: "dungeons_libraries:gear_config"
+							}]
+						}
+					}
+					id: "dungeons_mobs:diamond_vindicator_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Ravager Hide: Exclusive drop from ravagers, which can be found in raids. Also used to make Backpacks."
+			subtitle: "Dropped by Ravagers in Raids"
 			tasks: [{
 				id: "237CC246E9B21840"
 				item: {
@@ -342,15 +694,27 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Corrupted Eye "
+			title: "Ravager Hide (Corrupted Eye)"
 			x: 11.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item is a compacted form of the &aVillagers&r' quintessential currency. You can obtain &eEmeralds&r by trading with &aVillagers&r, finding ores in mountains, or looting."]
 			id: "66C6FA2F28EE5B53"
+			rewards: [{
+				id: "43EB0DB421CFD77E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "simplehats:villagernose"
+				}
+				type: "item"
+			}]
 			shape: "gear"
-			subtitle: "- Emerald Block: Crafted with 9 emeralds (gotten mostly from villager trading)."
+			subtitle: "Crafted using 9 Emeralds"
 			tasks: [{
 				count: 2L
 				id: "2280BD82500B4262"
@@ -363,7 +727,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Corrupted Eye "
+			title: "Emerald Block (Corrupted Eye)"
 			x: 9.0d
 			y: 1.25d
 		}
@@ -379,17 +743,17 @@
 				"7F6DE0D493399E44"
 			]
 			description: [
-				"- Carved Pumpkin: Use shears on a pumpkin obtained from the dark forest/spruce biome or grown with pumpkin seeds."
+				"• Halloween Candy (x2): Dropped by &4Sir Pumpkinhead&r"
 				""
-				"- Conjurer hat: Use the nature's compass to find a dark forest, and locate an illager theater which will have a magician on stage called the conjurer. He bounces balls and throws cards while teleporting around. Is the easiest boss. Slay him to get his hat. Not used during crafting."
+				"• Conjurer Hat: Dropped by the &4Conjurer&r, not consumed during crafting"
 				""
-				"- Hay Bale: Craft 9 wheat together."
+				"• Ravager Hide: Dropped by &cRavagers&r during Raids"
 				""
-				"- Halloween candy(x2): Drops from the headless horseman, whos summoned by breaking a Infernal Evil Pumpkin found in the dark forest."
+				"• Emerald Block (x2): Crafted from 9 &eEmeralds&r"
 				""
-				"- Emerald Block(x2): Crafted with 9 emeralds (gotten mostly from villager trading)."
+				"• Hay Bale (x2): Crafted from 9 &eWheat&r"
 				""
-				"- Ravager Hide: Exclusive drop from ravagers, which can be found in raids. Also used to make Backpacks."
+				"• Carved Pumpkin: Use &eShears&r on a &ePumpkin&r, which can be found in Dark Forests or grown"
 			]
 			id: "79CF3A07DD3F2943"
 			min_width: 600
@@ -412,14 +776,16 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "60AC75849BD1D469"
+					id: "7CDDC3EE6410A56D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "minecraft:diamond"
+						id: "dungeons_gear:fireworks_display"
+						tag: {
+							Damage: 0
+						}
 					}
 					type: "item"
 				}
@@ -446,9 +812,21 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item can be crafted using 9 &eWheat&r, which you can get through farming or from villages."]
 			id: "44EBE320D9D4A68C"
+			rewards: [{
+				id: "7E1EECA9493E9499"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "simplehats:farmerbrim"
+				}
+				type: "item"
+			}]
 			shape: "gear"
-			subtitle: "- Hay Bale: Craft 9 wheat together."
+			subtitle: "Crafted using 9 Wheat"
 			tasks: [{
 				id: "43BB1A07EB6BEF3F"
 				item: {
@@ -460,15 +838,27 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Corrupted Eye"
+			title: "Hay Bale (Corrupted Eye)"
 			x: 11.0d
 			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item is dropped by the &4Conjurer&r, the easiest boss in the pack! It spawns in Illager Theaters in Dark Forest biomes. Remember that you can use the &eNature's Compass&r to find specific biomes easily, and to the corrosponding Boss Wiki entry for more information! This item can be crafted into the &eCorrupted Eye&r at any durability and is not used during crafting."]
 			id: "19114FAE7E57CF5C"
+			rewards: [{
+				id: "14F3F1F77F186183"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "friendsandfoes:totem_of_illusion"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Conjurer hat: Use the nature's compass to find a dark forest, and locate an illager theater which will have a magician on stage called the conjurer. He bounces balls and throws cards while teleporting around. Is the easiest boss. Slay him to get his hat. Not used during crafting."
+			subtitle: "Dropped by killing the Conjurer"
 			tasks: [{
 				id: "28B6B51204EE82D5"
 				item: {
@@ -483,14 +873,31 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Corrupted Eye"
+			title: "Conjurer Hat (Corrupted Eye)"
 			x: 10.0d
 			y: -2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by using &eShears&r on a &ePumpkin&r, which can be found in Dark Forest biomes or grown using &ePumpkin Seeds&r."
+				""
+				"This item can also be used to scare off the pesky &aCrows&r that tear up your garden!"
+			]
 			id: "05C76E960751DC35"
-			subtitle: "- Carved Pumpkin: Use shears on a pumpkin obtained from the dark forest/spruce biome or grown with pumpkin seeds."
+			rewards: [{
+				count: 3
+				id: "785D6C8D550ABCA4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:pumpkin_pie"
+				}
+				type: "item"
+			}]
+			subtitle: "Use Shears on a Pumpkin"
 			tasks: [{
 				id: "684BE56ABD85AB0A"
 				item: {
@@ -502,15 +909,28 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Corrupted Eye "
+			title: "Carved Pumpkin (Corrupted Eye)"
 			x: 10.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item is dropped by &4Sir Pumpkinhead&r, who can be summoned by breaking an &eInfernal Evil Pumpkin&r, a block found in Dark Forest biomes! Remember that you can use the &eNature's Compass&r to find these biomes, and that you can refer to the Boss Wiki entry for more info!"]
 			id: "49171FCF7274350A"
+			rewards: [{
+				count: 8
+				id: "1BE131EEDB555D65"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "supplementaries:candy"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Halloween candy: Drops from the headless horseman, whos summoned by breaking a Infernal Evil Pumpkin found in the dark forest."
+			subtitle: "Dropped by Sir Pumpkinhead"
 			tasks: [{
 				count: 2L
 				id: "45633C62A116C474"
@@ -523,7 +943,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Corrupted Eye "
+			title: "Halloween Candy (Corrupted Eye)"
 			x: 9.0d
 			y: -1.5d
 		}
@@ -533,7 +953,7 @@
 				"7F6DE0D493399E44"
 			]
 			dependency_requirement: "one_started"
-			description: ["The Nature's Compass is your best friend when exploring for a certain item, block, mob or structure. Most eyes are tied to a biome, use this compass to save yourself hours of searching."]
+			description: ["The &eNature's Compass&r is your best friend when exploring for a certain item, block, mob or structure. Most Eyes are tied to a biome, so use this compass to save yourself hours of searching."]
 			id: "74D4C7911AF2B340"
 			size: 2.0d
 			subtitle: "&lUSE IT!&r"
@@ -555,9 +975,38 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be crafted using five &ePirate Pouches&r (found in &cIllager&r Outposts in Frozen Ocean biomes) and an &eEcho of the Ship Graveyard&r, which is dropped by powerful mobs from the Aquamirae mod. The &aTreasure Pouch&r can also drop from the &4Ghost of Captain Cornelia&r or Aquamirae &cEels&r."
+				""
+				"Opening the pouch will give mediocre loot and, if you're lucky, an &eIce Maze Ship Map&r, which directs you to the nearest Ice Maze."
+			]
 			id: "46D1F182363782D5"
-			shape: "gear"
-			subtitle: "- Treasure Pouch: Crafted from 6 pirate pouches found in frozen ocean illager outposts, and a Echo of the Ship Graveyard; Drops from Anglerfish or Maw 1% of the time, and other more powerful Aquamirae mobs guaranteed."
+			rewards: [
+				{
+					id: "770566B3A1664F71"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "rottencreatures:treasure_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "6598482F33D9CBB6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:painting_anglerfish"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Crafted using 5 Pirate Pouches and an Echo of the Ship Graveyard or dropped by powerful Aquamirae mobs"
 			tasks: [{
 				id: "63E31C0B938BE12E"
 				item: {
@@ -569,15 +1018,37 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Black Eye"
+			title: "Treasure Pouch (Black Eye)"
 			x: 14.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by fishing in cold oceans and beaches, or by killing the &aPacific Halibut&r mobs &oin&r those biomes. You can also fillet and cook them as food."
+				""
+				"&nValid Biomes&r"
+				"- Cold Ocean"
+				"- Frozen Ocean"
+				"- Deep Cold Ocean"
+				"- Deep Frozen Ocean"
+				"- Snowy Beach"
+			]
 			id: "4764C6F8673D2B92"
+			rewards: [{
+				count: 8
+				id: "6F0DF6898BE6A531"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "aquaculture:fish_fillet_cooked"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Pacific Halibut: Fish in the ocean."
+			subtitle: "Fished in Cold Oceans and Beaches"
 			tasks: [{
 				id: "2E2B7358F21D8856"
 				item: {
@@ -589,7 +1060,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Black Eye"
+			title: "Pacific Halibut (Black Eye)"
 			x: 13.5d
 			y: -1.5d
 		}
@@ -607,21 +1078,22 @@
 				"7F6DE0D493399E44"
 			]
 			description: [
-				"- Atlantic or Pacific Halibut or Rainbow Trout: Fish in the Arctic Ocean"
+				"• Pacific Halibut and Rainbow Trout: Fished in Cold Oceans and Beaches"
 				""
-				"- Piranha: Fish in the Jungle"
+				"• Piranha: Fished in Jungles"
 				""
-				"- Fish Oil: Kill 4 blob fish found in deep ocean caves, craft with a bottle."
+				"• Fish Oil: Crafted using 4 &eBlob Fish&r, which are dropped by &aBlob Fish&r mobs deep in Oceans"
 				""
-				"- Black Tea Leaves: Break a tea bush from a swamp, and plant the tea seeds until they turn black(they grow green then yellow then black)."
+				"• Black Tea Leaves: &ePlant Tea Seeds&r and let them grow and oxidize into Black &eTea Bushes&r"
 				""
-				"- Sea Stew: "
-				"• Oxygelium: Found in frozen ocean bottom."
-				"• Esca and Fin: Drops from Anglerfish, Maws in frozen ocean."
-				"• Spinefish:Frozen ocean."
-				"• Potato and Pufferfish:Common loot."
+				"• Sea Stew: "
+				"  • Oxygelium - Grows in Frozen Ocean depths"
+				"  • Esca - Drops from &cAnglerfish&r"
+				"  • Fin: Drops from &cAnglerfish&r and other Aquamirae mobs in Frozen Oceans"
+				"  • Spinefish - Dropped by &aSpinefish&r mobs in Frozen Oceans"
+				"  • Potato, Pufferfish, Bowl - Same as normal Minecraft"
 				""
-				"- Pirate Pouch: Crafted from 6 treasure pouches found in frozen ocean illager outposts, and a Echo of the Ship Graveyard; Drops from Anglerfish or Maw 1% of the time, and other more powerful Aquamirae mobs guaranteed."
+				"• Treasure Pouch: Crafted using 5 &ePirate Pouches&r and an &eEcho of the Ship Graveyard&r"
 			]
 			id: "661A9113A7A863B0"
 			min_width: 600
@@ -644,14 +1116,16 @@
 					type: "item"
 				}
 				{
-					count: 6
-					id: "6AF42528EE2ECE09"
+					id: "6F067E7529977A33"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "minecraft:diamond"
+						id: "artifacts:snorkel"
+						tag: {
+							Damage: 0
+						}
 					}
 					type: "item"
 				}
@@ -678,9 +1152,33 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by fishing in cold oceans and beaches, or by killing the &aRainbow Trout&r mobs &oin&r those biomes. You can also fillet and cook them as food."
+				""
+				"&nValid Biomes&r"
+				"- Cold Ocean"
+				"- Frozen Ocean"
+				"- Deep Cold Ocean"
+				"- Deep Frozen Ocean"
+				"- Snowy Beach"
+			]
 			id: "0BB80424B5F55739"
+			rewards: [{
+				id: "2F18742FF6E90753"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "aquaculture:iron_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: " - Rainbow Trout: Fish in the Arctic Ocean."
+			subtitle: "Fished in Cold Oceans and Beaches"
 			tasks: [{
 				id: "24296E49545D4604"
 				item: {
@@ -692,14 +1190,33 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Black Eye"
+			title: "Rainbow Trout (Black Eye)"
 			x: 14.5d
 			y: -2.25d
 		}
 		{
-			dependencies: ["2243BA6B2363797E"]
+			dependencies: [
+				"2243BA6B2363797E"
+				"674B7E1A271FC2FE"
+			]
+			description: [
+				"This item can be obtained by breaking Black Tea Bushes. In order to grow one, you must find &eTea Seeds&r, which can be obtained by breaking the &eWild Tea Bushes&r found in Swamp biomes. Once planted, let the &eTea Bush&r grow until it turns black, before breaking it and harvesting its &eBlack Tea Leaves&r."
+				""
+				"You can use the three different kind of tea leaves in various food and drink recipes, which provide various buffs. Try them out!"
+			]
 			id: "587852E519C99991"
-			subtitle: "- Black Tea Leaves: Break a tea bush from a swamp, and plant the tea seeds until they turn black(they grow green then yellow then black)."
+			rewards: [{
+				id: "2FABAA8637F5488B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersrespite:black_tea"
+				}
+				type: "item"
+			}]
+			subtitle: "Plant Tea Seeds and let them grow and oxidize into Black Tea Bushes"
 			tasks: [{
 				id: "45134492643C0999"
 				item: {
@@ -711,14 +1228,40 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Black Eye"
+			title: "Black Tea Leaves (Black Eye)"
 			x: 13.75d
 			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item is crafted from a variety of different ingredients! It is not consumed during crafting. "
+				""
+				"• &eBaked Potato&r, &eBowl&r, and &ePufferfish&r - Items you already know how to get"
+				""
+				"• &eEsca&r - Drops from the &cAnglerfish&r, which are found in Frozen Oceans"
+				""
+				"• &eFin&r - Dropped by Aquamirae mobs (also found in Frozen Oceans)"
+				""
+				"• &eSpinefish&r - Drops from its corrosponding mob, the &aSpinefish&r"
+				""
+				"• &eOxygelium&r - A plant that grows in the depths of the Frozen Ocean; it glows underwater and can be broken with an axe."
+			]
 			id: "3BF84F7FEB33F8A0"
+			rewards: [{
+				count: 2
+				id: "4FA20AD91E6940A9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "aquamirae:sea_casserole"
+				}
+				type: "item"
+			}]
 			shape: "gear"
+			subtitle: "Crafted using many ingredients"
 			tasks: [{
 				id: "17860779228A6C05"
 				item: {
@@ -730,15 +1273,56 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Black Eye"
+			title: "Sea Stew (Black Eye)"
 			x: 15.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by fishing in jungles, or by killing the &aPiranha&r mobs &oin&r those biomes. You can also fillet and cook them as food."
+				""
+				"&nValid Biomes&r"
+				"- Jungle"
+				"- Sparse Jungle"
+				"- Bamboo Jungle"
+			]
 			id: "7558D1360E719CCF"
+			rewards: [
+				{
+					id: "078C910613D7CD0B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:paper"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Would you still love me if I was a...\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3E4F0E6C432ED813"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Piranha: Fish in the Jungle."
+			subtitle: "Fished in Jungles"
 			tasks: [{
 				id: "5B943B4E2E152B1E"
 				item: {
@@ -750,15 +1334,51 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Black Eye"
+			title: "Piranha (Black Eye)"
 			x: 16.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be crafted using four &eBlob Fish&r, which drops from the &aBlob Fish&r mob found deep within oceans."
+				""
+				"You can also use &eFish Oil&r on yourself to get the &2Oiled&r effect, which makes you quickly levitate in water or in the rain."
+			]
 			id: "24DC14930F2B7313"
+			rewards: [
+				{
+					count: 4
+					id: "23BA46C8C7D0CE21"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "0A9FA507D54D7260"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:blobfish_bucket"
+						tag: {
+							display: {
+								Lore: [ ]
+								Name: "{\"text\":\"§6blobperson1 the Blobfish\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Fish Oil: Kill 4 blob fish found in deep ocean caves, craft with a bottle."
+			subtitle: "Crafted using 4 Blob Fish and a Bottle"
 			tasks: [{
 				id: "21B1689DA59BF259"
 				item: {
@@ -770,15 +1390,43 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Black Eye"
+			title: "Fish Oil (Black Eye)"
 			x: 16.25d
 			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by fishing in oceans and beaches, or by killing the &aAtlantic Halibut&r mobs &oin&r those biomes. You can also fillet and cook them as food."
+				""
+				"&nValid Biomes&r"
+				"- Ocean"
+				"- Cold Ocean"
+				"- Frozen Ocean"
+				"- Lukewarm Ocean"
+				"- Warm Ocean"
+				"- Deep Ocean"
+				"- Deep Cold Ocean"
+				"- Deep Frozen Ocean"
+				"- Deep Lukewarm Ocean"
+				"- Beach"
+				"- Snowy Beach"
+			]
 			id: "167A19B694FED9A3"
+			rewards: [{
+				count: 4
+				id: "52504FA6388694F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "aquaculture:algae"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Atlantic Halibut: Fish in the Ocean."
+			subtitle: "Fished in Oceans or Beaches"
 			tasks: [{
 				id: "1AA0B714714E52E1"
 				item: {
@@ -790,15 +1438,32 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Black Eye"
+			title: "Atlantic Halibut (Black Eye)"
 			x: 15.5d
 			y: -2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by crafting &eRose Quartz&r using 8 &eRedstone&r and 1 &eQuartz&r, and then holding it in your off-hand while using Sandpaper in order to polish it."
+				""
+				"It is used to craft the &eElectron Tube&r, which is a fairly important crafting item in higher tier Create machines."
+			]
 			id: "1372B1263AB8BBE5"
+			rewards: [{
+				count: 4
+				id: "4BBB9090C81DBBF0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "epicsamurai:ruby"
+				}
+				type: "item"
+			}]
 			shape: "gear"
-			subtitle: "- Polished Rose Quartz: Craft rose quartz with 1 quartz and 8 redstone, and put it in offhand. Right click while holding sandpaper."
+			subtitle: "Craft and polish a Rose Quartz using 1 Nether Quartz, 8 Redstone Dust, and Sandpaper"
 			tasks: [{
 				id: "689F8940962EBD7C"
 				item: {
@@ -810,15 +1475,33 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Evil Eye "
-			x: 20.0d
-			y: 2.0d
+			title: "Polished Rose Quartz (Evil Eye)"
+			x: 21.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This block can be obtained by crafting the &eNuggets of Experience&r acquired by crushing ores in &eCrushing Wheels&r. Additionally, &eNuggets&r can also be found as loot in basic structures."
+				""
+				"You can use &eNuggets of Experience&r for a small EXP boost."
+			]
 			id: "345B1F72EE92E970"
+			rewards: [{
+				count: 8
+				id: "428BCC41AA5FD65F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:experience_bottle"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
 			shape: "gear"
-			subtitle: "- Block of experience: Crafted with 9 nuggets of experience; obtained from crushing ores in crushing wheels and some basic structures."
+			subtitle: "Crafted using 9 Nuggets of Experience, which can be obtained by crushing ores."
 			tasks: [{
 				count: 2L
 				id: "6479FEFDC73BA3EE"
@@ -831,7 +1514,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Evil Eye "
+			title: "Block of Experience (Evil Eye)"
 			x: 19.0d
 			y: 1.25d
 		}
@@ -842,18 +1525,22 @@
 				"5EC8C4019EF648C8"
 				"1372B1263AB8BBE5"
 				"345B1F72EE92E970"
-				"57F665E406DCA0A2"
 				"7F6DE0D493399E44"
+				"79F92F0F00D2982A"
+				"2243BA6B2363797E"
 			]
 			description: [
-				"! Need Crushing Wheel for most Ingredients: Crafted in a large mechanical crafter, which is made from brass(copper+zinc), rose quartz(redstone+quartz), Iron and Wood."
+				"• Brass Hand: Crafted 4 &eBrass Sheets&r and an &eAndesite Alloy&r"
 				""
-				"- Wrench:Press 3 gold ingots with a mechanical press(made from andesite alloy and iron)."
-				"- Block of experience(x2): Crafted with 9 nuggets of experience; obtained from crushing ores in crushing wheels."
-				"- Brass Ingot: Mix Zinc and Copper in a mixer, made with andesite alloy and iron. "
-				"- Polished Rose Quartz: Craft rose quartz with 1 quartz and 8 redstone, and put it in offhand. Right click while holding sandpaper."
-				"- Sturdy Sheet(x2): Crush obsidian in crushing wheel, then spout(copper and kelp) powdered obsidian with lava, and press it twice. Also used for train assembly."
-				"Precision Mechanism: Use a Deployer(brass sheets and andesite alloy) to deploy cogs and iron nuggets onto gold sheets. Also used for extending range, train controls, wand that makes building easier, Potato Cannons and automatic arms. "
+				"• Block of Experience (x2): Crafted from 9 &eNuggets of Experience&r, which can be gotten from crushing ores"
+				""
+				"• Brass Ingot: Mix &eZinc&r and &eCopper&r in a heated &eBasin&r"
+				""
+				"• Polished Rose Quartz: Use &eSand Paper&r with &eRose Quartz&r (crafted from &eQuartz&r and 8 &eRedstone&r) in your offhand"
+				""
+				"• Sturdy Sheet (x2): Process &ePowdered Obsidian&r (from crushing &eObsidian&r) by spouting &eLava&r and then pressing it twice"
+				""
+				"• Precision Mechanism: Process a &eGold Sheet&r through a sequenced assembly of &eIron Nuggets&r, &eCogwheels&r, and &eLarge Cogwheels&r five times"
 			]
 			id: "6C25A0462994DDCC"
 			min_width: 600
@@ -864,14 +1551,40 @@
 					xp: 1000
 				}
 				{
+					count: 32
+					id: "3FF9A67F5D8E866F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
 					count: 16
-					id: "757670160DEC86CE"
+					id: "73C55EE6C6B23EAF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "create:experience_block"
+					}
+					type: "item"
+				}
+				{
+					id: "439BED3435F3A854"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:extendo_grip"
+						tag: {
+							Damage: 0
+						}
 					}
 					type: "item"
 				}
@@ -898,9 +1611,51 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item is obtained by processing a &eGold Sheet&r by adding an &eIron Nugget&r, a &eCogwheel&r, and a &eLarge Cogwheel&r using &eDeployers&r. This process must be repeated five times, and has a 20% chance to fail. For more information, use the Ponder mechanic on the &eDeployer&r."
+				""
+				"The Precision Mechanism is fairly tedious to make, but it is used a variety of extremely powerful Create tools such as the &eRotation Speed Controller&r, the &eExtendo-Grip&r, the &eWand of Symmetry&r, and others."
+			]
 			id: "305E7EC139FEE651"
+			rewards: [
+				{
+					id: "5A41523C08E3AC00"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "epicsamurai:brass_repair_kit"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "239DDFF2C1A8E8C2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "446D64DC3B600B50"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Precision Mechanism: Made using a slew of deployers, cogs, and belts."
+			subtitle: "Process a Gold Sheet through a sequenced assembly"
 			tasks: [{
 				id: "6B7A35F21E27000E"
 				item: {
@@ -912,7 +1667,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Evil Eye "
+			title: "Precision Mechanism (Evil Eye)"
 			x: 19.0d
 			y: -1.5d
 		}
@@ -921,9 +1676,50 @@
 				"2243BA6B2363797E"
 				"712E99FD737507E2"
 			]
+			description: [
+				"This item is obtained by processing &ePowdered Obsidian&r by spouting &eLava&r on it, then pressing it twice with a &eMechanical Press&r. For more information, use the Ponder mechanic on the &eSpout&r and &eMechanical Press&r."
+				""
+				"This item is also used in train assembly, the Create mod's premier long-distance transport mechanic."
+			]
 			id: "5EC8C4019EF648C8"
+			rewards: [
+				{
+					count: 16
+					id: "5F7E4269EBF94228"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					id: "722420F36F54EE56"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:railway_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "49CB47F2FAF4D2ED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:schedule"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Sturdy Sheet: Crush obsidian in crushing wheel, then spout(copper and kelp) powdered obsidian with lava, and press it twice. Also used for train assembly."
+			subtitle: "Process Crushed Obsidian through a sequenced assembly"
 			tasks: [{
 				count: 2L
 				id: "2143CC28F9F8051D"
@@ -936,7 +1732,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Evil Eye "
+			title: "Sturdy Sheet (Evil Eye)"
 			x: 21.0d
 			y: -1.5d
 		}
@@ -945,9 +1741,26 @@
 				"2243BA6B2363797E"
 				"7C88EE2650AC9994"
 			]
+			description: [
+				"To obtain this item, mix &eCopper&r and &eZinc Ingots&r in a heated &eBasin&r using a &eMixer&r. For more information, use the Ponder mechanic on the &eBasin&r or the &eMixer&r."
+				""
+				"&eBrass&r is used for a number of high-tier Create machines, so it's a very handy resource to have."
+			]
 			id: "6B9E3DF8442F132B"
+			rewards: [{
+				count: 3
+				id: "76F1755B2F167B15"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:brass_casing"
+				}
+				type: "item"
+			}]
 			shape: "gear"
-			subtitle: "- Brass Ingot: Mix Zinc and Copper in a mixer, made with andesite alloy and iron. "
+			subtitle: "Mix Copper and Zinc in a heated basin"
 			tasks: [{
 				id: "3E32099CBAC23FA7"
 				item: {
@@ -959,38 +1772,64 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Evil Eye "
+			title: "Brass Ingot (Evil Eye)"
 			x: 20.0d
 			y: -2.25d
-		}
-		{
-			dependencies: ["2243BA6B2363797E"]
-			id: "57F665E406DCA0A2"
-			shape: "gear"
-			subtitle: "- Wrench: Press 3 gold ingots with a mechanical press(made from andesite alloy and iron)."
-			tasks: [{
-				id: "7981DB13DD23B876"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "create:wrench"
-				}
-				type: "item"
-			}]
-			title: "Used in Evil Eye "
-			x: 21.0d
-			y: 1.25d
 		}
 		{
 			dependencies: [
 				"7D90032352C7750B"
 				"2243BA6B2363797E"
 			]
+			description: [
+				"This item can be used to crush various blocks, such as ores or stone. It's an important contraption for crafting various required items for this Eye, so make sure you've got it handy! For more information, use the Ponder mechanic."
+				""
+				"Remember that to crush an item, both wheels need to be spinning in &4opposite&r directions! The left wheel should be spinning clockwise, and the right wheel should be spinning counterclockwise. You can use a &eGearshift&r to manipulate spin direction."
+			]
 			id: "712E99FD737507E2"
+			rewards: [
+				{
+					count: 4
+					id: "1532B516D90E8C50"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:crushed_raw_copper"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2BCA801B2A5C1780"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:crushed_raw_iron"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "491CA2AA72AF2E1B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:crushed_raw_gold"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "Made from andesite alloy, stone, and wood in a Mechanical Crafter setup"
+			subtitle: "Crafted from Andesite Alloy, Stone, and Wood in a Mechanical Crafter"
 			tasks: [{
 				count: 2L
 				id: "0DFC9A5A3F62ED00"
@@ -1003,15 +1842,51 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Evil Eye "
-			x: 21.75d
-			y: -2.5d
+			title: "Crushing Wheel (Evil Eye)"
+			x: 22.25d
+			y: -2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained through crafting with the following: "
+				""
+				"• &eElectron Tube&r - Crafted using an &eIron Nugget&r, a &eRedstone Torch&r, and &ePolished Rose Quartz&r"
+				""
+				"• &eBrass Casing&r - Obtained by using a &eBrass Ingot&r on a &eStripped Log&r"
+				""
+				"• &eCrafting Table&r - You know this one"
+				""
+				"The &eMechanical Crafter&r must be used to craft certain recipes, such as the &eCrushing Wheel&r, &eExtendo-Grip&r, and more. For more information, use the Ponder mechanic on the &eMechanical Crafter&r."
+			]
 			id: "7D90032352C7750B"
+			rewards: [
+				{
+					count: 9
+					id: "41E36291B0D337D7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:crafter_slot_cover"
+					}
+					type: "item"
+				}
+				{
+					id: "43E89C9A66CD3464"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:crafting_blueprint"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "Crafted from brass, wood, redstone, quartz, and iron"
+			subtitle: "Crafted from Brass Casing, Crafting Table, and an Electron Tube"
 			tasks: [{
 				count: 21L
 				id: "6B518AF920762E8B"
@@ -1024,13 +1899,28 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Evil Eye "
+			title: "Mechanical Crafter (Evil Eye)"
 			x: 22.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item is dropped by &cEvokers&r, which can be found as part of Raids or in Woodland Mansions. You can wear it in your Charm slot to prevent one death."]
 			id: "5C2A8A704F1F9CA7"
+			rewards: [{
+				id: "32235F70A1A48302"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "environmental:vitality_strong"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Drops from Evokers"
 			tasks: [{
@@ -1044,38 +1934,81 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Evil Eye "
+			title: "Totem of Undying (Evil Eye)"
 			x: 18.5d
 			y: -4.5d
 		}
 		{
 			dependencies: [
-				"2243BA6B2363797E"
 				"5C3892C1186C3874"
-				"5C2A8A704F1F9CA7"
+				"2243BA6B2363797E"
 			]
+			description: [
+				"This item can be obtained by crafting an &eEmpty Blaze Burner&r with &eNetherrack&r and &ePressed Iron Sheets&r, and then activating it by using it on a &cBlaze&r"
+				""
+				"The &eBlaze Burner&r has three different stages: dormant, heated, and superheated. Higher tiers of heat have access to more mixing and pressing recipes. The &eBlaze Burner&r can be fed fuel items to become heated, and &eBlaze Cakes&r to become superheated. For more information, use the Ponder mechanic on the &eBlaze Burner&r."
+			]
+			icon: "create:blaze_burner"
 			id: "7C88EE2650AC9994"
-			shape: "gear"
-			subtitle: "Blaze Burner: Right Click a empty Burner on a blaze or blaze spawner, OR craft a totem of undying and blaze powder with a blaze burner."
-			tasks: [{
-				id: "10ED86588572AC75"
+			rewards: [{
+				id: "528D84263A1376FA"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "create:blaze_burner"
+					id: "create:blaze_cake"
 				}
 				type: "item"
 			}]
-			title: "Used in Evil Eye "
+			shape: "gear"
+			subtitle: "Activate an Empty Blaze Burner by using it on a Blaze or crafting it with a Totem of Undying"
+			tasks: [
+				{
+					id: "74FD871027ED3038"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:empty_blaze_burner"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BA433EB92F70A97"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:blaze_burner"
+					}
+					type: "item"
+				}
+			]
+			title: "Blaze Burner (Evil Eye)"
 			x: 19.0d
 			y: -3.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item can be obtained by crafting &eNether Wart&r and &eCobblestone&r together. You can get &eNether Wart&r as part of structure loot. Alternatively, finding structures such as Ruined Portals can bypass this recipe completely, as &eNetherrack&r generates as part of those structures."]
 			id: "5C3892C1186C3874"
-			subtitle: "Crafted from netherwart and cobblestone"
+			rewards: [{
+				count: 10
+				id: "7699BCF5E1134EBD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			subtitle: "Crafted from Nether Wart and Cobblestone or found as part of structures"
 			tasks: [{
 				id: "263D77E5207388E5"
 				item: {
@@ -1087,7 +2020,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Evil Eye "
+			title: "Netherrack (Evil Eye)"
 			x: 17.75d
 			y: -3.5d
 		}
@@ -1104,11 +2037,15 @@
 				"7F6DE0D493399E44"
 			]
 			description: [
-				"- Pristine Diamond/Emerald:Crack open geodes in a workbench(right click a crafting table with a Tetra hammer)to get rougly a couple of either or pristine lapis per stack of geodes. Odds increase when hammer is enchanted with fortune 3(which is really easy since it has basically no other enchants). Also used to increase stats for Tetra weapons."
-				"- Prismarine/Elder Prismarine Coral: Found in deep ocean ravines; elder is more rare. Watch out for thrashers when diving."
-				"- Athame:Kill a deepling priest, found in the sunken city(located by crafting an eye of abyss) or rarely fished up. "
-				"- Crystallized Coral:Kill 4 Corallassus, found in the sunken city(located by crafting an eye of abyss) or rarely fished up. "
-				"Neptunium Ingot: Exclusively fished up via Neptune's Bounty's, rare crates that contain one piece of Neptunium gear(which can be smelted into ingots)."
+				"• Pristine Diamond / Emerald - Found by breaking open &eAncient Geodes&r in &eWorkbenches&r using Tetra &eHammers&r, increased odds if the &eHammer&r has Fortune"
+				""
+				"• Prismarine (x2) / Elder Prismarine Coral - Found in deep Ocean ravines. &ePrismarine Coral&r will dry out and turn into &eElder Prismarine Coral&r on land."
+				""
+				"• Athame - Dropped by &cDeepling Priests&r, which are found in Sunken Cities or rarely fished up"
+				""
+				"• Crystallized Coral - Crafted using &eCrystallized Coral Fragments&r dropped by &cCorallsus&r, which are found in Sunken Cities or rarely fished up"
+				""
+				"• Neptunium Ingot - Found in the rarely fished up &eNeptune's Bounty&r or smelted down from &eNeptunium&r gear."
 			]
 			id: "5814782FCC7C13A8"
 			min_width: 600
@@ -1131,57 +2068,26 @@
 					type: "item"
 				}
 				{
-					count: 4
-					id: "6301BCD195B767F6"
+					id: "74998FEB73059122"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "epicsamurai:ruby"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "1DED1EBF63281DCA"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:luck_of_the_sea"
+								lvl: 3s
+							}]
 						}
-						id: "epicsamurai:jade"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "0B5CE02191438265"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "epicsamurai:onyx"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "2F520EA3B917B06F"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "epicsamurai:aquamarine"
 					}
 					type: "item"
 				}
 			]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "\"The Eye of Marine Life\""
+			subtitle: "\"The Eye of the Sea\""
 			tasks: [{
 				id: "43A4B8BE29535467"
 				item: {
@@ -1201,9 +2107,38 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained from &eNeptune's Bounty&r boxes, which are very rarely fished up. They can also be smelted down from Neptunium tools and armor, which are also found in &eNeptune's Bounty&r boxes."
+				""
+				"&eNeptunium Ingots&r craft the powerful Neptune gear, which have high affinity with water. They're locked to Stage One, however, so you need three of the Eyes to use them."
+			]
 			id: "0AF7A98BF910032D"
+			rewards: [
+				{
+					id: "31A9C5777F065B14"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:music_disc_ocean"
+					}
+					type: "item"
+				}
+				{
+					id: "625580CEF7B44DEC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:heart_of_the_sea"
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
-			subtitle: "- Neptunium Ingot: Exclusively fished up via Neptune's Bounty's, rare crates that contain one piece of Neptunium gear(which can be smelted into ingots)."
+			subtitle: "Found in Neptune Bounties, which can be gotten by fishing."
 			tasks: [{
 				id: "4BDB2A205A5DFB1F"
 				item: {
@@ -1215,15 +2150,32 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Exotic Eye "
+			title: "Neptunium Ingot (Exotic Eye)"
 			x: 26.0d
 			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item is crafted from 4 &eCrystallized Coral Fragments&r, which are dropped by the &cCorallsus&r mob. The &cCorallsus&r spawns in Sunken Cities or can be rarely fished up. This item is not consumed during crafting."
+				""
+				"The &eCrystallized Coral&r is also used to craft the &eAbyssal Sacrifice&r, used to summon the &4Leviathan&r."
+			]
 			id: "08E53DA654A84287"
+			rewards: [{
+				count: 8
+				id: "292A32C5CB8D34B4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "iter_rpg:water_fragment"
+				}
+				type: "item"
+			}]
 			shape: "square"
-			subtitle: "- Crystallized Coral: Kill 4 Corallassus, found in the sunken city(located by crafting an eye of abyss) or rarely fished up. "
+			subtitle: "Crafted from 4 Crystallized Coral Fragments, which are dropped by the Coralssus found in Sunken Cities"
 			tasks: [{
 				id: "7C1138C1C02EB2B8"
 				item: {
@@ -1235,15 +2187,46 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Exotic Eye "
+			title: "Crystallized Coral (Exotic Eye)"
 			x: 25.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained from Deep Ocean ravines. To harvest it, a Silk Touch tool is required. If broken without Silk Touch, it will drop &ePrismarine Shards&r instead."
+				""
+				"If &ePrismarine Coral&r is placed out of water, it will quickly dry out and become &eElder Prismarine Coral&r, which you also need for this Eye."
+			]
 			id: "1114BDA904D82874"
+			rewards: [
+				{
+					count: 2
+					id: "6C062AE8B5E03074"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "endermanoverhaul:bubble_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4A406F5E9E873971"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "upgrade_aquatic:prismarine_coral_block"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "- Prismarine Coral: Found in deep ocean ravines; elder is obtained from letting prismarine coral age. Watch out for thrashers when diving."
+			subtitle: "Harvested from Deep Ocean ravines using Silk Touch"
 			tasks: [{
 				count: 2L
 				id: "5ED158F1AE08C2C1"
@@ -1256,15 +2239,42 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Exotic Eye "
+			title: "Prismarine Coral (Exotic Eye)"
 			x: 23.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item can be obtained from Deep Ocean ravines. To harvest it, a Silk Touch tool is required. Alternatively, you can place &ePrismarine Coral&r on land to dry it out, which will turn it into &eElder Prismarine Coral&r."]
 			id: "6642E3970C246DA5"
+			rewards: [
+				{
+					count: 2
+					id: "54396270ED736453"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "endermanoverhaul:bubble_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "350A73342935F20E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "upgrade_aquatic:elder_prismarine_coral_block"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "- Elder Prismarine Coral: Found in deep ocean ravines; elder is obtained from letting prismarine coral age. Watch out for thrashers when diving."
+			subtitle: "Harvested from Deep Ocean ravines or dried from Prismarine Coral"
 			tasks: [{
 				id: "619D8D1A7219F5FC"
 				item: {
@@ -1276,15 +2286,32 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Exotic Eye "
+			title: "Elder Prismarine Coral (Exotic Eye)"
 			x: 26.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be found by killing the &cDeepling Priests&r found in Sunken Cities or rarely fished up. It can be crafted into the &eExotic Eye&r at any durability."
+				""
+				"The &eAthame&r is a swift and short-ranged melee weapon, and can also be used to craft the &eAbyssal Sacrifice&r, an item used to spawn the &4Leviathan&r."
+			]
 			id: "587D0708FA593FFF"
+			rewards: [{
+				count: 4
+				id: "212F5218B9DA257E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:ghast_tear"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Athame: Kill a deepling priest, found in the sunken city(located by crafting an eye of abyss) or rarely fished up. "
+			subtitle: "Kill a Deepling Priest, which can be found in Sunken Cities or fished up"
 			tasks: [{
 				id: "48A58B32BA0A1990"
 				item: {
@@ -1299,15 +2326,34 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Exotic Eye "
+			title: "Athame (Exotic Eye)"
 			x: 24.0d
 			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by cracking open &eAncient Geodes&r using a Tetra &eHammer&r. To do this, you need to place an &eAncient Geode&r in a &eWorkbench&r with the &eHammer&r in your inventory. You can enchant your &eHammer&r with Fortune in order to increase the odds of getting valuable materials!"
+				""
+				"&ePristine Emeralds&r can be socketed into various Tetra tools to increase durability and adds a 15% chance to deal 200% damage."
+			]
 			id: "6BAF1B2AF83C28C6"
+			rewards: [{
+				id: "1FBB2594D5A1D20C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "artifacts:villager_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "circle"
-			subtitle: "- Pristine Emerald: Crack open geodes in a workbench(right click a crafting table with a Tetra hammer)to get rougly a couple of either or pristine lapis per stack of geodes. Enchanting the hammer with fortune 3 helps."
+			subtitle: "Crack open Ancient Geodes using a Tetra Hammer"
 			tasks: [{
 				id: "1B6B473520073DFC"
 				item: {
@@ -1319,15 +2365,34 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Exotic Eye "
+			title: "Pristine Emerald (Exotic Eye)"
 			x: 25.75d
 			y: -2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by cracking open &eAncient Geodes&r using a Tetra &eHammer&r. To do this, you need to place an &eAncient Geode&r in a &eWorkbench&r with the &eHammer&r in your inventory. You can enchant your &eHammer&r with Fortune in order to increase the odds of getting valuable materials!"
+				""
+				"&ePristine Diamonds&r can be socketed into various Tetra tools to increase their damage, efficiency, and durability. They're very strong, so keep them in mind!"
+			]
 			id: "0C222DBD44808A2A"
+			rewards: [{
+				id: "3FC9AEBA329760DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "artifacts:digging_claws"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "circle"
-			subtitle: "- Pristine Diamond: Crack open geodes in a workbench(right click a crafting table with a Tetra hammer)to get rougly a couple of either or pristine lapis per stack of geodes.Enchanting the hammer with fortune 3 helps."
+			subtitle: "Crack open Ancient Geodes using a Tetra Hammer"
 			tasks: [{
 				id: "5FA956F78231C3DA"
 				item: {
@@ -1339,15 +2404,28 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Exotic Eye "
+			title: "Pristine Diamond (Exotic Eye)"
 			x: 24.25d
 			y: -2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item leads to nearby Sunken Cities when thrown, which can be helpful for getting the &eCrystallized Coral&r and the &eAthame&r."]
 			id: "4DFCB3072F9B3948"
+			rewards: [{
+				count: 3
+				id: "2915904509EFA876"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "cataclysm:abyss_eye"
+				}
+				type: "item"
+			}]
 			shape: "gear"
-			subtitle: "Leads you to the Sunken City"
+			subtitle: "Crafted from an Eye of Ender, 4 Obsidian, and 4 Crying Obsidian"
 			tasks: [{
 				id: "6C3D2C1A9EB160F5"
 				item: {
@@ -1359,38 +2437,126 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Exotic Eye "
+			title: "Eye of Abyss (Exotic Eye)"
 			x: 25.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["Fishing Rods can be crafted using a variety of basic Minecraft materials. They can be upgraded with reels, hooks, and can be affixed with bait. "]
 			id: "41F1656ADAA7E1FF"
-			shape: "gear"
-			subtitle: "Can be made from different materials and be upgraded"
-			tasks: [{
-				id: "38C75139AEB195D9"
+			rewards: [{
+				id: "7CA06C60B0B2B284"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "minecraft:fishing_rod"
+					id: "aquaculture:gold_hook"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Crafted from varying materials and upgradable"
+			tasks: [{
+				id: "5C676BDF53D42B62"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						display: {
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Fishing Rods\"}"
+						}
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:fishing_rod"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "aquaculture:iron_fishing_rod"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "aquaculture:gold_fishing_rod"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "aquaculture:diamond_fishing_rod"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "aquaculture:neptunium_fishing_rod"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "netherdepthsupgrade:lava_fishing_rod"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
-			title: "Used in Exotic Eye "
+			title: "Fishing Rods (Exotic Eye)"
 			x: 26.25d
 			y: 2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item is crafted using &eIron&r, a &eChest&r, and &eGreen Dye&r. It is used to apply upgrades to any &eFishing Rod&r from the Aquaculture mod, and can be used to store bait such as worms."]
 			id: "7D748DB50C8173EF"
+			rewards: [{
+				id: "4704A6ED8C0563CE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "aquaculture:worm_farm"
+				}
+				type: "item"
+			}]
 			shape: "gear"
-			subtitle: "Used to store bait and upgrade fishing rods"
+			subtitle: "Crafted using Iron, Green Dye, and a Chest"
 			tasks: [{
 				id: "2DDB0E6710677B0C"
 				item: {
@@ -1402,7 +2568,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Exotic Eye "
+			title: "Tackle Box (Exotic Eye)"
 			x: 27.0d
 			y: 1.5d
 		}
@@ -1419,29 +2585,21 @@
 				"7F6DE0D493399E44"
 			]
 			description: [
-				"! Need Ocean Monument Access"
-				"- Prismarine Shard/Crystals: Dropped from guardians/elder guardians, shattering sea lanterns, or fanning soul fire onto lapis."
-				"- Thrasher Tooth:Dropped from thrashers, highly dangerous sharks patrolling the deep ocean ravines."
-				"- Pearl: Obtained by giving a river otter clams that are dropped by drowned and rarely guardians, and can be fished up."
-				"- Conduit: Made from 8 nautilus shell (obtained by fishing, smelting embedded ammonite found in ocean ravines, and rarely from deeplings and killing nautilus) and 1 heart of the sea(found in buried treasure, which is located from maps found in shipwrecks). Kept upon crafting."
-				"- Elder eye: Dropped 50% of the time from elder guardians."
-				"Necromancer Trident: Dropped from Drowned necromancers, beefy mini-boss drowned that summon other drowned and sunken skeletons and shoot projectiles that go through water. Can also be crafted from the D. Necromancers other drops and Elder guardian Spines. Kept upon crafting."
+				"• Prismarine Shards / Crystals (x2) - Dropped by &cGuardians&r or from Bulk Haunting &eLapis Lazuli&r"
+				""
+				"• Thrasher Tooth - Dropped by the &cThrashers&r found in underwater ravines"
+				""
+				"• Necromancer Trident - Dropped by &cDrowned Necromancers&r or crafted from its other drops"
+				""
+				"• Elder Eye - Dropped by &4Elder Guardians&r 50% of the time"
+				""
+				"• Conduit - Crafted from 8 &eNautilus Shells&r and a &eHeart of the Sea&r"
+				""
+				"• Pearl / Tempest Pearl - Given by &aOtters&r in exchange for &cClams&r or dropped by the &4Insatiable&r, respectively"
 			]
 			id: "39C3CC09EB7DD7A7"
 			min_width: 600
 			rewards: [
-				{
-					count: 4
-					id: "4D284509DFAEDCE8"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "aquamirae:abyssal_amethyst"
-					}
-					type: "item"
-				}
 				{
 					id: "23454232D7CDCB0E"
 					type: "xp"
@@ -1455,6 +2613,20 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "cataclysm:abyssal_sacrifice"
+					}
+					type: "item"
+				}
+				{
+					id: "1C63C3647C1993DF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "dungeons_gear:eye_of_the_guardian"
+						tag: {
+							Damage: 0
+						}
 					}
 					type: "item"
 				}
@@ -1481,9 +2653,26 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by killing the &cGuardians&r found in Ocean Monuments or by Bulk Haunting &eLapis Lazuli&r. Bulk Haunting can be done by using an &eEncased Fan&r to blow Soul Fire onto an object. For more information, use the Ponder mechanic on the &eEncased Fan&r."
+				""
+				"&ePrismarine Crystals&r can also be crushed to make &eGlowstone&r and &ePrismarine Shards&r."
+			]
 			id: "2C33A7672B75C65E"
+			rewards: [{
+				count: 16
+				id: "40A38DF329E6F07F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:sea_lantern"
+				}
+				type: "item"
+			}]
 			shape: "square"
-			subtitle: "- Prismarine Crystals: Dropped from guardians/elder guardians, shattering sea lanterns, or fanning soul fire onto lapis."
+			subtitle: "Dropped by Guardians or by fanning Soul Fire onto Lapis"
 			tasks: [{
 				count: 2L
 				id: "7AD576B4CE489EB4"
@@ -1496,15 +2685,58 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Guardian Eye"
+			title: "Prismarine Crystal (Guardian Eye)"
 			x: 28.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by killing the &cGuardians&r found in Ocean Monuments or by Bulk Haunting &eLapis Lazuli&r. Bulk Haunting can be done by using an &eEncased Fan&r to blow Soul Fire onto an object. For more information, use the Ponder mechanic on the &eEncased Fan&r."
+				""
+				"&ePrismarine Crystals&r can also be crushed to craft &ePrismarine Rods&r, which are used in crafting &eTridents&r."
+			]
 			id: "71F7E5A91A0BDB9C"
+			rewards: [
+				{
+					count: 32
+					id: "02F31766F1C97513"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:prismarine"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "54AE73F61E13C45C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:prismarine_bricks"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "053CDA11233E3379"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:dark_prismarine"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			subtitle: "- Prismarine Shards: Dropped from guardians/elder guardians or fanning soul fire onto lapis."
+			subtitle: "Dropped by Guardians or by fanning Soul Fire onto Lapis"
 			tasks: [{
 				count: 2L
 				id: "3579D0254BC3DE89"
@@ -1517,15 +2749,34 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Guardian Eye"
+			title: "Prismarine Shard (Guardian Eye)"
 			x: 31.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by killing &cDrowned Necromancers&r, which are powerful mini-boss enemies that can resurrect the dead to fight you. It can also be obtained by crafting &eElder Guardian Spines&r with the &cDrowned Necromancer's&r other drops. It can be crafted into the &eGuardian Eye&r any durability."
+				""
+				"The &eNecromancer Trident&r can also be equipped in your Artifact slot, and will call down eight tridents when activated."
+			]
 			id: "41AA602D33C666E8"
+			rewards: [{
+				id: "254314906267A2DF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "weavers_cosmetics:prismarine_gear_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "square"
-			subtitle: "- Necromancer Trident: Dropped from Drowned necromancers, beefy mini-boss drowned that summon other drowned and sunken skeletons and shoot projectiles that go through water. Can also be crafted from the D. Necromancers other drops and Elder guardian Spines. Kept upon crafting."
+			subtitle: "Dropped by Drowned Necromancers"
 			tasks: [{
 				id: "30A2C28B5FED2B50"
 				item: {
@@ -1540,15 +2791,49 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Guardian Eye"
+			title: "Necromancer Trident (Guardian Eye)"
 			x: 30.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item can be obtained by killing &4Elder Guardians&r, which are found in Ocean Monuments and have a 50% chance of dropping it. When placed, it will emit a redstone signal if an entity is within 15 blocks of its \"eyesight.\" This item is not consumed during crafting."]
 			id: "7036CF3205F26C0E"
+			rewards: [
+				{
+					id: "6C0CCA32E6E2DBA9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AF3008C2085FBA4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:impaling"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Elder eye: Dropped 50% of the time from elder guardians."
+			subtitle: "Dropped 50% of the time by Elder Guardians"
 			tasks: [{
 				id: "461003CEFA2B4C78"
 				item: {
@@ -1560,15 +2845,32 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Guardian Eye"
+			title: "Elder Eye (Guardian Eye)"
 			x: 29.5d
 			y: 2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by killing &cThrashers&r, powerful enemies found in Ocean ravines. They are blind, using sonar to locate their prey, before grabbing them and tearing them to ribbons with their great teeth. A &eTrident&r may be useful in dispatching these at a distance."
+				""
+				"&eThrasher Teeth&r can be used to make decorative blocks or &eTridents&r."
+			]
 			id: "126FA73B40C1CCC3"
+			rewards: [{
+				count: 3
+				id: "59696F253E1AE367"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersdelight:fish_stew"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Thrasher Tooth: Dropped from thrashers, highly dangerous sharks patrolling the deep ocean ravines."
+			subtitle: "Dropped by Thrashers"
 			tasks: [{
 				id: "592DA416F28AC9BC"
 				item: {
@@ -1580,15 +2882,70 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Guardian Eye"
+			title: "Thrasher Tooth (Guardian Eye)"
 			x: 28.5d
 			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by crafting 8 &eNautilus Shells&r with a &eHeart of the Sea&r. &eNautilus Shells&r are dropped by underwater enemies such as &cDrowned&r or from &eElder Guardian Treasure Bags&r. Hearts of the Sea are found as Buried Treasure loot, which you can locate using Buried Treasure Maps obtained from Shipwrecks. Alternatively, you can craft them using a &eHeart of Diamond&r and &eOcean Ingots&r."
+				""
+				"A &eConduit&r can be activated by surrounding it with a 3x3x3 area of water and a hollow 5x5x5 \"shell\" of &ePrismarine, Dark Prismarine, Prismarine Bricks, or Sea Lanterns&r. When activated, it will apply the &2Conduit Power&r effect, which increases underwater visibility and grants water breathing."
+			]
 			id: "60D98F7AE40AF9DC"
+			rewards: [
+				{
+					id: "6FE1453637B4CF0D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							CustomPotionColor: 370431
+							CustomPotionEffects: [
+								{
+									Duration: 9600
+									Id: 13
+								}
+								{
+									Duration: 9600
+									Id: 16
+								}
+								{
+									Duration: 9600
+									Id: 29
+								}
+							]
+							display: {
+								Lore: ["{\"text\":\"§7§oSeems redundant...\"}"]
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Potion of Deep Sea Diving\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07AD6966D864D817"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "upgrade_aquatic:nautilus_bucket"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Jimmy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Conduit: Made from 8 nautilus shell (obtained by fishing, smelting embedded ammonite found in ocean ravines, and rarely from deeplings and killing nautilus) and 1 heart of the sea(found in buried treasure, which is located from maps found in shipwrecks). Kept upon crafting."
+			subtitle: "Crafted from 8 Nautilus Shells and a Heart of the Sea"
 			tasks: [{
 				id: "3D184F24CC7D9AB9"
 				item: {
@@ -1600,7 +2957,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Guardian Eye"
+			title: "Conduit (Guardian Eye)"
 			x: 30.5d
 			y: 2.25d
 		}
@@ -1609,28 +2966,56 @@
 				"2243BA6B2363797E"
 				"112185B930D06A2A"
 			]
+			description: ["The &eGuardian Eye&r accepts two kinds of pearls, and you can choose whichever pearl seems easiest to you. The regular &ePearl&r is obtained by giving &eClams&r to &aOtters&r, however, you may need a LOT of &eClams&r to do so. The Tempest Pearl is obtained by killing the &4Insatiable&r, a boss that spawns on Beach biomes at night."]
 			id: "6308B5B267BE4533"
-			shape: "circle"
-			subtitle: "- Pearl: Obtained by giving a river otter clams that are dropped by drowned and rarely guardians, and can be fished up."
-			tasks: [{
-				id: "674C0846FFECD464"
+			rewards: [{
+				id: "50B196016F9818D7"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "crittersandcompanions:pearl"
+					id: "crittersandcompanions:pearl_necklace_1"
 				}
 				type: "item"
 			}]
-			title: "Used in Guardian Eye"
+			shape: "circle"
+			subtitle: "Obtained by giving Clams to an Otter or by killing the Insatiable"
+			tasks: [
+				{
+					id: "674C0846FFECD464"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "crittersandcompanions:pearl"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24F6BF6EB05E2E47"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iter_rpg:pearl"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Pearl (Guardian Eye)"
 			x: 31.5d
 			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["If you're having difficulty with finding an Ocean Monument, you may want to trade with a Cartogropher to get an &eOcean Monument Explorer Map&r, which will lead you to one."]
 			id: "737BA8B0A48C4C76"
-			subtitle: "Roughly 20 Emeralds: Trade with a cartographer for ocean explorer maps."
+			subtitle: "Traded from Villagers"
 			tasks: [{
 				count: 20L
 				id: "1696333AE5B27150"
@@ -1643,13 +3028,25 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Guardian Eye"
+			title: "Ocean Monument Explorer Map (Guardian Eye)"
 			x: 30.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item is dropped by &cDrowned&r, and can be used to \"trade\" with &aOtters&r, who have a small chance of returning your gift with a &ePearl&r."]
 			id: "112185B930D06A2A"
+			rewards: [{
+				id: "068741AB3AD9E49B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "simplehats:fishonhead"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Drops from Drowned"
 			tasks: [{
@@ -1663,15 +3060,30 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Guardian Eye"
+			title: "Clam (Guardian Eye)"
 			x: 32.0d
 			y: 2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This block can be found as part of Lunar Deposits underground, or as part of certain structures such as Ocean Ruins or Ocean Monuments. It's a very nice decorative block."]
 			id: "1E528552B5E01755"
+			rewards: [{
+				id: "752A740806579F59"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "weavers_cosmetics:prismarine_gear_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "pentagon"
-			subtitle: "Found rearly under ground or as part of structures"
+			subtitle: "Found rarely underground or as part of structures"
 			tasks: [{
 				id: "4CEDDC9422028D53"
 				item: {
@@ -1683,7 +3095,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Guardian Eye"
+			title: "Sea Lantern (Guardian Eye)"
 			x: 28.5d
 			y: -2.5d
 		}
@@ -1700,13 +3112,19 @@
 				"7F6DE0D493399E44"
 			]
 			description: [
-				"- Glow Berry Custard: A Nectar Cooked in a cooking pot from glow berry, milk, sugar and egg."
-				"- Creeper Shard: Drops from the mutant creeper that rarely spawns at night, or can be summoned by applying chemical x to a normal creeper. Not used during crafting."
-				"- Thief's Hood: Rare item in dungeon chests or dropped from common mobs that spawn wearing it."
-				"- Bottle of Exp x2: Found rare-ish in shipwreck and dungeon chests, or from trading with a cleric."
-				"- Slimeball: Made from cooked jellyfish, dough(milled wheat+water)+lime dye, dropped from slimes, or found as blocks in the toxic heap nether biome."
-				"- Potted flutter: Obtained by taming a flutter(common lush caves mob) with many different flowers, and right clicking them with a pot."
-				"Banana:break jungle leaves."
+				"• Glow Berry Custard - Made in a &eCooking Pot&r using &ean Egg, a Glow Berry, Milk, and Sugar&r"
+				""
+				"• Creeper Shard - Dropped by &4Mutant Creepers&r"
+				""
+				"• Thief's Hood - Rarely found in dungeon chests or dropped by &cSkeletons&r wearing the item"
+				""
+				"• Bottle o' Enchanting (x2) - Found as loot or traded from &aClerics&r"
+				""
+				"• Slimeball - Dropped by &cSlimes&r or crafted from &eDough&r and &eGreen Dye&r"
+				""
+				"• Potted Flutter - Pick up a tamed &aFlutter&r using a &ePot&r"
+				""
+				"• Banana - Break &eJungle Leaves&r"
 			]
 			id: "79E89D7E6EEDB01E"
 			min_width: 600
@@ -1739,6 +3157,23 @@
 					}
 					type: "item"
 				}
+				{
+					id: "673E4F625A772805"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "swift_sneak"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 2.5d
@@ -1762,9 +3197,26 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by breaking &eJungle Leaves&r. "
+				""
+				"The Banan is also used in taming &9Gorillas&r, which can be done by dropping the item near them and letting them eat it."
+			]
 			id: "6F30EEE77C0CE5B4"
+			rewards: [{
+				count: 8
+				id: "439AFF5A119DFB53"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:banana_peel"
+				}
+				type: "item"
+			}]
 			shape: "pentagon"
-			subtitle: "- Banana: break jungle leaves."
+			subtitle: "Break Jungle Leaves"
 			tasks: [{
 				id: "033D459762CDBB44"
 				item: {
@@ -1776,14 +3228,26 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Rogue Eye "
+			title: "Banana (Rogue Eye)"
 			x: 36.0d
 			y: 1.75d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item can be obtained by right clicking a tamed &aFlutter&r using a &ePot&r, and then picking it up by shift-right-clicking it. &aFlutters&r spawn in Lush Caves, and can be tamed when given 4-6 different kinds of &eflowers&r. For more information, look for its entry in the &eAnimal Dictionary&r."]
 			id: "21BFDF7FE1D46363"
-			subtitle: "- Potted flutter: Obtained by taming a flutter(common lush caves mob) with many different flowers, and right clicking them with a pot."
+			rewards: [{
+				id: "7C0388C8D52E4069"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "simplehats:floweronhead"
+				}
+				type: "item"
+			}]
+			subtitle: "Pick up a tamed Flutter using a Pot"
 			tasks: [{
 				id: "4981E4AD677BAB04"
 				item: {
@@ -1795,15 +3259,48 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Rogue Eye "
+			title: "Potted Flutter (Rogue Eye)"
 			x: 33.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained a variety of ways, such as killing &cSlimes&r, cooking &eJellyfish&r, or by crafting &eDough&r with &eLime Dye&r."
+				""
+				"It is used in a variety of redstone-related blocks, but is also used in crafting the &eStrange Fish Finder&r, which seeks out the rarest fish in the game, the &aDevil's Hole Pupfish&r."
+			]
 			id: "34E35A93B0B23394"
+			rewards: [
+				{
+					id: "02C5B9AA3355DFCB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "enlightened_end:bouncy_potion"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7C0FEDB04D377CD1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:sticky_piston"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Slimeball: Made from cooked jellyfish, dough(milled wheat+water)+lime dye, dropped from slimes, or found as blocks in the toxic heap nether biome."
+			subtitle: "Dropped by Slimes or crafted from Dough and Green Dye"
 			tasks: [{
 				id: "377DED9CFF3A6843"
 				item: {
@@ -1815,15 +3312,63 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Rogue Eye "
+			title: "Slimeball (Rogue Eye)"
 			x: 34.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item is dropped by the &4Mutant Creeper&r (see entry in Combat Specialist), which spawns rarely at night or can be \"created\" by splashing &eChemical X&r on a regular &cCreeper&r. It can be crafted into the &eRogue Eye&r at any durability and is not consumed during crafting. You have a 25% chance of getting another &eCreeper Shard&r by punching the dropped &aCreeper Egg&r, or a 100% chance if the &4Mutant Creeper&r was charged."
+				""
+				"When used, it will create a powerful explosion that does not damage the user, consuming all of its durability."
+			]
 			id: "1F1D34BAFE569BF9"
+			rewards: [
+				{
+					count: 16
+					id: "656A26C9D274CA58"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tnt"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "75C53B620EB3FB0D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "rottencreatures:tnt_barrel"
+					}
+					type: "item"
+				}
+				{
+					id: "1B69E62A71E065FF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:blast_protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Creeper Shard: Kill a mutant creeper and punch its egg. The mutant creeper rarely spawns at night, or can be summoned by applying chemical x to a normal creeper. Not used during crafting."
+			subtitle: "Dropped by Mutant Creepers"
 			tasks: [{
 				id: "18C6C06DB2D13BCA"
 				item: {
@@ -1838,15 +3383,34 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Rogue Eye "
+			title: "Creeper Shard (Rogue Eye)"
 			x: 35.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be obtained by killing &cSkeletons&r that spawn with it on, or rarely through dungeon chests. It can be crafted into the &eRogue Eye&r at any durability."
+				""
+				"When worn, it decreases the range where mobs detect your presence. It can be upgraded by killing mobs, which decreases the range even further."
+			]
 			id: "7F6270FC13031FA8"
+			rewards: [{
+				id: "3C9AADD82444D7AC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "artifacts:scarf_of_invisibility"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "pentagon"
-			subtitle: "- Thief's Hood: Rare item in dungeon chests or dropped from common mobs that spawn wearing it."
+			subtitle: "Rarely found in dungeon chests or dropped by Skeletons wearing the item"
 			tasks: [{
 				id: "01CCF3984FCBDB07"
 				item: {
@@ -1861,15 +3425,53 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Rogue Eye "
+			title: "Thief's Hood (Rogue Eye)"
 			x: 34.0d
 			y: 1.75d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: ["This item can be obtained by placing a &eGlow Berry, Sugar, an Egg, and Milk&r (bucket or bottle) into a &eCooking Pot&r, which needs to be heated with a &eCampfire&r directly under it. Once the &eCooking Pot&r is finished, you will need to place a &eBottle&r in the Bowl slot to get the &eGlow Berry Custard&r."]
 			id: "6994955B19C7A406"
+			rewards: [
+				{
+					count: 2
+					id: "0BD2C67D27B02F82"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:grilled_glowdine"
+					}
+					type: "item"
+				}
+				{
+					id: "1EDA13AF77ED1A56"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "brewinandchewin:glittering_grenadine"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "268F63E5771DFB12"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "delightful:glow_jelly_bottle"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Glow Berry Custard: A Nectar Cooked in a cooking pot from glow berry, milk, sugar and egg."
+			subtitle: "Made in a Cooking Pot using an Egg, a Glow Berry, Milk, and Sugar"
 			tasks: [{
 				id: "730448581D3E544B"
 				item: {
@@ -1881,15 +3483,34 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Rogue Eye "
+			title: "Glow Berry Custard (Rogue Eye)"
 			x: 35.0d
 			y: 2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be found as loot in various dungeon chests or in Shipwrecks, and it can also be traded by &aClerics&r in exchange for &eEmeralds&r. "
+				""
+				"When splashed, it'll drop experience. It is also used in the powerful &eExperience Pump Upgrade&r once twelve eyes have been collected, which can siphon fluid experience from your &eBackpack&r to repair Mending items."
+			]
 			id: "24DA109F627782F3"
+			rewards: [{
+				id: "6289FCE9BF5F9FF6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "artifacts:golden_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "circle"
-			subtitle: "- Bottle o' Enchanting: Found rare-ish in shipwreck and dungeon chests, or from trading with a cleric."
+			subtitle: "Found as loot or traded from Clerics"
 			tasks: [{
 				count: 2L
 				id: "47135D7AB5EBFD6C"
@@ -1902,13 +3523,14 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Rogue Eye "
+			title: "Bottle o' Enchanting (Rogue Eye)"
 			x: 36.5d
 			y: -1.5d
 		}
 		{
+			description: ["&eGlowstone Dust&r can be found or crafted a variety of ways. They spawn in clusters in the Nether, crushed from &ePrismarine Crystals&r, dropped by &cWitches&r, and traded from &aCleric&r villagers. They can also be crafted using \"glow items\" (&eGlow Ink&r, &eGlow Berries&r, or &eGlow Lichen&r), &eRedstone&r, and &eAmetrine Shards&r."]
 			id: "652943FA575B6B67"
-			subtitle: "Crafted from glow items(ink, berries, lichen), redstone, and ametrine shards; or dropped from witches or traded with clerics. "
+			subtitle: "Found in Nether, crafted, and more..."
 			tasks: [{
 				count: 2L
 				id: "7A387336919A86ED"
@@ -1926,7 +3548,7 @@
 		}
 		{
 			id: "7432AC9814131290"
-			subtitle: "Gotten from a Wraith that spawns in Plains, Forests, and Caves"
+			subtitle: "Drops from Wraiths, which spawn in Plains, Forests, and Caves"
 			tasks: [{
 				id: "78F4DE9C7A94C3DC"
 				item: {
@@ -1941,6 +3563,76 @@
 			x: -2.25d
 			y: -0.5d
 		}
+		{
+			dependencies: ["2243BA6B2363797E"]
+			description: ["This item can be obtained by breaking the &eWild Tea Bushes&r found in Swamp biomes. When &eTea Seeds&r are planted, they will grow into &eTea Bushes&r. The longer you wait before breaking the &eTea Bushes&r, the longer they will oxidize, turning from green to yellow to black and yielding their corrosponding &eTea Leaves&r."]
+			id: "674B7E1A271FC2FE"
+			rewards: [{
+				count: 8
+				id: "4AFEA7B4AD602F80"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersrespite:green_tea_cookie"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Break Wild Tea Bushes in Swamp biomes"
+			tasks: [{
+				id: "7BEC29562A3BB2F0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersrespite:tea_seeds"
+				}
+				type: "item"
+			}]
+			title: "Tea Seeds (Black Eye)"
+			x: 12.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2243BA6B2363797E"]
+			description: [
+				"This item can be crafted from 4 &eBrass Sheets&r and an &eAndesite Alloy&r. To make &eBrass Sheets&r, you'll need to use a &eMechanical Press&r on &eBrass Ingots&r. For more information, use the Ponder mechanic on the &eMechanical Press&r."
+				""
+				"The &eBrass Hand&r is used to make &eDeployers&r, a powerful tool for automation, and to make the &eExtendo-Grip&r, which significantly increases your reach and knockback when held in the offhand."
+			]
+			id: "79F92F0F00D2982A"
+			rewards: [{
+				count: 2
+				id: "119E36BF08B6ECAF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:brass_funnel"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Crafted using 4 Brass Sheets and an Andesite Alloy"
+			tasks: [{
+				id: "39A4FADA0119CB54"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:brass_hand"
+				}
+				type: "item"
+			}]
+			title: "Brass Hand (Evil Eye)"
+			x: 20.0d
+			y: 2.0d
+		}
 	]
-	title: "Easy Eyes"
+	title: "&aEasy Eyes"
 }

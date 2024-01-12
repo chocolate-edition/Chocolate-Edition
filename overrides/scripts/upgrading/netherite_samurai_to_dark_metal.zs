@@ -1,0 +1,4 @@
+smithing.addRecipe("samurai_helmet_to_dark_metal", <item:born_in_chaos_v1:dark_metal_armor_helmet>, <item:epicsamurai:netherite_samurai_helmet>, <item:born_in_chaos_v1:armor_plate_from_dark_metal>);
+smithing.addRecipe("samurai_chestplate_to_dark_metal", <item:born_in_chaos_v1:dark_metal_armor_chestplate>, <item:epicsamurai:netherite_samurai_chestplate>, <item:born_in_chaos_v1:armor_plate_from_dark_metal>);
+smithing.addRecipe("samurai_leggings_to_dark_metal", <item:born_in_chaos_v1:dark_metal_armor_leggings>, <item:epicsamurai:netherite_samurai_leggings>, <item:born_in_chaos_v1:armor_plate_from_dark_metal>);
+smithing.addRecipe("samurai_boots_to_dark_metal", <item:born_in_chaos_v1:dark_metal_armor_boots>, <item:epicsamurai:netherite_samurai_boots>, <item:born_in_chaos_v1:armor_plate_from_dark_metal>);
