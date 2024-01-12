@@ -2124,13 +2124,32 @@
 			y: 7.0d
 		}
 		{
-			id: "365FBE1832EFF3E0"
-			tasks: [{
-				id: "4A50826D0E5C30D3"
-				type: "custom"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "ftbquests:book"
+			}
+			id: "2EF26737C23ABDE2"
+			rewards: [{
+				id: "502851144930D88C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "ftbquests:book"
+				}
+				type: "item"
 			}]
-			x: -1.75d
-			y: 5.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "4B8152EF49B91B7B"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: -1.5d
 		}
 	]
 	title: "Flags"

@@ -16,6 +16,7 @@
 	quests: [
 		{
 			dependencies: ["55CC8B48AC4C34E4"]
+			disable_toast: true
 			icon: "minecraft:ender_eye"
 			id: "2E05AE019E817141"
 			subtitle: "Standard grade, tride and true pets [CLICK CHECKMARK TO EXPAND]"
@@ -24,6 +25,7 @@
 		}
 		{
 			dependencies: ["2E05AE019E817141"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "endrem:lost_eye"
@@ -38,6 +40,7 @@
 		}
 		{
 			dependencies: ["672BAB96369ACA26"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "endrem:evil_eye"
@@ -52,6 +55,7 @@
 		}
 		{
 			dependencies: ["7E72695DAEA2D180"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "endrem:cold_eye"
@@ -66,6 +70,7 @@
 		}
 		{
 			dependencies: ["1FB182033C4CDCEB"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "endrem:cursed_eye"
@@ -80,6 +85,7 @@
 		}
 		{
 			dependencies: ["7FA0B5DCA67E7021"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "endrem:nether_eye"
@@ -256,13 +262,7 @@
 			y: 3.0d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "cnb:end_whale_spawn_egg"
-			}
+			icon: "cnb:end_whale_spawn_egg"
 			id: "3932DB6B76D3CABA"
 			subtitle: " These giants roam the void of the end, and can be tamed and ridden with chorus fruit and a saddle. But tamed whales won't follow you unless you're holding food. "
 			tasks: [{
@@ -421,13 +421,7 @@
 		}
 		{
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "alexsmobs:shrimp_fried_rice"
-			}
+			icon: "alexsmobs:shrimp_fried_rice"
 			id: "3CE9DB27082C2A27"
 			tasks: [{
 				id: "7E150E3545148DB6"
@@ -1124,6 +1118,7 @@
 			y: 6.0d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:writable_book"
 			id: "11CD61A0188996D3"
 			shape: "circle"
@@ -1134,6 +1129,7 @@
 		}
 		{
 			dependencies: ["11CD61A0188996D3"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1294,7 +1290,13 @@
 		}
 		{
 			dependencies: ["6E0845CDD0BFB1EA"]
-			icon: "witherstormmod:command_block_book"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "witherstormmod:command_block_book"
+			}
 			id: "699B043D4A972282"
 			subtitle: "Obtained from Symbiote. Crafts Formidibomb. Weapons made from it are unbreakable."
 			tasks: [{
@@ -1959,7 +1961,13 @@
 		}
 		{
 			dependencies: ["6C927D2F952ED4E7"]
-			icon: "minecraft:nether_star"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:nether_star"
+			}
 			id: "748F5D89206FB32D"
 			tasks: [{
 				id: "49BAF737532BC0E8"
@@ -2007,13 +2015,7 @@
 		}
 		{
 			dependencies: ["250EA74C9879C5C7"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "galosphere:allurite_shard"
-			}
+			icon: "galosphere:allurite_shard"
 			id: "747DB708A7A444BF"
 			title: "Crystals"
 			x: -25.0d
@@ -2045,6 +2047,7 @@
 			y: -1.5d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:writable_book"
 			id: "3D484654DC86D97B"
 			shape: "circle"
@@ -2252,6 +2255,7 @@
 		}
 		{
 			dependencies: ["3D484654DC86D97B"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -3301,6 +3305,7 @@
 			y: 28.0d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:writable_book"
 			id: "1909360B80FF401D"
 			shape: "circle"
@@ -3769,6 +3774,7 @@
 		}
 		{
 			dependencies: ["1909360B80FF401D"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -4916,13 +4922,7 @@
 		{
 			dependencies: ["026E3B9C89DB1339"]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "cataclysm:enderite_block"
-			}
+			icon: "cataclysm:enderite_block"
 			id: "0079E8EEDC6ABBEE"
 			subtitle: "Found on Large End Islands. Home to the Ender Guardian"
 			tasks: [{
@@ -4936,13 +4936,7 @@
 		{
 			dependencies: ["026E3B9C89DB1339"]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "cataclysm:ignitium_block"
-			}
+			icon: "cataclysm:ignitium_block"
 			id: "3324033D7A91F61C"
 			subtitle: "Found in the Nether Wastes. Home to Ignis"
 			tasks: [{
@@ -4956,13 +4950,7 @@
 		{
 			dependencies: ["026E3B9C89DB1339"]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "cataclysm:witherite_block"
-			}
+			icon: "cataclysm:witherite_block"
 			id: "448F05DD29C73D94"
 			subtitle: "Deep Underground. Home to the a Mechanized Wither known as the Harbinger."
 			tasks: [{
@@ -4993,6 +4981,7 @@
 			y: 16.75d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:writable_book"
 			id: "7671305735629AF6"
 			size: 2.0d
@@ -5842,7 +5831,13 @@
 				"\"\""
 				"\"&5A great force lays dormant...&r\""
 			]
-			icon: "witherstormmod:withered_nether_star"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "witherstormmod:withered_nether_star"
+			}
 			id: "6A1E39127C70BD81"
 			size: 1.5d
 			subtitle: "What lies beyond the End..."
@@ -5906,13 +5901,7 @@
 		{
 			dependencies: ["6DF3C5B8D11BC5B5"]
 			description: ["\"Ender Golem | &c375 ❤&r | &712 ⛨\""]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:crying_obsidian"
-			}
+			icon: "minecraft:crying_obsidian"
 			id: "1AD5296163EDE46B"
 			tasks: [{
 				id: "095A0171B9BE258A"
@@ -6064,6 +6053,7 @@
 		}
 		{
 			dependencies: ["630F906261C5F005"]
+			disable_toast: true
 			icon: "minecraft:ender_eye"
 			id: "4204E8917AA2270C"
 			title: "Tier 0"
@@ -6072,6 +6062,7 @@
 		}
 		{
 			dependencies: ["4204E8917AA2270C"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "endrem:lost_eye"
@@ -6086,6 +6077,7 @@
 		}
 		{
 			dependencies: ["4CAC4CAEC17BD4C9"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "endrem:evil_eye"
@@ -6100,6 +6092,7 @@
 		}
 		{
 			dependencies: ["0E0A976D0569982B"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "endrem:cold_eye"
@@ -6114,6 +6107,7 @@
 		}
 		{
 			dependencies: ["4E8F67E3C41C1A53"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "endrem:cursed_eye"
@@ -6128,6 +6122,7 @@
 		}
 		{
 			dependencies: ["6DF3C5B8D11BC5B5"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "endrem:nether_eye"
@@ -6156,6 +6151,7 @@
 		}
 		{
 			dependencies: ["7671305735629AF6"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -6256,13 +6252,7 @@
 		{
 			dependencies: ["4204E8917AA2270C"]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "born_in_chaos_v1:shattered_skull"
-			}
+			icon: "born_in_chaos_v1:shattered_skull"
 			id: "018A162A2B3A17E7"
 			subtitle: "Night"
 			tasks: [{
@@ -6336,13 +6326,7 @@
 		{
 			dependencies: ["4CAC4CAEC17BD4C9"]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "cataclysm:lionfish"
-			}
+			icon: "cataclysm:lionfish"
 			id: "294794B00B41BC5D"
 			subtitle: "Ocean"
 			tasks: [{
@@ -6612,13 +6596,7 @@
 		{
 			dependencies: ["4204E8917AA2270C"]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "cataclysm:crystallized_coral"
-			}
+			icon: "cataclysm:crystallized_coral"
 			id: "5060286BD5E54EA4"
 			subtitle: "Sunken City, Fishing"
 			tasks: [{
