@@ -88,8 +88,8 @@ CTEventManager.register<GameStageAdded>((event) => {
 			<item:ftbquests:book>.withTag({display: {Lore: ["{\"text\":\"Quests can also be opened with a button in your inventory (top left)\"}", "{\"text\":\"You can also bind Quests to a keybind in Controls\"}"], Name: ""}})
 		);
 
-    }
-	
+    } 
+	 
     // separated loop from eye count bc i need the count to be completed BEFORE the command starts spitting out your eye count
     for eye in eyesArray {
 		if(event.stage == eye)

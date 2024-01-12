@@ -15,6 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "supplementaries:wrench"
@@ -214,6 +215,9 @@
 			dependencies: ["1D2B8979C481D22E"]
 			icon: {
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -237,6 +241,9 @@
 			dependencies: ["1D2B8979C481D22E"]
 			icon: {
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -401,6 +408,7 @@
 			y: 14.75d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "supplementaries:wrench"
@@ -467,6 +475,9 @@
 			dependencies: ["73B9689F03906272"]
 			icon: {
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
 				id: "waystones:warp_stone"
 				tag: {
 					Damage: 0
@@ -536,6 +547,7 @@
 			y: 9.75d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "supplementaries:wrench"
@@ -844,6 +856,7 @@
 		}
 		{
 			dependencies: ["7CFCF3BA7E2B325C"]
+			disable_toast: true
 			icon: "supplementaries:key"
 			id: "2A6613CD148A7A46"
 			shape: "hexagon"
@@ -874,6 +887,7 @@
 		}
 		{
 			dependencies: ["7CFCF3BA7E2B325C"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "supplementaries:wrench"
@@ -941,6 +955,9 @@
 			dependencies: ["5DCD96A2FACE5201"]
 			icon: {
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
 				id: "minecraft:splash_potion"
 				tag: {
 					Potion: "mutantmonsters:chemical_x"
@@ -959,7 +976,13 @@
 		}
 		{
 			dependencies: ["5DCD96A2FACE5201"]
-			icon: "mutantmore:formula_y"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "mutantmore:formula_y"
+			}
 			id: "20DBE651687F0D1C"
 			shape: "gear"
 			tasks: [{
@@ -1070,6 +1093,7 @@
 			y: 6.6d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "supplementaries:wrench"
