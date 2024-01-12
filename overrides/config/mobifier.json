@@ -539,7 +539,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*2",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -2810,12 +2810,7 @@
         }
       }
     ],
-    "dungeons_gear:buzzy_nest": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
+
     "ecologics:coconut_crab": [
       {
         "conditions_to_apply": [],
@@ -3591,12 +3586,7 @@
         }
       }
     ],
-    "dungeons_gear:soul_wizard_orb": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
+
     "infernalexp:shroomloin": [
       {
         "conditions_to_apply": [],
@@ -3935,7 +3925,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.5",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -4304,7 +4294,7 @@
           "minecraft:generic.armor": "*1",
           "minecraft:generic.flying_speed": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.5",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -4875,7 +4865,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*2",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -8794,7 +8784,6 @@
         "attribute_modifier": {
           "dungeons_libraries:soul_cap": "*2",
           "obscure_api:resilience": "*2",
-          "dungeons_gear:attack_reach": "*2",
           "minecraft:horse.jump_strength": "*2",
           "minecraft:generic.max_health": "*2",
           "minecraft:generic.luck": "*2",
@@ -8807,7 +8796,6 @@
           "obscure_api:healing_power": "*2",
           "obscure_api:parry": "*2",
           "obscure_api:regeneration": "*2",
-          "dungeons_gear:roll_limit": "*2",
           "forge:reach_distance": "*2",
           "combatroll:recharge": "*2",
           "forge:step_height_addition": "*2",
@@ -8847,8 +8835,7 @@
           "tetra:draw_strength": "*2",
           "minecraft:generic.armor_toughness": "*2",
           "environmental:stealth": "*2",
-          "paraglider:max_stamina": "*2",
-          "dungeons_gear:roll_cooldown": "*2"
+          "paraglider:max_stamina": "*2"
         }
       }
     ],
@@ -9398,7 +9385,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.5",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -9780,7 +9767,6 @@
         "attribute_modifier": {
           "dungeons_libraries:soul_cap": "*1",
           "obscure_api:magic_resistance": "*1",
-          "dungeons_gear:attack_reach": "*1",
           "obscure_api:penetration": "*1",
           "obscure_api:resilience": "*1",
           "caelus:fall_flying": "*1",
@@ -9841,12 +9827,7 @@
         "xp_modifier": "*1"
       }
     ],
-    "dungeons_gear:ice_cloud": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
+
     "iter_rpg:griever": [
       {
         "conditions_to_apply": [],
@@ -10145,12 +10126,7 @@
         "xp_modifier": "*1"
       }
     ],
-    "dungeons_gear:totem_of_soul_protection": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
+
     "alexsmobs:ice_shard": [
       {
         "conditions_to_apply": [],
@@ -10578,12 +10554,12 @@
           "obscure_api:magic_resistance": "*1",
           "obscure_api:penetration": "*1",
           "obscure_api:resilience": "*1",
-          "minecraft:generic.max_health": "*1.5",
+          "minecraft:generic.max_health": "*2",
           "minecraft:generic.knockback_resistance": "*1",
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.6",
           "dungeons_libraries:artifact_cooldown_multiplier": "*1",
           "obscure_api:critical_hit": "*1",
           "caelus:fall_flying": "*1",
@@ -10601,7 +10577,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.6",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -10699,11 +10675,11 @@
           "obscure_api:penetration": "*1",
           "obscure_api:resilience": "*1",
           "minecraft:generic.max_health": "*2",
-          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.knockback_resistance": "*2",
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.5",
           "dungeons_libraries:artifact_cooldown_multiplier": "*1",
           "obscure_api:critical_hit": "*1",
           "caelus:fall_flying": "*1",
@@ -10721,7 +10697,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.5",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -12873,7 +12849,7 @@
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.5",
           "dungeons_libraries:artifact_cooldown_multiplier": "*1",
           "obscure_api:critical_hit": "*1",
           "caelus:fall_flying": "*1",
@@ -13810,7 +13786,7 @@
           "obscure_api:magic_resistance": "*1",
           "obscure_api:penetration": "*1",
           "obscure_api:resilience": "*1",
-          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.max_health": "*2",
           "minecraft:generic.knockback_resistance": "*1",
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
@@ -13833,7 +13809,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.5",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -14406,9 +14382,9 @@
           "forge:nametag_distance": "*1",
           "obscure_api:dodge": "*1",
           "forge:step_height_addition": "*1",
-          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor": "*1.5",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*2",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -15454,8 +15430,8 @@
           "obscure_api:magic_resistance": "*1",
           "obscure_api:penetration": "*1",
           "obscure_api:resilience": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.max_health": "*1.5",
+          "minecraft:generic.knockback_resistance": "*1.5",
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
@@ -15477,7 +15453,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.5",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -15877,7 +15853,7 @@
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.5",
           "dungeons_libraries:artifact_cooldown_multiplier": "*1",
           "obscure_api:critical_hit": "*1",
           "caelus:fall_flying": "*1",
@@ -16031,12 +16007,7 @@
         }
       }
     ],
-    "dungeons_gear:beam_entity": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
+
     "goodall:pelican": [
       {
         "conditions_to_apply": [],
@@ -16347,7 +16318,7 @@
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.5",
           "dungeons_libraries:artifact_cooldown_multiplier": "*1",
           "obscure_api:critical_hit": "*1",
           "caelus:fall_flying": "*1",
@@ -16373,12 +16344,7 @@
         }
       }
     ],
-    "dungeons_gear:totem_of_regeneration": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
+
     "alexsmobs:centipede_tail": [
       {
         "conditions_to_apply": [],
@@ -16869,7 +16835,7 @@
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.5",
           "dungeons_libraries:artifact_cooldown_multiplier": "*1",
           "obscure_api:critical_hit": "*1",
           "caelus:fall_flying": "*1",
@@ -16887,7 +16853,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.5",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -18145,47 +18111,7 @@
         "xp_modifier": "*1"
       }
     ],
-    "dungeons_gear:soul_wizard": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "dungeons_libraries:soul_cap": "*1",
-          "obscure_api:magic_resistance": "*1",
-          "obscure_api:penetration": "*1",
-          "obscure_api:resilience": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.knockback_resistance": "*1",
-          "forge:swim_speed": "*1",
-          "obscure_api:accuracy": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "dungeons_libraries:artifact_cooldown_multiplier": "*1",
-          "obscure_api:critical_hit": "*1",
-          "caelus:fall_flying": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "obscure_api:healing_power": "*1",
-          "obscure_api:parry": "*1",
-          "obscure_api:regeneration": "*1",
-          "obscure_api:critical_damage": "*1",
-          "obscure_api:magic_damage": "*1",
-          "dungeons_libraries:follower_cost_limit": "*1",
-          "dungeons_libraries:magic_damage_multiplier": "*1",
-          "forge:nametag_distance": "*1",
-          "obscure_api:dodge": "*1",
-          "forge:step_height_addition": "*1",
-          "minecraft:generic.armor": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "dungeons_libraries:summon_cap": "*1",
-          "dungeons_libraries:life_steal": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "dungeons_libraries:soul_gathering": "*1"
-        }
-      }
-    ],
+
     "iter_rpg:projectile_marrow": [
       {
         "conditions_to_apply": [],
@@ -18499,12 +18425,7 @@
         "xp_modifier": "*1"
       }
     ],
-    "dungeons_gear:totem_of_shielding": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
+
     "supplementaries:falling_sack": [
       {
         "conditions_to_apply": [],
@@ -18904,7 +18825,7 @@
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.2",
           "dungeons_libraries:artifact_cooldown_multiplier": "*1",
           "obscure_api:critical_hit": "*1",
           "caelus:fall_flying": "*1",
@@ -18923,7 +18844,7 @@
           "minecraft:generic.armor": "*1",
           "minecraft:generic.flying_speed": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.5",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -19003,7 +18924,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.5",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -19577,7 +19498,7 @@
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*2",
           "dungeons_libraries:artifact_cooldown_multiplier": "*1",
           "obscure_api:critical_hit": "*1",
           "caelus:fall_flying": "*1",
@@ -19593,9 +19514,9 @@
           "forge:nametag_distance": "*1",
           "obscure_api:dodge": "*1",
           "forge:step_height_addition": "*1",
-          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor": "*1.5",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*2",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -22722,12 +22643,7 @@
         }
       }
     ],
-    "dungeons_gear:fireworks_display": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
+
     "aquamirae:eel": [
       {
         "conditions_to_apply": [],
@@ -23235,7 +23151,7 @@
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.5",
           "dungeons_libraries:artifact_cooldown_multiplier": "*1",
           "obscure_api:critical_hit": "*1",
           "caelus:fall_flying": "*1",
@@ -23254,7 +23170,7 @@
           "minecraft:generic.armor": "*1",
           "minecraft:generic.flying_speed": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*2",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -24502,7 +24418,7 @@
           "obscure_api:penetration": "*1",
           "obscure_api:resilience": "*1",
           "minecraft:generic.max_health": "*1",
-          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.knockback_resistance": "*1.5",
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
@@ -24880,7 +24796,7 @@
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.5",
           "dungeons_libraries:artifact_cooldown_multiplier": "*1",
           "obscure_api:critical_hit": "*1",
           "caelus:fall_flying": "*1",
@@ -24898,7 +24814,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.5",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -28063,7 +27979,7 @@
           "forge:swim_speed": "*1",
           "obscure_api:accuracy": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.5",
           "dungeons_libraries:artifact_cooldown_multiplier": "*1",
           "obscure_api:critical_hit": "*1",
           "caelus:fall_flying": "*1",
@@ -28081,7 +27997,7 @@
           "forge:step_height_addition": "*1",
           "minecraft:generic.armor": "*1",
           "dungeons_libraries:ranged_damage_multiplier": "*1",
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "*1.8",
           "dungeons_libraries:summon_cap": "*1",
           "dungeons_libraries:life_steal": "*1",
           "minecraft:generic.armor_toughness": "*1",

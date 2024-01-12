@@ -1,0 +1,1 @@
+smithing.addRecipe("dark_metal_smithing", <item:born_in_chaos_v1:dark_metal_ingot>, <item:graveyard:dark_iron_ingot>, <item:born_in_chaos_v1:pileof_dark_metal>);

@@ -73,7 +73,7 @@
 	warpStoneCooldown = 300
 	#The time in ticks that it takes to use a warp stone. This is the charge-up time when holding right-click.
 	#Range: > -2147483648
-	warpStoneUseTime = 200
+	warpStoneUseTime = 60
 	#The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.
 	#Range: > -2147483648
 	warpPlateUseTime = 20

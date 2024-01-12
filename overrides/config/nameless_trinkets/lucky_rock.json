@@ -4,13 +4,27 @@
     "blockList": [
       "minecraft:coal",
       "minecraft:diamond",
-      "minecraft:iron_ingot",
-      "minecraft:gold_ingot",
+      "minecraft:raw_iron",
+      "minecraft:raw_gold",
+      "minecraft:raw_copper",
       "minecraft:emerald",
       "minecraft:redstone",
       "minecraft:flint",
       "minecraft:lapis_lazuli",
-      "minecraft:glowstone_dust"
+      "minecraft:glowstone_dust",
+      "minecraft:quartz",
+      "minecraft:amethyst_shard",
+	  "create:raw_zinc",
+	  "epicsamurai:raw_silver",
+	  "epicsamurai:aquamarine",
+	  "epicsamurai:ruby",
+	  "epicsamurai:onyx",
+	  "epicsamurai:jade",
+	  "iter_rpg:ametrine_shard",
+	  "iter_rpg:voidquartz_shard",
+	  "iter_rpg:stone_geode",
+	  "tetra:geode",
+	  "born_in_chaos_v1:pieceofdarkmetal"
     ],
     "isEnable": true
   }

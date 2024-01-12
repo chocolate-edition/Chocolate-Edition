@@ -1,1 +1,0 @@
-craftingTable.removeByModid("paraglider");

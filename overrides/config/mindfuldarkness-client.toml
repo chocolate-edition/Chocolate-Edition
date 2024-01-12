@@ -1,26 +1,26 @@
 #Do not add the dark mode toggle buttons to the top of every menu.
 hide_in_game_switcher = false
 #Print menu type to game chat whenever a new menu screen is opened. Intended for finding menu types to be added to "menu_blacklist".
-debug_container_types = false
+debug_container_types = true
 #Screens to add a dark mode toggle button to, so that toggling is possible outside of inventory menus.
 #Allowed Values: NONE, TITLE_SCREEN, PAUSE_SCREEN, BOTH
-dark_mode_toggle_screens = "BOTH"
+dark_mode_toggle_screens = "PAUSE_SCREEN"
 #Exclude certain menus from showing the dark mode switcher. Useful when the box intersects other screen elements.
 menu_blacklist = []
 #Specifies gui paths and resources to darken.
 #End a path using '*' as a wildcard char to include every file (no nested directories) from that directory.
 #Begin with a namespace or skip namespace to apply to all namespaces.
 #Begin with '!' to exclude matches, list those exclusions after entries that would otherwise include them.
-paths = ["textures/gui/*", "!minecraft:textures/gui/icons.png", "!minecraft:textures/gui/options_background.png", "textures/gui/container/*", "minecraft:textures/gui/container/creative_inventory/*", "trinkets:textures/gui/slots/*", "craftingtweaks:gui.png", "dankstorage:textures/container/gui/*", "ae2:textures/guis/*"]
+paths = ["textures/gui/*", "!minecraft:textures/gui/icons.png", "!minecraft:textures/gui/options_background.png", "textures/gui/container/*", "minecraft:textures/gui/container/creative_inventory/*", "trinkets:textures/gui/slots/*", "craftingtweaks:gui.png", "dankstorage:textures/container/gui/*", "ae2:textures/guis/*", "!tetra:textures/gui/*", "!configured:textures/gui/*", "!textures/items/*", "quark/matrix_enchanting/*"]
 #Use a dark theme for the configuration screens.
 dark_theme = true
 #Percentage of original interface brightness to apply.
 #Range: 0.0 ~ 1.0
-texture_darkness = 0.5868544600938966
+texture_darkness = 0.7398989898989901
 #The minimum brightness value of font while dark mode is enabled.
 #Range: 0.0 ~ 1.0
-font_brightness = 1.0
+font_brightness = 0.0
 #Algorithm selector for darkening interface pixels.
 #Allowed Values: GRAYSCALE_AND_HSP, HSP, GRAYSCALE_AND_HSL, HSL, GRAYSCALE_AND_LINEAR, LINEAR
-darkening_algorithm = "GRAYSCALE_AND_HSL"
+darkening_algorithm = "GRAYSCALE_AND_HSP"
 
