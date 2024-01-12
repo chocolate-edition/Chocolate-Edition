@@ -818,6 +818,7 @@
 		}
 		{
 			dependencies: ["78E50217106635B5"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "environmental:architect_belt"
