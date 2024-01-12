@@ -3,3 +3,4 @@
 *.7z
 .obsidian/workspace.json
 *.sh
+overrides/config/blockswap/known_states/

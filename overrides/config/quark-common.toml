@@ -935,7 +935,7 @@
 	"Azalea Wood" = true
 	"Ancient Wood" = true
 	"No More Lava Pockets" = true
-	"Glimmering Weald" = false
+	"Glimmering Weald" = true
 	"Chorus Vegetation" = true
 	Corundum = true
 	"Nether Obsidian Spikes" = true

@@ -32,7 +32,7 @@ entityDistanceScaling:2.25
 guiScale:3
 particles:1
 maxFps:260
-graphicsMode:1
+graphicsMode:0
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
@@ -43,8 +43,8 @@ lastServer:
 lang:en_us
 soundDevice:""
 chatVisibility:0
-chatOpacity:1.0
-chatLineSpacing:0.0
+chatOpacity:0.6009389671361502
+chatLineSpacing:0.10798122065727686
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
@@ -56,9 +56,9 @@ heldItemTooltips:true
 chatHeightFocused:1.0
 chatDelay:0.0
 chatHeightUnfocused:0.4375
-chatScale:1.0
-chatWidth:1.0
-mipmapLevels:4
+chatScale:0.6502347417840374
+chatWidth:0.5
+mipmapLevels:0
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
@@ -307,8 +307,8 @@ key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.firstperson.toggle:key.keyboard.f6
 soundCategory_master:1.0
-soundCategory_music:1.0
-soundCategory_record:1.0
+soundCategory_music:0.5
+soundCategory_record:0.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0

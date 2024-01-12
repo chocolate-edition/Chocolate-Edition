@@ -6,7 +6,7 @@
 	group: ""
 	icon: "minecraft:barrier"
 	id: "2C7D4E108CF721D5"
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -2122,6 +2122,15 @@
 			title: "Color Key"
 			x: -7.75d
 			y: 7.0d
+		}
+		{
+			id: "365FBE1832EFF3E0"
+			tasks: [{
+				id: "4A50826D0E5C30D3"
+				type: "custom"
+			}]
+			x: -1.75d
+			y: 5.5d
 		}
 	]
 	title: "Flags"

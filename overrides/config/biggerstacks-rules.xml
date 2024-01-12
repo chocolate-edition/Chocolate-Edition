@@ -38,7 +38,6 @@
 		<condition>id != autumnity:pancake</condition>
 		<condition>id != supplementaries:pancake</condition>
 		<condition>id != enigmaticlegacy:cosmic_cake</condition>
-		<condition>id != farmersdelight:skillet</condition>
 
 	</rule>
 	<rule stacksize="64">
