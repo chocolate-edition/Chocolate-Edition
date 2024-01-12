@@ -84,5 +84,8 @@ to make editing this file much easier.
 	   		"minecraft:diamond_block": "minecraft:emerald_block"
 	   	}
 	*/
-	"swapper": { }
+	"swapper": {
+ 		"epicsamurai:silver_ore": "galosphere:silver_ore",
+ 		"epicsamurai:deepslate_silver_ore": "galosphere:deepslate_silver_ore"
+	}	
 }
