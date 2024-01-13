@@ -3,4 +3,4 @@
 
 Available on CurseForge at https://legacy.curseforge.com/minecraft/modpacks/mc-chocolate-edition
 
-Test
+
