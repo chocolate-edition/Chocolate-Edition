@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "the_final_chapter"
-	group: "7C84C11C55BE6D87"
+	group: ""
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
@@ -116,7 +116,7 @@
 			y: 3.0d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -149,95 +149,290 @@
 			}
 			id: "77962090906709F2"
 			size: 2.0d
+			subtitle: "Your final challenge awaits..."
 			tasks: [{
 				id: "60757D593647E82B"
-				title: "Click here."
+				title: "Prepare."
 				type: "checkmark"
 			}]
+			title: "Beginning of the End"
 			x: 7.44d
 			y: 1.28d
 		}
 		{
 			dependencies: ["77962090906709F2"]
-			hide: true
-			id: "65BA6771D256335D"
-			subtitle: "Craft a dimensional carver from the void worm eye you acquired."
-			tasks: [{
-				id: "542BE45855AEC31C"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "alexsmobs:dimensional_carver"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "And so it begins..."
-			x: 8.8d
-			y: -0.24d
-		}
-		{
-			dependencies: ["65BA6771D256335D"]
+			description: [
+				"Kill a &4Void Worm&r, and use its drops to craft a &eDimensional Carver&r. Then, shatter the &eDimensional Carver&r by placing it in a &eCapsid&r, dropped by the &cEnderiophages&r found in the Outer End. The resultant tool will be able to tear through space itself and send you a million blocks out in the direction you're facing."
+				""
+				"Before you go, make sure to bring plenty of food, tools, armour, projectiles, and means of transportation (boats or horses) as you can. You'll need it."
+			]
 			hide: true
 			id: "17ED8E2DC717DCA1"
-			subtitle: "Shatter the dimensional carver and break the 3rd dimension to travel 1 million blocks in the direction you are facing."
-			tasks: [{
-				id: "1E8983D326A84469"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					count: 12
+					id: "0DA0127C51F39EE7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:etherium_ore"
 					}
-					id: "alexsmobs:shattered_dimensional_carver"
-					tag: {
-						Damage: 0
-					}
+					random_bonus: 4
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "5E2E30B2E169FA4E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:astral_dust"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "Craft and shatter a Dimensional Carver"
+			tasks: [
+				{
+					id: "5CDFAD50C3C4BDB7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:dimensional_carver"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14A54CC6313CE040"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:capsid"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "32DB53A941EC4FC2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:shattered_dimensional_carver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "And So It Begins..."
 			x: 11.44d
 			y: -0.84d
 		}
 		{
 			dependencies: ["17ED8E2DC717DCA1"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:bricks"
-			}
+			description: [
+				"&nValid Coodinates"
+				"(1,000,000,0)"
+				"(-1,000,000)"
+				"(0,1,000,000)"
+				"(0,-1,000,000)"
+				""
+				"At the given coordinates, you will find a rundown house floating in the skies. Build your way up, and find...."
+			]
+			icon: "minecraft:bricks"
 			id: "250FB1316F1A61A3"
-			subtitle: "Floating in the sky at either (x=1million,z=0),(x=-1million,z=0),(x=0,z=1million), or (x=0,z=-1million); you will find a house. Look inside, and on top..."
-			tasks: [{
-				id: "41E49D7F46A25C29"
-				title: "Where it all began"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					id: "51E5ACFC27A3AE7D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2CD0ADB3337936B6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find the Rundown House floating in the skies"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:compass"
+					id: "4C4ABC5A892CDC94"
+					ignore_dimension: false
+					optional_task: true
+					position: [I;
+						-7
+						146
+						999992
+					]
+					size: [I;
+						14
+						174
+						16
+					]
+					title: "X: 0 | Z: 1,000,000"
+					type: "location"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "5FA9D05D557B897A"
+					ignore_dimension: false
+					optional_task: true
+					position: [I;
+						-7
+						146
+						-1000008
+					]
+					size: [I;
+						14
+						28
+						16
+					]
+					title: "X: 0 | Z: -1,000,000"
+					type: "location"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "76E97BE2DF5B543E"
+					ignore_dimension: false
+					optional_task: true
+					position: [I;
+						999993
+						146
+						-8
+					]
+					size: [I;
+						14
+						28
+						16
+					]
+					title: "X: 1,000,000 | Z: 0"
+					type: "location"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "234CE1D560AFADC4"
+					ignore_dimension: false
+					optional_task: true
+					position: [I;
+						-1000007
+						146
+						-8
+					]
+					size: [I;
+						14
+						28
+						16
+					]
+					title: "X: -1,000,000 | Z: 0"
+					type: "location"
+				}
+			]
+			title: "Where It All Began"
 			x: 17.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["250FB1316F1A61A3"]
+			description: [
+				"&dWither Storm&r | &c&k00000&r&c ❤&r | &7&k000&r&7 ⛨"
+				""
+				"In the top platform of the Rundown House, you'll find a &4Wither&r formation, with a &6Command Block&r in the center. Place the final &eWither Skeleton Skull&r lying nearby on top of the &6Command Block&r. Once completed, the Wither Storm will spawn at Phase Zero and you’ll have until the &dWither Storm&r’s bossbar fills up to get the heck out of there."
+				""
+				"The &dWither Storm&r, once fully summoned, will begin to destroy the entire world (and you by association). Get as much distance away from the &dWither Storm&r as possible, as it'll rapidly grow in power with time."
+			]
 			icon: "minecraft:command_block"
 			id: "18D13DCDDA5080A0"
-			subtitle: "Start the calamity. DO NOT go home at this time, or you will just lead the destruction to the things you hold dear..."
+			rewards: [
+				{
+					count: 32
+					id: "5B1C303A714F95E2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4C9FA91A77082BF1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00BE071A542BA2A1"
+					table_id: 5327006391416214689L
+					type: "random"
+				}
+			]
+			subtitle: "DO NOT GO BACK HOME AFTER SUMMONING"
 			tasks: [{
-				id: "522783397B364FB3"
-				title: "Summon Entity"
-				type: "checkmark"
+				advancement: "witherstormmod:main/summon_wither_storm"
+				criterion: ""
+				icon: "minecraft:command_block"
+				id: "78524C579F924487"
+				title: "Summon the Wither Storm"
+				type: "advancement"
 			}]
 			x: 17.92d
 			y: 9.52d
 		}
 		{
 			dependencies: ["32674F4787FE06D1"]
+			description: [
+				"You've likely encountered mobs with a purplish disease covering them by now; this is &2Wither Sickness&r, and it'll lower a mob's max health and deal damage over time. "
+				""
+				"While you boast greater resistance to this illness, you are not immune. If you are inflicted with &2Wither Sickness&r, consuming &eGolden Apple Stew&r will slowly cure the malady. Feeding &eGolden Apple Stew&r to other mobs will cure them as well."
+			]
+			icon: "witherstormmod:golden_apple_stew"
 			id: "19C23ACB2FF5781A"
-			subtitle: "From Suspicious Stew, a Diamond, Golden Apple, and Wither Rose to cure wither sickness."
+			rewards: [{
+				count: 4
+				id: "43762D1CCADB53C7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:enchanted_golden_apple"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Mr. Steve, I don't feel so good..."
 			tasks: [
 				{
 					id: "5C0993C173B48567"
@@ -259,6 +454,7 @@
 						}
 						id: "minecraft:diamond"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -270,6 +466,7 @@
 						}
 						id: "minecraft:wither_rose"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -281,6 +478,7 @@
 						}
 						id: "minecraft:suspicious_stew"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -292,36 +490,54 @@
 						}
 						id: "minecraft:golden_apple"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
-			title: "Craft a golden apple stew "
-			x: 5.64d
-			y: 1.52d
+			title: "Curing Wither Sickness"
+			x: 14.5d
+			y: 10.75d
 		}
 		{
-			dependencies: ["1E48FE8883774588"]
-			id: "479C411320E3B21C"
-			subtitle: "Use a Enchanted Command block Book to craft Super Tnt by surrounding it with 4 tnt and 4 gunpowder."
-			tasks: [{
-				id: "1AB3CD7EC40AE921"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "witherstormmod:super_tnt"
-				}
-				type: "item"
-			}]
-			x: 4.08d
-			y: 0.6d
-		}
-		{
-			dependencies: ["19C23ACB2FF5781A"]
+			dependencies: ["32674F4787FE06D1"]
+			description: [
+				"&5Withered Symbiont&r | &c500 ❤&r | &70 ⛨"
+				""
+				"If you stick around near the &dWither Storm&r during Phase Five for long enough, a &5Withered Symbiont&r will spawn. "
+				""
+				"&5Withered Symbionts&r have their own bossbar, so you'll know when one has appeared. While you're fighting one, the &dWither Storm&r will completely ignore you; you can tell the battle's started when the music changes."
+				""
+				"The &5Withered Symbiont&r is a nasty, &2Wither Sickness&r inflicted monster that is directly summoned by the &6Command Block&r inside of the &dWither Storm&r. It is normally invulnerable, and it can cast a variety of projectiles, such as Evoker fangs, Shulker bullets, Arrows, Fireballs, and Wither Skulls; you'll know when it's about to attack if you hear Evoker sounds. "
+				""
+				"The &5Withered Symbiont&r also has the ability to summon mobs, which are armoured and quite tough. After it summons these mobs, it'll become weakened and hunch over, where you'll notice a glowing purple gash on its back. Attacking this gash is the only way to deal damage to the &5Withered Symbiont&r."
+				""
+				"At half health, the &5Withered Symbiont&r will become enraged, and attack much more frequently. Once you've defeated it, it will drop the &6Command Block Book&r. This is a vital item to defeating the &dWither Storm&r. "
+				""
+				"Note that after a player kills a &5Withered Symbiont&r, there will be a long cooldown before another is spawned. In multiplayer, the cooldowns apply to each individual player."
+			]
+			hide_dependency_lines: false
 			id: "1E48FE8883774588"
+			rewards: [
+				{
+					id: "2FA56748DB48E95D"
+					type: "xp"
+					xp: 800
+				}
+				{
+					id: "00350E18EAAA972E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "witherstormmod:golden_apple_stew"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Spawns near the Wither Storm during Phase Five"
 			tasks: [{
-				id: "1AFC93AD66F74EAA"
+				id: "5814E6F22F1EFB18"
 				item: {
 					Count: 1b
 					ForgeCaps: {
@@ -331,31 +547,93 @@
 				}
 				type: "item"
 			}]
-			title: "Get a Enchanted Command Block Book from a Withered Symbiont."
-			x: 5.56d
-			y: 0.28d
+			title: "The Withered Symbiont"
+			x: 8.75d
+			y: 6.75d
 		}
 		{
-			dependencies: ["479C411320E3B21C"]
+			dependencies: ["1E48FE8883774588"]
+			description: [
+				"Using your newly acquired &6Command Block Book&r, craft a &6Super TNT&r! It'll take four pieces of regular &eTNT&r and four &eGunpowder&r."
+				""
+				"After that, it's time for the &5Formidibomb&r, an explosive so powerful it makes the &eNuclear Bomb&r look like a child's toy! It'll take four &eBlaze Powder&r and four &eGunpowder&r. Please note that &4the Formidibomb's fuse will count down as soon as it's crafted, while it's in your inventory&r. Don't let it blow up in your hands!"
+				""
+				"Get as close to the &dWither Storm&r as possible, drop the &5F-Bomb&r, light it, and get as far away as possible! Once that's done, all you have to do is watch..."
+			]
 			id: "56A747BED0373E4C"
-			subtitle: "Surround a Super Tnt with 4 blaze and 4 more gunpowder to craft a Formidibomb. Then, place and light it, and wait for the Wither Storm to suck it up into it's gullet."
-			tasks: [{
-				id: "71C11CC4FF050FDA"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "witherstormmod:formidibomb"
-					tag: { }
+			rewards: [
+				{
+					id: "45959DEDD0F171C6"
+					type: "xp"
+					xp: 500
 				}
-				type: "item"
-			}]
-			x: -4.84d
-			y: 8.76d
+				{
+					id: "11B1F1CF3756CBD4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:goggles"
+					}
+					type: "item"
+				}
+				{
+					id: "43E598B6C188541D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:explosion_proof_jacket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft Super TNT, and then the Formidibomb"
+			tasks: [
+				{
+					id: "472F67E1FECF81AF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "witherstormmod:super_tnt"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "355E1170D660B6E2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "witherstormmod:formidibomb"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Destroyer of Worlds"
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["18D13DCDDA5080A0"]
+			description: [
+				"Get moving; the &dWither Storm&r will begin to chase you, and it'll catch up fairly quickly if you aren't careful. If you can’t manage to escape and you get caught, then it's good night for you."
+				""
+				"The &dWither Storm&r will occasionally get distracted; use this time to gain some distance. Distraction primarily depends on the distance; the farther away you are, the more likely it’ll become distracted. Use these moments of respite to prepare yourself. "
+				""
+				"Keep an eye on the &dWither Storm&r at all times, for phase changes and when it starts to chase you. Always try to keep as much distance as possible. You may also want to set up a bed and/or base somewhere deep underground, in case you happen to meet a cruel demise."
+				""
+				"The &dWither Storm's&r tractor beams can be distracted using &eFireworks&r, which you can take advantage of using &eCrossbows&r. &eEnder Pearls&r can also allow you to escape the beams. Furthermore, the beam will be temporarily disabled if a projectile hits them directly in the eye, so if it starts sucking you in and things look bleak, spam as many arrows as you can. If all else fails, smack the &dWither Storm&r's head as much as you can before it eats you."
+				""
+				"Once the &dWither Storm&r reaches Phase Five, &dWithered Symbionts&r will begin to spawn if you linger near the &dWither Storm&r. Those are your key to defeating this calamity."
+			]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -364,24 +642,28 @@
 				}
 			}
 			id: "32674F4787FE06D1"
-			subtitle: "Shoot the Wither Storm's Eyes to stop it's beams temporarily."
+			subtitle: "Wait for the Wither Storm to reach Phase Five"
 			tasks: [{
-				id: "02B55E0D3D59DE2F"
-				title: "run"
-				type: "checkmark"
+				advancement: "witherstormmod:main/harbinger_of_cataclysmic_fates"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "dungeons_gear:wither_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "13297773FF854194"
+				title: "Bide your time and wait for a Withered Symbiont"
+				type: "advancement"
 			}]
-			x: 6.44d
-			y: 2.84d
+			title: "&o&4&nRun"
+			x: 8.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6BC57B376D59322D"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "enlightened_end:items/final_sword"
-				}
-			}
+			icon: "witherstormmod:withered_nether_star"
 			id: "29B6754E6DDFEF8E"
 			rewards: [
 				{
@@ -413,125 +695,256 @@
 				}
 			]
 			size: 3.0d
-			subtitle: "End this."
-			tasks: [
-				{
-					id: "765184396BD665F3"
-					title: "Fight"
-					type: "checkmark"
-				}
-				{
-					id: "20D50336FB412789"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "witherstormmod:withered_nether_star"
+			subtitle: "All things must come to an end..."
+			tasks: [{
+				id: "3E01BE9A47A59DE4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					type: "item"
+					id: "witherstormmod:withered_nether_star"
 				}
-			]
+				type: "item"
+			}]
+			title: "The Final Battle"
 			x: 6.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["56A747BED0373E4C"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:command_block"
-			}
+			description: ["You've done it! Now that the &dWither Storm&r has fallen, you'll notice a &6Command Block&r on its corpse. Approach the block and strike it with its pickaxe, and finish this monstrosity off!"]
+			icon: "minecraft:command_block"
 			id: "62EEBCFD21A4CC45"
-			subtitle: "Go to kill the command block at it's heart..."
+			rewards: [
+				{
+					id: "4F4C791FB6A7A067"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 4
+					id: "082334CB6D1B443E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Destroy the Command Block on the fallen Wither Storm"
+			tasks: [
+				{
+					advancement: "witherstormmod:main/strong_grow_weak"
+					criterion: ""
+					id: "1141032EA2E8BE67"
+					title: "Blow up the Wither Storm"
+					type: "advancement"
+				}
+				{
+					advancement: "witherstormmod:main/weakened_arise_stronger"
+					criterion: ""
+					id: "33CD8DE68600F276"
+					title: "Attack the Command Block"
+					type: "advancement"
+				}
+			]
+			title: "The Bigger They Are, the Harder They Fall"
+			x: -5.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["4C331F029E3A2997"]
+			description: [
+				"Now that you've got your &6Command Block Tool&r, all that's left to do is to destroy the &6Command Block&r inside this gigantic beast. To do that, you'll need to venture into the pocket dimension inside him. At random intervals, or once the &dWither Storm&r has reached its ultimate form, you'll notice that a purple hole appears on the &5Wither Storm's&r primary head."
+				""
+				"Prepare all of your best gear: &efull Protection armor, Feather Falling boots, as much food and as many potions as you can manage, melee and ranged weapons, tools, Ender Pearls, and stacks of blocks&r. If possible, set your spawn somewhere as well."
+				""
+				"Once you're ready, all you need to do is to touch the entrance. The best way to do this is to let the &dWither Storm&r pull you in, load up a &eCrossbow&r with an &eEnder Pearl&r in your offhand, and fire it into the hole!"
+				""
+				"After that, well... I have no idea. You're on your own from here on out."
+			]
+			icon: "unusualend:wither_orb"
+			id: "6BC57B376D59322D"
+			rewards: [
+				{
+					id: "5AFF9631F3BBDE68"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "67E2C1F9F1494DE7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nourished_nether:polterpork"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Enter the Bowels"
 			tasks: [{
-				id: "790213959F96904D"
-				title: "Go to kill the command block at it's heart..."
-				type: "checkmark"
+				dimension: "witherstormmod:bowels"
+				id: "5D2539E52E4FC337"
+				type: "dimension"
 			}]
-			title: "Is that it?"
-			x: 1.25d
-			y: 14.75d
+			title: "Where Am I...?"
+			x: 4.75d
+			y: 8.0d
 		}
 		{
 			dependencies: ["62EEBCFD21A4CC45"]
+			description: [
+				"OH DEAR GOD NOW THERE'S THREE OF THEM-"
+				""
+				"&oAhem."
+				""
+				"Change of plans. The &dWither Storm&r &ohas&r been weakened from the blast, so it's not all bad. However, if things keep going on like this, we're going to have an army of &dWither Storms&r on our hands. Don't worry though, I have a plan to prevent that from happening, and you &omight&r not even die if you do it correctly!"
+				""
+				"You're going to need another &6Command Block Book&r; in case the shock of the revived &dWither Storm&r has rendered you amnesiac, refer to the earlier quest. Don't worry about the &5Withered Symbiont&r cooldown, it has refreshed after the &dWither Storm&r came back to life. Combine the &6Command Block Book&r with a &eDiamond Tool&r to create a weapon infused with the power of the absolute, capable of destroying even a &6Command Block&r."
+			]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:textures/mob_effect/fear.png"
 				}
-				id: "witherstormmod:withered_flesh"
 			}
-			id: "6C114F2F338CC7DF"
-			subtitle: "Launch it into the opening made by the formidibomb."
-			tasks: [
+			id: "4C331F029E3A2997"
+			rewards: [
 				{
-					id: "2A4F41067FBAD08F"
+					id: "2694A737A7E52E57"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "minecraft:ender_pearl"
+						id: "minecraft:anvil"
 					}
 					type: "item"
 				}
 				{
-					id: "386E40392A568E3D"
+					id: "036CE5B0CB7AEE13"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
-							"dungeons_libraries:ranged_abilities": {
-								dynamicChargeTime: 0.0f
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
 						}
-						id: "minecraft:crossbow"
+						id: "minecraft:enchanted_book"
 						tag: {
-							Damage: 0
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "6BFFB52E72B2A685"
-					title: "Shoot into it's Bowels."
-					type: "checkmark"
+					id: "4721410455FAF426"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
 				}
 			]
-			title: "Hold an Ender pearl in one hand and a Crossbow in the other"
-			x: 4.75d
-			y: 7.25d
+			subtitle: "I'M PANICKING I DON'T KNOW WHAT TO DO"
+			tasks: [{
+				id: "3FB559A82DDCEAD1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "witherstormmod:command_block_sword"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "witherstormmod:command_block_pickaxe"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "witherstormmod:command_block_axe"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "witherstormmod:command_block_shovel"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "witherstormmod:command_block_hoe"
+							}
+						]
+					}
+				}
+				title: "Command Block Tool"
+				type: "item"
+			}]
+			title: "UHHHH OKAY THAT DIDN'T WORK"
+			x: 7.25d
+			y: 15.25d
 		}
 		{
-			dependencies: ["6C114F2F338CC7DF"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "unusualend:wither_orb"
-			}
-			id: "6BC57B376D59322D"
-			subtitle: "Enter the Bowels."
-			tasks: [
-				{
-					id: "39AEF5C1E53157C0"
-					title: "Where am I?"
-					type: "checkmark"
-				}
-				{
-					dimension: "witherstormmod:bowels"
-					id: "5D2539E52E4FC337"
-					type: "dimension"
-				}
-			]
-			x: 6.5d
-			y: 5.5d
+			can_repeat: true
+			dependencies: ["18D13DCDDA5080A0"]
+			description: ["You can submit one experience point to check the Wither Storm's current Phase."]
+			icon: "witherstormmod:amulet"
+			id: "56E27A0E697BEB43"
+			rewards: [{
+				command: "data get entity @e[type=witherstormmod:wither_storm,limit=1] Phase"
+				exclude_from_claim_all: true
+				icon: "witherstormmod:amulet"
+				id: "67022095843F11A5"
+				player_command: true
+				team_reward: false
+				title: "Get Wither Storm Phase"
+				type: "command"
+			}]
+			subtitle: "For the low, low price of an experience point!"
+			tasks: [{
+				id: "0AB72FB0616D871A"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			title: "Wither Storm Phase Check"
+			x: 21.25d
+			y: 7.25d
 		}
 	]
 	title: "The Final Chapter?"

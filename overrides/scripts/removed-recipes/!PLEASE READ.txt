@@ -1,0 +1,7 @@
+hey if you're here to remove something please remember to put the following at the top of the script (but after the imports):
+
+#priority 1
+
+this makes sure that the recipes are guaranteed to be removed BEFORE any recipes are added, so it doesn't add a recipe first and then immediately remove it lol :)
+
+i had this problem and it took me half an hour to fix.

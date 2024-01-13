@@ -4,33 +4,21 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "must_read"
-	group: "7C84C11C55BE6D87"
+	group: ""
 	icon: "minecraft:ender_eye"
 	id: "38DB682299001B46"
 	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 10.0d
-			hover: [ ]
-			image: "chocolate:textures/52.png"
-			rotation: 0.0d
-			width: 12.231473771856788d
-			x: 0.0d
-			y: 0.4892589508742715d
-		}
 		{
 			click: "https://legacy.curseforge.com/minecraft/modpacks/mc-chocolate-edition"
 			corner: false
 			dev: false
 			height: 1.0d
-			hover: ["CurseForge Page"]
+			hover: ["CurseForge"]
 			image: "supplementaries:textures/gui/book/icon/curseforge.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: 2.25d
+			x: -2.0d
+			y: 2.75d
 		}
 		{
 			click: "https://discord.gg/vhQHTku8ma"
@@ -42,19 +30,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.0d
-			y: 2.25d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: ["Donations"]
-			image: "supplementaries:textures/gui/book/icon/kofi.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.0d
-			y: -2.25d
+			y: -2.75d
 		}
 		{
 			click: "https://www.youtube.com/channel/UCXGMOoDxpXHhGjzu8Dn5IZg"
@@ -65,34 +41,44 @@
 			image: "supplementaries:textures/gui/book/icon/youtube.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: -2.25d
+			x: 2.0d
+			y: 2.75d
+		}
+		{
+			click: "https://github.com/chocolate-edition"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Github Issues"]
+			image: "supplementaries:textures/gui/book/icon/github.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "create:item/bar_of_chocolate"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 0.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"Hello there,"
+				"Welcome to Chocolate Edition, this book will guide you through getting all 16 eyes, if you want more information about content in the pack head to &l&9thechocolateedition.wiki.gg"
 				""
-				"Welcome to my modpack. Here's some must know information before playing:"
-				""
-				"If you somehow didn't catch it, this modpack's main progression is through crafting 12 unique eyes. You get different abilities the more eyes you craft; for instance you unlock the nether at 3 eyes and netherite at 6. Sometimes you will collect an item and get a notification(s) that this item is important. It is important in 1 of 2 ways:"
-				""
-				"1. It is a necessary ingredient for one of the 16 eyes"
-				""
-				"2. It is vital/very useful for getting an ingredient for one of the 16 eyes, but is an optional quest so if you get the ingredient in another way you don't need to get the very useful one as well. Sometimes, they are even listed at the top if they are useful for more than one ingredient in that recipe."
-				""
-				"There are a lot of items involved in crafting enough eyes to get to the end, and they are always notified as \"quest completed\" when picked up. Make sure not to skim over this, as it is the closest thing you have to a progress meter. I really tried to make every notifiable ingredient worthy of a notification as to simplify the crafting tree and make it easy to understand. So if, for example you need 4 iron for something, i'm not gonna list that since it's usually a given, in vanilla, and simple to get."
-				""
-				"To pin a recipe, click on it and in the top right theres a pin button. This will make it show up in game. To collect all, in the top right of the menu there's a button to do so."
-				""
-				"Occasionally(ESPECIALLY early game) you will get an item that's necessary for a harder eye to craft. In that case, I would ignore it for now. If an eye is not possible to get yet, then don't sweat trying to get it's ingredients early game. Most of the time the eyes in the \"Medium\" section are way more manageable post-unlocking the nether, and the eyes in the hard section are much more manageable when you have at least most of the others. Plus, you straight up can't craft some of the harder eyes in early game."
-				""
-				"For those who are new(which is everyone currently), always go to quests when you don't know what to do. If that doesn't tell you what you need to do, then join my discord server (linked in the Curseforge Page for the modpack) and ask questions."
-				""
-				"Lastly, the first tab in the quests menu contain guides separated into categories, which have tips for various stages of the game, and act as a sort of in-game wiki on the mechanics added/tweaked by this modpack. I strongly recommend at least getting all the items you can from the \"useful items\" quest tree, as that makes a lot of things not just easier but often possible. Read the hotkeys sections for necessary hotkeys you may not know about. Look to the mechanics descriptions in the respective guide if you're running into a roadblock when it comes to understanding the game. And if you don't understand how a certain item works or need to plan for a fight (for example the Mutant Beasts, necessary bosses for progression), then look at the tips provided."
+				"Occasionally(especially at the start) you will get an item that's necessary to craft a harder eye. In that case, I would ignore it for now."
+				"If an eye is not possible to get yet, then don't sweat trying to get it's ingredients early game. Most of the time the eyes in the \"Medium\" section are way more manageable after unlocking the nether, and the eyes in the hard section are much easier when you have at least most of the others. Some hard eyes are locked until later."
 				""
 				"Anyway, that's all for now. Have fun!"
 			]
@@ -105,223 +91,48 @@
 				xp: 100
 			}]
 			size: 4.0d
-			subtitle: "[MUST READ FOR BEGINNERS] CLICK CHECKMARK IN TASKS WHEN DONE READING"
+			subtitle: "Start Here"
 			tasks: [{
 				id: "3FD0E56DAB57F358"
 				title: "Welcome"
 				type: "checkmark"
 			}]
-			title: "How to Use the Guides "
+			title: "Welcome!"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CFCF3BA7E2B325C"]
+			description: [
+				"To access progress Stages in creative, type:"
+				"&o/gamestage add <stage>"
+				""
+				"Stages:"
+				"&n&lone&r: 3 eyes | &n&ltwo&r: 6 eyes"
+				"&n&lthree&r: 9 eyes | &n&lfour&r: 12 eyes | &n&lfive&r: 16 eyes"
+				"-----------------------------------"
+				"To add to your eye count:"
+				"&o/gamestage add <eye you want added>"
+				""
+				"i.e &o/gamestage add witch_eye"
+			]
 			disable_toast: true
 			icon: "cataclysm:flame_eye"
 			id: "26E44F86235E8AF3"
+			shape: "diamond"
 			size: 1.5d
-			subtitle: "To access progress Stages in creative, type /gamestage add one for three eyes, two for six eyes, three for nine eyes, four for twelve eyes, and five for 16 eyes. To add to your eye count, /gamestage add <eye you want added> i.e /gamestage add witch_eye "
 			tasks: [{
 				id: "53C804B938118C53"
 				title: "Eye Questions/Support"
 				type: "checkmark"
 			}]
 			title: "How to Give Yourself Progress in Creative "
-			x: -4.0d
-			y: 1.5d
+			x: -4.125d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7CFCF3BA7E2B325C"]
-			description: [
-				""
-				""
-				" "
-				""
-				"DISCORD"
-				""
-				"This Edition is not Vanilla Plus, or Vanilla 2, or any other fancy term- it's Chocolate. Straight up. This modpack is Minecraft if it had Terraria devs, Minecraft without the tedium, Minecraft without the urge to start a survival world and ditch it after getting iron. "
-				""
-				" "
-				""
-				" "
-				""
-				"Feature Overview:"
-				""
-				" "
-				""
-				"DEFAULT SHADERS SETTINGS DO NOT AFFECT PERFORMANCE AT ALL!!"
-				"Built-In Controller Support, Couch co-op, and Official Server!"
-				"Extremely progression-focused, with you constantly building towards the End. Discover the secrets of Eyes of Ender! "
-				"Fight 45+ unique, hard, customized/reworked bosses! +Many minibosses"
-				"In-Depth, Massive In-game Wiki so you'll never get lost!"
-				"Runs smoothly on most PCs!"
-				"Discover 1000s of unique, new mobs, most of which spawn in different biomes/areas!"
-				"Traverse breathtaking world generation with balanced, extremely varied structures!"
-				"Make your way through almost 20 giant, jaw-dropping, complex dungeons with tons of variety!"
-				"Enhanced, simple to learn yet hard to master strategic combat!"
-				"Huge focus on over 40 new Pets/Mounts!"
-				"Build with 1000s of new blocks and master machinery!"
-				"Huge focus on immersion with new animations, ambience and worldbuilding!"
-				"Many, MANY Secrets, a LOT of lore, and even multiple Climactic Endings..."
-				" "
-				""
-				"Details for Nerds:"
-				""
-				" "
-				""
-				"In this progression focused pack, you must explore every part of the world to progress! And I don't just mean physically. You will always be doing something towards your goal of getting to the END. Interact with mechanics from only the Coolest of mods to Craft 12 distinct themed Eyes of ender to progress! Crafting Eyes as progression is a feature exclusive and custom built for this pack. It gradually unlocks more lore, items, quests, gear, mechanics, dimensions, and (soon) npcs. This prevents rushing to the endgame like Vanilla, and incentivizes you actually interacting with the game's underutilized mechanics. For example, most eyes will have a boss item(that you keep) and some themed items you get from mechanics involving that theme (like rope, bombs, geodes and mushrooms for the Underground Eye). Discover long lost secrets of Ender, and breathe life to a world in ruin…"
-				" "
-				""
-				"(Mods:End Remastered, Crafttweaker, ItemStages, GameStages, DimensionStages, FTB Quests, JEI, Quark, Supplementaries, Create, Abnormals Mods, Alex Mobs, Blue Skies, Farmer's Delight, Tetra, Ender's Cataclysm, etc.)"
-				""
-				" "
-				""
-				""
-				""
-				"Runs on most pcs! Better than even your run-of-the-mill performance mods without shaders! Utilizes LODs to maximize render distance and unloads dead weight from Mojang's spaghetti code in just about every step of the game. (the below photo is entirely zoomed from >32 chunks away, and it's smooth on even my fax machine of a pc)"
-				" "
-				""
-				"(Mods:Bobby, Sodium(Rubidium), Iris(Oculus), FerriteCore, ModernFix, EntityCulling, Canary, Starlight, Rubidium Extras, Spark, Chunk Pregenerator, etc.)"
-				""
-				""
-				""
-				""
-				""
-				"45+ Boss fights with built-in guides(not mentioning the dozens of minibosses), some of which drop weapons, items, and materials either necessary for the eyes, but most introduce cool abilities that increase strategy rather than mere stat boosts."
-				" "
-				""
-				""
-				""
-				"(Mods:L_Enders Cataclysm, Mutant Beasts, Mutant More, Boss Health Regain, Illage and Spillage, Blue Skies, BrutalBosses, Aquamirae, Ender Trigon, Bedrock Wither,  Mobifier, Configurable Mob Potion Effects, etc.) "
-				""
-				" "
-				""
-				" Extensive, thorough, massive in-game guidebook that records and notifies of Eye progress and guides the player on quests, objectives, mechanics, or changes most wouldn't know; and aren't easily searchable/discoverable. Also shows the full crafting trees; with categories and labels so you don't get lost or have to search for things; along with many other quality of life changes."
-				" "
-				""
-				"(Mods: Crafttweaker, FTB Quests, JEI ( Just Enough Items), Just enough Resource(JER), Crafting Tweaks, AppleSkin, ItemStages, GameStages, DimensionStages)"
-				""
-				""
-				""
-				""
-				""
-				""
-				""
-				"Explore majestic and varied world generation that is breathtaking in every single biome,  tailor-made for each biome's experience, use the built-in map to record your explorations automatically, and find generated waystones as fixed fast travel points that knock down the travel time between these massive ecosystems!"
-				" "
-				""
-				" (Mods: FTB Maps, FTB Chunks, FTB Teams, Waystones, Infernal Expansion, Enlightened End, Phantasmic, Abnormals Mods like Environmental,  Upgrade Aquatic, Biome Music, Ambient Sounds 5, Dungeons Music, Towers of the Wild:Modded + TOTW:Additions, etc.)"
-				""
-				""
-				""
-				"Make your way through dozens of giant, jaw-dropping structures with custom balanced, unique loot, that require different strategies to feel fresh every time!"
-				"(Mods: When Dungeons Arise, Integrated Dungeons and Structures, CTOV(Choicetheorem's Overhauled Villages), Towns and Towers, Integrated Stronghold, Incendium, YUNG's Better Dungeons, Artifacts, Dungeons, Tetra, Ensorcellation, Quark, LootIntegration, Ageing Spawners, YUNG's Better Nether Fortresses, YUNG's Better Mineshafts, YUNG's Better Ocean Monuments, etc.)"
-				""
-				""
-				""
-				""
-				""
-				"Enhanced Combat that's dozens of times more diverse and unique than vanilla's with custom animations, interesting movement options, and powerful foes with hundreds of different combinations of effects/gear/abilities who all stand out to bring a unique challenge! "
-				" "
-				""
-				"(Mods: Better Combat and Full Compat with all weapons, First Person Animation, Not Enough Animations, Born in Chaos, Mobifier, Incendium, Dungeons Gear, Farsighted Mobs, Tetra, Tetranomicon, The Art of Forging, Majruszs' Progressive Difficulty, Ensorcellation, Enhanced Celestials, Horse Combat Controls, etc.)"
-				""
-				""
-				""
-				"Discover, interact with, tame, fish, and fight hundreds of pets/mounts/monsters that differ drastically from biome-to-biome for a vast array of rewards and mechanics!"
-				" "
-				""
-				" (Mods: Respawning Animals, SpawnBalanceUtility, InControl, Alex's mobs, Critters and Companions, Quark, Dungeons Mobs, Aquaculture 2, Nether Depths Upgrade, Fishing Overhaul, Rotten Creatures, Creatures and beasts, Dragon Mounts, Naturalist, Infernal Expansion, Unusual end, Born in Chaos, Species, Horse Calling, etc.)!"
-				""
-				""
-				""
-				"Build with thousands of variants of simple yet versatile blocks, create machines like trains, hone your combat and foster infrastructure to conquer this fantastical realm!"
-				" "
-				""
-				" (Mods: Create, Quark, Supplementaries, Decorative Blocks, Another Furniture, Every Compat, Storage Drawers, Tom's Simple Storage, Diagonal Fences, Farmer's Delight, Diet, Create:Central Kitchen, Farmer's Respite, Brewin' and Chewin', Thirst was Remade, Tough as Nails, Fantasy Furniture, Villager Comfort, Trade Cycling, Trading Station, Bartering Station, Infusion Table, etc.)"
-				""
-				""
-				""
-				"Lore that goes beyond the scope of this reality.."
-				""
-				""
-				""
-				""
-				"And much, much more description in game and constant support in my discord server(link at top)!"
-				""
-				""
-				" "
-				""
-				" "
-				""
-				" Credits:"
-				""
-				"PoorPrune(me): makes the modpack"
-				""
-				"Soul: Made true ending datapack"
-				""
-				"Guyperson1: Made combat wiki "
-				""
-				"Zekromaster: Making callable mounts feature"
-				""
-				"FiringFurno/Qwek: Bugfixers/Suggestion Havers"
-				""
-				"Toxin: Helping generally making code"
-				""
-				"Music:"
-				"Dungeons Music"
-				""
-				" "
-				""
-				"Art:"
-				""
-				"9Redwoods (Twitter, reddit)"
-				""
-				"Minearts Created (Twitter, Pinterest)"
-				""
-				"Neytirix (Deviantart, Tumblr, Twitter)"
-				""
-				"Mojang:Minecraft Dungeons"
-				""
-				"Mojang:Minecraft Legends"
-				""
-				"Mojang:Minecraft (Trailers)"
-				""
-				" "
-				""
-				"All Rights Belong to Them"
-				""
-				" "
-				""
-				" "
-				""
-				" "
-				""
-				" "
-			]
-			disable_toast: true
-			id: "255639229E52C019"
-			size: 2.0d
-			subtitle: "Just the CurseForge Description."
-			tasks: [{
-				disable_toast: true
-				icon: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "waystones:warp_scroll"
-				}
-				id: "436AECED0CD4B8B1"
-				title: "Modpack Description:"
-				type: "custom"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7CFCF3BA7E2B325C"]
+			description: ["This modpack can seem like a lot to handle, but I think it's worth it. Every eye requires a boss to be slain or adventure to be had, on top of many little slice of life things like going to biomes to cultivate animals or find certain flora. The later eyes do really ramp up in \"difficulty\"- but that just means theres more to do to get them. More adventures, more mechanics to explore, more to build.. more minecraft. Go easy on yourself and enjoy the slow burn!"]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -332,18 +143,24 @@
 				}
 			}
 			id: "270F39CB8CC1051A"
+			rewards: [{
+				id: "1D743B9C91BE2241"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
-			subtitle: "This modpack can seem like a lot to handle, but I think it's worth it. Every eye requires a boss to be slain or adventure to be had, on top of many little slice of life things like going to biomes to cultivate animals or find certain flora. The later eyes do really ramp up in \"difficulty\"- but that just means theres more to do to get them. More adventures, more mechanics to explore, more to build.. more minecraft. Go easy on yourself and enjoy the slow burn!"
+			subtitle: "Take your time"
 			tasks: [{
 				id: "37AD51E19225C9F5"
 				title: "Don't Be Overwhelmed."
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7CFCF3BA7E2B325C"]
+			description: ["To progress in this modpack, you must craft 16 unique, special eyes that unlock items and dimensions. Look under \"The Eyes\" section for recipes."]
 			disable_toast: true
 			id: "5ADF95F33275FBF3"
 			rewards: [{
@@ -351,8 +168,9 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
 			size: 1.5d
-			subtitle: "To progress in this modpack, you must craft 12 unique, special eyes that unlock items and dimensions. Almost every eye requires an ender eye to craft. An ender eye is crafted from an ender pearl(dropped from enderman that spawn at night) and blaze powder(dropped from blazes in the nether or crafted with a fire charge and witch pupil early game to get to the nether). Look in the other tabs for how to craft specific eyes."
+			subtitle: "The Eyes"
 			tasks: [{
 				id: "291A9852C1130306"
 				item: {
@@ -364,24 +182,9 @@
 				}
 				type: "item"
 			}]
-			title: "The Main Progression"
-			x: 4.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5D1B2803B3ECF328"]
-			icon: "enigmaticlegacy:unholy_grail"
-			id: "6D97C49A2FEB2775"
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "I dedicated an entire bubble just to tell you this. It's so useful."
-			tasks: [{
-				id: "3873F15E0162D2A6"
-				title: "Click Ctrl F to Search for Quests"
-				type: "checkmark"
-			}]
-			x: 3.375d
-			y: -5.5d
+			title: "Progression"
+			x: 4.125d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5DD0C95C8CB5631A"]
@@ -593,327 +396,30 @@
 			dependencies: ["7CFCF3BA7E2B325C"]
 			icon: "ftbquests:book"
 			id: "5DD0C95C8CB5631A"
-			shape: "rsquare"
-			subtitle: "This is what a Optional Side quest will look like. Get item for reward. Couldn't be simpler. [CLICK CHECKMARK TO EXPAND]"
+			shape: "heart"
+			size: 1.2d
+			subtitle: "For the completionists out there <3"
 			tasks: [{
 				id: "0A25F39B73552C1E"
 				title: "Example Quests"
 				type: "checkmark"
 			}]
-			x: -2.25d
-			y: 5.0d
+			title: "Your Final Challenge"
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7CFCF3BA7E2B325C"]
-			icon: "minecraft:writable_book"
-			id: "68B8E09F755B7B09"
-			shape: "circle"
-			subtitle: "This is what Wikis will look like. Just a library of information on core pillars of the game in case you need to look a specific thing up. [CLICK CHECKMARK TO EXPAND]"
+			id: "6E19CC4003AB0A59"
+			subtitle: "&4<-- Hover on the left side of the screen"
 			tasks: [{
-				id: "53FECDF4B30CC689"
-				title: "Example Wiki"
-				type: "checkmark"
-			}]
-			x: -4.25d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0C2D3FE2D6351215"]
-			icon: {
-				Count: 1b
-				id: "predators:rock_boss_quake"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "3841BF12663433F7"
-			subtitle: "Boss Strategy"
-			tasks: [{
-				id: "6AFFE2C936D1333B"
-				title: "Boss"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: -3.25d
-		}
-		{
-			dependencies: ["0C2D3FE2D6351215"]
-			icon: "ecologics:sandcastle"
-			id: "35FA20EC54CF34C5"
-			subtitle: "Where to find and what gear needed"
-			tasks: [{
-				id: "1DDDA3CE93A092E4"
-				title: "Structure"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: -1.75d
-		}
-		{
-			dependencies: ["0C2D3FE2D6351215"]
-			icon: "minecraft:crafting_table"
-			id: "0F5B66805108ABB2"
-			subtitle: "How to craft and assemble and what it does"
-			tasks: [{
-				id: "28B0C94505A92441"
-				title: "Mechanic"
+				id: "0ABFB8801C83BE80"
+				title: "Chapter Selector"
 				type: "checkmark"
 			}]
 			x: -7.0d
 			y: 0.0d
 		}
-		{
-			dependencies: ["7CFCF3BA7E2B325C"]
-			icon: {
-				Count: 1b
-				id: "supplementaries:wrench"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "43197B1BF47C0701"
-			shape: "gear"
-			subtitle: "Has explanations of mechanics added by the modpack in no particular order around it. [CLICK CHECKMARK TO EXPAND]"
-			tasks: [{
-				id: "6274D3FE59847451"
-				title: "Example Mechanics Added Section"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["43197B1BF47C0701"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "alexsmobs:item/mungal_spores"
-				}
-			}
-			id: "36D05F73E1415CC7"
-			shape: "gear"
-			tasks: [{
-				id: "118523ADC9768479"
-				title: "We changed among us. Now spawns in the vent biome."
-				type: "checkmark"
-			}]
-			x: 6.25d
-			y: -0.25d
-		}
-		{
-			dependencies: ["43197B1BF47C0701"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "alexsmobs:textures/painting/nft.png"
-				}
-			}
-			id: "026A6B41D05C853F"
-			shape: "gear"
-			subtitle: "Measures how sus you are"
-			tasks: [{
-				id: "2863430721F8B32A"
-				title: "Sussy meter"
-				type: "checkmark"
-			}]
-			x: 3.75d
-			y: -2.75d
-		}
-		{
-			dependencies: ["7CFCF3BA7E2B325C"]
-			icon: {
-				Count: 1b
-				id: "tetra:modular_toolbelt"
-				tag: {
-					id: "6cbbc4f0-a33f-46a4-983d-ca795b7935d7"
-					"toolbelt/belt": "toolbelt/belt"
-					"toolbelt/belt_material": "belt/inlaid"
-					"toolbelt/slot1": "toolbelt/strap_slot1"
-					"toolbelt/strap_slot1_material": "strap1/leather"
-				}
-			}
-			id: "4AEDC915D2741010"
-			shape: "square"
-			subtitle: "[CLICK CHECKMARK TO EXPAND]"
-			tasks: [{
-				id: "528F4A779E81EF53"
-				title: "Example Useful Items"
-				type: "checkmark"
-			}]
-			x: -5.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["7C1BCB5B1D82B411"]
-			id: "03220C31AB1EDFFC"
-			shape: "square"
-			tasks: [{
-				id: "34B4128E2BCF648D"
-				title: "This item literally is so useful i married it"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["39B8FAA9C065E44A"]
-			id: "7B6AA24A0C2944D1"
-			shape: "square"
-			tasks: [{
-				id: "1C6D5FFF1550C59D"
-				title: "This item gives you infinite vbuck"
-				type: "checkmark"
-			}]
-			x: -8.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["7CFCF3BA7E2B325C"]
-			icon: "supplementaries:key"
-			id: "5D1B2803B3ECF328"
-			shape: "hexagon"
-			subtitle: "Shows Useful Hotkeys Relevant to that section. [CLICK CHECKMARK TO EXPAND]"
-			tasks: [{
-				id: "59682162A12C4747"
-				title: "Example Hotkeys"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["7C1BCB5B1D82B411"]
-			id: "4A40460C54FA8297"
-			shape: "square"
-			tasks: [{
-				id: "0FDCA7EE245F0CAF"
-				title: "This item is useful in a similar way so it's to the side of it"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -8.25d
-		}
-		{
-			dependencies: ["4AEDC915D2741010"]
-			icon: {
-				Count: 1b
-				id: "minecraft:diamond_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "39B8FAA9C065E44A"
-			shape: "square"
-			subtitle: "[CLICK CHECKMARK TO EXPAND]"
-			tasks: [{
-				id: "5DA25CB9142D98DB"
-				title: "Insert Category Here"
-				type: "checkmark"
-			}]
-			x: -6.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["4AEDC915D2741010"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "jeed:textures/gui/effects.png"
-				}
-			}
-			id: "7C1BCB5B1D82B411"
-			shape: "square"
-			subtitle: "[CLICK CHECKMARK TO EXPAND]"
-			tasks: [{
-				id: "2D68A42692E3DA67"
-				title: "Insert Other Category Here"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["68B8E09F755B7B09"]
-			icon: "minecraft:ender_eye"
-			id: "0C2D3FE2D6351215"
-			subtitle: "Tells you roughly how many eyes you should craft to go for it. YOU DON'T HAVE TO FOLLOW THIS STRICTLY; THIS IS JUST A ROUGH IDEA OF PROGRESSION."
-			tasks: [{
-				id: "67EAFD71A6B93AF3"
-				title: "Tier 1 (Any Eyes Recommended)"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: -4.75d
-		}
-		{
-			dependencies: ["7CFCF3BA7E2B325C"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftblibrary:icons/money"
-				}
-			}
-			id: "467F919A59852328"
-			shape: "diamond"
-			subtitle: "Shops have mostly cosmetic items you can buy for ruby, jade, aquamarine, or onyx."
-			tasks: [{
-				id: "336E81E2FAB61E57"
-				type: "checkmark"
-			}]
-			title: "Example Shop (Only in shops tab)"
-			x: 0.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["467F919A59852328"]
-			icon: "meetyourfight:slicers_dice"
-			id: "4973364C70662D06"
-			shape: "diamond"
-			tasks: [{
-				id: "16F84F067C2941D3"
-				title: "Pay Moneys Here for random loot"
-				type: "checkmark"
-			}]
-			x: 1.75d
-			y: -10.5d
-		}
-		{
-			dependencies: ["467F919A59852328"]
-			icon: "minecraft:music_disc_13"
-			id: "60D2002F9167305A"
-			shape: "diamond"
-			tasks: [{
-				id: "78F3BAEA69CB258E"
-				title: "Pay Moneys here for loot you choose"
-				type: "checkmark"
-			}]
-			x: -1.75d
-			y: -10.5d
-		}
-		{
-			dependencies: ["467F919A59852328"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbquests:block/loot_crate_opener"
-				}
-			}
-			id: "586E1D56C0FAC89D"
-			shape: "diamond"
-			subtitle: "Rebuy Non-Renewable Quest Rewards here!"
-			tasks: [{
-				id: "3A03026A51A93B53"
-				title: "Exclusive Quest Rewards"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -12.25d
-		}
 	]
-	title: "General Guidebook"
+	title: "Welcome!"
 }

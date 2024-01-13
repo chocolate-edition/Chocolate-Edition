@@ -1,1 +1,0 @@
-craftingTable.addShaped("evil_eye",<item:endrem:evil_eye>, [[<item:create:experience_block>,<item:create:precision_mechanism>.reuse(),<item:create:experience_block>],[<item:create:brass_ingot>,<item:minecraft:ender_eye>,<item:create:polished_rose_quartz>],[<item:create:sturdy_sheet>,<item:create:wrench>.reuse(),<item:create:sturdy_sheet>]]);

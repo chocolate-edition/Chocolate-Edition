@@ -1,0 +1,27 @@
+import crafttweaker.api.entity.attribute.AttributeOperation;
+
+<item:enlightened_end:adamantite_armor_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, AttributeIds.helmet, "Buff_Adamantite_Helmet_armor", 5.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:enlightened_end:adamantite_armor_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, AttributeIds.chestplate, "Buff_Adamantite_Chest_armor", 10.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:enlightened_end:adamantite_armor_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, AttributeIds.leggings, "Buff_Adamantite_Leggings_armor", 8.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:enlightened_end:adamantite_armor_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, AttributeIds.boots, "Buff_Adamantite_Helmet_armor", 5.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+<item:enlightened_end:adamantite_armor_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, AttributeIds.adamantiteSpeedHelmet, "Nerf_Adamantite_Helmet_Speed", -0.125, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
+<item:enlightened_end:adamantite_armor_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, AttributeIds.adamantiteSpeedChestplate, "Nerf_Adamantite_Chest_Speed", -0.125, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
+<item:enlightened_end:adamantite_armor_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, AttributeIds.adamantiteSpeedLeggings, "Nerf_Adamantite_Leggings_Speed", -0.125, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
+<item:enlightened_end:adamantite_armor_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, AttributeIds.adamantiteSpeedBoots, "Nerf_Adamantite_Helmet_Speed", -0.125, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
+
+<item:enlightened_end:adamantite_armor_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, AttributeIds.helmet, "Nerf_Adamantite_Helmet_resist", 0.15, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:enlightened_end:adamantite_armor_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, AttributeIds.chestplate, "Nerf_Adamantite_Chest_resist", 0.15, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:enlightened_end:adamantite_armor_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, AttributeIds.leggings, "Nerf_Adamantite_Leggings_resist", 0.15, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:enlightened_end:adamantite_armor_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, AttributeIds.boots, "Nerf_Adamantite_Helmet_resist", 0.15, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+<item:enlightened_end:adamantite_armor_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, AttributeIds.helmet, "Nerf_Adamantite_Helmet_attack", -0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:enlightened_end:adamantite_armor_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, AttributeIds.chestplate, "Nerf_Adamantite_Chest_attack", -0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:enlightened_end:adamantite_armor_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, AttributeIds.leggings, "Nerf_Adamantite_Leggings_attack", -0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:enlightened_end:adamantite_armor_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, AttributeIds.boots, "Nerf_Adamantite_Helmet_attack", -0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+<item:enlightened_end:adamantite_armor_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, AttributeIds.helmet, "Buff_Adamantite_Helmet_health", 1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:enlightened_end:adamantite_armor_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, AttributeIds.chestplate, "Buff_Adamantite_Chest_health", 1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:enlightened_end:adamantite_armor_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, AttributeIds.leggings, "Buff_Adamantite_Leggings_health", 1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:enlightened_end:adamantite_armor_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, AttributeIds.boots, "Buff_Adamantite_Helmet_health", 1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+

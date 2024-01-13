@@ -770,9 +770,6 @@
 			]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "mutantmonsters:endersoul_hand"
 				tag: {
 					Damage: 0
@@ -859,13 +856,7 @@
 				""
 				"\"In its final phase, it'll get on all fours and crawl towards you, dealing contact damage and summoning minions. Go for melee swings and back off to heal if your health drops too far. Simple as that.\""
 			]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "cataclysm:monstrous_eye"
-			}
+			icon: "cataclysm:monstrous_eye"
 			id: "601654897E7167DF"
 			subtitle: "Open the Quest for summoning details"
 			tasks: [{
@@ -907,13 +898,7 @@
 				"\"\""
 				"\"&5A great force lays dormant...&r\""
 			]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "witherstormmod:withered_nether_star"
-			}
+			icon: "witherstormmod:withered_nether_star"
 			id: "6A1E39127C70BD81"
 			size: 1.5d
 			subtitle: "What lies beyond the End..."
@@ -2133,9 +2118,6 @@
 					entity: "conjurer_illager:conjurer"
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "conjurer_illager:conjurer_hat"
 						tag: {
 							Damage: 0
@@ -2147,117 +2129,63 @@
 				}
 				{
 					entity: "mutantmonsters:mutant_zombie"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:zombie_head"
-					}
+					icon: "minecraft:zombie_head"
 					id: "47075163AD442F48"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmonsters:mutant_skeleton"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:skeleton_skull"
-					}
+					icon: "minecraft:skeleton_skull"
 					id: "3C38ED6ECBD47232"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmonsters:mutant_creeper"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:creeper_head"
-					}
+					icon: "minecraft:creeper_head"
 					id: "50E3537D9441DCE1"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmonsters:mutant_enderman"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "supplementaries:enderman_head"
-					}
+					icon: "supplementaries:enderman_head"
 					id: "491C476AB8B2F01F"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmore:mutant_wither_skeleton"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:wither_skeleton_skull"
-					}
+					icon: "minecraft:wither_skeleton_skull"
 					id: "568912151D798690"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmore:mutant_blaze"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "create:blaze_burner"
-					}
+					icon: "create:blaze_burner"
 					id: "42FBAED0D3A1823D"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmore:mutant_shulker"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:shulker_shell"
-					}
+					icon: "minecraft:shulker_shell"
 					id: "01E6D9D23D7B8FD9"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "aquamirae:captain_cornelia"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "aquamirae:shell_horn"
-					}
+					icon: "aquamirae:shell_horn"
 					id: "04BC9FEF88A22C12"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "majruszsdifficulty:cerberus"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersdelight:dog_food"
-					}
+					icon: "farmersdelight:dog_food"
 					id: "3B5EEFC3D834886B"
 					type: "kill"
 					value: 1L
@@ -2266,9 +2194,6 @@
 					entity: "illageandspillage:freakager"
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "mutantmonsters:chemical_x"
@@ -2280,13 +2205,7 @@
 				}
 				{
 					entity: "illageandspillage:spiritcaller"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "paraglider:spirit_orb"
-					}
+					icon: "paraglider:spirit_orb"
 					id: "774BD49ADEBE5237"
 					type: "kill"
 					value: 1L
@@ -2295,9 +2214,6 @@
 					entity: "illageandspillage:magispeller"
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "endrem:magical_eye"
 						tag: {
 							Damage: 0
@@ -2309,13 +2225,7 @@
 				}
 				{
 					entity: "born_in_chaos_v1:sir_pumpkinhead"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:evil_carved_pumpkin"
-					}
+					icon: "born_in_chaos_v1:evil_carved_pumpkin"
 					id: "3FEED688E114C32B"
 					type: "kill"
 					value: 1L
@@ -2324,9 +2234,6 @@
 					entity: "blue_skies:alchemist"
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "blue_skies:alchemy_scroll"
 						tag: {
 							Damage: 0
@@ -2338,26 +2245,14 @@
 				}
 				{
 					entity: "blue_skies:summoner"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:orbofthe_summoner"
-					}
+					icon: "born_in_chaos_v1:orbofthe_summoner"
 					id: "7C98D0D2D6120ABA"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "blue_skies:starlit_crusher"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:astrolabe"
-					}
+					icon: "blue_skies:astrolabe"
 					id: "11A2992D35479CA5"
 					type: "kill"
 					value: 1L
@@ -2366,9 +2261,6 @@
 					entity: "blue_skies:arachnarch"
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "blue_skies:venom_sac"
 						tag: {
 							Damage: 0
@@ -2380,13 +2272,7 @@
 				}
 				{
 					entity: "minecraft:elder_guardian"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "upgrade_aquatic:elder_eye"
-					}
+					icon: "upgrade_aquatic:elder_eye"
 					id: "2968D4232BB0845B"
 					type: "kill"
 					value: 1L
@@ -2404,13 +2290,7 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:dragon_head"
-					}
+					icon: "minecraft:dragon_head"
 					id: "3D61376D62A8AC2A"
 					item: {
 						Count: 1b
@@ -2424,52 +2304,28 @@
 				}
 				{
 					entity: "unusualend:endstone_golem"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualend:shulker_orb"
-					}
+					icon: "unusualend:shulker_orb"
 					id: "53650C32F8967738"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "cataclysm:ender_golem"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:crying_obsidian"
-					}
+					icon: "minecraft:crying_obsidian"
 					id: "63E61A71A3ECDD03"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "cataclysm:ender_guardian"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "cataclysm:void_core"
-					}
+					icon: "cataclysm:void_core"
 					id: "5DADA27E0EF02E23"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "cataclysm:the_leviathan"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "cataclysm:abyssal_sacrifice"
-					}
+					icon: "cataclysm:abyssal_sacrifice"
 					id: "589D6E6D091AD5F1"
 					type: "kill"
 					value: 1L
@@ -2478,9 +2334,6 @@
 					entity: "cataclysm:netherite_monstrosity"
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "cataclysm:monstrous_helm"
 						tag: {
 							Damage: 0
@@ -2492,13 +2345,7 @@
 				}
 				{
 					entity: "cataclysm:ignited_revenant"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "cataclysm:burning_ashes"
-					}
+					icon: "cataclysm:burning_ashes"
 					id: "35C610A6D01FF6FE"
 					type: "kill"
 					value: 1L
@@ -2517,13 +2364,7 @@
 				}
 				{
 					entity: "cataclysm:the_harbinger"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "cataclysm:witherite_ingot"
-					}
+					icon: "cataclysm:witherite_ingot"
 					id: "5E377430058DE713"
 					type: "kill"
 					value: 1L
@@ -2532,9 +2373,6 @@
 					entity: "witherstormmod:withered_symbiont"
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "minecraft:tipped_arrow"
 						tag: {
 							Potion: "mutantmonsters:chemical_x"
@@ -2559,13 +2397,7 @@
 				}
 				{
 					entity: "iter_rpg:sorrowsealed"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "iter_rpg:grim_keyhole"
-					}
+					icon: "iter_rpg:grim_keyhole"
 					id: "1C1FE013CE35DB99"
 					type: "kill"
 					value: 1L
@@ -2574,9 +2406,6 @@
 					entity: "iter_rpg:insatiable"
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "iter_rpg:hydra"
 						tag: {
 							Damage: 0
@@ -2588,52 +2417,28 @@
 				}
 				{
 					entity: "meetyourfight:dame_fortuna"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "meetyourfight:slicers_dice"
-					}
+					icon: "meetyourfight:slicers_dice"
 					id: "1D34C4C0579D6FAA"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "meetyourfight:rosalyne"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "enigmaticlegacy:twisted_heart"
-					}
+					icon: "enigmaticlegacy:twisted_heart"
 					id: "1FBD760850C1E094"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "predators:prisnautilus"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:nautilus_shell"
-					}
+					icon: "minecraft:nautilus_shell"
 					id: "425164E2AEC6B7BE"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "predators:rock_boss"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "predators:amethyst_geode"
-					}
+					icon: "predators:amethyst_geode"
 					id: "123D4B4857E0848F"
 					type: "kill"
 					value: 1L
@@ -2642,22 +2447,6 @@
 					entity: "predators:huntsman"
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [{
-									data: [{
-										id: "dungeons_gear:masters_call"
-										lvl: 1s
-									}]
-									source: "dungeons_libraries:gear_config"
-								}]
-							}
-							"dungeons_libraries:ranged_abilities": {
-								dynamicChargeTime: 0.0f
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
 						id: "dungeons_gear:hunting_bow"
 						tag: {
 							Damage: 0
@@ -2669,13 +2458,7 @@
 				}
 				{
 					entity: "predators:scarab"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "alexsmobs:soul_heart"
-					}
+					icon: "alexsmobs:soul_heart"
 					id: "3A32CC8DFB7DA3A3"
 					type: "kill"
 					value: 1L
@@ -2684,9 +2467,6 @@
 					entity: "graveyard:lich"
 					icon: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "iter_rpg:bloodbranch"
 						tag: {
 							Damage: 0
@@ -2698,13 +2478,7 @@
 				}
 				{
 					entity: "queen_bee:queen_bee"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "queen_bee:queen_bee_spawn_egg"
-					}
+					icon: "queen_bee:queen_bee_spawn_egg"
 					id: "6C50E89BE9537304"
 					type: "kill"
 					value: 1L
@@ -2735,26 +2509,14 @@
 				}
 				{
 					entity: "alexsmobs:warped_mosco"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "alexsmobs:warped_muscle"
-					}
+					icon: "alexsmobs:warped_muscle"
 					id: "10E8DE3C333D42A1"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "cataclysm:amethyst_crab"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "cataclysm:amethyst_crab_shell"
-					}
+					icon: "cataclysm:amethyst_crab_shell"
 					id: "6FF0329991E1C139"
 					type: "kill"
 					value: 1L
@@ -3239,13 +3001,7 @@
 			subtitle: "Kill mama leviathan, because this isn't planet 4546b anymore, and hatch her egg. Hug the child."
 			tasks: [
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "cataclysm:abyssal_egg"
-					}
+					icon: "cataclysm:abyssal_egg"
 					id: "685B4485EA8CC16F"
 					observe_type: 5
 					timer: 0L
@@ -3498,13 +3254,7 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "endertrigon:baby_dragon_egg"
-					}
+					icon: "endertrigon:baby_dragon_egg"
 					id: "5F98FE992C9F46F1"
 					observe_type: 5
 					timer: 0L
@@ -3603,9 +3353,6 @@
 			dependencies: ["1D2B8979C481D22E"]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -3629,9 +3376,6 @@
 			dependencies: ["1D2B8979C481D22E"]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
