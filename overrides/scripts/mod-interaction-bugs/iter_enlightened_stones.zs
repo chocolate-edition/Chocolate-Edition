@@ -43,7 +43,7 @@ CTEventManager.register<BlockBreakEvent>((event) => {
   .withParameter<Vec3>(LootContextParams.origin(), origin)
   .withParameter<ItemStack>(LootContextParams.tool(), toolUsed)
   .withParameter<BlockState>(LootContextParams.blockState(), event.getBlockState())
-  .create(lootTable.paramSet);
+  .build(lootTable.paramSet);
 
   // spawn the loot
   var rollTable = lootTable.getRandomItems(context);
