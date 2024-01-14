@@ -17,6 +17,7 @@ overrides/local/
 overrides/journeymap/
 overrides/fancymenu_data/
 overrides/saves/
+overrides/simplebackups/
 overrides/config/jei/world/
 overrides/config/blockswap/known_states/
 *.bak
