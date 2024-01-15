@@ -21,7 +21,7 @@
 <tag:items:chocolate:mage>.add(<item:dungeons_mobs:mage_chestplate>);
 <tag:items:chocolate:mage>.add(<item:dungeons_mobs:mage_leggings>);
 <tag:items:chocolate:mage>.add(<item:dungeons_mobs:mage_boots>);
-
+ 
 // ----- Iceologer Armor -----
 // Used in Magical Eye
 <tag:items:chocolate:iceologer>.add(<item:dungeons_mobs:iceologer_helmet>);
