@@ -118,6 +118,8 @@ if you are adding or removing mods, there is a process you must follow in order 
 
 8. commit and push the changes, open a PR and wait for review.
 
+### Once a mod change has been approved, all active developers must add or remove it on their own instance before making any further mod changes
+
 
 
 # Getting Started
