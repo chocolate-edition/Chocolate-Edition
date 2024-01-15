@@ -14,6 +14,10 @@ Available on CurseForge at https://legacy.curseforge.com/minecraft/modpacks/mc-c
     - [setting up VScode]("setting-up-vscode)
   - [useful git commands](#Git-Terminal-Notes)
 
+
+### for a better github notification experience without having your email spammed, try [notifier for github extension](https://github.com/sindresorhus/notifier-for-github)
+
+
 # Contribution guide:
 
 ## Creating Issues
