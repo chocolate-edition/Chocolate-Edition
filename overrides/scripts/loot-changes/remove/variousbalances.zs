@@ -18,7 +18,6 @@ import stdlib.List;
 
 // <entity>.addLootModifier("name", CommonLootModifiers.remove(<item>));
 <entitytype:minecraft:iron_golem>.addLootModifier("remove", CommonLootModifiers.remove(<item:minecraft:iron_block>));
-<entitytype:goodall:deer>.addLootModifier("remove2", CommonLootModifiers.remove(<item:goodall:raw_venison>));
 <entitytype:naturalist:deer>.addLootModifier("remove3", CommonLootModifiers.remove(<item:naturalist:venison>));
 <entitytype:predators:rock_boss>.addLootModifier("remove4", CommonLootModifiers.remove(<item:minecraft:enchanted_golden_apple>));
 

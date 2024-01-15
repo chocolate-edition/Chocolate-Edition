@@ -1,0 +1,2402 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_items"
+	group: "75DA3C44FB5FAC43"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tetra:items/module/toolbelt/belt/buckled"
+		}
+	}
+	id: "66BE6EBB8A2404EE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/5.png"
+			rotation: 0.0d
+			width: 5.0568181818181825d
+			x: 7.75d
+			y: -7.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/48.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 19.25d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "chocolate:textures/81.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 2.25d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/68.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -4.75d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "chocolate:textures/66.png"
+			rotation: 0.0d
+			width: 7.325914149443561d
+			x: 20.0d
+			y: 14.25d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "iter_rpg:items/elemental_sword"
+				}
+			}
+			id: "538216B8378B0B90"
+			shape: "square"
+			size: 2.5d
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "6C252B088DA14674"
+				title: "Useful Items"
+				type: "checkmark"
+			}]
+			title: "Combat"
+			x: 1.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["538216B8378B0B90"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:textures/attribute/armor_toughness.png"
+				}
+			}
+			id: "0FE6EA7C238E2EFF"
+			shape: "square"
+			title: "Gear"
+			x: 3.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0FE6EA7C238E2EFF"]
+			id: "27265C67903D9BD5"
+			rewards: [{
+				id: "2682396909637E0C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "You'll need a shield all the time for combat. Many shields are acquired through other corners of the world that have various effects."
+			tasks: [{
+				id: "403F9C0BBBA240E7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["538216B8378B0B90"]
+			icon: {
+				Count: 1b
+				id: "environmental:architect_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "370A006E09167300"
+			shape: "square"
+			title: "Utility"
+			x: 1.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["538216B8378B0B90"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "jeed:textures/gui/effects.png"
+				}
+			}
+			id: "2BB27E5C4A460ED1"
+			shape: "square"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			title: "Buffs"
+			x: 1.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["370A006E09167300"]
+			id: "22129591CD8E5D88"
+			rewards: [{
+				id: "61A66D1FDD77E86C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Break Spawners with Flamarang or Echorang upgrades"
+			tasks: [{
+				id: "5B2469453021F103"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "quark:pickarang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["538216B8378B0B90"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "iter_rpg:items/enchantome"
+				}
+			}
+			id: "17F92ED735FCA1B2"
+			shape: "square"
+			title: "Gear"
+			x: -0.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["17F92ED735FCA1B2"]
+			id: "444F2280A18171B5"
+			progression_mode: "linear"
+			rewards: [{
+				id: "3B4DA39E1C1971DE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Use lapis and xp to add blocks that stack to add levels of enchantments."
+			tasks: [{
+				id: "1BFE81B6B295ECCF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:enchanting_table"
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["444F2280A18171B5"]
+			id: "2AE623129917E718"
+			rewards: [{
+				id: "2C0A3A48E179B579"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Use a enchanted tool and a flint and steel."
+			tasks: [{
+				id: "5765505DC2050E98"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "infusion_table:infusion_table"
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["17F92ED735FCA1B2"]
+			id: "503333B4E71BA2D9"
+			rewards: [{
+				id: "43FEF13546FCE5E6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Right click a crafting table."
+			tasks: [{
+				id: "74C242819F46ABCA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "bc24cc18-abac-438d-8ab6-2f1d43986216"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["2BB27E5C4A460ED1"]
+			id: "2A28CC04A1A7A8CA"
+			rewards: [{
+				id: "03B7EE7E2D784412"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3DBAE9DE3FF454A5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2BB27E5C4A460ED1"]
+			id: "66FEA1580143A5E0"
+			rewards: [{
+				id: "62722DC221273979"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7711241D1C1CCF05"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:poison_resistance"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["2BB27E5C4A460ED1"]
+			id: "57492B4FBB5681F7"
+			rewards: [{
+				id: "113AAE5206410445"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2EBEF8447C75FEDB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["11041BD573D0952C"]
+			id: "0FB63223A2131192"
+			rewards: [{
+				id: "5423A616D9D255AF"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5676033957947C2D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "artifacts:running_shoes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.309999999999999d
+			y: -3.8100000000000005d
+		}
+		{
+			dependencies: ["66FEA1580143A5E0"]
+			id: "6A7CF401B19F38A8"
+			rewards: [{
+				id: "5A8EEAB42F4AC392"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4AECFFEE603C20CC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "artifacts:antidote_vessel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["2A28CC04A1A7A8CA"]
+			id: "3C14D16B8BC3447C"
+			rewards: [{
+				id: "034B43DA6949F79E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "33CCFA78726FB68A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "artifacts:power_glove"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["17F92ED735FCA1B2"]
+			id: "1604CE8D776AED62"
+			rewards: [{
+				id: "255B2C1DFEA10A9A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Bring an anvil on adventures."
+			tasks: [{
+				id: "0057010EBE5E6A6A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:anvil"
+				}
+				type: "item"
+			}]
+			title: "Repairing is necessary in this modpack; be sure to repair a lot to keep your gear from breaking. It breaks really fast with all the adventures in this pack."
+			x: -5.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["444F2280A18171B5"]
+			id: "2F3283BFEF7EE8F8"
+			rewards: [{
+				id: "00D5E6933FB09419"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Necessary."
+			tasks: [{
+				id: "0BA4CE9E674A442E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Mending Book"
+			x: -3.905000000000001d
+			y: -3.75d
+		}
+		{
+			dependencies: ["0FE6EA7C238E2EFF"]
+			id: "11041BD573D0952C"
+			rewards: [{
+				id: "5F82C8E78EA29C22"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "26F9FECCCBB5A462"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.27d
+			y: -2.210000000000001d
+		}
+		{
+			dependencies: ["22129591CD8E5D88"]
+			id: "022544B171CDA6CE"
+			rewards: [{
+				id: "174CD39F3785FF07"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			tasks: [{
+				id: "090BA3989F3A04FF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "quark:flamerang"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "quark:echorang"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.8299999999999983d
+			y: -5.77d
+		}
+		{
+			dependencies: ["27265C67903D9BD5"]
+			id: "25D97ADABC8A3632"
+			rewards: [{
+				id: "7B85249792C3DE3C"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			subtitle: "Upgrade your shield fully."
+			tasks: [{
+				id: "235DD267D5F53122"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "shieldexp:netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["503333B4E71BA2D9"]
+			id: "4B03D38166D951CF"
+			rewards: [{
+				id: "1B27400F4D3F7629"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			subtitle: "The next step to get a Tier 5 and above obsidian hammer. T5->obsidian,T6->tier upgrade,T7->netherite,"
+			tasks: [{
+				id: "1A8B02E87D630F93"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:forged_workbench"
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: -4.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:recovery_compass"
+			id: "78E50217106635B5"
+			shape: "square"
+			size: 2.5d
+			subtitle: "In order of roughly early game to end game items. [CLICK CHECKMARK TO EXPAND]"
+			title: "Exploration"
+			x: 11.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0D073B03B578CEC0"]
+			disable_toast: true
+			id: "0209D8EA435A391E"
+			rewards: [{
+				id: "6CEA20166CB92E03"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Actually used for everything."
+			tasks: [{
+				id: "161C12AE5B728040"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.25d
+			y: 3.125d
+		}
+		{
+			dependencies: ["0B0846438DCD4AE4"]
+			id: "3DFFC1E26093A929"
+			rewards: [{
+				id: "75B546A861717225"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "32E2B41F28F567B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0B0846438DCD4AE4"]
+			id: "41504B4D659DA34A"
+			rewards: [{
+				id: "76DCEA01CFE8B7F1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "6014AF516F3DCE55"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:saddle"
+					}
+					type: "item"
+				}
+				{
+					id: "3AF00A7C1546D903"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:horse_feed"
+					}
+					type: "item"
+				}
+			]
+			title: "Get mount materials."
+			x: 10.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0B0846438DCD4AE4"]
+			id: "3F2C76DC21CF11C9"
+			rewards: [{
+				id: "69A9A0B1D1699CAC"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "This baby will get ya home when holding right click for 10 seconds uninterrupted."
+			tasks: [{
+				id: "4E054188B6BFBE84"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.75d
+		}
+		{
+			dependencies: ["0B0846438DCD4AE4"]
+			id: "3291DD3425A92D43"
+			rewards: [{
+				id: "2E54E9E090C07D50"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1D1A1B296810149E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "paraglider:paraglider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["78E50217106635B5"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/map"
+				}
+			}
+			id: "0B0846438DCD4AE4"
+			shape: "square"
+			title: "Traversal"
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["78E50217106635B5"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/compass"
+				}
+			}
+			id: "0D073B03B578CEC0"
+			shape: "square"
+			title: "Location"
+			x: 14.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["78E50217106635B5"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "environmental:architect_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4967D5F3174F6850"
+			shape: "square"
+			title: "Utility"
+			x: 8.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4967D5F3174F6850"]
+			id: "4DD6D7167364F493"
+			rewards: [{
+				id: "23F0982BBC6F7FC1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "You'll need light, everywhere. More than vanilla."
+			tasks: [{
+				count: 64L
+				id: "67170C90699F4B74"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0B0846438DCD4AE4"]
+			id: "0EF0FF7668EF1F78"
+			rewards: [{
+				id: "734A6D62ED5A0C18"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "315DBBA12B9DA5F5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "artifacts:cloud_in_a_bottle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["78D0872F5A13C5B4"]
+			id: "64A2215E9AA16930"
+			rewards: [{
+				id: "594FC50824B9B1B6"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			tasks: [{
+				id: "351EFE2CF2460D8E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "cataclysm:tidal_claws"
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0B0846438DCD4AE4"]
+			id: "78D0872F5A13C5B4"
+			rewards: [{
+				id: "0BA3F263BCF5135E"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			subtitle: "Sqoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooook"
+			tasks: [{
+				id: "283B3AB8BD988A29"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:squid_grapple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.25d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0D073B03B578CEC0"]
+			id: "43DBE60DC08C8936"
+			rewards: [{
+				id: "056A2E0481854D80"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			tasks: [{
+				id: "36D90C953905345B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:enderium_shard_locator"
+				}
+				type: "item"
+			}]
+			x: 15.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4967D5F3174F6850"]
+			id: "7983A32F29C9D059"
+			rewards: [{
+				id: "5F23D93118CCB2E7"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			subtitle: "Water Breathing 2.0. Also lets you breath above y=320. "
+			tasks: [{
+				id: "7C4FD5B5EDF26059"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["4967D5F3174F6850"]
+			id: "5F83E1E30887CD2E"
+			rewards: [{
+				id: "5AD2E4C068ADE2B4"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			subtitle: "The Classic."
+			tasks: [{
+				id: "4E103CD3489B8537"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7983A32F29C9D059"]
+			id: "65CEC2BF732AFC5D"
+			rewards: [{
+				id: "7F7BC02B928609FB"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5840B412376327AF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "artifacts:snorkel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3291DD3425A92D43"]
+			id: "2542A4FE57D3622A"
+			rewards: [{
+				id: "4491AE05597258D1"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			tasks: [{
+				id: "23298698784D3EBD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "artifacts:umbrella"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5F83E1E30887CD2E"]
+			id: "54C25826B268EDEF"
+			rewards: [{
+				id: "0906F1D0F67A0FF3"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4CA01657FDBA6525"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "artifacts:obsidian_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["4DD6D7167364F493"]
+			id: "068B968BDEA6BEA4"
+			rewards: [{
+				id: "00B68C15C4053A40"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7DE831D2BBE65C8A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3291DD3425A92D43"]
+			id: "7BED8B0B0B634682"
+			rewards: [{
+				id: "247117979D6D854C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5FC5BEB7F4179A4D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:slow_falling"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3DFFC1E26093A929"]
+			id: "08C134A8BAA03633"
+			rewards: [{
+				id: "341B8AAD950F2B2C"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			tasks: [{
+				id: "26C0F4A2130BCD89"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.75d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0B0846438DCD4AE4"]
+			id: "093EA458A37D6D4B"
+			rewards: [{
+				id: "5E435282B4808C2E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0B02C031FADC0F0A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:water_bucket"
+					tag: {
+						Purity: -1
+					}
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["093EA458A37D6D4B"]
+			id: "5CDC4E1B050E2DAC"
+			rewards: [{
+				id: "1D06957F7F8EC756"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Caving necessity."
+			tasks: [{
+				id: "38903E4EB08D0CCB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "farmersdelight:rope"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "supplementaries:rope"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "quark:rope"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Right click rope to place more rope below it"
+			x: 8.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4EB20E7651FBF99C"]
+			icon: "waystones:waystone"
+			id: "0033D56F43CF73BC"
+			rewards: [{
+				id: "5578CAF9467D49D8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 3.0d
+			subtitle: "Place it only once for your base. That is the intended experience; however if you end up carrying it around with you, i can't stop you."
+			tasks: [{
+				id: "49B26960800CA1C9"
+				title: "A Waystone for your Base"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			disable_toast: true
+			icon: "iter_rpg:big_vase"
+			id: "03E1F82B1F4D6090"
+			shape: "square"
+			size: 2.5d
+			subtitle: "In order of roughly early game to end game items. [CLICK CHECKMARK TO EXPAND]"
+			title: "Building/Crafting"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["03E1F82B1F4D6090"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "unusualend:blocks/teleportation_anchor_side"
+				}
+			}
+			id: "4EB20E7651FBF99C"
+			shape: "square"
+			title: "Transport"
+			x: 4.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["03E1F82B1F4D6090"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "structure_gel:item/building_tool_clear"
+				}
+			}
+			id: "166819E5738C69F1"
+			shape: "square"
+			title: "Building Tools"
+			x: -2.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["166819E5738C69F1"]
+			id: "7DAA0D155B2B7A21"
+			shape: "square"
+			subtitle: "Rotates Blocks."
+			tasks: [{
+				id: "037287B516178B88"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["166819E5738C69F1"]
+			id: "54D794151774FD29"
+			rewards: [{
+				id: "090F6A36C4C46397"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Used to rearrange everything in machines."
+			tasks: [{
+				id: "1899296FBD05D27C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:wrench"
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 9.25d
+		}
+		{
+			dependencies: ["166819E5738C69F1"]
+			id: "53A53D38BE2E104E"
+			rewards: [{
+				id: "3AA91A5424C2166E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Auto-Crafts, and has a bigger crafting grid for more complex recipes."
+			tasks: [{
+				count: 21L
+				id: "415670117F8A0903"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:mechanical_crafter"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.75d
+		}
+		{
+			dependencies: ["4EB20E7651FBF99C"]
+			id: "77D0BEE08C7D8A30"
+			rewards: [
+				{
+					id: "073DD567DB5F2755"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 1000
+					id: "440BBA15B1A1E24E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6D7A9B5CCFEF5E3A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Based."
+			tasks: [
+				{
+					id: "4948EAF2E645CD63"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:track_station"
+					}
+					type: "item"
+				}
+				{
+					id: "1ABFC6B8722269B8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:schedule"
+					}
+					type: "item"
+				}
+			]
+			title: "Craft Materials to Create a Train"
+			x: 1.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["4EB20E7651FBF99C"]
+			id: "0231B3204422DF7D"
+			rewards: [{
+				id: "0183F92CEACBA91A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Get enough obsidian for a nether highway. For every block in the overworld, you travel 8 blocks in the nether"
+			tasks: [{
+				count: 10L
+				id: "0C0EAA802319ACB0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["166819E5738C69F1"]
+			id: "34B64114D3F324B4"
+			rewards: [{
+				id: "523D683C72131777"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Used for Importing Structures (You just need to give the cannon all the building resources)."
+			tasks: [
+				{
+					id: "7A0FA3D5E5DFFE72"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:schematicannon"
+					}
+					type: "item"
+				}
+				{
+					id: "79D309494085D7D6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:schematic_table"
+					}
+					type: "item"
+				}
+				{
+					id: "575BED832EB6E3BE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:schematic_and_quill"
+					}
+					type: "item"
+				}
+			]
+			x: -6.25d
+			y: 14.25d
+		}
+		{
+			dependencies: ["53A53D38BE2E104E"]
+			id: "1953E464E53F6EAD"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Symmetrically places blocks."
+			tasks: [{
+				id: "77E39A3D9BD7FD47"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:wand_of_symmetry"
+				}
+				type: "item"
+			}]
+			x: -4.125d
+			y: 13.5d
+		}
+		{
+			dependencies: ["53A53D38BE2E104E"]
+			id: "05C572690CE858E7"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Extends building range."
+			tasks: [{
+				id: "452C66FD60BB62CE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.125d
+			y: 12.0d
+		}
+		{
+			dependencies: ["166819E5738C69F1"]
+			id: "4CF78D04F1809F2F"
+			shape: "square"
+			tasks: [{
+				id: "593A30FADF480C64"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "quark:abacus"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["166819E5738C69F1"]
+			id: "52521A5AF643E110"
+			rewards: [{
+				id: "3ACF74A89181C743"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Lets you see how much rotational power/stress capacity your machine has."
+			tasks: [
+				{
+					id: "093294CB58E11E7F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:speedometer"
+					}
+					type: "item"
+				}
+				{
+					id: "0FB7BE6C6BB6D62F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:stressometer"
+					}
+					type: "item"
+				}
+				{
+					id: "54E323A51BCCA24A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:goggles"
+					}
+					type: "item"
+				}
+			]
+			x: -3.25d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7CFCF3BA7E2B325C"]
+			icon: "minecraft:ender_chest"
+			id: "60855B118C2FE854"
+			shape: "square"
+			size: 2.5d
+			subtitle: "In order of roughly early game to end game items. [CLICK CHECKMARK TO EXPAND]"
+			title: "Resources"
+			x: 16.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11EBBF0582196361"]
+			description: [""]
+			id: "37BF90821BD794F7"
+			rewards: [
+				{
+					id: "2177FFB7D87FD034"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 64
+					id: "31FB5ECDC70B7D94"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "toms_storage:ts.inventory_cable"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6700B8B0FE421AD3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Essential for everything."
+			tasks: [
+				{
+					id: "234C61FA4E42FF0E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "toms_storage:ts.inventory_connector"
+					}
+					type: "item"
+				}
+				{
+					id: "61324CB5DD015B2C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "toms_storage:ts.crafting_terminal"
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a storage terminal and inventory connector."
+			x: 16.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["37BF90821BD794F7"]
+			id: "1CCB4EEC8F9A3237"
+			rewards: [{
+				id: "4F540F6B912E819E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Bulk storage of unstackable items."
+			tasks: [{
+				id: "3CCDC76DF90050E4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "quark:crate"
+				}
+				type: "item"
+			}]
+			x: 14.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["37BF90821BD794F7"]
+			id: "376F863F0DE24C3B"
+			rewards: [{
+				id: "369338CE4DAB6F91"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			subtitle: "Get you some bulk storage of single items."
+			tasks: [{
+				id: "3A0950A387B29D36"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:mod"
+					tag: {
+						value: "storagedrawers"
+					}
+				}
+				type: "item"
+			}]
+			title: "Storage Drawer"
+			x: 18.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["60855B118C2FE854"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/lock_open"
+				}
+			}
+			id: "11EBBF0582196361"
+			shape: "square"
+			title: "Storage"
+			x: 16.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["60855B118C2FE854"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "sophisticatedbackpacks:item/upgrade_base"
+				}
+			}
+			id: "540D082F619C2E91"
+			shape: "square"
+			title: "Inventory"
+			x: 18.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["540D082F619C2E91"]
+			id: "0EA190B243E804A1"
+			rewards: [{
+				id: "1E64FBF31E9B2310"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "More useful than vanilla. If held, can right click the air to open. If hovered over in inventory, can scroll through items and right click to extract them. "
+			tasks: [{
+				id: "16EAD2CA3DC23027"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:ender_chest"
+				}
+				type: "item"
+			}]
+			x: 21.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["540D082F619C2E91"]
+			description: ["! DO NOT CRAFT UNTIL YOU HAVE 3 EYES. Made from ravager hide, which drops from ravagers."]
+			id: "65F1ADEF2DE1A4D4"
+			rewards: [{
+				id: "7AE45C7E1178EEC6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Doubles base inventory storage."
+			tasks: [{
+				id: "1C3F3E97D80CDA33"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "quark:backpack"
+					tag: {
+						Inventory: [
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 21.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["11EBBF0582196361"]
+			id: "36D6307213A1A785"
+			rewards: [{
+				id: "588126129FEEA691"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			subtitle: "Used for automating moving items into inventories."
+			tasks: [{
+				id: "50DDED5A20DD3C02"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:mechanical_arm"
+				}
+				type: "item"
+			}]
+			x: 11.25d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2CF7BCB76B6AB7C9"]
+			id: "0341C44B70E1AF67"
+			rewards: [{
+				id: "44DFCF5F68591D2E"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			subtitle: "Materials: Mainly wood for crafting, but also iron, diamonds(for repairing), and other raw materials can store a lot of versatility in a single slot."
+			tasks: [
+				{
+					count: 64L
+					id: "76E6301F188D49D5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7F42549E076D9140"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "57E8FE2B490DE6E9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			title: "Materials"
+			x: 12.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["60855B118C2FE854"]
+			icon: "enigmaticlegacy:evil_ingot"
+			id: "2CF7BCB76B6AB7C9"
+			shape: "square"
+			title: "Materials"
+			x: 14.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["60855B118C2FE854"]
+			icon: "iter_rpg:geodite"
+			id: "03C270CB97B7F512"
+			shape: "square"
+			title: "Resourceful"
+			x: 16.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03C270CB97B7F512"]
+			id: "2B9CB4FFBD76D708"
+			rewards: [{
+				id: "3F5074560BA01EE2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0DB3B120E745C0F4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:geode"
+				}
+				type: "item"
+			}]
+			title: "Ancient Geode"
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03C270CB97B7F512"]
+			id: "5CBE6DC087ED3D7A"
+			rewards: [{
+				id: "6A08858296710C26"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Geodite, a rare variant of stone, drops 4-8 geodes cracked open w pick "
+			tasks: [{
+				id: "7AA9086CCF1D38EA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "iter_rpg:stone_geode"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "iter_rpg:deepslate_geode"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "iter_rpg:netherrack_geode"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "iter_rpg:blackstone_geode"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "iter_rpg:endstone_geode"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Geodes"
+			x: 17.25d
+			y: 0.5d
+		}
+		{
+			id: "4F00EFAA00FE3478"
+			rewards: [{
+				id: "606085458D9C77AB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "The evolution of this is the keg, which is notably crafted with honeycomb. "
+			tasks: [
+				{
+					id: "0D911382F9FB7729"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersrespite:kettle"
+					}
+					type: "item"
+				}
+				{
+					id: "2A4331C981D602F6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "supplementaries:faucet"
+					}
+					type: "item"
+				}
+			]
+			title: "Kettle/Faucet(Essential for home tea brewing, which is where the good drinks come from.). Put the faucet over the kettle and attach it to a water source, then right click the knob on the faucet."
+			x: 22.75d
+			y: 5.75d
+		}
+		{
+			id: "0BB390D2E283E0DF"
+			rewards: [{
+				id: "0DDF2B0649B5C5D6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5EA04FA06A3F78A0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "17B4A649A4BFC714"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+			]
+			title: "Cooking Pot/Cutting Board: Essential for HOME cooking. Cut up meat, veg, ores, equipment, you name it. Cooking is required for many recipes down the line, and gives you the good food."
+			x: 22.75d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			icon: "farmersdelight:roast_chicken_block"
+			id: "6F3E05793CF05637"
+			shape: "square"
+			size: 2.5d
+			subtitle: "In order of roughly early game to end game items. [CLICK CHECKMARK TO EXPAND]"
+			title: "Agriculture"
+			x: 22.75d
+			y: 9.75d
+		}
+		{
+			icon: "supplementaries:cage"
+			id: "6FAFCDDA64A91CE6"
+			optional: true
+			rewards: [{
+				id: "0700F49A32CD2278"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5B2F84AE9B5EABA9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "supplementaries:cage"
+				}
+				type: "item"
+			}]
+			title: "Cage: While you can shift+right click on all non-huge neutral/passive mobs to pick them up, it can be easier to store multiple small animals in cages at a time."
+			x: 19.25d
+			y: 9.75d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "farmersdelight:block/carrot_crate_top"
+				}
+			}
+			id: "7CED38C3FBC5AE50"
+			shape: "square"
+			title: "Farming"
+			x: 20.75d
+			y: 9.75d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "domesticationinnovation:textures/item/falling_star.png"
+				}
+			}
+			id: "6DB0D52C639AC894"
+			shape: "square"
+			title: "Pets/Mounts"
+			x: 24.75d
+			y: 9.75d
+		}
+		{
+			id: "5DEF7384C9CD422C"
+			rewards: [{
+				id: "3800A2F354DD0E53"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2F5A5CF400F566B6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:animal_guidebook"
+				}
+				type: "item"
+			}]
+			x: 29.75d
+			y: 9.75d
+		}
+		{
+			id: "7F25F1161D4D04DE"
+			rewards: [{
+				id: "6DB400F494C2368F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7BBFB5C54B173C58"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:hunter_guidebook"
+				}
+				type: "item"
+			}]
+			x: 29.75d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "netherdepthsupgrade:item/farmersdelight_compat_food/nether_rice_roll_medley_block"
+				}
+			}
+			id: "39EFFD0E65D699A0"
+			shape: "square"
+			title: "Food"
+			x: 22.75d
+			y: 7.75d
+		}
+		{
+			id: "581CFFC3AA21D700"
+			rewards: [{
+				id: "67D152675789F66C"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			subtitle: "Bed for pets to respawn."
+			tasks: [{
+				id: "693053BF920406BB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "domesticationinnovation:pet_bed_white"
+				}
+				type: "item"
+			}]
+			x: 27.75d
+			y: 9.75d
+		}
+		{
+			id: "20B829D8C67DF9FD"
+			rewards: [{
+				id: "1944AF5663ACD3B8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "170D179C9CA2B4C0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "domesticationinnovation:feather_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 27.75d
+			y: 11.5d
+		}
+		{
+			id: "2D8E05E71FF5E15F"
+			rewards: [{
+				id: "2AE5F2807B0ACC04"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			subtitle: "Enchantable, can be used on ANY PET AND MOUNT. "
+			tasks: [{
+				id: "087DFF66E42D2C2E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "domesticationinnovation:collar_tag"
+				}
+				type: "item"
+			}]
+			x: 26.25d
+			y: 9.75d
+		}
+		{
+			id: "1AC1A9447A342E8C"
+			rewards: [{
+				id: "36D6A27DC2A92B50"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			subtitle: "Diamond hoes can till/replant crops in a 3x3 area, and are used for more than just farming. They break many blocks like leaves, shrooms, sculk, hay, and many more."
+			tasks: [{
+				id: "21EA23E98BCB2E4C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.75d
+			y: 9.75d
+		}
+		{
+			dependencies: ["65F1ADEF2DE1A4D4"]
+			id: "6DAAF7A34673E8EA"
+			rewards: [{
+				id: "40149F3F455C9DD7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Upgrade your backpack once."
+			tasks: [{
+				id: "56BBE961607E6E1F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "sophisticatedbackpacks:iron_backpack"
+				}
+				type: "item"
+			}]
+			x: 23.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["65F1ADEF2DE1A4D4"]
+			id: "560239DDB4CE9312"
+			rewards: [{
+				id: "07CA32204D47FB33"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Upgrade your backpack fully."
+			tasks: [{
+				id: "1C1658416B0806FC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "sophisticatedbackpacks:netherite_backpack"
+				}
+				type: "item"
+			}]
+			x: 23.25d
+			y: -0.5d
+		}
+	]
+	title: "&dUseful Items"
+}

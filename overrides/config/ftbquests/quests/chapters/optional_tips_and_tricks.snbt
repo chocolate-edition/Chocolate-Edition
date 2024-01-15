@@ -1,0 +1,1259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "optional_tips_and_tricks"
+	group: "75DA3C44FB5FAC43"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "jei:textures/gui/icons/info.png"
+		}
+	}
+	id: "6D1A3C0FF56C51EA"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1D2B8979C481D22E"
+			shape: "gear"
+			size: 2.0d
+			title: "Combat mechanics"
+			x: 2.75d
+			y: 4.375d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: "minecraft:magma_block"
+			id: "393BBA63EFC9137F"
+			shape: "gear"
+			subtitle: "Dungeons Gear is a mod that provides a variety of one-off armor, weapons and rarely artifacts that can be found in dungeon chests of all kinds, with the best gear being in the most valuable chest loot tables. Most of the gear is on par with vanilla gear stat wise, and just has abilities and visual aspects that separate them from your standard crafted gear. Try them out sometime!"
+			tasks: [{
+				id: "4163B8BFE918BEA8"
+				title: "Dungeons Gear"
+				type: "checkmark"
+			}]
+			x: 2.7200000000000006d
+			y: 8.175d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/netherite"
+					"double/basic_hammer_right_material": "basic_hammer/netherite"
+					"double/basic_handle_material": "basic_handle/forged_beam"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "7046fd73-dd61-421e-9452-378888497959"
+				}
+			}
+			id: "38E5192E942BAF39"
+			rewards: [{
+				id: "028863A14DB2D688"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			subtitle: "Tetra is a mod like Tinker's Construct that lets you customize vanilla tools. Right click a crafting table to get a Tetra workbench, and put in any vanilla tool to customize each part of it. While Tetra starts off underpowered, it gets really useful once you find schematics and scrolls in dungeon chests, trading, and bartering; which you can apply once you get a Tier 5 hammer from deep underground ancient forge ruins located by a cartographer map trade that occasionally appears. While some tetra materials are used in eye crafting, namely geodes, most are up to you to discover and utilize. Tetra is definitely worth it in the late game and is very fun. "
+			tasks: [{
+				id: "4324CC9317092E9D"
+				title: "Tetra"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: 6.375d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: "majruszsdifficulty:undead_army_treasure_bag"
+			id: "544EDF008AAD8F8B"
+			shape: "gear"
+			subtitle: "Some events/bosses drop treasure bags, like fishing, raids/undead raids, the wither,warden, elder guardian and dragon. How to use specific loot: recall potions drop from raid bags and tp you to your spawn; Soul Bottles give you 3 random effects when held in your offhand, Enderium Locators locate Enderium ore(an upgrade to netherite), etc."
+			tasks: [{
+				id: "4DBCC99616550801"
+				title: "Treasure Bags"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.625d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: "born_in_chaos_v1:armor_plate_from_dark_metal"
+			id: "259834E8FDBFEA43"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Protection is now considerably less overpowered, as in you don't take obscenely low damage from everything and double your health with base diamond armor. Protection IV now makes most solid hits deal half a heart minimum, and stuff like lava, explosions, magic and projectiles arent nearly as well protected universally as before. They still protect, but full protection returns diminishing gains. Instead, I recommend switching out at least a piece of armor for what protection you need for some scenarios. Same with swords; theyre not changed from vanilla but there are easily 5 times more of undead and arthropods, making sword enchants more useful. There are also bane of illagers and other sword damage enchantments that should be considered for different trips. "
+			tasks: [{
+				id: "5768109B9DB5B1A6"
+				title: "Protection/Sharpness Rework"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combatroll:textures/hud/arrow_background.png"
+				}
+			}
+			id: "14C8D51F7E99CBE9"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Dash as much as you can in any given scenario. To dodge attacks, to gain distance, to approach. The long footed enchantment increases the length of the roll, the acrobat enchant increases the recharge, and the multi roll enchant gives you an extra roll per level. These can all be found as treasure enchantments in dungeons and on gear."
+			tasks: [{
+				id: "684320CF91FB5B6F"
+				title: "Dashing"
+				type: "checkmark"
+			}]
+			x: 5.25d
+			y: 4.375d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: "infusion_table:infusion_table"
+			id: "5F68A72963543505"
+			shape: "gear"
+			subtitle: "Disenchanting table, as op as it sounds. Right click it with a book, then give it a enchanted tool; right click with a flint and steel and it destroys the tool but gives you the stripped enchantment on a book upon punching it. Get it asap once you have 9 eyes."
+			tasks: [{
+				id: "379B6C6403F93509"
+				type: "checkmark"
+			}]
+			title: "Disenchanting at the Cost of the Tool"
+			x: 1.0d
+			y: 7.375d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: "minecraft:enchanting_table"
+			id: "2BCD61BBD8C9FDCB"
+			shape: "gear"
+			subtitle: "You now mainly enchant not by grinding to level 30 for everything(though you still need to do that for tomes and book enchanting), but by playing tetris with the enchants you want(which spawn as random block shapes that you need to fit together) to get on each tool. This costs significantly more xp and lapis than vanilla, but isn't a tedious random grind to level 30 and makes you feel like you built up your tool to max power. Lapis is a proper resource now, and high xp levels are no longer required to get enchants (though the more enchants you add the higher the level requirement you must meet to keep adding enchants, but this is like a minimum of up to 15 levels so not that bad)."
+			tasks: [{
+				id: "338FCA4BD69ADAF0"
+				type: "checkmark"
+			}]
+			title: "Tetris Enchanting"
+			x: 4.5d
+			y: 7.375d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: "infernalexp:glowsilk"
+			id: "25ACD36899F05EE8"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Repairing works differently here. Now anvils do not increase cost after using. Mending is not as essential and does not come from villager trading anymore; only dungeons or disenchanting at the infusion table(9 eyes). You can repair with the material meant for the gear, i.e diamonds for diamond/netherite gear, or Glow Silk(found like Ancient debris in Crimson forests, basalt deltas and Glowstone Canyons) can be used to repair everything."
+			tasks: [{
+				id: "2D4AA138684D4D6B"
+				type: "checkmark"
+			}]
+			title: "Repairing and Glowsilk"
+			x: 2.75d
+			y: 1.625d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6006475B8E2A7D9B"
+			rewards: [{
+				id: "3CBADD797067F186"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "You'll always need armor, which works a bit differently here from vanilla: You get set bonuses for equipping the full main armor sets, and Protection enchantment is less overpowered and has less damage reduction, and toughness is just a second, better version of the defense modifier now added on top of your normal defense. Armor durability damage is only taken from actual sources, like hits, lava, standing in fire, etc. It doesn't take damage from passive things like freezing, burning, or thirst."
+			tasks: [{
+				id: "6B7EF4BC9138B7DA"
+				title: "Armor"
+				type: "checkmark"
+			}]
+			title: "Armor Rework"
+			x: 1.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: "mutantmonsters:mutant_creeper_spawn_egg"
+			id: "595341BEA8D71330"
+			shape: "gear"
+			subtitle: "The Mutant beasts are common enemies turned into bosses, so they spawn at every stage of the game. They are Neutral by default, however, and spawn as a rare random replacement for the mobs they're mutated from. They now all have their own effects. All beasts can see and pursuit you from a mile away, get faster the lower health they have, have increased swim speed, jump height, speed, health, slight regeneration and sometimes damage. To get them to be neutral again, the player must run far away and come back. Doesn't take that long, though."
+			tasks: [{
+				id: "5C4D82BF40E9A7C8"
+				title: "Mutant Beasts"
+				type: "checkmark"
+			}]
+			title: "The Mutant Beasts"
+			x: 0.0d
+			y: 3.125d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ensorcellation:soulbound"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "4FF444B590E327FA"
+			shape: "gear"
+			subtitle: "Keeps items on death. Acquired via librarian villagers, or loot. Must have on everything."
+			tasks: [{
+				id: "205E594A44E008FE"
+				title: "Soulbound"
+				type: "checkmark"
+			}]
+			x: 7.199999999999999d
+			y: 3.375d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "5DAEDEF5C6802D97"
+			shape: "gear"
+			subtitle: "Mending can be acquired through trade cycling librarians, or loot. Must have on everything."
+			tasks: [{
+				id: "54E0AA83DE44C72E"
+				title: "Mending"
+				type: "checkmark"
+			}]
+			x: 7.08d
+			y: 5.375d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: "majruszsdifficulty:advancement_expert"
+			id: "68A051FE5006E6C1"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Difficulty Scales in this pack, in that once you enter the Everbright/Everdawn you are put into expert mode. Expert:hundreds of new mobs spawn all over the world, mobs slightly more likely to spawn buffed. Undead Army has two new waves, one with a Tank, the other with Cerberus. All bonuses also increase experience and loot gained from mobs."
+			tasks: [{
+				id: "5822C2F673DC9354"
+				title: "Difficulty Scaling"
+				type: "checkmark"
+			}]
+			x: 2.7750000000000004d
+			y: -1.725d
+		}
+		{
+			dependencies: ["1D2B8979C481D22E"]
+			icon: "minecraft:spawner"
+			id: "7C0F1EC0DB02D22F"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Spawners now expire and break themselves after 20 uses. They are 8 times harder to break than vanilla, and have a farther radius of spawning(about 12(vanilla)->20(chocolate)), so you often get a spawn before you can break it without efficiency five. Oh, and spawning ignores light levels now. This makes dealing with them much harder. However: spawners can be one shot with Flamearangs and Echorangs, upgrades of the Pickarang."
+			tasks: [{
+				id: "6C0CDD313340DE0F"
+				title: "Spawners Guide"
+				type: "checkmark"
+			}]
+			x: -1.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combatroll:textures/hud/arrow.png"
+				}
+			}
+			id: "6E4F3BD1B4FC6EE7"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Hold down dash to dash as soon as possible."
+			title: "Press Middle Button (scroll wheel) on the mouse to dash. This is a main mechanic that comes with treasure enchantments Longfooted and Acrobat. Press Alt to Pick Block."
+			x: 2.6250000000000004d
+			y: 13.8d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dungeons_mobs:block/corrupted_pyre_0"
+				}
+			}
+			id: "6652457117ED96FE"
+			shape: "hexagon"
+			tasks: [{
+				id: "16DB5E587AC1AE4A"
+				title: "Press z, x, and b for each respective artifact acquired from dungeon's activation."
+				type: "checkmark"
+			}]
+			x: 5.25d
+			y: 16.25d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "structure_gel:block/data_handler_front"
+				}
+			}
+			id: "1562860FE7E88410"
+			shape: "hexagon"
+			tasks: [{
+				id: "45F1CBCEB328442E"
+				title: "Press L for advancements and F for left hand."
+				type: "checkmark"
+			}]
+			x: -0.25d
+			y: 13.75d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/alert.png"
+				}
+			}
+			id: "3E8124AAB90C7504"
+			shape: "hexagon"
+			tasks: [{
+				id: "4238A2B15AC649F9"
+				title: "Press i to configure your inventory hud."
+				type: "checkmark"
+			}]
+			title: "Press i to open quests, shift i to open inventory hud configuration."
+			x: 5.5d
+			y: 13.75d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "parcool:textures/mob_effect/inexhaustible.png"
+				}
+			}
+			id: "27E3DC3EA819490A"
+			shape: "hexagon"
+			subtitle: "! These are the keybinds by default."
+			tasks: [{
+				id: "401DCFA423B7C4F8"
+				title: "Press W to climb up blocks, and vault over blocks when running into them."
+				type: "checkmark"
+			}]
+			x: 0.25d
+			y: 17.75d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/globe"
+				}
+			}
+			id: "11858B982950F344"
+			shape: "hexagon"
+			tasks: [{
+				id: "72F5F7C996C0FF87"
+				title: "Press N for new waypoint and M for map."
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 14.75d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73B9689F03906272"
+			shape: "gear"
+			size: 2.0d
+			title: "Exploration Mechanics"
+			x: -4.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["73B9689F03906272"]
+			icon: "blue_skies:multi_portal_item"
+			id: "22C08A99EFB3DBFE"
+			shape: "gear"
+			subtitle: "To get to the Blue Skies dimensions, find a gatekeeper in a rare house and mine the portal blocks, then trade for a book and zeal lighter. You must have 6 eyes to enter the portal, though."
+			tasks: [{
+				id: "5D54117716A990DC"
+				type: "checkmark"
+			}]
+			title: "Everbright/Everdawn"
+			x: -2.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["73B9689F03906272"]
+			icon: {
+				Count: 1b
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0361329A50F24DC6"
+			shape: "gear"
+			subtitle: "The regular elytra is unusable in non-end dimensions, and unlocked at 12 eyes. However, other elytras are unlocked when all the eyes are obtained..."
+			tasks: [{
+				id: "46071BB6A151EF27"
+				title: "Elytra"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 10.75d
+		}
+		{
+			dependencies: ["73B9689F03906272"]
+			icon: "minecraft:filled_map"
+			id: "0D35A9FE692BBDAA"
+			shape: "gear"
+			subtitle: "Trade with multiple cartographers to get random maps to cool structures that may give you eye ingredients or rare gear! "
+			tasks: [{
+				id: "6C6C1B171542B4A4"
+				title: "Cartographer Maps"
+				type: "checkmark"
+			}]
+			x: -3.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["73B9689F03906272"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "10AE337907F59868"
+			shape: "gear"
+			subtitle: "Teleports you to waystones, naturally generated unbreakable fast travel points in villages,towers and sometimes on the ground."
+			tasks: [{
+				id: "1C15A611C1C920E0"
+				title: "Warp Stone"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 9.75d
+		}
+		{
+			dependencies: ["73B9689F03906272"]
+			icon: {
+				Count: 1b
+				id: "paraglider:paraglider"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C886F212CE7349E"
+			shape: "gear"
+			subtitle: "Paragliders break fall damage and are frankly useful always. Found in waystone towers."
+			tasks: [{
+				id: "1DC7DB068187006A"
+				title: "Paragliders"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["73B9689F03906272"]
+			icon: "parcool:parcool_guide"
+			id: "2583C412EFA43666"
+			rewards: [{
+				id: "58B5D9FBDFBEBCC3"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			subtitle: "The Stamina bar appears when running, crawling, vaulting, gliding or climbing. All it does is prevent you from doing those actions(except running/gliding which it slightly slows) when it runs out."
+			tasks: [{
+				id: "4D6B0F684755C96B"
+				title: "Stamina"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["73B9689F03906272"]
+			icon: "friendsandfoes:totem_of_freezing"
+			id: "1A1F5F8707A4592F"
+			shape: "gear"
+			tasks: [{
+				id: "5B66EA501B0F352A"
+				title: "Frozen oceans now freeze the player. It doesn't do armor damage, and stops hurting the player when wearing one leather armor; but still slows you down."
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 9.75d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "58846BD94A454411"
+			shape: "gear"
+			size: 2.0d
+			title: "Building Mechanics"
+			x: 10.15d
+			y: 0.6499999999999999d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "jei:textures/gui/icons/bookmark_button_disabled.png"
+				}
+			}
+			id: "59B8BA71BF53204C"
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Also, press the \"+\" button in the bottom right of a recipe to automatically put ingredients in the crafting table. Essential for this modpack."
+			tasks: [{
+				id: "11C960C637892778"
+				title: "Press R and U on items for Recipes and Uses."
+				type: "checkmark"
+			}]
+			x: 2.7d
+			y: 16.35d
+		}
+		{
+			dependencies: ["58846BD94A454411"]
+			icon: "everycomp:af/blue_skies/maple_chair"
+			id: "746EE7AB0013B10F"
+			shape: "gear"
+			tasks: [{
+				id: "1E03B54D530E2B4E"
+				title: "Furniture"
+				type: "checkmark"
+			}]
+			x: 11.9d
+			y: 0.6499999999999999d
+		}
+		{
+			dependencies: ["58846BD94A454411"]
+			icon: "minecraft:oak_trapdoor"
+			id: "2E0B484C4B1B5E17"
+			shape: "gear"
+			tasks: [{
+				id: "67759C9672D87495"
+				title: "Place Under Blocks"
+				type: "checkmark"
+			}]
+			x: 10.15d
+			y: -1.35d
+		}
+		{
+			dependencies: ["58846BD94A454411"]
+			icon: "minecraft:bedrock"
+			id: "2719D9F0EB52860F"
+			shape: "gear"
+			tasks: [{
+				id: "07E82FD6C751AF33"
+				title: "Place Blocks like Bedrock"
+				type: "checkmark"
+			}]
+			title: "Place Blocks in Front of you while Bridging"
+			x: 11.15d
+			y: 1.9d
+		}
+		{
+			dependencies: ["58846BD94A454411"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D9E72A23B6A9800"
+			shape: "gear"
+			tasks: [{
+				id: "5F4D03610EFFAEA1"
+				title: "Auto Tool Switch"
+				type: "checkmark"
+			}]
+			x: 10.15d
+			y: 2.65d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42A423E97C1A3CB8"
+			shape: "hexagon"
+			tasks: [{
+				id: "6CB728658A78B40C"
+				title: "Press K to lock a block's rotation to where you're currently looking. Alternatively, use a wrench made from 3 copper"
+				type: "checkmark"
+			}]
+			x: 2.15d
+			y: 19.95d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:item/missing_item"
+				}
+			}
+			id: "0932594387C6976E"
+			shape: "hexagon"
+			tasks: [{
+				id: "130F1520DE7CC484"
+				title: "Press Alt in a slot for crafting to see what can go in that slot."
+				type: "checkmark"
+			}]
+			x: 3.15d
+			y: 19.95d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: "create:creative_blaze_cake"
+			id: "54054B8EBB1FBF59"
+			shape: "hexagon"
+			subtitle: "In Creative Mode."
+			tasks: [{
+				id: "6F950724DC7737CC"
+				title: "Press F4 to activate JEI cheat mode."
+				type: "checkmark"
+			}]
+			x: 3.65d
+			y: 18.45d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "674CAD6FB0E98E76"
+			shape: "hexagon"
+			tasks: [{
+				id: "18B41FE256A2649A"
+				title: "Press g to toggle auto switching tools when mining and h to turn on/off the ability to mine when swinging weapons."
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 16.15d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: "minecraft:oak_stairs"
+			id: "45F33A356464919A"
+			shape: "hexagon"
+			tasks: [{
+				id: "299EE0BCE4EC36FB"
+				title: "Press CTRL to sit and SHIFT to crouch."
+				type: "checkmark"
+			}]
+			x: 1.65d
+			y: 18.45d
+		}
+		{
+			dependencies: ["58846BD94A454411"]
+			icon: "create:track"
+			id: "4E9463CBFA0E645D"
+			shape: "gear"
+			subtitle: "While waystones are cool, they can sometimes be inconvenient, and can't transport everything. Here's some tracks to get you started on your conductor journeys."
+			tasks: [{
+				id: "45286C3F1F1EF662"
+				title: "Trains"
+				type: "checkmark"
+			}]
+			x: 11.4d
+			y: -0.6000000000000001d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/dropper_front"
+				}
+			}
+			id: "7090AA13B8912C7C"
+			shape: "hexagon"
+			tasks: [{
+				id: "09311CB7751AF096"
+				title: "Press e for inventory, r for trinket inventory, q for dropping one item and ctrl q for a stack of items."
+				type: "checkmark"
+			}]
+			x: 0.7d
+			y: 14.8d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "trashslot:textures/item/trashcan.png"
+				}
+			}
+			id: "39894C89D9622D05"
+			shape: "hexagon"
+			tasks: [{
+				id: "7F1E89FC4A972F8A"
+				title: "Press T to enable trash slot in a given inventory. Example:furnace, crafting table, player inventory, etc. Press Z on an item when trash slot is enabled to trash it."
+				type: "checkmark"
+			}]
+			x: 4.029999999999999d
+			y: 13.11d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/left"
+				}
+			}
+			id: "66F50C3EE016A3AF"
+			shape: "hexagon"
+			tasks: [{
+				id: "68C029A9E34D3A8A"
+				title: "Press the Quick stack(left)/ drop off(right) arrow button in player inventory to quickly stack items already in nearby chests to nearby chests, or drop off all non-hotbar/backpack items into chest."
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 11.129999999999999d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/waypoint_spawn.png"
+				}
+			}
+			id: "2E4173EACC3C158B"
+			shape: "hexagon"
+			tasks: [{
+				id: "0F063A786EDC8530"
+				title: "Press Tab to ping or switch hotbars."
+				type: "checkmark"
+			}]
+			x: 1.25d
+			y: 13.129999999999999d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/refresh"
+				}
+			}
+			id: "30D2C479E32A493E"
+			shape: "hexagon"
+			tasks: [{
+				id: "227004452F9FD070"
+				title: "Press middle button in the inventory to sort all inventories open."
+				type: "checkmark"
+			}]
+			x: -0.25d
+			y: 11.129999999999999d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "jei:textures/jei/atlas/gui/icons/config_button.png"
+				}
+			}
+			id: "148453CF1E5193F3"
+			shape: "hexagon"
+			tasks: [{
+				id: "25D4826B625AB3B2"
+				title: "Press J for jei in inventory, emotes in game."
+				type: "checkmark"
+			}]
+			x: 0.25d
+			y: 12.379999999999999d
+		}
+		{
+			dependencies: ["7CFCF3BA7E2B325C"]
+			disable_toast: true
+			icon: "supplementaries:key"
+			id: "2A6613CD148A7A46"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			title: "Useful Hotkeys"
+			x: 2.710000000000001d
+			y: 10.75d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:block/barrier"
+				}
+			}
+			id: "183142CACDE9A17C"
+			shape: "hexagon"
+			tasks: [{
+				id: "03382E1EAA7E7CBA"
+				title: "Press Y on an item to find it in nearby chests"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 12.379999999999999d
+		}
+		{
+			dependencies: ["7CFCF3BA7E2B325C"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DCD96A2FACE5201"
+			shape: "gear"
+			size: 2.0d
+			title: "Inventory/Resource Mechanics"
+			x: 11.0d
+			y: 7.85d
+		}
+		{
+			dependencies: ["5DCD96A2FACE5201"]
+			icon: "minecraft:ancient_debris"
+			id: "6380A671BD12F8F6"
+			shape: "gear"
+			subtitle: "All ores only spawn exposed to air/water(so no strip mining) except one:Ancient Debris. Use beds safely in a nether strip mine to explode entire chunks to look for ancient debris, and craft netherite gear and it's many other important uses once you obtain 6 eyes."
+			tasks: [{
+				id: "0C448BB41630846F"
+				title: "Ancient Debris"
+				type: "checkmark"
+			}]
+			title: "Ore generation tweaks"
+			x: 9.5d
+			y: 6.6d
+		}
+		{
+			dependencies: ["5DCD96A2FACE5201"]
+			icon: "toms_storage:ts.storage_terminal"
+			id: "09DDAB9296634175"
+			shape: "gear"
+			subtitle: "Place the terminal on the connector, and place chests touching one another around said connector. This gives you a searchable, easy access main area for storage. Put necessary items for the eyes in storage IMMEDIATELY."
+			tasks: [{
+				id: "1EC7DBA4F2014092"
+				title: "Storage System"
+				type: "checkmark"
+			}]
+			x: 11.75d
+			y: 9.6d
+		}
+		{
+			dependencies: ["5DCD96A2FACE5201"]
+			icon: {
+				Count: 1b
+				id: "cataclysm:ignitium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "399B5173D3F5C5ED"
+			shape: "gear"
+			subtitle: "Tiers above diamond include netherite, abyssal gear, neptunium, dark metal, diopside/charoite, adamantite(unbreakable), enderium and ignitium. Any other gear above diamond is one-off and does not have a set/standard ingot it is crafted from."
+			tasks: [{
+				id: "58D1816BB615E4AD"
+				title: "Tiers above diamond"
+				type: "checkmark"
+			}]
+			x: 10.25d
+			y: 9.6d
+		}
+		{
+			dependencies: ["5DCD96A2FACE5201"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "mutantmonsters:chemical_x"
+				}
+			}
+			id: "766FAD2B574AA9BC"
+			shape: "gear"
+			subtitle: "However, these mutant beasts also spawn naturally."
+			tasks: [{
+				id: "3A49F06F2F819568"
+				type: "checkmark"
+			}]
+			title: "Brewed with a Hulk Hammer, Mutant Skeleton Skull, Creeper shard, or endersoul hand with a thick potion. Works on zombies, skeletons, creepers, enderman, snow golems, and pigs."
+			x: 13.0d
+			y: 7.85d
+		}
+		{
+			dependencies: ["5DCD96A2FACE5201"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "mutantmore:formula_y"
+			}
+			id: "20DBE651687F0D1C"
+			shape: "gear"
+			tasks: [{
+				id: "3476AA66D2C009FA"
+				type: "checkmark"
+			}]
+			title: "Formula y(10% chance to work, brewed with crying obsidian and a harming 1 potion). Works on wither skeletons, blazes, and shulkers."
+			x: 14.5d
+			y: 6.85d
+		}
+		{
+			dependencies: ["5DCD96A2FACE5201"]
+			id: "50767197ADDAB0F5"
+			rewards: [{
+				id: "29E41EBC6925A506"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4DCF01863B207B08"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "mutantmore:compound_z"
+				}
+				type: "item"
+			}]
+			title: " Compound Z(100% Chance, brewed with formula Y and a mutant wither skeleton skull/blaze core/mutant shulker shell). Works on wither skeletons, blazes, and shulkers."
+			x: 14.5d
+			y: 8.85d
+		}
+		{
+			dependencies: ["5DCD96A2FACE5201"]
+			id: "65C4580D5E7899B4"
+			rewards: [{
+				id: "47B5CD978B227ECC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			subtitle: "Enderium is the upgrade to netherite, and has many special abilities:gives haste when mining blocks, gives 8 extra hearts at a full set, etc. How to find it is by using an Enderium shard locator found in dragon loot bags, and mining in a end island until it lights up when a ore is nearby."
+			tasks: [{
+				id: "0EA1250904BE0AB0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:enderium_shard"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.85d
+		}
+		{
+			dependencies: ["6380A671BD12F8F6"]
+			description: [
+				"The Holosphere is a really useful and easy way to locate ancient debris, first we need to turn it into a scanner, to do this:"
+				""
+				"- Make a tetra workbench with a tetra hammer(look in JEI or advancements if you need help)"
+				"- Place the Holosphere in the workbench and click on scanner"
+				"- Select sweeper and apply and eye of ender"
+				""
+				"Note: You can upgrade the scanner further with two bolts or an amethyst shard to specialize into a certain type of scanner, you will have to find out what that means on your own."
+				""
+				"&lScroll to next page to learn how it works ->&r"
+				"{@pagebreak}"
+				"&4IMPORTANT:&r The swepper uses your camera as the origin of the scan not your player's coords, the direction you look is the direction you scan, this applies to up and down as well!!!"
+				""
+				"The default range is &b24&r blocks and it has a small cooldown."
+				"(Notice the sweeping white dots moving left to right, these indicate when a scan is complete)"
+				""
+				"When ancient debris is in range it will display red dots, if they are in the top section of the bar then it's over your crosshair(normally 3-5 blocks) and if it's in the bottom section the opposite, if it's red in the middle then it's on the same level as your crosshair!! &ogive or take 2 blocks&r"
+				""
+				"&lScroll to next page to learn how to use it effectively ->&r"
+				"{@pagebreak}"
+				"Look in a direction and wait for a sweep, then if you get a hit aim roughly where it pinged but don't walk anywhere and check if it's in front of you, repeat until you get it pretty much dead center, then dig forward in a 2x3 area and you should find it!"
+			]
+			id: "08571F2EA3D44946"
+			shape: "gear"
+			tasks: [{
+				id: "5980DED91970EE67"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				type: "item"
+			}]
+			title: "Scanning for ancient blocks!"
+			x: 7.75d
+			y: 6.6d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C3003AF1E1D521F"
+			shape: "gear"
+			size: 2.0d
+			title: "Agriculture/Infrastructure Mechanics/Tips"
+			x: -4.6d
+			y: 0.10000000000000009d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "aquaculture:neptunium_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7831596B96C9D423"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "7736323548F0DFA3"
+				type: "checkmark"
+			}]
+			title: "Fishing Minigame: Fishing is biome-specific, more rewarding, easier, and engaging than ever before in this modpack. Fishing has it's own minigame now, and can give you loot bags, neptunes crates, rare mobs, modded items, and biome specific loot and fish. Fish in the forests, oceans, rivers and lakes, deserts, dimensions, deep dark and more to catch em all!"
+			x: -4.6d
+			y: 2.6d
+		}
+		{
+			icon: "farmersdelight:steak_and_potatoes"
+			id: "20128D89B0A89F71"
+			rewards: [{
+				id: "39AEEB25C7A7B730"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			subtitle: "Kill animals, grow crops or heat a cooking pot to get food. Hunger works as in vanilla, and is tied to regeneration and sprinting. There is also a Nutrition Diet mechanic, that you can track in your inventory when pressing the food button next to the offhand slot. Each food gives you differing nutrition values based on how much hunger they satiate, and if a dish has multiple food groups eaten at once it will decay slower to keep the benefits longer. The benefits are:If any food group is above 80% it will give you extra hearts and defense. This Nutrition system does not disadvantage you in any way."
+			tasks: [{
+				id: "44C294C4DDDB8CAF"
+				title: "Food"
+				type: "checkmark"
+			}]
+			x: -1.5999999999999996d
+			y: 0.10000000000000009d
+		}
+		{
+			icon: "farmersdelight:dog_food"
+			id: "3F293B6E2BF0F662"
+			shape: "gear"
+			subtitle: "There are tons of Pets that can now be set to your \"main\" pet, and will now teleport with you through waystones, be set to wander, follow, or sit. Friendly fire is disabled. You can tame some vanilla mobs you couldn't before, and you can ride tons of buffed mounts that all have their own unique quirks or designs. Feed pets dog food and mounts horse food to give them buffs. Give pets a pet bed and push them on it to respawn at dawn. Some pets can have collars, which can get enchants only in an enchanting table, and some mounts enchantable horse armor. Place a wayward lantern to bring a pet back. Animal tamers are a villager type that sells deed of ownership, that lets you transfer ownership to another player."
+			tasks: [{
+				id: "0AFC5EE4F81137D5"
+				title: "Pets/Mounts System"
+				type: "checkmark"
+			}]
+			x: -4.6d
+			y: -2.4d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "farmersrespite:rose_hip_tea"
+				tag: {
+					Purity: 3
+				}
+			}
+			id: "7A18B5B248D147A4"
+			rewards: [{
+				id: "79BA5EBFBCAC1AD2"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			subtitle: "Create potions, brew tea(with a kettle under a faucet to provide it water) or (late game) keg some beer for some good effects (jury's out on whether being tipsy's a good effect though)"
+			tasks: [{
+				id: "7CB3A39CCF5798FE"
+				title: "Water"
+				type: "checkmark"
+			}]
+			title: "Drinks"
+			x: -7.6d
+			y: 0.10000000000000009d
+		}
+		{
+			icon: "minecraft:carved_pumpkin"
+			id: "5DED5C9EE546EC7B"
+			shape: "gear"
+			subtitle: "Use a Pumpkin to Scare off Crows and a Straw Golem to auto harvest crops for 7 days."
+			tasks: [{
+				id: "1C28F715DFABBA52"
+				title: "Early Game Farming"
+				type: "checkmark"
+			}]
+			x: -6.6d
+			y: 1.6d
+		}
+		{
+			icon: "create:belt_connector"
+			id: "295404697A8E5281"
+			shape: "gear"
+			subtitle: "Thanks to automation (unlocked at 9 eyes), you can now create automated iron nugget farms from crushed cobblestone, and plenty of other basic stones and minerals. Some, like diamonds, remain unrenewable forever."
+			tasks: [{
+				id: "45B1E524423B1F5B"
+				title: "Basic Resource Farms"
+				type: "checkmark"
+			}]
+			x: -2.5999999999999996d
+			y: -1.9d
+		}
+		{
+			icon: "create:large_water_wheel"
+			id: "0EF615D6D6047AC2"
+			shape: "gear"
+			subtitle: "Use automated harvesters for crop farms, drills for quarries, and saws for tree farms."
+			tasks: [{
+				id: "342C58FB3F159B94"
+				title: "Late Game Farm"
+				type: "checkmark"
+			}]
+			x: -6.6d
+			y: -1.9d
+		}
+		{
+			icon: "minecraft:saddle"
+			id: "7A21DB70D6B73C62"
+			shape: "gear"
+			subtitle: "All Mounts are significantly faster and jump higher, especially undead steeds."
+			tasks: [{
+				id: "7730929902E7F3EE"
+				type: "checkmark"
+			}]
+			title: "Mounts"
+			x: -2.5999999999999996d
+			y: 1.6d
+		}
+		{
+			dependencies: ["2A6613CD148A7A46"]
+			icon: {
+				Count: 1b
+				id: "majruszsdifficulty:enderium_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5AAF30277930E67A"
+			shape: "hexagon"
+			tasks: [{
+				id: "200873B460E81483"
+				title: "Can Right Click Crops to Auto Replant them. If using a hoe, replants in a 3x3 radius"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 18.0d
+		}
+	]
+	title: "&8(Some Outdated)Optional Tips and Tricks"
+}

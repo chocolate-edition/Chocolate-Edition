@@ -28,7 +28,27 @@
 				"3901079844A43EC1"
 				"4639E43A5B5C4F18"
 			]
-			description: [""]
+			description: [
+				"&4Requires Nether Access!&r"
+				""
+				"• Emu Feather - Dropped by &6Emus&r"
+				""
+				"• Mutant Skeleton Skull - Dropped by &4Mutant Skeletons&r"
+				""
+				"• Glowcoak - Dropped by &cGlowsquitos&r"
+				""
+				"• Roadrunner Feather - Dropped by &aRoadrunners&r"
+				""
+				"• Sombrero - Dopped by killing dancing &aCockroaches&r"
+				""
+				"• Tropical Stew - Crafted with &eCrab Meat&r, &eOnions&r, &eRice,&r and &eCoconut Slices&r"
+				""
+				"• Glowsilk - Dropped by breaking &eGlowsilk Cocoons&r"
+				""
+				"• Pocket of Sand - Crafted with &eGuster Eye&r (Dropped by &cGusters&r), &eLeather&r, and &eSand&r"
+				""
+				"• Gilded Eye - Crafted with 8 &eGold Ingots&r around an &eEye of Ender&r"
+			]
 			id: "0E2BD307EC9FDCE2"
 			min_width: 600
 			rewards: [
@@ -85,9 +105,55 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing a &4Mutant Skeleton&r - they spawn rarely at night or can be summoned by splashing a normal &cSkeleton&r with &aChemical X&r."
+				""
+				"The &aMutant Skeleton Skull&r &l&oIS NOT CONSUMMED&r during crafting "
+			]
 			id: "020C00ED08689F49"
+			rewards: [
+				{
+					id: "2FAFA60BEE8FB831"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "mutantmonsters:chemical_x"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50829D7A517663CB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "graveyard:bone_remains"
+					}
+					type: "item"
+				}
+				{
+					id: "62456382FCFBF06F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:staffofthe_summoner"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Mutant Skeleton Skull: Slay a mutant skeleton that rarely spawns at night, or can be summoned by applying chemical x to a normal skeleton. Not used during crafting."
+			subtitle: "Dropped by Mutant Skeletons"
 			tasks: [{
 				id: "670A5CD61AF54C95"
 				item: {
@@ -102,15 +168,57 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Mutant Skeleton Skull (Old Eye)"
 			x: 5.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing a &cGlowsquito&r - which spawn in the Quartz Flats, Glowstone Canyon, and Infernal Dunes biomes"
+				""
+				"&eGlowcoke&r can also be used to craft &eGlowlight Torchs&r and &eGlowlight Campfires&r"
+			]
 			id: "5D2FF35EF4B82FB5"
+			rewards: [
+				{
+					count: 32
+					id: "651D01051BA9EA7D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:glowcoal"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2F1CD8263740A7F7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "delightful:glow_jelly_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "755DFA16BF57D831"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:glowdine_bucket"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Glow Coke: Go to the Quartz Flats/ Glowstone Canyon/ Infernal Dunes Biome and slay a glowsquito    "
+			subtitle: "Dropped by Glowsquitos"
 			tasks: [{
 				id: "75AC9CC5DD58D53B"
 				item: {
@@ -122,15 +230,49 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Glowcoke (Old Eye) "
 			x: 4.25d
 			y: 2.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by breaking a &eGlowsilk Cocoon&r - which gernerate in The Nether in biomes such as Crimson Forest, Basalt Deltas, and Glowstone Canyons."
+				""
+				"&eGlowsilk&r can also be crafted by using 4 &eGlowstone&r, 2 &eNetherite Scrap&r, 2 &eAmetrine Shards&r, and 1 &eString&r"
+				""
+				"The &eGlowsilk&r can also be used to repair your tools and armour, as well as to craft a &eGlowsilk Bow&r in a &eSmithing Table&r, which fires &eArrows&r naturally covered in moth dust that glow while they fly "
+			]
 			id: "0EDB0A43D58260CC"
+			rewards: [
+				{
+					id: "7B922B09C2225D3E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:glowsilk_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26B889846C0E77DA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:glowsilk_cocoon"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "- Glowsilk: Find a glow silk cocoon of a glowsilk moth. \"Their inert cocoons can be found in the same Y levels as ancient debris(from my testing maybe a few blocks higher like y=18), but also exposed to air, in multiple biomes (Crimson Forest, Basalt Deltas and Glowstone Canyon); which when broken drop silk. The silk can be used to repair your tools and armour. Use silk touch on a cocoon to make a Glowsilk Bow in a Smithing Table, capable of firing arrows naturally covered in Moth Dust that light up the trajectory they fly in.\""
+			subtitle: "Dropped by breaking Glowsilk Cocoons"
 			tasks: [{
 				id: "05D38192C51F7115"
 				item: {
@@ -142,15 +284,56 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Glowsilk (Old Eye) "
 			x: 5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by surrounding a &eGuster Eye&r with &eLeather&r and &eSand&r "
+				""
+				"The &ePocket of Sand&r can also be used as a projectile-based weapon"
+			]
 			id: "78ACEF95F5AC1A80"
+			rewards: [
+				{
+					id: "22FE1BE5B38C508A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:sandstorm_in_a_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "7279D3B27CEC00BC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:sandcastle"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2BAADBA348D8EE6F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:bacon_sandwich"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Pocket of sand: Surround a guster eye(from slaying a guster which spawns during desert sandstorms) with leather and sand."
+			subtitle: "Crafted with a Guster Eye, Leather, and Sand"
 			tasks: [{
 				id: "5F4604A930760F58"
 				item: {
@@ -165,15 +348,56 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Pocket of Sand (Old Eye)"
 			x: 6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by playing a &eMaraca&r while near &aCockroach&r and killing it while it dances. "]
 			id: "18C7095EA653E6A0"
+			rewards: [
+				{
+					count: 3
+					id: "4746A1DF75DA29FA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:bug_pheromones"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D4ABCBF7728A9DC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:cockroach_ootheca"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "61CBD1CA24539769"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:cockroach_wing"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Sombrero: Slay a rattlesnake for its tail, craft a maraca and play it around a cockroach. Slay the cockroach while it dances to get a sombrero."
+			subtitle: "Dropped by Maraca-Enthralled-Cockroaches"
 			tasks: [{
 				id: "025A5D4FF16E48FC"
 				item: {
@@ -188,15 +412,47 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Sombrero (Old Eye)"
 			x: 3.25d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing a &aRoadrunner&r - which spawn in Deserts and Badlands."
+				""
+				"&eRoadrunner Feathers&r can also be used to craft &eFalconry Hoods&r - which let you controll tammed &aBald Eagles&r - as well as &eRoadrunner Boots&r - which allow you to run faster on &eSand&r"
+			]
 			id: "26D3D8E0CB67417A"
+			rewards: [
+				{
+					id: "25DB782C00AA6C66"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:roadrunner_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B92FB9C552A23EF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:speed_force"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Roadrunner Feather: Slay a roadrunner."
+			subtitle: "Dropped by Roadrunners"
 			tasks: [{
 				id: "1BEA95ED342C1EE7"
 				item: {
@@ -208,15 +464,77 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Roadrunner Feather (Old Eye) "
 			x: 3.5d
 			y: 1.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be Obtained by killing &6Emus&r - which are found in Savana and Badland biomes. &6Emus&r are known for their ability to dodge launch projectiles with blinding speed. "
+				""
+				"&eEmu Feathers&r can also be used to craft &eOutback Leggings&r - which gives the wearer a chance to dodge projectiles, just like an &6Emu&r - and a unique &eBanner Pattern&r"
+			]
 			id: "38EFD6D0A625817F"
+			rewards: [
+				{
+					id: "3E2219F9425EA7FC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:emu_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FA5C3733A3B62B2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "58522576AF035FA5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1CA69877D726935D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:boiled_emu_egg"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Emu: Slay an Emu."
+			subtitle: "Dropped by Emus"
 			tasks: [{
 				id: "15671B26E812B77A"
 				item: {
@@ -228,14 +546,41 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Emu Feather (Old Eye)"
 			x: 6.5d
 			y: 1.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by crafting and &eEye of Ender&r with 8 &eGold Ingots&r encircling it"]
 			id: "38AFF53FB7F892F5"
+			rewards: [
+				{
+					count: 16
+					id: "7191B699C8306DED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "041DAF32FC9E4507"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:cyclopseye"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
+			subtitle: "Craft a Eye of Ender with Gold Ingots"
 			tasks: [{
 				id: "08CAC65FE757F230"
 				item: {
@@ -247,15 +592,51 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Gilded Eye (Old Eye)"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by placing &eCrab Meat&r or &eCrab Legs&r, &eRice,&r &eOnions,&r and &eCoconut Slices&r in a &eCooking pot&r"
+				""
+				"• Crab Meat/Crab Legs - Dropped by &aCrabs&r - which spawn in Beach Biomes"
+				""
+				"• Rice - Found by exploring the world"
+				""
+				"• Onions - Found by exploring the world, looks similar to &eAlliums&r "
+				""
+				"• Coconut Slices - Drop from coconut trees when fully grown "
+			]
 			id: "67C88BA22DD11E4E"
+			rewards: [
+				{
+					count: 32
+					id: "1E3F4684A1BC57B0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ecologics:tropical_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "4839F4EEF05B236A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:crab_bucket"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Tropical Stew: Cook in a cooking pot a crab leg(dropped from crabs that spawn on the beach), rice(found as rice panicles in the wild and grown via placing rice in shallow water), and onion(also found in the wild)."
+			subtitle: "Cook Crab, Rice, and Onions in a Cooking Pot"
 			tasks: [{
 				id: "088EBCFD1783C5D6"
 				item: {
@@ -267,15 +648,44 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Tropical Stew (Old Eye)"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item is obtained by killing a &cGuster&r - which spawns in Deserts - during a sandstorm."
+				""
+				"The &eGuster Eye&r can also be used to craft a &eGustmaker&r - your own personal sandstorm spawner. It can be used to move mobs, items, and even players!"
+			]
 			id: "2EFC3E90DCE495B9"
+			rewards: [
+				{
+					id: "341C16E2EAB7F21D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:gustmaker"
+					}
+					type: "item"
+				}
+				{
+					id: "4F2F49F3CFEBEB3A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:lever"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "Drops from a Guster"
+			subtitle: "Dropped by Gusters"
 			tasks: [{
 				id: "5F5E97A81F988850"
 				item: {
@@ -287,15 +697,30 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Guster Eye (Old Eye)"
 			x: 6.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by crafting &eSnake Rattle&r with &ePlanks&r and &eSticks&r. The &eSnake Rattle&r is dropped by &cRattle Snakes&r"]
 			id: "4C005CF6BE04173D"
+			rewards: [{
+				id: "2C241562416BBF1D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
-			subtitle: "Made from wood and a snake rattle"
+			subtitle: "Crafted with Planks and a Snake Rattle"
 			tasks: [{
 				id: "4A0567777B8BFF93"
 				item: {
@@ -307,7 +732,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Maraca (Old Eye)"
 			x: 2.5d
 			y: -1.75d
 		}
@@ -379,25 +804,7 @@
 				"0C9E6FDDE4225B3E"
 				"4639E43A5B5C4F18"
 			]
-			description: [
-				"&4Requires Nether Access!&r"
-				""
-				"• Potion of Fire Resistance - Brew a &eMagma Cream&r with an &eAwkward Potion&r"
-				""
-				"• Ooze Bottle - Crafted with the knowledge of potion making"
-				""
-				"• Potion of Freeze - Brew &eFrozen Rotten Flesh&r with an &eCorrupted Potion&r"
-				""
-				"• Gongylidia - Interact with fungal covered blocks under an anthill"
-				""
-				"• Ghast Tear - Dropped by &cGhasts&r"
-				""
-				"• Banana Slug Slime - Dropped by &aBanana Slugs&r"
-				""
-				"• Rabbit's Foot - Dropped by &aRabbits&r"
-				""
-				"• Witch Pupil - Crafted using a &eSpider Eye&r, &eGlowstone Dust&r, &eRedstone Dust&r, &eGunpowder&r, and &eSugar&r"
-			]
+			description: ["&4Requires Nether Access!&r"]
 			id: "32F23E04C1AFA302"
 			min_width: 600
 			rewards: [
@@ -766,23 +1173,19 @@
 				"3901079844A43EC1"
 			]
 			description: [
-				"• Lionfish: Dropped by &aLionfish&r found near coral in warm ocean biomes"
+				"Lionfish: Dropped by &aLionfish&r found near coral in warm ocean biomes"
 				""
-				"• Lizard Tail: Dropped by &aLizards&r"
+				"Lizard Tail: Dropped by &aLizards&r"
 				""
-				"• Pufferfish: Fished in most bodies of water or dropped by &6Pufferfish&r and &6Lava Pufferfish&r"
+				"Pufferfish: Fished in most bodies of water or dropped by &6Pufferfish&r and &6Lava Pufferfish&r"
 				""
-				"• Lily of the Valley: Found in flower forests"
 				""
-				"• Potion of Corruption: Brewed using &eCorrupted Wart&r and &eAwkward Potion&r"
-				""
-				"• Potion of Posion: Brewed using &eSpider Eye&r, &eJellyfish&r, or &eStinger&r"
-				""
-				"• Potion of Harming: Brewed using a &eFermented Spider Eye&r and &ePotion of Healing&r or &ePotion of Poison&r"
-				""
-				"• Potion of Weakness: Brewed using a &eFermented Spider Eye&r and &eWater Bottle&r"
-				""
-				"• Potion of Slowness: Brew &eFrozen Rotten Flesh&r with an &eCorrupted Potion&r"
+				"Lily of the Valley:"
+				"Potion of Corruption:"
+				"Potion of Posion:"
+				"Potion of Harming:"
+				"Potion of Weakness:"
+				"Potion of Slowness:"
 			]
 			icon: "enlightened_end:ooze_bottle"
 			id: "7B9F7F39C7137C90"
@@ -1549,27 +1952,7 @@
 				"4639E43A5B5C4F18"
 				"480C1E862A882A6E"
 			]
-			description: [
-				"&3Requires Everbright and Everdawn Access&r"
-				""
-				"• Golden Moth in a Jar: Capture a &aGolden Moth&r in a &eBottle&r"
-				""
-				"• Nightcress: A flower found in the Everdawn"
-				""
-				"• Dawn/Ethereal Arc: Dropped by the &4Summoner&r or &4Alchemist&r"
-				""
-				"• Snowbloom: A flower found in the Everbright"
-				""
-				"• Wisteria Niveis: Found in Deep Frozen Ocean biomes"
-				""
-				"• Star Flare: Dropped By &aFrost Spirits&r"
-				""
-				"• Totem of Freezing: Dropped from &cIceologers&r"
-				""
-				"• Froststalker Horn: Dropped by &cFroststalkers&r"
-				""
-				"• Soul Fragment: Dropped by &aFrost Spirits&r and &cPolargeists&r"
-			]
+			description: ["&3Requires Everbright and Everdawn Access&r"]
 			id: "5F3F3F6DCBA94A9A"
 			min_width: 600
 			rewards: [
@@ -1602,32 +1985,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "48B675C157413BC0"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:soulbound_spear"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "7DA2ED4D4EEB20EC"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "create_confectionery:soothing_hot_chocolate"
-					}
-					type: "item"
-				}
 			]
 			size: 2.0d
 			subtitle: "\"The Eye of Glacial Epochs\""
@@ -1650,54 +2007,10 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: [
-				"This item can be obtained by exploring the Everbright - specifically in the Frostbitten Forest Clearing biome. "
-				""
-				"They can also be found at the top of the Everbright Blinding Dungeon Tower in the &4Summoner&r bossfight room"
-				""
-				"&eSnowblooms&r can also be turned into &eWhite Dye&r "
-			]
 			id: "1080E32645BA4E43"
-			rewards: [
-				{
-					count: 10
-					id: "3B81CFF7139060C2"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:snowbloom"
-					}
-					type: "item"
-				}
-				{
-					id: "0BA6C3A59F743AB3"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:snowmanbaby"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "78DC08C603B3FE36"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "create_confectionery:soothing_hot_chocolate"
-					}
-					type: "item"
-				}
-			]
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "A flower found in the Frostbitten Forest"
+			subtitle: "- Snowbloom: Flowers found in the Everbright."
 			tasks: [{
 				id: "49769B34E039514C"
 				item: {
@@ -1709,46 +2022,16 @@
 				}
 				type: "item"
 			}]
-			title: "Snowbloom (Cold Eye)"
+			title: "Used in Cold Eye"
 			x: 14.1d
 			y: 2.1d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: [
-				"This item can be obtained by exploring the Everdawn - specifically in the Unorthodox Valley biome."
-				""
-				"&eNightcresses&r can also be turned into &eBlue Dye&r"
-			]
 			id: "6A3880FB783D3A96"
-			rewards: [
-				{
-					count: 10
-					id: "438B7FCC572E012B"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:nightcress"
-					}
-					type: "item"
-				}
-				{
-					id: "612EF25B9A0A29F0"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:dark_nelumbo"
-					}
-					type: "item"
-				}
-			]
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "A flower found in the Onorthodox Valley"
+			subtitle: "- Nightcress: Flower found in the Everdawn."
 			tasks: [{
 				id: "2924934B45579E1F"
 				item: {
@@ -1760,61 +2043,15 @@
 				}
 				type: "item"
 			}]
-			title: "Nightcress (Cold Eye)"
+			title: "Used in Cold Eye"
 			x: 15.899999999999999d
 			y: 2.1d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: [
-				"This item can be obtained by killing &aFrost Spirits&r and &cPolargeists&r.&a Frost Spirits&r spawn upon killing &cArmored Frost Spirits&r."
-				""
-				""
-				"&eSoul Fragments&r can also be used in an &eAlchemy Table&r to create &eFalsite Ingots&r"
-			]
 			id: "3F8EA6DCD5D6F333"
-			rewards: [
-				{
-					count: 16
-					id: "604445A688632388"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:soul_fragment"
-					}
-					type: "item"
-				}
-				{
-					id: "11331441A53CE317"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "alexsmobs:strong_soulsteal"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "593BD2319FE8774D"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "endermanoverhaul:soul_pearl"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
 			shape: "rsquare"
-			subtitle: "Dropped by Frost Spirits and Polargeists"
+			subtitle: "- Soul Fragment: Dropped commonly from Everbright Frost spirits and Polargeists."
 			tasks: [{
 				id: "3E0F456F1EA79C3C"
 				item: {
@@ -1826,31 +2063,15 @@
 				}
 				type: "item"
 			}]
-			title: "Soul Fragment (Cold Eye)"
+			title: "Used in Cold Eye"
 			x: 16.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: [
-				"This item can be obtained by killing &aFrost Spirits&r which spawn upon killing &cArmored Frost Spirits&r."
-				""
-				"&eStar Flares&r can be crafted into a &eStar Emitter&r which is a work station block for the &aStargazer Villager&r. When paired with an &eAstrolabe&r, you can teleport back to the location of the &eStar Emitter&r."
-			]
 			id: "23D3CCC196FC85B7"
-			rewards: [{
-				id: "538B37467F6CE2EF"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "blue_skies:star_emitter"
-				}
-				type: "item"
-			}]
 			shape: "rsquare"
-			subtitle: "Dropped By Frost Spirits"
+			subtitle: "- Star flare: Dropped commonly from Everbright Frost spirits. "
 			tasks: [{
 				id: "006553D83F42DE00"
 				item: {
@@ -1862,34 +2083,15 @@
 				}
 				type: "item"
 			}]
-			title: "Star Flare (Cold Eye)"
+			title: "Used in Cold Eye"
 			x: 13.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: [
-				"This item can be obtained by killing &cIceologers&r which spawn in raids that take place in cold biomes or igloos found in cold biomes"
-				""
-				"The &eTotem of Freezing&r - upon taking lethal damage - prevents death and gives a short burst of Speed"
-			]
 			id: "72E2D16CD4878594"
-			rewards: [{
-				id: "2163615F6C793424"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "dungeons_mobs:diamond_mountaineer_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			shape: "rsquare"
-			subtitle: "Dropped from Iceologers"
+			subtitle: "- Totem of Freezing: Dropped from iceologers, illagers that spawn in raids in cold biomes or huts in cold biomes."
 			tasks: [{
 				id: "2ABB26AAB9DFB697"
 				item: {
@@ -1901,34 +2103,15 @@
 				}
 				type: "item"
 			}]
-			title: "Totem of Freezing (Cold Eye)"
+			title: "Used in Cold Eye"
 			x: 14.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: [
-				"This item can be obtained by killing &cFroststalkers&r found in Frozen Peaks and Ice Spikes biomes. "
-				""
-				"The &eFroststalker Horn&r can also be used to craft a &eFroststalker Helmet&r which allows you to blend in with any &cFroststalker&r pack...as long as you keep the peace. You can also breed &cFroststalkers&r while wearing the &eFroststalker Helmet&r"
-			]
 			id: "2231AC759A31CFDF"
-			rewards: [{
-				id: "39DE4304D03555D9"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "alexsmobs:froststalker_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			shape: "rsquare"
-			subtitle: "Dropped by Froststalkers"
+			subtitle: "- Froststalker Horn: Dropped from a froststalker 23% of the time in cold biomes."
 			tasks: [{
 				id: "6759354012E325D4"
 				item: {
@@ -1940,57 +2123,15 @@
 				}
 				type: "item"
 			}]
-			title: "Froststalker Horn (Cold Eye)"
+			title: "Used in Cold Eye"
 			x: 15.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: [
-				"This item can be obtained by exploring Deep Freezing Ocean biomes"
-				""
-				""
-				"&eWisteria Niveis&r can also be used to craft &eGreen Dye&r"
-			]
 			id: "08C15F0BF071E029"
-			rewards: [
-				{
-					count: 10
-					id: "0ED9FA92CEAF6441"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "aquamirae:wisteria_niveis"
-					}
-					type: "item"
-				}
-				{
-					id: "5640F6204D3DB7B8"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:icedragonskull"
-					}
-					type: "item"
-				}
-				{
-					id: "3F4CC390A77345DD"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:ice_cube"
-					}
-					type: "item"
-				}
-			]
 			shape: "pentagon"
-			subtitle: "Found in Deep Frozen Ocean biomes"
+			subtitle: "- Wisteria Niveis: Found in frozen ocean."
 			tasks: [{
 				id: "78F797D21F074C7E"
 				item: {
@@ -2002,32 +2143,15 @@
 				}
 				type: "item"
 			}]
-			title: "Wisteria Niveis (Cold Eye)"
+			title: "Used in Cold Eye"
 			x: 13.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: [
-				"This item can be obtained by clicking on a &aGolden Moth&r with a &eBottle&r. &aGolden Moths&r spawn in Frozen Oceans"
-				""
-				"Can also work as a fancy light source!"
-			]
 			id: "4084E3F126B5E68D"
-			rewards: [{
-				count: 16
-				id: "5A30AF7450599CB7"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "aquamirae:golden_moth_in_a_jar"
-				}
-				type: "item"
-			}]
 			shape: "circle"
-			subtitle: "Capture a Golden Moth with a Bottle"
+			subtitle: "- Golden Moth in a Jar: Capture a golden moth in a frozen ocean with a empty bottle."
 			tasks: [{
 				id: "1F4046D08F0A68F7"
 				item: {
@@ -2039,31 +2163,21 @@
 				}
 				type: "item"
 			}]
-			title: "Golden Moth in a Jar (Cold Eye)"
+			title: "Used in Cold Eye"
 			x: 16.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"These items can be obtained by killing the &4Summoner&r and &4Alchemist&r which can be found in the Everbright Blinding Dunegon and Everdawn Blinding Dunegon respectively"
+				"Summoner(Everbright)"
+				"Alchemist(Everdawn)"
 				""
-				"The &eDusk Arc&r is also grants invisibility while sneaking while the &eEthereal Arc&r grants a 10% Speed increase"
+				"Both bosses found in the top of the tower structures in each dimension."
 			]
 			id: "480C1E862A882A6E"
-			rewards: [{
-				id: "5F759346DFAFA884"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "nameless_trinkets:ethereal_wings"
-				}
-				type: "item"
-			}]
 			size: 1.5d
-			subtitle: "Dropped by the Summoner or Alchemist"
+			subtitle: "- Dusk/Ethereal Arc: Dropped from the Summoner/Alchemist bosses."
 			tasks: [{
 				id: "38574C47CFA2CCBC"
 				item: {
@@ -2099,7 +2213,7 @@
 				}
 				type: "item"
 			}]
-			title: "Dusk/Ethereal Arc (Cold Eye)"
+			title: "Used in Cold Eye"
 			x: 15.0d
 			y: 3.0d
 		}
@@ -2798,5 +2912,5 @@
 			y: -4.75d
 		}
 	]
-	title: "Medium Eyes"
+	title: "&6Medium Eyes"
 }

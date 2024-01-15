@@ -3,23 +3,19 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "53659F546FCEEC84"
-	group: ""
+	group: "124DA5EC6A42A11D"
 	icon: "citadel:citadel_book"
 	id: "53659F546FCEEC84"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			disable_toast: true
 			icon: "citadel:citadel_book"
 			id: "5B597BC0F1B671E2"
 			shape: "rsquare"
 			size: 3.0d
 			subtitle: "Documents All Dialogue/Lore Unlocks."
-			tasks: [{
-				id: "268D3C585B7B2CAC"
-				title: "And so it begins..."
-				type: "checkmark"
-			}]
 			title: "The Story So Far..."
 			x: -4.5d
 			y: 0.48d
@@ -38,11 +34,7 @@
 			icon: "minecraft:crafting_table"
 			id: "26D1445D673CC2CA"
 			shape: "hexagon"
-			tasks: [{
-				id: "4B15512CC65D6CE2"
-				title: "Vision at 0 Eyes"
-				type: "checkmark"
-			}]
+			title: "Vision at 0 eyes"
 			x: -7.710714285714339d
 			y: 0.4954081632652816d
 		}
@@ -273,11 +265,6 @@
 			}
 			id: "7E7A9B546C15BE8A"
 			shape: "hexagon"
-			tasks: [{
-				id: "28D44C8F090918AF"
-				title: "3 eyes"
-				type: "checkmark"
-			}]
 			title: "Stage 1"
 			x: 2.0d
 			y: 0.5d
@@ -297,11 +284,6 @@
 			}
 			id: "318AC3A4B80FAB8E"
 			shape: "octagon"
-			tasks: [{
-				id: "3312085488ACA870"
-				title: "6 eyes"
-				type: "checkmark"
-			}]
 			title: "Stage 2"
 			x: 7.75d
 			y: 0.5d
@@ -320,11 +302,6 @@
 			}
 			id: "33B00255BDE26589"
 			shape: "hexagon"
-			tasks: [{
-				id: "6CF985957CECB142"
-				title: "9 eyes"
-				type: "checkmark"
-			}]
 			title: "Stage 3"
 			x: 13.5d
 			y: 0.5d
@@ -343,11 +320,6 @@
 			}
 			id: "51E899661EDC06BD"
 			shape: "octagon"
-			tasks: [{
-				id: "008137A11DF580E1"
-				title: "12 eyes"
-				type: "checkmark"
-			}]
 			title: "Stage 4"
 			x: 13.5d
 			y: -7.5d
@@ -367,11 +339,6 @@
 			id: "766544EE45C62981"
 			shape: "octagon"
 			size: 2.0d
-			tasks: [{
-				id: "45443D63532D7B57"
-				title: "16 eyes"
-				type: "checkmark"
-			}]
 			title: "Stage 5"
 			x: 7.75d
 			y: -7.5d
@@ -2109,5 +2076,5 @@
 			y: -8.25d
 		}
 	]
-	title: "Dialogue and Unlocks"
+	title: "&4Dialogue and Unlocks"
 }

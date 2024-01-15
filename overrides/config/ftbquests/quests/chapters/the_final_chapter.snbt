@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "the_final_chapter"
-	group: ""
+	group: "1C888CDB8EF0A7FB"
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
@@ -116,7 +116,7 @@
 			y: 3.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -663,7 +663,13 @@
 		}
 		{
 			dependencies: ["6BC57B376D59322D"]
-			icon: "witherstormmod:withered_nether_star"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "witherstormmod:withered_nether_star"
+			}
 			id: "29B6754E6DDFEF8E"
 			rewards: [
 				{
@@ -947,5 +953,5 @@
 			y: 7.25d
 		}
 	]
-	title: "The Final Chapter?"
+	title: "&5The Final Chapter?"
 }

@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "must_read"
-	group: ""
+	group: "124DA5EC6A42A11D"
 	icon: "minecraft:ender_eye"
 	id: "38DB682299001B46"
 	images: [
@@ -70,7 +70,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
