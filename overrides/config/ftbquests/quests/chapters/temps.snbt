@@ -2080,9 +2080,28 @@
 					type: "command"
 				}
 				{
-					auto: "invisible"
 					command: "ftbquests change_progress @s reset 2C7D4E108CF721D5"
 					id: "032B2C9A927A0CB6"
+					player_command: true
+					type: "command"
+				}
+				{
+					command: "ftbquests change_progress @s reset 60BED89AB5908868"
+					id: "3B76F1BB08A6A6E8"
+					player_command: true
+					title: "Reset Important"
+					type: "command"
+				}
+				{
+					command: "ftbquests change_progress @s reset 1C888CDB8EF0A7FB"
+					id: "302F74E966CFA263"
+					player_command: true
+					title: "Reset Eyes"
+					type: "command"
+				}
+				{
+					command: "ftbquests change_progress @s reset 75DA3C44FB5FAC43"
+					id: "27216BECDD5258DE"
 					player_command: true
 					type: "command"
 				}
