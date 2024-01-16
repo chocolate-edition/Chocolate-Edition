@@ -3070,7 +3070,7 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: ["This item is obtained by killing &cGeomancers&r, which spawn in raids that occur in Savana biomes. They have also been know to guard some rooms in Strongholds"]
+			description: ["This item is obtained by killing &cGeomancers&r, which spawn in raids that occur in Savana biomes. They are also been know to guard some rooms in Strongholds"]
 			id: "3386F8BCC804078B"
 			rewards: [
 				{
@@ -3189,7 +3189,7 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: ["This item can be obtained by killing &cWindcallers&r, which spawn in raids that Occur in Medow biomes"]
+			description: ["This item can be obtained by killing &cWindcallers&r, which spawn in raids that occur in Medow biomes"]
 			id: "3742FEB8EAC00B28"
 			rewards: [
 				{
