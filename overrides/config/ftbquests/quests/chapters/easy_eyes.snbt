@@ -2852,7 +2852,7 @@
 		{
 			dependencies: ["2243BA6B2363797E"]
 			description: [
-				"This item can be obtained by killing &cThrashers&r, powerful enemies found in Ocean ravines. They are blind, using sonar to locate their prey, before grabbing them and tearing them to ribbons with their great teeth. A &eTrident&r may be useful in dispatching these at a distance."
+				"This item can be obtained by killing &cThrashers&r, powerful enemies found in Cold Ocean ravines. They are blind, using sonar to locate their prey, before grabbing them and tearing them to ribbons with their great teeth. A &eTrident&r may be useful in dispatching these at a distance."
 				""
 				"&eThrasher Teeth&r can be used to make decorative blocks or &eTridents&r."
 			]

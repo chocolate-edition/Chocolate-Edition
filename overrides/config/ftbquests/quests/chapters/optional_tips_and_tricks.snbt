@@ -215,9 +215,6 @@
 			dependencies: ["1D2B8979C481D22E"]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -241,9 +238,6 @@
 			dependencies: ["1D2B8979C481D22E"]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -475,9 +469,6 @@
 			dependencies: ["73B9689F03906272"]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "waystones:warp_stone"
 				tag: {
 					Damage: 0
@@ -955,9 +946,6 @@
 			dependencies: ["5DCD96A2FACE5201"]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "minecraft:splash_potion"
 				tag: {
 					Potion: "mutantmonsters:chemical_x"
@@ -976,13 +964,7 @@
 		}
 		{
 			dependencies: ["5DCD96A2FACE5201"]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "mutantmore:formula_y"
-			}
+			icon: "mutantmore:formula_y"
 			id: "20DBE651687F0D1C"
 			shape: "gear"
 			tasks: [{
