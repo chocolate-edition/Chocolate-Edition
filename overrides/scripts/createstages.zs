@@ -84,9 +84,7 @@ CTEventManager.register<GameStageAdded>((event) => {
         event.player.addGameStage("zero");
 	    event.player.sendMessage("*you feel a faint vision come over you, of a event long ago. It is of an ancient place- somewhere lost to time. Over a lit table surrounded by engulfing dark, you notice some people- villagers, illagers, piglins, endermen,  and many more. An eye of ender is placed on the table, it's power entrenching- and everything goes white*");
 	    event.player.sendMessage("*you feel the sudden urge to look in your quest book*");
-		event.player.give(
-			<item:ftbquests:book>.withTag({display: {Lore: ["{\"text\":\"Quests can also be opened with a button in your inventory (top left)\"}", "{\"text\":\"You can also bind Quests to a keybind in Controls\"}"], Name: ""}})
-		);
+		
   
     } 
 	 
