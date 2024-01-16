@@ -1638,6 +1638,7 @@
 			y: -10.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1667,6 +1668,7 @@
 			y: -9.75d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1696,6 +1698,7 @@
 			y: -11.75d
 		}
 		{
+			disable_toast: true
 			icon: "iter_rpg:big_vase"
 			id: "5BEC64C3A86BF8DD"
 			rewards: [{
@@ -1719,6 +1722,7 @@
 			y: -12.75d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:ender_chest"
 			id: "615D275A59F5A721"
 			rewards: [{
@@ -1742,6 +1746,7 @@
 			y: -11.75d
 		}
 		{
+			disable_toast: true
 			icon: "farmersdelight:roast_chicken_block"
 			id: "0B04E6219666D4B5"
 			rewards: [{

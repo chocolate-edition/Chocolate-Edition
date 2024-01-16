@@ -106,9 +106,9 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"This item can be obtained by killing a &4Mutant Skeleton&r - they spawn rarely at night or can be summoned by splashing a normal &cSkeleton&r with &aChemical X&r."
+				"This item can be obtained by killing a &4Mutant Skeleton&r - they spawn rarely at night or can be summoned by splashing a normal &cSkeleton&r with &eChemical X&r."
 				""
-				"The &aMutant Skeleton Skull&r &l&oIS NOT CONSUMMED&r during crafting "
+				"The &eMutant Skeleton Skull&r &l&oIS NOT CONSUMMED&r during crafting "
 			]
 			id: "020C00ED08689F49"
 			rewards: [
@@ -580,7 +580,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Craft a Eye of Ender with Gold Ingots"
+			subtitle: "Craft a Eye of Ender with 8 Gold Ingots"
 			tasks: [{
 				id: "08CAC65FE757F230"
 				item: {
@@ -1285,28 +1285,6 @@
 			]
 			id: "06C834D042C504DA"
 			rewards: [
-				{
-					id: "13DB710FE0C0B857"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [{
-									data: [{
-										id: "dungeons_gear:freezing"
-										lvl: 1s
-									}]
-									source: "dungeons_libraries:gear_config"
-								}]
-							}
-						}
-						id: "dungeons_gear:freezing_foil"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 				{
 					count: 3
 					id: "704FF971BD551ECE"
@@ -2233,10 +2211,23 @@
 			description: [
 				"&4Requires Nether Access&r"
 				""
-				"Requires Tetra Forge Access:"
+				"&8Requires Tetra Forge Access&r"
 				""
-				"Located by buying a map from a cartographer or by crafting a scanner out of a holosphere and following the noise when close."
-				"Forge ruins also have the machinery to get a Tier 5 Tetra hammer and craft the powerful Tetra tools. While not necessary after this, I recommend Tetra as it is fun to customize your vanilla weapons."
+				"• Bolt - Found in &eForged Crates&r"
+				""
+				"• Forged Steal - Mixed with &eSteal&r and &eResonant Alloy&r over a Super-Heated &eBlaze Burner&r"
+				""
+				"• Lodestone - Found in Bastions or Crafted"
+				""
+				"• Flex Mesh - Found in &eForged Crates&r"
+				""
+				"• 11 - Dropped when a &cSkeleton&r shoots a &cCreeper&r or bought in the shop"
+				""
+				"• Pigstep - Found in bastions or bought in the shop"
+				""
+				"• Endersoul - Dropped by &4Mutant Endermen&r"
+				""
+				"• Gilded Pearl - Craft a &eEye of Ender&r with 8 &eGold Ingots&r"
 			]
 			id: "1FF146E87C182DB5"
 			min_width: 600
@@ -2294,9 +2285,16 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained as loot from bastion bridges chests or it can be crafted with 8 &eChiseled Stone Bricks&r and 1 &eNetherite Ingot&r. "
+				""
+				"If right clicked with a &eCompass&r, the &eCompass&r will point towards the &eLodestone&r - very useful for navigation in The Nether "
+				""
+				"The &eLodestone&r &l&oIS NOT CONSUMMED&r during crafting "
+			]
 			id: "1A1D77C3D3BAA973"
 			shape: "gear"
-			subtitle: "- Lodestone: Found in bastion bridges chests, structures like some village houses or crafted with 8 chiseled brick and 1 netherite ingot. If right clicked with a compass, compass points toward it. Kept upon crafting."
+			subtitle: "Found in Bastions or Crafted"
 			tasks: [{
 				id: "7803045A85F3CCF2"
 				item: {
@@ -2308,16 +2306,27 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Lodestone (Cursed Eye)"
 			x: 20.7d
 			y: -2.4d
 		}
 		{
-			dependencies: ["3901079844A43EC1"]
-			description: [""]
+			dependencies: [
+				"3901079844A43EC1"
+				"4740C016E879290A"
+				"04AB9494494AA690"
+				"12C8E6C113027C9A"
+			]
+			description: [
+				"This item can be obtained by mixing &eSteel&r, &eResonant Alloy&r, and a little bit of &eLava&r over a Super-Heated &eBlaze Burner&r"
+				""
+				"You can get a Super-Head &eBlaze Burner&r by feeding it a &eBlaze Cake&r"
+				""
+				"You can also use &eForged Steel Ingots&r to craft Forged-related bocks."
+			]
 			id: "59A6F0198AD4895C"
 			shape: "gear"
-			subtitle: "- Forged Steel Ingot: Smelted from Resonant alloy."
+			subtitle: "Mixed with Steal and Resonant Alloy over a Super-Heated Blaze Burner"
 			tasks: [{
 				count: 2L
 				id: "20C712E9C05BF06F"
@@ -2330,15 +2339,27 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Forged Steal (Cursed Eye)"
 			x: 19.25d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained as loot found in bastions or be bought in the shop for 8 &eJade&r, &eRuby&r, &eOnyx&r, or &eAquamarine&r"]
 			id: "79568A0EE4526B24"
+			rewards: [{
+				id: "4571E4A0A7A5C45B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "sophisticatedbackpacks:jukebox_upgrade"
+				}
+				type: "item"
+			}]
 			shape: "pentagon"
-			subtitle: "- Pigstep Disc: Found in bastions."
+			subtitle: "Found in bastions or bought in the shop"
 			tasks: [{
 				id: "1802DA007F98FA6D"
 				item: {
@@ -2350,15 +2371,27 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Pigstep (Cursed Eye)"
 			x: 19.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained when a &cSkeleton&r shoots and kills a &cCreeper&r or be bought in the shop for 1 &eJade&r, &eRuby&r, &eOnyx&r, or &eAquamarine&r"]
 			id: "2D806ACAE4E200E5"
+			rewards: [{
+				id: "3C9243798E87F2AD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:jukebox"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- C418-11: Chance to be dropped when a skeleton shoots a creeper dead."
+			subtitle: "Dropped when a Skeleton shoots a Creeper or bought in the shop"
 			tasks: [{
 				id: "6EEE4E943A3B651E"
 				item: {
@@ -2370,16 +2403,59 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "11 (Cursed Eye)"
 			x: 21.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &4Mutant Endermen&r, which rarely spawns at night. You can also summon them by using &eChemical X&r on a regular &cEnderman&r. "
+				""
+				"The &eEndersoul Hand&r can be used to pick up and throw blocks, as well as teleport vast distances"
+				""
+				"The &eEndersoul Hand&r &l&oIS NOT CONSUMMED&r during crafting "
+			]
 			id: "1C04909A51F2FB64"
+			rewards: [
+				{
+					id: "2CBBB422B5AD72D5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "supplementaries:enderman_head"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "41380E3FB8B82D8A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2B762355A97385AE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:ender_pouch"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.2d
-			subtitle: "- Endersoul Hand: Dropped from mutant enderman, which rarely spawns at night, or by using chemical X on a regular enderman. Kept on crafting."
+			subtitle: "Dropped by Mutant Enderman"
 			tasks: [{
 				id: "7F4D7571938C458C"
 				item: {
@@ -2394,16 +2470,29 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Endersoul Hand (Cursed Eye)"
 			x: 20.0d
 			y: 2.6999999999999997d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by crafting and &eEye of Ender&r with 8 &eGold Ingots&r encircling it"]
 			id: "1F4C67597B974429"
+			rewards: [{
+				count: 4
+				id: "5EE45B216DBFA4DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:gold_block"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "- Gilded Pearl: Craft an eye of ender with 8 gold."
+			subtitle: "Craft a Eye of Ender with 8 Gold Ingots"
 			tasks: [{
 				id: "0E5B0262DE5ACF41"
 				item: {
@@ -2415,15 +2504,45 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Gilded Pearl (Cursed Eye)"
 			x: 20.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained as loot from &eForged Crates&r, which are found in Forge Ruins. Forge Ruins which can be found deep under ground in Cold or Mountainous biomes."
+				""
+				"&eFlex Mesh&r can also used in Tetra Smithing!"
+			]
 			id: "4745ADC9BFC65D1F"
+			rewards: [
+				{
+					id: "35F3D760B267B8D3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:mesh_door"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1A62E172C8F715A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:forged_mesh"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "- Flex Mesh: Found in forge ruins crates; also used for tetra smithing."
+			subtitle: "Found in Forged Crates"
 			tasks: [{
 				id: "315AA61699E6209D"
 				item: {
@@ -2435,15 +2554,45 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Flex Mesh (Cursed Eye)"
 			x: 21.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained as loot from &eForged Crates&r which is found in Forge Ruins. Forge Ruins can be found deep under ground in Cold or Mountainous biomes."
+				""
+				"&eBolts&r can also used in Tetra Smithing!"
+			]
 			id: "6A94387CF000274E"
+			rewards: [
+				{
+					id: "269FA7BAD527FD5E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:headbolts"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6EA015E97E79A113"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:forged_bolt"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "- Bolt: Found in forge ruins crates; also used for tetra smithing."
+			subtitle: "Found in Forged Crates"
 			tasks: [{
 				id: "164E1FA63C8F20DE"
 				item: {
@@ -2455,105 +2604,33 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Bolt (Cursed Eye)"
 			x: 18.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			id: "77E2E80A44FA9FC7"
-			tasks: [{
-				id: "69925AAF2142F530"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "minecraft:netherite_ingot"
-				}
-				type: "item"
-			}]
-			title: "Used in Cursed Eye"
-			x: 21.75d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3901079844A43EC1"]
-			id: "26C5120628FD2ED7"
-			subtitle: "Discs puchased in shop: Discs can be purchased from these four gems in the shop."
-			tasks: [{
-				id: "3B4E0EAE256F46F1"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:ruby"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:aquamarine"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:onyx"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:jade"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "Used in Cursed Eye"
-			x: 21.75d
-			y: -4.25d
-		}
-		{
-			dependencies: ["3901079844A43EC1"]
-			id: "702C0DF7B78BB89C"
-			subtitle: "Roughly 20 Emeralds: Trade with a cartographer for maps to a forge ruin to get bolts/flex mesh/scraps."
-			tasks: [{
-				count: 20L
-				id: "3E436B4F13C2A311"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "minecraft:emerald"
-				}
-				type: "item"
-			}]
-			title: "Used in Cursed Eye"
-			x: 18.25d
-			y: -4.25d
-		}
-		{
-			dependencies: ["3901079844A43EC1"]
-			description: [""]
+			description: [
+				"This item can be obtained as loot from &eForged Crates&r or as a drop from &eForged Blocks&r - both are found in Forge Ruins, which can be found deep under ground in Cold or Mountainous biomes. It is one of the primary ingredients in making &eResonant Alloy&r"
+				""
+				"&eMetal Scrap&r can also be used to craft a new &eHolosphere&r and Tetra Smithing"
+			]
 			id: "628C3C324A0B135B"
-			subtitle: "Found as loot in Tetra forge ruins."
+			rewards: [{
+				count: 16
+				id: "0E7C123E0292916F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:metal_scrap"
+				}
+				type: "item"
+			}]
+			subtitle: "Found in Forged Crates"
 			tasks: [{
+				count: 4L
 				id: "1685DFCC70071D64"
 				item: {
 					Count: 1b
@@ -2564,8 +2641,9 @@
 				}
 				type: "item"
 			}]
-			x: 18.25d
-			y: -3.0d
+			title: "Metal Scrap (Cursed Eye)"
+			x: 16.75d
+			y: -3.75d
 		}
 		{
 			dependencies: [
@@ -3095,6 +3173,109 @@
 			title: "Used in Magical Eye"
 			x: 25.5d
 			y: -4.75d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by mixing 2 &eIron Ingot&r, &eVentium Ingot&r, or &eGobsteel Scrap&r with 2 &eCoal&r over a heated &eBlaze Burner&r"
+				""
+				"&eSteel&r is also a crucial component in crafting &eSamurai Armor &r"
+			]
+			id: "04AB9494494AA690"
+			rewards: [{
+				count: 12
+				id: "0BF6E3D56E128B31"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "epicsamurai:steel_ingot"
+				}
+				type: "item"
+			}]
+			subtitle: "Mix Iron and Coal over a heated Blaze Burner"
+			tasks: [{
+				count: 6L
+				id: "48DC15E5E39CC17F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "epicsamurai:steel_ingot"
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by spouting &eLava&r into a &eBlaze Cake Base&r, which can be crafted with &eEgg&r, &eSugar&r, and &eCinder Flour&r."
+				""
+				"&eBlaze Cakes&r can be used on a &eBlaze Burner&r to give them the Super-Heated state, which provides the most heat and lasts the longest"
+			]
+			id: "4740C016E879290A"
+			rewards: [{
+				count: 3
+				id: "08D1427606196E1B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:blaze_cake"
+				}
+				type: "item"
+			}]
+			subtitle: "Lava poured into a Cake Base"
+			tasks: [{
+				id: "52AAA0AEEB3F65A7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:blaze_cake"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["628C3C324A0B135B"]
+			description: ["This item can be obtained by crafting 4 &eMetal Scaps&r, 2 &eNetherite Scraps&r, and 2 &eIron Ingots&r together"]
+			id: "12C8E6C113027C9A"
+			rewards: [{
+				count: 4
+				id: "53A864739AF5CE90"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "art_of_forging:resonant_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "0F46578601DEF155"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "art_of_forging:resonant_alloy"
+				}
+				optional_task: true
+				type: "item"
+			}]
+			x: 17.75d
+			y: -3.25d
 		}
 	]
 	title: "&6Medium Eyes"
