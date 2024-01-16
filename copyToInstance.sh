@@ -4,7 +4,7 @@
 # example path: 
 # C:\Users\user\curseforge\minecraft\Instances\dev build The Chocolate Edition - [FORGE]
 
-path="your instance path"
+path=$(head -n 1 instancePath.txt)
 
 # Loop through each folder in the "overrides" directory
 for folder in "./overrides"/*; do
@@ -12,9 +12,11 @@ for folder in "./overrides"/*; do
     if [ -d "$folder" ]; then
         folder_name=$(basename "$folder")
         # Check if the corresponding folder exists in the target directory and delete it
-        if [[ -d "$path/$folder_name" && "$folder_name" != "config" ]]; then
-            echo "deleting $folder"
-            rm -rf "$path/$folder_name"
+        if [[ -d "$path/$folder_name" ]]; then
+            if [[ "$folder_name" == "defaultconfigs" || "$folder_name" == "scripts" ]]; then
+                echo "deleting $folder"
+                rm -rf "$path/$folder_name"
+            fi
         fi
     fi
 done
