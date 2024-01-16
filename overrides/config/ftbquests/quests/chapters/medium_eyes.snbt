@@ -3070,7 +3070,7 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: ["This item is obtained by killing &cGeomancers&r, which spawn in raids that occur in Savana biomes. They are also know to guard some rooms of the Stronghold"]
+			description: ["This item is obtained by killing &cGeomancers&r, which spawn in raids that occur in Savana biomes. They have also been know to guard some rooms in Strongholds"]
 			id: "3386F8BCC804078B"
 			rewards: [
 				{
@@ -3189,7 +3189,7 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: ["This item can be obtained by killing &cWindcallers&r, which spawn in raids that occur in Meadow biomes"]
+			description: ["This item can be obtained by killing &cWindcallers&r, which spawn in raids that Occur in Medow biomes"]
 			id: "3742FEB8EAC00B28"
 			rewards: [
 				{
@@ -3745,7 +3745,7 @@
 				""
 				"• Spellbound Book - Obtained by killing &4Spiritcaller&r"
 				""
-				"These currently don't spawn on servers, we are working on a fix! For now, we recommend using /summon or giving yourself the item, sorry for the inconvience!""
+				"&o*These bosses don't spawn natually on servers, were are currently working on a fix! We recomend using /summon or giving yourself the item for the time being. Sorry for the inconvenience! &r"
 			]
 			id: "5A9DA1D756B2174C"
 			rewards: [
@@ -3839,41 +3839,18 @@
 				"&eTotems of Undying&r, when held, can prevent lethal damage, providing you with Regeneration and Absorption"
 			]
 			id: "0BAD152A36BB7BB3"
-			rewards: [
-				{
-					id: "3AB8022FB4380F25"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:totem_of_undying"
+			rewards: [{
+				count: 3
+				id: "3AB8022FB4380F25"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					type: "item"
+					id: "minecraft:totem_of_undying"
 				}
-				{
-					id: "5B9E7846FEB26062"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:totem_of_undying"
-					}
-					type: "item"
-				}
-				{
-					id: "33E93D1F447AB44B"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:totem_of_undying"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Dropped by Evokers"
 			tasks: [{
@@ -3899,41 +3876,18 @@
 				"When holding a &eTotems of Illusion&r, upon taking lethal damage, you are teleported away and multiple illusions of you are created to confuse your foes"
 			]
 			id: "4DCEBB3481F829EA"
-			rewards: [
-				{
-					id: "1E77DAD7E36BFE1F"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "friendsandfoes:totem_of_illusion"
+			rewards: [{
+				count: 3
+				id: "1E77DAD7E36BFE1F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					type: "item"
+					id: "friendsandfoes:totem_of_illusion"
 				}
-				{
-					id: "4E025B199C450266"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "friendsandfoes:totem_of_illusion"
-					}
-					type: "item"
-				}
-				{
-					id: "1C185613F0E91322"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "friendsandfoes:totem_of_illusion"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Dropped by Illusioners"
 			tasks: [{
