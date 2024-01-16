@@ -2969,7 +2969,25 @@
 				"5A9DA1D756B2174C"
 				"4639E43A5B5C4F18"
 			]
-			description: ["&cNeed Easy Raid Access in Multiple Biomes&r"]
+			description: [
+				"&cNeed Easy Raid Access in Multiple Biomes&r"
+				""
+				"• Totem of Undying - Dropped by &cEvokers&r"
+				""
+				"• Bag of Spoils, Spellbound Book, or Totem of Banishment - Dropped by &4Freakagers&r, &4Magispellers&r, or &4Spiritcallers&r"
+				""
+				"• Totem of Illusions - Dropped by &cIllusioners&r"
+				""
+				"• Mage Robes - Dropped by &cMages&r"
+				""
+				"• Iceologer Robes - Dropped by &cIceologers&r"
+				""
+				"• Geomancer Robes - Dropped by &cGeomancers&r"
+				""
+				"• Windcaller Robes - Dropped by &cWindcallers&r"
+				""
+				"• Necromancer Staff - Dropped from &cNecromancers&r or crafted"
+			]
 			id: "5D51C23DB0D0DF94"
 			min_width: 600
 			rewards: [
@@ -3018,6 +3036,18 @@
 					}
 					type: "item"
 				}
+				{
+					count: 10
+					id: "4964E286B78FEDD3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
 			]
 			size: 2.5d
 			subtitle: "\"The Eye of Strange Sorcery\""
@@ -3040,9 +3070,64 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item is obtained by killing &cGeomancers&r, which spawn in raids that occur in Savana biomes "]
 			id: "3386F8BCC804078B"
+			rewards: [
+				{
+					id: "7648685C35D359EB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:geomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C92E120ECD1B271"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:geomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ECA45B8E709A400"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "dungeons_mobs:geomancer_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			subtitle: "- Geomancer beads: Dropped from geomancers, illagers that roam the savanna or spawn in raids, or crafted from other geomancer drops with amethyst and necronium."
+			subtitle: "Dropped by Geomancers"
 			tasks: [{
 				id: "30FE6D58CCEFF5BA"
 				item: {
@@ -3098,15 +3183,70 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Geomancer Robes (Magical Eye)"
 			x: 26.25d
 			y: -3.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by killing &cWindcallers&r, which spawn in raids that Occur in Plains and Mountain biomes"]
 			id: "3742FEB8EAC00B28"
+			rewards: [
+				{
+					id: "2C70217C2F5A86D6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:windcaller_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EE1156BCB927F11"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:windcaller_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "590A88DD7815F822"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "dungeons_mobs:windcaller_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			subtitle: "- Windcaller robes: Dropped from windcallers, illagers that spawn in plains/mountain raids or crafted from other windcaller drops with amethyst and necronium."
+			subtitle: "Dropped by Windcallers"
 			tasks: [{
 				id: "0E319A32FFDB590B"
 				item: {
@@ -3162,15 +3302,94 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Windcaller Robes (Magical Eye)"
 			x: 23.75d
 			y: -3.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by killing &cMages&r, which spawn in raids"]
 			id: "52BB8B9AA1148EDB"
+			rewards: [
+				{
+					id: "256BC4CA73AEFBF5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61666E8073899E59"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:mage_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0260B89FD95E15A2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52860A71F20E02DB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			subtitle: "- Mage robe: Dropped from mages, illagers that spawn in raids or crafted from other mage drops with amethyst and necronium."
+			subtitle: "Dropped by Mages"
 			tasks: [{
 				id: "263D407A5C3441DC"
 				item: {
@@ -3246,15 +3465,94 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Mage Robes (Magical Eye)"
 			x: 26.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by killing &cIceologers&r, which spawn in raids that occur in Cold biomes"]
 			id: "3A662BA51CA58EA0"
+			rewards: [
+				{
+					id: "1163FD21970853B3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:iceologer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "094238D8C66689BF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:iceologer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7442B54F5D5A6B2E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:iceologer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32AED36121AAD912"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:iceologer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			subtitle: "- Iceologer cloak: Dropped from iceologers, illagers that spawn in cold biome raids or crafted from other iceologer drops with amethyst and necronium."
+			subtitle: "Dropped by Iceologers"
 			tasks: [{
 				id: "71E0DFBF015E0827"
 				item: {
@@ -3330,15 +3628,94 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Iceologer Robes (Magical Eye)"
 			x: 23.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &4Necromancers&r, an undead minibosses that spawn at night."
+				""
+				""
+				"The &eNecromancer Staff&r can also be crafted from other &4Necromancers&r drops, &eOrb of the Summoner&r, and &eBone Handle&r, &eNecronium&r."
+			]
 			id: "4CFFF31F1921587F"
+			rewards: [
+				{
+					id: "1989EF08693991B1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:necromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66922E7998A389CC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:necromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C2309BE250B6307"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:necromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "719DBA0BEB689D94"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "dungeons_mobs:necromancer_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			subtitle: "- Necromancer staff: Dropped from necromancers, undead minibosses that spawn at night or are crafted from other necromancer drops with an orb of the summoner and bone handle (both dropped from other night mobs) and necronium."
+			subtitle: "Dropped from Necromancers or crafted"
 			tasks: [{
 				id: "26129FB62761B3B0"
 				item: {
@@ -3353,17 +3730,62 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Necromancer Staff (Magical Eye)"
 			x: 25.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"All of these items can be obtained by defeating a raid and killing the final boss"
+				""
+				"• Bag of Spoils - Obtained by killing &4Freakager&r"
+				""
+				"• Totem of Banishment - Obtained by killing &4Magispeller&r"
+				""
+				"• Spellbound Book - Obtained by killing &4Spiritcaller&r"
+			]
 			id: "5A9DA1D756B2174C"
-			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "44BF0E196B1F13C9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:pillager_treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					id: "5D25C27B689BAB87"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:fate_emerald"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2F06456C8378F10E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.2d
-			subtitle: "- Boss item:Bag of spoils(freakager), Totem of banishment(Magispeller) and Spellbound Book(Spiritcaller) are all boss drops from illagers that can be fought at the end of a late raid wave. These bosses are quite hard and require research and prep beforehand. Not used upon crafting."
+			subtitle: "Defeat a raid and kill the final boss"
 			tasks: [{
 				id: "03FF78BC0ADE6203"
 				item: {
@@ -3403,15 +3825,55 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Raid Conqueror (Magical Eye)"
 			x: 25.0d
 			y: 2.4d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &cEvokers&r. &eTotems of Undying&r can also be found in Illager Structures, such as Woodland Mansions, which are found in Dark Forest biomes. "
+				""
+				"&eTotems of Undying&r, when held, can prevent lethal damage, providing you with Regeneration and Absorption"
+			]
 			id: "0BAD152A36BB7BB3"
+			rewards: [
+				{
+					id: "3AB8022FB4380F25"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					id: "5B9E7846FEB26062"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					id: "33E93D1F447AB44B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Totem of undying: Drops from evokers, illagers that spawn in raids, some illager structures  or rare woodland mansions in dark forest biomes as their home."
+			subtitle: "Dropped by Evokers"
 			tasks: [{
 				id: "31EB9AAA92CC7E98"
 				item: {
@@ -3423,15 +3885,55 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Totem of Undying (Magical Eye)"
 			x: 23.75d
 			y: 1.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &cIllusioners&r, which spawn in raids, Illager Structures, and huts in forests."
+				""
+				"When holding a &eTotems of Illusion&r, upon taking lethal damage, you are teleported away and multiple illusions of you are created to confuse your foes"
+			]
 			id: "4DCEBB3481F829EA"
+			rewards: [
+				{
+					id: "1E77DAD7E36BFE1F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "friendsandfoes:totem_of_illusion"
+					}
+					type: "item"
+				}
+				{
+					id: "4E025B199C450266"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "friendsandfoes:totem_of_illusion"
+					}
+					type: "item"
+				}
+				{
+					id: "1C185613F0E91322"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "friendsandfoes:totem_of_illusion"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Totem of Illusion:Dropped from illusioners, illagers that spawn in raids, illager structures or huts in forests."
+			subtitle: "Dropped by Illusioners"
 			tasks: [{
 				id: "56A9BA6C25D082FA"
 				item: {
@@ -3443,47 +3945,9 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Totem of Illusion (Magical Eye)"
 			x: 26.25d
 			y: 1.75d
-		}
-		{
-			dependencies: ["3901079844A43EC1"]
-			id: "2B92FBB04AABB9DD"
-			subtitle: "Transmute gold in a soul forge"
-			tasks: [{
-				id: "1A1D1DB97A562CD9"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "nourished_nether:necronium_ingot"
-				}
-				type: "item"
-			}]
-			title: "Used in Magical Eye"
-			x: 24.5d
-			y: -4.75d
-		}
-		{
-			dependencies: ["3901079844A43EC1"]
-			id: "5AC9DBC00FA39698"
-			subtitle: "Use a hoe on Rich Soul Sludge to aquire Soul Quartz"
-			tasks: [{
-				id: "6940CAAFD68027B6"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "nourished_nether:soul_forge"
-				}
-				type: "item"
-			}]
-			title: "Used in Magical Eye"
-			x: 25.5d
-			y: -4.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
