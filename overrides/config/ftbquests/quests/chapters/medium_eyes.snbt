@@ -3744,6 +3744,8 @@
 				"• Totem of Banishment - Obtained by killing &4Magispeller&r"
 				""
 				"• Spellbound Book - Obtained by killing &4Spiritcaller&r"
+				""
+				"These currently don't spawn on servers, we are working on a fix! For now, we recommend using /summon or giving yourself the item, sorry for the inconvience!""
 			]
 			id: "5A9DA1D756B2174C"
 			rewards: [
