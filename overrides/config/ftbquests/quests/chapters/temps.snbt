@@ -2164,6 +2164,24 @@
 			x: -2.0d
 			y: -1.5d
 		}
+		{
+			can_repeat: true
+			id: "333FFD7AF47E3DE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56C7AF20CE227749"
+				table_id: 6301296250022857809L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "friendsandfoes:iceologer"
+				id: "384E0A357991AC8A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 8.25d
+		}
 	]
 	title: "Flags"
 }
