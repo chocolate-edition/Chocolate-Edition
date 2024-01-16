@@ -5605,7 +5605,7 @@
 			]
 			icon: "born_in_chaos_v1:holiday_candy"
 			id: "56D52D898E5EBB8A"
-			subtitle: "BIOME BOSS: Dark forest at night, Find and break an Infernal Evil Pumpkin in a Dark Forest"
+			subtitle: "Can be summoned by breaking an &eInfernal Evil Pumpkin&r. You can locate these by just exploring your world, they'll have a ritual taking place with &eCandles&r all around it! "
 			tasks: [{
 				id: "711135CE8BA725A7"
 				title: "Sir Pumpkinhead"
