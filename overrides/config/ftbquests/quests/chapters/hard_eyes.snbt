@@ -95,7 +95,25 @@
 				"0F399B0FB108E920"
 				"5B4CB0F76C78E90B"
 			]
-			description: ["&4Requires Nether Access&r"]
+			description: [
+				"&4Requires Nether Access&r"
+				""
+				"• Wildfire Crown - Crafted with 5 &eWildfire Crown Pieces&r"
+				""
+				"• Mutant Blaze Core - Dropped by &4Mutant Blazes&r"
+				""
+				"• Netherite Scrap - Mined in The Nether depths or found in Bastion chests"
+				""
+				"• Hone: Gild III -  Crafted with weaker &eHone: Gild&r scrolls"
+				""
+				"• Crimson Mosquito Larva - Crafted with a &eMaggot &rand a &eCrimson Mosquito Probuscis&r"
+				""
+				"• Cindershell Shell Shard - Dropped by &aCindershells&r"
+				""
+				"• Firey Fondue Pot -  Cooked with the knowledge of recipes"
+				""
+				"• Nether Rice Roll Medley - Cooked with the knowledge of The Nether delicacies"
+			]
 			id: "71EC88C426B29736"
 			min_width: 600
 			rewards: [
@@ -161,9 +179,10 @@
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by killing &aCindershells&r, which can be found in Nether Wastes biomes."]
 			id: "0F399B0FB108E920"
 			shape: "gear"
-			subtitle: "- Cindershell Shard: dropped from cindershells, which spawn in nether wastes biomes."
+			subtitle: "Dropped by Cindershells"
 			tasks: [{
 				id: "14B57E72B0F6F0FD"
 				item: {
@@ -175,15 +194,16 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Cindershell Shell Shard (Nether Eye)"
 			x: 5.75d
 			y: -1.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by crafting together a &eMaggot&r - obtained by killing &aflies&r - and &eCrimson Mosquito Probuscis&r - obtained by killing &cCrimson Mosquitos&r"]
 			id: "78FA635FF475D3A9"
 			shape: "gear"
-			subtitle: "- Crimson Mosquito Larva: Crafted from a maggot(fly, a common bug in every biome drop), and crimson mosquito probuscis which is obtained by killing a crimson mosquito(in the crimson wastes biome) before it can suck your blood."
+			subtitle: "Crafted with a Maggot and a Crimson Mosquito Probuscis"
 			tasks: [{
 				id: "7EF080C11EF58307"
 				item: {
@@ -195,15 +215,53 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Crimson Mosquito Larva (Nether Eye)"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by crafting 2 &eHone: Gild II&r scrolls together, which themselves are each crafted from 2 &eHone: Gild I&r scrolls. "
+				""
+				"&eHone: Gild I&r can be looted from Bastions and Nether Fortresses, as well as bartered for with &6Piglins&r"
+			]
 			id: "48528DB674C9BBD0"
+			rewards: [{
+				count: 2
+				id: "3E19A0DDFBF12E9A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								glyphs: [I;
+									13
+									14
+									14
+									15
+								]
+								intricate: 1
+								key: "hone/gild_3"
+								material: 2
+								ribbon: "deb243"
+								schematics: [
+									"tetra:hone/gild_1"
+									"tetra:hone/gild_2"
+									"tetra:hone/gild_3"
+								]
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
 			shape: "pentagon"
-			subtitle: "- Hone: Gild III: A scroll crafted from two Gild II scrolls which are themselves crafted from 4 Gild I scrolls. You get these scrolls from piglin bartering and nether fortresses."
+			subtitle: "Crafted with weaker Hone: Gild scrolls"
 			tasks: [{
 				id: "0E7E914E3F562351"
 				item: {
@@ -236,15 +294,20 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Hone: Gild III (Nether Eye)"
 			x: 6.5d
 			y: 1.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by smelting &eAncient Debris&r, which can be rarely found deep in The Nether, as well as, found in some important structures like bastions!"
+				""
+				"&eNetherite Scraps&r, when crafted with &eGold Ingots&r, yeilds &eNetherite Ingots&r, which are instramental in progressing your tools and armor to the next stage."
+			]
 			id: "3C7BA7C9118807C8"
 			shape: "pentagon"
-			subtitle: "- Netherite scrap: Smelted from ancient debris, rarely found in some important structures like bastions but mainly mined from the nether depths."
+			subtitle: "Mined in The Nether depths or found in Bastion chests"
 			tasks: [{
 				count: 2L
 				id: "1013212FFF7FC96D"
@@ -257,7 +320,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Netherite Scrap (Nether Eye)"
 			x: 5.75d
 			y: 1.75d
 		}
@@ -271,9 +334,22 @@
 				"213877F5900CC9CE"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"• Potato - Dropped by &cZombies&r or found in by exploring the world"
+				""
+				"• Bread - Crafted with 3 &eWheat&r"
+				""
+				"• Tomato Sauce - Cook &eTomatos&r in a &eCooking Pot&r"
+				""
+				"• Ham - Dropped by &aPigs&r or &cHoglins&r when using a &eKnife&r"
+				""
+				"• Scarlet Cheese Wheel - Place a &eFermented Cheese Wheel&r down and let it rippen"
+				""
+				"• Milk - Milk a &aCow&r"
+			]
 			id: "6E05D1C8587A1450"
 			size: 1.5d
-			subtitle: "- Fiery Fondue Pot: The many demons of hell require a delicious nether pot dish as an offering to give you their eye. "
+			subtitle: "Cooked with the knowledge of recipes"
 			tasks: [{
 				id: "4ED06F203093E39B"
 				item: {
@@ -285,7 +361,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Firey Fondue Pot (Nether Eye)"
 			x: 5.0d
 			y: -3.375d
 		}
@@ -299,10 +375,25 @@
 				"4A9C0EB46625DA66"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"&4Requires Nether Access&r"
+				""
+				"• Lava Pufferfish - Craft together &eLava Pufferfish Slice&r and &eCooked Rice&r"
+				""
+				"• Magma Cube Fish - Craft together &eMagma Cube Fish Slice&r and &eCooked Rice&r"
+				""
+				"• Searing Cod - Craft together &eSearing Cod Slice&r and &eCooked Rice&r"
+				""
+				"• Glowdine - Craft together &eGlowdine Slice&r and &eCooked Rice&r"
+				""
+				"• Soul Sucker - Craft together &eSoulsucker Slice&r and &eCooked Rice&r"
+				""
+				"• Warped Kelp Roll Slice - Cut &eWarped Kelp&r on a &eCutting Board&r"
+			]
 			id: "2BC54D19712E7E19"
 			shape: "circle"
 			size: 1.5d
-			subtitle: "- Nether Rice roll medley: The many demons of hell require a delicious nether fish dish as an offering to give you their eye. "
+			subtitle: "Cooked with the knowledge of The Nether delicacies"
 			tasks: [{
 				id: "3FE2952BC53167DC"
 				item: {
@@ -314,16 +405,74 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Nether Rice Roll Medley (Nether Eye)"
 			x: 5.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by killing the &4Mutant Blaze&r, a man made monster, created by feeding a &cBlaze&r the unstable and inconsistant &eFormula Y&r or the stable and consistant &eCompound Z&r "
+				""
+				"&eFormula Y&r, which is know to be unreactive somtimes, is obtained by brewing a &eCrying Obsidain&r into a &ePotion of Harming&r"
+				""
+				"&eCompound Z&r, which is always reactive, is obtained by brewing a &eMutant Wither Skeleton Skull&r, &eMutant Blaze Core&r, or &eMutant Shulker Shell&r into &eFormula Y&r"
+			]
 			id: "4C3FCE81433FD862"
+			rewards: [
+				{
+					id: "6AF12312EC51DF16"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:blazefish_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "7415E75966BECBFF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:blaze_nucleus"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "06765F3801617CAB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:grilled_blazefish"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "39270641F817A87C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.2d
-			subtitle: "- Mutant Blaze Core: Dropped from mutant blaze, a monster that can be summoned by feeding a blaze Formula y(10% chance to work, brewed with crying obsidian and a harming 1 potion) or Compound Z(100% Chance, brewed with formula Y and a mutant wither skeleton skull/blaze core/mutant shulker shell)."
+			subtitle: "Dropped by Mutant Blazes"
 			tasks: [{
 				id: "401EB88DB4EC5407"
 				item: {
@@ -335,16 +484,17 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Mutant Blaze Core (Nether Eye)"
 			x: 3.5999999999999996d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be crafted with 5 &eWildfire Crown Pieces&r, which are dropped from &cWildfires&r  - knights that defend the Nether's Citadel, which can be found in moist biomes"]
 			id: "5911F2E35A1BCF6E"
 			shape: "square"
 			size: 1.2d
-			subtitle: "- Wildfire Crown: A crown crafted from 5 wildfire crown pieces, dropped from Wildfires(knight blazes with shields) in the Nether's Citadel structure that spawns in most biomes."
+			subtitle: "Crafted with 5 Wildfire Crown Pieces"
 			tasks: [{
 				id: "20684E1A91486BB4"
 				item: {
@@ -359,14 +509,46 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Wildfire Crown (Nether Eye)"
 			x: 3.5999999999999996d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by crafting together 3 &eBlaze Rods&r, 2 &eNetherite Scrap&r, and 2 &eChains&r. A &eLava Fishing Rod&r is specifically used for fishing in the &eLava&r of The Nether"]
 			id: "43281916E1BFCA95"
-			subtitle: "• Craft a lava fishing rod out of blaze rods, 2 netherite scrap and chains. Fish, slice, craft with rice the following:"
+			rewards: [
+				{
+					count: 3
+					id: "2FD608CE066DF44F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "netherdepthsupgrade:long_lava_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A1323FEC6002D53"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:obsidian_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Crafted with Blaze Rods, Netherite Scraps, and Chains"
 			tasks: [{
 				id: "2C657B74FFB22A40"
 				item: {
@@ -381,17 +563,30 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Lava Fishing Rod (Nether Eye)"
 			x: 5.0d
 			y: 8.0d
 		}
 		{
 			dependencies: [
-				"43281916E1BFCA95"
 				"5DA4FF9594050625"
+				"3CD8AC6EC317BAF2"
 			]
+			description: ["This item can be obtained by cutting a &eWarped Kelp Roll&r on a &eCutting Board&r"]
 			id: "1DE478584B4AB9C7"
-			subtitle: "• Craft a warped kelp roll with rice(grown in shallow water), a carrot, and 3 warped kelp found in lava lakes. Cut it with a knife in a cutting board to get 3 warped slices."
+			rewards: [{
+				count: 16
+				id: "32D20C337317A513"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:warped_kelp_roll_slice"
+				}
+				type: "item"
+			}]
+			subtitle: "Cut Warped Kelp on a Cutting Board"
 			tasks: [{
 				count: 3L
 				id: "349A5B526B2AD930"
@@ -404,96 +599,249 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 5.0d
-			y: 6.5d
+			title: "Warped Kelp Roll Slice (Nether Eye)"
+			x: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"43281916E1BFCA95"
 				"5DA4FF9594050625"
+			]
+			description: [
+				"This item can be obtained by crafting together &eSoulsucker Slice&r and &eCooked Rice&r. "
+				""
+				"&eGlowdine&r can be obtained by fishing in Soul Sand Valley biome, and then placed and cut on a &eCutting Board &r with a &eKnife&r"
+				""
+				"&eSoul Suckers&r can be crafted into &eSoul Suckers Lether&r, which can be crafted into &eSoul Sucker Boots&r"
 			]
 			id: "13D52E7DEAA9AF41"
-			subtitle: "• Soul suckers in the soul sand valley, soul suckers can be used to craft some lovely boots "
-			tasks: [{
-				id: "1B10BBA55ACE582C"
+			rewards: [{
+				id: "1097BB7A140A1CDA"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "netherdepthsupgrade:soulsucker"
+					id: "netherdepthsupgrade:soulsucker_bucket"
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 6.5d
-			y: 6.0d
+			subtitle: "Craft together Soulsucker Slice and Cooked Rice"
+			tasks: [{
+				id: "7A3E69A0B495F6B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:soulsucker_roll"
+				}
+				type: "item"
+			}]
+			title: "Soulsucker Roll (Nether Eye)"
+			x: 7.5d
+			y: 6.25d
 		}
 		{
 			dependencies: [
 				"43281916E1BFCA95"
 				"5DA4FF9594050625"
+			]
+			description: [
+				"This item can be obtained by crafting together &eMagma Cube Fish Slice&r and &eCooked Rice&r. "
+				""
+				"&eMagma Cube Fish&r can be obtained by fishing in Basalt Delta biomes, and then placed and cut on a &eCutting Board &r with a &eKnife&r"
 			]
 			id: "49643764214E1F1A"
-			subtitle: "• Magma cube fish in the basalt deltas "
+			rewards: [
+				{
+					id: "65E761F52A9EC983"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:magmacubefish_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "09F8676D50DF2D11"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:magma_cube_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7C74777BB1B4CDCE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:baked_magmacubefish_stew"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft together Magma Cube Fish Slice and Cooked Rice"
 			tasks: [{
-				id: "41CC84652FDA3905"
+				id: "6446A3C3E90670DD"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "netherdepthsupgrade:magmacubefish"
+					id: "netherdepthsupgrade:magmacubefish_roll"
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 3.5d
-			y: 6.0d
+			title: "Magma Cube Fish Roll (Nether Eye)"
+			x: 2.25d
+			y: 6.25d
 		}
 		{
 			dependencies: [
 				"43281916E1BFCA95"
 				"5DA4FF9594050625"
+			]
+			description: [
+				"This item can be obtained by crafting together &eLava Pufferfish Slice&r and &eCooked Rice&r. "
+				""
+				"&eLava Pufferfish&r can be obtained by fishing in Warped Forest biomes, and then placed and cut on a &eCutting Board &r with a &eKnife&r"
+				""
+				"&eLava Pufferfish&r can also be used to brew &ePotions of Withering&r!"
 			]
 			id: "2DE8E8B3ACF8D52B"
-			subtitle: "• Lava pufferfish in the warped forest, lava pufferfish can be used to brew a new potion"
+			rewards: [
+				{
+					count: 32
+					id: "6108697BD8B7A929"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "majruszsdifficulty:long_wither"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2B336CCF3CEC1A3D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:baked_lava_pufferfish_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "55B06BAB2444AAB0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:lava_pufferfish_bucket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft together Lava Pufferfish Slice and Cooked Rice"
 			tasks: [{
-				id: "7AE8A9B6D4BD310A"
+				id: "2BF2E193F015C579"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "netherdepthsupgrade:lava_pufferfish"
+					id: "netherdepthsupgrade:lava_pufferfish_roll"
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 3.5d
+			title: "Lava Pufferfish Roll (Nether Eye)"
+			x: 2.25d
 			y: 4.5d
 		}
 		{
 			dependencies: [
 				"43281916E1BFCA95"
 				"5DA4FF9594050625"
+			]
+			description: [
+				"This item can be obtained by crafting together &eGlowdine Slice&r and &eCooked Rice&r. "
+				""
+				"&eGlowdine&r can be obtained by fishing in Crimson Forest, and then placed and cut on a &eCutting Board &r with a &eKnife&r"
+				""
+				"&eGlowdine&r can be brewed into &ePotions of Glowing&r and can be crafted into &eGlowstone Dust&r"
 			]
 			id: "7CA78CF54A919FAA"
-			subtitle: "• Glowdine in the crimson forest"
+			rewards: [
+				{
+					id: "14426B425099F9C0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:glowdine_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "665162B0F81FD222"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:grilled_glowdine"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "60BB0541EC110B6B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "netherdepthsupgrade:glowdine_long_glowing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft together Glowdine Slice and Cooked Rice"
 			tasks: [{
-				id: "128E9C4A9E9BCB99"
+				id: "377BD7C977A04C81"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "netherdepthsupgrade:glowdine"
+					id: "netherdepthsupgrade:glowdine_roll"
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 6.5d
+			title: "Glowdine Roll (Nether Eye)"
+			x: 7.5d
 			y: 4.5d
 		}
 		{
@@ -501,30 +849,67 @@
 				"43281916E1BFCA95"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"This item can be obtained by crafting together &eSearing Cod Slice&r and &eCooked Rice&r. "
+				""
+				"&eSearing Cod&r can be obtained by fishing in Nether Waste, and then placed and cut on a &eCutting Board &r with a &eKnife&r"
+				""
+				"&eSearing Cods&r can be crafted into &eCoal&r, servering as a makeshift fule source"
+			]
 			id: "4A9C0EB46625DA66"
-			subtitle: "• Searing cod in the nether wastes"
+			rewards: [
+				{
+					count: 16
+					id: "555EA34165CB1ADB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:baked_searing_cod_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "7AE3EF62C8C1958C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:searing_cod_bucket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft together Searing Cod Slice and Cooked Rice"
 			tasks: [{
-				id: "1849DC0502D531F8"
+				id: "680066266419E3FA"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "netherdepthsupgrade:searing_cod"
+					id: "netherdepthsupgrade:searing_cod_roll"
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 5.0d
-			y: 5.0d
+			title: "Searing Cod Roll (Nether Eye)"
+			x: 3.75d
+			y: 5.5d
 		}
 		{
 			dependencies: [
 				"3276D2A914468D30"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"This item can be obtained by placing 2 &eTomatoes&r and a &eBowl&r in a &eCooking Pot&r"
+				""
+				"A decent mid-level food source!"
+			]
 			id: "213877F5900CC9CE"
-			subtitle: "• Cook tomato sauce from 2 tomatoes and a bowl in a cooking pot."
+			subtitle: "Cook Tomatos in a Cooking Pot"
 			tasks: [{
 				id: "7E93B1F1691ABF95"
 				item: {
@@ -536,18 +921,57 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 3.5d
-			y: -4.5d
+			title: "Tomato Sauce (Nether Eye)"
+			x: 2.5d
+			y: -4.75d
 		}
 		{
 			dependencies: [
 				"3276D2A914468D30"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"This item can be obtained by exploring the world or killing &cZombies&r"
+				""
+				""
+				"A solid food source to start yourself out, especially if you bake them!"
+			]
 			id: "7DB7CD45F3E298CE"
-			subtitle: "• Get a common potato most likely from village chests/farms"
+			rewards: [
+				{
+					count: 16
+					id: "4A92A7BA2E1830EF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:stuffed_potato"
+					}
+					type: "item"
+				}
+				{
+					id: "0343E01B9BD9D9AF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:seed_pouch"
+						tag: {
+							itemCount: 640
+							storedItem: {
+								Count: 1b
+								id: "minecraft:potato"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Drops from Zombies and can be found by exploring the world"
 			tasks: [{
+				count: 16L
 				id: "6FB79C9B98922F8A"
 				item: {
 					Count: 1b
@@ -558,17 +982,81 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 3.5d
-			y: -6.0d
+			title: "Potato (Nether Eye)"
+			x: 2.5d
+			y: -6.75d
 		}
 		{
 			dependencies: [
 				"3276D2A914468D30"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"This item can be obtained in a multitude of ways, but the most common is crafting 3 &eWheat&r together"
+				""
+				"A decent, easily accessible food source!"
+			]
 			id: "28641FEA9B69688C"
-			subtitle: "• Bake bread out of wheat"
+			rewards: [
+				{
+					count: 32
+					id: "5D3182AD42DD50BF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "7DCD92BD2525564F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bakery:breadbox"
+					}
+					type: "item"
+				}
+				{
+					id: "7661D7CF3D2A9D09"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bakery:bread_crate"
+					}
+					type: "item"
+				}
+				{
+					id: "10B4C1CA7513DD0B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:breadhat"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "702003F2A0963E6D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bakery:crusty_bread"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Crafted with 3 Wheat"
 			tasks: [{
 				id: "7FD560F4F731E0AA"
 				item: {
@@ -580,39 +1068,120 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 6.5d
-			y: -6.0d
+			title: "Bread (Nether Eye)"
+			x: 7.75d
+			y: -6.75d
 		}
 		{
 			dependencies: [
 				"3276D2A914468D30"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"This item can be obtained my milking a &aCow&r."
+				""
+				"&eMilk&r is also used in a variety of recipes, as well as for clearing all potion effects"
+			]
 			id: "12A4F6FBBFFBDB1F"
-			subtitle: "• Milk a cow"
+			rewards: [
+				{
+					count: 5
+					id: "0563E7BDAF0DCB3F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "7B17BBE5CADD9572"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:cowboyrgb"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Milk a Cow"
 			tasks: [{
-				id: "7F7DB0FB85F3C4EF"
+				id: "2E15B9E50CE6A4D0"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "farmersdelight:milk_bottle"
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "farmersdelight:milk_bottle"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:milk_bucket"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "blue_skies:ventium_milk_bucket"
+							}
+						]
+					}
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 6.5d
-			y: -4.5d
+			title: "Milk (Nether Eye)"
+			x: 7.75d
+			y: -4.75d
 		}
 		{
 			dependencies: [
 				"3276D2A914468D30"
 				"5DA4FF9594050625"
 			]
+			description: ["This item can be obtained by killing a &aPig&r or &cHoglin&r with a &eKnife&r"]
 			id: "736B2982E17FB397"
-			subtitle: "Ham:• Cut a pig or hoglin's leg off with a knife"
+			rewards: [
+				{
+					id: "3452D81F4DE4402B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "luphieclutteredmod:luphie_ham_sandwich"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "45B9E775C0D0C31A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by Pigs or Hoglins when using a Knife"
 			tasks: [{
 				id: "20D96BFF7B72BC50"
 				item: {
@@ -624,17 +1193,43 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 5.0d
-			y: -5.0d
+			title: "Ham (Nether Eye)"
+			x: 4.0d
+			y: -5.75d
 		}
 		{
 			dependencies: [
-				"3276D2A914468D30"
 				"5DA4FF9594050625"
+				"2114D9F77C8D852B"
 			]
+			description: ["This item can be obtained by placing down a &eFermented Cheese Wheel&r and let it rippen"]
 			id: "3D00409C843A9902"
-			subtitle: "• Ferment a scarlet cheese wheel(two crimson fungi, sugar and milk) in a keg crafted from iron, wood and a honeycomb(obtained by putting a campfire under a beehive filled with honey and clicking with shears, or trading with a beekeeper). Then leave the unripe cheese to ripen on the ground"
+			rewards: [
+				{
+					count: 16
+					id: "15AD52B244A51390"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "brewinandchewin:scarlet_cheese_wedge"
+					}
+					type: "item"
+				}
+				{
+					id: "0A722F020450D81D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:cheeseslice"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Place a Fermented Cheese Wheel down and let it rippen"
 			tasks: [{
 				id: "594634D07BBF827B"
 				item: {
@@ -646,25 +1241,122 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 5.0d
-			y: -6.5d
+			title: "Scarlet Cheese Wheel (Nether Eye)"
+			x: 5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
 			id: "3276D2A914468D30"
-			tasks: [{
-				id: "567122EA4F758732"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "710AC4C849E1A8C4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:chefshat"
 					}
-					id: "farmersdelight:cooking_pot"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Used in Nether Eye"
+				{
+					id: "63F1052260DDD980"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:chef_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "066B0A358C59AFD2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:diamond_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "52565E9F0F385F9E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Time to become a master chef"
+			tasks: [
+				{
+					id: "567122EA4F758732"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "6A3768CFE4A1FE31"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B7F9777C75F6845"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+				{
+					id: "2E63ACED956086F1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+			]
+			title: "Cooking Pot (Nether Eye)"
 			x: 5.0d
 			y: -8.0d
 		}
@@ -673,7 +1365,13 @@
 				"5DA4FF9594050625"
 				"5B4CB0F76C78E90B"
 			]
-			icon: "mutantmore:formula_y"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "mutantmore:formula_y"
+			}
 			id: "757BE6AD45565739"
 			subtitle: "Converts wither skeletons, blazes, and shulkers."
 			tasks: [{
@@ -707,7 +1405,7 @@
 				""
 				"• Frozen Rotten Flesh - Dropped by &cForstbitten&r"
 				""
-				"• Magma Rotten Flesh - Dropped by Burn&ced&r"
+				"• Magma Rotten Flesh - Dropped by &cBurned&r"
 				""
 				"• Candle Holder - Crafted with an &eIron Ingot&r and &eCandle&r"
 				""
@@ -2691,6 +3389,95 @@
 			title: "Soul Quartz (Undead Eye)"
 			x: 13.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["3276D2A914468D30"]
+			description: ["This item can be obtained by fermenting together 2 &eCrimson Fungi&r, &eSugar&r, &eMilk&r, and a &eHoney Comb&r in a &eKeg&r"]
+			id: "2114D9F77C8D852B"
+			rewards: [
+				{
+					id: "0E38BF0252CBEAF8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:fermented_spider_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "21104171E642AF28"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "brewinandchewin:beer"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Intro to fermenting"
+			tasks: [{
+				id: "37CDDC310D192F83"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "brewinandchewin:unripe_scarlet_cheese_wheel"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["43281916E1BFCA95"]
+			description: ["This item can be crafted with 1 &eCarrot&r, 2 &eCooked Rice&r, and 3 &eWarped Kelp&r"]
+			id: "3CD8AC6EC317BAF2"
+			rewards: [
+				{
+					count: 16
+					id: "663FB32CED497ECC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "endermanoverhaul:warped_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "270230EA2C05D435"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:warped_kelp_roll"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft together Carrots, Cooked Rice, and Warped Kelp"
+			tasks: [{
+				id: "1A66D1D31A3AC710"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:warped_kelp_roll"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.25d
 		}
 	]
 	title: "&cHard Eyes"
