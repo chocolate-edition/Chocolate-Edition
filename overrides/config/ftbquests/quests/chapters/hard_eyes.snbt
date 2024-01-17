@@ -256,7 +256,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Crafted with a Maggot and a Crimson Mosquito Probuscis"
+			subtitle: "Crafted with a Maggot and a Crimson Mosquito Proboscis"
 			tasks: [{
 				id: "7EF080C11EF58307"
 				item: {
