@@ -4334,6 +4334,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "532D5240FD44FDA3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bakery:cobblestone_stove"
+					}
+					type: "item"
+				}
 			]
 			title: "I just wanna grill for darn sake"
 			x: -6.3d
