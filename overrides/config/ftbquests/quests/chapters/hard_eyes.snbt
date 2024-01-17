@@ -603,7 +603,7 @@
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
-			description: ["This item can be crafted with 5 &eWildfire Crown Pieces&r, which are dropped from &cWildfires&r  - knights that defend the Nether's Citadel, which can be found in moist biomes"]
+			description: ["This item can be crafted with 5 &eWildfire Crown Pieces&r, which are dropped from &cWildfires&r  - knights that defend the Nether's Citadel, which can be found in most biomes"]
 			id: "5911F2E35A1BCF6E"
 			rewards: [
 				{
@@ -994,7 +994,7 @@
 				""
 				"&eSearing Cod&r can be obtained by fishing in Nether Waste, and then placed and cut on a &eCutting Board &r with a &eKnife&r"
 				""
-				"&eSearing Cods&r can be crafted into &eCoal&r, servering as a makeshift fule source"
+				"&eSearing Cods&r can be crafted into &eCoal&r, servering as a makeshift fuel source"
 			]
 			id: "4A9C0EB46625DA66"
 			rewards: [
