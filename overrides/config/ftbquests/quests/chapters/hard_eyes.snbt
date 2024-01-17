@@ -110,7 +110,7 @@
 				""
 				"• Cindershell Shell Shard - Dropped by &aCindershells&r"
 				""
-				"• Firey Fondue Pot -  Cooked with the knowledge of recipes"
+				"• Fiery Fondue Pot -  Cooked with the knowledge of recipes"
 				""
 				"• Nether Rice Roll Medley - Cooked with the knowledge of The Nether delicacies"
 			]
@@ -181,6 +181,33 @@
 			dependencies: ["5DA4FF9594050625"]
 			description: ["This item can be obtained by killing &aCindershells&r, which can be found in Nether Wastes biomes."]
 			id: "0F399B0FB108E920"
+			rewards: [
+				{
+					id: "224593EA5E0A8EDE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cnb:cindershell_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "5FDCBD8D1AF4883D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cnb:cinder_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Dropped by Cindershells"
 			tasks: [{
@@ -202,6 +229,32 @@
 			dependencies: ["5DA4FF9594050625"]
 			description: ["This item can be obtained by crafting together a &eMaggot&r - obtained by killing &aflies&r - and &eCrimson Mosquito Probuscis&r - obtained by killing &cCrimson Mosquitos&r"]
 			id: "78FA635FF475D3A9"
+			rewards: [
+				{
+					count: 3
+					id: "6D90CF72BF3305F8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:mosquito_proboscis"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "261CFCE2F242F3E3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:blood_sac"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Crafted with a Maggot and a Crimson Mosquito Probuscis"
 			tasks: [{
@@ -306,6 +359,17 @@
 				"&eNetherite Scraps&r, when crafted with &eGold Ingots&r, yeilds &eNetherite Ingots&r, which are instramental in progressing your tools and armor to the next stage."
 			]
 			id: "3C7BA7C9118807C8"
+			rewards: [{
+				id: "63E95624C7ADE977"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
 			shape: "pentagon"
 			subtitle: "Mined in The Nether depths or found in Bastion chests"
 			tasks: [{
@@ -348,6 +412,25 @@
 				"• Milk - Milk a &aCow&r"
 			]
 			id: "6E05D1C8587A1450"
+			rewards: [
+				{
+					count: 16
+					id: "64D6E0099DD88682"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "brewinandchewin:fiery_fondue"
+					}
+					type: "item"
+				}
+				{
+					id: "313875A143C961D3"
+					type: "xp"
+					xp: 1500
+				}
+			]
 			size: 1.5d
 			subtitle: "Cooked with the knowledge of recipes"
 			tasks: [{
@@ -361,7 +444,7 @@
 				}
 				type: "item"
 			}]
-			title: "Firey Fondue Pot (Nether Eye)"
+			title: "Fiery Fondue Pot (Nether Eye)"
 			x: 5.0d
 			y: -3.375d
 		}
@@ -391,6 +474,36 @@
 				"• Warped Kelp Roll Slice - Cut &eWarped Kelp&r on a &eCutting Board&r"
 			]
 			id: "2BC54D19712E7E19"
+			rewards: [
+				{
+					id: "1AA81E5DBAEF23E7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:eyeball_fish_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "421CF52FF60629A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:nether_rice_roll_medley_block"
+					}
+					type: "item"
+				}
+				{
+					id: "22BFF7EED95C0270"
+					type: "xp"
+					xp: 1500
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			subtitle: "Cooked with the knowledge of The Nether delicacies"
@@ -492,6 +605,33 @@
 			dependencies: ["5DA4FF9594050625"]
 			description: ["This item can be crafted with 5 &eWildfire Crown Pieces&r, which are dropped from &cWildfires&r  - knights that defend the Nether's Citadel, which can be found in moist biomes"]
 			id: "5911F2E35A1BCF6E"
+			rewards: [
+				{
+					id: "55CDE48CFEB490C3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "friendsandfoes:wildfire_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "664F01960875FC3D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:bigcrown"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 1.2d
 			subtitle: "Crafted with 5 Wildfire Crown Pieces"
@@ -909,6 +1049,18 @@
 				"A decent mid-level food source!"
 			]
 			id: "213877F5900CC9CE"
+			rewards: [{
+				count: 32
+				id: "09E3E9ECB3DF97C8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersdelight:tomato_sauce"
+				}
+				type: "item"
+			}]
 			subtitle: "Cook Tomatos in a Cooking Pot"
 			tasks: [{
 				id: "7E93B1F1691ABF95"
