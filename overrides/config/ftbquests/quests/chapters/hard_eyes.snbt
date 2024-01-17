@@ -2814,7 +2814,7 @@
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
-			description: ["This item can be obtained by mining Irradium Ore, which can be found underneath the floating end islands "]
+			description: ["This item can be obtained by mining &eIrradium Ore&r, which can be found underneath the floating end islands "]
 			id: "2C71C6EB00048A7C"
 			rewards: [{
 				count: 5
