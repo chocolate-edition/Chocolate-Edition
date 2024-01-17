@@ -9340,6 +9340,39 @@
 					}
 					type: "item"
 				}
+				{
+					id: "23B0771C99E0822F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:frost_fruit"
+					}
+					type: "item"
+				}
+				{
+					id: "524CFBDEE0B398F6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:glow_gourd_slice"
+					}
+					type: "item"
+				}
+				{
+					id: "628065FA8BF84F38"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:squished_bouncer"
+					}
+					type: "item"
+				}
 			]
 			title: "Mobile App - Fruit Ninja"
 			x: 20.625d
@@ -11074,6 +11107,17 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "atmospheric:aloe_leaves"
+					}
+					type: "item"
+				}
+				{
+					id: "6CD884F07D4850C9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:ancient_root"
 					}
 					type: "item"
 				}
