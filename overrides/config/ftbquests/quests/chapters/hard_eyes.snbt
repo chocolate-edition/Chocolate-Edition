@@ -95,7 +95,25 @@
 				"0F399B0FB108E920"
 				"5B4CB0F76C78E90B"
 			]
-			description: ["&4Requires Nether Access&r"]
+			description: [
+				"&4Requires Nether Access&r"
+				""
+				"• Wildfire Crown - Crafted with 5 &eWildfire Crown Pieces&r"
+				""
+				"• Mutant Blaze Core - Dropped by &4Mutant Blazes&r"
+				""
+				"• Netherite Scrap - Mined in The Nether depths or found in Bastion chests"
+				""
+				"• Hone: Gild III -  Crafted with weaker &eHone: Gild&r scrolls"
+				""
+				"• Crimson Mosquito Larva - Crafted with a &eMaggot &rand a &eCrimson Mosquito Proboscis&r"
+				""
+				"• Cindershell Shell Shard - Dropped by &aCindershells&r"
+				""
+				"• Fiery Fondue Pot -  Cooked with the knowledge of recipes"
+				""
+				"• Nether Rice Roll Medley - Cooked with the knowledge of The Nether delicacies"
+			]
 			id: "71EC88C426B29736"
 			min_width: 600
 			rewards: [
@@ -161,9 +179,37 @@
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by killing &aCindershells&r, which can be found in Nether Wastes biomes."]
 			id: "0F399B0FB108E920"
+			rewards: [
+				{
+					id: "224593EA5E0A8EDE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cnb:cindershell_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "5FDCBD8D1AF4883D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cnb:cinder_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Cindershell Shard: dropped from cindershells, which spawn in nether wastes biomes."
+			subtitle: "Dropped by Cindershells"
 			tasks: [{
 				id: "14B57E72B0F6F0FD"
 				item: {
@@ -175,15 +221,42 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Cindershell Shell Shard (Nether Eye)"
 			x: 5.75d
 			y: -1.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by crafting together a &eMaggot&r - obtained by killing &aflies&r - and &eCrimson Mosquito Probuscis&r - obtained by killing &cCrimson Mosquitos&r"]
 			id: "78FA635FF475D3A9"
+			rewards: [
+				{
+					count: 3
+					id: "6D90CF72BF3305F8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:mosquito_proboscis"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "261CFCE2F242F3E3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:blood_sac"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Crimson Mosquito Larva: Crafted from a maggot(fly, a common bug in every biome drop), and crimson mosquito probuscis which is obtained by killing a crimson mosquito(in the crimson wastes biome) before it can suck your blood."
+			subtitle: "Crafted with a Maggot and a Crimson Mosquito Proboscis"
 			tasks: [{
 				id: "7EF080C11EF58307"
 				item: {
@@ -195,15 +268,53 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Crimson Mosquito Larva (Nether Eye)"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by crafting 2 &eHone: Gild II&r scrolls together, which themselves are each crafted from 2 &eHone: Gild I&r scrolls. "
+				""
+				"&eHone: Gild I&r can be looted from Bastions and Nether Fortresses, as well as bartered for with &6Piglins&r"
+			]
 			id: "48528DB674C9BBD0"
+			rewards: [{
+				count: 2
+				id: "3E19A0DDFBF12E9A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								glyphs: [I;
+									13
+									14
+									14
+									15
+								]
+								intricate: 1
+								key: "hone/gild_3"
+								material: 2
+								ribbon: "deb243"
+								schematics: [
+									"tetra:hone/gild_1"
+									"tetra:hone/gild_2"
+									"tetra:hone/gild_3"
+								]
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
 			shape: "pentagon"
-			subtitle: "- Hone: Gild III: A scroll crafted from two Gild II scrolls which are themselves crafted from 4 Gild I scrolls. You get these scrolls from piglin bartering and nether fortresses."
+			subtitle: "Crafted with weaker Hone: Gild scrolls"
 			tasks: [{
 				id: "0E7E914E3F562351"
 				item: {
@@ -236,15 +347,31 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Hone: Gild III (Nether Eye)"
 			x: 6.5d
 			y: 1.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by smelting &eAncient Debris&r, which can be rarely found deep in The Nether, as well as, found in some important structures like bastions!"
+				""
+				"&eNetherite Scraps&r, when crafted with &eGold Ingots&r, yeilds &eNetherite Ingots&r, which are instramental in progressing your tools and armor to the next stage."
+			]
 			id: "3C7BA7C9118807C8"
+			rewards: [{
+				id: "63E95624C7ADE977"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
 			shape: "pentagon"
-			subtitle: "- Netherite scrap: Smelted from ancient debris, rarely found in some important structures like bastions but mainly mined from the nether depths."
+			subtitle: "Mined in The Nether depths or found in Bastion chests"
 			tasks: [{
 				count: 2L
 				id: "1013212FFF7FC96D"
@@ -257,7 +384,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Netherite Scrap (Nether Eye)"
 			x: 5.75d
 			y: 1.75d
 		}
@@ -271,9 +398,41 @@
 				"213877F5900CC9CE"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"• Potato - Dropped by &cZombies&r or found in by exploring the world"
+				""
+				"• Bread - Crafted with 3 &eWheat&r"
+				""
+				"• Tomato Sauce - Cook &eTomatos&r in a &eCooking Pot&r"
+				""
+				"• Ham - Dropped by &aPigs&r or &cHoglins&r when using a &eKnife&r"
+				""
+				"• Scarlet Cheese Wheel - Place a &eFermented Cheese Wheel&r down and let it rippen"
+				""
+				"• Milk - Milk a &aCow&r"
+			]
 			id: "6E05D1C8587A1450"
+			rewards: [
+				{
+					count: 16
+					id: "64D6E0099DD88682"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "brewinandchewin:fiery_fondue"
+					}
+					type: "item"
+				}
+				{
+					id: "313875A143C961D3"
+					type: "xp"
+					xp: 1500
+				}
+			]
 			size: 1.5d
-			subtitle: "- Fiery Fondue Pot: The many demons of hell require a delicious nether pot dish as an offering to give you their eye. "
+			subtitle: "Cooked with the knowledge of recipes"
 			tasks: [{
 				id: "4ED06F203093E39B"
 				item: {
@@ -285,7 +444,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Fiery Fondue Pot (Nether Eye)"
 			x: 5.0d
 			y: -3.375d
 		}
@@ -299,10 +458,55 @@
 				"4A9C0EB46625DA66"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"&4Requires Nether Access&r"
+				""
+				"• Lava Pufferfish - Craft together &eLava Pufferfish Slice&r and &eCooked Rice&r"
+				""
+				"• Magma Cube Fish - Craft together &eMagma Cube Fish Slice&r and &eCooked Rice&r"
+				""
+				"• Searing Cod - Craft together &eSearing Cod Slice&r and &eCooked Rice&r"
+				""
+				"• Glowdine - Craft together &eGlowdine Slice&r and &eCooked Rice&r"
+				""
+				"• Soul Sucker - Craft together &eSoulsucker Slice&r and &eCooked Rice&r"
+				""
+				"• Warped Kelp Roll Slice - Cut &eWarped Kelp&r on a &eCutting Board&r"
+			]
 			id: "2BC54D19712E7E19"
+			rewards: [
+				{
+					id: "1AA81E5DBAEF23E7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:eyeball_fish_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "421CF52FF60629A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:nether_rice_roll_medley_block"
+					}
+					type: "item"
+				}
+				{
+					id: "22BFF7EED95C0270"
+					type: "xp"
+					xp: 1500
+				}
+			]
 			shape: "circle"
 			size: 1.5d
-			subtitle: "- Nether Rice roll medley: The many demons of hell require a delicious nether fish dish as an offering to give you their eye. "
+			subtitle: "Cooked with the knowledge of The Nether delicacies"
 			tasks: [{
 				id: "3FE2952BC53167DC"
 				item: {
@@ -314,16 +518,74 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Nether Rice Roll Medley (Nether Eye)"
 			x: 5.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by killing the &4Mutant Blaze&r, a man made monster, created by feeding a &cBlaze&r the unstable and inconsistant &eFormula Y&r or the stable and consistant &eCompound Z&r "
+				""
+				"&eFormula Y&r, which is know to be unreactive somtimes, is obtained by brewing a &eCrying Obsidain&r into a &ePotion of Harming&r"
+				""
+				"&eCompound Z&r, which is always reactive, is obtained by brewing a &eMutant Wither Skeleton Skull&r, &eMutant Blaze Core&r, or &eMutant Shulker Shell&r into &eFormula Y&r"
+			]
 			id: "4C3FCE81433FD862"
+			rewards: [
+				{
+					id: "6AF12312EC51DF16"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:blazefish_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "7415E75966BECBFF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:blaze_nucleus"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "06765F3801617CAB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:grilled_blazefish"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "39270641F817A87C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.2d
-			subtitle: "- Mutant Blaze Core: Dropped from mutant blaze, a monster that can be summoned by feeding a blaze Formula y(10% chance to work, brewed with crying obsidian and a harming 1 potion) or Compound Z(100% Chance, brewed with formula Y and a mutant wither skeleton skull/blaze core/mutant shulker shell)."
+			subtitle: "Dropped by Mutant Blazes"
 			tasks: [{
 				id: "401EB88DB4EC5407"
 				item: {
@@ -335,16 +597,44 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Mutant Blaze Core (Nether Eye)"
 			x: 3.5999999999999996d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be crafted with 5 &eWildfire Crown Pieces&r, which are dropped from &cWildfires&r  - knights that defend the Nether's Citadel, which can be found in most biomes"]
 			id: "5911F2E35A1BCF6E"
+			rewards: [
+				{
+					id: "55CDE48CFEB490C3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "friendsandfoes:wildfire_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "664F01960875FC3D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:bigcrown"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 1.2d
-			subtitle: "- Wildfire Crown: A crown crafted from 5 wildfire crown pieces, dropped from Wildfires(knight blazes with shields) in the Nether's Citadel structure that spawns in most biomes."
+			subtitle: "Crafted with 5 Wildfire Crown Pieces"
 			tasks: [{
 				id: "20684E1A91486BB4"
 				item: {
@@ -359,14 +649,46 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Wildfire Crown (Nether Eye)"
 			x: 3.5999999999999996d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by crafting together 3 &eBlaze Rods&r, 2 &eNetherite Scrap&r, and 2 &eChains&r. A &eLava Fishing Rod&r is specifically used for fishing in the &eLava&r of The Nether"]
 			id: "43281916E1BFCA95"
-			subtitle: "• Craft a lava fishing rod out of blaze rods, 2 netherite scrap and chains. Fish, slice, craft with rice the following:"
+			rewards: [
+				{
+					count: 3
+					id: "2FD608CE066DF44F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "netherdepthsupgrade:long_lava_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A1323FEC6002D53"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:obsidian_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Crafted with Blaze Rods, Netherite Scraps, and Chains"
 			tasks: [{
 				id: "2C657B74FFB22A40"
 				item: {
@@ -381,17 +703,30 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
+			title: "Lava Fishing Rod (Nether Eye)"
 			x: 5.0d
 			y: 8.0d
 		}
 		{
 			dependencies: [
-				"43281916E1BFCA95"
 				"5DA4FF9594050625"
+				"3CD8AC6EC317BAF2"
 			]
+			description: ["This item can be obtained by cutting a &eWarped Kelp Roll&r on a &eCutting Board&r"]
 			id: "1DE478584B4AB9C7"
-			subtitle: "• Craft a warped kelp roll with rice(grown in shallow water), a carrot, and 3 warped kelp found in lava lakes. Cut it with a knife in a cutting board to get 3 warped slices."
+			rewards: [{
+				count: 16
+				id: "32D20C337317A513"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:warped_kelp_roll_slice"
+				}
+				type: "item"
+			}]
+			subtitle: "Cut Warped Kelp on a Cutting Board"
 			tasks: [{
 				count: 3L
 				id: "349A5B526B2AD930"
@@ -404,96 +739,249 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 5.0d
-			y: 6.5d
+			title: "Warped Kelp Roll Slice (Nether Eye)"
+			x: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"43281916E1BFCA95"
 				"5DA4FF9594050625"
+			]
+			description: [
+				"This item can be obtained by crafting together &eSoulsucker Slice&r and &eCooked Rice&r. "
+				""
+				"&eGlowdine&r can be obtained by fishing in Soul Sand Valley biome, and then placed and cut on a &eCutting Board &r with a &eKnife&r"
+				""
+				"&eSoul Suckers&r can be crafted into &eSoul Suckers Lether&r, which can be crafted into &eSoul Sucker Boots&r"
 			]
 			id: "13D52E7DEAA9AF41"
-			subtitle: "• Soul suckers in the soul sand valley, soul suckers can be used to craft some lovely boots "
-			tasks: [{
-				id: "1B10BBA55ACE582C"
+			rewards: [{
+				id: "1097BB7A140A1CDA"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "netherdepthsupgrade:soulsucker"
+					id: "netherdepthsupgrade:soulsucker_bucket"
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 6.5d
-			y: 6.0d
+			subtitle: "Craft together Soulsucker Slice and Cooked Rice"
+			tasks: [{
+				id: "7A3E69A0B495F6B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:soulsucker_roll"
+				}
+				type: "item"
+			}]
+			title: "Soulsucker Roll (Nether Eye)"
+			x: 7.5d
+			y: 6.25d
 		}
 		{
 			dependencies: [
 				"43281916E1BFCA95"
 				"5DA4FF9594050625"
+			]
+			description: [
+				"This item can be obtained by crafting together &eMagma Cube Fish Slice&r and &eCooked Rice&r. "
+				""
+				"&eMagma Cube Fish&r can be obtained by fishing in Basalt Delta biomes, and then placed and cut on a &eCutting Board &r with a &eKnife&r"
 			]
 			id: "49643764214E1F1A"
-			subtitle: "• Magma cube fish in the basalt deltas "
+			rewards: [
+				{
+					id: "65E761F52A9EC983"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:magmacubefish_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "09F8676D50DF2D11"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:magma_cube_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7C74777BB1B4CDCE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:baked_magmacubefish_stew"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft together Magma Cube Fish Slice and Cooked Rice"
 			tasks: [{
-				id: "41CC84652FDA3905"
+				id: "6446A3C3E90670DD"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "netherdepthsupgrade:magmacubefish"
+					id: "netherdepthsupgrade:magmacubefish_roll"
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 3.5d
-			y: 6.0d
+			title: "Magma Cube Fish Roll (Nether Eye)"
+			x: 2.25d
+			y: 6.25d
 		}
 		{
 			dependencies: [
 				"43281916E1BFCA95"
 				"5DA4FF9594050625"
+			]
+			description: [
+				"This item can be obtained by crafting together &eLava Pufferfish Slice&r and &eCooked Rice&r. "
+				""
+				"&eLava Pufferfish&r can be obtained by fishing in Warped Forest biomes, and then placed and cut on a &eCutting Board &r with a &eKnife&r"
+				""
+				"&eLava Pufferfish&r can also be used to brew &ePotions of Withering&r!"
 			]
 			id: "2DE8E8B3ACF8D52B"
-			subtitle: "• Lava pufferfish in the warped forest, lava pufferfish can be used to brew a new potion"
+			rewards: [
+				{
+					count: 32
+					id: "6108697BD8B7A929"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "majruszsdifficulty:long_wither"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2B336CCF3CEC1A3D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:baked_lava_pufferfish_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "55B06BAB2444AAB0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:lava_pufferfish_bucket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft together Lava Pufferfish Slice and Cooked Rice"
 			tasks: [{
-				id: "7AE8A9B6D4BD310A"
+				id: "2BF2E193F015C579"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "netherdepthsupgrade:lava_pufferfish"
+					id: "netherdepthsupgrade:lava_pufferfish_roll"
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 3.5d
+			title: "Lava Pufferfish Roll (Nether Eye)"
+			x: 2.25d
 			y: 4.5d
 		}
 		{
 			dependencies: [
 				"43281916E1BFCA95"
 				"5DA4FF9594050625"
+			]
+			description: [
+				"This item can be obtained by crafting together &eGlowdine Slice&r and &eCooked Rice&r. "
+				""
+				"&eGlowdine&r can be obtained by fishing in Crimson Forest, and then placed and cut on a &eCutting Board &r with a &eKnife&r"
+				""
+				"&eGlowdine&r can be brewed into &ePotions of Glowing&r and can be crafted into &eGlowstone Dust&r"
 			]
 			id: "7CA78CF54A919FAA"
-			subtitle: "• Glowdine in the crimson forest"
+			rewards: [
+				{
+					id: "14426B425099F9C0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:glowdine_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "665162B0F81FD222"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:grilled_glowdine"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "60BB0541EC110B6B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "netherdepthsupgrade:glowdine_long_glowing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft together Glowdine Slice and Cooked Rice"
 			tasks: [{
-				id: "128E9C4A9E9BCB99"
+				id: "377BD7C977A04C81"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "netherdepthsupgrade:glowdine"
+					id: "netherdepthsupgrade:glowdine_roll"
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 6.5d
+			title: "Glowdine Roll (Nether Eye)"
+			x: 7.5d
 			y: 4.5d
 		}
 		{
@@ -501,30 +989,79 @@
 				"43281916E1BFCA95"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"This item can be obtained by crafting together &eSearing Cod Slice&r and &eCooked Rice&r. "
+				""
+				"&eSearing Cod&r can be obtained by fishing in Nether Waste, and then placed and cut on a &eCutting Board &r with a &eKnife&r"
+				""
+				"&eSearing Cods&r can be crafted into &eCoal&r, servering as a makeshift fuel source"
+			]
 			id: "4A9C0EB46625DA66"
-			subtitle: "• Searing cod in the nether wastes"
+			rewards: [
+				{
+					count: 16
+					id: "555EA34165CB1ADB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:baked_searing_cod_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "7AE3EF62C8C1958C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:searing_cod_bucket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft together Searing Cod Slice and Cooked Rice"
 			tasks: [{
-				id: "1849DC0502D531F8"
+				id: "680066266419E3FA"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "netherdepthsupgrade:searing_cod"
+					id: "netherdepthsupgrade:searing_cod_roll"
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 5.0d
-			y: 5.0d
+			title: "Searing Cod Roll (Nether Eye)"
+			x: 3.75d
+			y: 5.5d
 		}
 		{
 			dependencies: [
 				"3276D2A914468D30"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"This item can be obtained by placing 2 &eTomatoes&r and a &eBowl&r in a &eCooking Pot&r"
+				""
+				"A decent mid-level food source!"
+			]
 			id: "213877F5900CC9CE"
-			subtitle: "• Cook tomato sauce from 2 tomatoes and a bowl in a cooking pot."
+			rewards: [{
+				count: 32
+				id: "09E3E9ECB3DF97C8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersdelight:tomato_sauce"
+				}
+				type: "item"
+			}]
+			subtitle: "Cook Tomatos in a Cooking Pot"
 			tasks: [{
 				id: "7E93B1F1691ABF95"
 				item: {
@@ -536,18 +1073,57 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 3.5d
-			y: -4.5d
+			title: "Tomato Sauce (Nether Eye)"
+			x: 2.5d
+			y: -4.75d
 		}
 		{
 			dependencies: [
 				"3276D2A914468D30"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"This item can be obtained by exploring the world or killing &cZombies&r"
+				""
+				""
+				"A solid food source to start yourself out, especially if you bake them!"
+			]
 			id: "7DB7CD45F3E298CE"
-			subtitle: "• Get a common potato most likely from village chests/farms"
+			rewards: [
+				{
+					count: 16
+					id: "4A92A7BA2E1830EF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:stuffed_potato"
+					}
+					type: "item"
+				}
+				{
+					id: "0343E01B9BD9D9AF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:seed_pouch"
+						tag: {
+							itemCount: 640
+							storedItem: {
+								Count: 1b
+								id: "minecraft:potato"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Drops from Zombies and can be found by exploring the world"
 			tasks: [{
+				count: 16L
 				id: "6FB79C9B98922F8A"
 				item: {
 					Count: 1b
@@ -558,17 +1134,81 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 3.5d
-			y: -6.0d
+			title: "Potato (Nether Eye)"
+			x: 2.5d
+			y: -6.75d
 		}
 		{
 			dependencies: [
 				"3276D2A914468D30"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"This item can be obtained in a multitude of ways, but the most common is crafting 3 &eWheat&r together"
+				""
+				"A decent, easily accessible food source!"
+			]
 			id: "28641FEA9B69688C"
-			subtitle: "• Bake bread out of wheat"
+			rewards: [
+				{
+					count: 32
+					id: "5D3182AD42DD50BF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "7DCD92BD2525564F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bakery:breadbox"
+					}
+					type: "item"
+				}
+				{
+					id: "7661D7CF3D2A9D09"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bakery:bread_crate"
+					}
+					type: "item"
+				}
+				{
+					id: "10B4C1CA7513DD0B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:breadhat"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "702003F2A0963E6D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bakery:crusty_bread"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Crafted with 3 Wheat"
 			tasks: [{
 				id: "7FD560F4F731E0AA"
 				item: {
@@ -580,39 +1220,120 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 6.5d
-			y: -6.0d
+			title: "Bread (Nether Eye)"
+			x: 7.75d
+			y: -6.75d
 		}
 		{
 			dependencies: [
 				"3276D2A914468D30"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"This item can be obtained my milking a &aCow&r."
+				""
+				"&eMilk&r is also used in a variety of recipes, as well as for clearing all potion effects"
+			]
 			id: "12A4F6FBBFFBDB1F"
-			subtitle: "• Milk a cow"
+			rewards: [
+				{
+					count: 5
+					id: "0563E7BDAF0DCB3F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "7B17BBE5CADD9572"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:cowboyrgb"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Milk a Cow"
 			tasks: [{
-				id: "7F7DB0FB85F3C4EF"
+				id: "2E15B9E50CE6A4D0"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "farmersdelight:milk_bottle"
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "farmersdelight:milk_bottle"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:milk_bucket"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "blue_skies:ventium_milk_bucket"
+							}
+						]
+					}
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 6.5d
-			y: -4.5d
+			title: "Milk (Nether Eye)"
+			x: 7.75d
+			y: -4.75d
 		}
 		{
 			dependencies: [
 				"3276D2A914468D30"
 				"5DA4FF9594050625"
 			]
+			description: ["This item can be obtained by killing a &aPig&r or &cHoglin&r with a &eKnife&r"]
 			id: "736B2982E17FB397"
-			subtitle: "Ham:• Cut a pig or hoglin's leg off with a knife"
+			rewards: [
+				{
+					id: "3452D81F4DE4402B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "luphieclutteredmod:luphie_ham_sandwich"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "45B9E775C0D0C31A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by Pigs or Hoglins when using a Knife"
 			tasks: [{
 				id: "20D96BFF7B72BC50"
 				item: {
@@ -624,17 +1345,43 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 5.0d
-			y: -5.0d
+			title: "Ham (Nether Eye)"
+			x: 4.0d
+			y: -5.75d
 		}
 		{
 			dependencies: [
-				"3276D2A914468D30"
 				"5DA4FF9594050625"
+				"2114D9F77C8D852B"
 			]
+			description: ["This item can be obtained by placing down a &eFermented Cheese Wheel&r and let it rippen"]
 			id: "3D00409C843A9902"
-			subtitle: "• Ferment a scarlet cheese wheel(two crimson fungi, sugar and milk) in a keg crafted from iron, wood and a honeycomb(obtained by putting a campfire under a beehive filled with honey and clicking with shears, or trading with a beekeeper). Then leave the unripe cheese to ripen on the ground"
+			rewards: [
+				{
+					count: 16
+					id: "15AD52B244A51390"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "brewinandchewin:scarlet_cheese_wedge"
+					}
+					type: "item"
+				}
+				{
+					id: "0A722F020450D81D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:cheeseslice"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Place a Fermented Cheese Wheel down and let it rippen"
 			tasks: [{
 				id: "594634D07BBF827B"
 				item: {
@@ -646,25 +1393,122 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Nether Eye"
-			x: 5.0d
-			y: -6.5d
+			title: "Scarlet Cheese Wheel (Nether Eye)"
+			x: 5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
 			id: "3276D2A914468D30"
-			tasks: [{
-				id: "567122EA4F758732"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "710AC4C849E1A8C4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:chefshat"
 					}
-					id: "farmersdelight:cooking_pot"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Used in Nether Eye"
+				{
+					id: "63F1052260DDD980"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:chef_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "066B0A358C59AFD2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:diamond_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "52565E9F0F385F9E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Time to become a master chef"
+			tasks: [
+				{
+					id: "567122EA4F758732"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "6A3768CFE4A1FE31"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B7F9777C75F6845"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+				{
+					id: "2E63ACED956086F1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+			]
+			title: "Cooking Pot (Nether Eye)"
 			x: 5.0d
 			y: -8.0d
 		}
@@ -678,7 +1522,13 @@
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": { }
 				}
+				id: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
 				id: "mutantmore:formula_y"
+			}
 			}
 			id: "757BE6AD45565739"
 			subtitle: "Converts wither skeletons, blazes, and shulkers."
@@ -713,7 +1563,7 @@
 				""
 				"• Frozen Rotten Flesh - Dropped by &cForstbitten&r"
 				""
-				"• Magma Rotten Flesh - Dropped by Burn&ced&r"
+				"• Magma Rotten Flesh - Dropped by &cBurned&r"
 				""
 				"• Candle Holder - Crafted with an &eIron Ingot&r and &eCandle&r"
 				""
@@ -1468,6 +2318,21 @@
 				"5DA4FF9594050625"
 				"5B4CB0F76C78E90B"
 			]
+			description: [
+				"&4Requires Nether Access&r"
+				""
+				"• Nether Star - Dropped by &4The Wither&r"
+				""
+				"• Mutant Wither Skeleton Skull - Dropped from &4Mutant Wither Skeletons&r"
+				""
+				"• Wither Sword - Looted from the &eWither Treasure Bag&r"
+				""
+				"• Blazing Chill - Cook together &eCoffee Beans&r, &eNether Wart&r, &eBlaze Powder&r, &eRaw Beef&r, and a &eBowl&r"
+				""
+				"• Dark Metal Ingot - Crafted with &ePiles of Dark Metal&r and &eDark Iron Ingots&r "
+				""
+				"• Dark Potion - Crafted with the knowledge of deadly &o&lToxins&r"
+			]
 			id: "53D0FA1AA4F83273"
 			min_width: 600
 			rewards: [
@@ -1531,9 +2396,30 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5DA4FF9594050625"]
+			dependencies: [
+				"5DA4FF9594050625"
+				"1B89AD3B189758F1"
+				"68EEBCFB605E22C5"
+			]
+			description: [
+				"This item can be obtained by smithing together &ePiles of Dark Metal&r and &eDark Iron Ingots&r"
+				""
+				"&eDark Metal Ingots&r can be used to craft &eDark Metal Armor Plates&r, which are useful for upgrading your gear past &eNetherite&r"
+			]
 			id: "2047ABCB211046C1"
-			subtitle: "- Dark Metal Ingot: Dropped as pieces or piles of dark metal from enemies/loot in some dark overworld structures. Can be used for armor, strong weapons and items."
+			rewards: [{
+				count: 2
+				id: "306410A6139FCFD4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "born_in_chaos_v1:dark_metal_ingot"
+				}
+				type: "item"
+			}]
+			subtitle: "Crafted with Piles of Dark Metal and Dark Iron Ingots "
 			tasks: [{
 				count: 4L
 				id: "13127EC50860A55E"
@@ -1546,14 +2432,29 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
-			x: 15.25d
-			y: -2.0d
+			title: "Dark Metal Ingot (Wither Eye)"
+			x: 15.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["5DA4FF9594050625"]
+			dependencies: [
+				"5DA4FF9594050625"
+				"4964257DDC5555F4"
+			]
+			description: ["This item can be obtained as loot from the &eWither Treasure Bag&r!"]
 			id: "6651B105BA122D6B"
-			subtitle: "- Wither Sword: Dropped sometimes from the loot bag dropped from killing the wither. Don't worry though, you wont have to farm as the bags often drop skulls."
+			rewards: [{
+				id: "6C8ED494C9EFA51E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:wither_treasure_bag"
+				}
+				type: "item"
+			}]
+			subtitle: "Looted from the Wither Treasure Bag"
 			tasks: [{
 				id: "57759EF4F1B722BB"
 				item: {
@@ -1568,14 +2469,73 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
-			x: 18.5d
-			y: -3.25d
+			title: "Wither Sword (Wither Eye)"
+			x: 19.0d
+			y: -1.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by killing the &4Mutant Wither Skeleton&r, a man made monster, created by feeding a &cWither Skeleton&r the unstable and inconsistant &eFormula Y&r or the stable and consistant &eCompound Z&r "
+				""
+				"&eFormula Y&r, which is know to be unreactive somtimes, is obtained by brewing a &eCrying Obsidain&r into a &ePotion of Harming&r"
+				""
+				"&eCompound Z&r, which is always reactive, is obtained by brewing a &eMutant Wither Skeleton Skull&r, &eMutant Blaze Core&r, or &eMutant Shulker Shell&r into &eFormula Y&r"
+			]
 			id: "04E8F70039A689B6"
-			subtitle: "- Mutant Wither Skeleton Skull: Main drop from the mutant wither skeleton."
+			rewards: [
+				{
+					id: "607B4EDAF1234A5A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "mutantmore:compound_z"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "512D246949BAEAEB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "mutantmore:formula_y"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "10FCDB13C02A0325"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:wither_skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "64001DF17A7387CD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "majruszsdifficulty:long_wither"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Dropped from Mutant Wither Skeletons"
 			tasks: [{
 				id: "66117C8644E7A44C"
 				item: {
@@ -1590,15 +2550,35 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
-			x: 15.5d
-			y: -3.25d
+			title: "Mutant Wither Skeleton Skull (Wither Eye)"
+			x: 14.75d
+			y: -2.0d
 		}
 		{
-			dependencies: ["5DA4FF9594050625"]
+			dependencies: [
+				"5DA4FF9594050625"
+				"375A0FBACF8C89BA"
+			]
+			description: [
+				"This item can be obtained by killing &4The Wither&r"
+				""
+				"The Nether Star can be used in a varity of adavancec items such as &eBackpack Upgrades&r, &eBeacons&r, &eTransmuation Tables&r, and more!"
+			]
 			id: "2855B2AE36A1292B"
+			rewards: [{
+				count: 3
+				id: "416A7F419052ECFD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:wither_skeleton_skull"
+				}
+				type: "item"
+			}]
 			size: 1.5d
-			subtitle: "- Nether Star: Main drop from the wither."
+			subtitle: "Dropped by The Wither"
 			tasks: [{
 				id: "1780478FF79E52DF"
 				item: {
@@ -1610,7 +2590,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Nether Star (Wither Eye)"
 			x: 17.0d
 			y: -4.125d
 		}
@@ -1627,8 +2607,61 @@
 				"68EEBCFB605E22C5"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"&4Requires Nether Access&r"
+				""
+				"• Withering Dross - Ferment a &eWither Rose&r, &eInk Sac&r, &eNether Wart&r, &eBone&r, and &eSalty Folly&r, at a searing hot temperature"
+				""
+				"• Potion of Soulsteal - Brew a &eSoul Heart&r into an &eAwkward Potion&r"
+				""
+				"• Blindsight Tongue - Dropped by &cBlindsights&r"
+				""
+				"• Nightmare Claw - Dropped by &cNightmare Stalkers&r"
+				""
+				"• Potion of Infection - Brew an &eAscus&r into an &eAwkward Potion&r"
+				""
+				"• Potion of Bug Phermones - Brewed with a &eCockroach Wing&r and an &eAwkward Potion&r"
+				""
+				"• Bottle of Magical Energy - Crafted from &eEthereal Spirit&r, &eFire Light&r, &eDust Bone Meal&r, and a &eGlass Bottle&r"
+				""
+				"• Pile of Dark Metal - Dropped by &cFallen Chaos Knight&r and &cSkeleton Thrasher&r"
+				""
+				"• Fire Light Dust - Dropped by &cFirelights&r, &cBone Imps&r, and &cSeared Spirits&r"
+			]
 			id: "0225AF6973F618EA"
-			subtitle: "- Dark Potion: Unbrewable potion that you must craft from the ingredients below:"
+			rewards: [
+				{
+					count: 3
+					id: "030727DECE99BE4A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "illageandspillage:mutation"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1A3972254DC3CBA9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "illageandspillage:mutation"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Crafted with the knowledge of deadly &o&lToxins&r"
 			tasks: [{
 				id: "2CF2C2D3061A2750"
 				item: {
@@ -1643,15 +2676,35 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Dark Potion (Wither Eye)"
 			x: 17.0d
 			y: 3.75d
 		}
 		{
-			dependencies: ["5DA4FF9594050625"]
+			dependencies: [
+				"5DA4FF9594050625"
+				"5111231066242D1D"
+			]
+			description: ["This item can be obtained by brewing a &eCockroach Wing&r into a &eAwkward Potion&r"]
 			id: "244C9FED599C2AA0"
-			subtitle: "Bug Pheromones:Cockroach Wing made from 9 fragments dropped by cockroaches."
+			rewards: [{
+				count: 3
+				id: "6D0A21A16DFA749F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:bug_pheromones"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Brewed with a Cockroach Wing and an Awkward Potion"
 			tasks: [{
+				count: 3L
 				id: "3A21445B8EDA1F89"
 				item: {
 					Count: 1b
@@ -1665,14 +2718,30 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Potion of Bug Phermones (Wither Eye)"
 			x: 18.25d
 			y: 3.25d
 		}
 		{
-			dependencies: ["5DA4FF9594050625"]
+			dependencies: [
+				"5DA4FF9594050625"
+				"68415FF3EBFE63A2"
+				"72E55A21ACBBD6BA"
+			]
+			description: ["This item can be obtained by crafting together an &eEthereal Spirit&r,&e Fire Light Dust&r, &eBone Meal&r, and &eGlass Bottle&r"]
 			id: "03D2602D7633065D"
-			subtitle: "Magical Energy Bottle: Ethereal Spirit(common night mobs), firelight dust(firelight in nether)."
+			rewards: [{
+				id: "4C268A9FDB086A1E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "born_in_chaos_v1:potion_of_rampage"
+				}
+				type: "item"
+			}]
+			subtitle: "Crafted from Ethereal Spirit, Fire Light, Dust Bone Meal, and a Glass Bottle"
 			tasks: [{
 				id: "2A4F012F0E1B8CCE"
 				item: {
@@ -1684,15 +2753,39 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Bottle of Magical Energy (Wither Eye)"
 			x: 15.75d
 			y: 4.25d
 		}
 		{
-			dependencies: ["5DA4FF9594050625"]
+			dependencies: [
+				"5DA4FF9594050625"
+				"67DE26F4537FDCC7"
+			]
+			description: [
+				"This item can be obtained by brewing a &eSoul Heart&r into an &eAwkward Potion&r"
+				""
+				"Drinking a &ePotion of Soulsteal&r will grant the drinker life-steal on their attacks"
+			]
 			id: "092285126EA7CA02"
-			subtitle: "Soulsteal: Soul Heart drops from Soul Vultures."
+			rewards: [{
+				count: 3
+				id: "06E0A51F6CFCD540"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:long_soulsteal"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Brew a Soul Heart into an Awkward Potion"
 			tasks: [{
+				count: 3L
 				id: "423B8C641602DCF4"
 				item: {
 					Count: 1b
@@ -1706,14 +2799,32 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Potion of Soulsteal (Wither Eye)"
 			x: 16.25d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by killing &cBlindsights&r that can be found in the Glowstone Canyon, Quartz Flats, or Infernal Dunes "
+				""
+				""
+				"A &eBlindsight Tongue&r can also be used to craft a &eBlindsight Tongue Whip&r"
+			]
 			id: "75CAED209D19FB5E"
-			subtitle: "Blindsight Tongue: Drops 30% from Blindsights in Glowstone Canyon, Quartz Flats or Infernal Dunes."
+			rewards: [{
+				count: 32
+				id: "7062351C0D997D81"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "infernalexp:blindsight_tongue_stew"
+				}
+				type: "item"
+			}]
+			subtitle: "Dropped by Blindsights"
 			tasks: [{
 				id: "457E9CF9615C0DC5"
 				item: {
@@ -1725,14 +2836,47 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Blindsight Tongue (Wither Eye)"
 			x: 17.75d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by killing &cFallen Choas Knights&r or &cSkeleton Thrashers&r"
+				""
+				"It can also be obtained by crafting together 9 &ePieces of Dark Metal&r which drops from a variety of nightmareish mobs, such as &cBonescallers&r, &cDiamond Termites&r, &cDoor Knights&r, &cNightmare Stalkers&r and many more!"
+			]
 			id: "68EEBCFB605E22C5"
-			subtitle: "Pile of Dark Metal: Crafted from pieces or dropped as piles from enemies/loot in some dark overworld structures."
+			rewards: [
+				{
+					id: "2057DB0283607E47"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:armor_plate_from_dark_metal"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6B6E5DCBD391417B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by Fallen Chaos Knight and Skeleton Thrasher"
 			tasks: [{
 				id: "666C90AE105B6330"
 				item: {
@@ -1744,14 +2888,56 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Pile of Dark Metal (Wither Eye)"
 			x: 15.75d
 			y: 3.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by killing &cNightmare Stalkers&r, which spawn at night "]
 			id: "6A0D1506919C6916"
-			subtitle: "Nightmare Claw: Nightmare Stalkers drop these at night."
+			rewards: [
+				{
+					id: "2758121CD95B9C22"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:potion_of_rampage"
+					}
+					type: "item"
+				}
+				{
+					id: "74B3D8DD0958D7EB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:digging_claws"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D1CD9F11FBF9632"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:feral_claws"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by Nightmare Stalkers"
 			tasks: [{
 				id: "3EF7003E14BA6CD7"
 				item: {
@@ -1763,14 +2949,31 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Nightmare Claw (Wither Eye)"
 			x: 18.25d
 			y: 4.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by killing &cFirelights&r, which can be found in the Crimson Forest as well as &cBone Imps&r and &cSeared Spirits&r"
+				""
+				"&eFirelight&r can be used as makeshift coal in recipes for &eTorches&r and &eCampfires&r"
+			]
 			id: "72E55A21ACBBD6BA"
-			subtitle: "Fire Light Dust: Dropped from firelights in the nether wastes/crimson"
+			rewards: [{
+				count: 16
+				id: "2876132977AFE9C0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "born_in_chaos_v1:fire_dust"
+				}
+				type: "item"
+			}]
+			subtitle: "Dropped by Firelights, Bone Imps, and Seared Spirits"
 			tasks: [{
 				id: "0CE8DB5D2CC45857"
 				item: {
@@ -1782,15 +2985,35 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Fire Light Dust (Wither Eye)"
 			x: 16.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["5DA4FF9594050625"]
+			dependencies: [
+				"5DA4FF9594050625"
+				"7A1AAC2D2E0518D6"
+			]
+			description: ["This item can be obtained by brewing an &eAscus&r into an &eAwkward Potion&r"]
 			id: "502FA13F744B08D7"
-			subtitle: "Brewed with Ascus bomb"
+			rewards: [{
+				count: 3
+				id: "6C51D2042794DFEE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "infernalexp:strong_infection"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Brew an Ascus into an Awkward Potion"
 			tasks: [{
+				count: 3L
 				id: "0C69378E653E63AB"
 				item: {
 					Count: 1b
@@ -1804,7 +3027,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Potion of Infection (Wither Eye)"
 			x: 17.5d
 			y: 5.0d
 		}
@@ -1816,9 +3039,41 @@
 				"15EEED62C887F2F1"
 				"3FA97B2508510341"
 				"5DA4FF9594050625"
+				"6D70A177BC0F10DB"
+			]
+			description: [
+				"This item can be obtained by fermeting a &eWither Rose&r, &eInk Sac&r, &eNether Wart&r, &eBone&r, and &eSalty Folly&r at a searing hot temperature"
+				""
+				"The temperature of a &eKeg&r can be increased by placing hot blocks around it"
 			]
 			id: "3BA2BC50CE5E9ECA"
-			subtitle: "Wither Dross: W. Rose, Sac, Wart, Bone, searing hot:4 hot blocks surrounding keg."
+			rewards: [
+				{
+					count: 2
+					id: "6D1330E1AEC5B5B0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2E89CA6B0B662A01"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "brewinandchewin:withering_dross"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Ferment a Wither Rose, Ink Sac, Nether Wart, Bone, and Salty Folly, at a searing hot temperature"
 			tasks: [{
 				id: "5B93BBEEBE5837B3"
 				item: {
@@ -1833,14 +3088,40 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Withering Dross (Wither Eye)"
 			x: 20.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained when &4The Wither&r kills a mob or by crafting together 8 &eWither Bonefish&r and a &eRed Tulip&r"]
 			id: "15EEED62C887F2F1"
-			subtitle: "Wither Rose: Mobs killed by wither drop this."
+			rewards: [
+				{
+					count: 16
+					id: "29976848EE617FD1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:wither_rose"
+					}
+					type: "item"
+				}
+				{
+					id: "53F0BC473421BA7D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:flower_pot"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by a mob killed by The Wither"
 			tasks: [{
 				id: "03B643C0AA0CFAE6"
 				item: {
@@ -1852,13 +3133,55 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Wither Rose (Wither Eye)"
 			x: 21.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by killing &aSquid&r"
+				""
+				"&eInk Sacs&r can be used for many thing such as &eBook and Quills&r, &eBlack Dye&r, and more!"
+			]
 			id: "11EB58C5F48536DD"
+			rewards: [
+				{
+					id: "741609122D1B7F4E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "upgrade_aquatic:squid_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "7B6AD28DCCBFCE68"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "upgrade_aquatic:glow_squid_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2B58D64D68ED146E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:squid_ink_pasta"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by Squid"
 			tasks: [{
 				id: "0AD05C9B01246DBB"
 				item: {
@@ -1870,13 +3193,40 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Ink Sac (Wither Eye)"
 			x: 20.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained in many ways, but the most common will be by killing &cSkeletons&r"]
 			id: "3FA97B2508510341"
+			rewards: [
+				{
+					id: "251C59C8391D2028"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3BBBC79A24513FBE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:bone_block"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Droppd by Skeletons"
 			tasks: [{
 				id: "6A09C8F03E8DB3F3"
 				item: {
@@ -1888,14 +3238,45 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Bone (Wither Eye)"
 			x: 20.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained as loot from Nether Fortresses. You can find &eNether Wart&r Growing in some of the rooms of the Fotresses, as well as in chests"
+				""
+				"&eNether Wart&r can be used for many things such as crafting &eNetherrack&r, Brewing, and more!"
+			]
 			id: "76E34E602F9BFD92"
-			subtitle: "Nether Wart: From Nether fortresses."
+			rewards: [
+				{
+					count: 16
+					id: "6374C82DF961EC89"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersrespite:nether_wart_sourdough"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "29946D37F30BE409"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Looted from Nether Fortresses"
 			tasks: [{
 				id: "636E89922EABF9C6"
 				item: {
@@ -1907,35 +3288,31 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Nether Wart (Wither Eye)"
 			x: 21.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
-			icon: "minecraft:magma_block"
-			id: "67B83B29ACE8DCC5"
-			subtitle: "Used to heat a keg"
-			tasks: [{
-				id: "1491F2BCBDBAD125"
+			description: [
+				"This item can be obtained by killing &4The Wither&r"
+				""
+				"Two of the main drops from The &eWither Treasure Bag&r are the &eWither Sword&r and &eInfernal Sponge&r "
+			]
+			icon: "majruszsdifficulty:wither_treasure_bag"
+			id: "4964257DDC5555F4"
+			rewards: [{
+				id: "67DD25394DCD69F3"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "minecraft:magma_block"
+					id: "majruszsdifficulty:wither_treasure_bag"
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
-			x: 16.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["5DA4FF9594050625"]
-			icon: "majruszsdifficulty:wither_treasure_bag"
-			id: "4964257DDC5555F4"
-			subtitle: "Dropped by killing the wither."
+			subtitle: "Dropped by The Wither"
 			tasks: [{
 				id: "175FD55D40B7AE36"
 				item: {
@@ -1947,14 +3324,40 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
-			x: 19.0d
-			y: -4.0d
+			title: "Wither Treasure Bag (Wither Eye)"
+			x: 20.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtianed by kill &cWither Skeletons&r or &aWither Bonefish&r"]
 			id: "375A0FBACF8C89BA"
-			subtitle: "Wither skulls rarely(1/40) drop from w. skeletons."
+			rewards: [
+				{
+					count: 3
+					id: "3B2E25291861E942"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:wither_skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "237F9A61549B1E58"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:wither_bonefish_bucket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by Wither Skeletons or Wither Bonefish"
 			tasks: [{
 				count: 3L
 				id: "2BBB0E6D479659B0"
@@ -1967,7 +3370,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Wither Skeleton Skull (Wither Eye)"
 			x: 16.0d
 			y: -4.75d
 		}
@@ -1977,9 +3380,27 @@
 				"1C1EFBEAFC82D809"
 				"77926207252B4981"
 				"5DA4FF9594050625"
+				"00CE050313076B49"
+			]
+			description: [
+				"This item can be obtained by fermenting &eVodka&r, &eSea Pickle&r, 2 &eDried Kelp&r, and &eSeagrass&r at a cold temperature"
+				""
+				"The temperature of a &eKeg&r can be reduced by placing cold blocks around it"
 			]
 			id: "03BB1C8C61DDB8E0"
-			subtitle: "Salty Folly: Vodka, Pickle, Kelp, Milk, two cold blocks surrounding keg."
+			rewards: [{
+				count: 10
+				id: "5281F8A5537B7005"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "brewinandchewin:salty_folly"
+				}
+				type: "item"
+			}]
+			subtitle: "ferment Vodka, Sea pickle, Dried Kelp, and Seagrass at a cold temperature"
 			tasks: [{
 				id: "566785F030CCC094"
 				item: {
@@ -1994,14 +3415,27 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Salty Folly (Wither Eye)"
 			x: 18.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by exploring your world and finding Warm Ocean biomes, &eSea Pickles&r will be scattared around the Coral Reefs"]
 			id: "0A3A296F42C68949"
-			subtitle: "Sea Pickle: Coral Reefs."
+			rewards: [{
+				count: 32
+				id: "494F8E5A6379F788"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:sea_pickle"
+				}
+				type: "item"
+			}]
+			subtitle: "Found in Warm Ocean biomes"
 			tasks: [{
 				id: "6B4ECA4F08BAEC5B"
 				item: {
@@ -2013,14 +3447,27 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Sea Pickle (Wither Eye)"
 			x: 17.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by smelting &eKelp&r, which can be found growing in most oceans "]
 			id: "1C1EFBEAFC82D809"
-			subtitle: "Dried Kelp: Smelted deep ocean kelp."
+			rewards: [{
+				count: 32
+				id: "56ABCD706F9EE7D3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:dried_kelp_block"
+				}
+				type: "item"
+			}]
+			subtitle: "Smelt Kelp"
 			tasks: [{
 				count: 2L
 				id: "67A1B608AB7B6541"
@@ -2033,14 +3480,30 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Dried Kelp (Wither Eye)"
 			x: 18.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["5DA4FF9594050625"]
+			dependencies: [
+				"5DA4FF9594050625"
+				"7A802249786A287E"
+			]
+			description: ["This item can be obtained by fermenting 3 &ePotatoes&r, 1 &eWheat&r, and 1 &eWater Bucket&r, at a neutral tempature"]
 			id: "77926207252B4981"
-			subtitle: "Vodka: Potatoes, wheat, water, neutral temp."
+			rewards: [{
+				count: 10
+				id: "365932D306E01B14"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "brewinandchewin:vodka"
+				}
+				type: "item"
+			}]
+			subtitle: "Ferment Potatoes, Wheat, and Water Bucket, at a neutral tempature"
 			tasks: [{
 				id: "128C4A9D200F5DAF"
 				item: {
@@ -2055,14 +3518,61 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Vodka (Wither Eye)"
 			x: 17.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["5DA4FF9594050625"]
+			dependencies: [
+				"5DA4FF9594050625"
+				"5EE47CB5195BF503"
+			]
+			description: ["This item can be obtained by cooking together - &eCoffee Beans&r, &eBlaze Powder&r, &eNether Wart&r, &eRaw Beef&r, and a &eBowl&r in a &eCooking Pot&r."]
 			id: "1F2C6DA2C722AEE2"
-			subtitle: "- Blazing Chili: Made with coffee, blaze powder, and nether wart in a cooking pot."
+			rewards: [
+				{
+					count: 32
+					id: "5D7238C99DFE0BBC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersrespite:blazing_chili"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "63508435508DD286"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64508FD3C70FC509"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:fire_gauntlet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Cook together Coffee Beans, Nether Wart, Blaze Powder, Raw Beef, and a Bowl"
 			tasks: [{
 				id: "1D7313995142F4E1"
 				item: {
@@ -2076,30 +3586,29 @@
 			}]
 			title: "Used in Wither Eye"
 			x: 18.75d
-			y: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
-			id: "06342B618BE49377"
-			subtitle: "Used to brew coffee. Found in the nether."
-			tasks: [{
-				id: "2B2ABE45B1D69213"
+			description: [
+				"This item can be obtained by crafting together 1 &eHoney Comb&r, 4 &eIron Ingots&r, and 4 &eWood Planks&r"
+				""
+				"&eKegs&r are used for creating drinks through the fermenting process"
+			]
+			id: "7A802249786A287E"
+			rewards: [{
+				count: 5
+				id: "445F4F92BD94281E"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "farmersrespite:coffee_berries"
+					id: "brewinandchewin:beer"
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
-			x: 19.75d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5DA4FF9594050625"]
-			id: "7A802249786A287E"
+			subtitle: "Crafted from Honey Comb, Iron Ingots, and Wood Planks"
 			tasks: [{
 				id: "29585842F952DEA2"
 				item: {
@@ -2111,14 +3620,15 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Keg (Wither Eye)"
 			x: 16.5d
 			y: 7.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by killing &cSoul Vultures&r, which spawns in the Soul Sand Valley. &eSoul Hearts&r can only be obtained onbce a &cSoul Vulture&r has sucked the soul from its victium five times."]
 			id: "67DE26F4537FDCC7"
-			subtitle: "Soul heart: gathered by letting a soul vulture drain your soul on hit five times then slaying them, which has a chance to drop them."
+			subtitle: "Dropped by Soul Vultures"
 			tasks: [{
 				id: "5860CEABAEEB3107"
 				item: {
@@ -2130,13 +3640,41 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Soul Heart (Wither Eye)"
 			x: 16.25d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtaiened by killing &cShroomloins&r"]
 			id: "7A1AAC2D2E0518D6"
+			rewards: [
+				{
+					count: 16
+					id: "56544A7ADCA031EE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:ascus_bomb"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4D19D1F670756611"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:flash_bomb"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by Shroomloin"
 			tasks: [{
 				id: "54FB0B6321FBB630"
 				item: {
@@ -2148,13 +3686,26 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Ascus Bomb (Wither Eye)"
 			x: 17.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by killing a variety of nightmareish mobs, such as &cDark Vortexs&r, &cNightmare Stalkers&r, &cPumpin Spirits&r, &cRestless Spirits&r, and more!"]
 			id: "68415FF3EBFE63A2"
+			rewards: [{
+				id: "48A9CF47A894A1F1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "born_in_chaos_v1:ethereal_spirit"
+				}
+				type: "item"
+			}]
+			subtitle: "Dropped by many nightmareish mobs"
 			tasks: [{
 				id: "5443C836388A3B33"
 				item: {
@@ -2166,13 +3717,40 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
-			x: 14.75d
-			y: 4.25d
+			title: "Etheral Spirit (Wither Eye)"
+			x: 15.25d
+			y: 5.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by crafting together 9 Cockroach Wing Fragments, which can be obtained by killing &aCockroaches&r that spawn in caves"]
 			id: "5111231066242D1D"
+			rewards: [
+				{
+					id: "09132F3BE48E84FD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:cockroach_ootheca"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7981E6069D139914"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:cockroach_wing"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Crafted from 9 Cockroach Wing Fragments"
 			tasks: [{
 				id: "67E7C578C210D8DF"
 				item: {
@@ -2184,7 +3762,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Wither Eye"
+			title: "Cockroach Wing (Wither Eye)"
 			x: 19.25d
 			y: 3.25d
 		}
@@ -3060,6 +4638,332 @@
 			title: "Soul Quartz (Undead Eye)"
 			x: 13.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["3276D2A914468D30"]
+			description: ["This item can be obtained by fermenting together 2 &eCrimson Fungi&r, &eSugar&r, &eMilk&r, and a &eHoney Comb&r in a &eKeg&r"]
+			id: "2114D9F77C8D852B"
+			rewards: [
+				{
+					id: "0E38BF0252CBEAF8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:fermented_spider_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "21104171E642AF28"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "brewinandchewin:beer"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Intro to fermenting"
+			tasks: [{
+				id: "37CDDC310D192F83"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "brewinandchewin:unripe_scarlet_cheese_wheel"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["43281916E1BFCA95"]
+			description: ["This item can be crafted with 1 &eCarrot&r, 2 &eCooked Rice&r, and 3 &eWarped Kelp&r"]
+			id: "3CD8AC6EC317BAF2"
+			rewards: [
+				{
+					count: 16
+					id: "663FB32CED497ECC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "endermanoverhaul:warped_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "270230EA2C05D435"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:warped_kelp_roll"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft together Carrots, Cooked Rice, and Warped Kelp"
+			tasks: [{
+				id: "1A66D1D31A3AC710"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "netherdepthsupgrade:warped_kelp_roll"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by crafting together &eIron Ingots&r and &eCorruption&r, which drops from many corruped mobs, such as &cAcolytes&r, &cCorrupted Pillagers&r, &cGhouls&r, &cReapers&r, and more! "]
+			id: "1B89AD3B189758F1"
+			rewards: [
+				{
+					count: 10
+					id: "5806DD56E8BAB88E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "graveyard:dark_iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2386414CADE41865"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "graveyard:corruption"
+					}
+					type: "item"
+				}
+				{
+					id: "08929788343B4AE1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "weavers_cosmetics:dark_link_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Crafted with Iron Ingots and Corruption"
+			tasks: [{
+				id: "6A3CBA99AF238107"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "graveyard:dark_iron_ingot"
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			description: ["Placing cold blocks around a &eKeg&r can activate the process of some recipes"]
+			id: "00CE050313076B49"
+			rewards: [{
+				id: "46F968F62ABE7A12"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Cold blocks for fermenting"
+			tasks: [{
+				id: "28C517431608AF15"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:ice"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:blue_ice"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:packed_ice"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:snow_block"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:powder_snow_bucket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			description: ["Placing hot blocks around a &eKeg&r can activate the process of some recipes"]
+			id: "6D70A177BC0F10DB"
+			rewards: [{
+				id: "45B68BFF0D0A94C6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Hot blocks for fermenting"
+			tasks: [{
+				id: "7A956CADAB3B0A6F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:lava_bucket"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:campfire"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:magma_block"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:flint_and_steel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:soul_campfire"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 18.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by exploring The Nether, specifically in Basal Delta biomes"
+				""
+				"&eCoffee Beans&r can be planted on Basalt and will growing to Coffee Trees, supplying you with &eCoffee Berries&r"
+			]
+			id: "5EE47CB5195BF503"
+			rewards: [
+				{
+					count: 16
+					id: "2CF7D7BD38C94DD1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersrespite:coffee"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1DBC9926AC409BF0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersrespite:coffee_beans"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Found in Basalt Delta biomes"
+			tasks: [{
+				id: "431CC3B62484C01C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersrespite:coffee_beans"
+				}
+				type: "item"
+			}]
+			x: 19.75d
+			y: 1.75d
 		}
 		{
 			dependencies: ["71FD02F37D3FB343"]
