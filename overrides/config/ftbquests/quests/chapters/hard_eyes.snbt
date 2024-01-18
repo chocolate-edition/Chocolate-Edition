@@ -1522,27 +1522,63 @@
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": { }
 				}
-				id: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "mutantmore:formula_y"
 			}
-			}
 			id: "757BE6AD45565739"
-			subtitle: "Converts wither skeletons, blazes, and shulkers."
-			tasks: [{
-				id: "1F15A0F155A2331F"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "01DCDA5B5D88388B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "mutantmore:formula_y"
 					}
-					id: "mutantmore:formula_y"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "462761555757C05B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "mutantmore:compound_z"
+					}
+					type: "item"
+				}
+				{
+					id: "699B3DF569B5FE70"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Converts wither skeletons, blazes, and shulkers."
+			tasks: [
+				{
+					id: "1F15A0F155A2331F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "mutantmore:formula_y"
+					}
+					type: "item"
+				}
+				{
+					id: "13F1D28B710B2DC3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "mutantmore:compound_z"
+					}
+					type: "item"
+				}
+			]
 			title: "Used in Nether Eye"
 			x: 0.0d
 			y: 1.5d
@@ -1561,7 +1597,7 @@
 			description: [
 				"&4Requires Nether Access&r"
 				""
-				"• Frozen Rotten Flesh - Dropped by &cForstbitten&r"
+				"• Frozen Rotten Flesh - Dropped by &cFrostbitten&r"
 				""
 				"• Magma Rotten Flesh - Dropped by &cBurned&r"
 				""
@@ -1718,7 +1754,7 @@
 		{
 			dependencies: ["5DA4FF9594050625"]
 			description: [
-				"This item can be obtainted by killing &cForstbitten&r, which can be found in cold and snowy biomes at night"
+				"This item can be obtainted by killing &cFrostbitten&r, which can be found in cold and snowy biomes at night"
 				""
 				"&eFrozen Rotten Flesh&r can be brewed into &eSplash Potions of Freeze&r and &eArrows of Freeze&r are extreamly useful in combat"
 			]
@@ -1846,7 +1882,7 @@
 				""
 				"• Skreecher Soul - Dropped by &cSkreechers&r"
 				""
-				"• Cerberous Fang - Dropped by &4Cerberous&r"
+				"• Cerberous Fang - Dropped by &4Cerberus&r"
 				""
 				"• Spirt Eye - Crafted with 4 &eSoul Salt Clumps&r and a &eSpider Eye&r"
 				""
@@ -2074,7 +2110,7 @@
 		{
 			dependencies: ["5DA4FF9594050625"]
 			description: [
-				"This item can be obtainted by cutting down Ancient Trees - this log extinct species of tree can be revitalized from &eAncient Saplings&r found in Ancient Cities. "
+				"This item can be obtained by cutting down Ancient Trees - this long extinct species of tree can be revitalized from &eAncient Saplings&r found in Ancient Cities. "
 				""
 				"&eAncient Fruit&r also gives XP when eaten!"
 			]
@@ -2189,7 +2225,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Droppd by Cerberus"
+			subtitle: "Dropped by Cerberus"
 			tasks: [{
 				id: "7273EF49588408FD"
 				item: {
