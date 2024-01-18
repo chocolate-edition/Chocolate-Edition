@@ -3780,6 +3780,27 @@
 				"5DA4FF9594050625"
 				"5B4CB0F76C78E90B"
 			]
+			description: [
+				"&dRequires End Access!&r"
+				""
+				"• Mutant Shulker Shell - Dropped by &4Mutant Shulkers&r"
+				""
+				"• Ancient Shard - Found in smaller End Cities"
+				""
+				"• Void Core - Dropped by &4End Golems&r"
+				""
+				"• Irradium Bar - Smelt &eRaw Irradium&r"
+				""
+				"• Void Worm Eye - Dropped by &4Void Worms&r"
+				""
+				"• Void Fragment - Dropped by &cVoid Elementals&r"
+				""
+				"• Void Totem - Found in smaller End Cities"
+				""
+				"• Adamantite Ingot - Crafted with 9 &eAdamantite Nuggets&r"
+				""
+				"• Enderium Ingot - Crafted with 6 &eEnderium Shards&r and an &eEye of Ender&r"
+			]
 			id: "08DB361144003BDE"
 			min_width: 600
 			rewards: [
@@ -3848,11 +3869,29 @@
 		{
 			dependencies: [
 				"5DA4FF9594050625"
-				"71FD02F37D3FB343"
+				"7C6B68DBC8B466F6"
+			]
+			description: [
+				"This item is can be obtained by killing &4Void Worms&r, which can be lured out by throwing a &eMystrious Worm&r into the void"
+				""
+				""
+				""
+				"The &eVoid Worm Eye&r is also used for Tetra Smithng, as well as The &eDimensional Carvers&r, &owhich will be needed later in your adventure...&r"
 			]
 			id: "5E52473F6313BBE2"
+			rewards: [{
+				id: "2B06663D65D219C0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:void_worm_eye"
+				}
+				type: "item"
+			}]
 			size: 1.5d
-			subtitle: "Void Worm Eye: Drops from Void Worm. Used for dimensional carvers, which you'll need for something..."
+			subtitle: "Dropped by Void Worms"
 			tasks: [{
 				id: "3D5595533C6F04C9"
 				item: {
@@ -3864,15 +3903,58 @@
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Void Worm Eye (...)"
 			x: 30.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by killing &4Mutant Shulkers&r, a man made monster, created by feeding a &cShulker&r the unstable and inconsistant &eFormula Y&r or the stable and consistant &eCompound Z&r"
+				""
+				"&eFormula Y&r, which is know to be unreactive somtimes, is obtained by brewing a &eCrying Obsidain&r into a &ePotion of Harming&r"
+				""
+				"&eCompound Z&r, which is always reactive, is obtained by brewing a &eMutant Wither Skeleton Skull&r, &eMutant Blaze Core&r, or &eMutant Shulker Shell&r into &eFormula Y&r"
+			]
 			id: "0E280AFA126ACAA0"
+			rewards: [
+				{
+					id: "0E8DCCF9C4F3FDC0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualend:shulker_orb"
+					}
+					type: "item"
+				}
+				{
+					id: "3A629FF32E114766"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualend:shulker_shooter"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "26168B21DFDB5578"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:shulker_shell"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
-			subtitle: "Mutant Shulker Shell: Drops from Mutant Shulkers."
+			subtitle: "Dropped by Mutant Shulkers"
 			tasks: [{
 				id: "62CF28823217EF51"
 				item: {
@@ -3884,7 +3966,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Mutant Shulker Shell (...)"
 			x: 27.75d
 			y: -1.125d
 		}
@@ -3893,9 +3975,38 @@
 				"5DA4FF9594050625"
 				"0D04CF00A9040EBD"
 			]
+			description: [
+				"This item can be obtained by killing &4Ender Golems&r, which can be found in the Ruined Citadel, in The End"
+				""
+				"The &eVoid Core&r can also be used to upgrade you weapons in the &eMechanical Fusion Anvil&r"
+			]
 			id: "078C492B745F47B0"
+			rewards: [
+				{
+					id: "6F041DAE4C6BE187"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:void_core"
+					}
+					type: "item"
+				}
+				{
+					id: "672BBD7D779FED40"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:advanced_void_upgrade"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
-			subtitle: "Void Core: Obsidian Golem's Main Drop(miniboss in the end citadel)."
+			subtitle: "Dropped by Ender Golems"
 			tasks: [{
 				id: "5B4ED097936195CF"
 				item: {
@@ -3907,29 +4018,57 @@
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Void Core (...)"
 			x: 27.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by killing &cVoid Elementals&r"
+				""
+				"&eVoid Fragments&r can be used to craft &eVoid Runes&r and &eVoid Ingots&r, which can be used to craft the &eEnd Armor&r set"
+			]
 			id: "7001914B9E76738B"
+			rewards: [
+				{
+					id: "55D584091B7CAA87"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iter_rpg:void_rune"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4F522CC44510F4C1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iter_rpg:void_fragment"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
-			subtitle: "Void Fragment: Drops from Void Elemental."
+			subtitle: "Dropped by Void Elementals"
 			tasks: [{
 				id: "3BD597B11661108A"
 				item: {
 					Count: 1b
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
+						"dungeons_libraries:built_in_enchantments": { }
 					}
 					id: "iter_rpg:void_fragment"
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Void Fragment (...)"
 			x: 32.25d
 			y: 1.125d
 		}
@@ -3938,8 +4077,26 @@
 				"5DA4FF9594050625"
 				"26347D8A95505E00"
 			]
+			description: [
+				"This item can be obtained by crafting together 6 &e Enderium Shards&r and an &eEye of Ender&r"
+				""
+				"&eEnderium Shards&r can be found by adventuring through The End, or through the use of the &eEnderium Shard Locator&r"
+			]
 			id: "4AE5F97A227CE0EF"
+			rewards: [{
+				count: 12
+				id: "3F76F5C6DC25DA8F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:enderium_shard"
+				}
+				type: "item"
+			}]
 			size: 1.5d
+			subtitle: "Crafted with 6 Enderium Shards and an Eye of Ender"
 			tasks: [{
 				id: "5284A0F616B03CFF"
 				item: {
@@ -3951,14 +4108,32 @@
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Enderium Ingot (...)"
 			x: 31.875d
 			y: -4.125d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by exploring The End and looting End Cities. &eVoid Totems&r can only be found in the smaller End City Towers, and are riddled with traps, be careful while adventuring for them!"
+				""
+				"If you're holding a &eVoid Totem&r, while falling into the void, you launch into the air, and recieve a short burst of Slow Falling, protecting you from your mistake!"
+			]
 			id: "132FF9B7E304FC6E"
+			rewards: [{
+				count: 5
+				id: "33654EE5E1C01629"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "unusualend:void_totem"
+				}
+				type: "item"
+			}]
 			size: 1.5d
+			subtitle: "Looted from smaller End Cities"
 			tasks: [{
 				id: "0C20E732D87B4424"
 				item: {
@@ -3970,15 +4145,46 @@
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Void Totem (...)"
 			x: 32.625d
 			y: -0.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by exploring The End and looting End Cities. &eAncient Shards&r can only be found in the smaller End City Towers, and are riddled with traps, be careful while adventuring for them!"
+				""
+				"&eAncient Shards&r can also be used to create &eEnd Respawn Alters&r, &eFading Blocks&r, and &ePurper Tanks&r"
+			]
 			id: "56E093ED13AE7A09"
+			rewards: [
+				{
+					count: 10
+					id: "1EA6FABE07980B90"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualend:ancient_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "01D5CF80AD44F036"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualend:fading_block"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
-			subtitle: "Ancient Shard: Also used to respawn in the end, create larger barrels and make fading doors."
+			subtitle: "Looted from smaller End Cities"
 			tasks: [{
 				id: "7511B83F6E6FCBFC"
 				item: {
@@ -3990,7 +4196,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Ancient Shard (...)"
 			x: 27.375d
 			y: 0.75d
 		}
@@ -3999,8 +4205,25 @@
 				"5DA4FF9594050625"
 				"5C7DC40A0BA64840"
 			]
+			description: [
+				"This item can be obtained by crafting together 9 &eAdamantite Nuggets&r"
+				""
+				"&eAdamantite Ingots&r can also be used to upgrade &eDark Metal Armor&r, into a heavier and more tank-like state! "
+			]
 			id: "658E5F0FE30F2DFF"
+			rewards: [{
+				id: "0FF4EE38086D09F2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "delightful:adamantite_knife"
+				}
+				type: "item"
+			}]
 			size: 1.5d
+			subtitle: "Craft 9 together Adamantite Nuggets "
 			tasks: [{
 				id: "3EE1A27B5B0B7FEF"
 				item: {
@@ -4012,7 +4235,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Adamantite (...)"
 			x: 32.25d
 			y: -2.25d
 		}
@@ -4021,22 +4244,61 @@
 				"5DA4FF9594050625"
 				"2C71C6EB00048A7C"
 			]
+			description: [
+				"This item can be obtained by smelting &eRaw Irradium&r"
+				""
+				"&eIrradium Bars&r can also be used for nuclear-based things, such as &eNuclear Bombs&r and &eNuclear Furances&r "
+			]
 			id: "1454FDDDF7DFCF77"
+			rewards: [
+				{
+					id: "76625FA414945CDE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:irradium_lamp"
+					}
+					type: "item"
+				}
+				{
+					id: "49055D26C59564D5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:irradium_lamp"
+					}
+					type: "item"
+				}
+				{
+					id: "1D55D8F7DB088F1E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:irradium_lamp"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
+			subtitle: "Smelt Raw Irradium"
 			tasks: [{
 				id: "292E0F51580FE5DA"
 				item: {
 					Count: 1b
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
+						"dungeons_libraries:built_in_enchantments": { }
 					}
 					id: "enlightened_end:irradium_bar"
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Irradium Bar (...)"
 			x: 28.5d
 			y: 3.75d
 		}
@@ -4045,8 +4307,25 @@
 				"27A8FCC193076FD2"
 				"5DA4FF9594050625"
 			]
+			description: [
+				"This item can be obtained as common loot from an &eEnder Dragon Treasure Bag&r, which drops from &4The Ender Dragon&r"
+				""
+				"The &eEnderium Shard Locator&r, indicates how far you are from the closest &eEnderium Shard Ore&r!"
+			]
 			id: "26347D8A95505E00"
+			rewards: [{
+				id: "758A78F63361EAEF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "majruszsdifficulty:ender_pouch"
+				}
+				type: "item"
+			}]
 			size: 1.5d
+			subtitle: "Looted from Ender Dragon Treasure Bag"
 			tasks: [{
 				id: "30D6BA03660B5E31"
 				item: {
@@ -4058,14 +4337,44 @@
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Enderium Shard Locator (...)"
 			x: 30.375d
 			y: -5.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by killing &4The Ender Dragon&r"
+				""
+				"The &eEnder Draong Treasure Bag&r can also drop &eEnder Pouches&r, which work as a portable &eEnder Chest&r"
+			]
 			id: "27A8FCC193076FD2"
+			rewards: [
+				{
+					id: "1B5DC471E4CE5A75"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:ender_dragon_treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					id: "4BCAFF130564DE79"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:dragonskullender"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
+			subtitle: "Dropped by The Ender Dragon"
 			tasks: [{
 				id: "3976D6B08CD8B1D0"
 				item: {
@@ -4077,36 +4386,64 @@
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
-			x: 28.875d
+			title: "Ender Dragon Treasure Bag (...)"
+			x: 28.5d
 			y: -5.625d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained by mining &eIrradium Ore&r, which can be found underneath the floating end islands "]
 			id: "2C71C6EB00048A7C"
+			rewards: [{
+				count: 5
+				id: "461DC5D0B272E8F7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enlightened_end:raw_irradium_block"
+				}
+				type: "item"
+			}]
 			size: 1.5d
-			subtitle: "Found in undergrowth biomes(under islands) in the End"
+			subtitle: "Found underneath the floating void islands"
 			tasks: [{
 				id: "2D34FC9E2F09E80E"
 				item: {
 					Count: 1b
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
+						"dungeons_libraries:built_in_enchantments": { }
 					}
 					id: "enlightened_end:raw_irradium"
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Rad Irradium (...)"
 			x: 28.875d
 			y: 5.625d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by crafting together &eShulker Shells&r, &ePurper Pillars&r, &eEnd Stone Bricks&r, and an &eEye of Ender&r"
+				""
+				"Upon the &eEye of Void&r being throw, leads you toward the nearest Ruined Citadel "
+			]
 			id: "0D04CF00A9040EBD"
+			rewards: [{
+				id: "0DC90B5B7C68CEE0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "cataclysm:void_eye"
+				}
+				type: "item"
+			}]
 			size: 1.5d
+			subtitle: "Crafted with End related materials"
 			tasks: [{
 				id: "02B72361FB28A5D1"
 				item: {
@@ -4118,35 +4455,69 @@
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Eye of Void (...)"
 			x: 27.0d
 			y: 3.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "supplementaries:textures/map_markers/end_city.png"
-				}
-			}
-			id: "48793273BCBDD8B4"
-			size: 1.5d
-			subtitle: "Obtainable from loot chests in an Ancient End City (Small end city with shooter traps with an altar at the top that when right clicked summons the Endstone Golem boss)."
-			tasks: [{
-				id: "366AA71A7D4AF0DC"
-				type: "checkmark"
-			}]
-			title: "Used in ..."
-			x: 25.875d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5DA4FF9594050625"]
+			description: [
+				"This item can be obtained by killing &6Enderiophages&r, which can be found in the End Midlands"
+				""
+				"&6Enderiophages&r are, by nature, neutral, however if you attack one, you might be inflicted with the Ender Flu. To combat the Ender Flu effects, drink &eMilk&r or eat &eChorus Fruit&r"
+				""
+				"You can create your own &6Enderiophages&r, by placing a &eCapsid&r above and &eEnd Rod&r, and putting a &eEye of Ender&r inside it"
+			]
 			id: "71FD02F37D3FB343"
+			rewards: [
+				{
+					id: "7244A5A0192F03E1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:capsid"
+					}
+					type: "item"
+				}
+				{
+					id: "4BAB904922A02BC8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "22E65F43EC3A4525"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:end_rod"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1B6EE7E7D5337978"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:enderiophage_rocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
-			subtitle: "Capsid: Place a Crimson Mosquito Larva inside to get a mysterious worm. Throw it into the void and..."
+			subtitle: "Dropped by Enderiophages"
 			tasks: [{
 				id: "45FFF08EB99F2871"
 				item: {
@@ -4158,51 +4529,43 @@
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
-			x: 31.5d
-			y: 5.25d
+			title: "Capsid (...)"
+			x: 33.0d
+			y: 7.125d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
+			description: ["This item can be obtained my mining &eAdamantite Nodes&r, which are found underneath the floating void islands. "]
 			id: "5C7DC40A0BA64840"
+			rewards: [{
+				count: 18
+				id: "5148ABD51D782A75"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enlightened_end:adamantite_nugget"
+				}
+				type: "item"
+			}]
 			size: 1.5d
-			subtitle: "Found at void level; drops nuggets."
+			subtitle: "Found underneath the floating void islands"
 			tasks: [{
+				count: 9L
 				id: "73EB23D05B0D5224"
 				item: {
 					Count: 1b
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "enlightened_end:adamantite_node"
+					id: "enlightened_end:adamantite_nugget"
 				}
 				type: "item"
 			}]
-			title: "Used in ..."
+			title: "Adamantite Nugget (...)"
 			x: 33.375d
 			y: -3.375d
-		}
-		{
-			dependencies: ["5DA4FF9594050625"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "supplementaries:textures/map_markers/end_city.png"
-				}
-			}
-			id: "50A2C19A88C07A5D"
-			size: 1.5d
-			subtitle: "Obtainable from loot chests in an Ancient End City (Small end city with shooter traps with an altar at the top that when right clicked summons the Endstone Golem boss)."
-			tasks: [{
-				id: "045B0FEE58D9FB24"
-				type: "checkmark"
-			}]
-			title: "Used in ..."
-			x: 34.125d
-			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -4601,6 +4964,43 @@
 			}]
 			x: 19.75d
 			y: 1.75d
+		}
+		{
+			dependencies: ["71FD02F37D3FB343"]
+			description: [
+				"This item can be obtained by placing a &eCrimson Mosquito Larva&r into a &eCapsid&r "
+				""
+				"Throwing the Mystrouis Worm into the void, will lure out the greate &4Void Worm&r"
+			]
+			id: "7C6B68DBC8B466F6"
+			rewards: [{
+				count: 10
+				id: "53399AAE2A24573A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:mysterious_worm"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Place a Crimson Mosquito Larva inside a Capsid"
+			tasks: [{
+				id: "2792684F3440691E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:mysterious_worm"
+				}
+				type: "item"
+			}]
+			title: "Mysterious Worm (...)"
+			x: 31.125d
+			y: 6.0d
 		}
 	]
 	title: "&cHard Eyes"
