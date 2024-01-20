@@ -1,9 +1,17 @@
 [
   {
     "mob": "dungeons_mobs:endersent",
-    "dimension": [ "minecraft:the_end" ],
+    "dimension":"minecraft:the_end",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["dungeons_mobs:blastling", "dungeons_mobs:watchling", "dungeons_mobs:snareling", "endermanoverhaul:end_enderman"],
+    "dimension":"minecraft:the_end",
+    "random": 0.95,
     "onjoin": true,
     "result": "deny"
   }
+
 
 ]
