@@ -965,9 +965,9 @@
 			id: "3845F9E0464F45E6"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "678FC1710C0A18C7"
+				id: "5A1B8C0B91685DFE"
 				table_id: 7875744162432429019L
-				type: "loot"
+				type: "choice"
 			}]
 			subtitle: "16 rubies/jade/aquamarine/onyx"
 			tasks: [{
@@ -1638,6 +1638,7 @@
 			y: -10.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1667,6 +1668,7 @@
 			y: -9.75d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1696,6 +1698,7 @@
 			y: -11.75d
 		}
 		{
+			disable_toast: true
 			icon: "iter_rpg:big_vase"
 			id: "5BEC64C3A86BF8DD"
 			rewards: [{
@@ -1719,6 +1722,7 @@
 			y: -12.75d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:ender_chest"
 			id: "615D275A59F5A721"
 			rewards: [{
@@ -1742,6 +1746,7 @@
 			y: -11.75d
 		}
 		{
+			disable_toast: true
 			icon: "farmersdelight:roast_chicken_block"
 			id: "0B04E6219666D4B5"
 			rewards: [{
@@ -5944,9 +5949,6 @@
 			hide: false
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "quark:ancient_tome"
 				tag: {
 					StoredEnchantments: [{
@@ -6024,13 +6026,7 @@
 			]
 			disable_toast: true
 			hide: false
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enigmaticlegacy:mending_mixture"
-			}
+			icon: "enigmaticlegacy:mending_mixture"
 			id: "369DC95CD8D32734"
 			rewards: [{
 				count: 16

@@ -26,15 +26,35 @@
 				"2243BA6B2363797E"
 			]
 			description: [
-				"      *you feel a faint vision come over you, of an event long ago. It is of an ancient place- somewhere lost to time. Over a lit table surrounded by engulfing dark, you notice some people- villagers, illagers, piglins, endermen, and many more. An eye of ender is placed on the table, it's power entrenching- and everything goes white*"
+				"      &oYou feel a faint vision come over you, of an event long ago...&r"
 				""
-				"*you feel the sudden urge to look in your quest book*"
+				"      It is of an ancient place- somewhere lost to time. Over a lit table surrounded by engulfing dark, you notice some people- &aVillagers&r, &cIllagers&r, &6Piglins&r, &cEndermen&r, and many more. An &eEye of Ender&r is placed on the table, it's power entrenching..."
+				""
+				"       &o...and everything goes white&r"
 			]
 			hide: true
 			icon: "minecraft:crafting_table"
 			id: "26D1445D673CC2CA"
+			rewards: [{
+				id: "3324CADF40D813FC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "paraglider:heart_container"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
-			title: "Vision at 0 eyes"
+			subtitle: "Fate"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0E253B428BE45B40"
+				title: "A vison of the past"
+				type: "dimension"
+			}]
+			title: "A vision of fate"
 			x: -7.710714285714339d
 			y: 0.4954081632652816d
 		}
@@ -44,12 +64,11 @@
 				"7930E1E5F6FA73C1"
 			]
 			description: [
-				"      I see you've started to collect some eyes, hmm? Oh, sorry for scaring you. Do not be afraid, for I am but a lowly ender being speaking to your mind. I cannot interact with your plane of existence directly, I am using all our Power to merely talk to you via the Power of your Eyes. I have only come to ask you for help. My realm has been locked away in space for the past 1,000 years, as a result of some gods of the other realms quarreling with mine. This has left us common folk awaiting someone to come open the portal that sealed us here for generations. "
+				"      I see you've started to collect some &5&kE&r&5eyes&r&5&kE&r, hmm? Oh, sorry for scaring you. Don't be afraid, you're not going insane - I'm a &alowly ender being&r communicating with my mind. I've only come to ask you for help, my people and I have been locked away for eons, due the the quarreling of &lGods&r... "
 				""
-				"     Those eyes are the source of all magic, created long ago by the gods that imprisoned us here, and if you were to get your hands on 12 of them, you'd be Powerful enough to open the gate- and free this realm from it's curse! If you do that, my people and I would give you all our Power. "
+				"      We hoped to bring peace to the worlds, but we were only caught in the crossfire. Those &5&kE&r&5eyes&r&5&kE&r you've been collecting, they're the source of all the &lGods&r power, used to shape the world to their will. Just from you holding so many, you've been embued with a portion of the &lGods&r strength..."
 				""
-				""
-				"     Already, because of those eyes you've created, you have become Powerful enough to use complex storage, a slightly stronger material infused with the god Neptune's Essence, Neptunium and enter the Underworld! So please, for our sake, keep it coming. Take this offering, the only thing i can materialize into your world from here, as a sign of peace. And please don't forget: the more eyes you collect, the more Powerful you become..."
+				"      I ask on behalf of my people, please save us, its so lonely here. Fight your way through the underworld and empower yourself with &lGod&r &bNeptune's&r Armor, I give you this &eHeart&r as an offering of peace, use it to keep yourself save Young Adventurer, &othe world is full of monsters, theives, and liars.&r"
 			]
 			hide: true
 			icon: {
@@ -60,12 +79,196 @@
 				id: "paraglider:heart_container"
 			}
 			id: "3886B58078762548"
-			shape: "hexagon"
-			tasks: [{
-				id: "501F4CAB9D3D254E"
-				title: "Ender Communicator #1 (3 eyes)"
-				type: "checkmark"
+			rewards: [{
+				id: "3C23027243B3557C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "paraglider:heart_container"
+				}
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Distress"
+			tasks: [{
+				count: 3L
+				id: "4D5D8807E16A7D12"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cryptic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:exotic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:evil_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:undead_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:witch_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:wither_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:magical_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:guardian_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cold_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:black_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:lost_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:nether_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cursed_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:rogue_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:old_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:corrupted_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "A distress call"
 			x: -8.25d
 			y: -0.5d
 		}
@@ -75,9 +278,11 @@
 				"08B75FB792CB7704"
 			]
 			description: [
-				"      Congratulations, my friend, you have become Powerful enough that you have awakened the Spirits of Light and Dark. You can enter their domains, Everbright and Everdawn, which are even more fantastical worlds! You are also now powerful enough to summon Ancient Underworld Demons, such as the Wither, utilize the quintessential Treasure of the deepist pits of Hell, Netherite, and fight New Reawakened enemies all across the world; which all combined give you access to all the materials you need to create all 12 eyes! "
+				"      The power of the &lGods&r contiunes to follow through you. You're &5&kE&r&5eyes&r&5&kE&r have granted you sight of the relms of Light and Dark. With this, you should have all you need to obtain the remaining 6 &5&kE&r&5eyes&r&5&kE&r."
 				""
-				"      With that in mind, you've proven that you're significantly more usef- I mean, helpful than I had ever previously imagined. Have another gift from us to commend your adventure so far. This is the closest I've been in so long.. "
+				"   You, for the first time in eons, have inspired hope in my people, thank you. Contiune on your adventure young one. Venture to the Everbright and Everdawn, summon ancient demons, and empower yourself with Netherite."
+				""
+				"    But becareful, long forgotten foes have started to rise...feeling the pull of the &lGods&r power. You have a long road ahead, I offer you another &eHeart&r as a sign of apperciation from my people. "
 			]
 			hide: true
 			icon: {
@@ -88,12 +293,196 @@
 				id: "paraglider:heart_container"
 			}
 			id: "77A690789262F7DD"
-			shape: "hexagon"
-			tasks: [{
-				id: "3DAC60EF8EBC03B5"
-				title: "Ender Communicator #2 (6 eyes)"
-				type: "checkmark"
+			rewards: [{
+				id: "454CBAD50804F34C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "paraglider:heart_container"
+				}
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Expanded"
+			tasks: [{
+				count: 6L
+				id: "2ED213DD8D58FFDC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cryptic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:exotic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:evil_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:undead_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:witch_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:wither_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:magical_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:guardian_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cold_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:black_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:lost_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:nether_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cursed_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:rogue_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:old_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:corrupted_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "An expanded world"
 			x: -9.25d
 			y: -0.5d
 		}
@@ -103,9 +492,14 @@
 				"301C5436C1E55DAD"
 			]
 			description: [
-				"      Wow, I can't believe just how much Power you've Reawakened...  With your new Powers come new knowledge this time, such as the ability to read scrolls, how to Infuse Enchanted tools's enchants to books, the knowledge to create Weapons using the Lifeblood obtained from the Spirits of the Dark, Dark Metal, and ancient knowledge of advanced machinery that can automate the production of a vast array of resources! "
+				"      Nine of the &lGods&r &5&kE&r&5eyes&r&5&kE&r already? You've progressed so far so fast adventurer. Your sight has grown ever stronger as well. Reading scrolls and infusing enchants onto books should come with easy to you. You should also be able to smith the &fGods&r &eDark Metal&r War Armor."
+				""
+				"      All this time, I've thought the &lGods&r power was all gone, used up in their meaningless war that unraivled the dominion of time. Think of all the things we could do with the &5&kE&r&5eyes&r&5&kE&r..."
+				""
+				"      I'm getting ahead of myself. May you continue to best the world with ease, take this &eHeart&r and collect the final &5&kE&r&5eyes&r&5&kE&r, we'll show the &lGods&r that my realm isn't theirs to conquer."
 				" "
-				"      All this time, we've thought it was all gone… I mean, all this knowledge of old civilizations we thought was lost; to war and the unrivaled dominion of Time. May your collecting of the final eyes necessary finally tell the Gods of old that my realm isn't theirs to conquer..."
+				""
+				"    "
 			]
 			hide: true
 			icon: {
@@ -116,12 +510,196 @@
 				id: "paraglider:heart_container"
 			}
 			id: "42549F31A5908C38"
-			shape: "hexagon"
-			tasks: [{
-				id: "3FE65224DC2DB479"
-				title: "Ender Communicator #3 (9 eyes)"
-				type: "checkmark"
+			rewards: [{
+				id: "64A8034DE4544417"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "paraglider:heart_container"
+				}
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Conqueror"
+			tasks: [{
+				count: 9L
+				id: "5FC4639F79B4D826"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cryptic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:exotic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:evil_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:undead_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:witch_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:wither_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:magical_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:guardian_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cold_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:black_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:lost_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:nether_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cursed_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:rogue_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:old_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:corrupted_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "A conqueror"
 			x: -9.75d
 			y: 0.5d
 		}
@@ -131,10 +709,15 @@
 				"422EFAD138D3A1DB"
 			]
 			description: [
-				"     I can finally feel my skin again... You now have enough Power to use all but the most Powerful gear, which is only available to those with strength surpassing gods, and, of course, ascend to the one realm beyond all realms. Here's your last gift- as a final mark of my sincerest respect."
+				"     I... I can finally feel my skin again...You've saved me...Thank you. With the &5&kE&r&5eyes&r&5&kE&r in your possesion, you can now forge all but the most powerful gear...that of &lGod&r &cIgnis&r himself. Here is one final &eHeart&r, a mark of &any&r sincerest respect and gratitude. "
 				""
+				"     This union of eyes, I never though I'd see the day, balance restored to the universe inspite of the &lGods&r will. And so much localized power in the hands of one person, I can just feel it coming from you all the way here."
 				""
-				"      However, I do have just one last thing to say. I.. Never thought I would see this day. The Union of the Eyes, Balance restored to the universe, a world finally resembling what once was... It almost makes me want to give up on my quest for Freedom, and go back to what once was. You see, I don't even remember what freedom feels like- and I've been beating myself up for so long, that I've almost lost my sanity. Hell, I've lost everything, from my Power, to everyone I've held dear, at the hands of the Gods who put me here. But now, after so, so much sacrifice, preparation, and p a t i e n c e, "
+				"     Those 'rulers' of this broken world faded as time unraveled, they locked me away for an eternity, but I survived, I was patient. I pleaded for help from hundreds of demigods, heros, and theives...But I've never thought of asking someone like you...someone so foolish, blinded even with 12 &5&kE&r&5eyes&r&5&kE&r in your possesion. "
+				""
+				"     You see, I was SO CLOSE to banishing the &lGods&r, wiping them off the face of the overworld without a second thought. But the lowly civilizations came together, forging the &5&kE&r&5eyes&r&5&kE&r, and banishing me. Now though, it seems as if a new door has opened, I'm finally free. "
+				""
+				"     I've come to respect you heart little adventurer, come to me, I'll give you the chance to die with honor."
 			]
 			hide: true
 			icon: {
@@ -145,52 +728,209 @@
 				id: "paraglider:heart_container"
 			}
 			id: "61C945F5E24A351B"
-			shape: "hexagon"
-			tasks: [{
-				id: "056D58459B571DC8"
-				title: "Ender Communicator #4 (12 eyes)"
-				type: "checkmark"
+			rewards: [{
+				id: "2D5FA66D843A4E89"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "paraglider:heart_container"
+				}
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Destiny"
+			tasks: [{
+				count: 12L
+				id: "2569A7D93195B50A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cryptic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:exotic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:evil_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:undead_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:witch_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:wither_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:magical_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:guardian_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cold_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:black_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:lost_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:nether_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cursed_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:rogue_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:old_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:corrupted_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "A fortold destiny"
 			x: -9.25d
 			y: 1.5d
 		}
 		{
 			dependencies: [
-				"61C945F5E24A351B"
-				"422EFAD138D3A1DB"
-			]
-			description: [
-				"     I've done it. You see, those 'Gods' that put me here, weren't really gods- but insignificant little oaves who couldn't accept their fate. Though they might as well have been gods, because they had the whole package- stubbornness, savagery, and being the ones in charge of a Broken World. And just because I sought to finish what they started, take the responsibility and be the bad guy- to stop the endless suffering- they suddenly grew a conscience. They tried to defy their nature to stop me. I wasn't having it. Where were they when I was weak? No, that world couldn't be fixed."
-				""
-				"     I could've wiped them off the face of the earth in an instant if it wasn't for the main source of their Power -the eyes, which were Power incarnate. Forged with the combined power of civilizations, I tried to steal them from the stronghold where they were kept, but they had replaced the gates, and sucked me into this vile place of nothingness. They couldn't even have the honor to fight me head on. No, they had to trap me here, in the farthest reaches of the Universe, break the eyes so that I could never get out, and starve me of Energy. While I constantly tried to break out- it was no use. I hadn't studied the eye's Power, and I thought it was too late."
-				""
-				"     But after finding you, I realized just how painfully simple it was- all I had to do was act all friendly, and get you curious enough to put those eyes back together. My freedom, and a new source of power, will now finally transform me back to my True Self and beyond. I will come into your worlds, and free them all- from their power. And after restoring myself to my former glory- I will burn the remaining little devils that put me here to the ground. But, because I've come to respect your lust for Power, and want a fight with honor, I will let you have a final chance to see my power unfold. Throw an Eye and follow the direction it goes in to make your way to one of the gates. The victory will go to who deserves it.\");"
-			]
-			hide: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "paraglider:heart_container"
-			}
-			id: "6E4531A53C3CEBD0"
-			shape: "hexagon"
-			tasks: [{
-				id: "139D9C5287D876CF"
-				title: "Entity #1 (12 eyes)"
-				type: "checkmark"
-			}]
-			x: -8.25d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"6E4531A53C3CEBD0"
 				"48602E78DFC281AF"
+				"61C945F5E24A351B"
 			]
 			description: [
-				"      The voice that previously spoke to you is gone, but a new voice calls out: Hi! My name is Christi, and I'm the new guy. Don't worry, I'm not here to take over any realms, I'm just here to say congratulations! You can now utilize the strongest tools in all the realms!!! You probably won't need it, but I found this last heart laying around so I think I'll give it to you as thanks. "
+				"      &oThe voice that previously spoke to you is gone&r"
+				""
+				""
+				"      Hi! My name is Christi, and I'm the new guy! Don't worry, I'm not here to take over any realms, I'm just here to say congratulations! You can now utilize the strongest tools in all the realms!!! You probably won't need it, but I found this last &eHeart&r laying around so I think I'll give it to you as thanks. "
 				""
 				"      Thank you so much for playing this modpack all the way through, it took me hundreds of hours to figure out how to put this all together. I really hope you enjoyed! Now have fun being a Master of the Realms. Oh, and could you do one more thing for me? I put a final quest in your book, I'd like you to take a look. It's been a long time since I've been in my old home; I miss it very much."
 			]
@@ -220,11 +960,184 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "Fate"
 			tasks: [{
-				id: "31B8A427ADDBD9D9"
-				title: "Message from Christi (16 eyes)"
-				type: "checkmark"
+				count: 16L
+				id: "1453B6C7C54453BF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cryptic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:exotic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:evil_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:undead_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:witch_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:wither_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:magical_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:guardian_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cold_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:black_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:lost_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:nether_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:cursed_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:rogue_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:old_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "endrem:corrupted_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
 			}]
+			title: "A new fate"
 			x: -8.75d
 			y: 0.5d
 		}

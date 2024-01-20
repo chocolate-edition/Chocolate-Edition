@@ -915,7 +915,7 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
-			description: ["This item is dropped by &4Sir Pumpkinhead&r, who can be summoned by breaking an &eInfernal Evil Pumpkin&r, a block found in Dark Forest biomes! Remember that you can use the &eNature's Compass&r to find these biomes, and that you can refer to the Boss Wiki entry for more info!"]
+			description: ["This item is dropped by &4Sir Pumpkinhead&r, who can be summoned by breaking an &eInfernal Evil Pumpkin&r. You can locate these by just exploring your world, they'll have a ritual taking place with &eCandles&r all around it!"]
 			id: "49171FCF7274350A"
 			rewards: [{
 				count: 8
@@ -2852,7 +2852,7 @@
 		{
 			dependencies: ["2243BA6B2363797E"]
 			description: [
-				"This item can be obtained by killing &cThrashers&r, powerful enemies found in Ocean ravines. They are blind, using sonar to locate their prey, before grabbing them and tearing them to ribbons with their great teeth. A &eTrident&r may be useful in dispatching these at a distance."
+				"This item can be obtained by killing &cThrashers&r, powerful enemies found in Cold Ocean ravines. They are blind, using sonar to locate their prey, before grabbing them and tearing them to ribbons with their great teeth. A &eTrident&r may be useful in dispatching these at a distance."
 				""
 				"&eThrasher Teeth&r can be used to make decorative blocks or &eTridents&r."
 			]

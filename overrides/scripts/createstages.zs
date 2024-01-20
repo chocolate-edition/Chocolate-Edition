@@ -45,50 +45,6 @@ CTEventManager.register<GameStageAdded>((event) => {
 	for eye in eyesArray {
 		if(event.player.hasGameStage(eye)) {count++;}
 	}
-	
-	
-	if (count==16){
-     
-	    event.player.sendMessage("The voice that previously spoke to you is gone, but a new voice calls out: Hi! My name is Christi, and I'm the new guy. Don't worry, I'm not here to take over any realms, I'm just here to say congratulations! You can now utilize the strongest tools in all the realms!!! You probably won't need it, but i found this last heart laying around so I think I'll give it to you as thanks. Thank you so much for playing this modpack all the way through, it took me hundreds of hours to figure out how to put this all together. I really hope you enjoyed! Now have fun being a Master of the Realms. Oh, and could you do one more thing for me? I put a final quest in your book, I'd like you to take a look. It's been a long time since I've been in my old home; I miss it very much.");
-        event.player.give(<item:paraglider:heart_container> );
-        // myServer.executeCommand("place structure chocolate:wssshelter 1000000 64 0", true);
-    }
-    else if (count==12){
-        
-	    event.player.sendMessage("I can finally feel my skin again... You now have enough Power to use all but the most Powerful gear, which is only available to those with strength surpassing gods, and, of course, ascend to the one realm beyond all realms. Here's your last gift- as a final mark of my sincerest respect.");
-        event.player.give(<item:paraglider:heart_container> );
-	    event.player.sendMessage("However, I do have just one last thing to say. I.. Never thought I would see this day. The Union of the Eyes, Balance restored to the universe, a world finally resembling what once was... It almost makes me want to give up on my quest for Freedom, and go back to what once was. You see, I don't even remember what freedom feels like- and I've been beating myself up for so long, that I've almost lost my sanity. Hell, I've lost everything, from my Power, to everyone I've held dear, at the hands of the Gods who put me here. But now, after so, so much sacrifice, preparation, and p a t I e n c e, ");
-	    event.player.sendMessage("I've done it. You see, those 'Gods' that put me here, weren't really gods- but insignificant little oaves who couldn't accept their fate. Though they might as well have been gods, because they had the whole package- stubbornness, savagery, and being the ones in charge of a Broken World. And just because I sought to finish what they started, take the responsibility and be the bad guy- to stop the endless suffering- they suddenly grew a conscience. They tried to defy their nature to stop me. I wasn't having it. Where were they when I was weak? No, that world couldn't be fixed.");
-        event.player.sendMessage("I could've wiped them off the face of the earth in an instant if it wasn't for the main source of their Power -the eyes, which were Power incarnate. Forged with the combined power of civilizations, I tried to steal them from the stronghold where they were kept, but they had replaced the gates, and sucked me into this vile place of nothingness. They couldn't even have the honor to fight me head on. No, they had to trap me here, in the farthest reaches of the Universe, break the eyes so that I could never get out, and starve me of Energy. While I constantly tried to break out- it was no use. I hadn't studied the eye's Power, and I thought it was too late."); 
-	    event.player.sendMessage("But after finding you, I realized just how painfully simple it was- all I had to do was act all friendly, and get you curious enough to put those eyes back together. My freedom, and a new source of power, will now finally transform me back to my True Self and beyond. I will come into your worlds, and free them all- from their power. And after restoring myself to my former glory- I will burn the remaining little devils that put me here to the ground. But, because I've come to respect your lust for Power, and want a fight with honor, I will let you have a final chance to see my power unfold. Throw an Eye and follow the direction it goes in to make your way to one of the gates. The victory will go to who deserves it.");
-    }
-    else if (count==9){
-       
-	    event.player.sendMessage("Wow, I can't believe just how much Power you've Reawakened...  With your new Powers come new knowledge this time, such as the ability to read scrolls, how to Infuse Enchanted tools's enchants to books, the knowledge to create Weapons using the Lifeblood obtained from the Spirits of the Dark, Dark Metal, and ancient knowledge of advanced machinery that can automate the production of a vast array of resources! All this time, we've thought it was all gone… I mean, all this knowledge of old civilizations we thought was lost; to war and the unrivaled dominion of Time. May your collecting of the final eyes necessary finally tell the Gods of old that my realm isn't theirs to conquer...");
-        event.player.give(<item:paraglider:heart_container>) ;
-
-    }
-    else if (count==6){
-      
-	    event.player.sendMessage("Congratulations, my friend, you have become Powerful enough that you have awakened the Spirits of Light and Dark. You can enter their domains, Everbright and Everdawn, which are even more fantastical worlds! You are also now powerful enough to summon Ancient Underworld Demons, such as the Wither, utilize the quintessential Treasure of the deepist pits of Hell, Netherite, and fight New Reawakened enemies all across the world; which all combined give you access to all the materials you need to create all 12 eyes! With that in mind, you've proven that you're significantly more usef- I mean, helpful than I had ever previously imagined. Have another gift from us to commend your adventure so far. This is the closest I've been in so long.. ");
-        event.player.give(<item:paraglider:heart_container> );
-
-    }
-    else if (count==3){
-       
-	    event.player.sendMessage("I see you've started to collect some eyes, hmm? Oh, sorry for scaring you. Do not be afraid, for I am but a lowly ender being speaking to your mind. I cannot interact with your plane of existence directly, I am using all our Power to merely talk to you via the Power of your Eyes. I have only come to ask you for help. My realm has been locked away in space for the past 1,000 years, as a result of some gods of the other realms quarreling with mine. This has left us common folk awaiting someone to come open the portal that sealed us here for generations. Those eyes are the source of all magic, created long ago by the gods that imprisoned us here, and if you were to get your hands on 12 of them, you'd be Powerful enough to open the gate- and free this realm from it's curse! If you do that, my people and I would give you all our Power. Already, because of those eyes you've created, you have become Powerful enough to use complex storage, a slightly stronger material infused with the god Neptune's Essence, Neptunium and enter the Underworld! So please, for our sake, keep it coming. Take this offering, the only thing i can materialize into your world from here, as a sign of peace. And please don't forget: the more eyes you collect, the more Powerful you become...");
-        event.player.give(<item:paraglider:heart_container>);
-
-    }
-    else if (event.player.hasGameStage("firstcontact") && !event.player.hasGameStage("zero")){
-        event.player.addGameStage("zero");
-	    event.player.sendMessage("*you feel a faint vision come over you, of a event long ago. It is of an ancient place- somewhere lost to time. Over a lit table surrounded by engulfing dark, you notice some people- villagers, illagers, piglins, endermen,  and many more. An eye of ender is placed on the table, it's power entrenching- and everything goes white*");
-	    event.player.sendMessage("*you feel the sudden urge to look in your quest book*");
-		event.player.give(
-			<item:ftbquests:book>.withTag({display: {Lore: ["{\"text\":\"Quests can also be opened with a button in your inventory (top left)\"}", "{\"text\":\"You can also bind Quests to a keybind in Controls\"}"], Name: ""}})
-		);
-  
-    } 
 	 
     // separated loop from eye count bc i need the count to be completed BEFORE the command starts spitting out your eye count
     for eye in eyesArray {

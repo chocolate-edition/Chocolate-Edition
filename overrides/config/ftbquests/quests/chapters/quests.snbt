@@ -115,10 +115,10 @@
 		{
 			dependencies: ["3CDA54EA9B8F9A79"]
 			disable_toast: true
-			id: "0D39CF7F5D22BB8C"
+			id: "467BDC2B72D7E7E4"
 			rewards: [
 				{
-					id: "7EFA4983A506442F"
+					id: "78F8F827D00E7242"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -129,7 +129,7 @@
 					type: "item"
 				}
 				{
-					id: "7711020173F75A54"
+					id: "248C1CCBED5C9344"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -140,12 +140,12 @@
 					type: "item"
 				}
 				{
-					id: "67F5B2B876F78445"
+					id: "7725EE854B278C9A"
 					type: "xp"
 					xp: 1000
 				}
 				{
-					id: "0C6E3F5D85CD360A"
+					id: "49FF13C2807EF976"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -157,7 +157,7 @@
 				}
 				{
 					count: 64
-					id: "15780F8F16421245"
+					id: "416C059506E52C0C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -173,7 +173,7 @@
 			subtitle: "Defeat Captain Cornelia and acquire her Three-bolt diving suit."
 			tasks: [
 				{
-					id: "7102BC31D214C8F3"
+					id: "6149AAD73992CC37"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -184,7 +184,7 @@
 					type: "item"
 				}
 				{
-					id: "4A02FB8C60A888E0"
+					id: "3DC23CEE7AA07566"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -195,7 +195,7 @@
 					type: "item"
 				}
 				{
-					id: "38365D019AFF5FDF"
+					id: "715FD81B9CDEB72C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -209,7 +209,7 @@
 					type: "item"
 				}
 				{
-					id: "03039A946A076A43"
+					id: "011BE8BC91E4A3B8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -223,7 +223,7 @@
 					type: "item"
 				}
 				{
-					id: "3E7F9A2A4065E0E3"
+					id: "0F0CC2F58914ED27"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -237,7 +237,7 @@
 					type: "item"
 				}
 				{
-					id: "095BAEBC80A221E0"
+					id: "457779BF1AACE045"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -264,7 +264,7 @@
 					Icon: "iter_rpg:items/elemental_sword"
 				}
 			}
-			id: "3CDA54EA9B8F9A79"
+			id: "71D5D14225BEDA71"
 			shape: "rsquare"
 			size: 3.0d
 			title: "Combat Quests"
@@ -274,16 +274,16 @@
 		{
 			dependencies: ["3CDA54EA9B8F9A79"]
 			disable_toast: true
-			id: "2789BC698B16F910"
+			id: "6B6DF9C38DC1754E"
 			rewards: [
 				{
-					id: "5B5B06B15D9D0ACA"
+					id: "270FD84FF47B32B8"
 					type: "xp"
 					xp: 1000
 				}
 				{
 					count: 64
-					id: "7E7F9DD84CE7BB40"
+					id: "18D9D53B5072988E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -295,7 +295,7 @@
 				}
 				{
 					count: 16
-					id: "499658350A9466BF"
+					id: "3DC6B9AB3AF05DD8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -307,7 +307,7 @@
 				}
 				{
 					count: 5
-					id: "16FD1C1A39D70034"
+					id: "0A4ACAC5F22A17A0"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -319,7 +319,7 @@
 				}
 				{
 					count: 16
-					id: "3A73A5B0FD982868"
+					id: "6ABC740D84BEDA3A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -330,7 +330,7 @@
 					type: "item"
 				}
 				{
-					id: "350FB48AE15C8BA7"
+					id: "57D522F0B524AA51"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -346,25 +346,25 @@
 			tasks: [
 				{
 					entity: "minecraft:pillager"
-					id: "1817522203D0394B"
+					id: "3CAB2B008A15D366"
 					type: "kill"
 					value: 50L
 				}
 				{
 					entity: "minecraft:vindicator"
-					id: "57F42482181700B0"
+					id: "106FFA90CE812466"
 					type: "kill"
 					value: 15L
 				}
 				{
 					entity: "minecraft:evoker"
-					id: "53FC134B1FCB2911"
+					id: "27E69F7C806A4304"
 					type: "kill"
 					value: 3L
 				}
 				{
 					entity: "minecraft:ravager"
-					id: "4C43B4FC1F6ADD28"
+					id: "47381EF39208AAED"
 					type: "kill"
 					value: 3L
 				}
@@ -397,10 +397,10 @@
 		{
 			dependencies: ["3CDA54EA9B8F9A79"]
 			disable_toast: true
-			id: "36FB82F2E3A88F0F"
+			id: "557EE6DF8725BBCA"
 			rewards: [
 				{
-					id: "1AE239342EC8020A"
+					id: "1890E9CA87175D04"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -414,12 +414,12 @@
 					type: "item"
 				}
 				{
-					id: "300EB1F6F2AEB836"
+					id: "416AF244C86ED9BB"
 					type: "xp"
 					xp: 10000
 				}
 				{
-					id: "5D97E8EE11F8DC3F"
+					id: "65F7BC4A6AD33ECE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -443,77 +443,77 @@
 							Damage: 0
 						}
 					}
-					id: "50FF1FB62B0E442D"
+					id: "5CCA5D103B167BB9"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmonsters:mutant_zombie"
 					icon: "minecraft:zombie_head"
-					id: "47075163AD442F48"
+					id: "047EF739ECFD2084"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmonsters:mutant_skeleton"
 					icon: "minecraft:skeleton_skull"
-					id: "3C38ED6ECBD47232"
+					id: "65A7D43510971A7A"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmonsters:mutant_creeper"
 					icon: "minecraft:creeper_head"
-					id: "50E3537D9441DCE1"
+					id: "5B41B7301E2B44CB"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmonsters:mutant_enderman"
 					icon: "supplementaries:enderman_head"
-					id: "491C476AB8B2F01F"
+					id: "7C7622A9E0D33AF4"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmore:mutant_wither_skeleton"
 					icon: "minecraft:wither_skeleton_skull"
-					id: "568912151D798690"
+					id: "326EA3D906CDA19E"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmore:mutant_blaze"
 					icon: "create:blaze_burner"
-					id: "42FBAED0D3A1823D"
+					id: "21A20E1F6CDDF58F"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "mutantmore:mutant_shulker"
 					icon: "minecraft:shulker_shell"
-					id: "01E6D9D23D7B8FD9"
+					id: "73E50A4BC369F056"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "aquamirae:captain_cornelia"
 					icon: "aquamirae:shell_horn"
-					id: "04BC9FEF88A22C12"
+					id: "761CB8CDA9F08692"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "majruszsdifficulty:cerberus"
 					icon: "farmersdelight:dog_food"
-					id: "3B5EEFC3D834886B"
+					id: "3B6BAF823D346FA3"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "born_in_chaos_v1:sir_pumpkinhead"
 					icon: "born_in_chaos_v1:evil_carved_pumpkin"
-					id: "3FEED688E114C32B"
+					id: "5BEF3602A6987523"
 					type: "kill"
 					value: 1L
 				}
@@ -526,21 +526,21 @@
 							Damage: 0
 						}
 					}
-					id: "3079DB858678C24F"
+					id: "74580D3E7C259B09"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "blue_skies:summoner"
 					icon: "born_in_chaos_v1:orbofthe_summoner"
-					id: "7C98D0D2D6120ABA"
+					id: "52324C478341B3AF"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "blue_skies:starlit_crusher"
 					icon: "blue_skies:astrolabe"
-					id: "11A2992D35479CA5"
+					id: "3358EFB236E890B4"
 					type: "kill"
 					value: 1L
 				}
@@ -553,19 +553,19 @@
 							Damage: 0
 						}
 					}
-					id: "6C87CFD6751C4056"
+					id: "7CA2C34C8B528F95"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "minecraft:elder_guardian"
 					icon: "upgrade_aquatic:elder_eye"
-					id: "2968D4232BB0845B"
+					id: "021CE910EC7431D9"
 					type: "kill"
 					value: 1L
 				}
 				{
-					id: "4A7507D6003B1D0D"
+					id: "58A678B18D1DA667"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -578,7 +578,7 @@
 				}
 				{
 					icon: "minecraft:dragon_head"
-					id: "3D61376D62A8AC2A"
+					id: "1D0B38A539EE933C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -592,28 +592,28 @@
 				{
 					entity: "unusualend:endstone_golem"
 					icon: "unusualend:shulker_orb"
-					id: "53650C32F8967738"
+					id: "1AF4F3B6DEA82EC0"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "cataclysm:ender_golem"
 					icon: "minecraft:crying_obsidian"
-					id: "63E61A71A3ECDD03"
+					id: "18D599C2E4887977"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "cataclysm:ender_guardian"
 					icon: "cataclysm:void_core"
-					id: "5DADA27E0EF02E23"
+					id: "04C205467463C68A"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "cataclysm:the_leviathan"
 					icon: "cataclysm:abyssal_sacrifice"
-					id: "589D6E6D091AD5F1"
+					id: "6D93FFC46B5BD1A5"
 					type: "kill"
 					value: 1L
 				}
@@ -626,19 +626,19 @@
 							Damage: 0
 						}
 					}
-					id: "61D5378ED9EA8E8B"
+					id: "1A657CFBA9815210"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "cataclysm:ignited_revenant"
 					icon: "cataclysm:burning_ashes"
-					id: "35C610A6D01FF6FE"
+					id: "3FF74345F14264D5"
 					type: "kill"
 					value: 1L
 				}
 				{
-					id: "006286170F587A5B"
+					id: "51EDD4AB72FA3275"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -652,7 +652,7 @@
 				{
 					entity: "cataclysm:the_harbinger"
 					icon: "cataclysm:witherite_ingot"
-					id: "5E377430058DE713"
+					id: "3B425A8EEB001791"
 					type: "kill"
 					value: 1L
 				}
@@ -665,13 +665,13 @@
 							Potion: "mutantmonsters:chemical_x"
 						}
 					}
-					id: "3E186F0374B687EF"
+					id: "62CA5AE47482821A"
 					title: "Kill 1x ???"
 					type: "kill"
 					value: 1L
 				}
 				{
-					id: "30F92958943164AC"
+					id: "48312D10B629DE9E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -685,7 +685,7 @@
 				{
 					entity: "iter_rpg:sorrowsealed"
 					icon: "iter_rpg:grim_keyhole"
-					id: "1C1FE013CE35DB99"
+					id: "244126A9661548D2"
 					type: "kill"
 					value: 1L
 				}
@@ -698,49 +698,49 @@
 							Damage: 0
 						}
 					}
-					id: "42F4DF7CAAE3F244"
+					id: "11DCEC09EC4BCF5B"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "meetyourfight:dame_fortuna"
 					icon: "meetyourfight:slicers_dice"
-					id: "1D34C4C0579D6FAA"
+					id: "2B0886D850BBE618"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "meetyourfight:rosalyne"
 					icon: "enigmaticlegacy:twisted_heart"
-					id: "1FBD760850C1E094"
+					id: "3C75BCE64B3C845A"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "predators:prisnautilus"
 					icon: "minecraft:nautilus_shell"
-					id: "425164E2AEC6B7BE"
+					id: "3122476C3E585FE0"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "predators:rock_boss"
 					icon: "predators:amethyst_geode"
-					id: "123D4B4857E0848F"
+					id: "4CFDDA1ED59648CE"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "predators:huntsman"
 					icon: "predators:huntsmans_plan"
-					id: "177ECE7F3D75718A"
+					id: "636899C6C8719794"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "predators:scarab"
 					icon: "alexsmobs:soul_heart"
-					id: "3A32CC8DFB7DA3A3"
+					id: "3D69DF10518BDC6E"
 					type: "kill"
 					value: 1L
 				}
@@ -753,19 +753,19 @@
 							Damage: 0
 						}
 					}
-					id: "1570A7067D158F52"
+					id: "4F0FE44650366504"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "queen_bee:queen_bee"
 					icon: "queen_bee:queen_bee_spawn_egg"
-					id: "6C50E89BE9537304"
+					id: "6BD2071E9CC1F867"
 					type: "kill"
 					value: 1L
 				}
 				{
-					id: "470598351E7415FE"
+					id: "34EC1509CAA15720"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -777,7 +777,7 @@
 					type: "item"
 				}
 				{
-					id: "0DB760711ADF7647"
+					id: "3A7754BFF2F0D565"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -791,19 +791,19 @@
 				{
 					entity: "alexsmobs:warped_mosco"
 					icon: "alexsmobs:warped_muscle"
-					id: "10E8DE3C333D42A1"
+					id: "7540D226BD121D2A"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "cataclysm:amethyst_crab"
 					icon: "cataclysm:amethyst_crab_shell"
-					id: "6FF0329991E1C139"
+					id: "576AEA84444C1616"
 					type: "kill"
 					value: 1L
 				}
 				{
-					id: "0F4C24885B9DD904"
+					id: "2CD367597B621365"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -921,11 +921,11 @@
 		{
 			dependencies: ["3CDA54EA9B8F9A79"]
 			disable_toast: true
-			id: "70F43ACD23281C26"
+			id: "1979B7FA17AE77DF"
 			rewards: [
 				{
 					count: 128
-					id: "628F9B2E8713CBAF"
+					id: "6EC9AAFA683DD793"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -936,7 +936,7 @@
 					type: "item"
 				}
 				{
-					id: "5D76063D421AC03D"
+					id: "1199339C8886DE4F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -953,7 +953,7 @@
 					type: "item"
 				}
 				{
-					id: "1349E35360EB8544"
+					id: "00F2ADD42F3252FF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -970,7 +970,7 @@
 					type: "item"
 				}
 				{
-					id: "67D6D4440AE318FC"
+					id: "057F14923F58C961"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -987,7 +987,7 @@
 					type: "item"
 				}
 				{
-					id: "4F2DE421A1FE34B5"
+					id: "7857CD5DDC266E99"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1004,7 +1004,7 @@
 					type: "item"
 				}
 				{
-					id: "08771970C01BFD15"
+					id: "7B02C89633ED1CD9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1021,7 +1021,7 @@
 					type: "item"
 				}
 				{
-					id: "2C536B4EAAD7FF7E"
+					id: "4A55CC519046CC4D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1038,7 +1038,7 @@
 					type: "item"
 				}
 				{
-					id: "0295EB2D92152B75"
+					id: "58E42BB8DA70C932"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1049,7 +1049,7 @@
 					type: "item"
 				}
 				{
-					id: "5D49316A7DF0FFAC"
+					id: "542DF91B73957033"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1068,7 +1068,7 @@
 			subtitle: "Get all loot bags from all events/bosses that drop them: Undead Army, Raid, Warden, Wither, Elder Guardian, Fishing, EnderDragon, Alchemist, Summoner, Arachnarch, and Starlit Crusher."
 			tasks: [
 				{
-					id: "396C5F541748318B"
+					id: "36B3A018BC5329CC"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1079,7 +1079,7 @@
 					type: "item"
 				}
 				{
-					id: "40C66346A26570C4"
+					id: "0ABCAF5C19D0D29B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1090,7 +1090,7 @@
 					type: "item"
 				}
 				{
-					id: "02C36AA3AF8E3713"
+					id: "0A31E17D81A74B3A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1101,7 +1101,7 @@
 					type: "item"
 				}
 				{
-					id: "22F69CEBF7D0B580"
+					id: "03637D03CD171327"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1112,7 +1112,7 @@
 					type: "item"
 				}
 				{
-					id: "3675FEE9CD21B59C"
+					id: "7D38F22DB7B64C31"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1123,7 +1123,7 @@
 					type: "item"
 				}
 				{
-					id: "36E74EB396298B6D"
+					id: "7E2FA37363F0BDAE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1134,7 +1134,7 @@
 					type: "item"
 				}
 				{
-					id: "2E12D0E05DEA9316"
+					id: "718FB17A9735D15A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1145,7 +1145,7 @@
 					type: "item"
 				}
 				{
-					id: "7F4784CF5F1AD8C3"
+					id: "48CC13AE54C1CDB7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1160,7 +1160,7 @@
 					type: "item"
 				}
 				{
-					id: "13DAE131F2BC51CF"
+					id: "27476654E541F1BD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1175,7 +1175,7 @@
 					type: "item"
 				}
 				{
-					id: "1EE30EFDAD1B5C91"
+					id: "41B5B191A924CB4B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1190,7 +1190,7 @@
 					type: "item"
 				}
 				{
-					id: "3C12708B07DD6284"
+					id: "021BC0544E417A14"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1205,7 +1205,7 @@
 					type: "item"
 				}
 				{
-					id: "443C3B47C3A2094D"
+					id: "2A0C4FFC81E244BA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1216,7 +1216,7 @@
 					type: "item"
 				}
 				{
-					id: "2E0E01887E4429B9"
+					id: "237FFE8927BEBDEF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1227,7 +1227,7 @@
 					type: "item"
 				}
 				{
-					id: "3F4FF2991B666FCB"
+					id: "3704F6C41301C6E4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1238,7 +1238,7 @@
 					type: "item"
 				}
 				{
-					id: "59B6B404B31E638B"
+					id: "5407A5EB4D98A9F2"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1256,10 +1256,10 @@
 		{
 			dependencies: ["3CDA54EA9B8F9A79"]
 			disable_toast: true
-			id: "51EB69EA7089D474"
+			id: "1BD11A71CF98AFAA"
 			rewards: [
 				{
-					id: "526263AA2A064799"
+					id: "5CFB09A055BC10CD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1270,7 +1270,7 @@
 					type: "item"
 				}
 				{
-					id: "4D4A1161F841D9C0"
+					id: "7909CF62921AFC52"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1281,12 +1281,12 @@
 					type: "item"
 				}
 				{
-					id: "12C8E446CE37829F"
+					id: "5D15905E0AFDA426"
 					type: "xp"
 					xp: 1000
 				}
 				{
-					id: "34B6B7FAAF7399AA"
+					id: "6B573D8D4A41FE7F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1302,7 +1302,7 @@
 			tasks: [
 				{
 					icon: "cataclysm:abyssal_egg"
-					id: "685B4485EA8CC16F"
+					id: "46CF5C48087E283E"
 					observe_type: 5
 					timer: 0L
 					title: "Hatch and observe the baby leviathan."
@@ -1310,7 +1310,7 @@
 					type: "observation"
 				}
 				{
-					id: "38780F4E62E606AF"
+					id: "3766DF1D21302F79"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1328,15 +1328,15 @@
 		{
 			dependencies: ["3CDA54EA9B8F9A79"]
 			disable_toast: true
-			id: "03FB6F9849BE8B2A"
+			id: "14B3781FB1440BDC"
 			rewards: [
 				{
-					id: "191544D1304A7980"
+					id: "28C773BF0A898E7E"
 					type: "xp"
 					xp: 10000
 				}
 				{
-					id: "05362A8796C109CA"
+					id: "27A9F2326506C335"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1347,7 +1347,7 @@
 					type: "item"
 				}
 				{
-					id: "1B988CFF47694DE9"
+					id: "126CDF83E35BADA7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1358,7 +1358,7 @@
 					type: "item"
 				}
 				{
-					id: "71AB417B02795D63"
+					id: "24D40A50FECFEE7B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1369,7 +1369,7 @@
 					type: "item"
 				}
 				{
-					id: "4858E50142A63AA6"
+					id: "11A66FF1CA247086"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1380,7 +1380,7 @@
 					type: "item"
 				}
 				{
-					id: "64AC2DED57101469"
+					id: "5C41ED836BCDA514"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1391,7 +1391,7 @@
 					type: "item"
 				}
 				{
-					id: "129B36884B8BF4C9"
+					id: "29FE6620A9E8BA7F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1402,7 +1402,7 @@
 					type: "item"
 				}
 				{
-					id: "1A072EA462CEA253"
+					id: "4B550A45E9D1E32E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1418,7 +1418,7 @@
 			subtitle: "Craft all four Mechanical Anvil items. No quips, just admiration. How did you do it."
 			tasks: [
 				{
-					id: "307BD59AD806F707"
+					id: "02F402704B86186C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1432,7 +1432,7 @@
 					type: "item"
 				}
 				{
-					id: "2C3227169989E9F8"
+					id: "494F08C1839EEA76"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1443,7 +1443,7 @@
 					type: "item"
 				}
 				{
-					id: "31F7AFB3EC10C25B"
+					id: "559161E98845F996"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1457,7 +1457,7 @@
 					type: "item"
 				}
 				{
-					id: "22E71DE42E2B1035"
+					id: "74F0CF6E98BE5197"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1475,15 +1475,15 @@
 		{
 			dependencies: ["3CDA54EA9B8F9A79"]
 			disable_toast: true
-			id: "07D1A40AF367E828"
+			id: "4493E838D006D43E"
 			rewards: [
 				{
-					id: "4051246089A8B211"
+					id: "44F4044D6F54709E"
 					type: "xp"
 					xp: 1000
 				}
 				{
-					id: "69E94F6305A8B438"
+					id: "358DE746D47CD0EA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1495,7 +1495,7 @@
 				}
 				{
 					count: 16
-					id: "3CDD92571B737199"
+					id: "1CECE7103BF2E9DA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1506,7 +1506,7 @@
 					type: "item"
 				}
 				{
-					id: "380CFA1A01120EFF"
+					id: "0EE1F518C879514A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1517,7 +1517,7 @@
 					type: "item"
 				}
 				{
-					id: "71DB85081649C7CB"
+					id: "56CD3C1C81E705BF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1528,7 +1528,7 @@
 					type: "item"
 				}
 				{
-					id: "794BBE03C6D98B92"
+					id: "56052120EBBECD37"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1543,7 +1543,7 @@
 			subtitle: "Slay she who shall not be named, and save the universe. Then, reintroduce her to the universe by hatching her baby and nursing her to adulthood."
 			tasks: [
 				{
-					id: "50BA6B58006129DB"
+					id: "1DDD974B13E0D158"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1555,7 +1555,7 @@
 				}
 				{
 					icon: "endertrigon:baby_dragon_egg"
-					id: "5F98FE992C9F46F1"
+					id: "7201E9921ABC7E6F"
 					observe_type: 5
 					timer: 0L
 					title: "Hatch, grow and observe the Adult dragon."
@@ -1569,10 +1569,10 @@
 		}
 		{
 			dependencies: ["3CDA54EA9B8F9A79"]
-			id: "09F543BDEC3FCE78"
+			id: "5EA788C59623665A"
 			rewards: [
 				{
-					id: "67B95EBFDA6B9D4D"
+					id: "2945D45F2181D7BC"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1583,13 +1583,13 @@
 					type: "item"
 				}
 				{
-					id: "70663A352B8E5821"
+					id: "61FF8BD487A7E3E9"
 					type: "xp"
 					xp: 1000
 				}
 				{
 					count: 16
-					id: "5A44F9BCED806A0A"
+					id: "6F93BCA3BA17CB92"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1604,7 +1604,7 @@
 			subtitle: "Kill Endstone Golem and Craft one of the Golem's Orbs"
 			tasks: [
 				{
-					id: "586670199630B798"
+					id: "77D62310E957F993"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1615,7 +1615,7 @@
 					type: "item"
 				}
 				{
-					id: "416AD24ED2D330DD"
+					id: "6B926054D5AC8AE9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1659,7 +1659,7 @@
 		{
 			disable_toast: true
 			icon: "minecraft:recovery_compass"
-			id: "587E6366CEA64AA2"
+			id: "79B0AD571605A5CB"
 			shape: "rsquare"
 			size: 3.0d
 			title: "Exploration Quests"
@@ -1670,16 +1670,16 @@
 			dependencies: ["587E6366CEA64AA2"]
 			disable_toast: true
 			icon: "enigmaticlegacy:lore_inscriber"
-			id: "2CF80F2D16A11F98"
+			id: "341D3B7B00475835"
 			rewards: [
 				{
-					id: "79088737D4D610B3"
+					id: "644FB9FD64E496EC"
 					type: "xp"
 					xp: 5000
 				}
 				{
 					count: 1000
-					id: "43D559EEC025E275"
+					id: "587046AB69885AD9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1690,7 +1690,7 @@
 					type: "item"
 				}
 				{
-					id: "4D2A69957F75DC09"
+					id: "3EF694BADDA94D3B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1702,7 +1702,7 @@
 				}
 				{
 					count: 3
-					id: "730D94A60BF82426"
+					id: "748EB422910FA36A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1713,7 +1713,7 @@
 					type: "item"
 				}
 				{
-					id: "5888CA93BDC20C36"
+					id: "1DFDD027D0F6A2D4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1724,7 +1724,7 @@
 					type: "item"
 				}
 				{
-					id: "237206C24F6C9496"
+					id: "2E30D84A30BE35D5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1750,7 +1750,7 @@
 							Damage: 0
 						}
 					}
-					id: "2DE7D07A8BE17A2B"
+					id: "70C65FC35ACE7A52"
 					structure: "dungeons_arise:shiraz_palace"
 					title: "Shiraz Palace (Desert)"
 					type: "structure"
@@ -1763,7 +1763,7 @@
 							Icon: "unusualend:textures/mob_effect/ender_infection.png"
 						}
 					}
-					id: "249412600693E4C0"
+					id: "0B7A9B0B0CD46AA6"
 					structure: "dungeons_arise:plague_asylum"
 					title: "Plague Asylum "
 					type: "structure"
@@ -1776,21 +1776,21 @@
 							Damage: 0
 						}
 					}
-					id: "31ECAAC0F03DDEA6"
+					id: "5BF3D5FD08B950CD"
 					structure: "dungeons_arise:infested_temple"
 					title: "Infested Temple (Meadow)"
 					type: "structure"
 				}
 				{
 					icon: "born_in_chaos_v1:smoldering_scorched_wood"
-					id: "4B2979DD5A30F5BC"
+					id: "53C37E4B27280D39"
 					structure: "dungeons_arise:scorched_mines"
 					title: "Scorched Mines"
 					type: "structure"
 				}
 				{
 					icon: "cnb:lizard_item_jungle"
-					id: "3962C8A8B16DBF95"
+					id: "75BBC4DB377EF8C8"
 					structure: "dungeons_arise:keep_kayra"
 					title: "Keep Kayra (Forests)"
 					type: "structure"
@@ -1803,7 +1803,7 @@
 							Icon: "minecraft:block/orange_glazed_terracotta"
 						}
 					}
-					id: "0A741D0853308BE7"
+					id: "0E54085F7BC59C99"
 					structure: "dungeons_arise:bandit_towers"
 					title: "Bandit Towers (Mesa)"
 					type: "structure"
@@ -1816,14 +1816,14 @@
 							Icon: "minecraft:block/red_glazed_terracotta"
 						}
 					}
-					id: "629483165BD0952C"
+					id: "36EBE89E12116DC7"
 					structure: "dungeons_arise:thornborn_towers"
 					title: "Thornborn Towers (Spruce)"
 					type: "structure"
 				}
 				{
 					icon: "born_in_chaos_v1:spawn_structure_mound_hounds"
-					id: "0B8B50A5C23E5F40"
+					id: "34F61A3562FFF11D"
 					structure: "incendium:forbidden_castle"
 					title: "Piglin Castle (Nether) (Ash Barrens)"
 					type: "structure"
@@ -1836,7 +1836,7 @@
 							Icon: "infernalexp:textures/block/charged_chiseled_soul_stone_bricks.png"
 						}
 					}
-					id: "1C01EE0A533C63DC"
+					id: "7323DACB9716B4B6"
 					structure: "incendium:sanctum"
 					title: "Sanctum (Nether) (Quartz Flats)"
 					type: "structure"
@@ -1849,42 +1849,42 @@
 							Icon: "create:block/andesite_casing_piston"
 						}
 					}
-					id: "31BA06143A6A214C"
+					id: "5A58BB022FA051EA"
 					structure: "idas:pillager_fortress"
 					title: "Pillager Fortress"
 					type: "structure"
 				}
 				{
 					icon: "ecologics:sandcastle"
-					id: "4FCDCD236D1D5722"
+					id: "698A7B553288C505"
 					structure: "idas:labyrinth"
 					title: "Labyrinth (Desert)"
 					type: "structure"
 				}
 				{
 					icon: "iter_rpg:big_vase"
-					id: "49540BC74DE63081"
+					id: "5790125C5D3A82DF"
 					structure: "idas:ancient_mines"
 					title: "Ancient Mines"
 					type: "structure"
 				}
 				{
 					icon: "born_in_chaos_v1:stained_black_argillite_brick_n"
-					id: "0DAE891F9652E2B4"
+					id: "5449E7180A718E5B"
 					structure: "dungeons_arise:foundry"
 					title: "Foundry"
 					type: "structure"
 				}
 				{
 					icon: "born_in_chaos_v1:ai"
-					id: "7693583FA4BB1DDC"
+					id: "46FC488F6CA95AEA"
 					structure: "integrated_stronghold:stronghold"
 					title: "Stronghold"
 					type: "structure"
 				}
 				{
 					icon: "enigmaticlegacy:astral_block"
-					id: "3245865D38DEBD0A"
+					id: "38059F7EB9322038"
 					structure: "dungeons_arise:aviary"
 					title: "Aviary (End)"
 					type: "structure"
@@ -1897,7 +1897,7 @@
 							Icon: "woodworks:block/dark_oak_bookshelf"
 						}
 					}
-					id: "1E8C5896A3858DA9"
+					id: "714A0440A5863AEF"
 					structure: "minecraft:mansion"
 					title: "Woodland Mansion (Dark Forest)"
 					type: "structure"
@@ -1917,16 +1917,16 @@
 					Icon: "artifacts:item/villager_hat"
 				}
 			}
-			id: "1B565AFA2A27674E"
+			id: "37A9BBF72830E75C"
 			rewards: [
 				{
-					id: "23D8A2101C344DBD"
+					id: "6627607CD38E9DF8"
 					type: "xp"
 					xp: 3000
 				}
 				{
 					count: 5
-					id: "15E39B3F4E5C42C7"
+					id: "5AF4F2D853518374"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1940,7 +1940,7 @@
 					type: "item"
 				}
 				{
-					id: "0A4B4628EEB5DA03"
+					id: "06BED2801F35F840"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1951,7 +1951,7 @@
 					type: "item"
 				}
 				{
-					id: "3FEADD49DA958682"
+					id: "56E3D6B6B0EDFBEB"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1962,7 +1962,7 @@
 					type: "item"
 				}
 				{
-					id: "02EDDFE0FCEDE826"
+					id: "18151A97F8BB816A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1973,7 +1973,7 @@
 					type: "item"
 				}
 				{
-					id: "3E74700A585A3ED2"
+					id: "32BC9B2617EE4EDA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -1989,97 +1989,97 @@
 			subtitle: "Come upon All Village Types"
 			tasks: [
 				{
-					id: "7BCC7CF577216FCE"
+					id: "56CEC471F165FE48"
 					structure: "#ctov:village_beach"
 					type: "structure"
 				}
 				{
-					id: "1AB6CBCA3B1842D6"
+					id: "552C86BD79132BD1"
 					structure: "#ctov:village_dark_forest"
 					type: "structure"
 				}
 				{
-					id: "50CE16AF345E1AFC"
+					id: "3A3734C476F66288"
 					structure: "#ctov:village_desert"
 					type: "structure"
 				}
 				{
-					id: "421D07B98FE7F9B8"
+					id: "4C4BB3091E13E37E"
 					structure: "#ctov:village_jungle"
 					type: "structure"
 				}
 				{
-					id: "0D0F1EAAF43FC391"
+					id: "27668D70D01202D7"
 					structure: "#ctov:village_mesa"
 					type: "structure"
 				}
 				{
-					id: "338A7924DB34CFD6"
+					id: "31F2470E296ED96B"
 					structure: "#ctov:village_mountain"
 					type: "structure"
 				}
 				{
-					id: "0FE02DB9B31DF958"
+					id: "1D6761B04C89768C"
 					structure: "#ctov:village_mushroom"
 					type: "structure"
 				}
 				{
-					id: "2006A991E453C796"
+					id: "5677967EE66E146F"
 					structure: "#ctov:village_plains"
 					type: "structure"
 				}
 				{
-					id: "507EF4E95698E548"
+					id: "3179BEA24B7399D9"
 					structure: "#ctov:village_savanna"
 					type: "structure"
 				}
 				{
-					id: "74F5C49857ADE456"
+					id: "36FDF2328091EAFF"
 					structure: "#ctov:village_snowy"
 					type: "structure"
 				}
 				{
-					id: "162251BC1C8F9952"
+					id: "620001AF4DE79284"
 					structure: "#ctov:village_swamp"
 					type: "structure"
 				}
 				{
-					id: "0A6404F3B40C473F"
+					id: "76651C2C83A4740F"
 					structure: "#ctov:village_taiga"
 					type: "structure"
 				}
 				{
-					id: "0B2E8B9E4134F99C"
+					id: "486F21A7B9E2D19C"
 					structure: "#minecraft:village"
 					type: "structure"
 				}
 				{
-					id: "1A3B7C367837BEE6"
+					id: "683CC33C80B47DDE"
 					structure: "blue_skies:village_brightlands"
 					type: "structure"
 				}
 				{
-					id: "16468DB47C01BD80"
+					id: "6CE0549EBB911902"
 					structure: "blue_skies:village_calming_skies"
 					type: "structure"
 				}
 				{
-					id: "3BB7381F77D92070"
+					id: "040E40944A410180"
 					structure: "blue_skies:village_crystal_dunes"
 					type: "structure"
 				}
 				{
-					id: "5DAA7558D5A0EBDF"
+					id: "61045EAEACEA1B30"
 					structure: "blue_skies:village_shaded_woodlands"
 					type: "structure"
 				}
 				{
-					id: "0353862CD07E7B59"
+					id: "46FDBABA6AA69730"
 					structure: "blue_skies:village_slushlands"
 					type: "structure"
 				}
 				{
-					id: "30F81B97330A1F6F"
+					id: "3F1AD6C1B302A152"
 					structure: "blue_skies:village_sunset_maple_forest"
 					type: "structure"
 				}
@@ -2092,15 +2092,15 @@
 			dependencies: ["587E6366CEA64AA2"]
 			disable_toast: true
 			icon: "iter_rpg:generic_dungeon_gen_block"
-			id: "6CDF8842944CB30A"
+			id: "7F47D09B99EC0661"
 			rewards: [
 				{
-					id: "14BD1E0591D7B251"
+					id: "7614880E3FA11702"
 					type: "xp"
 					xp: 1000
 				}
 				{
-					id: "3ABDCACCAF0AF5A8"
+					id: "52A0B1B690597F34"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2111,7 +2111,7 @@
 					type: "item"
 				}
 				{
-					id: "1E215C1D163A094C"
+					id: "79BE5C9D3662A18C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2126,27 +2126,27 @@
 			subtitle: "Find all Small Dungeons."
 			tasks: [
 				{
-					id: "6223415F35E7258F"
+					id: "1F411B09E240540D"
 					structure: "betterdungeons:zombie_dungeon"
 					type: "structure"
 				}
 				{
-					id: "3FD877189A2A5211"
+					id: "31D82BEF47D826FA"
 					structure: "betterdungeons:skeleton_dungeon"
 					type: "structure"
 				}
 				{
-					id: "34FCDAED46B23427"
+					id: "26ACB67127E9DD0F"
 					structure: "betterdungeons:spider_dungeon"
 					type: "structure"
 				}
 				{
-					id: "4C38E10872263878"
+					id: "13D1E9BD0E28F24A"
 					structure: "betterdungeons:small_dungeon"
 					type: "structure"
 				}
 				{
-					id: "222C5B8DC457D14B"
+					id: "1BE54CA99F35EF46"
 					structure: "betterdungeons:small_nether_dungeon"
 					type: "structure"
 				}
@@ -2159,15 +2159,15 @@
 			dependencies: ["587E6366CEA64AA2"]
 			disable_toast: true
 			icon: "farmersdelight:nether_salad"
-			id: "6300F26804E97256"
+			id: "5F469B7758E3C0C5"
 			rewards: [
 				{
-					id: "090CF566D244CA32"
+					id: "149B01417BF0DA3E"
 					type: "xp"
 					xp: 2000
 				}
 				{
-					id: "3FF9ED644659D824"
+					id: "2A21BD05AE72A8E7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2178,7 +2178,7 @@
 					type: "item"
 				}
 				{
-					id: "4D823ADC78679B24"
+					id: "0C474BCBE6822DFC"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2189,7 +2189,7 @@
 					type: "item"
 				}
 				{
-					id: "073D3B2F34D3949D"
+					id: "60034B9BE5CA8BA0"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2200,7 +2200,7 @@
 					type: "item"
 				}
 				{
-					id: "5FF7F93BEB86132E"
+					id: "085103EA467CA7A1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2211,7 +2211,7 @@
 					type: "item"
 				}
 				{
-					id: "6B33CC49182D455B"
+					id: "431251ABAAEFB825"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2282,15 +2282,15 @@
 		}
 		{
 			dependencies: ["587E6366CEA64AA2"]
-			id: "600B0D3E261C5DFF"
+			id: "1D7B66910DFABB14"
 			rewards: [
 				{
-					id: "5A34D80B8DB2E732"
+					id: "1AB51BAA7814DA0B"
 					type: "xp"
 					xp: 10000
 				}
 				{
-					id: "527546420DC07166"
+					id: "60872D4B10B0AF89"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2301,7 +2301,7 @@
 					type: "item"
 				}
 				{
-					id: "388FB966FDE08220"
+					id: "5D125AB9949850A4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2312,7 +2312,7 @@
 					type: "item"
 				}
 				{
-					id: "464519E28FA0295F"
+					id: "5300A3A62E617710"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2329,7 +2329,7 @@
 					type: "item"
 				}
 				{
-					id: "07763BA734C1AFE8"
+					id: "6395D4ED705C3F82"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2346,7 +2346,7 @@
 					type: "item"
 				}
 				{
-					id: "4DC875783A963CB4"
+					id: "08047B87DE81644B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2363,7 +2363,7 @@
 					type: "item"
 				}
 				{
-					id: "3258945EC48EDEE2"
+					id: "76C9A66825BF29D8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2380,7 +2380,7 @@
 					type: "item"
 				}
 				{
-					id: "60609675C683AA1E"
+					id: "20D53D2AEBE9E2B2"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2394,7 +2394,7 @@
 					type: "item"
 				}
 				{
-					id: "6F9DA6BFDF3D2ED0"
+					id: "20ACEFF8EB613228"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2408,7 +2408,7 @@
 					type: "item"
 				}
 				{
-					id: "23F1D25767CEDF31"
+					id: "051A8717A101A1C5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2422,7 +2422,7 @@
 					type: "item"
 				}
 				{
-					id: "64A20162975063AC"
+					id: "234389196FA5A77E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2437,7 +2437,7 @@
 			subtitle: "Catch All Biome Fish. Good luck."
 			tasks: [
 				{
-					id: "6DB51BACCD4D4AE3"
+					id: "03221B79922EC2BD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2448,7 +2448,7 @@
 					type: "item"
 				}
 				{
-					id: "092D12E17138D7B4"
+					id: "64FB0C1ECEA0BD78"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2459,7 +2459,7 @@
 					type: "item"
 				}
 				{
-					id: "7321119157899E2B"
+					id: "7977A608A6E78DAD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2470,7 +2470,7 @@
 					type: "item"
 				}
 				{
-					id: "0FD690A534A02247"
+					id: "6A7343DE44EDF473"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2481,7 +2481,7 @@
 					type: "item"
 				}
 				{
-					id: "2E19775E5D4560EA"
+					id: "6B7D7997EA99EC6D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2492,7 +2492,7 @@
 					type: "item"
 				}
 				{
-					id: "3450ED61F725F5F7"
+					id: "7D5D0F38BF124DD4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2503,7 +2503,7 @@
 					type: "item"
 				}
 				{
-					id: "75282EAB03DFC98C"
+					id: "3F9084D375869A55"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2514,7 +2514,7 @@
 					type: "item"
 				}
 				{
-					id: "7DC9AB96EDA57111"
+					id: "2A718EFAA46FD7DC"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2525,7 +2525,7 @@
 					type: "item"
 				}
 				{
-					id: "03ABEDBA7DC1F2A5"
+					id: "191A4D882312A8CD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2536,7 +2536,7 @@
 					type: "item"
 				}
 				{
-					id: "71EDF64F2F83D81B"
+					id: "41D43B86D4B5C232"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2547,7 +2547,7 @@
 					type: "item"
 				}
 				{
-					id: "461CBA05B2031288"
+					id: "52B32C963757D4CF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2558,7 +2558,7 @@
 					type: "item"
 				}
 				{
-					id: "2F2DE19054EF9B07"
+					id: "3F01E50C0477FE23"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2569,7 +2569,7 @@
 					type: "item"
 				}
 				{
-					id: "0A375F213578DFE3"
+					id: "346F3FA829D90DBD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2580,7 +2580,7 @@
 					type: "item"
 				}
 				{
-					id: "17EF4BB7F9842314"
+					id: "75028E3FDB94BEF7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2591,7 +2591,7 @@
 					type: "item"
 				}
 				{
-					id: "12D5224BCCA3B688"
+					id: "74F4F0B3B04886C2"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2602,7 +2602,7 @@
 					type: "item"
 				}
 				{
-					id: "1CDEE7C33180FB07"
+					id: "2525F319C6BD3189"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2613,7 +2613,7 @@
 					type: "item"
 				}
 				{
-					id: "145C2B4FC7FAA16C"
+					id: "2ED853CE36BF6185"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2624,7 +2624,7 @@
 					type: "item"
 				}
 				{
-					id: "4154651109E3F4B4"
+					id: "6B55500E48AFEEBD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2635,7 +2635,7 @@
 					type: "item"
 				}
 				{
-					id: "76BAAE9178A95ACC"
+					id: "6FF0B58E7A50BAE7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2649,7 +2649,7 @@
 					type: "item"
 				}
 				{
-					id: "1CEC05291E4D5826"
+					id: "25B144125766C23A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2660,7 +2660,7 @@
 					type: "item"
 				}
 				{
-					id: "135CD5A10F3AAF80"
+					id: "5602BBCC4AD94425"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2671,7 +2671,7 @@
 					type: "item"
 				}
 				{
-					id: "75610540D23A6137"
+					id: "47DBF5CBB6E97D64"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2682,7 +2682,7 @@
 					type: "item"
 				}
 				{
-					id: "02BC57028118FF41"
+					id: "09181A65A062E583"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2693,7 +2693,7 @@
 					type: "item"
 				}
 				{
-					id: "1A675D8409BFA056"
+					id: "33921A97815FD998"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2704,7 +2704,7 @@
 					type: "item"
 				}
 				{
-					id: "6F95C6D0000E8539"
+					id: "2BD4B947AFAD4463"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2715,7 +2715,7 @@
 					type: "item"
 				}
 				{
-					id: "2FBE0A96FF3C3F9A"
+					id: "0BF9FF73032EB95E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2726,7 +2726,7 @@
 					type: "item"
 				}
 				{
-					id: "00A1380E2B482E08"
+					id: "64D1B0A19D381ED3"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2737,7 +2737,7 @@
 					type: "item"
 				}
 				{
-					id: "19053E4E17136EF7"
+					id: "3F6BC67A6275290C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2748,7 +2748,7 @@
 					type: "item"
 				}
 				{
-					id: "57DFFB5158E26E54"
+					id: "166E90E2E5A5286C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2759,7 +2759,7 @@
 					type: "item"
 				}
 				{
-					id: "22848D793F920422"
+					id: "5D5F97A1EB353127"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2770,7 +2770,7 @@
 					type: "item"
 				}
 				{
-					id: "4AE71FBCD5EB84EC"
+					id: "06F6C12FF18ADE87"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2781,7 +2781,7 @@
 					type: "item"
 				}
 				{
-					id: "22C47CF7CBD2F90E"
+					id: "0C2A67368CB296DA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2792,7 +2792,7 @@
 					type: "item"
 				}
 				{
-					id: "4B90DC69FB4273BA"
+					id: "4DF47A168A34B2C5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2803,7 +2803,7 @@
 					type: "item"
 				}
 				{
-					id: "4B5C99576C8996F9"
+					id: "1935679792DFC62D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2814,7 +2814,7 @@
 					type: "item"
 				}
 				{
-					id: "0B69E7C8B4D14F2A"
+					id: "12F46D6960724048"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2825,7 +2825,7 @@
 					type: "item"
 				}
 				{
-					id: "360023FAD3B0DFAB"
+					id: "43BBC6B569B3376B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2836,7 +2836,7 @@
 					type: "item"
 				}
 				{
-					id: "1C968D06A2E35766"
+					id: "4F2C9D7B3614F10A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2847,7 +2847,7 @@
 					type: "item"
 				}
 				{
-					id: "734E738C6EA2B7D9"
+					id: "75118DB89F5D76FD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2858,7 +2858,7 @@
 					type: "item"
 				}
 				{
-					id: "77C76B8C21FC64CD"
+					id: "7D50FF85D573FD93"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2869,7 +2869,7 @@
 					type: "item"
 				}
 				{
-					id: "529C1EE18238CAFD"
+					id: "3F69B9ABC7854098"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2880,7 +2880,7 @@
 					type: "item"
 				}
 				{
-					id: "28F7266AB377A6EA"
+					id: "3F901EF05A3FFEBA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2891,7 +2891,7 @@
 					type: "item"
 				}
 				{
-					id: "5759DE8DB382CE3C"
+					id: "49658C77E3EAED97"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2902,7 +2902,7 @@
 					type: "item"
 				}
 				{
-					id: "6E83EC591E77D7D5"
+					id: "276A7CE58D7742E8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2913,7 +2913,7 @@
 					type: "item"
 				}
 				{
-					id: "4F810761AC00C6EA"
+					id: "7DC6B94BF6E4AB8F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2924,7 +2924,7 @@
 					type: "item"
 				}
 				{
-					id: "5EE95168837B5024"
+					id: "4D8B8ACBFAF8AD4E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2935,7 +2935,7 @@
 					type: "item"
 				}
 				{
-					id: "30B8DBBB5EA0DCAF"
+					id: "04DE65B8771695AF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2946,7 +2946,7 @@
 					type: "item"
 				}
 				{
-					id: "6A3B82576C9584CF"
+					id: "3A0DA6D18B02BE18"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2957,7 +2957,7 @@
 					type: "item"
 				}
 				{
-					id: "26D4A5F2BD311637"
+					id: "57FD9F64299EA213"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2968,7 +2968,7 @@
 					type: "item"
 				}
 				{
-					id: "23ADE82826B904EF"
+					id: "3F8DBBDEDB3BE0CD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2979,7 +2979,7 @@
 					type: "item"
 				}
 				{
-					id: "1079DBF879CE46CA"
+					id: "5D0FA98BABA5D6DF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -2990,7 +2990,7 @@
 					type: "item"
 				}
 				{
-					id: "255604860D006D55"
+					id: "7ECBF39B2AC31D37"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3001,7 +3001,7 @@
 					type: "item"
 				}
 				{
-					id: "75345A7A4C614293"
+					id: "7513DCFA8F37FE8A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3012,7 +3012,7 @@
 					type: "item"
 				}
 				{
-					id: "0E4DA3909DEDAD69"
+					id: "7395D16C118D94D8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3023,7 +3023,7 @@
 					type: "item"
 				}
 				{
-					id: "11404BA3114BB4D3"
+					id: "68207B4659D9D74F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3034,7 +3034,7 @@
 					type: "item"
 				}
 				{
-					id: "688503E3F9FA29D8"
+					id: "307C4487E95C7D2C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3045,7 +3045,7 @@
 					type: "item"
 				}
 				{
-					id: "0D213407DD498808"
+					id: "7583A26DEB7C72B5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3056,7 +3056,7 @@
 					type: "item"
 				}
 				{
-					id: "7B56E108139548F2"
+					id: "3B1F8988247AAF5E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3067,7 +3067,7 @@
 					type: "item"
 				}
 				{
-					id: "263AE3B71BBD752F"
+					id: "2C8EF631E3CF10DF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3078,7 +3078,7 @@
 					type: "item"
 				}
 				{
-					id: "54F66A061DD4F49D"
+					id: "32A970B6D23F02E8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3089,7 +3089,7 @@
 					type: "item"
 				}
 				{
-					id: "1E8CD947E9D2C715"
+					id: "27C982BBCD68CE84"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3100,7 +3100,7 @@
 					type: "item"
 				}
 				{
-					id: "6BDEFC29DDAFE7EB"
+					id: "27B27EBD7E4A3E52"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3111,7 +3111,7 @@
 					type: "item"
 				}
 				{
-					id: "23B2B85348D45FF8"
+					id: "2E365A69E976EAE1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3128,10 +3128,10 @@
 		}
 		{
 			dependencies: ["587E6366CEA64AA2"]
-			id: "76211D45EEC4C6FB"
+			id: "1573D9BDECE246A3"
 			rewards: [
 				{
-					id: "0E833FEA8E222530"
+					id: "4FE123250030EDD5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3142,12 +3142,12 @@
 					type: "item"
 				}
 				{
-					id: "678DA4814AEA7220"
+					id: "34C693F607BB8791"
 					type: "xp"
 					xp: 1000
 				}
 				{
-					id: "23B7AAD54E4DD1E0"
+					id: "0085F1E148761681"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3159,7 +3159,7 @@
 				}
 				{
 					count: 64
-					id: "48722B0AD6CBBE00"
+					id: "58F0A86FB8F35888"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3174,7 +3174,7 @@
 			subtitle: "Collect unholy antiques to receive an angel's blessing."
 			tasks: [
 				{
-					id: "71BBC1D86109E349"
+					id: "5766B5A8040941EB"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3185,7 +3185,7 @@
 					type: "item"
 				}
 				{
-					id: "67E1839A8EC17C3A"
+					id: "52CDE400507126C3"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3196,7 +3196,7 @@
 					type: "item"
 				}
 				{
-					id: "242F0B9B37A12F9F"
+					id: "5FA9DAF6EFBB0E08"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3247,7 +3247,7 @@
 					type: "item"
 				}
 				{
-					id: "61373369AE3ACE23"
+					id: "12188B407C5D42D2"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3258,7 +3258,7 @@
 					type: "item"
 				}
 				{
-					id: "3CB2BDEB1D26DE43"
+					id: "1B3D972EE2F9E076"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3272,7 +3272,7 @@
 					type: "item"
 				}
 				{
-					id: "07071674B9778CD2"
+					id: "6A647D7CECACE385"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3286,7 +3286,7 @@
 					type: "item"
 				}
 				{
-					id: "4387BD11538CEA75"
+					id: "464BEB7EB7622528"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3297,7 +3297,7 @@
 					type: "item"
 				}
 				{
-					id: "3A7746CD4D816CD6"
+					id: "41320AFF1DC81D0E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3308,7 +3308,7 @@
 					type: "item"
 				}
 				{
-					id: "62B47F1B2F69E795"
+					id: "372ED88A7AE8FD5D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3326,7 +3326,7 @@
 		{
 			disable_toast: true
 			icon: "iter_rpg:big_vase"
-			id: "7C7427D7E73540BE"
+			id: "7E8695E0C2C6CBA2"
 			shape: "rsquare"
 			size: 3.0d
 			title: "Crafting/Building Quests"
@@ -3336,11 +3336,11 @@
 		{
 			dependencies: ["7C7427D7E73540BE"]
 			disable_toast: true
-			id: "65C0F179B3EFCCCA"
+			id: "2C2AFB44C0D388C2"
 			rewards: [
 				{
 					count: 128
-					id: "2271271B0FFCFE53"
+					id: "79C00428964739F4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3352,7 +3352,7 @@
 				}
 				{
 					count: 64
-					id: "157E736CDC18714B"
+					id: "519E807F759B137B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3364,7 +3364,7 @@
 				}
 				{
 					count: 3
-					id: "706B666EA12C315E"
+					id: "0ED456A99DC5CFD7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3376,7 +3376,7 @@
 				}
 				{
 					count: 5000
-					id: "6B742F7D20B15C32"
+					id: "57D3405A2BB3C135"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3387,7 +3387,7 @@
 					type: "item"
 				}
 				{
-					id: "6807A53F3DF54E34"
+					id: "080188B2CD0AE79A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3404,7 +3404,7 @@
 					type: "item"
 				}
 				{
-					id: "223CBF4798F6C72A"
+					id: "344AD12C4165AEC7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3415,7 +3415,7 @@
 					type: "item"
 				}
 				{
-					id: "31098F129199A6BF"
+					id: "10496BDC11A6DF40"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3426,7 +3426,7 @@
 					type: "item"
 				}
 				{
-					id: "0F6BD250C8B39E5A"
+					id: "00BB8010ACC5F5A8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3443,7 +3443,7 @@
 			subtitle: "Create all Create mod machines."
 			tasks: [
 				{
-					id: "2252B6591542ED74"
+					id: "3933DD6F46260F39"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3455,7 +3455,7 @@
 				}
 				{
 					count: 2L
-					id: "512648654A3839C3"
+					id: "67568D536C4EA558"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3466,7 +3466,7 @@
 					type: "item"
 				}
 				{
-					id: "6D928A916457066A"
+					id: "2B0165AEEA2F6ADB"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3478,7 +3478,7 @@
 				}
 				{
 					count: 21L
-					id: "4C78C9312AFA5AAD"
+					id: "1D85D3836E0473D9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3489,7 +3489,7 @@
 					type: "item"
 				}
 				{
-					id: "71A4D91E24ED5103"
+					id: "231CBDFF67020870"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3500,7 +3500,7 @@
 					type: "item"
 				}
 				{
-					id: "4CF5B1E335B8194C"
+					id: "69A0ACD99C136B71"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3511,7 +3511,7 @@
 					type: "item"
 				}
 				{
-					id: "35DAB79BE84DD083"
+					id: "0DBA7D6A5B631DB9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3522,7 +3522,7 @@
 					type: "item"
 				}
 				{
-					id: "05C6A123CAE9C1CE"
+					id: "2F4E1B3890CF3ABF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3533,7 +3533,7 @@
 					type: "item"
 				}
 				{
-					id: "2E8D4485DBD166C7"
+					id: "3487D822F972C07F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3544,7 +3544,7 @@
 					type: "item"
 				}
 				{
-					id: "480A388EF87DA8DE"
+					id: "33E38CC34C215742"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3555,7 +3555,7 @@
 					type: "item"
 				}
 				{
-					id: "741DEA337A0D289B"
+					id: "270AA7679DE62BAE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3566,7 +3566,7 @@
 					type: "item"
 				}
 				{
-					id: "1B2361BE06470F13"
+					id: "72E2C58240E05854"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3577,7 +3577,7 @@
 					type: "item"
 				}
 				{
-					id: "1A5F7EE2A296F58C"
+					id: "1D9B1B245B62B7F4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3588,7 +3588,7 @@
 					type: "item"
 				}
 				{
-					id: "1EA1CFC5FFF70B22"
+					id: "0F3A6F3A55366D55"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3599,7 +3599,7 @@
 					type: "item"
 				}
 				{
-					id: "00314D3CC4F84CD0"
+					id: "7BAB7900DD49BA23"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3610,7 +3610,7 @@
 					type: "item"
 				}
 				{
-					id: "11D614507A8B7D13"
+					id: "7B25029B5276A7CB"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3621,7 +3621,7 @@
 					type: "item"
 				}
 				{
-					id: "2604AF759CFEF54A"
+					id: "166F31729849A1CD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3632,7 +3632,7 @@
 					type: "item"
 				}
 				{
-					id: "04530CE84F916069"
+					id: "5591DED288568268"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3643,7 +3643,7 @@
 					type: "item"
 				}
 				{
-					id: "56D2D9B31EF81BEE"
+					id: "4D855EE6AE534681"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3654,7 +3654,7 @@
 					type: "item"
 				}
 				{
-					id: "570AA38B0C81F8B4"
+					id: "5D12BF98155864D4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3665,7 +3665,7 @@
 					type: "item"
 				}
 				{
-					id: "032AB3D00FBB7052"
+					id: "19B52919572443A1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3676,7 +3676,7 @@
 					type: "item"
 				}
 				{
-					id: "0B917C641EF89DF6"
+					id: "19C0F3DE232DFEEA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3687,7 +3687,7 @@
 					type: "item"
 				}
 				{
-					id: "50B87AF5705A0372"
+					id: "460BD54B7A374DFD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3698,7 +3698,7 @@
 					type: "item"
 				}
 				{
-					id: "779A80CD6B3D937D"
+					id: "5FEFBAEE5A83C1D3"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3709,7 +3709,7 @@
 					type: "item"
 				}
 				{
-					id: "64AD25A849D25FBF"
+					id: "2FE6F975C21336EF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3720,7 +3720,7 @@
 					type: "item"
 				}
 				{
-					id: "143245943B200D07"
+					id: "7BE9CB214FC31C18"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3731,7 +3731,7 @@
 					type: "item"
 				}
 				{
-					id: "428AE802A2183041"
+					id: "07295B55A9D4FB18"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3742,7 +3742,7 @@
 					type: "item"
 				}
 				{
-					id: "39A9F38A8AE5B328"
+					id: "4A729CD6FED59EEF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3753,7 +3753,7 @@
 					type: "item"
 				}
 				{
-					id: "3791760CD5154CEA"
+					id: "228574193D6466B3"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3764,7 +3764,7 @@
 					type: "item"
 				}
 				{
-					id: "60E3F38C54F19CA2"
+					id: "3E7BE1DE22E64857"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3775,7 +3775,7 @@
 					type: "item"
 				}
 				{
-					id: "556A0B27F9FED0C7"
+					id: "176656AEDCAA0320"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3786,7 +3786,7 @@
 					type: "item"
 				}
 				{
-					id: "1BF03C0032DEF85E"
+					id: "6C77AFF11F74D004"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3797,7 +3797,7 @@
 					type: "item"
 				}
 				{
-					id: "6FC7A95B7E6DEF5B"
+					id: "0A438BFC66A37390"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3811,7 +3811,7 @@
 					type: "item"
 				}
 				{
-					id: "01218DCCC9181BA2"
+					id: "1EDF516FB5F69FBD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3825,7 +3825,7 @@
 					type: "item"
 				}
 				{
-					id: "58575D78AC2EC0BE"
+					id: "2447190607AB4C51"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3836,7 +3836,7 @@
 					type: "item"
 				}
 				{
-					id: "2A7762B343D3F0A2"
+					id: "5D3B9DAF6E678369"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3862,16 +3862,16 @@
 		{
 			dependencies: ["7C7427D7E73540BE"]
 			disable_toast: true
-			id: "32CDE0D2F4998D6A"
+			id: "110CD572C20D4635"
 			rewards: [
 				{
-					id: "54C4328E8F7CC0D8"
+					id: "03B1B27F5F9147BD"
 					type: "xp"
 					xp: 500
 				}
 				{
 					count: 16
-					id: "5CE130E79344E21C"
+					id: "553216A0515054CC"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3882,7 +3882,7 @@
 					type: "item"
 				}
 				{
-					id: "682E3849C2E957B0"
+					id: "151A9DA61BF0ED19"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3898,7 +3898,7 @@
 			subtitle: "Craft, cut, rotate and loot some furniture to get started on decorating your base. Makes building way less overly complicated. Gone are the days of pretending stairs are chairs.."
 			tasks: [
 				{
-					id: "2953D681F3514A04"
+					id: "06A499D2898911A5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3909,7 +3909,7 @@
 					type: "item"
 				}
 				{
-					id: "1EA554A466AC09A0"
+					id: "4C042EDAA280F78E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3920,7 +3920,7 @@
 					type: "item"
 				}
 				{
-					id: "6B65F3D02FA1BE1D"
+					id: "3159B5B18D1B902B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3931,7 +3931,7 @@
 					type: "item"
 				}
 				{
-					id: "545F651C25989CE3"
+					id: "4082CD24EA248986"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3952,7 +3952,7 @@
 					type: "item"
 				}
 				{
-					id: "24840433EFCADD0C"
+					id: "201DCDA3C88BF8B0"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3966,7 +3966,7 @@
 					type: "item"
 				}
 				{
-					id: "00E9863466701E5E"
+					id: "054AE3C27555A187"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3978,7 +3978,7 @@
 				}
 				{
 					count: 3L
-					id: "46830C4B2BB45E94"
+					id: "4F5CF4A0DD3D0007"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -3989,7 +3989,7 @@
 					type: "item"
 				}
 				{
-					id: "6F774D18077304CB"
+					id: "198CA981FF06555B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4000,7 +4000,7 @@
 					type: "item"
 				}
 				{
-					id: "53E396F7CC9996A2"
+					id: "3127F169E6AF00B9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4012,7 +4012,7 @@
 				}
 				{
 					count: 3L
-					id: "00389F66D6C09A03"
+					id: "0D2B99C45A7F4C16"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4024,7 +4024,7 @@
 				}
 				{
 					count: 4L
-					id: "49D5BDA811172242"
+					id: "5277BD95BD2875F0"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4035,7 +4035,7 @@
 					type: "item"
 				}
 				{
-					id: "30E9E2EC86B5D76E"
+					id: "47E80E6D2CD10027"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4046,7 +4046,7 @@
 					type: "item"
 				}
 				{
-					id: "74BBDB3C29A1D1BB"
+					id: "0665406B1CD40637"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4057,7 +4057,7 @@
 					type: "item"
 				}
 				{
-					id: "53EA7393BB69580F"
+					id: "1AB4B7CC15887D02"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4068,7 +4068,7 @@
 					type: "item"
 				}
 				{
-					id: "01752B0248F27C7E"
+					id: "11A85EC663542618"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4079,7 +4079,7 @@
 					type: "item"
 				}
 				{
-					id: "53DDE6523D0B0067"
+					id: "7884CD0DE95B3E53"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4090,7 +4090,7 @@
 					type: "item"
 				}
 				{
-					id: "220A1C6509C248A5"
+					id: "0479B36DC2ED22A8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4101,7 +4101,7 @@
 					type: "item"
 				}
 				{
-					id: "114DF6DB2B31991F"
+					id: "6F79F966DF520811"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4112,7 +4112,7 @@
 					type: "item"
 				}
 				{
-					id: "34829C331C585704"
+					id: "05CC3CBB29FB49A7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4123,7 +4123,7 @@
 					type: "item"
 				}
 				{
-					id: "1415CA3A0DFDB66B"
+					id: "70BBC84ECDDE6CBD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4134,7 +4134,7 @@
 					type: "item"
 				}
 				{
-					id: "40DFD2A013D8FCFB"
+					id: "61EC56AEEAFFF6A8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4145,7 +4145,7 @@
 					type: "item"
 				}
 				{
-					id: "6C6A719C8DBEEBC1"
+					id: "4B760277229220E1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4166,16 +4166,16 @@
 		{
 			dependencies: ["7C7427D7E73540BE"]
 			disable_toast: true
-			id: "1FF3B2BF6F6B36B1"
+			id: "7AB63D33128D0A66"
 			rewards: [
 				{
-					id: "628A1753D0A4F642"
+					id: "2C235BFDF503E69D"
 					type: "xp"
 					xp: 1000
 				}
 				{
 					count: 64
-					id: "7D85A03E8268D0EF"
+					id: "10D413AEAB68716A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4187,7 +4187,7 @@
 				}
 				{
 					count: 16
-					id: "27CB1AC9066993FE"
+					id: "5782CC1D02CF27AF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4198,7 +4198,7 @@
 					type: "item"
 				}
 				{
-					id: "794CB480F7A98489"
+					id: "1E8BB6BB08BD7540"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4209,7 +4209,7 @@
 					type: "item"
 				}
 				{
-					id: "3C5F71539F1C7E59"
+					id: "67C00D383B9C7FE2"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4225,7 +4225,7 @@
 			subtitle: "Craft all early game furnaces: furnace variants, the kiln for smelting rocks twice as fast, the smoker for cooking food(some exclusive smoker recipes) twice as fast, the blast furnace for cooking ore blocks twice as fast, the snow oven uncrafts some horizonite and fire items in fuel while smelting, the horizonite forge uses horizonite exlusively as fuel, the cindershell heats the cinder furnace infinitely, and the soul forge to transmute necronium."
 			tasks: [
 				{
-					id: "367D12CDAEE9B44E"
+					id: "6E917FBDAC8F2FF8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4236,7 +4236,7 @@
 					type: "item"
 				}
 				{
-					id: "33B850E9706AC7E4"
+					id: "329D2433F611C6FD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4247,7 +4247,7 @@
 					type: "item"
 				}
 				{
-					id: "77034318A0856758"
+					id: "7590E198BC9952B0"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4258,7 +4258,7 @@
 					type: "item"
 				}
 				{
-					id: "051C9CE5446B562A"
+					id: "48CF5B939A88DD2B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4269,7 +4269,7 @@
 					type: "item"
 				}
 				{
-					id: "3A7E9288C9185D92"
+					id: "664AD656D8D49D16"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4280,7 +4280,7 @@
 					type: "item"
 				}
 				{
-					id: "1686BB0F588BFF8F"
+					id: "29D18C021E69F551"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4291,7 +4291,7 @@
 					type: "item"
 				}
 				{
-					id: "73F5575D7B76ED6F"
+					id: "53ED346E78B45478"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4302,7 +4302,7 @@
 					type: "item"
 				}
 				{
-					id: "6C66654CBE03FDAE"
+					id: "529D6EBADDC0348F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4313,7 +4313,7 @@
 					type: "item"
 				}
 				{
-					id: "01B0EAF4185A3628"
+					id: "0E7F163FFA4873E1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4324,13 +4324,24 @@
 					type: "item"
 				}
 				{
-					id: "4FCB27B8E4B74E02"
+					id: "4EDC77C3A7615DDC"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "clayworks:kiln"
+					}
+					type: "item"
+				}
+				{
+					id: "532D5240FD44FDA3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bakery:cobblestone_stove"
 					}
 					type: "item"
 				}
@@ -4342,16 +4353,16 @@
 		{
 			dependencies: ["7C7427D7E73540BE"]
 			disable_toast: true
-			id: "498A3DBD04037298"
+			id: "0DDEBCA861304C8F"
 			rewards: [
 				{
-					id: "5AE3ED698A02CCDA"
+					id: "18106F94B4E8D2D5"
 					type: "xp"
 					xp: 1000
 				}
 				{
 					count: 16
-					id: "376537510414DC56"
+					id: "5F65FBB4C3CA97B4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4363,7 +4374,7 @@
 				}
 				{
 					count: 16
-					id: "4C329C1E5DC3D97E"
+					id: "7FA0875ED33748CF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4374,7 +4385,7 @@
 					type: "item"
 				}
 				{
-					id: "12593128988A6211"
+					id: "664F761BA311A715"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4389,7 +4400,7 @@
 			subtitle: "Craft a nuclear bomb and radioactive equipment."
 			tasks: [
 				{
-					id: "16EED092FD25FB66"
+					id: "7096DA3564B9911D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4400,7 +4411,7 @@
 					type: "item"
 				}
 				{
-					id: "6F4F26A68D1AB97E"
+					id: "53E12B170B06D870"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4411,7 +4422,7 @@
 					type: "item"
 				}
 				{
-					id: "40F079468FEDED54"
+					id: "1AF7D4A7565DC2FB"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4423,7 +4434,7 @@
 				}
 				{
 					count: 3L
-					id: "2BD5E0942628DEF8"
+					id: "48E40D34C659309E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4434,7 +4445,7 @@
 					type: "item"
 				}
 				{
-					id: "29CF2D9C277F6706"
+					id: "005B668CF6259B65"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4454,10 +4465,10 @@
 		}
 		{
 			dependencies: ["7C7427D7E73540BE"]
-			id: "3E266A191BFB9274"
+			id: "5DFA66357B0CEE73"
 			rewards: [
 				{
-					id: "69BE75FCCCDE5050"
+					id: "73DD1B35AF57060D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4469,19 +4480,19 @@
 					type: "item"
 				}
 				{
-					id: "442BC890EF83B471"
+					id: "3D887AC0A047547F"
 					type: "xp"
 					xp: 1000
 				}
 				{
 					exclude_from_claim_all: true
-					id: "74FB9FAC4D565C7D"
+					id: "2891405669F55EF0"
 					table_id: 7733959884225103403L
 					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "718C4A4773B17A27"
+					id: "7EE1FD50EB5F28C0"
 					table_id: 7733959884225103403L
 					type: "choice"
 				}
@@ -4490,7 +4501,7 @@
 			subtitle: "Get a variety of early game treasure blocks for flexing your beacon, and a stack of each stone variant for building a base around it."
 			tasks: [
 				{
-					id: "265A057494D726A5"
+					id: "46D63ECD24C2C698"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4501,7 +4512,7 @@
 					type: "item"
 				}
 				{
-					id: "34F1EFF8923670C6"
+					id: "6443468815DA937D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4512,7 +4523,7 @@
 					type: "item"
 				}
 				{
-					id: "3DE3096C07DC9045"
+					id: "783D6CC5BF8D625A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4523,7 +4534,7 @@
 					type: "item"
 				}
 				{
-					id: "46C6C122B3B7C247"
+					id: "516AAF275C57AAD9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4535,7 +4546,7 @@
 				}
 				{
 					count: 64L
-					id: "2490B15D9C2774CF"
+					id: "0FBDDE2B5AE16A76"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4547,7 +4558,7 @@
 				}
 				{
 					count: 64L
-					id: "6342B8A8CE657944"
+					id: "70B46470ED28C334"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4559,7 +4570,7 @@
 				}
 				{
 					count: 64L
-					id: "6B8B91F4580C9230"
+					id: "3B65D54BB463A1B7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4571,7 +4582,7 @@
 				}
 				{
 					count: 64L
-					id: "5CE5AF270A8BDE2C"
+					id: "4225FF2BCF3CAF78"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4583,7 +4594,7 @@
 				}
 				{
 					count: 64L
-					id: "48DEAA8813C7BED3"
+					id: "6E95CF4CB9C505E0"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4595,7 +4606,7 @@
 				}
 				{
 					count: 64L
-					id: "73E051B65596F448"
+					id: "264C3FB07F46F3D2"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4607,7 +4618,7 @@
 				}
 				{
 					count: 64L
-					id: "7E8D39E0D69B0F23"
+					id: "58220893E19E29DD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4618,7 +4629,7 @@
 					type: "item"
 				}
 				{
-					id: "65A13B123B03703E"
+					id: "3BFF191112DC3289"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4629,7 +4640,7 @@
 					type: "item"
 				}
 				{
-					id: "376C1AD967CF7E9E"
+					id: "50080035D971EBBE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4640,7 +4651,7 @@
 					type: "item"
 				}
 				{
-					id: "34676BE2C9B5BADB"
+					id: "0C9184E00998FE1F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4651,7 +4662,7 @@
 					type: "item"
 				}
 				{
-					id: "54ED2891F1F43A81"
+					id: "3E6F9151612348D2"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4662,7 +4673,7 @@
 					type: "item"
 				}
 				{
-					id: "727FB4980B7B8E2A"
+					id: "493CB0ABD958B076"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4673,7 +4684,7 @@
 					type: "item"
 				}
 				{
-					id: "2928AE2CD3B6A994"
+					id: "70801878ED203EA0"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4685,7 +4696,7 @@
 				}
 				{
 					count: 64L
-					id: "34C2F39338A6B3E2"
+					id: "0C5A4DAC77B2DB92"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4697,7 +4708,7 @@
 				}
 				{
 					count: 64L
-					id: "717AE43F162FA0ED"
+					id: "5011AD1EB774C271"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4709,7 +4720,7 @@
 				}
 				{
 					count: 64L
-					id: "18A2B7E12194F3CA"
+					id: "12F33B03F762E090"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4721,7 +4732,7 @@
 				}
 				{
 					count: 64L
-					id: "594FCC906E768576"
+					id: "5A3F840543CF1FFA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4733,7 +4744,7 @@
 				}
 				{
 					count: 64L
-					id: "5D22064226403D9C"
+					id: "60181046CB1D81D7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4745,7 +4756,7 @@
 				}
 				{
 					count: 64L
-					id: "3D3D7D5252BB3C7C"
+					id: "674F1A8DF1EB2A3C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4757,7 +4768,7 @@
 				}
 				{
 					count: 64L
-					id: "06CD4DC4534A11E3"
+					id: "1BD94C3CC3F0E48C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4769,7 +4780,7 @@
 				}
 				{
 					count: 64L
-					id: "33FE641E6D5318F5"
+					id: "6B8E6415171B99A5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4781,7 +4792,7 @@
 				}
 				{
 					count: 64L
-					id: "6408E99ABC16CA2F"
+					id: "5F32D41B3DE14AB5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4793,7 +4804,7 @@
 				}
 				{
 					count: 64L
-					id: "52C4C34BD64C2E6B"
+					id: "30301A3E74BE45B9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4804,7 +4815,7 @@
 					type: "item"
 				}
 				{
-					id: "64B0862BEA033823"
+					id: "229292439DD89BED"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4822,10 +4833,10 @@
 		{
 			dependencies: ["7C7427D7E73540BE"]
 			disable_toast: true
-			id: "4EA3C0F4B8085A4A"
+			id: "43FE055791C9C72D"
 			rewards: [
 				{
-					id: "15E44032FAC4658F"
+					id: "35626422844F8304"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4837,7 +4848,7 @@
 				}
 				{
 					count: 16
-					id: "770BC1D0054B997D"
+					id: "157165E39612696D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4849,7 +4860,7 @@
 				}
 				{
 					count: 128
-					id: "1D60D8740B7EC9FC"
+					id: "610470A88A26C808"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4860,7 +4871,7 @@
 					type: "item"
 				}
 				{
-					id: "0643254045E3A49E"
+					id: "3B9AD0762380C632"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4885,7 +4896,7 @@
 					type: "item"
 				}
 				{
-					id: "4389C264E5552FC6"
+					id: "7031AFEB63F3ACD7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4902,7 +4913,7 @@
 					type: "item"
 				}
 				{
-					id: "414BD230118F41EE"
+					id: "33679F623250EB74"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4913,7 +4924,7 @@
 					type: "item"
 				}
 				{
-					id: "42BEF5585A7E9541"
+					id: "7994B8C483874132"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4929,7 +4940,7 @@
 			subtitle: "Acquire all tetra materials."
 			tasks: [
 				{
-					id: "73A253090783450E"
+					id: "0C7DCCEBC9F48241"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4940,7 +4951,7 @@
 					type: "item"
 				}
 				{
-					id: "077CAFEFB6AB171E"
+					id: "38675F196568FED2"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4951,7 +4962,7 @@
 					type: "item"
 				}
 				{
-					id: "290EFE4F4EB6BF7D"
+					id: "0BD93C828563A125"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4972,7 +4983,7 @@
 					type: "item"
 				}
 				{
-					id: "675B51E77E2741EB"
+					id: "24423FB16E52DAE8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4983,7 +4994,7 @@
 					type: "item"
 				}
 				{
-					id: "1A82861CD0D3EE37"
+					id: "73103AA18F826B81"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4994,7 +5005,7 @@
 					type: "item"
 				}
 				{
-					id: "57115809C2E6B276"
+					id: "06C888FC49AF58E9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5008,7 +5019,7 @@
 					type: "item"
 				}
 				{
-					id: "74325B697BFED928"
+					id: "3AF71F6C3B90FA46"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5019,7 +5030,7 @@
 					type: "item"
 				}
 				{
-					id: "78F6C30E1FE79D88"
+					id: "25F3FBAD25ED838C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5030,7 +5041,7 @@
 					type: "item"
 				}
 				{
-					id: "0EA9C067093DAF3F"
+					id: "5A325C30F676ECF5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5041,7 +5052,7 @@
 					type: "item"
 				}
 				{
-					id: "2DDE2F0228576A11"
+					id: "425368FA5FDE48C2"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5052,7 +5063,7 @@
 					type: "item"
 				}
 				{
-					id: "757F4ED3A4CDEBD5"
+					id: "7DAF96DFCF16AB1B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5063,7 +5074,7 @@
 					type: "item"
 				}
 				{
-					id: "5B0FEF3D92C56F9A"
+					id: "1B370C800311BCFA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5074,7 +5085,7 @@
 					type: "item"
 				}
 				{
-					id: "656C21FF238E59EE"
+					id: "0459EF882633957E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5092,15 +5103,15 @@
 		{
 			dependencies: ["4D041F90B8B6F99A"]
 			disable_toast: true
-			id: "1AA455699DF78287"
+			id: "7271A4B4E9DACFA4"
 			rewards: [
 				{
-					id: "275BD659D5390391"
+					id: "06926F650FDB23EE"
 					type: "xp"
 					xp: 500
 				}
 				{
-					id: "184C9BFB912C1FEB"
+					id: "6715E15E0024E707"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5111,7 +5122,7 @@
 					type: "item"
 				}
 				{
-					id: "6415D80E6F4FC71C"
+					id: "386F09646F1E5392"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5127,7 +5138,7 @@
 			subtitle: "Create a fully fledged portable storage system that maximizes space by filtering with a proxy to storage crates to store 20x a normal chest for single items, and connect storage drawers to bulk store one type of item per drawer. Use chests for everything that's not a single item or an item you put in a drawer. "
 			tasks: [
 				{
-					id: "62FF41F864AD768F"
+					id: "68D6DBB660D2E8AD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5138,7 +5149,7 @@
 					type: "item"
 				}
 				{
-					id: "3F60D484AC887AEA"
+					id: "680FA6A9638B1C5C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5149,7 +5160,7 @@
 					type: "item"
 				}
 				{
-					id: "0C993EB7CB176145"
+					id: "37EC0AF55B821174"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5160,7 +5171,7 @@
 					type: "item"
 				}
 				{
-					id: "118D7EAD563BFDD8"
+					id: "35E9795B800427FA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5171,7 +5182,7 @@
 					type: "item"
 				}
 				{
-					id: "0D9F53B49F886BBA"
+					id: "62B5D997DE3069D4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5182,7 +5193,7 @@
 					type: "item"
 				}
 				{
-					id: "000650249252F93E"
+					id: "1CEFFE3C2C16C0B5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5193,7 +5204,7 @@
 					type: "item"
 				}
 				{
-					id: "38D6CDEAB76A0945"
+					id: "7DD17630BCD89CF3"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5204,7 +5215,7 @@
 					type: "item"
 				}
 				{
-					id: "2358481441B9B46F"
+					id: "23E8427E663C39C1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5215,7 +5226,7 @@
 					type: "item"
 				}
 				{
-					id: "34BC0F2883A33664"
+					id: "57ACB9B0947DFAA9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5226,7 +5237,7 @@
 					type: "item"
 				}
 				{
-					id: "53D0C892CAE05B0C"
+					id: "2D91BAC4BDC18CEA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5237,7 +5248,7 @@
 					type: "item"
 				}
 				{
-					id: "1A0FBC681DBAFF9B"
+					id: "3DACDE017BB57619"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5256,7 +5267,7 @@
 			dependencies: ["7CFCF3BA7E2B325C"]
 			disable_toast: true
 			icon: "minecraft:ender_chest"
-			id: "4D041F90B8B6F99A"
+			id: "61E16D51DFCD1B04"
 			shape: "rsquare"
 			size: 3.0d
 			title: "Resource Quests"
@@ -5266,12 +5277,12 @@
 		{
 			dependencies: ["4D041F90B8B6F99A"]
 			disable_toast: true
-			id: "2287D80377221AA3"
+			id: "1DC36E07D876B48E"
 			optional: true
 			rewards: [
 				{
 					count: 4
-					id: "1C36BBE08BE99E00"
+					id: "69AA873F1E45F47B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5289,7 +5300,7 @@
 				}
 				{
 					count: 4
-					id: "7F499B688B43F271"
+					id: "0EDDBC194EF94A50"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5307,7 +5318,7 @@
 				}
 				{
 					count: 64
-					id: "58E94E3A04E2BD3B"
+					id: "5D371B714D914D3D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5318,7 +5329,7 @@
 					type: "item"
 				}
 				{
-					id: "6A5418731611A76C"
+					id: "30D87E90FFE69D7F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5329,7 +5340,7 @@
 					type: "item"
 				}
 				{
-					id: "1677F83C56FAC3F5"
+					id: "6761F2361F292E8B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5340,7 +5351,7 @@
 					type: "item"
 				}
 				{
-					id: "4E69F2CE8ED64656"
+					id: "7647AFF312C6BE7E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5351,7 +5362,7 @@
 					type: "item"
 				}
 				{
-					id: "48A463D5E76278D6"
+					id: "4EB715A278B02751"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5363,25 +5374,25 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4E02289DCCA6ED99"
+					id: "1BAEBA49E627F25F"
 					table_id: 7733959884225103403L
 					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0E119AA52867CA18"
+					id: "6C2C1473D56C48AE"
 					table_id: 7733959884225103403L
 					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "72598E38965A9FDF"
+					id: "68AD5069CB85BE99"
 					table_id: 7733959884225103403L
 					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "42263709A283A71B"
+					id: "789069F3AD63340B"
 					table_id: 7733959884225103403L
 					type: "choice"
 				}
@@ -5391,7 +5402,7 @@
 			subtitle: "Collect All Known Ingots/Main Materials. This one you will likely complete most of during your playthrough."
 			tasks: [
 				{
-					id: "47621739D1A7592A"
+					id: "22E5A2552756EC98"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5402,7 +5413,7 @@
 					type: "item"
 				}
 				{
-					id: "01F74E51F792696B"
+					id: "6032D23BFFE94977"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5413,7 +5424,7 @@
 					type: "item"
 				}
 				{
-					id: "271B1ED4D5EEB6BF"
+					id: "6B1AD58406765B8E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5424,7 +5435,7 @@
 					type: "item"
 				}
 				{
-					id: "7FC76450D7361B5F"
+					id: "708C302DF5D0A780"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5435,7 +5446,7 @@
 					type: "item"
 				}
 				{
-					id: "18EEE3E20C6D4590"
+					id: "4A8FBE1106F45F88"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5446,7 +5457,7 @@
 					type: "item"
 				}
 				{
-					id: "1E882E23E31AC6F5"
+					id: "3ABEA04FEEA4B3B6"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5457,7 +5468,7 @@
 					type: "item"
 				}
 				{
-					id: "191904BFA91582BB"
+					id: "09E3DECFA28E1DDF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5468,7 +5479,7 @@
 					type: "item"
 				}
 				{
-					id: "49CC0A01F79A2E97"
+					id: "4347930B2C048414"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5479,7 +5490,7 @@
 					type: "item"
 				}
 				{
-					id: "6E3ED9B888674CE9"
+					id: "4B73D9F6F817B775"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5490,7 +5501,7 @@
 					type: "item"
 				}
 				{
-					id: "38D7C534023CB3F8"
+					id: "3A499653DC3A6573"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5501,7 +5512,7 @@
 					type: "item"
 				}
 				{
-					id: "6AC72B2D6C857F2A"
+					id: "49638CD7545049E5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5512,7 +5523,7 @@
 					type: "item"
 				}
 				{
-					id: "6BAA5BC70FE9875C"
+					id: "0DF8E24B90349A89"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5523,7 +5534,7 @@
 					type: "item"
 				}
 				{
-					id: "60C2D4EB957F2016"
+					id: "7F3CCC84E97DDF37"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5534,7 +5545,7 @@
 					type: "item"
 				}
 				{
-					id: "417465518F5568F3"
+					id: "5B2491C6DF39CE73"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5545,7 +5556,7 @@
 					type: "item"
 				}
 				{
-					id: "372707C73DC459B9"
+					id: "311994E3EBC5845F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5556,7 +5567,7 @@
 					type: "item"
 				}
 				{
-					id: "2F35B95BEEDEB8D9"
+					id: "6631F2A2A3351040"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5567,7 +5578,7 @@
 					type: "item"
 				}
 				{
-					id: "3274648C2F48DCD4"
+					id: "418635EAB3BC9FAE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5578,7 +5589,7 @@
 					type: "item"
 				}
 				{
-					id: "05D81E46B1ED804B"
+					id: "1629A9930CDE0BC1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5589,7 +5600,7 @@
 					type: "item"
 				}
 				{
-					id: "300AF7EEACA781FE"
+					id: "5215DA7783010E57"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5600,7 +5611,7 @@
 					type: "item"
 				}
 				{
-					id: "738C9DE5CBD5BF0F"
+					id: "5A32316F232660B1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5611,7 +5622,7 @@
 					type: "item"
 				}
 				{
-					id: "02AA135B2939CA30"
+					id: "4841C45B86410C76"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5622,7 +5633,7 @@
 					type: "item"
 				}
 				{
-					id: "2F437A038C888888"
+					id: "652F5A13CBD00E41"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5633,7 +5644,7 @@
 					type: "item"
 				}
 				{
-					id: "78182585021DE1C0"
+					id: "7BD3B0E62E76CBA6"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5644,7 +5655,7 @@
 					type: "item"
 				}
 				{
-					id: "405122A58A4D0A5D"
+					id: "74FDFFA93F6F28AD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5655,7 +5666,7 @@
 					type: "item"
 				}
 				{
-					id: "6B9B8274B4CDBFA3"
+					id: "641339EE3CC45701"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5666,7 +5677,7 @@
 					type: "item"
 				}
 				{
-					id: "3B4C69671558BEC7"
+					id: "220BE3AE98F9DA50"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5677,7 +5688,7 @@
 					type: "item"
 				}
 				{
-					id: "513D2B9FF195C42A"
+					id: "581203678C2D98D7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5688,7 +5699,7 @@
 					type: "item"
 				}
 				{
-					id: "4946BD822721A199"
+					id: "1942384F4B8190BD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5699,7 +5710,7 @@
 					type: "item"
 				}
 				{
-					id: "0B81651F1E04BC64"
+					id: "40F18A491A96A186"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5710,7 +5721,7 @@
 					type: "item"
 				}
 				{
-					id: "145DB95C95A83717"
+					id: "2057F6998B5E2BBE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5721,7 +5732,7 @@
 					type: "item"
 				}
 				{
-					id: "0FF8F7E215B87C76"
+					id: "4C50A2DFEC9FC973"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5732,7 +5743,7 @@
 					type: "item"
 				}
 				{
-					id: "40C86C79F6247726"
+					id: "38BFECE269158F9A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5743,7 +5754,7 @@
 					type: "item"
 				}
 				{
-					id: "7E86EF3F032CBD9F"
+					id: "4B683E80BD9CA616"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5754,7 +5765,7 @@
 					type: "item"
 				}
 				{
-					id: "5CFAA80A09257F6F"
+					id: "10F8547BAE9DFCA5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5765,7 +5776,7 @@
 					type: "item"
 				}
 				{
-					id: "0D51EEEAE441B962"
+					id: "419320886588FEAD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5776,7 +5787,7 @@
 					type: "item"
 				}
 				{
-					id: "5F85E2077B796ADC"
+					id: "5E3CCE193A87034D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5787,7 +5798,7 @@
 					type: "item"
 				}
 				{
-					id: "6B98C7C60A719CFE"
+					id: "26B2F671940A7F36"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5798,7 +5809,7 @@
 					type: "item"
 				}
 				{
-					id: "40C53B2ED8962303"
+					id: "07970DC067BB4353"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5809,7 +5820,7 @@
 					type: "item"
 				}
 				{
-					id: "2BBBF4D76BBCE218"
+					id: "6109C505122CB9CF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5820,7 +5831,7 @@
 					type: "item"
 				}
 				{
-					id: "14958229D43A0A9D"
+					id: "2D09049997208D56"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5831,7 +5842,7 @@
 					type: "item"
 				}
 				{
-					id: "19AAD45855BEBBCA"
+					id: "3EA3D5734DFDDD1C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5842,7 +5853,7 @@
 					type: "item"
 				}
 				{
-					id: "559BAF1CA4F00147"
+					id: "6D4EB86A8A2F4DAA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5853,7 +5864,7 @@
 					type: "item"
 				}
 				{
-					id: "6CC075A471771F2E"
+					id: "0E33E2C746EFD459"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5864,7 +5875,7 @@
 					type: "item"
 				}
 				{
-					id: "72CC2E607B07FF6C"
+					id: "3E28096DC9DC01D7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5875,7 +5886,7 @@
 					type: "item"
 				}
 				{
-					id: "645382C274C68590"
+					id: "2F7C922DAD927B5B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5893,15 +5904,15 @@
 		{
 			dependencies: ["4D041F90B8B6F99A"]
 			disable_toast: true
-			id: "165160F462EEDD6C"
+			id: "6BB3D8CC55EC10B8"
 			rewards: [
 				{
-					id: "53D098FF7FE3DA85"
+					id: "10E7A19E7F460D11"
 					type: "xp"
 					xp: 1000
 				}
 				{
-					id: "02F58C0FC3923C4E"
+					id: "64BEE86447CFFA34"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5915,7 +5926,7 @@
 					type: "item"
 				}
 				{
-					id: "55236DA5A9B3AFF7"
+					id: "3D42D1DD1D59CC89"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5927,7 +5938,7 @@
 				}
 				{
 					count: 8
-					id: "1B5F5344609DA067"
+					id: "16577B4FB156FD77"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5939,7 +5950,7 @@
 				}
 				{
 					count: 8
-					id: "1925438918F1F5DF"
+					id: "3464253FA5728530"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5951,7 +5962,7 @@
 				}
 				{
 					count: 8
-					id: "4C9F8341672517C8"
+					id: "6127D91C45917AF7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5963,7 +5974,7 @@
 				}
 				{
 					count: 8
-					id: "44E7595F58E64E5F"
+					id: "28CEB25C63003DED"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5974,7 +5985,7 @@
 					type: "item"
 				}
 				{
-					id: "69B5C4640D805F54"
+					id: "18EA6FE35806AD84"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5989,7 +6000,7 @@
 			subtitle: "All Early Game Gems"
 			tasks: [
 				{
-					id: "3CBABEEF6A509BC1"
+					id: "16075FB3CCE7BDD3"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6000,7 +6011,7 @@
 					type: "item"
 				}
 				{
-					id: "2D40E76619401EEB"
+					id: "06762A2CE415B4C4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6011,7 +6022,7 @@
 					type: "item"
 				}
 				{
-					id: "352E5BCB25D5B8FC"
+					id: "3733D06F9C7CE4FF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6022,7 +6033,7 @@
 					type: "item"
 				}
 				{
-					id: "24D22FA98C1E263E"
+					id: "4457F5E4A8F44672"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6033,7 +6044,7 @@
 					type: "item"
 				}
 				{
-					id: "6FCB845C04F2BD8E"
+					id: "06C1C0DEFE1D4A1E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6044,7 +6055,7 @@
 					type: "item"
 				}
 				{
-					id: "3514D9CDBEB8534B"
+					id: "5EE7FC0796C6890D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6055,7 +6066,7 @@
 					type: "item"
 				}
 				{
-					id: "68C88C1766118C32"
+					id: "0A2FE57029E22DE5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6066,7 +6077,7 @@
 					type: "item"
 				}
 				{
-					id: "367C6EFA6A7F5CF2"
+					id: "44CB1AC1E93B2DDD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6077,7 +6088,7 @@
 					type: "item"
 				}
 				{
-					id: "249C634DBDDCBBD3"
+					id: "1593827B7907D2CD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6117,10 +6128,10 @@
 		{
 			dependencies: ["4D041F90B8B6F99A"]
 			disable_toast: true
-			id: "6F776273DD6621A3"
+			id: "5ACF8CBDEB4CD47E"
 			rewards: [
 				{
-					id: "4629A4E8667EF671"
+					id: "18EF7A6941864934"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6131,12 +6142,12 @@
 					type: "item"
 				}
 				{
-					id: "54E8B60A7E4FF2DF"
+					id: "01E2A4DDD2B05FB2"
 					type: "xp"
 					xp: 500
 				}
 				{
-					id: "68763D174A5ED15A"
+					id: "6D7CB863AC41AEA8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6147,7 +6158,7 @@
 					type: "item"
 				}
 				{
-					id: "5E9E928915780238"
+					id: "3324697FEF73128B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6162,7 +6173,7 @@
 			subtitle: "Craft all diamond tools."
 			tasks: [
 				{
-					id: "13D4292809E7E328"
+					id: "3C6C0C1BC46FE55C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6176,7 +6187,7 @@
 					type: "item"
 				}
 				{
-					id: "46771181AB7BE11D"
+					id: "68FD2F2E59EA03A9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6190,7 +6201,7 @@
 					type: "item"
 				}
 				{
-					id: "79B2273BF0E21E5A"
+					id: "13C30033C1B9F6FE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6204,7 +6215,7 @@
 					type: "item"
 				}
 				{
-					id: "3CF0A125F0C5D279"
+					id: "62619A23BC9EF3C3"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6218,7 +6229,7 @@
 					type: "item"
 				}
 				{
-					id: "6D0E1724BD46E8A4"
+					id: "3B717F4EC606E926"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6232,7 +6243,7 @@
 					type: "item"
 				}
 				{
-					id: "07D7C698757DAEF3"
+					id: "5D37568135BF8465"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6246,7 +6257,7 @@
 					type: "item"
 				}
 				{
-					id: "02BFE3380C0FC171"
+					id: "6073BEFE22D2593E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6260,7 +6271,7 @@
 					type: "item"
 				}
 				{
-					id: "3B81D482088EABC6"
+					id: "09E3993BCEAEB7BF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6281,15 +6292,15 @@
 		{
 			dependencies: ["4D041F90B8B6F99A"]
 			disable_toast: true
-			id: "4E451AF0D1080358"
+			id: "67E2A55BD2547669"
 			rewards: [
 				{
-					id: "7758CDAE4BA77CFA"
+					id: "3A263F3BB5FD6218"
 					type: "xp"
 					xp: 500
 				}
 				{
-					id: "486EBF87D3ED28AF"
+					id: "364EAEED509105A1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6304,13 +6315,13 @@
 			subtitle: "Catch 100 fish, get 3 neptune's bounties and craft a neptunium rod. Getting ptsd from terraria, aren't we achievement hunters?"
 			tasks: [
 				{
-					id: "6A82549B0AD37AFB"
+					id: "4DBB6E0C94E3848D"
 					stat: "minecraft:fish_caught"
 					type: "stat"
 					value: 100
 				}
 				{
-					id: "2E28CB8B06E07DEC"
+					id: "079D82AF3CC9E013"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6325,7 +6336,7 @@
 				}
 				{
 					count: 3L
-					id: "05DBB4F5FD4BA80E"
+					id: "244FFA7F75BEC7AA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6343,15 +6354,15 @@
 		{
 			dependencies: ["4D041F90B8B6F99A"]
 			disable_toast: true
-			id: "747103F5B1F7EADE"
+			id: "4EE7A20B1DE22E8D"
 			rewards: [
 				{
-					id: "1F215D519C499716"
+					id: "61D23D5F2061D809"
 					type: "xp"
 					xp: 3000
 				}
 				{
-					id: "3E071E620E427A58"
+					id: "2361E1DF24FE6A1D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6364,7 +6375,7 @@
 				}
 				{
 					count: 16
-					id: "53D1AA1F6FBC1DAC"
+					id: "5F9A7BAA953929ED"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6375,7 +6386,7 @@
 					type: "item"
 				}
 				{
-					id: "35AA3E1A428AFFC0"
+					id: "3FD905021DD3AE40"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6393,7 +6404,7 @@
 			subtitle: "Acquire All Rainbow Items. Teleportato and Eternal cake buyable in the shop post-magical eye."
 			tasks: [
 				{
-					id: "196B4904C1FF4CF3"
+					id: "2EC5E9E4B5A2E48A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6404,7 +6415,7 @@
 					type: "item"
 				}
 				{
-					id: "05F8D8E9CA202961"
+					id: "174A3A0CEFECFF51"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6415,7 +6426,7 @@
 					type: "item"
 				}
 				{
-					id: "52F046E9108E2B3D"
+					id: "395DDE4D070E7D7E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6426,7 +6437,7 @@
 					type: "item"
 				}
 				{
-					id: "467D9F04AA0FE8DF"
+					id: "0D145A7E54500C3E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6437,7 +6448,7 @@
 					type: "item"
 				}
 				{
-					id: "00951C9C925C2E54"
+					id: "4341550664C26DFA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6448,7 +6459,7 @@
 					type: "item"
 				}
 				{
-					id: "58F12EF9AAC4E632"
+					id: "19AFD78E58911C0D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6459,7 +6470,7 @@
 					type: "item"
 				}
 				{
-					id: "27C6C14BE19EB8C1"
+					id: "30EAD0113FAE2C44"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6477,16 +6488,16 @@
 		{
 			dependencies: ["4D041F90B8B6F99A"]
 			disable_toast: true
-			id: "08AC50217BF99F2D"
+			id: "4A12922DB8F45B26"
 			rewards: [
 				{
-					id: "5F234D5ABAE194FD"
+					id: "24603EB09D7C3765"
 					type: "xp"
 					xp: 1000
 				}
 				{
 					count: 16
-					id: "4DC36C04BF051EB4"
+					id: "2A12550B794B2EB8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6497,7 +6508,7 @@
 					type: "item"
 				}
 				{
-					id: "0386C45104EE2BA8"
+					id: "3170708E8B7790C7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6508,7 +6519,7 @@
 					type: "item"
 				}
 				{
-					id: "6FDA53936C53E28F"
+					id: "2113839A0CE2A47C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6521,7 +6532,7 @@
 				}
 				{
 					count: 12
-					id: "78DF6AC7B56248EA"
+					id: "3AA287C7FF40A357"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6536,7 +6547,7 @@
 			subtitle: "Collect All Endgame Gems "
 			tasks: [
 				{
-					id: "05F2CFB4789040EB"
+					id: "17CE67A434237BAB"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6547,7 +6558,7 @@
 					type: "item"
 				}
 				{
-					id: "4A94D2EF9748FFBD"
+					id: "27270F68A6EB91A7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6558,7 +6569,7 @@
 					type: "item"
 				}
 				{
-					id: "5AEE9CE01998A45B"
+					id: "3D5A782EE196F6E9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6569,7 +6580,7 @@
 					type: "item"
 				}
 				{
-					id: "1AEE7AE2D9F49D40"
+					id: "6F815125A293442B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6580,7 +6591,7 @@
 					type: "item"
 				}
 				{
-					id: "4158A3A80D2F7E38"
+					id: "2FD75AC3E661A179"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6591,7 +6602,7 @@
 					type: "item"
 				}
 				{
-					id: "7E60284E201A5D1E"
+					id: "19E251240785C4A8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6602,7 +6613,7 @@
 					type: "item"
 				}
 				{
-					id: "40E78077FCFE72C0"
+					id: "41248D61262A989B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6613,7 +6624,7 @@
 					type: "item"
 				}
 				{
-					id: "3422B736172E029A"
+					id: "47BF63B54F7B8F25"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6624,7 +6635,7 @@
 					type: "item"
 				}
 				{
-					id: "6CA7474F2217BE11"
+					id: "534D7A12E2DF72DB"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6635,7 +6646,7 @@
 					type: "item"
 				}
 				{
-					id: "79C3A65B6FEB5B83"
+					id: "6347F7D16D4AAB80"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6646,7 +6657,7 @@
 					type: "item"
 				}
 				{
-					id: "6C75D8B6C8FDC10B"
+					id: "12B406A292155B04"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6657,7 +6668,7 @@
 					type: "item"
 				}
 				{
-					id: "76CA29C1238FBB52"
+					id: "3B5B79A4F63558FD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6668,7 +6679,7 @@
 					type: "item"
 				}
 				{
-					id: "751D41560A1AD8B2"
+					id: "2BA6361B870600F0"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6679,7 +6690,7 @@
 					type: "item"
 				}
 				{
-					id: "37D74D606F2E4A67"
+					id: "0D1B6FF82CF70A93"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6690,7 +6701,7 @@
 					type: "item"
 				}
 				{
-					id: "0771CF0EFFB0BEB5"
+					id: "7E54916F1923CF42"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6701,7 +6712,7 @@
 					type: "item"
 				}
 				{
-					id: "5C497093032FDCFC"
+					id: "15E3BCFDDD8728D0"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6722,16 +6733,16 @@
 		{
 			dependencies: ["4D041F90B8B6F99A"]
 			disable_toast: true
-			id: "698500AC02D8341B"
+			id: "0DAC3CAA22D1B939"
 			rewards: [
 				{
-					id: "38D44C07F9272EDA"
+					id: "496FC1B034448D9F"
 					type: "xp"
 					xp: 1000
 				}
 				{
 					count: 10
-					id: "1CBAB8503473802D"
+					id: "780A17F13BE43D8A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6742,7 +6753,7 @@
 					type: "item"
 				}
 				{
-					id: "7B443FBD30F63453"
+					id: "562D09C94E79D76E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6756,7 +6767,7 @@
 					type: "item"
 				}
 				{
-					id: "57009BE98A484114"
+					id: "5114B8D4B9D938D4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6770,7 +6781,7 @@
 					type: "item"
 				}
 				{
-					id: "7ABA7E1193247141"
+					id: "5A5EDC8F62892741"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6784,7 +6795,7 @@
 					type: "item"
 				}
 				{
-					id: "7AB501B960896305"
+					id: "1B61DB31AFF01322"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6798,7 +6809,7 @@
 					type: "item"
 				}
 				{
-					id: "6A432B8AE71ABC31"
+					id: "4956EE023BEDE579"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6809,7 +6820,7 @@
 					type: "item"
 				}
 				{
-					id: "03921DD4F05E51F5"
+					id: "649677D0502827C2"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6824,13 +6835,13 @@
 			subtitle: "Catch 250 fish, Craft a neptunium block, and get all hooks, bait, lines and bobbers."
 			tasks: [
 				{
-					id: "6A98C6038BD179CA"
+					id: "5CE3316C857374E8"
 					stat: "minecraft:fish_caught"
 					type: "stat"
 					value: 250
 				}
 				{
-					id: "096F9799C801D427"
+					id: "7FAE94AEE2F525BC"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6841,7 +6852,7 @@
 					type: "item"
 				}
 				{
-					id: "71000589D4D62292"
+					id: "39BF77008B6C48A9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6852,7 +6863,7 @@
 					type: "item"
 				}
 				{
-					id: "77D20FC4E394C43C"
+					id: "3CC6580529AD274B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6863,7 +6874,7 @@
 					type: "item"
 				}
 				{
-					id: "506FEAA5F557A3BE"
+					id: "23C3CF3030D9BCDB"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6874,7 +6885,7 @@
 					type: "item"
 				}
 				{
-					id: "45CA899EEF03C92B"
+					id: "65093DF0F78FB012"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6885,7 +6896,7 @@
 					type: "item"
 				}
 				{
-					id: "68FBA3139FACDED5"
+					id: "335E0AE799B53BC9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6896,7 +6907,7 @@
 					type: "item"
 				}
 				{
-					id: "07DA84808819B795"
+					id: "34ED44ACB187FAC1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6907,7 +6918,7 @@
 					type: "item"
 				}
 				{
-					id: "06BC09B292E37DAF"
+					id: "564EAA58F18E4EAB"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6918,7 +6929,7 @@
 					type: "item"
 				}
 				{
-					id: "47D93B4012EAD513"
+					id: "4C2F4FF852C6DE6D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6929,7 +6940,7 @@
 					type: "item"
 				}
 				{
-					id: "4E1739E39758429D"
+					id: "5D2F7A2E09DA986D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6943,7 +6954,7 @@
 					type: "item"
 				}
 				{
-					id: "698D2A6F404D15B6"
+					id: "2D92FD1D8359060D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6957,7 +6968,7 @@
 					type: "item"
 				}
 				{
-					id: "1981A8CEEB466305"
+					id: "591BC7FADFD9402E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6971,7 +6982,7 @@
 					type: "item"
 				}
 				{
-					id: "7DE314A1D8C576B6"
+					id: "259CD710D2367A3F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6982,7 +6993,7 @@
 					type: "item"
 				}
 				{
-					id: "07DF5433D3382BAC"
+					id: "681D16463324CBCE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -6993,7 +7004,7 @@
 					type: "item"
 				}
 				{
-					id: "1E74D9F2823689A1"
+					id: "0BAA284CED069689"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -8215,469 +8226,6 @@
 		{
 			dependencies: ["5347D852E0B73AA6"]
 			disable_toast: true
-			id: "75678EE2A282AFF1"
-			rewards: [
-				{
-					id: "3CB0519A9352395F"
-					type: "xp"
-					xp: 5000
-				}
-				{
-					count: 320
-					id: "4C980DC7AEB44CD4"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:golden_carrot"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "4A13809B0255E482"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersdelight:vegetable_noodles"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "62408492FCA93DF6"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "enigmaticlegacy:astral_potato"
-					}
-					type: "item"
-				}
-				{
-					id: "19D15320BA6CA40D"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:speed_force"
-					}
-					type: "item"
-				}
-				{
-					id: "1924600DE27BAB84"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "enigmaticlegacy:infinimeal"
-					}
-					type: "item"
-				}
-				{
-					id: "3BE20F1DFD2778EB"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "enigmaticlegacy:enchantment_transposer"
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 1.5d
-			subtitle: "Grow all veggies."
-			tasks: [
-				{
-					id: "310F47962D9BFA3B"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:kelp"
-					}
-					type: "item"
-				}
-				{
-					id: "69C0429012555C9F"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "netherdepthsupgrade:warped_kelp"
-					}
-					type: "item"
-				}
-				{
-					id: "59804A7D96DAEEA7"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "aquamirae:oxygelium"
-					}
-					type: "item"
-				}
-				{
-					id: "493CD9F5418D6BFE"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersdelight:brown_mushroom_colony"
-					}
-					type: "item"
-				}
-				{
-					id: "41EB6FC90761BA75"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersdelight:red_mushroom_colony"
-					}
-					type: "item"
-				}
-				{
-					id: "5E8AF2B279F9FE06"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:brown_mushroom"
-					}
-					type: "item"
-				}
-				{
-					id: "5BA9FF0B3665AEDB"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:red_mushroom"
-					}
-					type: "item"
-				}
-				{
-					id: "77FBCD6624F39339"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "quark:glow_shroom"
-					}
-					type: "item"
-				}
-				{
-					id: "5F6F2852141EA36F"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:potato"
-					}
-					type: "item"
-				}
-				{
-					id: "1317A7CC15DE928F"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:poisonous_potato"
-					}
-					type: "item"
-				}
-				{
-					id: "4F2A206422EFDD21"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersdelight:tomato"
-					}
-					type: "item"
-				}
-				{
-					id: "70A71C91A518C224"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersdelight:rotten_tomato"
-					}
-					type: "item"
-				}
-				{
-					id: "73495E9669B6571C"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:carrot"
-					}
-					type: "item"
-				}
-				{
-					id: "21B524F84B161EA4"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:golden_carrot"
-					}
-					type: "item"
-				}
-				{
-					id: "55A263A9B6C77605"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersdelight:onion"
-					}
-					type: "item"
-				}
-				{
-					id: "11E5E7D32433C28E"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersdelight:cabbage"
-					}
-					type: "item"
-				}
-				{
-					id: "22AADD3A93D2C565"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersdelight:rice_panicle"
-					}
-					type: "item"
-				}
-				{
-					id: "6049C468A5D2259B"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "upgrade_aquatic:blue_pickerelweed"
-					}
-					type: "item"
-				}
-				{
-					id: "421A852F58376A1F"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "upgrade_aquatic:purple_pickerelweed"
-					}
-					type: "item"
-				}
-				{
-					id: "21DB8235AE72B483"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:beetroot"
-					}
-					type: "item"
-				}
-				{
-					id: "1DC330AD475C76A7"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:nether_wart"
-					}
-					type: "item"
-				}
-				{
-					id: "4AD3411065DCE4C9"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:bamboo"
-					}
-					type: "item"
-				}
-				{
-					id: "1CCBD8276DB6ECB4"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersrespite:green_tea_leaves"
-					}
-					type: "item"
-				}
-				{
-					id: "107F48A8C98EC231"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersrespite:yellow_tea_leaves"
-					}
-					type: "item"
-				}
-				{
-					id: "77459B9A7FC1A633"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "farmersrespite:black_tea_leaves"
-					}
-					type: "item"
-				}
-				{
-					id: "5010E376CAC58526"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:cactus"
-					}
-					type: "item"
-				}
-				{
-					id: "18A9B8EBE229A682"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualend:chorus_roots"
-					}
-					type: "item"
-				}
-				{
-					id: "7D828A9D77312A9C"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:cryo_root"
-					}
-					type: "item"
-				}
-				{
-					id: "56E81B75C3162CCD"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:winter_leaves"
-					}
-					type: "item"
-				}
-				{
-					id: "32414179171E337D"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:crimson_fungus"
-					}
-					type: "item"
-				}
-				{
-					id: "4186DF7B35838CEC"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:warped_fungus"
-					}
-					type: "item"
-				}
-				{
-					id: "4E1C38C249A55644"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "infernalexp:luminous_fungus"
-					}
-					type: "item"
-				}
-				{
-					id: "060E7CF821563B2E"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualend:chorus_fungus"
-					}
-					type: "item"
-				}
-				{
-					id: "58E3CE3B899B40AD"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "enigmaticlegacy:astral_potato"
-					}
-					type: "item"
-				}
-			]
-			title: "Seasoned Vegetarian"
-			x: 14.625d
-			y: 15.0d
-		}
-		{
-			dependencies: ["5347D852E0B73AA6"]
-			disable_toast: true
 			id: "62C7E28CF1E71AC1"
 			optional: true
 			rewards: [
@@ -8964,16 +8512,16 @@
 		{
 			dependencies: ["5347D852E0B73AA6"]
 			disable_toast: true
-			id: "6DBD672B53D72C87"
+			id: "6598654D2A8F326B"
 			rewards: [
 				{
-					id: "23D7C2A0F4450E1A"
+					id: "3407AC4B48969591"
 					type: "xp"
 					xp: 5000
 				}
 				{
 					count: 5
-					id: "0D0FE6098D4A9EC5"
+					id: "4F8FBCA2D52DC9C4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -8984,7 +8532,7 @@
 					type: "item"
 				}
 				{
-					id: "089FBD5B8621010C"
+					id: "0526FCA8DE0425C6"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -8995,7 +8543,7 @@
 					type: "item"
 				}
 				{
-					id: "778D1BBD820ED705"
+					id: "133AE71B22B64FEE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9006,7 +8554,7 @@
 					type: "item"
 				}
 				{
-					id: "0F6DA83F87F559DD"
+					id: "2C713E73F7FCAC28"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9022,7 +8570,7 @@
 			subtitle: "Collect all fruits."
 			tasks: [
 				{
-					id: "51F953B772AE459E"
+					id: "143D1E6D7EE9ADE9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9033,7 +8581,7 @@
 					type: "item"
 				}
 				{
-					id: "4261838C90CC6A75"
+					id: "2563925CA951A056"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9044,7 +8592,7 @@
 					type: "item"
 				}
 				{
-					id: "021069E9EC6A5D9E"
+					id: "6A718626099FC431"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9055,7 +8603,7 @@
 					type: "item"
 				}
 				{
-					id: "228C556818B7AC48"
+					id: "530F35758D3D635D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9066,7 +8614,7 @@
 					type: "item"
 				}
 				{
-					id: "12EC571C25B477C1"
+					id: "2676A78F9D6F65FB"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9077,7 +8625,7 @@
 					type: "item"
 				}
 				{
-					id: "52ECA9EEB674BF3E"
+					id: "247372C15CF5322C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9088,7 +8636,7 @@
 					type: "item"
 				}
 				{
-					id: "0AF4A497286634C9"
+					id: "5899C82B3F84B73E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9099,7 +8647,7 @@
 					type: "item"
 				}
 				{
-					id: "0068CBAF64C10159"
+					id: "6F8D59A13B97BADF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9110,7 +8658,7 @@
 					type: "item"
 				}
 				{
-					id: "50619F89970160D3"
+					id: "30D941A7D465C112"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9121,7 +8669,7 @@
 					type: "item"
 				}
 				{
-					id: "07E5AD5E2C43814E"
+					id: "33487C3317B4FBA3"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9132,7 +8680,7 @@
 					type: "item"
 				}
 				{
-					id: "14747FDA1DD2BB4F"
+					id: "41C8FF24B3871504"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9143,7 +8691,7 @@
 					type: "item"
 				}
 				{
-					id: "433DB08B3ABC812E"
+					id: "0D6DF3D847F375ED"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9154,7 +8702,7 @@
 					type: "item"
 				}
 				{
-					id: "1B443009FECF9DDD"
+					id: "37A2787DAD063CF7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9165,7 +8713,7 @@
 					type: "item"
 				}
 				{
-					id: "5F8B2A7632DB979B"
+					id: "1F6ADCD4BB535D42"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9176,7 +8724,7 @@
 					type: "item"
 				}
 				{
-					id: "7F51893F2BD726F2"
+					id: "3F1A7C54F120C9B9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9187,7 +8735,7 @@
 					type: "item"
 				}
 				{
-					id: "1EB2675DDD6470FE"
+					id: "71A86C8AB5290A6A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9198,7 +8746,7 @@
 					type: "item"
 				}
 				{
-					id: "7220D8A672AB05E1"
+					id: "08448BE970B63B03"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9209,7 +8757,7 @@
 					type: "item"
 				}
 				{
-					id: "0E7B6D6A1C444296"
+					id: "109FD0997B21E204"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9220,7 +8768,7 @@
 					type: "item"
 				}
 				{
-					id: "1B85439CB242133A"
+					id: "36F1480F2187AA48"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9231,7 +8779,7 @@
 					type: "item"
 				}
 				{
-					id: "185F50A27BC1DD67"
+					id: "7F697FEA0BE6942E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9242,7 +8790,7 @@
 					type: "item"
 				}
 				{
-					id: "32B5C8E87EF248DE"
+					id: "6AE1C434481C5782"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9253,7 +8801,7 @@
 					type: "item"
 				}
 				{
-					id: "13435F54E11A7E74"
+					id: "00A60D39D3ABB352"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9264,7 +8812,7 @@
 					type: "item"
 				}
 				{
-					id: "3A34A16D58FA115C"
+					id: "0B8FECF5E1880FF6"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9275,7 +8823,7 @@
 					type: "item"
 				}
 				{
-					id: "7446389126C28C77"
+					id: "04723E732F07DB07"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9286,7 +8834,7 @@
 					type: "item"
 				}
 				{
-					id: "4AB5D7575098D411"
+					id: "10CE1BD1D54FDB73"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9297,7 +8845,7 @@
 					type: "item"
 				}
 				{
-					id: "6BF4A770FC9EA4A0"
+					id: "2A948E95E8692E5D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9340,6 +8888,39 @@
 					}
 					type: "item"
 				}
+				{
+					id: "23B0771C99E0822F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:frost_fruit"
+					}
+					type: "item"
+				}
+				{
+					id: "524CFBDEE0B398F6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:glow_gourd_slice"
+					}
+					type: "item"
+				}
+				{
+					id: "628065FA8BF84F38"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:squished_bouncer"
+					}
+					type: "item"
+				}
 			]
 			title: "Mobile App - Fruit Ninja"
 			x: 20.625d
@@ -9348,16 +8929,16 @@
 		{
 			dependencies: ["5347D852E0B73AA6"]
 			disable_toast: true
-			id: "34F0BAF3474C246B"
+			id: "44A55E684766E3BA"
 			optional: true
 			rewards: [
 				{
-					id: "04C9495FE00A43B4"
+					id: "752E822069C9E7E9"
 					type: "xp"
 					xp: 5000
 				}
 				{
-					id: "229F8934B1E34F4A"
+					id: "116DDD889230E532"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9369,7 +8950,7 @@
 					type: "item"
 				}
 				{
-					id: "31973CC5E4E06E4A"
+					id: "72FF9DCE68B2C8D3"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9380,7 +8961,7 @@
 					type: "item"
 				}
 				{
-					id: "4265ED2A85FB264B"
+					id: "2220E5D6E1C0981C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9396,7 +8977,7 @@
 			subtitle: "Collect and cook all meats."
 			tasks: [
 				{
-					id: "59FFB38AAADB367C"
+					id: "2A32AD50E105D101"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9407,7 +8988,7 @@
 					type: "item"
 				}
 				{
-					id: "51EEA1E558DCD705"
+					id: "16CCBE96FCF40864"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9418,7 +8999,7 @@
 					type: "item"
 				}
 				{
-					id: "39D5DE821876E606"
+					id: "257D522B0307EAEE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9429,7 +9010,7 @@
 					type: "item"
 				}
 				{
-					id: "280D553F89E2A01D"
+					id: "06790CA00A2F9DF6"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9440,7 +9021,7 @@
 					type: "item"
 				}
 				{
-					id: "66BB289BE62B8E9F"
+					id: "4F2F006BB4F78752"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9451,7 +9032,7 @@
 					type: "item"
 				}
 				{
-					id: "58DECCD83B9EA777"
+					id: "4DDE653FA92C65D1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9462,7 +9043,7 @@
 					type: "item"
 				}
 				{
-					id: "171463A1F2B44572"
+					id: "2B6EE5B423DFE08A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9473,7 +9054,7 @@
 					type: "item"
 				}
 				{
-					id: "2EF9DB262DBE0FF1"
+					id: "29D83B1CF563C518"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9484,7 +9065,7 @@
 					type: "item"
 				}
 				{
-					id: "1CD457407BFD43E2"
+					id: "22E4A9B98F595D12"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9495,7 +9076,7 @@
 					type: "item"
 				}
 				{
-					id: "159DC1F23790BB81"
+					id: "0BF537AC4B3F4856"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9506,7 +9087,7 @@
 					type: "item"
 				}
 				{
-					id: "6C3B4D133DA6EB00"
+					id: "62B76CB44E2515C5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9517,7 +9098,7 @@
 					type: "item"
 				}
 				{
-					id: "7F7D8D0EC2820668"
+					id: "021CD8E9FF19E95C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9528,7 +9109,7 @@
 					type: "item"
 				}
 				{
-					id: "496068D3261798DE"
+					id: "7B62799321B9CE1A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9539,7 +9120,7 @@
 					type: "item"
 				}
 				{
-					id: "154E2F73FAB8198D"
+					id: "18558FA6FFC5AB0E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9550,7 +9131,7 @@
 					type: "item"
 				}
 				{
-					id: "737595F1F0567F6F"
+					id: "1FCFFA63CCFFDB3D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9561,7 +9142,7 @@
 					type: "item"
 				}
 				{
-					id: "0AA668FE1492F2F8"
+					id: "54B151EBF9DDBCC1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9572,7 +9153,7 @@
 					type: "item"
 				}
 				{
-					id: "2CB6DD8617F39045"
+					id: "5D6F081340117CB7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9583,7 +9164,7 @@
 					type: "item"
 				}
 				{
-					id: "1F35E7E0E7DBCE65"
+					id: "1952B725DA524FB1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9594,7 +9175,7 @@
 					type: "item"
 				}
 				{
-					id: "689237C048E03C92"
+					id: "1850E7506298469A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9605,7 +9186,7 @@
 					type: "item"
 				}
 				{
-					id: "67D555BACE56378B"
+					id: "74427FE05D3A3057"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9616,7 +9197,7 @@
 					type: "item"
 				}
 				{
-					id: "12C587240BE65E3A"
+					id: "6C1796694951F3D7"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9627,7 +9208,7 @@
 					type: "item"
 				}
 				{
-					id: "02EB4144673917EF"
+					id: "08FC1E58567BB454"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9638,7 +9219,7 @@
 					type: "item"
 				}
 				{
-					id: "0EB8E9995AC6511B"
+					id: "40335F9A9ADBA26A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9649,7 +9230,7 @@
 					type: "item"
 				}
 				{
-					id: "06D9DCC5251DF61A"
+					id: "531D50A7A833FC5E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9660,7 +9241,7 @@
 					type: "item"
 				}
 				{
-					id: "2129F2633066D0C1"
+					id: "3AB5F343CFADCB24"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9671,7 +9252,7 @@
 					type: "item"
 				}
 				{
-					id: "4342E453A0ADAC7F"
+					id: "2E780F69718C26CF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9682,7 +9263,7 @@
 					type: "item"
 				}
 				{
-					id: "1C5E26FE888A5535"
+					id: "60B59EB2646DF991"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9693,7 +9274,7 @@
 					type: "item"
 				}
 				{
-					id: "595BDDD8F4EFFFC0"
+					id: "41FE46A199B8C74E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9704,7 +9285,7 @@
 					type: "item"
 				}
 				{
-					id: "28F2C20FA5A2B1FE"
+					id: "4881F07F84A9D1AF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9715,7 +9296,7 @@
 					type: "item"
 				}
 				{
-					id: "4BEDAA1FB0231709"
+					id: "0D8BD96E15022DB1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9726,7 +9307,7 @@
 					type: "item"
 				}
 				{
-					id: "455D703A26CF2CD7"
+					id: "6B0585B4366DE15E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9912,6 +9493,28 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7747B8FFC5914552"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:fried_maggot"
+					}
+					type: "item"
+				}
+				{
+					id: "55D405F9F68AF8C3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:smoked_fish"
+					}
+					type: "item"
+				}
 			]
 			title: "RAWR - It's not f***ing raw!"
 			x: 20.25d
@@ -9920,15 +9523,15 @@
 		{
 			dependencies: ["5347D852E0B73AA6"]
 			disable_toast: true
-			id: "43BA4C779406A821"
+			id: "4DE8468E80DEC980"
 			rewards: [
 				{
-					id: "32050E602F8024C6"
+					id: "1A6EB902DA78B163"
 					type: "xp"
 					xp: 5000
 				}
 				{
-					id: "5E2AEF25379141B5"
+					id: "1D45560ACC511C7B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9939,7 +9542,7 @@
 					type: "item"
 				}
 				{
-					id: "282ADA67E8587863"
+					id: "616FE9298E397A32"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9950,7 +9553,7 @@
 					type: "item"
 				}
 				{
-					id: "6C2B64F9BD017659"
+					id: "3E5755C13FF1F218"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9966,7 +9569,7 @@
 			subtitle: "Make all desserts. Teleportato and Eternal cake buyable in the shop post-magical eye."
 			tasks: [
 				{
-					id: "3F6767450DDEAFB7"
+					id: "1EC27E968C0D00AA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9977,7 +9580,7 @@
 					type: "item"
 				}
 				{
-					id: "64865B61FC8DA1A2"
+					id: "0B469B754B1BB858"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9988,7 +9591,7 @@
 					type: "item"
 				}
 				{
-					id: "20800BF8A70F66C8"
+					id: "17364B77D67D0E2F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -9999,7 +9602,7 @@
 					type: "item"
 				}
 				{
-					id: "18363F0B3128EB18"
+					id: "4B4BD4B94BB962FE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10010,7 +9613,7 @@
 					type: "item"
 				}
 				{
-					id: "4BFFF4D0F1E08C1F"
+					id: "4CF396EC4F0C3A96"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10021,7 +9624,7 @@
 					type: "item"
 				}
 				{
-					id: "7BE7DC606E554DF1"
+					id: "3EFA8EDCFA42FBD5"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10032,7 +9635,7 @@
 					type: "item"
 				}
 				{
-					id: "3DEB3B16664C11EE"
+					id: "2A1CA55200294E67"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10043,7 +9646,7 @@
 					type: "item"
 				}
 				{
-					id: "0F3365DC5B838FB6"
+					id: "5CF4A03AECCF7DCE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10054,7 +9657,7 @@
 					type: "item"
 				}
 				{
-					id: "5157162C6B93EDA9"
+					id: "7AABD19AD5038179"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10065,7 +9668,7 @@
 					type: "item"
 				}
 				{
-					id: "7C1DCFC093C82382"
+					id: "0A8F20E1010B6A14"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10076,7 +9679,7 @@
 					type: "item"
 				}
 				{
-					id: "70C44A979811825F"
+					id: "45F12A9996A7A864"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10087,7 +9690,7 @@
 					type: "item"
 				}
 				{
-					id: "5607FAA26FC8D33C"
+					id: "325EB1F41CB6F467"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10098,7 +9701,7 @@
 					type: "item"
 				}
 				{
-					id: "421FDA76E3972CBE"
+					id: "7E62B93AAE180412"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10109,7 +9712,7 @@
 					type: "item"
 				}
 				{
-					id: "4AE90DF3C14926AB"
+					id: "0FBE45EA5751E74D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10120,7 +9723,7 @@
 					type: "item"
 				}
 				{
-					id: "24B112CD8DE32177"
+					id: "112E917C620A01F4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10131,7 +9734,7 @@
 					type: "item"
 				}
 				{
-					id: "20D89D5563F6E596"
+					id: "49BB27E3C5458016"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10142,7 +9745,7 @@
 					type: "item"
 				}
 				{
-					id: "21F255FBEB5158C9"
+					id: "55728AB33B48227E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10153,7 +9756,7 @@
 					type: "item"
 				}
 				{
-					id: "378BE0282250A643"
+					id: "1CA61DE141AEAE13"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10164,7 +9767,7 @@
 					type: "item"
 				}
 				{
-					id: "4EACB3304D6307E6"
+					id: "6A7463BEE2794117"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10175,7 +9778,7 @@
 					type: "item"
 				}
 				{
-					id: "0060FD382485A23F"
+					id: "6246DFF100C7A19D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10186,7 +9789,7 @@
 					type: "item"
 				}
 				{
-					id: "02D573519922E16B"
+					id: "248F888E1C15E973"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10197,7 +9800,7 @@
 					type: "item"
 				}
 				{
-					id: "27A14FDCE52AF6A0"
+					id: "7D83B3F76027A0D6"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10208,7 +9811,7 @@
 					type: "item"
 				}
 				{
-					id: "3876F0FF81E83FFE"
+					id: "06904FF6052B2086"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10219,7 +9822,7 @@
 					type: "item"
 				}
 				{
-					id: "636F6B61891EC973"
+					id: "7267DA4A29D2649F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10230,7 +9833,7 @@
 					type: "item"
 				}
 				{
-					id: "3CA05393FDBFD031"
+					id: "3F23838A1B6B3664"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10241,7 +9844,7 @@
 					type: "item"
 				}
 				{
-					id: "60D98B9383010364"
+					id: "0FD1D6C483DE51FE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10252,7 +9855,7 @@
 					type: "item"
 				}
 				{
-					id: "3F07B94916113AA3"
+					id: "2FBBAF4EFFBFE625"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10263,7 +9866,7 @@
 					type: "item"
 				}
 				{
-					id: "35242CDD5F72B138"
+					id: "166DC748CF6BDDC6"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10274,7 +9877,7 @@
 					type: "item"
 				}
 				{
-					id: "6ABCA2B206410E29"
+					id: "69AC83451E82E4BE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10285,7 +9888,7 @@
 					type: "item"
 				}
 				{
-					id: "29B1FF744FE21589"
+					id: "44D64879712687C9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10296,7 +9899,7 @@
 					type: "item"
 				}
 				{
-					id: "2675B48C3AFF8D6E"
+					id: "733707EE359A840F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10307,7 +9910,7 @@
 					type: "item"
 				}
 				{
-					id: "66C79EBA730365C1"
+					id: "2EECB7E7CDECEBFF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10318,7 +9921,7 @@
 					type: "item"
 				}
 				{
-					id: "59C7779E26310835"
+					id: "23DD1D3313CB234D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10329,7 +9932,7 @@
 					type: "item"
 				}
 				{
-					id: "3DF5F55CB1D32233"
+					id: "75E6211F7C08AA83"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10340,7 +9943,7 @@
 					type: "item"
 				}
 				{
-					id: "3EB88EE1CF5EA5D9"
+					id: "25CDAD70AB24D228"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10351,7 +9954,7 @@
 					type: "item"
 				}
 				{
-					id: "14B059A92A32D831"
+					id: "6C15DDA081248A23"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10362,7 +9965,7 @@
 					type: "item"
 				}
 				{
-					id: "5867A9A5A5CA8AEE"
+					id: "7EBE4EA58E11FD35"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10373,7 +9976,7 @@
 					type: "item"
 				}
 				{
-					id: "79A668717647D3A9"
+					id: "253FC5A08CA94618"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10384,7 +9987,7 @@
 					type: "item"
 				}
 				{
-					id: "5C702604EAE04ACA"
+					id: "41BB747359E1FBA2"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10395,7 +9998,7 @@
 					type: "item"
 				}
 				{
-					id: "1736690A5EDD88FB"
+					id: "7FE1C82A1D20E52E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10406,7 +10009,7 @@
 					type: "item"
 				}
 				{
-					id: "24646439ED0D58E2"
+					id: "7FB30036CE7DC18F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10589,16 +10192,16 @@
 		{
 			dependencies: ["5347D852E0B73AA6"]
 			disable_toast: true
-			id: "0F13D524741AA224"
+			id: "706CA5A7C1A0B44A"
 			rewards: [
 				{
-					id: "4C0A6BBC67C65416"
+					id: "27F770251FAE63D5"
 					type: "xp"
 					xp: 5000
 				}
 				{
 					count: 320
-					id: "4DBBE5414CA903CE"
+					id: "7CE786CE8CC4B738"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10610,7 +10213,7 @@
 				}
 				{
 					count: 64
-					id: "40ABF77F3916D750"
+					id: "09D25EC8F027BB44"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10622,7 +10225,7 @@
 				}
 				{
 					count: 64
-					id: "7A1D8034C9D00E58"
+					id: "77A855715FCD577B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10633,7 +10236,7 @@
 					type: "item"
 				}
 				{
-					id: "59AA18101BE4EE11"
+					id: "58BEE816D53670DA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10644,7 +10247,7 @@
 					type: "item"
 				}
 				{
-					id: "04D7BDEBE464F557"
+					id: "30EBA0444FC7598C"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10655,7 +10258,7 @@
 					type: "item"
 				}
 				{
-					id: "1D0302E417C8DF3B"
+					id: "303841307B962B5D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10671,7 +10274,7 @@
 			subtitle: "Grow all veggies."
 			tasks: [
 				{
-					id: "4ACEBDD5B1276FFB"
+					id: "1C8CFCB3C689F104"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10682,7 +10285,7 @@
 					type: "item"
 				}
 				{
-					id: "351894BBFC43FE6D"
+					id: "67C72721A934D1DA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10693,7 +10296,7 @@
 					type: "item"
 				}
 				{
-					id: "38E6524196680011"
+					id: "46F7F6A172BC5741"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10704,7 +10307,7 @@
 					type: "item"
 				}
 				{
-					id: "7D788E5EA1C5A01B"
+					id: "6446DFEC66904031"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10715,7 +10318,7 @@
 					type: "item"
 				}
 				{
-					id: "5F49756A7157749F"
+					id: "381768C53C9E6939"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10726,7 +10329,7 @@
 					type: "item"
 				}
 				{
-					id: "1E1B606F9CD35B9F"
+					id: "755B9466CD9F2DD8"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10737,7 +10340,7 @@
 					type: "item"
 				}
 				{
-					id: "149D39E2FA4B8423"
+					id: "73A81D07C006D3F6"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10748,7 +10351,7 @@
 					type: "item"
 				}
 				{
-					id: "311ABC11B38DDFF0"
+					id: "64FCFD2DB2CE8788"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10759,7 +10362,7 @@
 					type: "item"
 				}
 				{
-					id: "74B6BE29F06F8228"
+					id: "2816220102B8AA95"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10770,7 +10373,7 @@
 					type: "item"
 				}
 				{
-					id: "03378ADE1203D504"
+					id: "11B068A3262A5989"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10781,7 +10384,7 @@
 					type: "item"
 				}
 				{
-					id: "4F5DB793B1536EDB"
+					id: "003C264BED49804E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10792,7 +10395,7 @@
 					type: "item"
 				}
 				{
-					id: "0DBC2B98528C5DBB"
+					id: "77A47AC1E646401F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10803,7 +10406,7 @@
 					type: "item"
 				}
 				{
-					id: "285F5DE920C40E09"
+					id: "7693DD065B53993D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10814,7 +10417,7 @@
 					type: "item"
 				}
 				{
-					id: "576E3C4EE0738B0B"
+					id: "638ED593BBA94A14"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10825,7 +10428,7 @@
 					type: "item"
 				}
 				{
-					id: "7BD69F0D50B9BD09"
+					id: "3A06AE0505F6DBEE"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10836,7 +10439,7 @@
 					type: "item"
 				}
 				{
-					id: "14ED72948F9E184B"
+					id: "229A07FDB3DFD22F"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10847,7 +10450,7 @@
 					type: "item"
 				}
 				{
-					id: "411D5F6EF9B0220A"
+					id: "7F7FADD7881BCFAA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10858,7 +10461,7 @@
 					type: "item"
 				}
 				{
-					id: "461D398E5DAFF447"
+					id: "6784A0FA65F23238"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10869,7 +10472,7 @@
 					type: "item"
 				}
 				{
-					id: "108A4A770847AC39"
+					id: "5AF399808C54B384"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10880,7 +10483,7 @@
 					type: "item"
 				}
 				{
-					id: "607F33B8C9AE648C"
+					id: "3E48C1FF55877D10"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10891,7 +10494,7 @@
 					type: "item"
 				}
 				{
-					id: "5D049D7A91FEF91E"
+					id: "47A351F4EA6D7A22"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10902,7 +10505,7 @@
 					type: "item"
 				}
 				{
-					id: "1CDB8A314C9FA730"
+					id: "176AA759C2BD3D17"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10913,7 +10516,7 @@
 					type: "item"
 				}
 				{
-					id: "78F3B9896657F9D9"
+					id: "4256ECB0D883C9B4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10924,7 +10527,7 @@
 					type: "item"
 				}
 				{
-					id: "495A343E2D091505"
+					id: "76735837065E8E61"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10935,7 +10538,7 @@
 					type: "item"
 				}
 				{
-					id: "47B68BC3619807FD"
+					id: "15D79C2834AFBBCA"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10946,7 +10549,7 @@
 					type: "item"
 				}
 				{
-					id: "44521406DFB7A689"
+					id: "7511EE275F1888EF"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10957,7 +10560,7 @@
 					type: "item"
 				}
 				{
-					id: "0A4A274C4552BFAF"
+					id: "1483894945C8C473"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10968,7 +10571,7 @@
 					type: "item"
 				}
 				{
-					id: "401AA0F83FCAF71F"
+					id: "26CD030071A3C5E1"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10979,7 +10582,7 @@
 					type: "item"
 				}
 				{
-					id: "056579E7C207A232"
+					id: "63407E786EF37643"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -10990,7 +10593,7 @@
 					type: "item"
 				}
 				{
-					id: "28AF02F1C15E78B4"
+					id: "2B76EB8664D2CBCD"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -11001,7 +10604,7 @@
 					type: "item"
 				}
 				{
-					id: "453ED071511507D6"
+					id: "10C92B3E4F30B81B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -11012,7 +10615,7 @@
 					type: "item"
 				}
 				{
-					id: "6E59B654E6B6EEE7"
+					id: "18E679E43A01264A"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -11023,7 +10626,7 @@
 					type: "item"
 				}
 				{
-					id: "177F701F105A92BA"
+					id: "40A1AF378E7FBD0D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -11034,7 +10637,7 @@
 					type: "item"
 				}
 				{
-					id: "36DA6E93D258AF83"
+					id: "155112668E8D264B"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -11077,8 +10680,19 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6CD884F07D4850C9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:ancient_root"
+					}
+					type: "item"
+				}
 			]
-			title: "Bruh - Seasoned Vegetarian"
+			title: "Seasoned Vegetarian"
 			x: 15.375d
 			y: 17.25d
 		}

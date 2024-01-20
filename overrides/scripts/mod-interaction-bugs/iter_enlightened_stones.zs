@@ -4,7 +4,6 @@ import crafttweaker.api.entity.EntityType;
 import crafttweaker.api.entity.type.item.ItemEntity;
 import crafttweaker.api.loot.LootContextBuilder;
 import crafttweaker.api.loot.param.LootContextParams;
-import crafttweaker.api.loot.LootContext;
 import crafttweaker.api.item.ItemStack;
 import crafttweaker.api.util.math.Vec3;
 import crafttweaker.api.block.BlockState;
@@ -39,11 +38,12 @@ CTEventManager.register<BlockBreakEvent>((event) => {
   // build the loot table
   val lootTable = loot.tables.getTable(<resource:${block.lootTable}>);
   val origin = new Vec3(event.pos.x, event.pos.y, event.pos.z);
-  val builder = LootContextBuilder.create(event.getWorld())
+  val context = 
+  LootContextBuilder.create(event.getWorld())
   .withParameter<Vec3>(LootContextParams.origin(), origin)
   .withParameter<ItemStack>(LootContextParams.tool(), toolUsed)
-  .withParameter<BlockState>(LootContextParams.blockState(), event.getBlockState());
-  val context = builder.build(lootTable.paramSet);
+  .withParameter<BlockState>(LootContextParams.blockState(), event.getBlockState())
+  .build(lootTable.paramSet);
 
   // spawn the loot
   var rollTable = lootTable.getRandomItems(context);

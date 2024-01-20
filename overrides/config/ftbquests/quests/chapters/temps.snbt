@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "temps"
-	group: ""
+	group: "124DA5EC6A42A11D"
 	icon: "minecraft:barrier"
 	id: "2C7D4E108CF721D5"
-	order_index: 0
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -218,14 +218,22 @@
 			]
 			id: "7930E1E5F6FA73C1"
 			min_required_dependencies: 3
-			rewards: [{
-				auto: "invisible"
-				command: "gamestage add @s one"
-				id: "3C892DF619009F69"
-				player_command: true
-				silent: true
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s one"
+					id: "3C892DF619009F69"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					command: "tellraw @s [\"\",{\"text\":\"You feel the sudden urge to look in your quest book\",\"italic\":true}]"
+					id: "17C40D5624D5BC68"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "2338C24C40F92400"
 				item: {
@@ -1002,14 +1010,22 @@
 			]
 			id: "08B75FB792CB7704"
 			min_required_dependencies: 6
-			rewards: [{
-				auto: "invisible"
-				command: "gamestage add @s two"
-				id: "00C4609B8CD6A016"
-				player_command: true
-				silent: true
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s two"
+					id: "00C4609B8CD6A016"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					command: "tellraw @s [\"\",{\"text\":\"You feel the sudden urge to look in your quest book\",\"italic\":true}]"
+					id: "3CEBF9286328A262"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "1DD228926C92C77A"
 				item: {
@@ -1210,14 +1226,22 @@
 			]
 			id: "301C5436C1E55DAD"
 			min_required_dependencies: 9
-			rewards: [{
-				auto: "invisible"
-				command: "gamestage add @s three"
-				id: "73F936CC0077E514"
-				player_command: true
-				silent: true
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s three"
+					id: "73F936CC0077E514"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					command: "tellraw @s [\"\",{\"text\":\"You feel the sudden urge to look in your quest book\",\"italic\":true}]"
+					id: "1AE26A7DCB8A9BFC"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "0AD18D487A424979"
 				item: {
@@ -1418,14 +1442,22 @@
 			]
 			id: "422EFAD138D3A1DB"
 			min_required_dependencies: 12
-			rewards: [{
-				auto: "invisible"
-				command: "gamestage add @s four"
-				id: "1FA42241E805FA22"
-				player_command: true
-				silent: true
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s four"
+					id: "1FA42241E805FA22"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					command: "tellraw @s [\"\",{\"text\":\"You feel the sudden urge to look in your quest book\",\"italic\":true}]"
+					id: "68910FBA3134F53A"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "282D7B09F4EA9572"
 				item: {
@@ -1625,14 +1657,22 @@
 				"28ED7103917C560F"
 			]
 			id: "48602E78DFC281AF"
-			rewards: [{
-				auto: "invisible"
-				command: "gamestage add @s five"
-				id: "4805F867317F09D8"
-				player_command: true
-				silent: true
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "gamestage add @s five"
+					id: "4805F867317F09D8"
+					player_command: true
+					silent: true
+					type: "command"
+				}
+				{
+					command: "tellraw @s [\"\",{\"text\":\"You feel the sudden urge to look in your quest book\",\"italic\":true}]"
+					id: "52DA1CD0E9321AAF"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "020891BE57B4479A"
 				item: {
@@ -2080,9 +2120,28 @@
 					type: "command"
 				}
 				{
-					auto: "invisible"
 					command: "ftbquests change_progress @s reset 2C7D4E108CF721D5"
 					id: "032B2C9A927A0CB6"
+					player_command: true
+					type: "command"
+				}
+				{
+					command: "ftbquests change_progress @s reset 60BED89AB5908868"
+					id: "3B76F1BB08A6A6E8"
+					player_command: true
+					title: "Reset Important"
+					type: "command"
+				}
+				{
+					command: "ftbquests change_progress @s reset 1C888CDB8EF0A7FB"
+					id: "302F74E966CFA263"
+					player_command: true
+					title: "Reset Eyes"
+					type: "command"
+				}
+				{
+					command: "ftbquests change_progress @s reset 75DA3C44FB5FAC43"
+					id: "27216BECDD5258DE"
 					player_command: true
 					type: "command"
 				}
@@ -2124,25 +2183,27 @@
 			y: 7.0d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "ftbquests:book"
-			}
+			icon: "ftbquests:book"
 			id: "2EF26737C23ABDE2"
-			rewards: [{
-				id: "502851144930D88C"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "502851144930D88C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
 					}
-					id: "ftbquests:book"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					command: "tellraw @s [\"\",{\"text\":\"You feel the sudden urge to look in your quest book\",\"italic\":true}]"
+					id: "0A85440ECB26C724"
+					player_command: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "4B8152EF49B91B7B"
@@ -2150,6 +2211,24 @@
 			}]
 			x: -2.0d
 			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "333FFD7AF47E3DE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56C7AF20CE227749"
+				table_id: 6301296250022857809L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "friendsandfoes:iceologer"
+				id: "384E0A357991AC8A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 8.25d
 		}
 	]
 	title: "Flags"

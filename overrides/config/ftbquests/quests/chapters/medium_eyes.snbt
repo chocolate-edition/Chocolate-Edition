@@ -28,7 +28,27 @@
 				"3901079844A43EC1"
 				"4639E43A5B5C4F18"
 			]
-			description: [""]
+			description: [
+				"&4Requires Nether Access!&r"
+				""
+				"• Emu Feather - Dropped by &6Emus&r"
+				""
+				"• Mutant Skeleton Skull - Dropped by &4Mutant Skeletons&r"
+				""
+				"• Glowcoak - Dropped by &cGlowsquitos&r"
+				""
+				"• Roadrunner Feather - Dropped by &aRoadrunners&r"
+				""
+				"• Sombrero - Dopped by killing dancing &aCockroaches&r"
+				""
+				"• Tropical Stew - Crafted with &eCrab Meat&r, &eOnions&r, &eRice,&r and &eCoconut Slices&r"
+				""
+				"• Glowsilk - Dropped by breaking &eGlowsilk Cocoons&r"
+				""
+				"• Pocket of Sand - Crafted with &eGuster Eye&r (Dropped by &cGusters&r), &eLeather&r, and &eSand&r"
+				""
+				"• Gilded Eye - Crafted with 8 &eGold Ingots&r around an &eEye of Ender&r"
+			]
 			id: "0E2BD307EC9FDCE2"
 			min_width: 600
 			rewards: [
@@ -85,9 +105,55 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing a &4Mutant Skeleton&r - they spawn rarely at night or can be summoned by splashing a normal &cSkeleton&r with &eChemical X&r."
+				""
+				"The &eMutant Skeleton Skull&r &l&oIS NOT CONSUMMED&r during crafting "
+			]
 			id: "020C00ED08689F49"
+			rewards: [
+				{
+					id: "2FAFA60BEE8FB831"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "mutantmonsters:chemical_x"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50829D7A517663CB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "graveyard:bone_remains"
+					}
+					type: "item"
+				}
+				{
+					id: "62456382FCFBF06F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:staffofthe_summoner"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Mutant Skeleton Skull: Slay a mutant skeleton that rarely spawns at night, or can be summoned by applying chemical x to a normal skeleton. Not used during crafting."
+			subtitle: "Dropped by Mutant Skeletons"
 			tasks: [{
 				id: "670A5CD61AF54C95"
 				item: {
@@ -102,15 +168,57 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Mutant Skeleton Skull (Old Eye)"
 			x: 5.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing a &cGlowsquito&r - which spawn in the Quartz Flats, Glowstone Canyon, and Infernal Dunes biomes"
+				""
+				"&eGlowcoke&r can also be used to craft &eGlowlight Torchs&r and &eGlowlight Campfires&r"
+			]
 			id: "5D2FF35EF4B82FB5"
+			rewards: [
+				{
+					count: 32
+					id: "651D01051BA9EA7D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:glowcoal"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2F1CD8263740A7F7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "delightful:glow_jelly_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "755DFA16BF57D831"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "netherdepthsupgrade:glowdine_bucket"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Glow Coke: Go to the Quartz Flats/ Glowstone Canyon/ Infernal Dunes Biome and slay a glowsquito    "
+			subtitle: "Dropped by Glowsquitos"
 			tasks: [{
 				id: "75AC9CC5DD58D53B"
 				item: {
@@ -122,15 +230,49 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Glowcoke (Old Eye) "
 			x: 4.25d
 			y: 2.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by breaking a &eGlowsilk Cocoon&r - which gernerate in The Nether in biomes such as Crimson Forest, Basalt Deltas, and Glowstone Canyons."
+				""
+				"&eGlowsilk&r can also be crafted by using 4 &eGlowstone&r, 2 &eNetherite Scrap&r, 2 &eAmetrine Shards&r, and 1 &eString&r"
+				""
+				"The &eGlowsilk&r can also be used to repair your tools and armour, as well as to craft a &eGlowsilk Bow&r in a &eSmithing Table&r, which fires &eArrows&r naturally covered in moth dust that glow while they fly "
+			]
 			id: "0EDB0A43D58260CC"
+			rewards: [
+				{
+					id: "7B922B09C2225D3E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:glowsilk_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26B889846C0E77DA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:glowsilk_cocoon"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "- Glowsilk: Find a glow silk cocoon of a glowsilk moth. \"Their inert cocoons can be found in the same Y levels as ancient debris(from my testing maybe a few blocks higher like y=18), but also exposed to air, in multiple biomes (Crimson Forest, Basalt Deltas and Glowstone Canyon); which when broken drop silk. The silk can be used to repair your tools and armour. Use silk touch on a cocoon to make a Glowsilk Bow in a Smithing Table, capable of firing arrows naturally covered in Moth Dust that light up the trajectory they fly in.\""
+			subtitle: "Dropped by breaking Glowsilk Cocoons"
 			tasks: [{
 				id: "05D38192C51F7115"
 				item: {
@@ -142,15 +284,56 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Glowsilk (Old Eye) "
 			x: 5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by surrounding a &eGuster Eye&r with &eLeather&r and &eSand&r "
+				""
+				"The &ePocket of Sand&r can also be used as a projectile-based weapon"
+			]
 			id: "78ACEF95F5AC1A80"
+			rewards: [
+				{
+					id: "22FE1BE5B38C508A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:sandstorm_in_a_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "7279D3B27CEC00BC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:sandcastle"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2BAADBA348D8EE6F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:bacon_sandwich"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Pocket of sand: Surround a guster eye(from slaying a guster which spawns during desert sandstorms) with leather and sand."
+			subtitle: "Crafted with a Guster Eye, Leather, and Sand"
 			tasks: [{
 				id: "5F4604A930760F58"
 				item: {
@@ -165,15 +348,55 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Pocket of Sand (Old Eye)"
 			x: 6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by playing a &eMaraca&r while near &aCockroach&r and killing it while it dances. "]
 			id: "18C7095EA653E6A0"
+			rewards: [
+				{
+					id: "4746A1DF75DA29FA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:bug_pheromones"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D4ABCBF7728A9DC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:cockroach_ootheca"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "61CBD1CA24539769"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:cockroach_wing"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Sombrero: Slay a rattlesnake for its tail, craft a maraca and play it around a cockroach. Slay the cockroach while it dances to get a sombrero."
+			subtitle: "Dropped by Maraca-Enthralled-Cockroaches"
 			tasks: [{
 				id: "025A5D4FF16E48FC"
 				item: {
@@ -188,15 +411,47 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Sombrero (Old Eye)"
 			x: 3.25d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing a &aRoadrunner&r - which spawn in Deserts and Badlands."
+				""
+				"&eRoadrunner Feathers&r can also be used to craft &eFalconry Hoods&r - which let you controll tammed &aBald Eagles&r - as well as &eRoadrunner Boots&r - which allow you to run faster on &eSand&r"
+			]
 			id: "26D3D8E0CB67417A"
+			rewards: [
+				{
+					id: "25DB782C00AA6C66"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:roadrunner_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B92FB9C552A23EF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:speed_force"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Roadrunner Feather: Slay a roadrunner."
+			subtitle: "Dropped by Roadrunners"
 			tasks: [{
 				id: "1BEA95ED342C1EE7"
 				item: {
@@ -208,15 +463,77 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Roadrunner Feather (Old Eye) "
 			x: 3.5d
 			y: 1.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be Obtained by killing &6Emus&r - which are found in Savana and Badland biomes. &6Emus&r are known for their ability to dodge launch projectiles with blinding speed. "
+				""
+				"&eEmu Feathers&r can also be used to craft &eOutback Leggings&r - which gives the wearer a chance to dodge projectiles, just like an &6Emu&r - and a unique &eBanner Pattern&r"
+			]
 			id: "38EFD6D0A625817F"
+			rewards: [
+				{
+					id: "3E2219F9425EA7FC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:emu_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FA5C3733A3B62B2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "58522576AF035FA5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1CA69877D726935D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:boiled_emu_egg"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "- Emu: Slay an Emu."
+			subtitle: "Dropped by Emus"
 			tasks: [{
 				id: "15671B26E812B77A"
 				item: {
@@ -228,14 +545,41 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Emu Feather (Old Eye)"
 			x: 6.5d
 			y: 1.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by crafting and &eEye of Ender&r with 8 &eGold Ingots&r encircling it"]
 			id: "38AFF53FB7F892F5"
+			rewards: [
+				{
+					count: 16
+					id: "7191B699C8306DED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "041DAF32FC9E4507"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:cyclopseye"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
+			subtitle: "Craft a Eye of Ender with 8 Gold Ingots"
 			tasks: [{
 				id: "08CAC65FE757F230"
 				item: {
@@ -247,15 +591,51 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Gilded Eye (Old Eye)"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by placing &eCrab Meat&r or &eCrab Legs&r, &eRice,&r &eOnions,&r and &eCoconut Slices&r in a &eCooking pot&r"
+				""
+				"• Crab Meat/Crab Legs - Dropped by &aCrabs&r - which spawn in Beach Biomes"
+				""
+				"• Rice - Found by exploring the world"
+				""
+				"• Onions - Found by exploring the world, looks similar to &eAlliums&r "
+				""
+				"• Coconut Slices - Drop from coconut trees when fully grown "
+			]
 			id: "67C88BA22DD11E4E"
+			rewards: [
+				{
+					count: 32
+					id: "1E3F4684A1BC57B0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ecologics:tropical_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "4839F4EEF05B236A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:crab_bucket"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
-			subtitle: "- Tropical Stew: Cook in a cooking pot a crab leg(dropped from crabs that spawn on the beach), rice(found as rice panicles in the wild and grown via placing rice in shallow water), and onion(also found in the wild)."
+			subtitle: "Cook Crab, Rice, and Onions in a Cooking Pot"
 			tasks: [{
 				id: "088EBCFD1783C5D6"
 				item: {
@@ -267,15 +647,44 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Tropical Stew (Old Eye)"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item is obtained by killing a &cGuster&r - which spawns in Deserts - during a sandstorm."
+				""
+				"The &eGuster Eye&r can also be used to craft a &eGustmaker&r - your own personal sandstorm spawner. It can be used to move mobs, items, and even players!"
+			]
 			id: "2EFC3E90DCE495B9"
+			rewards: [
+				{
+					id: "341C16E2EAB7F21D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:gustmaker"
+					}
+					type: "item"
+				}
+				{
+					id: "4F2F49F3CFEBEB3A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:lever"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "Drops from a Guster"
+			subtitle: "Dropped by Gusters"
 			tasks: [{
 				id: "5F5E97A81F988850"
 				item: {
@@ -287,15 +696,30 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Guster Eye (Old Eye)"
 			x: 6.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by crafting &eSnake Rattle&r with &ePlanks&r and &eSticks&r. The &eSnake Rattle&r is dropped by &cRattle Snakes&r"]
 			id: "4C005CF6BE04173D"
+			rewards: [{
+				id: "2C241562416BBF1D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
-			subtitle: "Made from wood and a snake rattle"
+			subtitle: "Crafted with Planks and a Snake Rattle"
 			tasks: [{
 				id: "4A0567777B8BFF93"
 				item: {
@@ -307,7 +731,7 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Old Eye "
+			title: "Maraca (Old Eye)"
 			x: 2.5d
 			y: -1.75d
 		}
@@ -882,28 +1306,6 @@
 			]
 			id: "06C834D042C504DA"
 			rewards: [
-				{
-					id: "13DB710FE0C0B857"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [{
-									data: [{
-										id: "dungeons_gear:freezing"
-										lvl: 1s
-									}]
-									source: "dungeons_libraries:gear_config"
-								}]
-							}
-						}
-						id: "dungeons_gear:freezing_foil"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 				{
 					count: 3
 					id: "704FF971BD551ECE"
@@ -1697,7 +2099,7 @@
 			]
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "A flower found in the Frostbitten Forest"
+			subtitle: "A flower found in the Everbright"
 			tasks: [{
 				id: "49769B34E039514C"
 				item: {
@@ -1748,7 +2150,7 @@
 			]
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "A flower found in the Onorthodox Valley"
+			subtitle: "A flower found in the Everdawn"
 			tasks: [{
 				id: "2924934B45579E1F"
 				item: {
@@ -2119,10 +2521,23 @@
 			description: [
 				"&4Requires Nether Access&r"
 				""
-				"Requires Tetra Forge Access:"
+				"&8Requires Tetra Forge Access&r"
 				""
-				"Located by buying a map from a cartographer or by crafting a scanner out of a holosphere and following the noise when close."
-				"Forge ruins also have the machinery to get a Tier 5 Tetra hammer and craft the powerful Tetra tools. While not necessary after this, I recommend Tetra as it is fun to customize your vanilla weapons."
+				"• Bolt - Found in &eForged Crates&r"
+				""
+				"• Forged Steal - Mixed with &eSteal&r and &eResonant Alloy&r over a Super-Heated &eBlaze Burner&r"
+				""
+				"• Lodestone - Found in Bastions or Crafted"
+				""
+				"• Flex Mesh - Found in &eForged Crates&r"
+				""
+				"• 11 - Dropped when a &cSkeleton&r shoots a &cCreeper&r or bought in the shop"
+				""
+				"• Pigstep - Found in bastions or bought in the shop"
+				""
+				"• Endersoul - Dropped by &4Mutant Endermen&r"
+				""
+				"• Gilded Pearl - Craft a &eEye of Ender&r with 8 &eGold Ingots&r"
 			]
 			id: "1FF146E87C182DB5"
 			min_width: 600
@@ -2180,9 +2595,16 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained as loot from bastion bridges chests or it can be crafted with 8 &eChiseled Stone Bricks&r and 1 &eNetherite Ingot&r. "
+				""
+				"If right clicked with a &eCompass&r, the &eCompass&r will point towards the &eLodestone&r - very useful for navigation in The Nether "
+				""
+				"The &eLodestone&r &l&oIS NOT CONSUMMED&r during crafting "
+			]
 			id: "1A1D77C3D3BAA973"
 			shape: "gear"
-			subtitle: "- Lodestone: Found in bastion bridges chests, structures like some village houses or crafted with 8 chiseled brick and 1 netherite ingot. If right clicked with a compass, compass points toward it. Kept upon crafting."
+			subtitle: "Found in Bastions or Crafted"
 			tasks: [{
 				id: "7803045A85F3CCF2"
 				item: {
@@ -2194,16 +2616,27 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Lodestone (Cursed Eye)"
 			x: 20.7d
 			y: -2.4d
 		}
 		{
-			dependencies: ["3901079844A43EC1"]
-			description: [""]
+			dependencies: [
+				"3901079844A43EC1"
+				"4740C016E879290A"
+				"04AB9494494AA690"
+				"12C8E6C113027C9A"
+			]
+			description: [
+				"This item can be obtained by mixing &eSteel&r, &eResonant Alloy&r, and a little bit of &eLava&r over a Super-Heated &eBlaze Burner&r"
+				""
+				"You can get a Super-Head &eBlaze Burner&r by feeding it a &eBlaze Cake&r"
+				""
+				"You can also use &eForged Steel Ingots&r to craft Forged-related bocks."
+			]
 			id: "59A6F0198AD4895C"
 			shape: "gear"
-			subtitle: "- Forged Steel Ingot: Smelted from Resonant alloy."
+			subtitle: "Mixed with Steal and Resonant Alloy over a Super-Heated Blaze Burner"
 			tasks: [{
 				count: 2L
 				id: "20C712E9C05BF06F"
@@ -2216,15 +2649,27 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Forged Steal (Cursed Eye)"
 			x: 19.25d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained as loot found in bastions or be bought in the shop for 8 &eJade&r, &eRuby&r, &eOnyx&r, or &eAquamarine&r"]
 			id: "79568A0EE4526B24"
+			rewards: [{
+				id: "4571E4A0A7A5C45B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "sophisticatedbackpacks:jukebox_upgrade"
+				}
+				type: "item"
+			}]
 			shape: "pentagon"
-			subtitle: "- Pigstep Disc: Found in bastions."
+			subtitle: "Found in bastions or bought in the shop"
 			tasks: [{
 				id: "1802DA007F98FA6D"
 				item: {
@@ -2236,15 +2681,27 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Pigstep (Cursed Eye)"
 			x: 19.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained when a &cSkeleton&r shoots and kills a &cCreeper&r or be bought in the shop for 1 &eJade&r, &eRuby&r, &eOnyx&r, or &eAquamarine&r"]
 			id: "2D806ACAE4E200E5"
+			rewards: [{
+				id: "3C9243798E87F2AD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:jukebox"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- C418-11: Chance to be dropped when a skeleton shoots a creeper dead."
+			subtitle: "Dropped when a Skeleton shoots a Creeper or bought in the shop"
 			tasks: [{
 				id: "6EEE4E943A3B651E"
 				item: {
@@ -2256,16 +2713,59 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "11 (Cursed Eye)"
 			x: 21.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &4Mutant Endermen&r, which rarely spawns at night. You can also summon them by using &eChemical X&r on a regular &cEnderman&r. "
+				""
+				"The &eEndersoul Hand&r can be used to pick up and throw blocks, as well as teleport vast distances"
+				""
+				"The &eEndersoul Hand&r &l&oIS NOT CONSUMMED&r during crafting "
+			]
 			id: "1C04909A51F2FB64"
+			rewards: [
+				{
+					id: "2CBBB422B5AD72D5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "supplementaries:enderman_head"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "41380E3FB8B82D8A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2B762355A97385AE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:ender_pouch"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.2d
-			subtitle: "- Endersoul Hand: Dropped from mutant enderman, which rarely spawns at night, or by using chemical X on a regular enderman. Kept on crafting."
+			subtitle: "Dropped by Mutant Enderman"
 			tasks: [{
 				id: "7F4D7571938C458C"
 				item: {
@@ -2280,16 +2780,29 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Endersoul Hand (Cursed Eye)"
 			x: 20.0d
 			y: 2.6999999999999997d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by crafting and &eEye of Ender&r with 8 &eGold Ingots&r encircling it"]
 			id: "1F4C67597B974429"
+			rewards: [{
+				count: 4
+				id: "5EE45B216DBFA4DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:gold_block"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "- Gilded Pearl: Craft an eye of ender with 8 gold."
+			subtitle: "Craft a Eye of Ender with 8 Gold Ingots"
 			tasks: [{
 				id: "0E5B0262DE5ACF41"
 				item: {
@@ -2301,15 +2814,45 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Gilded Pearl (Cursed Eye)"
 			x: 20.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained as loot from &eForged Crates&r, which are found in Forge Ruins. Forge Ruins which can be found deep under ground in Cold or Mountainous biomes."
+				""
+				"&eFlex Mesh&r can also used in Tetra Smithing!"
+			]
 			id: "4745ADC9BFC65D1F"
+			rewards: [
+				{
+					id: "35F3D760B267B8D3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:mesh_door"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1A62E172C8F715A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:forged_mesh"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "- Flex Mesh: Found in forge ruins crates; also used for tetra smithing."
+			subtitle: "Found in Forged Crates"
 			tasks: [{
 				id: "315AA61699E6209D"
 				item: {
@@ -2321,15 +2864,45 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Flex Mesh (Cursed Eye)"
 			x: 21.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained as loot from &eForged Crates&r which is found in Forge Ruins. Forge Ruins can be found deep under ground in Cold or Mountainous biomes."
+				""
+				"&eBolts&r can also used in Tetra Smithing!"
+			]
 			id: "6A94387CF000274E"
+			rewards: [
+				{
+					id: "269FA7BAD527FD5E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:headbolts"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6EA015E97E79A113"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:forged_bolt"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "- Bolt: Found in forge ruins crates; also used for tetra smithing."
+			subtitle: "Found in Forged Crates"
 			tasks: [{
 				id: "164E1FA63C8F20DE"
 				item: {
@@ -2341,105 +2914,33 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Cursed Eye"
+			title: "Bolt (Cursed Eye)"
 			x: 18.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			id: "77E2E80A44FA9FC7"
-			tasks: [{
-				id: "69925AAF2142F530"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "minecraft:netherite_ingot"
-				}
-				type: "item"
-			}]
-			title: "Used in Cursed Eye"
-			x: 21.75d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3901079844A43EC1"]
-			id: "26C5120628FD2ED7"
-			subtitle: "Discs puchased in shop: Discs can be purchased from these four gems in the shop."
-			tasks: [{
-				id: "3B4E0EAE256F46F1"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:ruby"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:aquamarine"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:onyx"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:jade"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "Used in Cursed Eye"
-			x: 21.75d
-			y: -4.25d
-		}
-		{
-			dependencies: ["3901079844A43EC1"]
-			id: "702C0DF7B78BB89C"
-			subtitle: "Roughly 20 Emeralds: Trade with a cartographer for maps to a forge ruin to get bolts/flex mesh/scraps."
-			tasks: [{
-				count: 20L
-				id: "3E436B4F13C2A311"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "minecraft:emerald"
-				}
-				type: "item"
-			}]
-			title: "Used in Cursed Eye"
-			x: 18.25d
-			y: -4.25d
-		}
-		{
-			dependencies: ["3901079844A43EC1"]
-			description: [""]
+			description: [
+				"This item can be obtained as loot from &eForged Crates&r or as a drop from &eForged Blocks&r - both are found in Forge Ruins, which can be found deep under ground in Cold or Mountainous biomes. It is one of the primary ingredients in making &eResonant Alloy&r"
+				""
+				"&eMetal Scrap&r can also be used to craft a new &eHolosphere&r and Tetra Smithing"
+			]
 			id: "628C3C324A0B135B"
-			subtitle: "Found as loot in Tetra forge ruins."
+			rewards: [{
+				count: 16
+				id: "0E7C123E0292916F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:metal_scrap"
+				}
+				type: "item"
+			}]
+			subtitle: "Found in Forged Crates"
 			tasks: [{
+				count: 4L
 				id: "1685DFCC70071D64"
 				item: {
 					Count: 1b
@@ -2450,8 +2951,9 @@
 				}
 				type: "item"
 			}]
-			x: 18.25d
-			y: -3.0d
+			title: "Metal Scrap (Cursed Eye)"
+			x: 16.75d
+			y: -3.75d
 		}
 		{
 			dependencies: [
@@ -2466,7 +2968,25 @@
 				"5A9DA1D756B2174C"
 				"4639E43A5B5C4F18"
 			]
-			description: ["&cNeed Easy Raid Access in Multiple Biomes&r"]
+			description: [
+				"&cNeed Easy Raid Access in Multiple Biomes&r"
+				""
+				"• Totem of Undying - Dropped by &cEvokers&r"
+				""
+				"• Bag of Spoils, Spellbound Book, or Totem of Banishment - Dropped by &4Freakagers&r, &4Magispellers&r, or &4Spiritcallers&r"
+				""
+				"• Totem of Illusions - Dropped by &cIllusioners&r"
+				""
+				"• Mage Robes - Dropped by &cMages&r"
+				""
+				"• Iceologer Robes - Dropped by &cIceologers&r"
+				""
+				"• Geomancer Robes - Dropped by &cGeomancers&r"
+				""
+				"• Windcaller Robes - Dropped by &cWindcallers&r"
+				""
+				"• Necromancer Staff - Dropped from &cNecromancers&r or crafted"
+			]
 			id: "5D51C23DB0D0DF94"
 			min_width: 600
 			rewards: [
@@ -2515,6 +3035,18 @@
 					}
 					type: "item"
 				}
+				{
+					count: 10
+					id: "4964E286B78FEDD3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
 			]
 			size: 2.5d
 			subtitle: "\"The Eye of Strange Sorcery\""
@@ -2537,121 +3069,652 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item is obtained by killing &cGeomancers&r, which spawn in raids that occur in Savana biomes. They are also know to guard some rooms in Strongholds"]
 			id: "3386F8BCC804078B"
+			rewards: [
+				{
+					id: "7648685C35D359EB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:geomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C92E120ECD1B271"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:geomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ECA45B8E709A400"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "dungeons_mobs:geomancer_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			subtitle: "- Geomancer beads: Dropped from geomancers, illagers that roam the savanna or spawn in raids, or crafted from other geomancer drops with amethyst and necronium."
+			subtitle: "Dropped by Geomancers"
 			tasks: [{
-				id: "7E79F73C13B2EF8D"
+				id: "30FE6D58CCEFF5BA"
 				item: {
 					Count: 1b
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [{
-								data: [ ]
-								source: "dungeons_libraries:gear_config"
-							}]
-						}
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "dungeons_mobs:geomancer_helmet"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:geomancer_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:geomancer_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "dungeons_mobs:geomancer_staff"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Geomancer Robes (Magical Eye)"
 			x: 26.25d
 			y: -3.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by killing &cWindcallers&r, which spawn in raids that occur in Meadow biomes"]
 			id: "3742FEB8EAC00B28"
+			rewards: [
+				{
+					id: "2C70217C2F5A86D6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:windcaller_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EE1156BCB927F11"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:windcaller_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "590A88DD7815F822"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "dungeons_mobs:windcaller_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			subtitle: "- Windcaller robes: Dropped from windcallers, illagers that spawn in plains/mountain raids or crafted from other windcaller drops with amethyst and necronium."
+			subtitle: "Dropped by Windcallers"
 			tasks: [{
-				id: "44B277FE87FBC1C5"
+				id: "0E319A32FFDB590B"
 				item: {
 					Count: 1b
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [{
-								data: [ ]
-								source: "dungeons_libraries:gear_config"
-							}]
-						}
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "dungeons_mobs:windcaller_chestplate"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:windcaller_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:windcaller_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "dungeons_mobs:windcaller_staff"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Windcaller Robes (Magical Eye)"
 			x: 23.75d
 			y: -3.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by killing &cMages&r, which spawn in raids"]
 			id: "52BB8B9AA1148EDB"
+			rewards: [
+				{
+					id: "256BC4CA73AEFBF5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61666E8073899E59"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:mage_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0260B89FD95E15A2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52860A71F20E02DB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			subtitle: "- Mage robe: Dropped from mages, illagers that spawn in raids or crafted from other mage drops with amethyst and necronium."
+			subtitle: "Dropped by Mages"
 			tasks: [{
-				id: "331B1C27E2387914"
+				id: "263D407A5C3441DC"
 				item: {
 					Count: 1b
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [{
-								data: [ ]
-								source: "dungeons_libraries:gear_config"
-							}]
-						}
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "dungeons_mobs:mage_chestplate"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:mage_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:mage_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:mage_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:mage_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Mage Robes (Magical Eye)"
 			x: 26.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: ["This item can be obtained by killing &cIceologers&r, which spawn in raids that occur in Cold biomes"]
 			id: "3A662BA51CA58EA0"
+			rewards: [
+				{
+					id: "1163FD21970853B3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:iceologer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "094238D8C66689BF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:iceologer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7442B54F5D5A6B2E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:iceologer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32AED36121AAD912"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:iceologer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			subtitle: "- Iceologer cloak: Dropped from iceologers, illagers that spawn in cold biome raids or crafted from other iceologer drops with amethyst and necronium."
+			subtitle: "Dropped by Iceologers"
 			tasks: [{
-				id: "569A3C63AA16158D"
+				id: "71E0DFBF015E0827"
 				item: {
 					Count: 1b
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [{
-								data: [ ]
-								source: "dungeons_libraries:gear_config"
-							}]
-						}
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "dungeons_mobs:iceologer_chestplate"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:iceologer_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:iceologer_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:iceologer_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [{
+											data: [ ]
+											source: "dungeons_libraries:gear_config"
+										}]
+									}
+								}
+								id: "dungeons_mobs:iceologer_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Iceologer Robes (Magical Eye)"
 			x: 23.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &4Necromancers&r, an undead minibosses that spawn at night."
+				""
+				""
+				"The &eNecromancer Staff&r can also be crafted from other &4Necromancers&r drops, &eOrb of the Summoner&r, and &eBone Handle&r, &eNecronium&r."
+			]
 			id: "4CFFF31F1921587F"
+			rewards: [
+				{
+					id: "1989EF08693991B1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:necromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66922E7998A389CC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:necromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C2309BE250B6307"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+						id: "dungeons_mobs:necromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "719DBA0BEB689D94"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "dungeons_mobs:necromancer_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			subtitle: "- Necromancer staff: Dropped from necromancers, undead minibosses that spawn at night or are crafted from other necromancer drops with an orb of the summoner and bone handle (both dropped from other night mobs) and necronium."
+			subtitle: "Dropped from Necromancers or crafted"
 			tasks: [{
 				id: "26129FB62761B3B0"
 				item: {
@@ -2666,64 +3729,129 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Necromancer Staff (Magical Eye)"
 			x: 25.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"All of these items can be obtained by defeating a raid and killing the final boss"
+				""
+				"• Bag of Spoils - Obtained by killing &4Freakager&r"
+				""
+				"• Totem of Banishment - Obtained by killing &4Magispeller&r"
+				""
+				"• Spellbound Book - Obtained by killing &4Spiritcaller&r"
+				""
+				"&o*These bosses don't spawn natually on servers, we're currently working on a fix! We recomend using /summon or giving yourself the item for the time being. Sorry for the inconvenience! &r"
+			]
 			id: "5A9DA1D756B2174C"
-			optional: true
-			shape: "rsquare"
-			size: 1.2d
-			subtitle: "- Boss item:Bag of spoils(freakager), Totem of banishment(Magispeller) and Spellbound Book(Spiritcaller) are all boss drops from illagers that can be fought at the end of a late raid wave. These bosses are quite hard and require research and prep beforehand. Not used upon crafting."
-			tasks: [
+			rewards: [
 				{
-					id: "02CB7C0F54B82F15"
+					count: 5
+					id: "44BF0E196B1F13C9"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "illageandspillage:bag_of_horrors"
+						id: "majruszsdifficulty:pillager_treasure_bag"
 					}
 					type: "item"
 				}
 				{
-					id: "761AA3EA7258030C"
+					id: "5D25C27B689BAB87"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "illageandspillage:totem_of_banishment"
+						id: "nameless_trinkets:fate_emerald"
 					}
 					type: "item"
 				}
 				{
-					id: "7BF0FEBA4C60CDF3"
+					count: 5
+					id: "2F06456C8378F10E"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "illageandspillage:spellbound_book"
-						tag: {
-							Damage: 0
-						}
+						id: "minecraft:emerald_block"
 					}
 					type: "item"
 				}
 			]
-			title: "Used in Magical Eye"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "Defeat a raid and kill the final boss"
+			tasks: [{
+				id: "03FF78BC0ADE6203"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "blue_skies:bag_of_spoils"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "illageandspillage:totem_of_banishment"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "illageandspillage:spellbound_book"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Raid Conqueror (Magical Eye)"
 			x: 25.0d
 			y: 2.4d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &cEvokers&r. &eTotems of Undying&r can also be found in Illager Structures, such as Woodland Mansions, which are found in Dark Forest biomes. "
+				""
+				"&eTotems of Undying&r, when held, can prevent lethal damage, providing you with Regeneration and Absorption"
+			]
 			id: "0BAD152A36BB7BB3"
+			rewards: [{
+				count: 3
+				id: "3AB8022FB4380F25"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Totem of undying: Drops from evokers, illagers that spawn in raids, some illager structures  or rare woodland mansions in dark forest biomes as their home."
+			subtitle: "Dropped by Evokers"
 			tasks: [{
 				id: "31EB9AAA92CC7E98"
 				item: {
@@ -2735,15 +3863,32 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Totem of Undying (Magical Eye)"
 			x: 23.75d
 			y: 1.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
+			description: [
+				"This item can be obtained by killing &cIllusioners&r, which spawn in raids, Illager Structures, and huts in forests."
+				""
+				"When holding a &eTotems of Illusion&r, upon taking lethal damage, you are teleported away and multiple illusions of you are created to confuse your foes"
+			]
 			id: "4DCEBB3481F829EA"
+			rewards: [{
+				count: 3
+				id: "1E77DAD7E36BFE1F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "friendsandfoes:totem_of_illusion"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "- Totem of Illusion:Dropped from illusioners, illagers that spawn in raids, illager structures or huts in forests."
+			subtitle: "Dropped by Illusioners"
 			tasks: [{
 				id: "56A9BA6C25D082FA"
 				item: {
@@ -2755,47 +3900,112 @@
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
+			title: "Totem of Illusion (Magical Eye)"
 			x: 26.25d
 			y: 1.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			id: "2B92FBB04AABB9DD"
-			subtitle: "Transmute gold in a soul forge"
-			tasks: [{
-				id: "1A1D1DB97A562CD9"
+			description: [
+				"This item can be obtained by mixing 2 &eIron Ingot&r, &eVentium Ingot&r, or &eGobsteel Scrap&r with 2 &eCoal&r over a heated &eBlaze Burner&r"
+				""
+				"&eSteel&r is also a crucial component in crafting &eSamurai Armor &r"
+			]
+			id: "04AB9494494AA690"
+			rewards: [{
+				count: 12
+				id: "0BF6E3D56E128B31"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "nourished_nether:necronium_ingot"
+					id: "epicsamurai:steel_ingot"
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
-			x: 24.5d
-			y: -4.75d
+			subtitle: "Mix Iron and Coal over a heated Blaze Burner"
+			tasks: [{
+				count: 6L
+				id: "48DC15E5E39CC17F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "epicsamurai:steel_ingot"
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			id: "5AC9DBC00FA39698"
-			subtitle: "Use a hoe on Rich Soul Sludge to aquire Soul Quartz"
-			tasks: [{
-				id: "6940CAAFD68027B6"
+			description: [
+				"This item can be obtained by spouting &eLava&r into a &eBlaze Cake Base&r, which can be crafted with &eEgg&r, &eSugar&r, and &eCinder Flour&r."
+				""
+				"&eBlaze Cakes&r can be used on a &eBlaze Burner&r to give them the Super-Heated state, which provides the most heat and lasts the longest"
+			]
+			id: "4740C016E879290A"
+			rewards: [{
+				count: 3
+				id: "08D1427606196E1B"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "nourished_nether:soul_forge"
+					id: "create:blaze_cake"
 				}
 				type: "item"
 			}]
-			title: "Used in Magical Eye"
-			x: 25.5d
+			subtitle: "Lava poured into a Cake Base"
+			tasks: [{
+				id: "52AAA0AEEB3F65A7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:blaze_cake"
+				}
+				type: "item"
+			}]
+			x: 18.5d
 			y: -4.75d
+		}
+		{
+			dependencies: ["628C3C324A0B135B"]
+			description: ["This item can be obtained by crafting 4 &eMetal Scaps&r, 2 &eNetherite Scraps&r, and 2 &eIron Ingots&r together"]
+			id: "12C8E6C113027C9A"
+			rewards: [{
+				count: 4
+				id: "53A864739AF5CE90"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "art_of_forging:resonant_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "0F46578601DEF155"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "art_of_forging:resonant_alloy"
+				}
+				optional_task: true
+				type: "item"
+			}]
+			x: 17.75d
+			y: -3.25d
 		}
 	]
 	title: "&6Medium Eyes"
