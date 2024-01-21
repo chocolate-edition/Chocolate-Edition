@@ -8,7 +8,7 @@
   {
     "mob": ["dungeons_mobs:blastling", "dungeons_mobs:watchling", "dungeons_mobs:snareling", "endermanoverhaul:end_enderman"],
     "dimension":"minecraft:the_end",
-    "random": 0.80,
+    "random": 0.50,
     "onjoin": true,
     "result": "deny"
   }
