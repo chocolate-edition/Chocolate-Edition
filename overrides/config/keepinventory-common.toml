@@ -1,0 +1,23 @@
+#Mod functionality enabled.
+modEnabled = true
+#Keep player experience after death.
+keepExperience = false
+#Keep player score after death.
+keepScore = true
+#Keep player hunger after death.
+keepHunger = false
+#Keep player saturation after death.
+keepSaturation = false
+#Keep player potion effects after death.
+keepPotionEffects = true
+#A list of slots ids for keep inventory.
+keepedSlots = [0, 1, 2, 3, 4, 5, 6, 7, 8, 36, 37, 38, 39, 40, 45, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 41, 42, 43, 44]
+#Modifier that would be multiplied by your previous experience amount.
+keepedExperienceModifier = 1.0
+#Modifier that would be multiplied by your previous hunger amount.
+keepedHungerModifier = 1.0
+#Minumal value of hunger after your death, to prevent spawn with empty hunger bar.
+keepedHungerMinLimit = 1
+#Modifier that would be multiplied by your previous saturation amount.
+keepedSaturationModifier = 1.0
+

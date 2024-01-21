@@ -775,20 +775,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "7CDDC3EE6410A56D"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "dungeons_gear:fireworks_display"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -2613,20 +2599,6 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "cataclysm:abyssal_sacrifice"
-					}
-					type: "item"
-				}
-				{
-					id: "1C63C3647C1993DF"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "dungeons_gear:eye_of_the_guardian"
-						tag: {
-							Damage: 0
-						}
 					}
 					type: "item"
 				}

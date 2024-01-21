@@ -2067,17 +2067,6 @@
 					type: "item"
 				}
 				{
-					id: "69BEC50769CFAD67"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:miners_soul"
-					}
-					type: "item"
-				}
-				{
 					count: 16
 					id: "4B1C462843E8B872"
 					item: {
@@ -3370,18 +3359,6 @@
 			id: "375A0FBACF8C89BA"
 			rewards: [
 				{
-					count: 3
-					id: "3B2E25291861E942"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:wither_skeleton_skull"
-					}
-					type: "item"
-				}
-				{
 					id: "237F9A61549B1E58"
 					item: {
 						Count: 1b
@@ -3389,6 +3366,17 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "netherdepthsupgrade:wither_bonefish_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "667222B6C299C2BC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_ingot"
 					}
 					type: "item"
 				}
@@ -3915,17 +3903,30 @@
 				"The &eVoid Worm Eye&r is also used for Tetra Smithng, as well as The &eDimensional Carvers&r, &owhich will be needed later in your adventure...&r"
 			]
 			id: "5E52473F6313BBE2"
-			rewards: [{
-				id: "2B06663D65D219C0"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "4E805D331C42EDF9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:void_worm_effigy"
 					}
-					id: "alexsmobs:void_worm_eye"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1773AAAD44DD8FC0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:void_worm_eye"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "Dropped by Void Worms"
 			tasks: [{
@@ -4387,17 +4388,6 @@
 			id: "27A8FCC193076FD2"
 			rewards: [
 				{
-					id: "1B5DC471E4CE5A75"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "majruszsdifficulty:ender_dragon_treasure_bag"
-					}
-					type: "item"
-				}
-				{
 					id: "4BCAFF130564DE79"
 					item: {
 						Count: 1b
@@ -4405,6 +4395,24 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "simplehats:dragonskullender"
+					}
+					type: "item"
+				}
+				{
+					id: "79FCB45E79872F17"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:end"
+								HatchTime: 12000
+							}
+							ItemName: "dragon_breed.dragonmounts.end"
+						}
 					}
 					type: "item"
 				}
