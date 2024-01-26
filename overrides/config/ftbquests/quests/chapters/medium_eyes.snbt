@@ -3736,13 +3736,13 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"All of these items can be obtained by defending a Village from a raid. Killing multiple &cPillager Captians&r will lead to increasing levels of Bad Omen."
+				"All of these items can be obtained by defending a Village from a raid. Killing multiple &cPillager Captians&r will lead to increasing levels of Bad Omen, the highest being Bad Omen V."
 				""
 				"• Bag of Spoils - Obtained by killing &4Freakager&r, which spawns at wave 4 of a raid"
 				""
 				"• Spellbound Book - Obtained by killing &4Spiritcaller&r, which spawns at wave 4 of a raid"
 				""
-				"• Totem of Banishment - Obtained by killing &4Magispeller&r, which spawns at wave 7 of a raid"
+				"• Totem of Banishment - Obtained by killing &4Magispeller&r, which spawns during the bonus wave at the end of the hardest raid"
 				""
 				"&o*These bosses don't spawn natually on servers, we're currently working on a fix! We recomend using /summon or giving yourself the item for the time being. Sorry for the inconvenience! &r"
 			]
