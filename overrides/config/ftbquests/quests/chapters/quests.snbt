@@ -113,7 +113,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3CDA54EA9B8F9A79"]
+			dependencies: ["71D5D14225BEDA71"]
 			disable_toast: true
 			id: "467BDC2B72D7E7E4"
 			rewards: [
@@ -272,7 +272,7 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["3CDA54EA9B8F9A79"]
+			dependencies: ["71D5D14225BEDA71"]
 			disable_toast: true
 			id: "6B6DF9C38DC1754E"
 			rewards: [
@@ -395,7 +395,7 @@
 			y: -2.75d
 		}
 		{
-			dependencies: ["3CDA54EA9B8F9A79"]
+			dependencies: ["71D5D14225BEDA71"]
 			disable_toast: true
 			id: "557EE6DF8725BBCA"
 			rewards: [
@@ -919,7 +919,7 @@
 			y: -11.25d
 		}
 		{
-			dependencies: ["3CDA54EA9B8F9A79"]
+			dependencies: ["71D5D14225BEDA71"]
 			disable_toast: true
 			id: "1979B7FA17AE77DF"
 			rewards: [
@@ -1254,7 +1254,7 @@
 			y: -6.75d
 		}
 		{
-			dependencies: ["3CDA54EA9B8F9A79"]
+			dependencies: ["71D5D14225BEDA71"]
 			disable_toast: true
 			id: "1BD11A71CF98AFAA"
 			rewards: [
@@ -1326,7 +1326,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["3CDA54EA9B8F9A79"]
+			dependencies: ["71D5D14225BEDA71"]
 			disable_toast: true
 			id: "14B3781FB1440BDC"
 			rewards: [
@@ -1473,7 +1473,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["3CDA54EA9B8F9A79"]
+			dependencies: ["71D5D14225BEDA71"]
 			disable_toast: true
 			id: "4493E838D006D43E"
 			rewards: [
@@ -1568,7 +1568,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["3CDA54EA9B8F9A79"]
+			dependencies: ["71D5D14225BEDA71"]
 			id: "5EA788C59623665A"
 			rewards: [
 				{
@@ -1667,7 +1667,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["587E6366CEA64AA2"]
+			dependencies: ["79B0AD571605A5CB"]
 			disable_toast: true
 			icon: "enigmaticlegacy:lore_inscriber"
 			id: "341D3B7B00475835"
@@ -1908,7 +1908,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["587E6366CEA64AA2"]
+			dependencies: ["79B0AD571605A5CB"]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -2089,7 +2089,7 @@
 			y: -1.7999999999999998d
 		}
 		{
-			dependencies: ["587E6366CEA64AA2"]
+			dependencies: ["79B0AD571605A5CB"]
 			disable_toast: true
 			icon: "iter_rpg:generic_dungeon_gen_block"
 			id: "7F47D09B99EC0661"
@@ -2156,7 +2156,7 @@
 			y: -2.75d
 		}
 		{
-			dependencies: ["587E6366CEA64AA2"]
+			dependencies: ["79B0AD571605A5CB"]
 			disable_toast: true
 			icon: "farmersdelight:nether_salad"
 			id: "5F469B7758E3C0C5"
@@ -2281,7 +2281,7 @@
 			y: -6.25d
 		}
 		{
-			dependencies: ["587E6366CEA64AA2"]
+			dependencies: ["79B0AD571605A5CB"]
 			id: "1D7B66910DFABB14"
 			rewards: [
 				{
@@ -3127,7 +3127,7 @@
 			y: -5.25d
 		}
 		{
-			dependencies: ["587E6366CEA64AA2"]
+			dependencies: ["79B0AD571605A5CB"]
 			id: "1573D9BDECE246A3"
 			rewards: [
 				{
@@ -3334,7 +3334,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["7C7427D7E73540BE"]
+			dependencies: ["7E8695E0C2C6CBA2"]
 			disable_toast: true
 			id: "2C2AFB44C0D388C2"
 			rewards: [
@@ -3860,7 +3860,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["7C7427D7E73540BE"]
+			dependencies: ["7E8695E0C2C6CBA2"]
 			disable_toast: true
 			id: "110CD572C20D4635"
 			rewards: [
@@ -4164,7 +4164,7 @@
 			y: 5.7d
 		}
 		{
-			dependencies: ["7C7427D7E73540BE"]
+			dependencies: ["7E8695E0C2C6CBA2"]
 			disable_toast: true
 			id: "7AB63D33128D0A66"
 			rewards: [
@@ -4351,7 +4351,7 @@
 			y: 7.199999999999999d
 		}
 		{
-			dependencies: ["7C7427D7E73540BE"]
+			dependencies: ["7E8695E0C2C6CBA2"]
 			disable_toast: true
 			id: "0DDEBCA861304C8F"
 			rewards: [
@@ -4464,7 +4464,7 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["7C7427D7E73540BE"]
+			dependencies: ["7E8695E0C2C6CBA2"]
 			id: "5DFA66357B0CEE73"
 			rewards: [
 				{
@@ -4831,7 +4831,7 @@
 			y: 4.75d
 		}
 		{
-			dependencies: ["7C7427D7E73540BE"]
+			dependencies: ["7E8695E0C2C6CBA2"]
 			disable_toast: true
 			id: "43FE055791C9C72D"
 			rewards: [
@@ -5101,7 +5101,7 @@
 			y: 6.75d
 		}
 		{
-			dependencies: ["4D041F90B8B6F99A"]
+			dependencies: ["61E16D51DFCD1B04"]
 			disable_toast: true
 			id: "7271A4B4E9DACFA4"
 			rewards: [
@@ -5264,7 +5264,6 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["7CFCF3BA7E2B325C"]
 			disable_toast: true
 			icon: "minecraft:ender_chest"
 			id: "61E16D51DFCD1B04"
@@ -5275,7 +5274,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["4D041F90B8B6F99A"]
+			dependencies: ["61E16D51DFCD1B04"]
 			disable_toast: true
 			id: "1DC36E07D876B48E"
 			optional: true
@@ -5902,7 +5901,7 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["4D041F90B8B6F99A"]
+			dependencies: ["61E16D51DFCD1B04"]
 			disable_toast: true
 			id: "6BB3D8CC55EC10B8"
 			rewards: [
@@ -5910,20 +5909,6 @@
 					id: "10E7A19E7F460D11"
 					type: "xp"
 					xp: 1000
-				}
-				{
-					id: "64BEE86447CFFA34"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "finsandtails:gem_crab_amulet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
 				}
 				{
 					id: "3D42D1DD1D59CC89"
@@ -6126,7 +6111,7 @@
 			y: 17.25d
 		}
 		{
-			dependencies: ["4D041F90B8B6F99A"]
+			dependencies: ["61E16D51DFCD1B04"]
 			disable_toast: true
 			id: "5ACF8CBDEB4CD47E"
 			rewards: [
@@ -6290,7 +6275,7 @@
 			y: 19.75d
 		}
 		{
-			dependencies: ["4D041F90B8B6F99A"]
+			dependencies: ["61E16D51DFCD1B04"]
 			disable_toast: true
 			id: "67E2A55BD2547669"
 			rewards: [
@@ -6352,7 +6337,7 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["4D041F90B8B6F99A"]
+			dependencies: ["61E16D51DFCD1B04"]
 			disable_toast: true
 			id: "4EE7A20B1DE22E8D"
 			rewards: [
@@ -6486,7 +6471,7 @@
 			y: 20.25d
 		}
 		{
-			dependencies: ["4D041F90B8B6F99A"]
+			dependencies: ["61E16D51DFCD1B04"]
 			disable_toast: true
 			id: "4A12922DB8F45B26"
 			rewards: [
@@ -6731,7 +6716,7 @@
 			y: 17.25d
 		}
 		{
-			dependencies: ["4D041F90B8B6F99A"]
+			dependencies: ["61E16D51DFCD1B04"]
 			disable_toast: true
 			id: "0DAC3CAA22D1B939"
 			rewards: [
@@ -9490,28 +9475,6 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "bunchobugs:cooked_weevil_meat"
-					}
-					type: "item"
-				}
-				{
-					id: "7747B8FFC5914552"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:fried_maggot"
-					}
-					type: "item"
-				}
-				{
-					id: "55D405F9F68AF8C3"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:smoked_fish"
 					}
 					type: "item"
 				}

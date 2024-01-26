@@ -1,7 +1,7 @@
 #Do not add the dark mode toggle buttons to the top of every menu.
 hide_in_game_switcher = false
 #Print menu type to game chat whenever a new menu screen is opened. Intended for finding menu types to be added to "menu_blacklist".
-debug_container_types = true
+debug_container_types = false
 #Screens to add a dark mode toggle button to, so that toggling is possible outside of inventory menus.
 #Allowed Values: NONE, TITLE_SCREEN, PAUSE_SCREEN, BOTH
 dark_mode_toggle_screens = "PAUSE_SCREEN"

@@ -5785,7 +5785,7 @@
 				title: "Corrupted Champion"
 				type: "checkmark"
 			}]
-			title: "Lich"
+			title: "Corrupted Champion"
 			x: -32.25d
 			y: 15.5d
 		}
@@ -5909,10 +5909,10 @@
 			]
 			icon: {
 				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "cataclysm:items/mech_eye"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
 				}
+				id: "cataclysm:mech_eye"
 			}
 			id: "12E738DAC238B869"
 			subtitle: "Use a Nether Star on the dormant Harbinger in the underground Ancient Factory"
@@ -6637,6 +6637,24 @@
 			}]
 			x: 7.25d
 			y: 1.5d
+		}
+		{
+			dependencies: ["04E26EDFCE2638E2"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:desert_eye"
+			}
+			id: "4120CC71961EB29F"
+			tasks: [{
+				id: "56F029E7965F3D1C"
+				title: "Ancient Remnant"
+				type: "checkmark"
+			}]
+			x: -32.25d
+			y: 9.5d
 		}
 	]
 	title: "(Some Outdated)Optional Checklists"
