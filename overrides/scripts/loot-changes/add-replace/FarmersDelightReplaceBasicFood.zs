@@ -1,4 +1,5 @@
-    import crafttweaker.api.loot.modifier.CommonLootModifiers;
+/*
+import crafttweaker.api.loot.modifier.CommonLootModifiers;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.loot.condition.LootConditions;
 import crafttweaker.api.loot.condition.LootTableIdLootCondition;
@@ -135,3 +136,4 @@ loot.modifiers.register(
     }
 );
 
+*/

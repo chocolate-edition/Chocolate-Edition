@@ -195,7 +195,7 @@ key_key.spellstoneAbility:key.keyboard.k
 key_key.xpScroll:key.keyboard.j
 key_key.findme.search:key.keyboard.y
 key_key.ftbteams.open_gui:key.keyboard.unknown
-key_key.ftbquests.quests:key.keyboard.grave.accent
+key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbchunks.map:key.keyboard.right.bracket
 key_key.ftbchunks.claim_manager:key.keyboard.unknown
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
