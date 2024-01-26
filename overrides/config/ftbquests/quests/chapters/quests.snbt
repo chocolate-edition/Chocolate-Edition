@@ -9478,28 +9478,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "7747B8FFC5914552"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:fried_maggot"
-					}
-					type: "item"
-				}
-				{
-					id: "55D405F9F68AF8C3"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:smoked_fish"
-					}
-					type: "item"
-				}
 			]
 			title: "RAWR - It's not f***ing raw!"
 			x: 20.25d
