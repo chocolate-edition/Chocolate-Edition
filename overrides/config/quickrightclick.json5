@@ -1,6 +1,6 @@
 {
 	// If right-clicking beds in the air should enable the quick feature.
-	"enableQuickBeds": true,
+	"enableQuickBeds": false,
 	// If right-clicking cartography tables in the air should enable the quick feature.
 	"enableQuickCartographyTables": true,
 	// If right-clicking crafting tables in the air should enable the quick feature.

@@ -43,6 +43,15 @@
 			yellow_blossom = true
 			red_blossom = true
 
+		[types.leaves_type.atmospheric]
+			rosewood = true
+			morado = true
+			flowering_morado = true
+			yucca = true
+			kousa = true
+			aspen = true
+			grimwood = true
+
 	[types.wood_type]
 
 		[types.wood_type.blue_skies]
@@ -89,6 +98,27 @@
 			ancient = true
 			blossom = true
 
+		[types.wood_type.luphieclutteredmod]
+			luphie_flowering_pink = true
+			luphie_yellow = true
+			luphie_flowering_yellow = true
+			luphie_green = true
+			luphie_glow = true
+			luphie_purple = true
+			luphie_flowering_purple = true
+			luphie_pink = true
+
+		[types.wood_type.cataclysm]
+			chorus = true
+
+		[types.wood_type.atmospheric]
+			rosewood = true
+			morado = true
+			yucca = true
+			kousa = true
+			aspen = true
+			grimwood = true
+
 [entries]
 
 	[entries.leaves_type]
@@ -108,15 +138,6 @@
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
-
-		[entries.wood_type.another_furniture]
-			table = true
-			shelf = true
-			drawer = true
-			shutter = true
-			planter_box = true
-			bench = true
-			chair = true
 
 		[entries.wood_type.woodworks]
 			bookshelf = true
@@ -145,4 +166,13 @@
 			chest = true
 			stripped_post = true
 			ladder = true
+
+		[entries.wood_type.another_furniture]
+			shelf = true
+			shutter = true
+			planter_box = true
+			bench = true
+			table = true
+			drawer = true
+			chair = true
 

@@ -1,0 +1,1 @@
+craftingTable.addShapeless("ender_eye", <item:minecraft:ender_eye>, [<tag:items:forge:ender_pearls>, <item:minecraft:blaze_powder>])	;

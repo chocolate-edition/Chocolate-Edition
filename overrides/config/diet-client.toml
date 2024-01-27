@@ -2,7 +2,7 @@
 addButton = true
 #The x-position of the Diet GUI button in player inventories.
 #Range: -10000 ~ 10000
-buttonX = 126
+buttonX = 100
 #The y-position of the Diet GUI button in player inventories.
 #Range: -10000 ~ 10000
 buttonY = -22

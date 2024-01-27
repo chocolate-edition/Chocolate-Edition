@@ -1,0 +1,17 @@
+import crafttweaker.api.entity.attribute.AttributeOperation;
+
+<item:epicsamurai:diamond_samurai_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, AttributeIds.helmet, "Buff_Diamond_Samurai_Helmet", 3, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:epicsamurai:diamond_samurai_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, AttributeIds.chestplate, "Buff_Diamond_Samurai_Chest", 8, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:epicsamurai:diamond_samurai_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, AttributeIds.leggings, "Buff_Diamond_Samurai_Leggings", 6, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:epicsamurai:diamond_samurai_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, AttributeIds.boots, "Buff_Diamond_Samurai_Boots", 3, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+<item:epicsamurai:diamond_samurai_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, AttributeIds.helmet, "Buff_Diamond_Samurai_Helmet_Toughness", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:epicsamurai:diamond_samurai_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, AttributeIds.chestplate, "Buff_Diamond_Samurai_Chest_Toughness", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:epicsamurai:diamond_samurai_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, AttributeIds.leggings, "Buff_Diamond_Samurai_Leggins_Toughness", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:epicsamurai:diamond_samurai_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, AttributeIds.boots, "Buff_Diamond_Samurai_Boots_Toughness", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+<item:epicsamurai:diamond_samurai_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, AttributeIds.helmet, "Buff_Diamond_Samuraite_Helmet_resist", 0.05, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:epicsamurai:diamond_samurai_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, AttributeIds.chestplate, "Buff_Diamond_Samuraite_Chest_resist", 0.05, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:epicsamurai:diamond_samurai_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, AttributeIds.leggings, "Buff_Diamond_Samuraite_Leggings_resist", 0.05, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:epicsamurai:diamond_samurai_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, AttributeIds.boots, "Buff_Diamond_Samuraite_Helmet_resist", 0.05, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+ 

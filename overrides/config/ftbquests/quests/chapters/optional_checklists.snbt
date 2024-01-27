@@ -1,0 +1,6661 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "optional_checklists"
+	group: "75DA3C44FB5FAC43"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/check"
+		}
+	}
+	id: "5CE53EC3AF77DE93"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["55CC8B48AC4C34E4"]
+			disable_toast: true
+			icon: "minecraft:ender_eye"
+			id: "2E05AE019E817141"
+			subtitle: "Standard grade, tride and true pets [CLICK CHECKMARK TO EXPAND]"
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2E05AE019E817141"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "672BAB96369ACA26"
+			subtitle: "Basic mounts and minions [CLICK CHECKMARK TO EXPAND]"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["672BAB96369ACA26"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7E72695DAEA2D180"
+			subtitle: "Slightly more restricted/complicated to tame/use"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7E72695DAEA2D180"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1FB182033C4CDCEB"
+			subtitle: "More expensive/ Rarer pets/mounts"
+			x: 0.75d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1FB182033C4CDCEB"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7FA0B5DCA67E7021"
+			subtitle: "Extremely rare creatures"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7FA0B5DCA67E7021"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67A02EB5865E22EA"
+			x: 5.25d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"77962090906709F2"
+				"67A02EB5865E22EA"
+			]
+			icon: {
+				Count: 1b
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67EA11C49BCE075E"
+			tasks: [{
+				id: "552FDCBB92BFA4C3"
+				title: "16 eyes needed..."
+				type: "checkmark"
+			}]
+			x: 7.25d
+			y: -7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/wolf.png"
+				}
+			}
+			id: "52E02F7CE48BBC27"
+			subtitle: "Pet: Found in Taigas, Tamed with bone, healed with rotten flesh/meats. Attacks enemies, retreating at 20% health and scares off skeletons"
+			tasks: [{
+				id: "15B100BFE3DD411E"
+				title: "Dogs"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/cat.png"
+				}
+			}
+			id: "784C3F8B5CA2BED0"
+			subtitle: "Pet: Found in villages, Tamed/healed with raw fish. Gives you items if slept in your bed. Scares creepers"
+			tasks: [{
+				id: "18CFECE21A91B6FD"
+				title: "Cats"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/horse.png"
+				}
+			}
+			id: "6E587C989AD498CB"
+			subtitle: "Mount: Tamed by riding it with an empty hand until it likes you; saddle makes it move and horse armor can be applied and enchanted. Standard mount."
+			tasks: [{
+				id: "3B4F43ACEA64FFF1"
+				title: "Horse"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: 2.25d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/donkey.png"
+				}
+			}
+			id: "16B3B90C04EBB90E"
+			subtitle: "Mount: Slower than horse, donkeys found in plains as well, mules bred from a donkey and a horse and can be given a chest."
+			tasks: [{
+				id: "62010B3AE207C16C"
+				title: "Donkey/Mule"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: 0.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:textures/gui/journal/icons/crystal_camel.png"
+				}
+			}
+			id: "3502A8A202FC4C76"
+			tasks: [{
+				id: "1EDD30A38574C4EA"
+				title: "Crystal Camel"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "weavers_cosmetics:items/dragon_wings_icon_black"
+				}
+			}
+			id: "56AF701F1BC8539B"
+			tasks: [{
+				id: "1AE495F5C4139B4F"
+				title: "Dragon"
+				type: "checkmark"
+			}]
+			x: 5.25d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cataclysm:item/the_baby_leviathan_bucket"
+				}
+			}
+			id: "40F7E3CD8D37449B"
+			tasks: [{
+				id: "1CF5D56D17DA196F"
+				title: "Baby Leviathan"
+				type: "checkmark"
+			}]
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:textures/mob_effect/power_down.png"
+				}
+			}
+			id: "49D83C01CEA31D7A"
+			subtitle: "Summoned by the bone staff dropped from the Lich, it will only follow its conjurer. Use the staff to command it! And giving it a coffin might help your inventory managment."
+			tasks: [{
+				id: "53E3CAD76F269609"
+				title: "Ghouling"
+				type: "checkmark"
+			}]
+			x: 5.25d
+			y: 3.0d
+		}
+		{
+			icon: "cnb:end_whale_spawn_egg"
+			id: "3932DB6B76D3CABA"
+			subtitle: " These giants roam the void of the end, and can be tamed and ridden with chorus fruit and a saddle. But tamed whales won't follow you unless you're holding food. "
+			tasks: [{
+				id: "069AEFBD652EDFE5"
+				title: "End Whale"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/alexsmobs/spectre.png"
+				}
+			}
+			id: "256207CA4F7DC5F5"
+			tasks: [{
+				id: "3B544CB658A430B7"
+				title: "Spectre"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:textures/particle/dna_4.png"
+				}
+			}
+			id: "05B0FAB9F6DCA555"
+			tasks: [{
+				id: "57055BDAE35DFAE8"
+				title: "Endergrade"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/blaze.png"
+				}
+			}
+			id: "5AD35EF067CE898E"
+			tasks: [{
+				id: "2E0D65B6EE0F683F"
+				title: "Rodling"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			icon: "alexsmobs:straddle_saddle"
+			id: "25FF223D7C9C08F1"
+			tasks: [{
+				id: "5668B25C4985E805"
+				title: "Laviathan"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "alexsmobs:straddleboard"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E027F11EA08718D"
+			tasks: [{
+				id: "6A3B252F41EF9B67"
+				title: "Straddleboard"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/alexsmobs/elephant.png"
+				}
+			}
+			id: "269FEC949B24583D"
+			tasks: [{
+				id: "515D1CDC802EF656"
+				title: "Elephant"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 2.25d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "naturalist:block/cattail_bottom"
+				}
+			}
+			id: "770D4A7AA9D7683B"
+			subtitle: "Mount: Zebras spawn in savannas. Tamed same as horses, but they run away from you fast. Zebras are faster than horses but jump lower, and can have a chest. Camel: They can be tamed and ridden by up to 2 players at once, and they can be right clicked with a chest for some extra storage. They can be fed dead bushes and cacti, and they are bred using Prickly Pears; which now sprout on top of fully-grown cacti"
+			tasks: [{
+				id: "0FADD6570CEEB762"
+				title: "Zebra/Camel"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: 3.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/parrot.png"
+				}
+			}
+			id: "7FE1A83FB551A694"
+			subtitle: "Pet: Found in jungle, Tamed/healed with seeds. Sits on shoulder, flies around, dances to music."
+			tasks: [{
+				id: "7241A893F32D5344"
+				title: "Parrots"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "alexsmobs:mimic_octopus_bucket"
+			id: "6E1D9136CBD23016"
+			tasks: [{
+				id: "6A6A7DC8CA249E9A"
+				title: "Mimic Octopus"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 3.75d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "alexsmobs:shrimp_fried_rice"
+			id: "3CE9DB27082C2A27"
+			tasks: [{
+				id: "7E150E3545148DB6"
+				title: "Mantis Shrimp"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 0.75d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "environmental:bird_of_paradise"
+			id: "28B3B6343A9C5C0F"
+			subtitle: "Pet: Goodall Toucan: Jungle. Tamed with apple. When fed golden apples, toucans will apply the regen effect for 10 seconds to all entities within a 5 block radius. If fed a Notch apple, toucans will apply the effects of the apple to all entities in a 5 block radius. Squirrels spawn in the Plains biome. They can be fed walnuts to make them trust the player. If a Squirrel is trusting, they will pick up sapling items and plant them nearby. Squirrels can be bred with honeycomb if they are trusting."
+			tasks: [{
+				id: "77340145FAEAAC43"
+				title: "Toucan/Squirrel"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: -0.75d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:item/falconry_glove"
+				}
+			}
+			id: "76474AF8AF3B15F7"
+			tasks: [{
+				id: "72D95DB317972911"
+				title: "Eagle"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 5.25d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/alexsmobs/raccoon.png"
+				}
+			}
+			id: "7A221ACE6ADDCC52"
+			tasks: [{
+				id: "0FBBD8CF155493BC"
+				title: "Racoon"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/fox.png"
+				}
+			}
+			id: "7B9520C1FCBC3E13"
+			subtitle: "Pet: Fox: Taigas, can be made to sit, wander and follow like the other pets. To get a tame fox, you need to breed two wild foxes with sweet berries and wait for it to grow up. Note that no matter how tame foxes are, they'll still want to kill any chickens and (untamed) rabbits they can see. Fennec Fox: Desert. Tamed with raw chicken, bred with cooked chicken. "
+			tasks: [{
+				id: "7A60CEF2260C56F9"
+				title: "Fox/Fennec Fox"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/axolotl_bucket"
+				}
+			}
+			id: "26A0BA0BAF04A92A"
+			subtitle: "Found in lush caves. Tame with Tropical fish. They can be made to sit, wander and follow like all the other tameable mobs. Note that axolotls are by default very slow on land, dry out and have low health - you have been warned."
+			tasks: [{
+				id: "02085B2EB442F513"
+				title: "Axolotl"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: -0.75d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/alexsmobs/warped_toad.png"
+				}
+			}
+			id: "478F514886A7A415"
+			subtitle: "Warped forest."
+			tasks: [{
+				id: "0EB2CED0244C8D68"
+				title: "Warped Toad"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: 5.25d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:item/potted_flutter"
+				}
+			}
+			id: "574423E4F5C63423"
+			tasks: [{
+				id: "0795472F9E38C03D"
+				title: "Flutter"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: -2.25d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/frog.png"
+				}
+			}
+			id: "77F04840EF7EC481"
+			subtitle: "Tame  with a few spider eyes. Frogs can be made to stay, follow or wander like a basic pet, and will come to their owner's defense. They may have low attack and health, but they sure make up for it in cuteness."
+			tasks: [{
+				id: "7D0C3889F8443354"
+				title: "Frog"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: -2.25d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:textures/gui/journal/icons/crogre.png"
+				}
+			}
+			id: "2228C8D01D4991C3"
+			subtitle: "Mount:"
+			tasks: [{
+				id: "2871ECCC23524BCE"
+				title: "Crogre"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/caverns_and_chasms/skeleton_wolf.png"
+				}
+			}
+			id: "7E87D337BD5DE194"
+			tasks: [{
+				id: "7013C45D162BD65C"
+				title: "Skeleton/Zombie Horse"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/alexsmobs/snow_leopard.png"
+				}
+			}
+			id: "7E240038E64AD156"
+			tasks: [{
+				id: "2382047C7DB61532"
+				title: "Snow Leopard"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/alexsmobs/crow.png"
+				}
+			}
+			id: "37E93A933E632CD3"
+			subtitle: "Important: Eats your crops. Scare off with a carved pumpkin. Can be set to pick up items if tamed with pumpkin seeds, and will search for a container with an item frame of the same item it's holding to deposit. Deals low damage to not aggro mobs, and extra damage to undead."
+			tasks: [{
+				id: "69F3E20A0932F4EA"
+				title: "Crow"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:bamboo"
+			id: "3AE6ECE034438752"
+			subtitle: "Jungle, sleeps through day, Tameable with sweet berries, breedable with bamboo"
+			tasks: [{
+				id: "5A41691D5E5EF67F"
+				title: "Red Panda"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			icon: "nameless_trinkets:creeper_sense"
+			id: "68CC57D00F5892DF"
+			subtitle: "Pet: Hatched from Mutant Creeper drop, Creeper Egg. Controlled using Creeper Minion tracker, made from Creeper shard, dropped from another Mutant Creeper. "
+			tasks: [{
+				id: "467D2B75E35556B9"
+				title: "Creeper Minion"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:glow_berries"
+			id: "20A7ACBC75E2DBF0"
+			tasks: [{
+				id: "702053BDC407D2B5"
+				title: "Blue jay"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:textures/mob_effect/sunbird_blessing.png"
+				}
+			}
+			id: "29EB743416939B6E"
+			tasks: [{
+				id: "174C052CBD936357"
+				title: "Sunbird"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/alexsmobs/gorilla.png"
+				}
+			}
+			id: "5A7CE143F62542AC"
+			tasks: [{
+				id: "2F6A2A73F2C92C5B"
+				title: "Gorilla"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			icon: "celestisynth:starstruck_feather"
+			id: "25C26B0753A3AD6C"
+			subtitle: "The Cardinal spawns in Forest, Swamp, Savanna, and Desert biome types.The Bluejay spawns in Taiga, Extreme Hills, and Snowy biome types.The Robin spawns in Forest, Plains, and Mountain biome types.The Canary spawns in Extreme Hills and Mountain biome types.All Bird variants spawn in groups of 1 to 4. Shima: Snowy biomes. All birds tamed with seeds, and can sit and stand. Can't be bred."
+			tasks: [{
+				id: "6A2E3122C2913756"
+				title: "Canary/Cardinal/Robin/Bluejay/Shima Enagana"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/golden_apple"
+				}
+			}
+			id: "4A9069DD161E0DDE"
+			subtitle: "Mount: If fed a apple, will let you ride them for 30 seconds; during which map's radiuses are greatly increased. Can float and is fast. Bred using hay bale."
+			tasks: [{
+				id: "420A9A5165B97812"
+				title: "Giraffes"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: -3.75d
+		}
+		{
+			icon: "infernalexp:strider_bucket"
+			id: "5FFA815B418CF816"
+			tasks: [{
+				id: "0E23A3D5C5E57168"
+				title: "Strider"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/allay.png"
+				}
+			}
+			id: "36853546F7C55BE5"
+			tasks: [{
+				id: "3D49CFC31A662000"
+				title: "Allay"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "naturalist:textures/item/tortoise_shell.png"
+				}
+			}
+			id: "303880E47B06BE10"
+			subtitle: "Spawns naturally in various biomes - a few are Deserts, Jungles, and Swamps. There are 3 Tortoise skin variants.Can be tamed and bred with Dandelions, Brown Mushrooms, Bamboo, or Cactus. Items can be defined in a tag.After breeding, will find a spot to lay its eggs."
+			tasks: [{
+				id: "5FB0AB90C764CB9D"
+				title: "Tortoise"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/quark/toretoise.png"
+				}
+			}
+			id: "4B54749C0C25E909"
+			tasks: [{
+				id: "2B64A298485DEC4A"
+				title: "Toretoise"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/waddles/adelie_penguin.png"
+				}
+			}
+			id: "7EF0E0FF8B749130"
+			subtitle: "Important: Snowy and icy biomes contain Penguins, which spawn in huddles, and being near a huddle of at least 4 penguins grants you a regeneration effect. Penguins will hunt fish and pick up the item, which they will eat. You can breed them with fish and the penguin will keep the egg by its feet, which will eventually hatch. "
+			tasks: [{
+				id: "7341FA25D76F5F29"
+				title: "Penguin"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: -3.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
+				}
+			}
+			id: "6D70DC707A549A53"
+			subtitle: "Important: Grizzly Bear: Sheared for bear fur, craft teddy bear to sleep while monsters are nearby. If holding food, won't attack player. Useful to throw food to stop a bear charge. Sleeps for half the day. Steals food from berry bushes, campfires, or bee nests. Polar Bear: Snowy biomes. Fights seals. Eats salmon. Black Bear:             All bears aggro if player goes near cub."
+			tasks: [{
+				id: "6EE869C5021F1AB5"
+				title: "Bears"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:textures/mob_effect/orcas_might.png"
+				}
+			}
+			id: "43D61951CD012898"
+			tasks: [{
+				id: "4FE600D3D5EEB43F"
+				title: "Orca"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cnb:items/cindershell_bucket"
+				}
+			}
+			id: "0405F7D81ED4389C"
+			subtitle: "These passive volcanic tortoises wander the nether wastes feeding on fungus. Can be Equipped with a cinder furnace to provide an infinite fuel source."
+			tasks: [{
+				id: "01B872C54290B775"
+				title: "Cindershell"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "infernalexp:textures/painting/shroom_duality.png"
+				}
+			}
+			id: "1B60C5A2018DC921"
+			subtitle: "Sporelings are little mushroom creatures found throughout the nether and overworld. They will do their best to remove any curses from your gear without breaking it too much, and can be tamed with bonemeal :D When tamed, you can pick them up by equipping a sporeling backpack and shift right clicking them.(The sporelings support lgbtqia2s+ because the sporelings are cool)"
+			tasks: [{
+				id: "3556718294947618"
+				title: "Sporeling"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:block/cactus_block"
+				}
+			}
+			id: "2A17417660B7BB75"
+			subtitle: "Important: Prickly little desert friends that live in tribes lead by an elder. Cactem elders will pick up dropped totems of undying and give you either something valuable, or something completely useless in return."
+			tasks: [{
+				id: "0E88694C26F54159"
+				title: "Cactem"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enlightened_end:items/ringling_pot"
+				}
+			}
+			id: "6B305EF4A70B0171"
+			subtitle: "Important: Ennegel Grove: A food source called Bouncer Nuts grow under the indigo tree branches. These will eventually become too heavy and fall off of the tree, breaking open into a few bouncer \"mobs\" which will become squished and dropped as an edible item after about 10 seconds. Squished Bouncers eaten or fed to ringlings, but they cannot be replanted and will only grow off grown indigo trees. The ringling will eat bouncers dropped from nuts or fed by hand from the player. When ringlings are fed bouncers, they become full and will begin digging through the indigo eylium below them, they will occasionally dig up ancient roots and rarely a rooting blade. Ancient roots can be eaten to submerge yourself one block into the ground, it can also be brewed into a rooting potion, which causes this effect for a longer duration. The Rooting Blade will apply that effect on hit for about 3 seconds."
+			tasks: [{
+				id: "58BF9FD96759A382"
+				title: "Ringling"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:textures/mob_effect/vzor.png"
+				}
+			}
+			id: "7623C4589754A79C"
+			tasks: [{
+				id: "29DC7DB68C809229"
+				title: "Dire Hound Leader"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			icon: "graveyard:hanged_wither_skeleton"
+			id: "76B57F14675B1D35"
+			subtitle: "suffering in eternal pain, the nameless hanged offers rare artifacts."
+			tasks: [{
+				id: "1E00BE841AB5C3CF"
+				title: "Nameless Hanged"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cnb:items/yeti_hide"
+				}
+			}
+			id: "564CB86354878F9F"
+			subtitle: "Pet:These powerful beasts spawn in snowy tundra biomes and will remain neutral until the player gets too close to their babies, but you can earn their trust with melon slices, or breed them with berries.If a baby yeti grows up while trusting the player, they will become tamed. Tamed yetis won't follow the player, but they will defend them."
+			tasks: [{
+				id: "00690D57C901857A"
+				title: "Yeti"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:textures/gui/journal/icons/snow_owl.png"
+				}
+			}
+			id: "7EA6D39B99264AA0"
+			tasks: [{
+				id: "3A3642B6074C0C7B"
+				title: "Snow Owl"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "unusualend:items/firefly_egg"
+				}
+			}
+			id: "0723441F9E87D316"
+			subtitle: "Ender Fireflies can be found near nests in the End Highlands. They can be tamed with End Blob, dropped by Enderblobs, and carried in buckets. This small insect will hunt Endermites and Enderblobs, and sometime produce a Firefly Egg or Firefly Bulb block when killing one."
+			tasks: [{
+				id: "05A3FDAE90BEC58E"
+				title: "Ender Fireflies"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/quark/foxhound.png"
+				}
+			}
+			id: "4FCAF06460D4B056"
+			tasks: [{
+				id: "62D55E050D077DD2"
+				title: "Foxhound"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 6.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/dark_oak_sapling"
+				}
+			}
+			id: "751DF7F08E7252EB"
+			subtitle: "Pet: Dark forest. Tamed with rabbit's foot. Tamed owls sat within a 5 blocks radius of an enchantment table will significantly boost enchantments regardless of the amount of bookshelves. "
+			tasks: [{
+				id: "666FAA3F9EDA2871"
+				title: "Owl"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "minecraft:fern"
+			id: "7279ECDD2AFDAA77"
+			tasks: [{
+				id: "0A9B81C045F2323D"
+				title: "Ferret: Plains/forests, tamed with raw rabbit and hunts chicken and rabbit. Tamed ferrets dig loot with a five min cooldown after being fed raw chicken"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: 8.25d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "crittersandcompanions:item/diamond_dragonfly_armor"
+				}
+			}
+			id: "36CF981ABD05D37A"
+			subtitle: "Pet: Found over rivers, tamed/healed with spider eyes. Can be given armor."
+			tasks: [{
+				id: "7CAD32336495F0F5"
+				title: "Dragonfly"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: 6.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/rabbit.png"
+				}
+			}
+			id: "132966BE20C1D888"
+			subtitle: "Pet: You can tame rabbits now! Tamed with hay bale, and don't attack but scares off ravagers"
+			tasks: [{
+				id: "322556C7F56B1C28"
+				title: "Rabbit"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "naturalist:item/lizard_tail"
+				}
+			}
+			id: "0C150BEEDD016F82"
+			subtitle: "Pet: Tamed with spider eyes, cant be bred. Drops tail when low on health"
+			tasks: [{
+				id: "1D7F19BBAAE0FC0B"
+				title: "Lizards"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:writable_book"
+			id: "11CD61A0188996D3"
+			shape: "circle"
+			size: 2.0d
+			title: "Animals Checklist"
+			x: -8.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11CD61A0188996D3"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info"
+				}
+			}
+			id: "55CC8B48AC4C34E4"
+			title: "Recommended Progression"
+			x: -8.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7CFCF3BA7E2B325C"]
+			icon: "minecraft:writable_book"
+			id: "4E16BB33F1BB405D"
+			shape: "circle"
+			size: 2.0d
+			title: "Materials Checklist"
+			x: -27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E16BB33F1BB405D"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info"
+				}
+			}
+			id: "6BDB961B56D84137"
+			title: "Recommended Progression"
+			x: -27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BDB961B56D84137"]
+			icon: "minecraft:ender_eye"
+			id: "250EA74C9879C5C7"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "237C1F278FD108F4"
+				title: "Tier 1 (Any Eyes Recommended)"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: {
+				Count: 1b
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77322EFE45DA7FFD"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "6040EA3DAEAC9F23"
+				title: "Tier 2 (0-3 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: {
+				Count: 1b
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77FE2AD69390A075"
+			tasks: [{
+				id: "3F848B5DC4F7C477"
+				title: "Tier 3 (3-6 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: {
+				Count: 1b
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "419167339A36EBEE"
+			tasks: [{
+				id: "3316E2589451F986"
+				title: "Tier 3 (6-9 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["419167339A36EBEE"]
+			icon: {
+				Count: 1b
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C927D2F952ED4E7"
+			tasks: [{
+				id: "09F9BF5FA5AEEC10"
+				title: "Tier 4 (9-12 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6C927D2F952ED4E7"]
+			icon: {
+				Count: 1b
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77437D5923589460"
+			tasks: [{
+				id: "179C2160B164F3E1"
+				title: "Tier 5 (12+ eyes recommended)"
+				type: "checkmark"
+			}]
+			x: -15.25d
+			y: -7.5d
+		}
+		{
+			dependencies: ["77962090906709F2"]
+			icon: {
+				Count: 1b
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E0845CDD0BFB1EA"
+			tasks: [{
+				id: "3CDB2506A249D5BF"
+				title: "16 eyes needed..."
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6E0845CDD0BFB1EA"]
+			icon: "witherstormmod:command_block_book"
+			id: "699B043D4A972282"
+			subtitle: "Obtained from Symbiote. Crafts Formidibomb. Weapons made from it are unbreakable."
+			tasks: [{
+				id: "0CED3171766033E3"
+				title: "Command block items"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: "minecraft:diamond"
+			id: "4587743ACB562A6C"
+			size: 1.5d
+			tasks: [{
+				id: "170C7FA17FD8E5BF"
+				title: "Diamond"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: "minecraft:netherite_ingot"
+			id: "325D4D4AD1DA4790"
+			size: 1.5d
+			tasks: [{
+				id: "552D6DE4755DF362"
+				title: "Netherite/Ancient Debris"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["419167339A36EBEE"]
+			icon: "born_in_chaos_v1:dark_metal_ingot"
+			id: "07B75CBEF0C135ED"
+			tasks: [{
+				id: "2F450D088C79B7B8"
+				title: "Dark Metal"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C927D2F952ED4E7"]
+			icon: "majruszsdifficulty:enderium_ingot"
+			id: "23CDAC6ECE241C60"
+			tasks: [{
+				id: "641954294E9FB59B"
+				title: "Enderium/Shard"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77437D5923589460"]
+			icon: "enigmaticlegacy:etherium_ingot"
+			id: "1945465F5C5149DD"
+			size: 1.5d
+			subtitle: "Unlocked in the shop via the Cryptic Eye."
+			tasks: [{
+				id: "5E88493C2596B59D"
+				title: "Etherium"
+				type: "checkmark"
+			}]
+			x: -15.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E0845CDD0BFB1EA"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "celestisynth:item/celestial_netherite_ingot"
+				}
+			}
+			id: "2E5AB3B0EB435A62"
+			subtitle: "Creates other Celestial Weapons at Celestial Workbench."
+			tasks: [{
+				id: "4D1A3C7181516100"
+				title: "Celestial Netherite Ingot/Superheated Netherite Ingot"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77437D5923589460"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "celestisynth:block/solar_crystal"
+				}
+			}
+			id: "185FCED02C807FEF"
+			subtitle: "Creates Celestial Weapons at Celestial Workbench."
+			tasks: [{
+				id: "11020ADC96A0ED64"
+				title: "Lunar Scrap/Solar Crystal/Zephyr Deposit"
+				type: "checkmark"
+			}]
+			x: -15.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: "aquaculture:neptunium_ingot"
+			id: "7F2FB305AC337C5E"
+			tasks: [{
+				id: "7905235CD5971A93"
+				title: "Neptunium"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: "minecraft:oak_log"
+			id: "5E42E5FA554E8FBD"
+			tasks: [{
+				id: "66F349E3F6B9D3AC"
+				title: "Wood"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: "minecraft:iron_ingot"
+			id: "28DB68ED12E1F89F"
+			tasks: [{
+				id: "024095EA636A654E"
+				title: "Iron"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: "minecraft:copper_ingot"
+			id: "62AE3F0E1812F47E"
+			tasks: [{
+				id: "3D1B35F74453C88F"
+				title: "Copper"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: "create:zinc_ingot"
+			id: "49BDD3BF3432CF77"
+			tasks: [{
+				id: "59875D3E370CD4A5"
+				title: "Zinc"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: "minecraft:lapis_lazuli"
+			id: "27CF07AC1D33CB4E"
+			tasks: [{
+				id: "401A2108138A3B23"
+				title: "Lapis"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: "minecraft:redstone"
+			id: "127B1EC3F1C0BED0"
+			tasks: [{
+				id: "0395EA4577B292AF"
+				title: "Redstone"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: "create:brass_ingot"
+			id: "66890200F4E97B1C"
+			tasks: [{
+				id: "351A935C2AA95E6B"
+				title: "Brass"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: "graveyard:dark_iron_ingot"
+			id: "6363A81E8943EA8C"
+			tasks: [{
+				id: "5E7AE0CEF01D1564"
+				title: "Dark Iron"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["419167339A36EBEE"]
+			icon: "iter_rpg:elemental_ingot"
+			id: "304E89C12B7BC2EC"
+			tasks: [{
+				id: "357A6153D9981B6D"
+				title: "Elemental Ingots"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["419167339A36EBEE"]
+			icon: "iter_rpg:magmanum_chunk"
+			id: "32DE9360C7705312"
+			subtitle: "Mana resource"
+			tasks: [{
+				id: "456A55A874657B06"
+				title: "Magmanum"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77437D5923589460"]
+			icon: "cataclysm:ignitium_ingot"
+			id: "7DE390304B71824E"
+			tasks: [{
+				id: "5054A7F9DEA1734F"
+				title: "Ignitium"
+				type: "checkmark"
+			}]
+			x: -15.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77437D5923589460"]
+			icon: "cataclysm:witherite_ingot"
+			id: "276988DDCE177F85"
+			tasks: [{
+				id: "3550FF87D0FB4762"
+				title: "Witherite"
+				type: "checkmark"
+			}]
+			x: -15.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C927D2F952ED4E7"]
+			icon: "enlightened_end:adamantite_ingot"
+			id: "7D52636088D872E2"
+			tasks: [{
+				id: "345E809BB45BAEA7"
+				title: "Adamantite"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C927D2F952ED4E7"]
+			icon: "enlightened_end:bismuth_ingot"
+			id: "2222CF3F4EDE8BBB"
+			tasks: [{
+				id: "261521B3E75D7BC7"
+				title: "Bismuth"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C927D2F952ED4E7"]
+			icon: "enlightened_end:irradium_bar"
+			id: "627C4D1631731854"
+			tasks: [{
+				id: "4753F23440F7115A"
+				title: "Radium"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: "minecraft:coal"
+			id: "2602357615734A54"
+			tasks: [{
+				id: "6AB7C45BEF9C6614"
+				title: "Coal"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: "minecraft:gold_ingot"
+			id: "484C898A6EF47AC4"
+			tasks: [{
+				id: "390D9DA5AE474732"
+				title: "Gold"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["419167339A36EBEE"]
+			icon: "blue_skies:diopside_gem"
+			id: "3BC88E005A106D0C"
+			subtitle: "Diamond equivalent, works in blue skies dimensions."
+			tasks: [{
+				id: "036FA6ACC8F1CA6D"
+				title: "Diopside"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["419167339A36EBEE"]
+			icon: "blue_skies:charoite"
+			id: "10B2F3C6F5ADB653"
+			subtitle: "Durable Diamond equivalent, works in blue skies dimensions."
+			tasks: [{
+				id: "18B6D9623F361A9E"
+				title: "Charoite"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: "blue_skies:pyrope_gem"
+			id: "6B00365B36E4E468"
+			tasks: [{
+				id: "2911DCFF5B1738B2"
+				title: "Pyrope"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: "blue_skies:horizonite_ingot"
+			id: "54DABFD0690FFF04"
+			subtitle: "works in blue skies dimensions."
+			tasks: [{
+				id: "59CBFFE6D1460A8E"
+				title: "Horizonite"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: "blue_skies:ventium_ingot"
+			id: "49B50CFB668E681A"
+			subtitle: "works in blue skies dimensions."
+			tasks: [{
+				id: "5B1ECA573BF54802"
+				title: "Ventium"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "epicsamurai:item/ruby"
+				}
+			}
+			id: "6FE6DAE6C185C6C0"
+			tasks: [{
+				id: "4D58A1B2E5252909"
+				title: "Ruby/Aquamarine/Jade/Onyx"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C927D2F952ED4E7"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enlightened_end:starsteel_ingot"
+			}
+			id: "73AEC5E4737429AF"
+			tasks: [{
+				id: "321B361C05513DCD"
+				title: "Starsteel"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: "blue_skies:falsite_ingot"
+			id: "0916D90935F12252"
+			subtitle: "works in blue skies dimensions."
+			tasks: [{
+				id: "4D4D72BB90571D53"
+				title: "Falsite"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: "epicsamurai:steel_ingot"
+			id: "160B950C21470E6A"
+			tasks: [{
+				id: "23BE88828595BF5D"
+				title: "Steel, Amethyst-Coated Steel, and Quartz-Coated Steel"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: "epicsamurai:silver_ingot"
+			id: "2841A6815A7BF714"
+			tasks: [{
+				id: "75127AF26FA1051E"
+				title: "Silver"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: "minecraft:quartz"
+			id: "7AC74091BA55FF47"
+			tasks: [{
+				id: "77330E3C0458B14F"
+				title: "Quartz"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: "minecraft:stone"
+			id: "1246F8B6159FEA5F"
+			tasks: [{
+				id: "1B0CAD3DEE2003A6"
+				title: "Stone"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: "iter_rpg:ametrine_ingot"
+			id: "5BCDEBCEBA38D6E5"
+			subtitle: "Mana resource"
+			tasks: [{
+				id: "6E7D77C51B755F16"
+				title: "Ametrine Ingot"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["419167339A36EBEE"]
+			icon: "iter_rpg:empty_rune"
+			id: "368510AFF0D42368"
+			tasks: [{
+				id: "44445D70F47A7BF4"
+				title: "Elemental Runes"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: "dustrial_decor:rusty_iron_ingot"
+			id: "6913103F30EF7294"
+			tasks: [{
+				id: "5BC25FFCE1BFD07B"
+				title: "Rusty Iron"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["419167339A36EBEE"]
+			icon: "art_of_forging:forged_steel_ingot"
+			id: "4491D4181538D7E1"
+			tasks: [{
+				id: "1BACA22B2D0CF344"
+				title: "Forged Steel Ingots"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: "nourished_nether:necronium_ingot"
+			id: "72468F9CAF855049"
+			tasks: [{
+				id: "4FF8F96FDC8B2983"
+				title: "Necronium Ingot"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C927D2F952ED4E7"]
+			icon: "enlightened_end:malachite"
+			id: "36F3219FFA632D06"
+			tasks: [{
+				id: "71CD91A09E4EE2F9"
+				title: "Malachite"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: "blue_skies:aquite"
+			id: "6C79871191DB86E0"
+			subtitle: "works in blue skies dimensions."
+			tasks: [{
+				id: "7EB22828E53D8A11"
+				title: "Aquite"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: "blue_skies:moonstone_crystal"
+			id: "559DD889330928C0"
+			tasks: [{
+				id: "08128313E95A2BD3"
+				title: "Moonstone/Shards"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["77FE2AD69390A075"]
+			icon: "blue_skies:sunstone_crystal"
+			id: "79984B91995B3715"
+			tasks: [{
+				id: "7885699702FF64BC"
+				title: "Sunstone"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: "minecraft:amethyst_shard"
+			id: "57B60A83E04F8056"
+			tasks: [{
+				id: "14C0E21D63A60EA1"
+				title: "Amethyst"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: "iter_rpg:voidquartz_shard"
+			id: "6FF517612CE26AFC"
+			subtitle: "Mana resource, deep underground"
+			tasks: [{
+				id: "23A4213E9C6CF3A2"
+				title: "Voidquartz Shard"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C927D2F952ED4E7"]
+			icon: "unusualend:shiny_crystal"
+			id: "0701D6328CF2214D"
+			subtitle: "Converts warped items into end variants. Crafts a undead slaying dagger. Gloopstone Nests are small lone islands in the Small End Islands, made out of Gloopstone, a mixture of insect remains. These islands have been isolated for long, resulting in this agglomerate. The mixture seems to have been a favorable ground for the formation of Shiny Crystals, gems with regenerative properties, which can only be found inside of nests. The nest is also covered of Endermite Eggs, which will have a chance to weaken and hatch Endermites or Enderblobs when a nearby player isn't sneaking or invisible, making it dangerous to attempt to mine Shiny Gloopstones. Normal eggs can be picked up by a player, but cracked ones will hatch instantly instead. "
+			tasks: [{
+				id: "46EC4D25E29AC0C9"
+				title: "Shiny Crystal"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C927D2F952ED4E7"]
+			icon: "enlightened_end:glacium"
+			id: "443D93759C7EAE5A"
+			tasks: [{
+				id: "53D5F84350468913"
+				title: "Glacium"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["419167339A36EBEE"]
+			icon: "aquamirae:abyssal_amethyst"
+			id: "0CBB094B73199382"
+			tasks: [{
+				id: "793674C5B84AF69E"
+				title: "Abyssal Amethyst"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C927D2F952ED4E7"]
+			icon: "minecraft:nether_star"
+			id: "748F5D89206FB32D"
+			tasks: [{
+				id: "49BAF737532BC0E8"
+				title: "Nether Star"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["419167339A36EBEE"]
+			icon: "minecraft:echo_shard"
+			id: "436785A7140C6420"
+			tasks: [{
+				id: "76BC7A59BB00CB53"
+				title: "Echo Shards"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: "iter_rpg:gobsteel_scrap"
+			id: "03B76C6F0A7461ED"
+			tasks: [{
+				id: "336D9E0A1DE3C64A"
+				title: "Gobsteel Scrap"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["77322EFE45DA7FFD"]
+			icon: "tetra:pristine_diamond"
+			id: "227CBF8A295CA0CB"
+			tasks: [{
+				id: "78DF14A594341892"
+				title: "Pristine Gems"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["250EA74C9879C5C7"]
+			icon: "galosphere:allurite_shard"
+			id: "747DB708A7A444BF"
+			title: "Crystals"
+			x: -25.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6E0845CDD0BFB1EA"]
+			icon: "celestisynth:celestial_core"
+			id: "731AE2AD0AB56F4A"
+			tasks: [{
+				id: "6A560DB314085089"
+				title: "Celestial Core / Heated Celestial Core"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77437D5923589460"]
+			icon: "enigmaticlegacy:ender_rod"
+			id: "6AF0B5F73C2B9153"
+			subtitle: "Unlocked in the shop via the Cryptic Eye."
+			tasks: [{
+				id: "28E4195A1501B2C5"
+				title: "Ender Rod"
+				type: "checkmark"
+			}]
+			x: -15.25d
+			y: -1.5d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:writable_book"
+			id: "3D484654DC86D97B"
+			shape: "circle"
+			size: 2.0d
+			title: "Crafting/Building Checklist"
+			x: -8.0d
+			y: 19.75d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			icon: "create:crushing_wheel"
+			id: "32BFC19574A4E239"
+			tasks: [{
+				id: "6FDDF9D7A603726F"
+				title: "Crushing Wheels"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 22.75d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: "minecraft:crafting_table"
+			id: "0E7E54B355E63A2A"
+			size: 1.5d
+			tasks: [{
+				id: "0493DFC647BC963A"
+				title: "Crafting Table"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 19.75d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: "tetra:basic_workbench"
+			id: "0A85B06936632077"
+			tasks: [{
+				id: "429971D203DE8B5C"
+				title: "Workbench"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 18.25d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: "quark:deepslate_furnace"
+			id: "222023D02125BF8D"
+			tasks: [{
+				id: "078C33A116D5D663"
+				title: "Furnace"
+				type: "checkmark"
+			}]
+			title: "Basic Furnaces"
+			x: -5.75d
+			y: 21.25d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: "minecraft:smithing_table"
+			id: "1BA15F407C40B8CD"
+			tasks: [{
+				id: "60BBC8782B9185D7"
+				title: "Smithing Table"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 22.75d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: "minecraft:blast_furnace"
+			id: "7DB33F9688241F01"
+			tasks: [{
+				id: "10E7B797CC91479C"
+				title: "Smoker/Blast Furnace/Kiln"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 16.75d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: "minecraft:fletching_table"
+			id: "73C9BB385AF44C12"
+			tasks: [{
+				id: "7E1B321942591E47"
+				title: "Fletching Table"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 24.25d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: "minecraft:enchanting_table"
+			id: "5E62D6AA25080208"
+			subtitle: "Place 15 bookshelves around it, spaced a block from it."
+			tasks: [{
+				id: "27A6332D300E011D"
+				title: "Enchanting Table"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 18.25d
+		}
+		{
+			dependencies: ["594983BC199E77D6"]
+			icon: "infusion_table:infusion_table"
+			id: "4BFA72F21EA376F0"
+			tasks: [{
+				id: "3ECDD522233BAE3F"
+				title: "Infusion Table"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 21.25d
+		}
+		{
+			dependencies: ["594983BC199E77D6"]
+			icon: "tetra:forged_workbench"
+			id: "046CAEDEA60B3CAA"
+			tasks: [{
+				id: "12A5D594E491E1C2"
+				title: "Forge Hammer"
+				type: "checkmark"
+			}]
+			title: "Forged Workbench"
+			x: 4.25d
+			y: 18.25d
+		}
+		{
+			dependencies: ["594983BC199E77D6"]
+			icon: "create:steam_engine"
+			id: "6E422DED22CF0BA6"
+			tasks: [{
+				id: "2716164D2C034786"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 22.75d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: "waystones:waystone"
+			id: "7438AA4FFB2DD1F4"
+			tasks: [{
+				id: "6493F9A63F6E593A"
+				title: "Waystone"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 21.25d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/nether_portal"
+				}
+			}
+			id: "1CF329BD50CFC7EB"
+			tasks: [{
+				id: "20D24EC81799EA80"
+				title: "Nether Portal"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 19.75d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:block/portal/everdawn_portal"
+				}
+			}
+			id: "79D6B003A9C96CE2"
+			tasks: [{
+				id: "7DAE71FDF5D438D8"
+				title: "Everbright/Everdawn Portal"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 21.25d
+		}
+		{
+			dependencies: ["43F135F18D3E92DF"]
+			icon: "minecraft:end_portal_frame"
+			id: "092222CF0EF5D06B"
+			size: 1.5d
+			tasks: [{
+				id: "2845A50E2A3C32CA"
+				title: "End Portal"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 19.75d
+		}
+		{
+			dependencies: ["3D484654DC86D97B"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info"
+				}
+			}
+			id: "1FB0360D1AC61D14"
+			title: "Recommended Progression"
+			x: -8.0d
+			y: 17.75d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			icon: "toms_storage:ts.crafting_terminal"
+			id: "5D7BE82B150A5B90"
+			tasks: [{
+				id: "5C128EC3A266C300"
+				title: "Simple Storage System"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 18.25d
+		}
+		{
+			dependencies: ["1FB0360D1AC61D14"]
+			icon: "minecraft:ender_eye"
+			id: "520E8FDF7962AB70"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "03ABE974224591F5"
+				title: "Tier 1 (Any Eyes Recommended)"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: {
+				Count: 1b
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3F9D63A6BBCB546F"
+			subtitle: "[CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "4639A5556F563C82"
+				title: "Tier 2 (0-3 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: {
+				Count: 1b
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "336F71809948E52A"
+			tasks: [{
+				id: "0C210696640CA6E2"
+				title: "Tier 3 (3-6 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			icon: {
+				Count: 1b
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "594983BC199E77D6"
+			tasks: [{
+				id: "579C25D2409CB3B9"
+				title: "Tier 3 (6-9 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["594983BC199E77D6"]
+			icon: {
+				Count: 1b
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "43F135F18D3E92DF"
+			tasks: [{
+				id: "0F277138E8D9C407"
+				title: "Tier 4 (9-12 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["43F135F18D3E92DF"]
+			icon: {
+				Count: 1b
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DA999089CDEAE5E"
+			tasks: [{
+				id: "29AB9E131B582DBC"
+				title: "Tier 5 (12+ eyes recommended)"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["77962090906709F2"]
+			icon: {
+				Count: 1b
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0FFFF7E027496812"
+			tasks: [{
+				id: "1D127BA6329E3EC0"
+				title: "16 eyes needed..."
+				type: "checkmark"
+			}]
+			x: 10.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0FFFF7E027496812"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "celestisynth:textures/particle/rainfall_energy.png"
+				}
+			}
+			id: "26A5305EBF3E295B"
+			tasks: [{
+				id: "5B9411D4A5C4C719"
+				title: "Celestial Workbench"
+				type: "checkmark"
+			}]
+			x: 10.25d
+			y: 19.75d
+		}
+		{
+			dependencies: ["43F135F18D3E92DF"]
+			icon: "create:belt_connector"
+			id: "086AE789829D6588"
+			tasks: [{
+				id: "2EE24F0D06040A97"
+				title: "Conveyor Belt Machines"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 18.25d
+		}
+		{
+			dependencies: ["43F135F18D3E92DF"]
+			icon: "create:mechanical_drill"
+			id: "2DDB40D0EEB73E28"
+			tasks: [{
+				id: "210C0653ADAA4EF7"
+				title: "Driller/Sawmill/Plower"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 21.25d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: "create:deployer"
+			id: "0411769905159DFA"
+			tasks: [{
+				id: "204E55978C8FF8B4"
+				title: "Deployer"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 22.75d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "farmersrespite:textures/item/tea_kettle.png"
+				}
+			}
+			id: "2124FE010F7AB796"
+			tasks: [{
+				id: "28FAAEC5547CC4C1"
+				title: "Kettle/Faucet"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 24.25d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "farmersdelight:textures/item/cooking_pot.png"
+				}
+			}
+			id: "5E23D81E7925C3A1"
+			tasks: [{
+				id: "205A8B6462A938AC"
+				title: "Cooking Pot/Stove/Skillet"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 16.75d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: {
+				Count: 1b
+				id: "farmersdelight:iron_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3A437EC40BC9A271"
+			tasks: [{
+				id: "52BE3CCEBDC10446"
+				title: "Cutting Board/Basket"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 15.25d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: "minecraft:loom"
+			id: "5F4D2A2104FCB4DE"
+			tasks: [{
+				id: "7576D442D1134A62"
+				title: "Loom"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 25.75d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: "minecraft:stonecutter"
+			id: "60E76E620A607C95"
+			subtitle: "Stonecutter and Sawmill create more block variants(stairs,slabs,etc) per stone and wood than regular crafting."
+			tasks: [{
+				id: "2AFD264DFA879D75"
+				title: "Stonecutter/Woodcutter"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 15.25d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			icon: "nourished_nether:soul_forge"
+			id: "54AAEEAB74A4371F"
+			tasks: [{
+				id: "39508AF102ADA051"
+				title: "Necronium Forge"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 16.75d
+		}
+		{
+			dependencies: ["6DA999089CDEAE5E"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enlightened_end:blocks/nuclear_bomb_side_glow"
+				}
+			}
+			id: "57A01FBAF208BBDB"
+			tasks: [{
+				id: "23E055F524AAE7E1"
+				title: "Nuclear Forge"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 24.25d
+		}
+		{
+			dependencies: ["43F135F18D3E92DF"]
+			icon: "enlightened_end:freezing_totem"
+			id: "73217B474E12A222"
+			tasks: [{
+				id: "4C15DD7A0E5C5DE4"
+				title: "Freezing Totem"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 24.25d
+		}
+		{
+			dependencies: ["43F135F18D3E92DF"]
+			icon: "unusualend:ender_respawn_altar"
+			id: "5AF2A87DA72FD362"
+			tasks: [{
+				id: "5A70E6A0DC0E7C1C"
+				title: "End Respawn Anchor"
+				type: "checkmark"
+			}]
+			title: "Respawn Altar"
+			x: 6.25d
+			y: 22.75d
+		}
+		{
+			dependencies: ["594983BC199E77D6"]
+			icon: "minecraft:lodestone"
+			id: "5E5BE35689FE4E33"
+			tasks: [{
+				id: "1E39945EC4A2508F"
+				title: "Lodestone"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 16.75d
+		}
+		{
+			dependencies: ["43F135F18D3E92DF"]
+			icon: "unusualend:purpur_tank"
+			id: "5949894CA6201C4E"
+			tasks: [{
+				id: "55AF4E448E09A880"
+				title: "Purpur Tank"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 16.75d
+		}
+		{
+			dependencies: ["6DA999089CDEAE5E"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "unusualend:blocks/teleportation_anchor_side"
+				}
+			}
+			id: "0FBEC2D869EE8A07"
+			tasks: [{
+				id: "74F25AB505FE6469"
+				title: "Teleportation Anchor"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 22.75d
+		}
+		{
+			dependencies: ["6DA999089CDEAE5E"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enlightened_end:blocks/teleporter_front"
+				}
+			}
+			id: "54883A529625C6A3"
+			tasks: [{
+				id: "19E7AC7A2AF99D2E"
+				title: "Teleporter"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 18.25d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			icon: "create:white_sail"
+			id: "56F31683668B13CE"
+			tasks: [{
+				id: "74289401DBFC0A3D"
+				title: "Crank/Windmill/Water Wheels"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 24.25d
+		}
+		{
+			dependencies: ["6DA999089CDEAE5E"]
+			icon: "enigmaticlegacy:end_anchor"
+			id: "40E942E6161DAB95"
+			tasks: [{
+				id: "3A22BC4603DEAC73"
+				title: "Dimensional Anchor"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 16.75d
+		}
+		{
+			dependencies: ["6DA999089CDEAE5E"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:shattered_dimensional_carver"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "699440B79FCDDBF7"
+			tasks: [{
+				id: "1F0760CD8CF614DF"
+				title: "Shattered Dimensional Carver"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 19.75d
+		}
+		{
+			dependencies: ["594983BC199E77D6"]
+			icon: "create:track"
+			id: "4482209E8DB5747D"
+			tasks: [{
+				id: "705D49829BCE734F"
+				title: "Trains"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 24.25d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			hide_dependency_lines: true
+			icon: "minecraft:chest_minecart"
+			id: "7C0C30ED68321F40"
+			subtitle: "Use minecart couplings to chain together minecarts, to move as an early game train."
+			tasks: [{
+				id: "2DD788E4DAF96B62"
+				title: "Minecart System"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			hide_dependency_lines: true
+			icon: "everycomp:sd/ecologics/walnut_full_drawers_4"
+			id: "4D242AEA12A8BF0E"
+			tasks: [{
+				id: "4DDC0F33882C5F2F"
+				title: "Storage Drawers/ Crates/ Toolboxes"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["594983BC199E77D6"]
+			icon: "blue_skies:alchemy_table"
+			id: "0BCE2350C1BFB907"
+			tasks: [{
+				id: "6B5826497BC0610C"
+				title: "Alchemy Table"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 15.25d
+		}
+		{
+			dependencies: ["594983BC199E77D6"]
+			icon: "blue_skies:summoning_table"
+			id: "00563B57FE80E79A"
+			tasks: [{
+				id: "1CC6DDAF546BE4A7"
+				title: "Summoning Table"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 25.75d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			icon: "create:schematicannon"
+			id: "493E4544643BEA89"
+			size: 1.5d
+			subtitle: "Allows you to import builds at the cost of their materials."
+			tasks: [{
+				id: "3D3559E11481B5F7"
+				title: "Schematicannon/Schematic Table"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 19.75d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: "minecraft:ender_chest"
+			id: "1158C08B0CF4BDFF"
+			tasks: [{
+				id: "12DA1AAFAD4E3BD6"
+				title: "Ender Chest"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 13.75d
+		}
+		{
+			dependencies: ["43F135F18D3E92DF"]
+			icon: "create:portable_storage_interface"
+			id: "4192230D6A451EC2"
+			tasks: [{
+				id: "6D61CC0724BF00A7"
+				title: "Portable Storage Interface"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 15.25d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: "another_furniture:oak_chair"
+			id: "3A0050D08826C3CE"
+			subtitle: "Tables/Chairs/Lamps/Benches/Stools/Sofas/Shutters/Flower Boxes"
+			tasks: [{
+				id: "1DE5CDA76F465FF6"
+				title: "Furniture"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 12.25d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			hide_dependency_lines: true
+			icon: "minecraft:cartography_table"
+			id: "76C9DFACD7616EEF"
+			tasks: [{
+				id: "6594E0E96DD4D97E"
+				title: "Cartography Table"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 25.0d
+		}
+		{
+			dependencies: ["594983BC199E77D6"]
+			icon: "blue_skies:snowcap_oven"
+			id: "67A2DCE7DF9C02EB"
+			tasks: [{
+				id: "2084802685AF1EB8"
+				title: "Snowcap Oven/Horizonite Forge"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 13.75d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			hide_dependency_lines: true
+			icon: "aquaculture:tackle_box"
+			id: "50689555E9066B2F"
+			tasks: [{
+				id: "31CA37A5B9E11A4B"
+				title: "Tackle Box"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 23.5d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			hide_dependency_lines: true
+			icon: "brewinandchewin:keg"
+			id: "3F0BB6280AD1EF67"
+			tasks: [{
+				id: "26B326FC30226AD3"
+				title: "Keg"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			hide_dependency_lines: true
+			icon: "fantasyfurniture:furniture_station"
+			id: "2D3134288CAAEF5E"
+			tasks: [{
+				id: "217C31AFD78AE229"
+				title: "Furniture Table"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			hide_dependency_lines: true
+			icon: "create:redstone_link"
+			id: "6CF4A1C53CEEEEC7"
+			tasks: [{
+				id: "47D0B9761AC494FA"
+				title: "Redstone Link/Sculk Sensor"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			hide_dependency_lines: true
+			icon: "create:linked_controller"
+			id: "60C4CD6ED6D9F3C6"
+			tasks: [{
+				id: "21B7C49C4D649BBD"
+				title: "Redstone Controller"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			hide_dependency_lines: true
+			icon: "minecraft:beehive"
+			id: "27F193CA0D81697C"
+			tasks: [{
+				id: "61BCA599CD3722D9"
+				title: "Bee Nest"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			hide_dependency_lines: true
+			icon: "minecraft:campfire"
+			id: "1C497F46AA5ED269"
+			subtitle: "Propel a paraglider upward, cook infinite food and place hay under it to extend it's smoke signal height; kind of like a early game beacon."
+			tasks: [{
+				id: "4AB3C555009D6BAE"
+				title: "Campfires"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 17.5d
+		}
+		{
+			dependencies: ["594983BC199E77D6"]
+			icon: "minecraft:beacon"
+			id: "69C6F2498EDBC975"
+			tasks: [{
+				id: "77B44310CE73BAE8"
+				title: "Beacon"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 19.75d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			icon: "minecraft:conduit"
+			id: "76C6367CDCC62961"
+			tasks: [{
+				id: "1DB6707AA7AF1261"
+				title: "Conduit"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 13.75d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: "minecraft:jukebox"
+			id: "55B88062320586F6"
+			tasks: [{
+				id: "4A0644867A87CF0E"
+				title: "Jukebox"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 27.25d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			hide_dependency_lines: true
+			icon: "minecraft:anvil"
+			id: "2C40235D4631CD96"
+			tasks: [{
+				id: "249F48DDE5A19131"
+				title: "Anvil"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 20.5d
+		}
+		{
+			dependencies: ["6DA999089CDEAE5E"]
+			icon: "cataclysm:mechanical_fusion_anvil"
+			id: "18AE974B5A4DBC27"
+			tasks: [{
+				id: "3FCD895F1C3EE056"
+				title: "Mechanical Anvil"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 21.25d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			hide_dependency_lines: true
+			icon: "minecraft:grindstone"
+			id: "5FB202255AEDEF1F"
+			tasks: [{
+				id: "45C17E7448FA2D47"
+				title: "Grindstone"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 14.5d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			hide_dependency_lines: true
+			icon: "minecraft:hopper"
+			id: "4B9980EE481B00D8"
+			tasks: [{
+				id: "69C70880150B30CF"
+				title: "Hopper/Pipes"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			hide_dependency_lines: true
+			icon: "toms_storage:ts.polymorphic_item_filter"
+			id: "4ED396B5B5C9B1DB"
+			tasks: [{
+				id: "02ACE520523944E4"
+				title: "Filters"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			hide_dependency_lines: true
+			icon: "minecraft:brewing_stand"
+			id: "23043192D832DDDE"
+			tasks: [{
+				id: "61D657D0D9DD5834"
+				title: "Brewing Stand"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 19.0d
+		}
+		{
+			dependencies: ["6DA999089CDEAE5E"]
+			icon: "alexsmobs:transmutation_table"
+			id: "0EB1323BCA7E68F6"
+			tasks: [{
+				id: "6900F459C3323002"
+				title: "Transmutation Table"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 15.25d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: "tradingpost:trading_post"
+			id: "6F30DB3006680065"
+			tasks: [{
+				id: "12067667EAB753B2"
+				title: "Trading/Bartering Station"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 12.25d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			hide_dependency_lines: true
+			icon: "minecraft:composter"
+			id: "37CAD8B1FE944475"
+			tasks: [{
+				id: "1643A3FEB3C6FE47"
+				title: "Composter"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "create:super_glue"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "115A08F7E3A36174"
+			tasks: [{
+				id: "63E5E143BD9CC8D8"
+				title: "Superglue"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			hide_dependency_lines: true
+			icon: "create:mechanical_press"
+			id: "029F632A56068CAE"
+			tasks: [{
+				id: "135D51730D4C7747"
+				title: "Mechanical Press/Mixer"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			hide_dependency_lines: true
+			icon: "create:cart_assembler"
+			id: "717B4A30489AAD85"
+			tasks: [{
+				id: "366FA980806A4DAF"
+				title: "Cart Assembler"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			icon: "create:mechanical_arm"
+			id: "77500AB57117CD71"
+			tasks: [{
+				id: "6525A1472276D8DB"
+				title: "Mechanical Arm"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 15.25d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "create:extendo_grip"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "015A56701337BEFC"
+			tasks: [{
+				id: "56DD660D4E4B40D4"
+				title: "Extendo Grip"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			hide_dependency_lines: true
+			icon: "create:wand_of_symmetry"
+			id: "45E5045C6A53B3D4"
+			tasks: [{
+				id: "33D0782229B13E7D"
+				title: "Wand of Symmetry"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			icon: "create:mechanical_crafter"
+			id: "50B99ED6C7EF1319"
+			tasks: [{
+				id: "2FE356B8E70ABBD3"
+				title: "Mechanical Crafters"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 25.75d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: "create:crafting_blueprint"
+			id: "22006E4028692718"
+			tasks: [{
+				id: "22F41D4C6E1A1B7E"
+				title: "Crafting Blueprint"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 25.75d
+		}
+		{
+			dependencies: ["336F71809948E52A"]
+			icon: "supplementaries:safe"
+			id: "4747900FBDE04539"
+			tasks: [{
+				id: "25FAF47A56C9EA75"
+				title: "Safe"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 27.25d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			hide_dependency_lines: true
+			icon: "quark:feeding_trough"
+			id: "015CC053B91ED295"
+			subtitle: "Auto feeds animals with food put inside."
+			tasks: [{
+				id: "4D975DAE81F0FDBE"
+				title: "Trough"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 28.0d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			hide_dependency_lines: true
+			icon: "minecraft:bell"
+			id: "0442A89E59D9C2EF"
+			tasks: [{
+				id: "07FFFB2FA29E7E7A"
+				title: "Bell"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			hide_dependency_lines: true
+			icon: "domesticationinnovation:pet_bed_white"
+			id: "5EC1BD697F382E8A"
+			subtitle: "Give pets a pet bed and push them on it to respawn at dawn. The visual indication for this is if you see a bunch of ZZZ particles appear above your pet's head: this means it has set its respawn point. To remove the respawn point, simply break the bed block. Pet enchants are preserved with respawning."
+			tasks: [{
+				id: "7D1844CEBA0965E2"
+				title: "Pet Bed"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			hide_dependency_lines: true
+			icon: "domesticationinnovation:wayward_lantern"
+			id: "78BEB24CADE6B37E"
+			subtitle: " If you are ever so far away from your pets in 'follow' mode that they are unloaded from the world, they will eventually find their way back to the closest Wayward Lantern to you. This makes it perfectly fine to die far from home and not loose both your pets and your loot."
+			tasks: [{
+				id: "7A7E8AF4F068E01B"
+				title: "Wayward Lantern"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["520E8FDF7962AB70"]
+			icon: "minecraft:red_bed"
+			id: "0CA12638821C4E7A"
+			tasks: [{
+				id: "101EEBCFC4530E00"
+				title: "Bed/Hammock/Bedroll"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 13.75d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			icon: "supplementaries:cage"
+			id: "1C54D5EBD16AB768"
+			tasks: [{
+				id: "44821FD593882933"
+				title: "Animal Cage/Crate"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 27.25d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			hide_dependency_lines: true
+			icon: "minecraft:oak_chest_boat"
+			id: "6EB15914E6C60FC8"
+			subtitle: "Boats can contain chests, and be used to transport goods from base to base."
+			tasks: [{
+				id: "0873B6F7D3135B9A"
+				title: "Boat with Chest"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["3F9D63A6BBCB546F"]
+			hide_dependency_lines: true
+			icon: "domesticationinnovation:drum"
+			id: "129CFC060B10EF0A"
+			tasks: [{
+				id: "780BB7607A85CC43"
+				title: "Automates commanding groups of mobs via redstone. When interacted with, the drum will beat and change command modes, whilst ordering all tamed mobs of the user to follow, stay or wander depending on the beat. If given a redstone signal, it will command the mobs of the player that originally placed the block. The block also makes a funny sound if you jump on it. "
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 28.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:writable_book"
+			id: "1909360B80FF401D"
+			shape: "circle"
+			size: 2.0d
+			title: "Structure Checklist"
+			x: -27.0d
+			y: 19.75d
+		}
+		{
+			dependencies: ["2F72F4110732B232"]
+			description: [
+				"\"To say this Palace from the Empires of Old is big, would be an understatement to the word understatement. Now infested with monsters and dark and dreary, the Shiraz Palace contains treasures from all over the sands of time. Having been built from an Empire that survived a world war, this palace looks in mint condition, despite it's supposed unkemptness.\""
+				""
+				"\"In between the elegant gardens and grand archways lie corridors filled to the brim with Palace Guards and rooms stuffed with treasure. Jewels, exotic foods and magical artifacts are commonplace in this overrun haven in a sandy wasteland.\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "nameless_trinkets:items/gods_crown"
+				}
+			}
+			id: "1CF33DDA86ACF0DE"
+			subtitle: "Extremely Rare and Difficult Desert Structure"
+			tasks: [{
+				id: "5BE9F9DD2B4BFD5D"
+				title: "Shiraz Palace"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 21.25d
+		}
+		{
+			dependencies: ["2F72F4110732B232"]
+			description: [
+				"\"See Scorched Mines for pt.1.\""
+				""
+				"\"The Foundries are the processing cornerstones of all the realms. This is where the people of all realms and creeds look to get their share of the highest regarded alloying anywhere. Ever wonder where piglins process their gold or netherite en masse? Ever wonder how the Everbright/Dawn megadungeons process so many metals? Ever thought about how villagers restock their most valuable trades? The Foundries are the source of it all, bringing industrialization to all who can pay.\""
+				""
+				"\"Same as the Scorched Mines, the Foundries contain even more Heavily Armed guards on hoglins and Full-Netherite blacksmiths, who have to bare the dank, hot and dirty working conditions for minimal recompense. Taking on them is no easy feat- yet if you do, you'll be rewarded with the most metal out of any structure you can find.\" "
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:block/crafting/horizonite_forge_front_on"
+				}
+			}
+			id: "70737D58D7006C63"
+			subtitle: "Extremely Massive, Rare and Difficult Deep Underground Structure"
+			tasks: [{
+				id: "6F67B2BCB7D5352D"
+				title: "Foundry"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 18.25d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			description: ["\"Storing ores and overgrown foliage, the halls of the Ancient Mines contain many secrets and rooms to discover. At the logical end point of the structure is a Massive room containing two giant hollow statues towering over troves of exotic loot on the floor. Bridges for minecart operations all intersect here, providing ores as loot as well.\""]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "everycomp:textures/block/wdst/byg/maple_ladder.png"
+				}
+			}
+			id: "49F817BDB145F1A9"
+			subtitle: "Rare Massive Underground Mines(with an entrance at the top) with large tunnels."
+			tasks: [{
+				id: "6BC09F4A2CCF9FFC"
+				title: "Ancient Mines"
+				type: "checkmark"
+			}]
+			x: -16.25d
+			y: 22.0d
+		}
+		{
+			dependencies: ["2F72F4110732B232"]
+			description: ["\"The Aviary is the Massive dungeon of the End."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enigmaticlegacy:textures/unused/cursed_stone.png"
+				}
+			}
+			id: "5DA8496CCCE76537"
+			subtitle: "Extremely Massive, Rare and Difficult End Library Structure"
+			tasks: [{
+				id: "5896F4212308EB2D"
+				title: "Aviary"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 22.75d
+		}
+		{
+			dependencies: ["2F72F4110732B232"]
+			description: [
+				"\"Possibly the Biggest non-tunnel Structure in All the Realms, only rivaled by the Nature Dungeon, Shiraz Palace, Stronghold and Aviary. This is my personal favorite structure, and also quite possibly the hardest of them all.\""
+				""
+				"\"Where do I even start... Flying Heavily Armored Piglins, the Finest Piglin warriors that can dig towards you and place lava, Hit like a truck and gang up on you real quick. Though, if you can somehow get past their insane prowess... the castle holds possibly the best sheer quantity of loot out of any structure. Meat, Gold, Ingots, All the Nether Blocks, Wood, Bone, Agriculture, Exclusive Weaponry(like an axe that explodes on hit), Netherite, and so, so much more. And if you're anything like me, you might even want to make this your nether base...\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "infernalexp:textures/painting/pigs_greed.png"
+				}
+			}
+			id: "40CC9AECED3C9482"
+			subtitle: "Extremely Rare and Difficult Ash Barrens(Nether) Structure"
+			tasks: [{
+				id: "4C104B4A95B88589"
+				title: "Piglin Castle"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 16.75d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			description: ["\"The Stronghold is a Structure built to seal a Great Evil. It is one of the Biggest Structures, as it was built to hold power, store knowledge, maintain order and create balance amongst living things. To find the End Portal, you must enter a small maze section and find one of the exits. One exit will lead to a massive hall with many rooms, the other will lead to the Portal Room.\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/end_portal_frame_top"
+				}
+			}
+			id: "487B69807966F77F"
+			size: 1.5d
+			subtitle: "Found by Using(right-click) one of your 16 Eyes(not regular eyes of ender), and following it. "
+			tasks: [{
+				id: "26E24573B63210BB"
+				title: "Stronghold"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 19.75d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "clayworks:block/chiseled_pink_terracotta_bricks"
+				}
+			}
+			id: "1D622EE06DB97A15"
+			subtitle: "Uncommon Giant Mesa Casino towers home to Illagers with Firework Crossbows and Bandits"
+			tasks: [{
+				id: "62C0F50DAB7721A6"
+				title: "Bandit Towers"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 18.25d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "everycomp:textures/block/abnww/byg/cherry_ladder.png"
+				}
+			}
+			id: "50735611E886003F"
+			subtitle: "Rare Massive Forest Structure, can be Found with Explorer Maps sold by Cartographers"
+			tasks: [{
+				id: "3DBD838E3C0E5B37"
+				title: "Thornborn Towers"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 21.25d
+		}
+		{
+			dependencies: ["2F72F4110732B232"]
+			description: [
+				"\"While on the surface it may seem like a smaller desert pyramid with snake statues, once you enter the Mighty Labyrinth and fall into the well, the true scale of this structure reveals itself.\""
+				""
+				"\"The labyrinth consists of layers like any other dungeon, though each layer is different. The first has a claustrophobic maze, with mummies, husks, mossy undead and all kinds of desert horrors await. The second, rooms with puzzles and traps. The third and final layer has a walk of death, with more snake statues overbearing their presence onto even the most resilient explorers. At the end, lies a very, very old secret...\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "infernalexp:textures/painting/glow_like_helly.png"
+				}
+			}
+			id: "734475B647D675C9"
+			subtitle: "Extremely Rare and Difficult Desert Structure"
+			tasks: [{
+				id: "1D9286873AA7440C"
+				title: "Labyrinth"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 15.25d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			description: [
+				"\"With creepers riding skeletons that run at you, and lost, angry miners trapped amongst their ore deposits for centuries, the Scorched Mines host not so benevolent spirits guarding some high quality exclusive dungeons loot and tons of ores.\" "
+				""
+				"\"Map found in Monasteries\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enigmaticlegacy:items/mining_charm"
+				}
+			}
+			id: "78380A28F22F2D38"
+			subtitle: "Massive Rare Deep Underground Mineshaft"
+			tasks: [{
+				id: "7ADB3435B5478792"
+				title: "Scorched Mines"
+				type: "checkmark"
+			}]
+			title: "Mining Systems"
+			x: -20.0d
+			y: 22.75d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/generic_structure.png"
+				}
+			}
+			id: "428BB007A070C29B"
+			subtitle: "A Basic Room with a Spawner and some Basic Underground Loot. Worth looting in the Early Game."
+			tasks: [{
+				id: "03DC98E5A3468BC7"
+				title: "Regular Dungeon"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 19.75d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			description: ["\"With much more open rooms than it's basic counterparts, it boasts waves of skeletons amongst impressive necrotic architecture. Basic loot can be found in many of the rooms, if you can make your way through the hanging chains and clanking bones...\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/skeleton.png"
+				}
+			}
+			id: "6F7B6E3E237A4CCB"
+			subtitle: "Deeper underground than the other basic dungeons, we find the Skeleton Dungeon. "
+			tasks: [{
+				id: "2AC99A500D8A42F7"
+				title: "Skeleton Dungeon"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 13.75d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			description: ["\"The top levels consist of haunting hallways and twisting tombs spawning waves of zombies. The further down you go, the more dangerous the zombies get. Many graves contain treasure taken with the zombies to the afterlife, but they won't need it anymore...\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/zombie.png"
+				}
+			}
+			id: "6DD56AB9250E428E"
+			subtitle: "Found on the surface or underground, the Zombie Catacombs are the most Sprawling Basic Dungeon. "
+			tasks: [{
+				id: "1886C42DDAAEFD2D"
+				title: "Zombie Dungeon (Catacombs)"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 15.25d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			description: ["\"They hide loot from travelers in some of their cocoons, are surprisingly agile and can inflict poison with their bites.\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/cave_spider.png"
+				}
+			}
+			id: "11DBFD0BAB9C8F0D"
+			subtitle: "Underground or on the surface you make come across an entrance to a cobweb infested hive of cave spiders. "
+			tasks: [{
+				id: "6EE19990F222CED0"
+				title: "Spider Dungeon (Nest)"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 16.75d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "everycomp:textures/block/q/byg/aspen_ladder.png"
+				}
+			}
+			id: "0300CEC58ED200FA"
+			subtitle: "Is a unassuming Small Quarry Town on land above, Big Sewer System holding some of the Deepest secrets this world has to offer below..."
+			tasks: [{
+				id: "2869BF8E46E30ADA"
+				title: "Ruins of the Deep"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 24.25d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/village.png"
+				}
+			}
+			id: "35DBDA71010FFF83"
+			subtitle: "Come in Biome Variants(with at least two types for most biomes): Plains, Taiga, Snowy, Savanna, Desert, Jungle, Swamp, Mesa, Dark Forest, Birch Forest, Mountain, Coastal, Ocean(Harbor and Ships)"
+			tasks: [{
+				id: "1B2AF4A27E9061D1"
+				title: "Villages"
+				type: "checkmark"
+			}]
+			x: -24.5d
+			y: 19.75d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/stronghold.png"
+				}
+			}
+			id: "0119330806B237E3"
+			subtitle: "Various One-Off Villager Structures Decorate the Land:Villager Castle(Plains), Big Castle(Forests), Treetop Tavern(Jungle), Redhorn Guild, Monastery(Taigas, Hub of Many Maps), Mushroom House(forests), Greenwood Pub(Dark Forest), Bazaar(Deserts), Winter Wagon(Snowy), Brick house(Forests), "
+			tasks: [{
+				id: "70CBEB93FE2A7C27"
+				title: "Villager Big Structures"
+				type: "checkmark"
+			}]
+			x: -24.5d
+			y: 16.75d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/igloo.png"
+				}
+			}
+			id: "6E1DF99FA94964FB"
+			subtitle: "Various Tiny Outposts dot the World to provide Rest for Travelers:Igloos(Snowy), Logging Camps(Forests), Bearclaw Inn(Forests), Beekeeper's House(Forests), Farmhouse(Plains), Cabin(Forests), Hobbit Hole(Plains), Lighthouses(Beaches), Merchant Campsites(Plains), Fisherman's Lodge,"
+			tasks: [{
+				id: "0C20400C0D258242"
+				title: "Villager Small Structures"
+				type: "checkmark"
+			}]
+			x: -24.5d
+			y: 21.25d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/respawn_anchor.png"
+				}
+			}
+			id: "33237BB5DCB6F97A"
+			subtitle: "Spawn in Crimson Forests, Inhabited by Piglins (wow)"
+			tasks: [{
+				id: "0777EF454FD1C768"
+				title: "Piglin Village"
+				type: "checkmark"
+			}]
+			x: -24.5d
+			y: 22.75d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			description: ["\"These small camps are inhabited by small goblin warriors and occasionally Hobgoblins. Notable Drops are Gobsteel Scraps, which can make steel or early game weapons.\""]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "iter_rpg:blocks/goblin_gungeon_gen"
+				}
+			}
+			id: "6684BACE40D5F884"
+			subtitle: "Camps occasionally found in the Overworld"
+			tasks: [{
+				id: "75A53A154521DB5E"
+				title: "Goblin Camps"
+				type: "checkmark"
+			}]
+			x: -21.25d
+			y: 19.0d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "iter_rpg:blocks/sorrowsealed_block"
+				}
+			}
+			id: "4067E9E211D4899B"
+			subtitle: "Found in the Nether. Home to Sorrowsealed"
+			tasks: [{
+				id: "07694CD37A2DB956"
+				title: "Sorrowsealed Dungeon"
+				type: "checkmark"
+			}]
+			x: -18.75d
+			y: 17.5d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "everycomp:textures/block/abnww/byg/blue_enchanted_ladder.png"
+				}
+			}
+			id: "14EBA9AAD7CDF0DD"
+			subtitle: "Found in the Deep Ocean. Home of the Leviathan"
+			tasks: [{
+				id: "3B8EDA0A6EED7A78"
+				title: "Sunken City"
+				type: "checkmark"
+			}]
+			x: -13.75d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1909360B80FF401D"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info"
+				}
+			}
+			id: "7CDF2FC17EB833C7"
+			title: "Recommended Progression"
+			x: -27.0d
+			y: 17.75d
+		}
+		{
+			dependencies: ["7CDF2FC17EB833C7"]
+			icon: "minecraft:ender_eye"
+			id: "0F9A26D48FCD40FB"
+			subtitle: "Non-Hostile Structures, Villages [CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "590E39AF7319FD75"
+				title: "Tier 1 (Any Eyes Recommended)"
+				type: "checkmark"
+			}]
+			x: -24.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			icon: {
+				Count: 1b
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4831D53768ABFD2C"
+			subtitle: "Common Dungeons [CLICK CHECKMARK TO EXPAND]"
+			tasks: [{
+				id: "6A40DFBD64DD0DCB"
+				title: "Tier 2 (0-3 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			icon: {
+				Count: 1b
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "74FD30A3C2514499"
+			subtitle: "A Contained Adventure/Newly Unlocked Structures"
+			tasks: [{
+				id: "5AC6B0E135E3A250"
+				title: "Tier 3 (3-6 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 12.75d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			icon: {
+				Count: 1b
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "65ED02BF80D73C74"
+			subtitle: "Big and Dangerous enough to constitute multiple Tries"
+			tasks: [{
+				id: "3FA46C206FBF4355"
+				title: "Tier 3 (6-9 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			icon: {
+				Count: 1b
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "026E3B9C89DB1339"
+			subtitle: "Either Endgame progression structures or End Structures"
+			tasks: [{
+				id: "290AD7503A99EE86"
+				title: "Tier 4 (9-12 eyes recommended)"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 12.75d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			icon: {
+				Count: 1b
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F72F4110732B232"
+			subtitle: "The Most Difficult Structures in all the Realms"
+			tasks: [{
+				id: "02AB2FF9D7043B4B"
+				title: "Tier 5 (12+ eyes recommended)"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["77962090906709F2"]
+			icon: {
+				Count: 1b
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1438BB8F20BD5396"
+			tasks: [{
+				id: "29B771ABA711FF41"
+				title: "16 eyes needed..."
+				type: "checkmark"
+			}]
+			x: -10.75d
+			y: 12.75d
+		}
+		{
+			dependencies: ["1438BB8F20BD5396"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "endrem:blocks/ancient_portal_frame_empty_top"
+				}
+			}
+			id: "21972F73158E1153"
+			size: 1.5d
+			subtitle: "One Million Blocks in Any Direction, you will find a Floating Shack with a waystone inside. If you journey here, MAKE SURE YOU DONT GO BACK HOME AT ALL COSTS. Something may follow you..."
+			tasks: [{
+				id: "5A5C26E1491888AB"
+				title: "First Stronghold"
+				type: "checkmark"
+			}]
+			title: "The Shack"
+			x: -10.75d
+			y: 19.75d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/ruined_portal.png"
+				}
+			}
+			id: "63B241C775C7B997"
+			subtitle: "Spawns in Overworld and Nether, Ruins of a Gateway to what Lies Below"
+			tasks: [{
+				id: "2725B9D2CA372418"
+				title: "Ruined Portal"
+				type: "checkmark"
+			}]
+			x: -24.5d
+			y: 18.25d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			description: ["\"It consists of long bridges, corridors, blaze spawners, wither skeletons, huge underground nether crypts, archer towers, and a main castle area with a Giant Gate you can open. Chests may sometimes summon Cursed Armors to make your stay in hell permanent. Loot is surprisingly good, you come there for blaze rods and leave with an armory of scrolls and metals.\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/nether_fortress.png"
+				}
+			}
+			id: "6AE3171D50B3CF0B"
+			size: 1.5d
+			subtitle: "The Staple of the Nether's Hospitality, the Nether Fortress spawns in most of the Nether Biomes. "
+			tasks: [{
+				id: "6A135934DA07EE49"
+				title: "Nether Fortress"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 19.75d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			description: ["\"Desert Temples take the forms of Large Pyramids, housing puzzles, labyrinths, a curse(mining fatigue III), and a Tomb at the Bottom of it all. The Jungle Temples contain much of the same, but it's architecture prefers more large rooms and pit traps. Desert Pyramids have gold, magic items and riches for days, while Jungle temples contain Ancient Darts(powerful projectile for gorillas), and lost jewels.\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/desert_pyramid.png"
+				}
+			}
+			id: "0AD74D2704F87143"
+			subtitle: "Some Cultures Created Massive Desert and Jungle temples to appease their gods. "
+			tasks: [{
+				id: "0AFEBDA283DA7C10"
+				title: "Temples"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 21.25d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			description: [
+				"\"The End Cities are home to many mobs that some would consider... unnatural.\""
+				""
+				"\"The End City is home to shulkers, a mob inside block that shoots homing levitation bullets. The puzzle here is to use their levitation(or just stack up) to make your way up the towers and into the rooms with enchanted diamond gear. Much of the appeal of these dungeons is how many strange, exclusive trinkets they can hold:Scrolls, magical accessories, exclusive materials, discs, shulker shells, and more. Rarely, some cities are inhabited by Mimicubres, which can morph and take the form of whatever weapons the player is holding. They drop mimicream, which can duplicate items.\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/end_city.png"
+				}
+			}
+			id: "41ECB29C68A2568F"
+			subtitle: "Rare and Annoying End Structure, the Main Structure of the Dimension"
+			tasks: [{
+				id: "16886BA17C1DCCB7"
+				title: "End City"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 18.25d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			description: ["\"A tower filled with Shulker Shooters (shooting Shulker Bullets when not powered by Redstone), Infused End Stone Bricks (giving an Instant Damage effect to entities walking on it) and Weak End Stone Bricks (blocks breaking instantly when a player walks on them). You'll also find spawners summoning Draglings, a sort of Ender Vex. You'll find at the top of the tower a Golem Altar. Right-clicking it with a Dragon's Breath bottle will summon the Endstone Golem.\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "unusualend:blocks/chiseled_endstone__4"
+				}
+			}
+			id: "1BF3B5B38466EC80"
+			subtitle: "Run-down small end city towers in the End Islands"
+			tasks: [{
+				id: "66B0871A1C72E7E7"
+				title: "Ancient End City"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 16.75d
+		}
+		{
+			dependencies: ["2F72F4110732B232"]
+			description: [
+				"A deepslate city overriden with sculk, walking near a sculk sensor may send a signal to a sculk shrieker if one is nearby it. If you set off a shrieker 3 times per life, a Warden will appear, and wander through the infested architecture(see Warden entry in Combat Specialist). \""
+				""
+				"\"If you manage to avoid the Warden, you will find a treasure trove of enchanted golden apples, magical items, enchanted gear, Swift Sneak III, Sculk Horns, and more. In the middle of the city lies an ancient portal, the purpose of which has been long forgotten. Perhaps the only way to find out it's origin is to look into the Realms inbetween Realms...\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/ancient_city.png"
+				}
+			}
+			id: "0CC9EB740E91D6AB"
+			subtitle: "Extremely Rare and Difficult Deep Dark Structure. "
+			tasks: [{
+				id: "0090ED20061C371C"
+				title: "Ancient City"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 19.75d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/pillager_outpost.png"
+				}
+			}
+			id: "0A6D13534E8B9CAC"
+			subtitle: "Also come in Biome Variants:Plains, Taiga, Snowy, Savanna, Desert, Jungle, Swamp, Mesa, Dark Forest, Birch Forest, Mountain, Coastal, Ocean(Harbor and Ships)"
+			tasks: [{
+				id: "595A75FE34B8E25A"
+				title: "Pillager Outposts"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 21.25d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/campfire.png"
+				}
+			}
+			id: "10BCBBFBEC0C206D"
+			subtitle: "Riddled throughout the Underground, you'll find Various Campsites to rest at. That is, unless, a surprise meets you... Campsites are a source of Basic Artifacts."
+			tasks: [{
+				id: "362C49496CD8A34C"
+				title: "Artifact Campsites"
+				type: "checkmark"
+			}]
+			x: -24.5d
+			y: 15.25d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			description: ["\"Home to Piglin Brutes and Hoglins as well, they guard massive amounts of Gold and storage of Netherite or rare nether items. The main danger of the bastion comes from it's ruined state; often filled with holes that burn you in lava. Be careful where you step, wear gold, avoid piglin brutes(hostile) and don't open chests near piglins.\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/bastion.png"
+				}
+			}
+			id: "35B14C6E3B050BA8"
+			subtitle: "Bastions are Nether Ruins inhabited by Piglins, and also spawn in Most Biomes. "
+			tasks: [{
+				id: "30D93992C6A5E24C"
+				title: "Bastions"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 19.75d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/swamp_hut.png"
+				}
+			}
+			id: "2F330A1EEF42D456"
+			subtitle: "Various Homes, Altars and Resource Extraction Sites owned by the Illagers have taken root to maintain their grasp:Witch huts, Illusioner/Iceologer Cabins, Witch's Treestump, Cabins, Illager Windmill, Illager Camps, "
+			tasks: [{
+				id: "3107F53531349302"
+				title: "Common Pillager Structures"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 24.25d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			description: ["\"Feast like a King! This castle, decorated with thousands of pounds of bearskin rug, fireplaces in every hallway, massive kitchen and dining area and suites fit for kings holds many breakable walls, secret doors, an upper area with rare caged animals and a rather big basement. Every chest holds exotic goods, and metals, food and drink, and animal items; and it's all very plentiful.\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dungeons_mobs:item/royal_guard_helmet"
+				}
+			}
+			id: "4EF3ED9DC76E51A8"
+			subtitle: "Rare Giant Plains Castle home to massive swathes of Illagers"
+			tasks: [{
+				id: "3262F318D653B3B9"
+				title: "Pillager Castle"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 16.75d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			description: [
+				"\"The tinkerer's workshop is a sizeable house with many secrets, namely its giant underground cellar. The house itself has clockwork contraptions like a pulley system for animals, and a mess of a bedroom with workshop tools and materials decorating the floors, walls, and ceilings.\""
+				""
+				"\"The cellar itself has many distinct floors, and as you keep getting lower, the floors start to pull more and more tricks on you: gusts of wind pushing you to fall off platforms into the poisonous spikes and moving drills below, waves of repeating tipped arrows forcing your hand to move, rare enemies like the Forgotten shooting at you from all directions(but rarely some passive creatures like a copper golem may spawn), and many more. At the end of the seemingly endless floors and elevators lies a huge openable vault filled with all the Overworld Ores and Riches.\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:items/copper_lantern"
+				}
+			}
+			id: "2C1D06F71A5981D9"
+			subtitle: "Rare House with a Massive Cellar Labyrinth of Puzzles, Rare Enemies and Traps."
+			tasks: [{
+				id: "3C82D7800A013D0D"
+				title: "Tinkerer's Workshop"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 15.25d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:item/misc/portal_mix"
+				}
+			}
+			id: "67E6F8108D77B2B0"
+			subtitle: "Peaceful, Spawn in Everbright and Everdawn, inhabited by Light and Dark Villagers"
+			tasks: [{
+				id: "542E3F7DF3FB9EAC"
+				title: "Everbright/Everdawn Villages"
+				type: "checkmark"
+			}]
+			x: -24.5d
+			y: 24.25d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:block/paper_lantern_side_sakura"
+				}
+			}
+			id: "7E09A62F52AE7380"
+			subtitle: "Rare Massive Meadows Structure, Infested with Ancient Arthropods"
+			tasks: [{
+				id: "62877D6A1B8350AE"
+				title: "Infested Temple"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 24.25d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			description: ["\"These towers, having been Erected by and for the Monsters of the Night, hosts Dark Metal Deposits and Night Enemies with a little bit extra Darkness in them. Hotspots for Night Monster Loot.\""]
+			icon: "born_in_chaos_v1:spawn_structures_dark_tower"
+			id: "0FBA02C7E1219A3B"
+			subtitle: "All Across the Overworld you will Find Dark Monster Towers, Haunted Houses, Enchanting Towers(Dark Forest), Wizard Towers(Lavender Forest), Bathhouse(Dark Forest), Necromancer's Spire(Soulsand Valley), and Abandoned Temple(Taigas)"
+			tasks: [{
+				id: "1814DEF8B24955BF"
+				title: "Hostile Towers"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 22.75d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "everycomp:textures/block/abnww/architects_palette/twisted_bookshelf.png"
+				}
+			}
+			id: "2AF3D0D14CE75E65"
+			subtitle: "Strange, rare house type found in Taigas; created by Illagers to extract Strange Sorcery out of the surroundings."
+			tasks: [{
+				id: "2C967B9E81BD531F"
+				title: "Apothecary Abode"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 15.25d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enigmaticlegacy:textures/unused/strange_book.png"
+				}
+			}
+			id: "7C90E52AE5A70E17"
+			subtitle: "Extremely Rare Massive Dark Forest hub of Illagers, can be Found with Explorer Maps sold by Cartographers"
+			tasks: [{
+				id: "19993B15C357FA4E"
+				title: "Woodland Mansion"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 22.75d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			description: [
+				"\"A Large, Intricate Edifice of Soul Quartz acting as a Major hotspot of the Illagers in the Underworld. Having found their way through ruined portals, the Illagers brought their best artillery to spread their conquest; utilizing powerful crossbows and gear.\""
+				""
+				"\"If you can get past the massive crowds of Illagers, inside lies exclusive magical nether weaponry as well as Imposing architecture. At the top lies a archer tower, and in one of the rooms you can gain access to a large basement containing even more powerful loot.\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "infernalexp:textures/painting/soul_hole.png"
+				}
+			}
+			id: "63F9E8A0E9CC0996"
+			subtitle: "Rare and Very Difficult Quartz Flats Structure"
+			tasks: [{
+				id: "0202885141731BFE"
+				title: "Sanctum"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 22.75d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cnb:items/lizard_item_jungle"
+				}
+			}
+			id: "67851709ECF8A2E4"
+			subtitle: "Massive Rare Swamp Structure containing Gecko People, creeper and slime creatures"
+			tasks: [{
+				id: "583405058EF58131"
+				title: "Keep Kayra"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 15.25d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/shipwreck.png"
+				}
+			}
+			id: "1CEBF4580ABCD549"
+			subtitle: "All Along the Ocean Floor lie a Graveyard of Destruction... Ruins of Underwater Civilization, and Sailors Lost to the Sea. Loot Ruins or Shipwrecks to find Buried treasure maps, go to the X on the map and dig in the middle of the chunk..."
+			tasks: [{
+				id: "4BDB85AC5904CACD"
+				title: "Shipwrecks/Ocean Ruins/Hostile Ships/Sunken Ships"
+				type: "checkmark"
+			}]
+			x: -24.5d
+			y: 13.75d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enlightened_end:blocks/depleted_irradium_block"
+				}
+			}
+			id: "3C7C5DED771A0F25"
+			subtitle: "A rare, locked-away massive underground asylum home to a contained zombie outbreak."
+			tasks: [{
+				id: "6E964C311BEAB84F"
+				title: "Plague Asylum"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 24.25d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dustrial_decor:block/rusty_sheet_metal_trapdoor"
+				}
+			}
+			id: "46AE0EC1AD45D41E"
+			subtitle: "Toxic Wastes Nether Biome radioactive structures, guarded by blaze/ghast sentries, and containing toxic weaponry and nuclear contraptions."
+			tasks: [{
+				id: "6A69E0102DCB8EB7"
+				title: "Pipes/ Power Plant"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 13.75d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:block/villager/alchemy_table_front"
+				}
+			}
+			id: "1943B9AC586BE2DB"
+			subtitle: "Hostile. Bandits Spawn in Mesas, Mushrooms Spawn in Dark Forests"
+			tasks: [{
+				id: "3A5271488060543F"
+				title: "Mushroom/Bandit Villages"
+				type: "checkmark"
+			}]
+			x: -24.5d
+			y: 25.75d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "farmersdelight:block/red_mushroom_colony_stage3"
+				}
+			}
+			id: "1F0F4102BEA80EF1"
+			subtitle: "Massive Surface Mines built to harvest mushrooms in the Forests."
+			tasks: [{
+				id: "766A6E3939605AB4"
+				title: "Mushroom Mines"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 25.75d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "create:item/tree_fertilizer"
+				}
+			}
+			id: "190FA3AABAFFF6E9"
+			tasks: [{
+				id: "2F0BD2D9D9F61713"
+				title: "Jungle Treehouse"
+				type: "checkmark"
+			}]
+			x: -18.75d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/waystone.png"
+				}
+			}
+			id: "23D0B694CB3B9E91"
+			subtitle: "Occasionally, Landmarks devoid of life appear. These are the remnants of Ancient Beings/Civilizations:Typhon/Cerulian Hind(Oceans), Colosseum(Deserts)"
+			tasks: [{
+				id: "4C2DA145592FB47B"
+				title: "Various Giant Landmarks"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 25.75d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			description: ["\"The Mineshafts are the Most Common Underground Structure aside from lost Adventurer's Campsites of course. Mineshafts boast many rooms, minecarts holding rope and bombs, ore deposits and undead miners...\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/mineshaft.png"
+				}
+			}
+			id: "55EBDD0D5F90B768"
+			subtitle: "A Sprawling, Huge Network with a Main Tunnel connecting All of it"
+			tasks: [{
+				id: "761DF13EEF5B0019"
+				title: "Mineshafts"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 18.25d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			hide_dependency_lines: true
+			icon: "graveyard:cracked_blackstone_gravestone"
+			id: "453B019BAF53DEE9"
+			subtitle: "Graves, altars, tombs and Graveyards of all shapes and sizes dot every biome uncommonly. "
+			tasks: [{
+				id: "7D5CEBEE4443BF49"
+				title: "Graveyards"
+				type: "checkmark"
+			}]
+			x: -21.25d
+			y: 20.5d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "graveyard:block/altar"
+				}
+			}
+			id: "600F9982E3A07570"
+			subtitle: "Rare Underground Structure Home to some of the Most Hostile Undead, and potentially something embodying the power of all the spirits before it..."
+			tasks: [{
+				id: "06C1D834BCD87FD6"
+				title: "Crypt"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 25.75d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "infernalexp:block/chiseled_dimstone_bricks"
+				}
+			}
+			id: "452B09FC0F95ADAC"
+			subtitle: "Rare Infernal Dunes Structure, that Spawns the Hovering Inferno with a Nether Star"
+			tasks: [{
+				id: "11CCB8FF25FA0F16"
+				title: "Infernal Altar"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 13.75d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			description: ["\"Legend has it that this jester performed for all the kings of the Overworld back in the day. His theatre was much bigger, more royal and less secluded, but emeralds don't grow on trees, so when monarchies fell and his gig started losing steam he was relegated to cheap magic tricks and standup comedy, which was not very good. This left him very bitter.\""]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "conjurer_illager:item/conjurer_hat"
+				}
+			}
+			id: "04A860E93444E7F7"
+			subtitle: "In the dark forest lies the home of a Rare Illager, the Conjurer. "
+			tasks: [{
+				id: "0CC22B503BE16964"
+				title: "Conjurer Theatre"
+				type: "checkmark"
+			}]
+			x: -21.25d
+			y: 17.5d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/bee_nest_front_honey"
+				}
+			}
+			id: "0E6FC6E5E32E9990"
+			subtitle: "Big Hive on a Jungle tree that rarely spawns in jungles, and contains a Queen Bee."
+			tasks: [{
+				id: "1B5ABC4745E5731C"
+				title: "Queen Bee Hive"
+				type: "checkmark"
+			}]
+			x: -21.25d
+			y: 22.0d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			description: ["\"Find 4 hidden keys in branching towers rooms to unlock the gate at the top, starting a boss fight with the Summoner that saves your loot if you die.\""]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:item/misc/everdawn_portal"
+				}
+			}
+			id: "38D0BB5439CFC6DC"
+			subtitle: "Large, rare-ish structure anywhere in the Everbright."
+			tasks: [{
+				id: "194666612068344F"
+				title: "Everbright Blinding Dungeon"
+				type: "checkmark"
+			}]
+			x: -18.75d
+			y: 19.0d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			description: ["\"Find 4 hidden keys in branching towers rooms to unlock the gate at the top, starting a boss fight with the Alchemist that saves your loot if you die.\""]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:item/misc/everbright_portal"
+				}
+			}
+			id: "650EF6EA87C11FB1"
+			subtitle: "Large, rare-ish structure anywhere in the Everdawn."
+			tasks: [{
+				id: "4B9A3D91E61092EB"
+				title: "Everdawn Blinding Dungeon"
+				type: "checkmark"
+			}]
+			x: -18.75d
+			y: 20.5d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			description: [
+				"\"Only unlockable with nature dungeon keys purchasable from later Gatekeeper trades after the Everbright Blinding Dungeon.\""
+				""
+				"\"A Huge, unbreakable dungeon filled with rooms housing the protectors of Nature, and storing Everbright ores and items. Make your way up each increasingly difficult floor to eventually make it to the Starlit Crusher at the top(see Combat Specialist wiki).\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:block/dungeon/glowing_nature_stonebrick_top"
+				}
+			}
+			id: "0A12613D40830AA5"
+			subtitle: "Massive, rare structure in the Everbright."
+			tasks: [{
+				id: "3D0FB2B02E52A807"
+				title: "Everbright Nature Dungeon"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 13.75d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			description: [
+				"\"Only unlockable with poison dungeon keys purchased from later Gatekeeper trades after the Everdawn Blinding Dungeon.\""
+				""
+				"\"A Huge winding dungeon filled with cobwebs, venomous arthropods and Everdawn ores and items. Make your way through each increasingly difficult floor to eventually make it to the Arachnarch(see Combat Specialist wiki).\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:block/dungeon/rough_poison_stonebrick"
+				}
+			}
+			id: "68BA197FAC366A1A"
+			subtitle: "Massive, underground rare structure in the Everbright."
+			tasks: [{
+				id: "652B16E1C7B5066E"
+				title: "Everdawn Poison Dungeon"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 25.75d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			description: ["\"These massive vaults are Guarded by Guardians, a creature of unknown origin that lock on prey with laser beams that can only be stopped by blocks. In the main rooms lie three Elder Guardians, who drop Elder Eyes that are necessary for progressing. Axolotls are good against guardians, some form of water breathing is necessary and Enchanted Tridents can help you move around. Loot: Tridents, Sponges, Prismarine, Fish\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "upgrade_aquatic:block/chiseled_prismarine_coralstone"
+				}
+			}
+			id: "5462ADD6826EB893"
+			subtitle: "The Ocean is home to Many Neptunian Temples known as Ocean Monuments. "
+			tasks: [{
+				id: "62C247F961F92055"
+				title: "Ocean Monument"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 18.25d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "iter_rpg:blocks/arthropod_catacombs_gen_block"
+				}
+			}
+			id: "5FCFFB22AB1B3B64"
+			tasks: [{
+				id: "7542E38B4706371F"
+				title: "Arthropod Catacombs"
+				type: "checkmark"
+			}]
+			x: -21.25d
+			y: 23.5d
+		}
+		{
+			dependencies: ["4831D53768ABFD2C"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/soul_campfire.png"
+				}
+			}
+			id: "494C942C2D254EE6"
+			subtitle: "Underground houses spawn relatively frequently and contain basic loot."
+			tasks: [{
+				id: "1EF32A73580B7C2D"
+				title: "Underground Campsites"
+				type: "checkmark"
+			}]
+			title: "Underground Houses"
+			x: -21.25d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2F72F4110732B232"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enigmaticlegacy:items/heaven_scroll"
+				}
+			}
+			id: "023FE9448496DA38"
+			subtitle: "Big Elegant Ships that roam the End Void"
+			tasks: [{
+				id: "390C2E70F951F984"
+				title: "Heavenly Riders/Challengers/Conquerors"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 24.25d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			description: [
+				"\"Simply looking at this massive maze of industrial exploitation only begins to paint the picture of just how much is required goes into hardcore smithing and welding. The workers are forced to mine day and night, with little to no sleep, for the Earth's hardest metals to be mass produced. And this is just step 1- the majority of the exported material goes to even Bigger and even Deeper underground Foundries for processing.\""
+				""
+				"\"The Heavily Geared workers and guards are instructed to attack on sight, as it is a highly restricted area, and allowing anyone else inside could compromise their production. As you can imagine, though, the loot from this place would be enough to create your own industry- with many metals, netherite and stones in the process here.\""
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "everycomp:textures/block/abnww/architects_palette/twisted_beehive_front_honey.png"
+				}
+			}
+			id: "638D83F794720CB8"
+			subtitle: "Rare Massive Underground Forge Mines(with an well entrance at the top) with large tunnels."
+			tasks: [{
+				id: "23B456CC1C9B3D69"
+				title: "Scorched Mines"
+				type: "checkmark"
+			}]
+			x: -16.25d
+			y: 17.5d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/end_crystal.png"
+				}
+			}
+			id: "002646A104AA19DF"
+			subtitle: "Uncommonly, warped roaming end ships that flew from their End Cities, and small island houses with a Merchant are found floating in the Barrens."
+			tasks: [{
+				id: "37F2C9074C5C84E1"
+				title: "End Ships"
+				type: "checkmark"
+			}]
+			title: "Small End Structures"
+			x: -15.0d
+			y: 21.25d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			description: ["\"Can be located with a map from a early cartographer trade, or a holosphere crafted with an eye of ender. Contains crates opened with Tetra-Weapon-specific Hammers and Knives, that drop exclusive materials; like nuts, bolts, staves, combustion chambers, planar stabilizers, and more to meet your every Tetra tool need.\""]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tetra:items/module/toolbelt/belt/buckled"
+				}
+			}
+			id: "1CFF83681138C63B"
+			subtitle: "In Cold, Mountainous Regions you can find Underground Ruins containing Ancient Workbenches necessary to progress tiers 5-7 in Tetra toolmaking."
+			tasks: [{
+				id: "0322F5D9D6DCD5B9"
+				title: "Tetra Forge Ruins"
+				type: "checkmark"
+			}]
+			x: -16.25d
+			y: 19.0d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dungeons_mobs:item/gold_pillager_helmet"
+				}
+			}
+			id: "54417E9FBD1E58B8"
+			subtitle: "A subsect of Illagers who grew Powerful in Strange Sorcery created a Large Base of Operations in the Taigas to unite their surrounding fellows."
+			tasks: [{
+				id: "6DB80CCF43461DA3"
+				title: "Illager Fort"
+				type: "checkmark"
+			}]
+			x: -18.75d
+			y: 16.0d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			description: ["\"These don't serve a purpose other than looking cool, or contain much loot. Whoever made them, and with what intent they were made, is unknown; like the Ancient City's portal. Why is there glass symbolizing a portal? Why is it blue glass in the Underground Overworld, and Red in the Nether? Were these once used as gateways to something g r e a t e r ? We may never know.\""]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "endermanoverhaul:item/ancient_pearl"
+				}
+			}
+			id: "0C4787C07E46F36D"
+			subtitle: "Found Rarely Deep Underground and Uncommonly in the Nether "
+			tasks: [{
+				id: "6B3F08198EFE90D5"
+				title: "Ancient Portals"
+				type: "checkmark"
+			}]
+			x: -18.75d
+			y: 23.5d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:item/misc/blue_journal"
+				}
+			}
+			id: "0E49AC1A0094A647"
+			subtitle: "Uncommon House that has Everbright/dawn Portal blocks, and belongs to a Gatekeeper, who will sell you the Lighter(Zeal) and a guidebook."
+			tasks: [{
+				id: "6C4016B818EEAC5E"
+				title: "Gatekeeper House"
+				type: "checkmark"
+			}]
+			x: -23.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["0F9A26D48FCD40FB"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enigmaticlegacy:items/withered_tome"
+				}
+			}
+			id: "10A6946104B2DF32"
+			subtitle: "Abandoned Houses, Fishing Huts, Wishing Wells"
+			tasks: [{
+				id: "563C8FEEB55CEA40"
+				title: "Common Small Structures"
+				type: "checkmark"
+			}]
+			x: -23.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["1438BB8F20BD5396"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enigmaticlegacy:textures/unused/embellished_book.png"
+				}
+			}
+			id: "2766305B56603EE3"
+			subtitle: "[REDACTED]"
+			tasks: [{
+				id: "6CFCCBCA264FF562"
+				title: "Nexus"
+				type: "checkmark"
+			}]
+			x: -10.75d
+			y: 21.25d
+		}
+		{
+			dependencies: ["65ED02BF80D73C74"]
+			description: ["\"Home to many a spirit, the Haunted Manor is a small (big by any other standard)castle on a hill, surrounded by tombs and electrically powered by the sheer spiritual activity nearby. It reeks of ectoplasm on the ground floor, as below it lies a basement full of death and despair. One must imagine these ghosts happy, for the place looks nice, but the sustenance of souls it requires makes it emanate terrible vibes to any passersby.\""]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "meetyourfight:item/haunted_bell"
+				}
+			}
+			id: "254CD26877486E53"
+			subtitle: "Rarely in Forests dwells a small castle, once bustling and lively, now rotten to it's core."
+			tasks: [{
+				id: "5C8FEF5910E7F1F1"
+				title: "Haunted Manor"
+				type: "checkmark"
+			}]
+			x: -16.25d
+			y: 20.5d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			hide_dependency_lines: true
+			icon: "cataclysm:enderite_block"
+			id: "0079E8EEDC6ABBEE"
+			subtitle: "Found on Large End Islands. Home to the Ender Guardian"
+			tasks: [{
+				id: "4CB6FF0C61D3B994"
+				title: "Ruined Citadel"
+				type: "checkmark"
+			}]
+			x: -13.75d
+			y: 20.5d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			hide_dependency_lines: true
+			icon: "cataclysm:ignitium_block"
+			id: "3324033D7A91F61C"
+			subtitle: "Found in the Nether Wastes. Home to Ignis"
+			tasks: [{
+				id: "05A40A59474B9B95"
+				title: "Burning Arena"
+				type: "checkmark"
+			}]
+			x: -13.75d
+			y: 19.0d
+		}
+		{
+			dependencies: ["026E3B9C89DB1339"]
+			hide_dependency_lines: true
+			icon: "cataclysm:witherite_block"
+			id: "448F05DD29C73D94"
+			subtitle: "Deep Underground. Home to the a Mechanized Wither known as the Harbinger."
+			tasks: [{
+				id: "67EF8560B7C5676C"
+				title: "Ancient Factory"
+				type: "checkmark"
+			}]
+			x: -13.75d
+			y: 22.0d
+		}
+		{
+			dependencies: ["74FD30A3C2514499"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:block/blackstone_furnace_front_on_soul"
+				}
+			}
+			id: "50C752E5BAE48622"
+			subtitle: "Found in the Nether Wastes. Home of the Netherite Monstrosity."
+			tasks: [{
+				id: "60340C41AF4FD313"
+				title: "Soul Blacksmith Forge"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 16.75d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:writable_book"
+			id: "7671305735629AF6"
+			size: 2.0d
+			subtitle: "Strong enemies are inbetween the boss columns. "
+			title: "Boss/Enemies Checklist"
+			x: -46.25d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			description: [
+				"\"&eConjurer&r | &c288 ❤&r | &70 ⛨\""
+				""
+				"\"Welcome to the show! The Conjurer is a magician full of tricks! Killer rabbits from a hat, sharp playing cards, bouncing balls, oh my! Their hits will inflict you with Blindness and Magic Depletion though as well! Not only that, this showman can also teleport when you approach and turn themself invisible, though the particles they emit while spellcasting will give them away.\""
+				""
+				"\"Bring a good melee weapon! Ranged weapons are useless, as the Conjurer is immune to projectiles and the rabbits are too small and fast to hit.\""
+			]
+			icon: {
+				Count: 1b
+				id: "conjurer_illager:conjurer_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "037487463F294265"
+			subtitle: "Illager Theatre in the dark forest. \"The Conjurer inflicts short magic depletion and blindness on hit, makes himself invisible and teleports, spews random trinkets, and is immune to arrows and bad effects.\""
+			tasks: [{
+				id: "104BD2B15023C792"
+				title: "Conjurer"
+				type: "checkmark"
+			}]
+			x: -43.25d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			description: [
+				"\"&eSwampjaw&r | &c200 ❤&r | &70 ⛨\""
+				""
+				"\"Swampjaw is a large, skeletal fish with an explosive personality. Don't fight it near anything important! To prepare for this fight, find a large, open area and bring a ranged weapon. The boss' attack pattern is as follows:\""
+				""
+				"\"- It'll orbit above your head for a few seconds. Take advantage of this time by using a ranged weapon.\""
+				"\"- Next, it will drop three explosive mines. Get as far away from these as possible before they hit the ground.\""
+				"\"- Finally, it'll swoop down for a bite, inflicting Armor Decrease and Bone Fracture. You can use a melee weapon to get a hit in, or you can shoot it beforehand; damaging Swampjaw will cancel this attack.\""
+			]
+			icon: "aquamirae:anglers_fang"
+			id: "4A4C78CB96D21167"
+			subtitle: "BIOME BOSS: Swamp at night"
+			tasks: [{
+				id: "21359B0117D35F43"
+				title: "Swampjaw"
+				type: "checkmark"
+			}]
+			x: -43.25d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			description: [
+				"\"&eStray Huntsman&r | &c200 ❤&r | &710 ⛨\""
+				""
+				"\"The Stray Huntsman spawns with a Stray Hunter and frozen wolves. Both of the hunters have high knockback attacks, meanwhile the dogs will swarm you. The Stray Huntsman also has a powerful ice stomp. However, it's nothing that can't be dealt with as long as you have decent armor and something to slash with.\""
+			]
+			icon: "rottencreatures:frozen_rotten_flesh"
+			id: "646E25504B30087A"
+			subtitle: "BIOME BOSS: Frozen Biomes at night"
+			tasks: [{
+				id: "07B5EC64B32A8866"
+				title: "Stray Huntsman"
+				type: "checkmark"
+			}]
+			x: -43.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			description: [
+				"\"&eQueen Bee&r | &c200 ❤&r | &75 ⛨\""
+				""
+				"\"This boss sure seems familiar, but I'm not sure where I've seen it before...\""
+				""
+				"\"This oversized insect is actually neutral; she won't attack you unless you provoke her first. When angered, she'll use a variety of poisonous attacks to wear you down, such as rushing in with her giant stinger, summoning a horde of angry bees, or dropping a poison cloud if you stay close to her for too long.\""
+				""
+				"\"A good way to neutralize her poison, as well as keeping your saturation up to regenerate, is to bring Bottles of Honey. A good ranged weapon is also helpful in avoiding her deadly stinger.\""
+			]
+			icon: "minecraft:honeycomb"
+			id: "5237CCE433D6CBF9"
+			subtitle: "BIOME BOSS: Jungle at night, Found in large beehives in Jungle biomes"
+			tasks: [{
+				id: "44CEC923F017E29E"
+				title: "Queen Bee"
+				type: "checkmark"
+			}]
+			x: -43.25d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			description: [
+				"\"&eBellringer&r | &c300 ❤&r | &70 ⛨\""
+				""
+				"\"The Bellringer will float around you and toll its bell, which will create three square formations that fall on your head or three line formations that you have to jump over. You can bring a ranged weapon or just jump around swinging.\""
+				""
+				"\"When it reaches half health, it will apply Slowness before sending a barrage of zig-zag lines at you, which you can dodge by jumping while running in the same direction as them. Afterwards, it will resume its normal attack pattern, but sending four waves instead of three.\""
+				""
+				"\"Not much else to say here. Hope you like jump rope!\""
+			]
+			icon: "meetyourfight:haunted_bell"
+			id: "51DA82416F5227C8"
+			subtitle: "BIOME BOSS: Taigas at night,"
+			tasks: [{
+				id: "7961137D5A7103C1"
+				title: "Bellkeeper"
+				type: "checkmark"
+			}]
+			x: -41.25d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			description: [
+				"\"&eElder Guardian&r | &c160 ❤&r | &70 ⛨\""
+				""
+				"\"The Elder Guardian, everyone's favourite (perhaps least favourite) spiny, cyclopic, squid-hating sea creature. It's got sharp thorns that'll stab ya back, eye lasers, and it'll slow your mining arm like nothing else. We're all familiar with this guy, aren't we?\""
+				""
+				"\"Bring a few Free Breathing and Night Vision potions, and some Depth Strider boots to navigate the monument. A Trident enchanted with Impaling and a horde of adorable Axolotls will quickly turn these guys into oversized sashimi.\""
+			]
+			icon: "enigmaticlegacy:ocean_stone"
+			id: "31B831AC0801A436"
+			subtitle: "3 spawn in major rooms in the Ocean Monument"
+			tasks: [{
+				id: "130410FAF5099864"
+				title: "Elder Guardian"
+				type: "checkmark"
+			}]
+			x: -41.25d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			description: [
+				"\"&eScarab of Fegefeur&r | &c250 ❤&r | &710 ⛨\""
+				""
+				"\"The Scarab of Fegefeur will buzz above your head, teleporting and firing flame projectiles at you, which will inflict the damaging Fegefeur debuff. Use a sturdy shield and take any down-time you can get to strike back with a ranged weapon.\""
+			]
+			icon: {
+				Count: 1b
+				id: "predators:sultan_of_fegefeuer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DCE99962A6CCA5E"
+			subtitle: "Desert"
+			tasks: [{
+				id: "6FB66480D947BAC6"
+				title: "Scarab of Fegefeur"
+				type: "checkmark"
+			}]
+			x: -41.25d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			description: [
+				"\"&eAmethyst Colossus&r | &c500 ❤&r | &70 ⛨\""
+				""
+				""
+				"\"Is an annoying rare Golem who's eaten too many ores for breakfast. Now resides below y=0.\""
+				""
+				"\"Will spin his arms towards you to try and suck you into his tornado of punches. He smacks you after a short charge up when up close, dealing more damage when smacked into walls. Will occasionally slam the ground and create a shockwave of Amethyst spikes around him you need to stand in between.\""
+			]
+			icon: "iter_rpg:ametrine_geode"
+			id: "722BA40E8B088F4E"
+			subtitle: "BIOME BOSS: Spawns in Deep Caves at night"
+			tasks: [{
+				id: "7883F46C83F4C427"
+				title: "Amethyst Colossus"
+				type: "checkmark"
+			}]
+			x: -38.75d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			description: [
+				"\"&eCaptain Cornelia&r | &c200 (x3) ❤&r | &716 ⛨\""
+				""
+				"\"The Ghost of Captain Cornelia is a heavy hittin' dual wieldin' gal. Her unique ability is to wield a variety of different weapons against you; be wary of her poisoned daggers!\""
+				""
+				"\"This is a close-combat fight, as Captain Cornelia is immune to ranged attacks. Bring a shield to block her attacks and a potion of Resilience or Knockback Resistance to prevent her from knocking you around.\""
+				""
+				"\"The first two times you deplete her health, she float up and regenerate, with dangerous blades rotating around her, signalling phase changes. In her third and final phase, she will begin to rapidly regenerate whenever her health falls too low, unless she is inflicted with Weakness. You can either bring Splash Potions of Weakness or try and overpower her regeneration with high damage.\""
+			]
+			icon: {
+				Count: 1b
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4735B54377A5B956"
+			subtitle: "Summoned by using a Shell Horn near water in an Ice Maze"
+			tasks: [{
+				id: "5A464903FC5302A6"
+				title: "Captain Cornelia"
+				type: "checkmark"
+			}]
+			x: -41.25d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			description: [
+				"\"&eInsatiable&r | &c200 ❤&r | &78 ⛨\""
+				""
+				"\"The Insatiable is capable of swimming through the earth, spawning Drowned and Scallops to back itself up, and throwing various water projectiles or Blobs that burst into spikes!\""
+				""
+				"\"Keep your distance from any Blobs it spawns, kill its minions when you get the opportunity, and run around if you see the Insatiable dive underground. If you do that, you'll be just fine!\""
+			]
+			icon: {
+				Count: 1b
+				id: "dungeons_mobs:necromancer_trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "09F9F19EF9D9E3AF"
+			subtitle: "BIOME BOSS: Beach at night"
+			tasks: [{
+				id: "2BF5D687C8928067"
+				title: "Insatiable"
+				type: "checkmark"
+			}]
+			x: -41.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			description: [
+				"\"&eFreakager (Phase 1)&r | &c160 ❤&r | &70 ⛨\""
+				"\"&eRagno (Phase 2)&r | &c160 ❤&r | &70 ⛨\""
+				""
+				"\"This horrific trickster appears during a raid! It is initially invulnerable; to begin the battle, you must defeat all other raid enemies. Afterwards, attack the Freakager to initiate the battle.\""
+				""
+				"\"The Freakager battle is made up of the Freakager itself and its mount, the Ragno. The Ragno is invincible while the Freakager is alive. To kill the Freakager, use ranged attacks and avoid the projectiles, bombs, and potions that it will throw at you. If you see any candies floating around, make sure to destroy them quickly, as the Freakager uses them to heal.\""
+				""
+				"\"Once the Freakager is defeated, Ragno will become enraged, inheriting the Freakager's attacks and gaining a few of its own, such as burrowing underground or charging. When Ragno attacks a certain number of times, it becomes tired; this is your opportunity to get a few hits in.\""
+			]
+			icon: "enigmaticlegacy:darkest_scroll"
+			id: "4555F8BFF2EAB685"
+			subtitle: "Appears on the fourth wave of a Raid"
+			tasks: [{
+				id: "37AF460109F0361C"
+				title: "Freakager"
+				type: "checkmark"
+			}]
+			x: -41.25d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			description: [
+				"\"&eCerberus&r | &c240 ❤&r | &70 ⛨\""
+				""
+				"\"Who's a good fire-breathing three-headed pupper! This guy is!\""
+				""
+				"\"Cerberus itself isn't a particular threat, it's just a fairly tanky dog that melee attacks and shoots fireballs. All you need is Fire Resistance and some decent armour, and you'll be fine. The &oreal&r problem is the seven bajillion mobs that'll be swarming you as part of the raid; bring a good AoE Smite weapon!\""
+			]
+			icon: "majruszsdifficulty:undead_battle_standard"
+			id: "1345A21D53B8C480"
+			subtitle: "Spawns on the final wave of an Undead Army in Expert Mode"
+			tasks: [{
+				id: "3D8CA381195C6A90"
+				title: "SpiritCaller"
+				type: "checkmark"
+			}]
+			title: "Cerberus"
+			x: -41.25d
+			y: 18.5d
+		}
+		{
+			dependencies: ["4E8F67E3C41C1A53"]
+			description: [
+				"\"&eThe Wither&r | &c600 ❤&r | &74 ⛨\""
+				""
+				"\"You may scoff and say, \\\"I don't need a guide on the Wither! I've played this game 7.5 trillion times!\\\" You're probably right, but this Wither fight might have a few surprises. Those who have played Bedrock Edition are about to relive some very, very bad memories...\""
+				""
+				"\"The first phase of the Wither is relatively normal, save for the Blue Wither Skulls it fires, which you can repel for a little bit of damage. The fun starts when the Wither enters its second phase, signalled by its projectile-immunity shield and the three Wither Skeletons it spawns. Now, it gains a dash attack, which deals massive damage and &oobliterates&r terrain.\""
+				""
+				"\"When its health is depleted, it will begin glowing and growing bigger. Make sure to grab the Wither Treasure Bag quickly and back away; it's going to EXPLODE.\""
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "268776F573637BA4"
+			size: 1.5d
+			subtitle: "Place four Soul Sand/Soil in a T formation, and three Wither Skeleton Skulls on top"
+			tasks: [{
+				id: "5675A02CC982CD62"
+				title: "Wither"
+				type: "checkmark"
+			}]
+			x: -36.25d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			description: [
+				"\"&ePrisnautilus&r | &c450 ❤&r | &715 ⛨\""
+				""
+				"\"No need for a Blood Moon here! The Prisnautilus has four attacks: a sonic boom, high-knockback Prismarine projectiles, chucking a bunch of Prismarine blocks everywhere, and direct contact damage. All of these are pretty hard hitting, so bring some good armour!\""
+				""
+				"\"Even though it's possible to fight it in the Ocean, its heavily advised against unless you have some form of knockback resistance and Frost Walker (first time that enchantment has ever been useful!). Still, if you like a challenge, try it! Otherwise, stick to the beaches.\""
+			]
+			icon: "predators:refined_prismarine"
+			id: "794090F5AB2B7D28"
+			subtitle: "BIOME BOSS: Oceans at night"
+			tasks: [{
+				id: "5D96524D863C288C"
+				title: "Prisnautilus"
+				type: "checkmark"
+			}]
+			x: -38.75d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			description: [
+				"\"&eSpiritcaller&r | &c240 ❤&r | &70 ⛨\""
+				""
+				"\"This deadly ritualist appears during a raid! It is initially invulnerable; to begin the battle, you must defeat all other raid enemies. Afterwards, attack the Spiritcaller to initiate the battle.\""
+				""
+				"\"You'll want to fight the Spiritcaller in an open area, as this boss requires a LOT of running. Make sure to use those Parcool movements! The Spiritcaller will fly around a lot, so a ranged weapon is advised, but be warned; it takes halved ranged damage and will try and dodge projectiles. When it's firing its laser, telegraphed a charging-up sound, it's immobile, so take this opportunity to take a shot or two.\""
+				""
+				"\"Most of its attacks are telegraphed; you'll know they're coming before they happen. Avoid any red spots you see on the ground, any giant floating hands, and when you hear the laser being charged up, run around like crazy!\""
+			]
+			icon: "blue_skies:multi_portal_item"
+			id: "1F34B1CDCB13BF5C"
+			subtitle: "Appears on the fourth wave of a Raid"
+			tasks: [{
+				id: "372185659DA1EFA2"
+				title: "Spiritcaller"
+				type: "checkmark"
+			}]
+			x: -38.75d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			description: [
+				"\"&eDame Fortuna&r | &c450 ❤&r | &75 ⛨\""
+				""
+				"\"Did you fight Bellringer? This fight is Bellringer on steroids! Dame Fortuna will float around you and fire projectiles just like Bellringer did.\""
+				""
+				"\"Dame Fortuna has three attacks: a wall of projectiles in spaced vertical lines, a ceiling of projectiles that she drops on you, and a bunch of fangs that snap up at where you're standing. Dodge the wall and the ceiling by weaving between the gaps, and dodge the fangs by running like crazy!\""
+				""
+				"\"To defeat Dame Fortuna, use a ranged weapon or just jump around swinging your sword. Make sure you fight her in an open area so you can dodge freely!\""
+			]
+			icon: "meetyourfight:slicers_dice"
+			id: "7515C93DA6F6333A"
+			subtitle: "BIOME BOSS: Mesa/Yellowstones at night"
+			tasks: [{
+				id: "18AF5F5991917450"
+				title: "Dame Fortuna"
+				type: "checkmark"
+			}]
+			x: -38.75d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			description: [
+				"\"&eSorrowsealed&r | &c500 ❤&r | &712 ⛨\""
+				""
+				"\"The Sorrowsealed is initially invulnerable; to damage it, you must defeat the Mourner mobs that are \\\"chained\\\" to it. This big cube attacks with dangerous hexes that causes streams of fire, makes boulders fall from above, spawns more Mourner mobs, and more.\""
+				""
+				"\"It's best not to just try and wail on this boss. Keep an eye on the floor; make sure you're not standing on any circular sigils, and circle the boss while going in for melee strikes. \""
+			]
+			icon: "enigmaticlegacy:forbidden_fruit"
+			id: "5B026547F6490336"
+			subtitle: "Find beneath a Sorrow Spire in the Nether"
+			tasks: [{
+				id: "5DC65C1998A8CBF2"
+				title: "Sorrowsealed"
+				type: "checkmark"
+			}]
+			x: -38.75d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			description: [
+				"\"&eSummoner&r | &c350 ❤&r | &70 ⛨\""
+				""
+				"\"The Summoner will summon a plethora of Artificial Golems to hound you during the battle. The golems are capable of melee attacks and shooting projectiles. Bring a strong sweeping weapon to quickly take care of them!\""
+				""
+				"\"The boss itself will teleport away from you unless it's in the middle of casting a spell, signified by a raised hand and particles. By killing the Artificial Golems and forcing it to spawn more, you can create opportunities to attack. The Summoner itself also has two attacks: if you're far away from it, it'll cast a laser, and if you're close, it will instead use lightning.\""
+				""
+				"\"Don't forget that in the Everbright, Overworld tools are less effective. Make sure you come prepared with tools made of this dimension's native resources!\""
+			]
+			icon: "enigmaticlegacy:escape_scroll"
+			id: "34BDA2C5DBB921B8"
+			subtitle: "Unlock the Boss Room at the peak of the Everbright's Blinding Dungeon using four Blinding Keys"
+			tasks: [{
+				id: "3A93A743DF0325FC"
+				title: "Summoner"
+				type: "checkmark"
+			}]
+			x: -41.25d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			description: [
+				"\"&eAlchemist&r | &c500 ❤&r | &70 ⛨\""
+				""
+				"\"The Alchemist uses potions and spells to wear you down! It can summon falling spikes, shoot arrows, create lingering clouds, and more!\""
+				""
+				"\"If you approach the Alchemist normally, it'll teleport away. However, it can't teleport while spell-casting, so make sure to get your hits in if you see him raise his hand!\""
+				""
+				"\"Don't forget that in the Everdawn, Overworld tools are less effective. Make sure you come prepared with tools made of this dimension's native resources!\""
+			]
+			icon: "enigmaticlegacy:cursed_scroll"
+			id: "5A553FAEBE8AFB61"
+			subtitle: "Unlock the Boss Room at the peak of the Everdawn's Blinding Dungeon using four Blinding Keys"
+			tasks: [{
+				id: "0AF418CE14A5CE94"
+				title: "Alchemist"
+				type: "checkmark"
+			}]
+			x: -41.25d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6DF3C5B8D11BC5B5"]
+			description: [
+				"\"&eEnder Dragon&r | &c500 ❤&r | &70 ⛨\""
+				""
+				"\"You've finally done it. You've reached &5The End&r after a long, arduous journey. You take a deep breath, step into the End Portal, and find yourself in pitch black night. Looking up, you face the Ender Dragon, and OH GOD IT HAS THREE HEADS.\""
+				""
+				"\"That's right, baby! The Ender Dragon now has three heads and a load of new attacks! You'll want Night Vision, a whole lotta blocks, a good ranged attack, and some Feather Falling! The dragon will breathe its signature dragon breath, charge towards you, pick you up, and even drop little dragon eggs, which will hatch into Baby Ender Dragons! If you see the Ender Dragon lining up towards you, get outta the way!\""
+				""
+				"\"Otherwise, you know the deal. Blow up all the End Crystals and then keep hitting it until it dies. With the addition of its charge attacks, you won't have to wait for it to perch to land a few melee strikes. Be careful though, and don't get knocked off the island!\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/dragon_breath"
+				}
+			}
+			id: "0CBCB72EE3CED22F"
+			size: 1.5d
+			subtitle: "Enter the End"
+			tasks: [{
+				id: "603CA3A412564B95"
+				title: "Ender Dragon"
+				type: "checkmark"
+			}]
+			x: -34.25d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4E8F67E3C41C1A53"]
+			description: [
+				"\"&eArachnarch&r | &c500 ❤&r | &76 ⛨\""
+				"\"\""
+				"\"The sovereign arthropod of the Poison Dungeon! Bring some Poison Resistance! Bring some Bane of Arthropods! Bring a rolled up newspaper!\""
+				"\"\""
+				"\"This big bugger will lunge at you, crawl on the ceiling, fire poisonous projectiles, and create poison clouds. If it picks you up, a good few swings will make it drop you again. On top of regular poison, it can also inflict its own Deadly Venom, so be careful! \""
+				"\"\""
+				"\"While it's on the ceiling, you won't be doing much damage. It's better to just run around until it falls onto the ground. It'll also occasionally lunge at you; if you time your shield right, you can stun the boss, which'll let you get a good few hits on it!\""
+			]
+			icon: "enigmaticlegacy:abyssal_heart"
+			id: "65C9A4DF9FBFF637"
+			subtitle: "Unlock the Boss Room in the depths of the Everdawn's Poison Dungeon using four Poison Keys"
+			tasks: [{
+				id: "163663385A8B11D4"
+				title: "Arachnarch"
+				type: "checkmark"
+			}]
+			x: -36.25d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4E8F67E3C41C1A53"]
+			description: [
+				"\"&eStarlit Crusher&r | &c500 ❤&r | &70 ⛨\""
+				""
+				"\"The Starlit Crusher is resistant to non-axe weapons, so you'll need a good chopper to take it down! Since axes tend to attack slowly, bring potions of Strength and a pair of Feral Claws as well! Make sure to avoid the Starlit Vines that come from the floor and take out the minions it spawns.\""
+				""
+				"\"This behemoth of a tree will create Starlit Walls to protect itself, which you can knock down using your axe. When you take a wall down, the Starlit Crusher will create shockwaves by pounding at the floor; jump to avoid them. During this attack, it's vulnerable to projectiles; if you hit it with a Spear, it'll be stunned, allowing you to get easy hits in!\""
+				""
+				"\"After its pounding attack, the Starlit Crusher may start spinning and shooting projectiles, which you can avoid by standing behind a pillar. This attack will tire it out, so get some hits in before the walls come back up!\""
+				""
+				"\"After half health, it may occasionally exit its position from the center of the room and start chasing you! Make sure not to get cornered!\""
+			]
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:extradimensional_eye"
+				tag: { }
+			}
+			id: "721D83B9F8A0B4F7"
+			subtitle: "Unlock the Boss Room in the Everbright's Nature Dungeon using four Nature Keys"
+			tasks: [{
+				id: "4A1C6429AE48E55C"
+				title: "Starlit Crusher"
+				type: "checkmark"
+			}]
+			x: -36.25d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6DF3C5B8D11BC5B5"]
+			description: [
+				"\"&eRosalyne&r | &c500 ❤&r | &78 ⛨\""
+				"\"\""
+				"\"Rosalyne, Blade of Dusk is a primarily melee-based boss. It starts encased in a rock with four Rose Spirits chained to it; you must kill these in order to release the boss. The Rose Spirits are invincible until their \\\"face\\\" emerges to fire at you, so shoot them as soon as you're able.\""
+				"\"\""
+				"\"Once Rosalyne is released, the real boss fight begins. Rosalyne will float above you in melee range, so jump stabbing them is an option. This boss' attacks are very heavy on shield durability, so make sure to use those blocks sparingly. Whenever Rosalyne raises their sword arm, that's your cue to sprint or roll outta there before they charge at you.\""
+				"\"\""
+				"\"At half health, the Rose Spirits are resummoned, and you do the same song and dance you did at the start, only with Rosalyne trying to chop your head off. Once the Rose Spirits are downed a second time, the battle resumes with Rosalyne using much more aggressive attacks.\""
+			]
+			icon: "meetyourfight:dusk_key"
+			id: "2253B05C1B9FF62A"
+			subtitle: "BIOME BOSS: In Moonlit/Sakura/Mirage/Amethyst biomes at night"
+			tasks: [{
+				id: "60E26036269DA7ED"
+				title: "Rosalyne"
+				type: "checkmark"
+			}]
+			title: "Rosalyne, Blade of Dusk"
+			x: -34.25d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6DF3C5B8D11BC5B5"]
+			description: [
+				"\"&eHovering Inferno&r | &c700 ❤&r | &720 ⛨\""
+				""
+				"\"The Hovering Inferno will fire projectiles such as Shulker Bullets, Fireballs, explosive Fireworks, Evoker fangs, lasers, and more! These attacks all come in patterns, so try to weave between the gaps!\""
+				""
+				"\"Once the Hovering Inferno's health is depleted, it will take a few moments before it revives itself, regenerating all health and becoming invulnerable. Take this time to recover your health. Once it's revived, it will begin launching a barrage of attacks, including glowing Shulker Bullets and many lasers. These attacks will drain its HP, so all you need to do is focus on surviving!\""
+			]
+			icon: {
+				Count: 1b
+				id: "dungeons_mobs:netherplate_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "23E7AE4359AA4707"
+			subtitle: "Throw a Nether Star onto the Infernal Altar"
+			tasks: [{
+				id: "12700A67C696674B"
+				title: "Hovering Inferno"
+				type: "checkmark"
+			}]
+			x: -34.25d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			description: [
+				"\"&eMagispeller&r | &c250 ❤&r | &70 ⛨\""
+				""
+				"\"The boss itself is probably easier than the raid you'll have to face. Still, it's quite the formidable opponent.\""
+				""
+				"\"The Magispeller has a myriad of attacks, ranging from summoning minions, creating illusion clones, and firing multitudes of projectiles such as arrows, fireballs, and potions. It can also create a repulsing healing circle that recovers health unless you deal enough damage.\""
+				""
+				"\"The key to defeating this trickster is killing anything it summons, running in circles around it while it's attacking, and stabbing or shooting when an opening occurs.\""
+			]
+			icon: "enigmaticlegacy:hunter_guidebook"
+			id: "60742FD7E67C033C"
+			subtitle: "Appears on the final wave of a Level 2+ Bad Omen Raid on Hard difficulty"
+			tasks: [{
+				id: "5986E08AA9AE9BF4"
+				title: "Magispeller"
+				type: "checkmark"
+			}]
+			x: -38.75d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			description: [
+				"\"&eNetherite Monstrosity&r | &c500 ❤&r | &710 ⛨\""
+				""
+				"\"The ancient war machine of the Nether, the Netherite Monstrosity, is a hulking goliath found in the Soul Forge, which you can locate by using an Eye of Monstrous.\""
+				""
+				"\"Resistant to arrows, except for the head. Try to keep close, as if you get too far away, the Netherite Monstrosity will start firing magma projectiles that explode and place lava, which can quickly lead to a flooded arena. Be careful of its shield-disabling slam attacks, which will knock you into the air and inflict Armor Decrease and Bone Fracture. Make sure to aim for its head or torso when attacking.\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cataclysm:textures/mob_effect/monstrous.png"
+				}
+			}
+			id: "150FC914B84E086F"
+			subtitle: "Found in the Nether's Soul Forge"
+			tasks: [{
+				id: "2FB4B05427602F92"
+				title: "Netherite Monstrosity"
+				type: "checkmark"
+			}]
+			x: -38.75d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			description: [
+				"\"&eSir Pumpkinhead (Phase 1)&r | &c150 ❤&r | &79 ⛨\""
+				"\"&eSir Pumpkinhead (Phase 2)&r | &c120 ❤&r | &74 ⛨\""
+				"\"&ePumpkinhead (Phase 3)&r | &c65 ❤&r | &74 ⛨\""
+				""
+				"\"In Sir Pumpkinhead's first phase, he'll charge at you and attack directly, removing your potion effects and replacing them with Slowness and Soul Stratification. He will also summon Mr. Pumpkins, which will linger around and deal contact damage. He has a chance of teleporting away after you hit him.\""
+				""
+				"\"Once his health is fully depleted, he will enter his second phase and dismount his horse. The horse will kick you with large knockback, and Sir Pumpkinhead will fire exploding pumpkins at you.\""
+				""
+				"\"Once his health is fully depleted &oagain&r, Sir Pumpkinhead will separate from his body. The body will attack you directly as the head floats at a distance and shoots more exploding pumpkins.\""
+			]
+			icon: "born_in_chaos_v1:holiday_candy"
+			id: "56D52D898E5EBB8A"
+			subtitle: "Can be summoned by breaking an &eInfernal Evil Pumpkin&r. You can locate these by just exploring your world, they'll have a ritual taking place with &eCandles&r all around it! "
+			tasks: [{
+				id: "711135CE8BA725A7"
+				title: "Sir Pumpkinhead"
+				type: "checkmark"
+			}]
+			x: -43.25d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			description: [
+				"\"&eMutant Zombie&r | &c360 ❤&r | &70 ⛨\""
+				""
+				""
+				"\"The Mutant Zombie is the tankiest of the early-game Mutants. It'll pound the ground, creating a shockwave, throw you into the air and smack you down, and spawn other Zombies. It's quick, but its attack range is small, so it might be good to keep your distance and use ranged attacks.\""
+				""
+				"\"When it gets knocked down, the fight's not over; it'll rise back up after a few moments. It will do this three times, unless it's burning while its down. Make sure to bring a Flint and Steel!\""
+			]
+			icon: {
+				Count: 1b
+				id: "mutantmonsters:hulk_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E2C0E85CBCC0610"
+			subtitle: "\"Find a naturally spawning Mutant Zombie in the dark or splash Chemical X on a normal Zombie\""
+			tasks: [{
+				id: "7FBFBF40C603082F"
+				title: "Mutant Zombie"
+				type: "checkmark"
+			}]
+			x: -43.25d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			description: [
+				"\"&eMutant Skeleton&r | &c360 ❤&r | &70 ⛨\""
+				""
+				""
+				"\"The Mutant Skeleton's got powerful ranged attacks and will spot you from a mile away! When it jumps, it'll fire a spray of arrows. If you have the resources, a good shield and pieces of Projectile Protection armor will be helpful against this fight. You'll want to bring a ranged attack of your own, as the Mutant Skeleton will knock you away if you get close for melee damage.\""
+				""
+				"\"When the Mutant Skeleton dies, it'll scatter its bone fragments everywhere, dealing a little bit of final damage. You can right click to pick these fragments up afterwards.\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "mutantmonsters:textures/mob_effect/chemical_x.png"
+				}
+			}
+			id: "217FD8FE95575AE3"
+			subtitle: "Find a naturally spawning Mutant Skeleton in the dark or splash Chemical X on a normal Skeleton"
+			tasks: [{
+				id: "0D44126A5F3B8AFC"
+				title: "Mutant Skeleton"
+				type: "checkmark"
+			}]
+			x: -43.25d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			description: [
+				"\"&eMutant Creeper&r | &c400 ❤&r | &70 ⛨\""
+				""
+				""
+				"\"This is one of the fastest Mutants you're gonna see! The Mutant Creeper is extremely speedy, will poison you on contact, and will (obviously) create multiple high damage explosions all over to blow you to smithereens. Its attacks inflict a short Poison III, which causes you to die quickly unless you drink milk. If you have resources to spare, bring some Blast Protection!\""
+				""
+				"\"When it dies, it'll start drawing mobs in, before creating a massive explosion, so run away as fast as possible!\""
+				""
+				"\"Lastly, I hear something might happen if this Mutant gets struck by lightning...\""
+			]
+			icon: "iter_rpg:creative_catalyst"
+			id: "6D430ABCC4C39F70"
+			subtitle: "Find a naturally spawning Mutant Creeper in the dark or splash Chemical X on a normal Creeper"
+			tasks: [{
+				id: "2D4F8AF577577E6F"
+				title: "Mutant Creeper"
+				type: "checkmark"
+			}]
+			x: -38.75d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			description: [
+				"\"&eMutant Enderman&r | &c480 ❤&r | &70 ⛨\""
+				""
+				""
+				"\"The Mutant Enderman is highly attuned with the forces of the End, such that it can use Ender magic in order to inflict Darkness, create illusory Endersoul clones, disrupt your pearls, and teleport you into the air! Like a normal Enderman, it'll teleport around, pick up blocks, and dodge projectiles. &oUnlike&r a normal Enderman, its immune to water and it'll throw its blocks at you to deal damage!\""
+				"\"\""
+				"\"When it dies, it'll start throwing all entities nearby about, dealing damage as it does so. If you can escape, good for you. If you can't, well, better eat food and pray!\""
+			]
+			icon: {
+				Count: 1b
+				id: "mutantmonsters:endersoul_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "07696572F47CA032"
+			subtitle: "Find a naturally spawning Mutant Enderman in the dark or the End or splash Chemical X on a normal Enderman"
+			tasks: [{
+				id: "12114F80DE2AF9D9"
+				title: "Mutant Enderman"
+				type: "checkmark"
+			}]
+			x: -38.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4E8F67E3C41C1A53"]
+			description: [
+				"\"&eMutant Blaze&r | &c600 ❤&r | &710 ⛨\""
+				""
+				""
+				"\"When going for melees, note that you'll take overheat damage if you stand in the Mutant Blaze's flame aura for too long, regardless of Fire Resistance. Ranged attacks are difficult as well, as its shields deflect projectiles. They'll break if the Mutant Blaze sustains damage though, so shoot through the gaps or go for quick hit and runs!\""
+				""
+				"\"Additionally, the Mutant Blaze will glow orange before firing explosive fireballs, or it'll spin its rods above its head and launch them at you! These attacks inflict Blazing Brand, which decreases your armor. Running away or block with a shield to protect yourself! When the rods land, they have a chance to spawn a Rodling. The Mutant Blaze also gets stronger as its HP drops. When it dies, it'll cause a massive explosion, so be ready for that.\""
+				""
+				"\"To prepare for this fight, bring Fire Resistance. Armor pieces with Blast Protection help too. A fast melee weapon is good to break its shields and deal with the Rodlings.\""
+			]
+			icon: "mutantmore:mutant_blaze_core"
+			id: "5C20E06B881D161B"
+			subtitle: "Splash Formula Y (10%) or Compound Z (100%) on a Blaze"
+			tasks: [{
+				id: "7615C3C6145183A8"
+				title: "Mutant Blaze"
+				type: "checkmark"
+			}]
+			x: -36.25d
+			y: 18.5d
+		}
+		{
+			dependencies: ["4E8F67E3C41C1A53"]
+			description: [
+				"\"&eMutant Wither Skeleton&r | &c400 ❤&r | &75 ⛨\""
+				""
+				""
+				"\"The Mutant Wither Skeleton is a high-damage behemoth, dual wielding blades that can inflict Wither and smashing its way towards you. If you can, bring something to deal with its Wither effect, such as an Antidote Vessel or Dark Metal armor, as well as Fire Resistance. A weapon enchanted with Smite will be useful, as the boss is immune to ranged attacks.\""
+				""
+				"\"If you see its eyes light aflame, it is about to shoot high-speed fire projectiles or do a shield disabling jump slam. Furthermore, if you see its ribcage open, get away, as it can \\\"bite\\\" you for large damage! Note that the Mutant Wither Skeleton also has life-stealing effects, so make sure you're not just taking hits, you're also dealing them.\""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "mutantmore:textures/particle/wither_heart.png"
+				}
+			}
+			id: "4E3417927C03040F"
+			subtitle: "Splash Formula Y (10%) or Compound Z (100%) on a Wither Skeleton"
+			tasks: [{
+				id: "1C6A17B4E0B388C8"
+				title: "Mutant Wither Skeleton"
+				type: "checkmark"
+			}]
+			x: -36.25d
+			y: 9.5d
+		}
+		{
+			dependencies: ["04E26EDFCE2638E2"]
+			description: [
+				"\"&ePhase 1&r | &c400 ❤&r | &718 ⛨\""
+				"\"&ePhase 2&r | &c200 ❤&r | &718 ⛨\""
+				"\"&ePhase 3&r | &c200 ❤&r | &718 ⛨\""
+				""
+				"\"As the boss summoning method is too complicated for the subtitles, I'll place them here for convenience:\""
+				"\"1. Collect three unique Ominous Bone Staff Fragments from Ruins structures.\""
+				"\"2. Obtain a Bone Dagger through crafting or an Acolyte.\""
+				"\"3. With a glass bottle in your offhand, kill eight Villagers with the Bone Dagger to fill the bottle with blood.\""
+				"\"4. Find the floating Lich Prison structure above oceans.\""
+				"\"5. At night, place the three staff fragments on the Dark Corrupted Deepslate Blocks from upper to lower, left to right.\""
+				"\"6. Use the Vial of Blood on the Altar.\""
+				""
+				"\"Once the boss is summoned, get ready for a fight! In its first phase, it casts a variety of withering spells, such as firing exploding skulls, causing Levitation, summoning minions, and causing corpses to fall from the sky. A strong Smite weapon with good sweeping will swiftly deal with the minions and the boss.\""
+				""
+				"\"During its second phase, it'll initiate \\\"hunts,\\\" inflicting Blindness and slowly chase you around, with an occasional teleportation. It is invincible during this \\\"hunt\\\" phase and will deal MASSIVE contact damage, so don't get close! Once it returns to the center of the island and your Blindness subsides, it'll be vulnerable again, so start swinging!\""
+				""
+				"\"In its final phase, it'll get on all fours and crawl towards you, dealing contact damage and summoning minions. Go for melee swings and back off to heal if your health drops too far. Simple as that.\""
+			]
+			icon: "cataclysm:monstrous_eye"
+			id: "601654897E7167DF"
+			subtitle: "Open the Quest for summoning details"
+			tasks: [{
+				id: "29DA0E8FBF929A95"
+				title: "Corrupted Champion"
+				type: "checkmark"
+			}]
+			title: "Corrupted Champion"
+			x: -32.25d
+			y: 15.5d
+		}
+		{
+			dependencies: ["04E26EDFCE2638E2"]
+			description: [
+				"\"&eEnder Guardian&r | &c666 ❤&r | &720 ⛨\""
+				""
+				""
+				"\"To find the Lost Citadel, use Eyes of Void in the End!\""
+				""
+				"\"The Ender Guardian is both tanky and heavy-hitting. A melee weapon is required for this fight, as the boss is immune to ranged attacks.\""
+				""
+				"\"Mobility is a big issue in the Ender Guardian boss fight, as the arena is filled with movement inhibiting traps. The Ender Guardian itself can stun you with its big strikes, make you levitate with lines of Shulker Bullets, or draw you in using its End Vortex. Watch your step and stay away when the Ender Guardian rears to attack!\""
+			]
+			icon: "cataclysm:void_eye"
+			id: "3319A93B63F18AAC"
+			subtitle: "Found in the depths of the End's Lost Citadel"
+			tasks: [{
+				id: "2308B270576737BC"
+				title: "Ender Guardian"
+				type: "checkmark"
+			}]
+			x: -32.25d
+			y: 12.5d
+		}
+		{
+			dependencies: ["35B2C416FDF1F8CA"]
+			description: [
+				"\"&d?????&r | &c??? ❤&r | &7??? ⛨\""
+				"\"\""
+				"\"&5A great force lays dormant...&r\""
+			]
+			icon: "witherstormmod:withered_nether_star"
+			id: "6A1E39127C70BD81"
+			size: 1.5d
+			subtitle: "What lies beyond the End..."
+			tasks: [{
+				id: "7BAE8D560FD62F0D"
+				title: "?????"
+				type: "checkmark"
+			}]
+			x: -29.25d
+			y: 14.125d
+		}
+		{
+			dependencies: ["04E26EDFCE2638E2"]
+			description: [
+				"\"&eThe Leviathan&r | &c600 ❤&r | &710 ⛨\""
+				""
+				""
+				"THE BIGGEST FISH IN THE SEA. To find the Sunken City, use Eyes of Abyss in the Overworld! Bring Depth Strider, Free Breathing, some Night Vision, and optionally a Trident!"
+				""
+				"The Leviathan is a monster, capable of smashing Dimensional Rifts that draw you in and damage you, grabbing you in its jaws for massive damage, firing homing orbs, and inflicting the Abyssal Burn debuff, which deals damage over time. When the Leviathan roars, you will be afflicted with the Darkness debuff, and laser pillars will appear; do NOT touch these. If you see the Leviathan line up towards you, SWIM AWAY AS FAST AS YOU CAN. It is about to fire a devastating laser or charge and grab you for massive damage."
+				""
+				"At half health, the Leviathan becomes enraged, unleashing a flurry of homing orbs and becoming much more powerful! To avoid the orbs, circle around the pillars in the arena and let them take care of themselves."
+			]
+			icon: "cataclysm:abyss_eye"
+			id: "5EDA830DEF5BA470"
+			subtitle: "Offer an Abyssal Sacrifice at the Altar of Abyss in the Sunken City"
+			tasks: [{
+				id: "188B3B72D727A072"
+				title: "The Leviathan"
+				type: "checkmark"
+			}]
+			x: -32.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["04E26EDFCE2638E2"]
+			description: [
+				"\"&eIgnis&r | &c720 ❤&r | &710 ⛨\""
+				""
+				""
+				"You can challenge Ignis by using the Burning Ashes obtained from killing the Ignited Revenants under the Burning Arena. To find the Arena itself, use Eyes of Flame in the Nether."
+				""
+				""
+				"Ignis has a variety of both melee and ranged attacks. Whenever he rears his sword or raises his shield, he is about to unleash a devastating blow, so that's your cue to roll outta there! Ignis' signature debuff, Blazing Brand, will temporarily decrease your armour, meaning each hit will deal more damage than the last. Furthermore, his shield bashes can inflict Stun, which render you temporarily immobile."
+				""
+				""
+				""
+				"To make things even more difficult, as Ignis smashes and bashes, the Burning Arena will begin to fall apart, leaving cracks of lava that you may accidentally fall into. Watch your step!"
+			]
+			icon: "cataclysm:flame_eye"
+			id: "40AB36184F21875B"
+			subtitle: "Offer Burning Ashes on the Altar of Fire in the center of the Burning Arena"
+			tasks: [{
+				id: "79FEFF137513491C"
+				title: "Ignis"
+				type: "checkmark"
+			}]
+			x: -32.25d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6DF3C5B8D11BC5B5"]
+			description: ["\"Ender Golem | &c375 ❤&r | &712 ⛨\""]
+			icon: "minecraft:crying_obsidian"
+			id: "1AD5296163EDE46B"
+			tasks: [{
+				id: "095A0171B9BE258A"
+				title: "Ender Golem"
+				type: "checkmark"
+			}]
+			x: -34.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["04E26EDFCE2638E2"]
+			description: [
+				"\"&eThe Harbinger&r | &c600 ❤&r | &712 ⛨\""
+				""
+				""
+				"To find the Ancient Factory where the Harbinger lays dormant, use Eyes of Mech in the Overworld."
+				""
+				"This mechanized Wither will float above you in melee-range and fire barrages of explosives that will inflict the Wither effect or lasers that burn you. To deal with this, you can bring either a set of Dark Metal armor or an Antidote Vessel, as well as a potion of Fire Resistance. Free Breathing to deal with the thin air underground is necessary as well."
+				""
+				"If you are well-equipped, the only attacks you'll need to worry about is its big laser. When its rearing its head and \\\"shoulders\\\" back, run as fast as you can!"
+				""
+				"Lastly, note that the boss will passively regenerate, albeit slowly, and it will enter an enraged state at low health (around 1/4) where it will become more aggressive and is immune to projectiles. Good luck!"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:mech_eye"
+			}
+			id: "12E738DAC238B869"
+			subtitle: "Use a Nether Star on the dormant Harbinger in the underground Ancient Factory"
+			tasks: [{
+				id: "24893BF3F7D553FF"
+				title: "Harbinger"
+				type: "checkmark"
+			}]
+			x: -32.25d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4E8F67E3C41C1A53"]
+			description: [
+				"\"&eAmethyst Crab&r | &c400 ❤&r | &710 ⛨\""
+				""
+				"\"A relative of the Amethyst Colossus, the Crab is a formidable foe that is neutral until attacked.\""
+				""
+				"\"Hits you up close with arms, snaps you with it's pincers for huge damage, slams the ground and medium range in a AoE effect, shoots out amethyst spikes all around it occasionally. A jacked up crab miniboss\""
+			]
+			icon: "cataclysm:amethyst_crab_shell"
+			id: "1D7537DF924D446F"
+			subtitle: "BIOME BOSS: Spawns in Lush Caves rarely"
+			tasks: [{
+				id: "6C377D1D543953B1"
+				title: "Amethyst Crab"
+				type: "checkmark"
+			}]
+			x: -36.25d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4E8F67E3C41C1A53"]
+			description: ["\"&eWarped Mosco&r | &c500 ❤&r | &710 ⛨\""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "infernalexp:block/warped_fungus_cap_side"
+				}
+			}
+			id: "0FF400DBD753F318"
+			subtitle: "BIOME BOSS: Mushroom island at night, by having a mosquito eat a mungus"
+			tasks: [{
+				id: "51B041EFEA0170DA"
+				title: "Warped Mosco"
+				type: "checkmark"
+			}]
+			x: -36.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6DF3C5B8D11BC5B5"]
+			description: [
+				"\"&eEndstone Golem&r | &c1000 ❤&r | &75 ⛨\""
+				""
+				""
+				"\"Not to be confused with the other two End-based Golem bosses...\""
+				""
+				"\"The Endstone Golem will apply Building Inability as soon as the fight begins, which will add a cooldown to every block you place. Make sure you build some walls around the top of the Ancient End City &obefore&r the boss fight begins!\""
+				""
+				"\"This big slugger is real tanky, with one of the highest HP pools you'll encounter, and will afflict you with Levitation, strike you with lightning, and slam down real hard! If you get caught in one of its slam attacks, your main-hand and off-hand items will lose their right-click functionality for a little bit. Otherwise, like everything else, it'll die if you stab it enough!\""
+			]
+			icon: "enigmaticlegacy:etherium_ore"
+			id: "278887F4ECB4466B"
+			subtitle: "Use Dragon's Breath on the Endstone Altar at the top of an Ancient End City"
+			tasks: [{
+				id: "1F40177D8FA2CFDD"
+				title: "Endstone Golem"
+				type: "checkmark"
+			}]
+			x: -34.25d
+			y: 18.5d
+		}
+		{
+			dependencies: ["6DF3C5B8D11BC5B5"]
+			description: [
+				"\"&eVoid Worm&r | &c240 ❤&r | &74 ⛨\""
+				""
+				""
+				"\"We can't compare this modpack to Terraria if we didn't have a worm boss, right?!\""
+				""
+				"\"The Void Worm will soar through the End skies and fire loads of homing, electric orbs; this is primarily a ranged boss. A good shield or some Projectile Protection would be really handy to protect against it. It also utilizes portals to teleport to a different location. Occasionally, it'll also come in for a charge attack, where you can get a few melee hits in.\""
+				""
+				"\"While you're aiming your attacks, try to aim near the head or the tail, as dealing too much damage to its middle segments will cause it to split into more Void Worms!\""
+			]
+			icon: "enigmaticlegacy:eye_of_nebula"
+			id: "1ADC21166B85E547"
+			subtitle: "Throw a Mysterious Worm into the void in the End"
+			tasks: [{
+				id: "0E9294BDB834D5BE"
+				title: "Void Worm"
+				type: "checkmark"
+			}]
+			x: -34.25d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6DF3C5B8D11BC5B5"]
+			description: [
+				"\"&eMutant Shulker&r | &c360 ❤&r | &710 ⛨\""
+				""
+				""
+				"\"The Mutant Shulker dashes around at rapid speeds, firing explosive projectiles, traps that shoot Shulker bullets, and inflicting the Ender Flu, which deals massive damage once it wears off if it's not removed consuming Milk or Chorus Fruit. It'll also \\\"bite\\\" you with its shell. Furthermore, its dashes will knock you around, which can be quite precarious in the End, and it will retreat into its shell to recover when its health gets low.\""
+				""
+				"\"The boss will inflict you with the Levitation effect; if you've fought the Endstone Golem, you can negate this with a Shulker Orb.\""
+				""
+				"\"When it dies, it'll spew out a ton of giant Shulker bullets and Endermites. Keep a shield up!\""
+			]
+			icon: "mutantmore:mutant_shulker_turret"
+			id: "65D5B84B3595274A"
+			subtitle: "Splash Formula Y (10%) or Compound Z (100%) on a Shulker"
+			tasks: [{
+				id: "706AADB6D9DF40F0"
+				title: "Mutant Shulker"
+				type: "checkmark"
+			}]
+			x: -34.25d
+			y: 11.0d
+		}
+		{
+			dependencies: ["630F906261C5F005"]
+			disable_toast: true
+			icon: "minecraft:ender_eye"
+			id: "4204E8917AA2270C"
+			title: "Tier 0"
+			x: -43.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4CAC4CAEC17BD4C9"
+			title: "Tier 1 (0-3 Eyes)"
+			x: -41.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E0A976D0569982B"
+			title: "Tier 2 (3-6 eyes)"
+			x: -38.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E8F67E3C41C1A53"
+			title: "Tier 3 (6-9 eyes)"
+			x: -36.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4E8F67E3C41C1A53"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DF3C5B8D11BC5B5"
+			title: "Tier 4 (9-12 Eyes)"
+			x: -34.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6DF3C5B8D11BC5B5"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "04E26EDFCE2638E2"
+			title: "Tier 5 (12-16 eyes)"
+			x: -32.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77962090906709F2"]
+			icon: {
+				Count: 1b
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "35B2C416FDF1F8CA"
+			title: "Tier 6 (16 eyes - ???)"
+			x: -29.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7671305735629AF6"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info"
+				}
+			}
+			id: "630F906261C5F005"
+			title: "Recommended Progression"
+			x: -46.25d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "epicsamurai:textures/patchouli_images/kitsune_square.png"
+				}
+			}
+			id: "6E5A00A5057AD27C"
+			subtitle: "Dark Forest. Only spawns in expert mode"
+			tasks: [{
+				id: "4A1DD257A7D3FAC0"
+				title: "Kitsune"
+				type: "checkmark"
+			}]
+			x: -37.5d
+			y: 10.25d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "iter_rpg:items/demonbone"
+				}
+			}
+			id: "6AA7E2382181151A"
+			subtitle: "Only spawns in expert mode"
+			tasks: [{
+				id: "793FFF4781368B36"
+				title: "Carcass"
+				type: "checkmark"
+			}]
+			x: -37.5d
+			y: 14.75d
+		}
+		{
+			dependencies: ["04E26EDFCE2638E2"]
+			description: [
+				"\"&eWarden&r | &c500 ❤&r | &70 ⛨\""
+				""
+				"\"If it senses you near it(avoidable by sneaking), it will roar and run after you, dealing immense melee damage or locking onto you with a unavoidable sonic boom that pierces through up to 15 blocks if you are far away. This monster is not meant to be killed, but if it is to be tried, you will need the best of the best late game gear and to strategize to tank many unavoidable shots. It drops a treasure bag with a rare scroll.\""
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/warden.png"
+				}
+			}
+			id: "206D481C09C705A7"
+			subtitle: "Found in Ancient City, by alerting sculk sensors that alert a sculk shrieker if nearby. You get two freebies per life."
+			tasks: [{
+				id: "376C80C10C42EDBB"
+				title: "Warden"
+				type: "checkmark"
+			}]
+			x: -31.25d
+			y: 14.75d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "epicsamurai:textures/patchouli_images/oni_square.png"
+				}
+			}
+			id: "3BC32BC4654FCC06"
+			subtitle: "Only spawns in expert mode"
+			tasks: [{
+				id: "059864ED1D7E426C"
+				title: "Oni"
+				type: "checkmark"
+			}]
+			x: -37.5d
+			y: 11.75d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			hide_dependency_lines: true
+			icon: "born_in_chaos_v1:shattered_skull"
+			id: "018A162A2B3A17E7"
+			subtitle: "Night"
+			tasks: [{
+				id: "19D156FC6D81AFD5"
+				title: "Tank"
+				type: "checkmark"
+			}]
+			x: -42.25d
+			y: 13.25d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dungeons_mobs:item/drowned_necromancer_chestplate"
+				}
+			}
+			id: "750A1DBDEC793E76"
+			subtitle: "Night, drowned ones in Ocean"
+			tasks: [{
+				id: "37383D23E059D956"
+				title: "Necromancers"
+				type: "checkmark"
+			}]
+			x: -42.25d
+			y: 14.75d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/upgrade_aquatic/thrasher.png"
+				}
+			}
+			id: "77C8F049750CB8CE"
+			subtitle: "Deep Ocean ravines"
+			tasks: [{
+				id: "6238091E47DEDD46"
+				title: "Thrashers"
+				type: "checkmark"
+			}]
+			x: -42.25d
+			y: 16.25d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/piglin_brute.png"
+				}
+			}
+			id: "548D3402EC160121"
+			subtitle: "Bastions"
+			tasks: [{
+				id: "511B91D6AD366B51"
+				title: "Piglin Brute"
+				type: "checkmark"
+			}]
+			x: -40.0d
+			y: 14.75d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			hide_dependency_lines: true
+			icon: "cataclysm:lionfish"
+			id: "294794B00B41BC5D"
+			subtitle: "Ocean"
+			tasks: [{
+				id: "658C7DB42FB44CA3"
+				title: "Deepling Brute"
+				type: "checkmark"
+			}]
+			x: -40.0d
+			y: 13.25d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/big_dripleaf_stem"
+				}
+			}
+			id: "33736BB47D0A5C93"
+			subtitle: "Jungles for leafs, deep oceans for waves"
+			tasks: [{
+				id: "53908DDADE0ECC4B"
+				title: "Wave/leafwhisperers"
+				type: "checkmark"
+			}]
+			x: -40.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			hide_dependency_lines: true
+			icon: "artifacts:mimic_spawn_egg"
+			id: "7D66A99C2C46321C"
+			subtitle: "Campsites"
+			tasks: [{
+				id: "26531E2B4DAA5555"
+				title: "Mimic"
+				type: "checkmark"
+			}]
+			x: -42.25d
+			y: 11.75d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			description: ["\"Drops Coins\""]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "iter_rpg:blocks/goblin_gungeon_gen"
+				}
+			}
+			id: "2B47124F5AF52716"
+			subtitle: "BIOME BOSS: Plains/forest/Savanna at night, Goblin camps"
+			tasks: [{
+				id: "582961A11562938F"
+				title: "Hobgoblin"
+				type: "checkmark"
+			}]
+			x: -42.25d
+			y: 17.75d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dungeons_mobs:item/mage_chestplate"
+				}
+			}
+			id: "6202F0186F3057C6"
+			subtitle: "Raids"
+			tasks: [{
+				id: "2ED53BE5A33C3EB1"
+				title: "Mages/Illager Biome Variants"
+				type: "checkmark"
+			}]
+			x: -37.5d
+			y: 13.25d
+		}
+		{
+			dependencies: ["0E0A976D0569982B"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "friendsandfoes:item/wildfire_crown"
+				}
+			}
+			id: "041F37DDDE5CAD2D"
+			subtitle: "Nether Citadel"
+			tasks: [{
+				id: "0F1F421D4D1FCEA2"
+				title: "Wildfire"
+				type: "checkmark"
+			}]
+			x: -37.5d
+			y: 16.25d
+		}
+		{
+			dependencies: ["04E26EDFCE2638E2"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle2.png"
+				}
+			}
+			id: "2ED7BC11EFCEB66E"
+			subtitle: "Found in the Arctic Abyss in the End. Neutral if player is cold."
+			tasks: [{
+				id: "763A7A0123F7B412"
+				title: "Void Leviathan"
+				type: "checkmark"
+			}]
+			x: -31.25d
+			y: 13.25d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:textures/mob_effect/deadly_venom.png"
+				}
+			}
+			id: "541569C51C90951D"
+			subtitle: "Dark forest, Arthropod Catacombs"
+			tasks: [{
+				id: "0849BFF9A657AEC2"
+				title: "Giant Spider"
+				type: "checkmark"
+			}]
+			x: -40.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:textures/mob_effect/run.png"
+				}
+			}
+			id: "41A9493E622CB63C"
+			subtitle: "Night, Only spawns in expert mode.  a deformed creature that moves quicker than it seems. Better stay away and never look at it."
+			tasks: [{
+				id: "5160E5380EFE38FB"
+				title: "Nightmare"
+				type: "checkmark"
+			}]
+			x: -37.5d
+			y: 17.75d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:items/nightmaremask"
+				}
+			}
+			id: "457F5D21052C7758"
+			subtitle: "Night, Every three days will give you a warning that it will spawn. Only spawns in expert mode"
+			tasks: [{
+				id: "7281BEF3103986F2"
+				title: "Nightmare Stalker"
+				type: "checkmark"
+			}]
+			x: -40.0d
+			y: 17.75d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			description: ["Is a formidable miniboss with two lives, that is not damaged easily while his wither minions are still alive. Defeat the wither minions spawned to do normal damage to him."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:textures/mob_effect/magic_depletion.png"
+				}
+			}
+			id: "7AE5D8679CADC3F1"
+			subtitle: "Night, Only spawns in expert mode"
+			tasks: [{
+				id: "72D7A3930769297C"
+				title: "Supreme Bonescaller"
+				type: "checkmark"
+			}]
+			x: -40.0d
+			y: 19.25d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "rottencreatures:item/treasure_chest"
+				}
+			}
+			id: "0E541D8A7109221F"
+			subtitle: "Beach, Night"
+			tasks: [{
+				id: "6EC1D06EDC4A1CEB"
+				title: "Deadbeard"
+				type: "checkmark"
+			}]
+			x: -42.25d
+			y: 10.25d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "aquamirae:item/maze_rose"
+				}
+			}
+			id: "56275AA26BBA3E07"
+			subtitle: "BIOME BOSS: Frozen Ocean, Night"
+			tasks: [{
+				id: "1204EF7C28DB809F"
+				title: "Mother of the Maze"
+				type: "checkmark"
+			}]
+			x: -42.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "aquamirae:textures/gui/perk.png"
+				}
+			}
+			id: "3E777F4E865EBC12"
+			subtitle: "Frozen Dungeon"
+			tasks: [{
+				id: "0DE429E1A14D3AAF"
+				title: "Eel"
+				type: "checkmark"
+			}]
+			x: -40.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["4204E8917AA2270C"]
+			hide_dependency_lines: true
+			icon: "cataclysm:crystallized_coral"
+			id: "5060286BD5E54EA4"
+			subtitle: "Sunken City, Fishing"
+			tasks: [{
+				id: "048E76EBE834AF47"
+				title: "Corallsus"
+				type: "checkmark"
+			}]
+			x: -42.25d
+			y: 19.25d
+		}
+		{
+			dependencies: ["4CAC4CAEC17BD4C9"]
+			hide_dependency_lines: true
+			icon: "nourished_nether:ghoulflower"
+			id: "6CB35B7713CC0130"
+			subtitle: "Spawns at night post expert mode, a deformed revenant, held together only by his rage on the living."
+			tasks: [{
+				id: "33115C437CC69155"
+				title: "Ghoul"
+				type: "checkmark"
+			}]
+			x: -40.0d
+			y: 16.25d
+		}
+		{
+			dependencies: ["35B2C416FDF1F8CA"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enlightened_end:textures/mob_effect/dazed.png"
+				}
+			}
+			id: "0A1AEAB627189395"
+			tasks: [{
+				id: "519BD8979ADD96C2"
+				title: "Nexus"
+				type: "checkmark"
+			}]
+			x: -29.25d
+			y: 15.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cataclysm:item/remnant_skull"
+				}
+			}
+			id: "14BCAB9BD5999473"
+			tasks: [{
+				id: "699A884CAA03096B"
+				title: "Modern Remnant"
+				type: "checkmark"
+			}]
+			x: 7.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04E26EDFCE2638E2"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:desert_eye"
+			}
+			id: "4120CC71961EB29F"
+			tasks: [{
+				id: "56F029E7965F3D1C"
+				title: "Ancient Remnant"
+				type: "checkmark"
+			}]
+			x: -32.25d
+			y: 9.5d
+		}
+	]
+	title: "(Some Outdated)Optional Checklists"
+}
