@@ -7990,6 +7990,28 @@
 					}
 					type: "item"
 				}
+				{
+					id: "01089DBE45BDBD7B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bakery:strawberry_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "714F5268D521E976"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bakery:oat_seeds"
+					}
+					type: "item"
+				}
 			]
 			title: "Crop Hoarder"
 			x: 13.25d
