@@ -1979,25 +1979,17 @@
 		{
 			icon: "ftbquests:book"
 			id: "2EF26737C23ABDE2"
-			rewards: [
-				{
-					id: "502851144930D88C"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
+			rewards: [{
+				id: "502851144930D88C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					type: "item"
+					id: "ftbquests:book"
 				}
-				{
-					command: "tellraw @s [\"\",{\"text\":\"You feel the sudden urge to look in your quest book\",\"italic\":true}]"
-					id: "0A85440ECB26C724"
-					player_command: true
-					type: "command"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "4B8152EF49B91B7B"

@@ -63,7 +63,8 @@ CTEventManager.register<GameStageAdded>((event) => {
     }
     else if (event.player.hasGameStage("firstcontact") && !event.player.hasGameStage("zero")){
 	    event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
-		);
+		}
+		
 
     // separated loop from eye count bc i need the count to be completed BEFORE the command starts spitting out your eye count
     for eye in eyesArray {
