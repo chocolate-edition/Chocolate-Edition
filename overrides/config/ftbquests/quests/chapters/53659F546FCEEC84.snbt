@@ -82,180 +82,9 @@
 			shape: "hexagon"
 			subtitle: "Distress"
 			tasks: [{
-				count: 3L
-				id: "4D5D8807E16A7D12"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cryptic_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:exotic_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:evil_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:undead_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:witch_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:wither_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:magical_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:guardian_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cold_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:black_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:lost_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:nether_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cursed_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:rogue_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:old_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:corrupted_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				type: "item"
+				id: "6B281289E9FB2F64"
+				stage: "one"
+				type: "gamestage"
 			}]
 			title: "A distress call"
 			x: -8.25d
@@ -296,180 +125,9 @@
 			shape: "hexagon"
 			subtitle: "Expanded"
 			tasks: [{
-				count: 6L
-				id: "2ED213DD8D58FFDC"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cryptic_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:exotic_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:evil_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:undead_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:witch_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:wither_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:magical_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:guardian_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cold_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:black_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:lost_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:nether_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cursed_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:rogue_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:old_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:corrupted_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				type: "item"
+				id: "6B2C0F6E45201D02"
+				stage: "two"
+				type: "gamestage"
 			}]
 			title: "An expanded world"
 			x: -9.25d
@@ -513,180 +171,9 @@
 			shape: "hexagon"
 			subtitle: "Conqueror"
 			tasks: [{
-				count: 9L
-				id: "5FC4639F79B4D826"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cryptic_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:exotic_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:evil_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:undead_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:witch_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:wither_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:magical_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:guardian_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cold_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:black_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:lost_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:nether_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cursed_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:rogue_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:old_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:corrupted_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				type: "item"
+				id: "03F9422ED446F27B"
+				stage: "three"
+				type: "gamestage"
 			}]
 			title: "A conqueror"
 			x: -9.75d
@@ -731,180 +218,9 @@
 			shape: "hexagon"
 			subtitle: "Destiny"
 			tasks: [{
-				count: 12L
-				id: "2569A7D93195B50A"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cryptic_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:exotic_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:evil_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:undead_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:witch_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:wither_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:magical_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:guardian_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cold_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:black_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:lost_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:nether_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cursed_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:rogue_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:old_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:corrupted_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				type: "item"
+				id: "0E53C014E07F4349"
+				stage: "four"
+				type: "gamestage"
 			}]
 			title: "A fortold destiny"
 			x: -9.25d
@@ -951,180 +267,9 @@
 			shape: "hexagon"
 			subtitle: "Fate"
 			tasks: [{
-				count: 16L
-				id: "1453B6C7C54453BF"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cryptic_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:exotic_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:evil_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:undead_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:witch_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:wither_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:magical_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:guardian_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cold_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:black_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:lost_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:nether_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:cursed_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:rogue_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:old_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "endrem:corrupted_eye"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				type: "item"
+				id: "02982025C2AD3A77"
+				stage: "five"
+				type: "gamestage"
 			}]
 			title: "A new fate"
 			x: -8.75d
@@ -1167,6 +312,11 @@
 			}
 			id: "7E7A9B546C15BE8A"
 			shape: "hexagon"
+			tasks: [{
+				id: "3915236CB54BF361"
+				stage: "one"
+				type: "gamestage"
+			}]
 			title: "Stage 1"
 			x: 2.0d
 			y: 0.5d
@@ -1186,6 +336,11 @@
 			}
 			id: "318AC3A4B80FAB8E"
 			shape: "octagon"
+			tasks: [{
+				id: "6B5A13683BA15048"
+				stage: "two"
+				type: "gamestage"
+			}]
 			title: "Stage 2"
 			x: 7.75d
 			y: 0.5d
@@ -1204,6 +359,11 @@
 			}
 			id: "33B00255BDE26589"
 			shape: "hexagon"
+			tasks: [{
+				id: "47235F0AC8754791"
+				stage: "three"
+				type: "gamestage"
+			}]
 			title: "Stage 3"
 			x: 13.5d
 			y: 0.5d
@@ -1222,6 +382,11 @@
 			}
 			id: "51E899661EDC06BD"
 			shape: "octagon"
+			tasks: [{
+				id: "2B02B19520F2320F"
+				stage: "four"
+				type: "gamestage"
+			}]
 			title: "Stage 4"
 			x: 13.5d
 			y: -7.5d
@@ -1241,6 +406,11 @@
 			id: "766544EE45C62981"
 			shape: "octagon"
 			size: 2.0d
+			tasks: [{
+				id: "7012EA83FCC08940"
+				stage: "five"
+				type: "gamestage"
+			}]
 			title: "Stage 5"
 			x: 7.75d
 			y: -7.5d
