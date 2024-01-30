@@ -3,7 +3,7 @@
 	default_consume_items: false
 	default_quest_disable_jei: false
 	default_quest_shape: "circle"
-	default_reward_team: true
+	default_reward_team: false
 	detection_delay: 10
 	disable_gui: false
 	disable_toast: true

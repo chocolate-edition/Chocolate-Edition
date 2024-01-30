@@ -35,17 +35,6 @@
 			hide: true
 			icon: "minecraft:crafting_table"
 			id: "26D1445D673CC2CA"
-			rewards: [{
-				id: "3324CADF40D813FC"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "paraglider:heart_container"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			subtitle: "Fate"
 			tasks: [{
