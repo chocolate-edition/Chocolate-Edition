@@ -9500,6 +9500,28 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1AAF57D788968C5F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
+				}
+				{
+					id: "49D9D67699D87633"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:cooked_salmon"
+					}
+					type: "item"
+				}
 			]
 			title: "RAWR - It's not f***ing raw!"
 			x: 20.25d
