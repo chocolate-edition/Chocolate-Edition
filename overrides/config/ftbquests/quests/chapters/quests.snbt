@@ -10706,8 +10706,96 @@
 		{
 			dependencies: ["71D5D14225BEDA71"]
 			id: "4FFF0013EBE9B50B"
+			rewards: [
+				{
+					id: "5C205711A00C7CE3"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					id: "0214B38D32CDFC0B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bunchobugs:beetle_halberd"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "bane_of_arthropods"
+									lvl: 8
+								}
+								{
+									id: "knockback"
+									lvl: 5
+								}
+								{
+									id: "mending"
+									lvl: 1
+								}
+								{
+									id: "unbreaking"
+									lvl: 5
+								}
+							]
+							display: {
+								Lore: ["[{\"text\":\"Made from STRONK Beetles\",\"italic\":true,\"color\":\"#6633ff\"}]"]
+								Name: "[{\"text\":\"a\",\"italic\":false,\"color\":\"#ff3300\",\"obfuscated\":true},{\"text\":\" Da Beeg Beetle \",\"color\":\"#33cccc\",\"obfuscated\":false},{\"text\":\"a\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0871E1F9DC278DB9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:spider_legs"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "272E55AFA1CDE893"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "brewinandchewin:horror_lasagna"
+					}
+					type: "item"
+				}
+				{
+					id: "6CBC273619ED5BE1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:flies"
+					}
+					type: "item"
+				}
+				{
+					id: "36B4F278813EF5D3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:spiderweb"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "Kill the buggies aka arthropods"
+			subtitle: "Kill all the bugs for your insect collection. (Someone will be mad)"
 			tasks: [
 				{
 					entity: "minecraft:spider"
@@ -11402,6 +11490,46 @@
 						id: "unusualend:ender_firefly_spawn_egg"
 					}
 					id: "59BF19D8E67EE67A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexsmobs:endergrade"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:spawn_egg_endergrade"
+					}
+					id: "50CA1EDDB7046C9D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexsmobs:cosmaw"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:spawn_egg_cosmaw"
+					}
+					id: "418B2B6423CC6330"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bunchobugs:aphid"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "autumnity:sap_bottle"
+					}
+					id: "3D7CDE1C10F44745"
+					title: "Aphid"
 					type: "kill"
 					value: 1L
 				}
