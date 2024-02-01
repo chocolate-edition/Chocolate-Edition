@@ -10793,6 +10793,59 @@
 					}
 					type: "item"
 				}
+				{
+					id: "63D96E49366F4E9F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:maggot"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 0.2d
+								AttributeName: "generic.armor_toughness"
+								Name: "generic.armor_toughness"
+								Slot: "mainhand"
+								UUID: [I;
+									-12412
+									17431
+									2720
+									-34862
+								]
+							}]
+							Enchantments: [
+								{
+									id: "mending"
+									lvl: 1
+								}
+								{
+									id: "sharpness"
+									lvl: 5
+								}
+								{
+									id: "smite"
+									lvl: 10
+								}
+								{
+									id: "unbreaking"
+									lvl: 5
+								}
+							]
+							HideFlags: 3
+							display: {
+								Lore: [
+									"[{\"text\":\"Be Carefull if \",\"italic\":true,\"color\":\"dark_red\"},{\"text\":\"azeyazeaouzea\",\"italic\":true,\"color\":\"dark_red\",\"obfuscated\":true}]"
+									"[{\"text\":\"azruzeoiruzeioruezorzu\",\"italic\":true,\"color\":\"dark_red\",\"obfuscated\":true}]"
+									"[{\"text\":\"rizeurzifoiezfjzeifj\",\"italic\":true,\"color\":\"dark_red\",\"obfuscated\":true}]"
+									"[{\"text\":\"eriuegjeoifjeorfj\",\"italic\":true,\"color\":\"dark_red\",\"obfuscated\":true},{\"text\":\" !!!!!\",\"obfuscated\":false}]"
+								]
+								Name: "[{\"text\":\"The Maggot\",\"italic\":false,\"color\":\"#ff0000\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			subtitle: "Kill all the bugs for your insect collection. (Someone will be mad)"
