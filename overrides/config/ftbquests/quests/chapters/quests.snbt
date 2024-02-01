@@ -10703,6 +10703,809 @@
 			x: 15.375d
 			y: 17.25d
 		}
+		{
+			dependencies: ["5347D852E0B73AA6"]
+			id: "3BA81845741FA80A"
+			shape: "rsquare"
+			subtitle: "Collect all the flowers to create the most perfect of perfume"
+			tasks: [
+				{
+					id: "75627BC8B0BA4DE4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:dandelion"
+					}
+					type: "item"
+				}
+				{
+					id: "12E549D3F6F31C90"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:poppy"
+					}
+					type: "item"
+				}
+				{
+					id: "0A1F25F9637DA074"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:blue_orchid"
+					}
+					type: "item"
+				}
+				{
+					id: "262D54A7909EEE73"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:allium"
+					}
+					type: "item"
+				}
+				{
+					id: "4FF74A965D782BA8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:azure_bluet"
+					}
+					type: "item"
+				}
+				{
+					id: "7F6866008B1198C3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:red_tulip"
+					}
+					type: "item"
+				}
+				{
+					id: "5B3F9431FD0222DE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:orange_tulip"
+					}
+					type: "item"
+				}
+				{
+					id: "5DFE4CB9675DFAFE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:white_tulip"
+					}
+					type: "item"
+				}
+				{
+					id: "0FAF5F3CAFFD81C5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:pink_tulip"
+					}
+					type: "item"
+				}
+				{
+					id: "285B678E34EDE31F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:oxeye_daisy"
+					}
+					type: "item"
+				}
+				{
+					id: "36E411B86F61F4CA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:cornflower"
+					}
+					type: "item"
+				}
+				{
+					id: "445B3C0CDE3451F4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:lily_of_the_valley"
+					}
+					type: "item"
+				}
+				{
+					id: "5F7C02B35E88E482"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:sunflower"
+					}
+					type: "item"
+				}
+				{
+					id: "7B038FE1057C90B3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:lilac"
+					}
+					type: "item"
+				}
+				{
+					id: "1509990151258E6A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:rose_bush"
+					}
+					type: "item"
+				}
+				{
+					id: "1DADC99035E3262A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:peony"
+					}
+					type: "item"
+				}
+				{
+					id: "20FE269E14441DC4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:wither_rose"
+					}
+					type: "item"
+				}
+				{
+					id: "71CF5ACDBD698924"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:acacia_blossom"
+					}
+					type: "item"
+				}
+				{
+					id: "207CCD1C01E89F7D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "autumnity:autumn_crocus"
+					}
+					type: "item"
+				}
+				{
+					id: "358FD601A1F466AB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:cartwheel"
+					}
+					type: "item"
+				}
+				{
+					id: "3E6DD27B50C7318F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:bluebell"
+					}
+					type: "item"
+				}
+				{
+					id: "05B780944E17F7F5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:violet"
+					}
+					type: "item"
+				}
+				{
+					id: "501FDF1D124AD2F0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:dianthus"
+					}
+					type: "item"
+				}
+				{
+					id: "7C3B26B1221F8811"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:red_lotus_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "09F7B585E3652F0A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:white_lotus_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "0F1E94961905A775"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:yellow_hibiscus"
+					}
+					type: "item"
+				}
+				{
+					id: "468AF334196B6CE3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:orange_hibiscus"
+					}
+					type: "item"
+				}
+				{
+					id: "16226EF56DFE0B6C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:red_hibiscus"
+					}
+					type: "item"
+				}
+				{
+					id: "2B0D02BD556B638E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:pink_hibiscus"
+					}
+					type: "item"
+				}
+				{
+					id: "09CE3A93879BC59F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:magenta_hibiscus"
+					}
+					type: "item"
+				}
+				{
+					id: "6BB05D09D2B1CD74"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:purple_hibiscus"
+					}
+					type: "item"
+				}
+				{
+					id: "6C6C00FDB2DC9563"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:pink_delphinium"
+					}
+					type: "item"
+				}
+				{
+					id: "6D3DA50591BF74E0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:blue_delphinium"
+					}
+					type: "item"
+				}
+				{
+					id: "7C8F95CF6E647746"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:purple_delphinium"
+					}
+					type: "item"
+				}
+				{
+					id: "55F266FCF080EAAC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:white_delphinium"
+					}
+					type: "item"
+				}
+				{
+					id: "45E10475D1EF30B4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:bird_of_paradise"
+					}
+					type: "item"
+				}
+				{
+					id: "49BAD38D6AD48611"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "friendsandfoes:buttercup"
+					}
+					type: "item"
+				}
+				{
+					id: "696C4917BAF48D76"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "upgrade_aquatic:white_searocket"
+					}
+					type: "item"
+				}
+				{
+					id: "459DE0C1AC3B4F63"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "upgrade_aquatic:pink_searocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5F13B0E2F9F12F0D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "upgrade_aquatic:flowering_rush"
+					}
+					type: "item"
+				}
+				{
+					id: "4BCD8238CEB575D8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ecologics:azalea_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "6161145F62D316F4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:water_hyacinth"
+					}
+					type: "item"
+				}
+				{
+					id: "0946575829941925"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:warm_monkey_brush"
+					}
+					type: "item"
+				}
+				{
+					id: "5D07AC36FA8E5999"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:hot_monkey_brush"
+					}
+					type: "item"
+				}
+				{
+					id: "532A43BAEB6E3FE4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:scalding_monkey_brush"
+					}
+					type: "item"
+				}
+				{
+					id: "76EA02D5F85BA565"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:yucca_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "58189CE62CAEE1BE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:tall_yucca_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "6BC46BD8F0CCD179"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:gilia"
+					}
+					type: "item"
+				}
+				{
+					id: "073A1BBDCF683239"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "abyssal_decor:daffodil"
+					}
+					type: "item"
+				}
+				{
+					id: "3765408A6E590B84"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "abyssal_decor:aster"
+					}
+					type: "item"
+				}
+				{
+					id: "6B2C5DDE15E549CD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualprehistory:leefructus"
+					}
+					type: "item"
+				}
+				{
+					id: "49325A0A134A3180"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualprehistory:sarracenia"
+					}
+					type: "item"
+				}
+				{
+					id: "603E7D8AF2004C9F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualprehistory:tall_sarracenia"
+					}
+					type: "item"
+				}
+				{
+					id: "49B125BB20784BE8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualprehistory:raiguenrayun"
+					}
+					type: "item"
+				}
+				{
+					id: "634C831E577FBBCD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cnb:pink_minipad_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "6EAF925087FEE5D2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cnb:light_pink_minipad_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "158477D5570C3C3E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cnb:yellow_minipad_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "1EBD990A07F41775"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:camellia"
+					}
+					type: "item"
+				}
+				{
+					id: "1F0D971B6B166436"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:snowbloom"
+					}
+					type: "item"
+				}
+				{
+					id: "1A296C3CA17B8045"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:blush_blossom"
+					}
+					type: "item"
+				}
+				{
+					id: "6121A7C1103CCAE8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:frose"
+					}
+					type: "item"
+				}
+				{
+					id: "3A4FCD9B10A260F9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:crystal_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "1D3367587E7765E7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:blaze_bud"
+					}
+					type: "item"
+				}
+				{
+					id: "01218822CFA3C51C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:flare_floret"
+					}
+					type: "item"
+				}
+				{
+					id: "3499616EF1506552"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:nightcress"
+					}
+					type: "item"
+				}
+				{
+					id: "2E69F40AA48ABB6F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:polar_posy"
+					}
+					type: "item"
+				}
+				{
+					id: "1D591501E49DE328"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:spore_blossom"
+					}
+					type: "item"
+				}
+				{
+					id: "774C75B7E245B593"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:chorus_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "1CE4A5860BAE4784"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iter_rpg:arcane_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "0236292F79F5FBCC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nourished_nether:ghoulflower"
+					}
+					type: "item"
+				}
+				{
+					id: "549225E8DD7AFF2C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:glowseep"
+					}
+					type: "item"
+				}
+				{
+					id: "298D1CAE8E10E82C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:ennegel_fern"
+					}
+					type: "item"
+				}
+			]
+			title: "Flowey - Basil's Catalogue"
+			x: 13.0d
+			y: 15.75d
+		}
 	]
 	title: "&bQuests"
 }
