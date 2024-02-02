@@ -10706,6 +10706,142 @@
 		{
 			dependencies: ["5347D852E0B73AA6"]
 			id: "3BA81845741FA80A"
+			rewards: [
+				{
+					id: "68D7AB0C8B71A994"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "41526213B1CEDCF7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cnb:flower_crown"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 2
+								AttributeName: "generic.luck"
+								Name: "generic.luck"
+								Slot: "head"
+								UUID: [I;
+									-12412
+									18611
+									4243
+									-37222
+								]
+							}]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "aqua_affinity"
+									lvl: 1
+								}
+								{
+									id: "fire_protection"
+									lvl: 8
+								}
+								{
+									id: "protection"
+									lvl: 3
+								}
+								{
+									id: "respiration"
+									lvl: 1
+								}
+							]
+							HideFlags: 3
+							Unbreakable: 1
+							display: {
+								Lore: ["[{\"text\":\"You smell beautifully\",\"color\":\"#33cccc\"}]"]
+								Name: "[{\"text\":\"Flowers of Childhood\",\"italic\":false,\"color\":\"#66cc33\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "412806B0873E1E1F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:abyss_eye"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: -10
+									AttributeName: "generic.max_health"
+									Name: "generic.max_health"
+									Slot: "mainhand"
+									UUID: [I;
+										-12412
+										6099
+										5722
+										-12198
+									]
+								}
+								{
+									Amount: 0.2d
+									AttributeName: "generic.armor"
+									Name: "generic.armor"
+									Slot: "mainhand"
+									UUID: [I;
+										-12412
+										6199
+										5722
+										-12398
+									]
+								}
+							]
+							Enchantments: [{
+								id: "knockback"
+								lvl: 10
+							}]
+							HideFlags: 3
+							display: {
+								Lore: ["[{\"text\":\"aaaaaa\",\"italic\":true,\"color\":\"#990000\",\"obfuscated\":true},{\"text\":\" \",\"obfuscated\":false},{\"text\":\"Sister\",\"obfuscated\":false,\"strikethrough\":true},{\"text\":\" \",\"obfuscated\":false,\"strikethrough\":false,\"italic\":false},{\"text\":\"aaaaaz\",\"strikethrough\":false,\"italic\":false}]"]
+								Name: "[{\"text\":\"Something\",\"italic\":false,\"color\":\"#999999\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3572841E7FC9ADA9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "luphieclutteredmod:luphie_sketchbook"
+						tag: {
+							display: {
+								Lore: [
+									"[{\"text\":\"It's missing some pages\",\"italic\":true,\"color\":\"#663366\"}]"
+									"[{\"text\":\"and some pictures are missing\",\"italic\":true,\"color\":\"#663366\"}]"
+								]
+								Name: "[{\"text\":\"Photo \",\"italic\":false,\"color\":\"#66cc66\"},{\"text\":\"Book\",\"color\":\"#660000\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D0E132F0F16A6C2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:floweronhead"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			subtitle: "Collect all the flowers to create the most perfect of perfume"
 			tasks: [
