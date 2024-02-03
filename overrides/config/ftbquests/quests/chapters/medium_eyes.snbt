@@ -2938,7 +2938,7 @@
 				""
 				"• Totem of Undying - Dropped by &cEvokers&r"
 				""
-				"• Bag of Spoils, Spellbound Book, or Totem of Banishment - Dropped by &4Freakagers&r, &4Magispellers&r, or &4Spiritcallers&r"
+				"• Bag of Horrors, Spellbound Book, or Totem of Banishment - Dropped by &4Freakagers&r, &4Magispellers&r, or &4Spiritcallers&r"
 				""
 				"• Totem of Illusions - Dropped by &cIllusioners&r"
 				""
@@ -3703,7 +3703,7 @@
 			description: [
 				"All of these items can be obtained by defending a Village from a raid. Killing multiple &cPillager Captians&r will lead to increasing levels of Bad Omen, the highest being Bad Omen V."
 				""
-				"• Bag of Spoils - Obtained by killing &4Freakager&r, which spawns at wave 4 of a raid"
+				"• Bag of Horrors - Obtained by killing &4Freakager&r, which spawns at wave 4 of a raid"
 				""
 				"• Spellbound Book - Obtained by killing &4Spiritcaller&r, which spawns at wave 4 of a raid"
 				""
