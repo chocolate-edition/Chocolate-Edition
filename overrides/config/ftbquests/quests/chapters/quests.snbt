@@ -4825,6 +4825,54 @@
 					}
 					type: "item"
 				}
+				{
+					count: 64L
+					id: "668FA8A15B187633"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:shale"
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7829E6754D4F4C7F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:jasper"
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2E1AFD8DD8B4807C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:black_argillite"
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3603D1575CF8B46C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:limestone"
+					}
+					type: "item"
+				}
 			]
 			title: "The Spice of Life"
 			x: -10.0d
@@ -9519,6 +9567,28 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "minecraft:cooked_salmon"
+					}
+					type: "item"
+				}
+				{
+					id: "2BB66520E1D487BF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:smoked_fish"
+					}
+					type: "item"
+				}
+				{
+					id: "4A353A0706C32386"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:fried_maggot"
 					}
 					type: "item"
 				}
