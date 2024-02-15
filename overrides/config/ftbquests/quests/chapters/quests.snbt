@@ -11712,6 +11712,894 @@
 			x: 13.0d
 			y: 15.75d
 		}
+		{
+			dependencies: ["71D5D14225BEDA71"]
+			id: "4FFF0013EBE9B50B"
+			rewards: [
+				{
+					id: "5C205711A00C7CE3"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					id: "0214B38D32CDFC0B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bunchobugs:beetle_halberd"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "bane_of_arthropods"
+									lvl: 8
+								}
+								{
+									id: "knockback"
+									lvl: 5
+								}
+								{
+									id: "mending"
+									lvl: 1
+								}
+								{
+									id: "unbreaking"
+									lvl: 5
+								}
+							]
+							display: {
+								Lore: ["[{\"text\":\"Made from STRONK Beetles\",\"italic\":true,\"color\":\"#6633ff\"}]"]
+								Name: "[{\"text\":\"a\",\"italic\":false,\"color\":\"#ff3300\",\"obfuscated\":true},{\"text\":\" Da Beeg Beetle \",\"color\":\"#33cccc\",\"obfuscated\":false},{\"text\":\"a\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0871E1F9DC278DB9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:spider_legs"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "272E55AFA1CDE893"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "brewinandchewin:horror_lasagna"
+					}
+					type: "item"
+				}
+				{
+					id: "6CBC273619ED5BE1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:flies"
+					}
+					type: "item"
+				}
+				{
+					id: "36B4F278813EF5D3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:spiderweb"
+					}
+					type: "item"
+				}
+				{
+					id: "63D96E49366F4E9F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:maggot"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 0.2d
+								AttributeName: "generic.armor_toughness"
+								Name: "generic.armor_toughness"
+								Slot: "mainhand"
+								UUID: [I;
+									-12412
+									17431
+									2720
+									-34862
+								]
+							}]
+							Enchantments: [
+								{
+									id: "mending"
+									lvl: 1
+								}
+								{
+									id: "sharpness"
+									lvl: 5
+								}
+								{
+									id: "smite"
+									lvl: 10
+								}
+								{
+									id: "unbreaking"
+									lvl: 5
+								}
+							]
+							HideFlags: 3
+							display: {
+								Lore: [
+									"[{\"text\":\"Be Carefull if \",\"italic\":true,\"color\":\"dark_red\"},{\"text\":\"azeyazeaouzea\",\"italic\":true,\"color\":\"dark_red\",\"obfuscated\":true}]"
+									"[{\"text\":\"azruzeoiruzeioruezorzu\",\"italic\":true,\"color\":\"dark_red\",\"obfuscated\":true}]"
+									"[{\"text\":\"rizeurzifoiezfjzeifj\",\"italic\":true,\"color\":\"dark_red\",\"obfuscated\":true}]"
+									"[{\"text\":\"eriuegjeoifjeorfj\",\"italic\":true,\"color\":\"dark_red\",\"obfuscated\":true},{\"text\":\" !!!!!\",\"obfuscated\":false}]"
+								]
+								Name: "[{\"text\":\"The Maggot\",\"italic\":false,\"color\":\"#ff0000\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Kill all the bugs for your insect collection. (Someone will be mad)"
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "0ED5A909005D7AAC"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:cave_spider"
+					id: "006CF567426C6B0A"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "alexsmobs:centipede_head"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:spawn_egg_centipede"
+					}
+					id: "522E6A7203F5FD9C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iter_rpg:spiderling"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iter_rpg:spiderling_spawn_egg"
+					}
+					id: "4B91F4F282AFACC3"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "iter_rpg:giant_spider"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iter_rpg:giant_spider_spawn_egg"
+					}
+					id: "26F891D8376879A2"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "minecraft:bee"
+					id: "5E4F1A6DAC3D9BA9"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "alexsmobs:fly"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:spawn_egg_fly"
+					}
+					id: "34BA927A11512684"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "naturalist:firefly"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "naturalist:firefly_spawn_egg"
+					}
+					id: "33A94BEB54DCFA0C"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "mutantmonsters:spider_pig"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "mutantmonsters:spider_pig_spawn_egg"
+					}
+					id: "177CA2324498109F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexsmobs:cockroach"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:spawn_egg_cockroach"
+					}
+					id: "14C637A92E2507B8"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "bunchobugs:weevil"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bunchobugs:weevil_spawn_egg"
+					}
+					id: "4F07587E6FF0C721"
+					title: "Weevil"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "bunchobugs:praying_mantis"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bunchobugs:praying_mantis_spawn_egg"
+					}
+					id: "17C0123BF48C83CB"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "alexsmobs:leafcutter_ant"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:spawn_egg_leafcutter_ant"
+					}
+					id: "4908C4112007FBE0"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "bunchobugs:tiger_beetle"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bunchobugs:tiger_beetle_spawn_egg"
+					}
+					id: "5F076A6D553CEAD3"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "bunchobugs:hercules_beetle"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bunchobugs:hercules_beetle_spawn_egg"
+					}
+					id: "354A0539B77643AB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bunchobugs:rhino_beetle"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bunchobugs:rhino_beetle_spawn_egg"
+					}
+					id: "7CA9C2D04EBC7655"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bunchobugs:goliath_beetle"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bunchobugs:goliath_beetle_spawn_egg"
+					}
+					id: "1B86C62C912E131C"
+					title: "Goliath Beetle"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bunchobugs:ladybug"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bunchobugs:ladybug_spawn_egg"
+					}
+					id: "091262CA325F037C"
+					title: "Ladybug"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "minecraft:silverfish"
+					id: "29DE26D300CD3D8B"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:endermite"
+					id: "6CD12B33E5D45DEC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexsmobs:tarantula_hawk"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:spawn_egg_tarantula_hawk"
+					}
+					id: "44032646486828B3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:firelight"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:firelight_spawn_egg"
+					}
+					id: "22B74FEE69A655E7"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "born_in_chaos_v1:diamond_termite"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:diamond_termite_spawn_egg"
+					}
+					id: "7DE825A9F357980E"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "born_in_chaos_v1:wither_scuttler"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:wither_scuttler_spawn_egg"
+					}
+					id: "1D8BD46F5515F02D"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "crittersandcompanions:dragonfly"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "crittersandcompanions:dragonfly_spawn_egg"
+					}
+					id: "22EEB7E15A79A01E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "naturalist:dragonfly"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "naturalist:dragonfly_spawn_egg"
+					}
+					id: "40A4AB679A6B626F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "crittersandcompanions:leaf_insect"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "crittersandcompanions:leaf_insect_spawn_egg"
+					}
+					id: "6D20121B160AD602"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "crittersandcompanions:jumping_spider"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "crittersandcompanions:jumping_spider_spawn_egg"
+					}
+					id: "555C10A08458AE32"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "naturalist:butterfly"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "naturalist:butterfly_spawn_egg"
+					}
+					id: "734AB05C2464066A"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "galosphere:spectre"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "galosphere:spectre_spawn_egg"
+					}
+					id: "724EC6C4C6730755"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:myrmex_queen"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iceandfire:spawn_egg_myrmex_queen"
+					}
+					id: "3147D853131069B5"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:myrmex_royal"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iceandfire:spawn_egg_myrmex_royal"
+					}
+					id: "0CB674F88FB158BB"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "iceandfire:myrmex_sentinel"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iceandfire:spawn_egg_myrmex_sentinel"
+					}
+					id: "72BC400A198DE41F"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "iceandfire:myrmex_soldier"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iceandfire:spawn_egg_myrmex_soldier"
+					}
+					id: "1A5997B86ADA3519"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "iceandfire:myrmex_worker"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iceandfire:spawn_egg_myrmex_worker"
+					}
+					id: "582B5C62D2905135"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "iceandfire:dread_scuttler"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iceandfire:spawn_egg_dread_scuttler"
+					}
+					id: "6570982267A4BBD0"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "aquamirae:golden_moth"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:golden_moth_spawn_egg"
+					}
+					id: "21AC7AB8D7770593"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:scarab"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "endermanoverhaul:scarab_spawn_egg"
+					}
+					id: "71776D28EC1FFDE6"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "born_in_chaos_v1:maggot"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:maggot_spawn_egg"
+					}
+					id: "07C909D735C5658F"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "born_in_chaos_v1:corpse_fly"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:corpse_fly_spawn_egg"
+					}
+					id: "6AB6E68792D66CB6"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "born_in_chaos_v1:bloody_gadfly"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:bloody_gadfly_spawn_egg"
+					}
+					id: "735B65DC75BDE1F7"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "alexsmobs:crimson_mosquito"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:spawn_egg_crimson_mosquito"
+					}
+					id: "0A6F5167046B0449"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "infernalexp:warpbeetle"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:warpbeetle_spawn_egg"
+					}
+					id: "2672C5734FEEE6E3"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "infernalexp:glowsilk_moth"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:glowsilk_moth_spawn_egg"
+					}
+					id: "32F49C650BC31982"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "infernalexp:glowsquito"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "infernalexp:glowsquito_spawn_egg"
+					}
+					id: "711CAD939D2B7B4E"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "unusualprehistory:encrusted"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualprehistory:encrusted_spawn_egg"
+					}
+					id: "724622C923F500BF"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "blue_skies:emberback"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:emberback_spawn_egg"
+					}
+					id: "21BBB3A7D528059A"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "blue_skies:venom_spider"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:venom_spider_spawn_egg"
+					}
+					id: "73DAD721E1E04F9D"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "blue_skies:nested_spider"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:nested_spider_spawn_egg"
+					}
+					id: "1DAE51F2B0FE1C45"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "blue_skies:nyctofly"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:nyctofly_spawn_egg"
+					}
+					id: "6ED87C3DD16315C9"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "blue_skies:infested_swarmer"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:infested_swarmer_spawn_egg"
+					}
+					id: "776748110BFB9E1F"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "blue_skies:firefly"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:firefly_spawn_egg"
+					}
+					id: "34535451F7D44575"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "oddorganisms:apthoroblattina"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "oddorganisms:apthoroblattina_spawn_egg"
+					}
+					id: "3AD273D261BB483B"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "unusualend:ender_blob"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualend:ender_blob_spawn_egg"
+					}
+					id: "6A34C8E812780574"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:endermaptera"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:endermaptera_spawn_egg"
+					}
+					id: "67BC9010334C908D"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "unusualend:ender_firefly"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualend:ender_firefly_spawn_egg"
+					}
+					id: "59BF19D8E67EE67A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexsmobs:endergrade"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:spawn_egg_endergrade"
+					}
+					id: "50CA1EDDB7046C9D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexsmobs:cosmaw"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "alexsmobs:spawn_egg_cosmaw"
+					}
+					id: "418B2B6423CC6330"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bunchobugs:aphid"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "autumnity:sap_bottle"
+					}
+					id: "3D7CDE1C10F44745"
+					title: "Aphid"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Buggies ! - Professional Entomologist"
+			x: 10.5d
+			y: -5.5d
+		}
 	]
 	title: "&bQuests"
 }
