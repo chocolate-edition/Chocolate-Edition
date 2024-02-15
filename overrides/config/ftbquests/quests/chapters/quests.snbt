@@ -8976,6 +8976,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6DF4BA956BA9EB20"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "bakery:strawberry"
+					}
+					type: "item"
+				}
 			]
 			title: "Mobile App - Fruit Ninja"
 			x: 20.625d
@@ -11704,6 +11715,17 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "enlightened_end:ennegel_fern"
+					}
+					type: "item"
+				}
+				{
+					id: "316C7CE5D7E68A84"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:marigolds"
 					}
 					type: "item"
 				}
