@@ -12149,19 +12149,6 @@
 					value: 10L
 				}
 				{
-					entity: "born_in_chaos_v1:wither_scuttler"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:wither_scuttler_spawn_egg"
-					}
-					id: "1D8BD46F5515F02D"
-					type: "kill"
-					value: 5L
-				}
-				{
 					entity: "crittersandcompanions:dragonfly"
 					icon: {
 						Count: 1b
