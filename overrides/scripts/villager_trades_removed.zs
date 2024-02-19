@@ -10,7 +10,7 @@ import crafttweaker.api.villager.trade.type.EmeraldForItems;
 import crafttweaker.api.villager.trade.type.EmeraldsForVillagerTypeItem;
 import crafttweaker.api.entity.Entity;
 
-#priority -30
+#priority -10000000
 
 //==================================================VillagerTrades that work==================================================================//
 //villagerTrades.addTrade(<profession:minecraft:farmer>, 1, (entity, random) => {
