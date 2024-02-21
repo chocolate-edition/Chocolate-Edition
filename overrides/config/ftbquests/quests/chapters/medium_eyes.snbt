@@ -298,17 +298,6 @@
 			id: "78ACEF95F5AC1A80"
 			rewards: [
 				{
-					id: "22FE1BE5B38C508A"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "cataclysm:sandstorm_in_a_bottle"
-					}
-					type: "item"
-				}
-				{
 					id: "7279D3B27CEC00BC"
 					item: {
 						Count: 1b
@@ -423,33 +412,20 @@
 				"&eRoadrunner Feathers&r can also be used to craft &eFalconry Hoods&r - which let you controll tammed &aBald Eagles&r - as well as &eRoadrunner Boots&r - which allow you to run faster on &eSand&r"
 			]
 			id: "26D3D8E0CB67417A"
-			rewards: [
-				{
-					id: "25DB782C00AA6C66"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "alexsmobs:roadrunner_boots"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "25DB782C00AA6C66"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					type: "item"
-				}
-				{
-					id: "7B92FB9C552A23EF"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:speed_force"
+					id: "alexsmobs:roadrunner_boots"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Dropped by Roadrunners"
 			tasks: [{
@@ -1090,34 +1066,21 @@
 				"&eGhast Tears&r can also be brewed with an &eAwkward Potion&r to make &ePotions of Regeneration&r or craft &eEnd Crystals&r which can respawn the &4Ender Dragon&r. "
 			]
 			id: "1C696FDFF7187550"
-			rewards: [
-				{
-					id: "38EB3D97E569553F"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:ghast_eye"
+			rewards: [{
+				count: 2
+				id: "4F0CD618B3436D06"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "4F0CD618B3436D06"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "unusualend:regeneration"
-						}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "unusualend:regeneration"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Dropped by Ghasts"
 			tasks: [{
@@ -1430,17 +1393,6 @@
 						tag: {
 							Potion: "minecraft:strong_slowness"
 						}
-					}
-					type: "item"
-				}
-				{
-					id: "1D5D7CE6B53D9D47"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:speed_force"
 					}
 					type: "item"
 				}
@@ -2603,6 +2555,20 @@
 				"The &eLodestone&r &l&oIS NOT CONSUMMED&r during crafting "
 			]
 			id: "1A1D77C3D3BAA973"
+			rewards: [{
+				id: "41180780F442C76C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "shieldexp:netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Found in Bastions or Crafted"
 			tasks: [{
@@ -2789,8 +2755,7 @@
 			description: ["This item can be obtained by crafting and &eEye of Ender&r with 8 &eGold Ingots&r encircling it"]
 			id: "1F4C67597B974429"
 			rewards: [{
-				count: 4
-				id: "5EE45B216DBFA4DA"
+				id: "2776D2FD42E6F45C"
 				item: {
 					Count: 1b
 					ForgeCaps: {
@@ -2973,7 +2938,7 @@
 				""
 				"• Totem of Undying - Dropped by &cEvokers&r"
 				""
-				"• Bag of Spoils, Spellbound Book, or Totem of Banishment - Dropped by &4Freakagers&r, &4Magispellers&r, or &4Spiritcallers&r"
+				"• Bag of Horrors, Spellbound Book, or Totem of Banishment - Dropped by &4Freakagers&r, &4Magispellers&r, or &4Spiritcallers&r"
 				""
 				"• Totem of Illusions - Dropped by &cIllusioners&r"
 				""
@@ -3736,13 +3701,13 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"All of these items can be obtained by defeating a raid and killing the final boss"
+				"All of these items can be obtained by defending a Village from a raid. Killing multiple &cPillager Captians&r will lead to increasing levels of Bad Omen, the highest being Bad Omen V."
 				""
-				"• Bag of Spoils - Obtained by killing &4Freakager&r"
+				"• Bag of Horrors - Obtained by killing &4Freakager&r, which spawns at wave 4 of a raid"
 				""
-				"• Totem of Banishment - Obtained by killing &4Magispeller&r"
+				"• Spellbound Book - Obtained by killing &4Spiritcaller&r, which spawns at wave 4 of a raid"
 				""
-				"• Spellbound Book - Obtained by killing &4Spiritcaller&r"
+				"• Totem of Banishment - Obtained by killing &4Magispeller&r, which spawns during the bonus wave at the end of the hardest raid"
 				""
 				"&o*These bosses don't spawn natually on servers, we're currently working on a fix! We recomend using /summon or giving yourself the item for the time being. Sorry for the inconvenience! &r"
 			]
@@ -3761,17 +3726,6 @@
 					type: "item"
 				}
 				{
-					id: "5D25C27B689BAB87"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:fate_emerald"
-					}
-					type: "item"
-				}
-				{
 					count: 5
 					id: "2F06456C8378F10E"
 					item: {
@@ -3780,6 +3734,20 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+				{
+					id: "639976630D1F55B1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "artifacts:villager_hat"
+						tag: {
+							Damage: 0
+						}
 					}
 					type: "item"
 				}

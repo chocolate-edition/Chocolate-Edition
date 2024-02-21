@@ -15,4 +15,4 @@ import crafttweaker.api.predicate.ItemPredicate;
 
 import stdlib.List;
 
-loot.modifiers.removeByModId("tabletopcraft");
+loot.modifiers.removeByModId("table_top_craft");

@@ -46,6 +46,26 @@ CTEventManager.register<GameStageAdded>((event) => {
 		if(event.player.hasGameStage(eye)) {count++;}
 	}
 	 
+	 if (count==16 && !event.player.hasGameStage("five")){
+   event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
+    }
+    else if (count==12 && !event.player.hasGameStage("four")){
+      event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");}
+	  
+    else if (count==9 && !event.player.hasGameStage("three")){
+     event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
+    }
+    else if (count==6 && !event.player.hasGameStage("two")){
+   event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
+    }
+    else if (count==3 && !event.player.hasGameStage("one")){
+        event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
+    }
+    else if (event.player.hasGameStage("firstcontact") && !event.player.hasGameStage("zero")){
+	    event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
+		}
+		
+
     // separated loop from eye count bc i need the count to be completed BEFORE the command starts spitting out your eye count
     for eye in eyesArray {
 		if(event.stage == eye)

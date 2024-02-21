@@ -341,13 +341,13 @@
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 1.0
+	AncientRemnantHealthMultiplier = 1.2
 	#Ancient Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantDamageMultiplier = 1.0
 	#Ancient Remnant's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Ancient Remnant's prevent attacks from far away Range" = 15.0
+	"Ancient Remnant's prevent attacks from far away Range" = 5.0
 	#Ancient Remnant's DamageCap
 	#Range: 0 ~ 1000000
 	AncientRemnantCap = 21
