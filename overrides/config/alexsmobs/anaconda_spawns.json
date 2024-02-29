@@ -23,6 +23,13 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
+        "value": "atmospheric:rainforest_basin"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
         "value": "terralith:ice_marsh"
       }
     ],

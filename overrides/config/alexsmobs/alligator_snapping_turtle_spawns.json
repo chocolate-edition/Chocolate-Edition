@@ -21,6 +21,13 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
+        "value": "environmental:marsh"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
         "value": "biomesoplenty:tundra_bog"
       }
     ],

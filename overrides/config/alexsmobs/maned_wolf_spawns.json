@@ -23,6 +23,20 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
+        "value": "minecraft:sparse_jungle"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "atmospheric:sparse_rainforest"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
         "value": "terralith:brushland"
       }
     ],
