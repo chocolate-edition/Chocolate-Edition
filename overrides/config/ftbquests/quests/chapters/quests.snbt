@@ -2100,17 +2100,6 @@
 					xp: 1000
 				}
 				{
-					id: "52A0B1B690597F34"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:spider_legs"
-					}
-					type: "item"
-				}
-				{
 					id: "79BE5C9D3662A18C"
 					item: {
 						Count: 1b
@@ -7504,6 +7493,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0E76FDD457606722"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "abyssal_decor:cinnamon_bush"
+					}
+					type: "item"
+				}
 			]
 			title: "The Ultimate Treehugger"
 			x: 16.0d
@@ -10779,6 +10779,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7535D80A1FC8ED65"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "abyssal_decor:spidercorn_crop"
+					}
+					type: "item"
+				}
 			]
 			title: "Seasoned Vegetarian"
 			x: 15.375d
@@ -11726,6 +11737,17 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "born_in_chaos_v1:marigolds"
+					}
+					type: "item"
+				}
+				{
+					id: "41FF2E61BB8E7F46"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "abyssal_decor:snapleaf"
 					}
 					type: "item"
 				}
