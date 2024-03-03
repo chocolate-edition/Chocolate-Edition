@@ -11,6 +11,63 @@
     "random": 0.85,
     "onjoin": true,
     "result": "deny"
+  },
+  {
+    "mob": ["alexsmobs:crow", "alexsmobs:crocodile", "alexsmobs:alligator_snapping_turtle", "alexsmobs:seagull", "born_in_chaos_v1:thornshell_crab", "cnb:cactem", "born_in_chaos_v1:corpse_fly", "born_in_chaos_v1:dread_hound", "born_in_chaos_v1:dire_hound_leader", "epicsamurai:kitsune", "alexsmobs:tiger", "born_in_chaos_v1:zombie_fisherman", "iter_rpg:scallop", "alexsmobs:platypus", "born_in_chaos_v1:bloody_gadfly", "cnb:little_grebe", "naturalist:snail", "endermanoverhaul:flower_fields_enderman", "endermanoverhaul:dark_oak_enderman"],
+    "maxheight": 60,
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:butterfly"],
+    "weather": "rain",
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:butterfly"],
+    "weather": "thunder",
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:butterfly"],
+    "mintime": 12500,
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:butterfly"],
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:snail"],
+    "weather": "rain",
+    "result": "allow"
+  },
+  {
+    "mob": ["naturalist:snail"],
+    "weather": "thunder",
+    "result": "allow"
+  },
+  {
+    "mob": ["naturalist:snail"],
+    "mintime": 12500,
+    "result": "allow"
+  },
+  {
+    "mob": ["naturalist:snail"],
+    "result": "deny"
+  },
+  {
+    "mob": ["alexsmobs:raccoon"],
+    "mintime": 12500,
+    "result": "allow"
+  },
+  {
+    "mob": ["alexsmobs:raccoon"],
+    "result": "deny"
+  },
+  {
+    "mob": ["born_in_chaos_v1:thornshell_crab"],
+    "biome": ["minecraft:beach"],
+    "result": "deny"
   }
 
 

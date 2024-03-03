@@ -16,6 +16,20 @@
     ],
     [
       {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "atmospheric:rainforest_basin"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "environmental:marsh"
+      }
+    ],
+    [
+      {
         "type": "BIOME_TAG",
         "negate": false,
         "value": "minecraft:is_river"

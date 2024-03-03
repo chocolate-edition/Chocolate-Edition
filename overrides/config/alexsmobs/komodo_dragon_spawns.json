@@ -23,6 +23,20 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
+        "value": "atmospheric:petrified_dunes"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "atmospheric:sparse_rainforest"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
         "value": "terralith:red_oasis"
       }
     ],

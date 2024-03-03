@@ -38,6 +38,13 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
+        "value": "minecraft:wooded_badlands"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
         "value": "terralith:blooming_valley"
       }
     ],
