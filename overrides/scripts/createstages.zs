@@ -127,10 +127,7 @@ var itemsStageOne = [
 	<item:sophisticatedbackpacks:blasting_upgrade>,	
 	<item:sophisticatedbackpacks:auto_blasting_upgrade>,
 	//--//---------------------------------------------------- Armor Gating --------------------------------------------------------------//--//
-	<item:minecraft:diamond_helmet>,
-	<item:minecraft:diamond_chestplate>,
-	<item:minecraft:diamond_leggings>,
-	<item:minecraft:diamond_boots>
+
 ];
 
 
