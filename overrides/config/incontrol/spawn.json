@@ -68,6 +68,18 @@
     "mob": ["born_in_chaos_v1:thornshell_crab"],
     "biome": ["minecraft:beach"],
     "result": "deny"
+  },
+  {
+    "mob": ["minecraft:cod", "minecraft:salmon"],
+    "dimension": ["blue_skies:everbright", "blue_skies:everdawn"],
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["born_in_chaos_v1:glutton_fish", "born_in_chaos_v1:corpse_fish"],
+    "dimension": ["minecraft:overworld"],
+    "onjoin": true,
+    "result": "deny"
   }
 
 
