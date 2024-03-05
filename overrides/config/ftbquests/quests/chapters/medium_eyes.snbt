@@ -1101,7 +1101,7 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"This item can be obtained by killing &aBanana Slugs&r, which are found in forests."
+				"This item can be obtained by killing &aBanana Slugs&r, which are found in Old Growth Tall Forests."
 				""
 				"&eBanana Slug Slime&r can also be used to craft &eBanana Slug Slime Blocks&r. If one of these blocks touches &ewater,&r it quickly absorbes it and converts it into &eCrystallized Banana Slug Mucus&r - which makes it an extreamly effective way at clearing out a large amount of &ewater&r."
 			]
