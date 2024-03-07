@@ -1,3 +1,6 @@
+var myIngredient = <item:minecraft:tipped_arrow>.withTag({Potion: "rottencreatures:freeze"}) | <item:minecraft:tipped_arrow>.withTag({Potion: "rottencreatures:long_freeze"}) | <item:minecraft:tipped_arrow>.withTag({Potion: "rottencreatures:strong_freeze"});
+
+
 <recipetype:summoningrituals:altar>.addJsonRecipe("huntsman", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
@@ -18,14 +21,14 @@
     	{ "ingredient": { "item": "born_in_chaos_v1:thread_on_the_bone" }, "count": 1 },
 	    { "ingredient": { "item": "minecraft:snow_block" }, "count": 16 },
         { "ingredient": { "item": "minecraft:ice" }, "count": 16 },
-	    { "ingredient": { "item": "minecraft:diamond" }, "count": 32 },
+	    { "ingredient": { "item": "minecraft:diamond" }, "count": 16 },
 	    { "ingredient": { "item": "minecraft:bow" }, "count": 1 },
-	    { "ingredient": { "item": "minecraft:arrow" }, "count": 32 }
+	    { "ingredient": myIngredient, "count": 32 }
     ],  
 	"sacrifices": { 
        		"mobs": [
 			{ "mob": "minecraft:wolf", "count": 3 },
-			{ "mob": "minecraft:stray", "count": 3 }
+			{ "mob": "minecraft:stray", "count": 1 }
 		],
 
         	"region": { "x": 5, "y": 5, "z": 5 }
