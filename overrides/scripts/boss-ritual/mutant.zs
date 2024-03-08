@@ -1,5 +1,7 @@
 var chemical = <item:minecraft:splash_potion>.withTag({Potion: "mutantmonsters:chemical_x"});
 
+var skeleton = <item:minecraft:bone> | <item:minecraft:arrow>
+
 <recipetype:summoningrituals:altar>.addJsonRecipe("mutant", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
@@ -23,10 +25,10 @@ var chemical = <item:minecraft:splash_potion>.withTag({Potion: "mutantmonsters:c
 	
     ],
     "inputs": [	
-    	{ "ingredient": { "item": "minecraft:ender_pearl" }, "count": 32 },
-	    { "ingredient": { "item": "minecraft:rotten_flesh" }, "count": 32 },
-        { "ingredient": { "item": "minecraft:bone" }, "count": 32 },
-	    { "ingredient": { "item": "minecraft:gunpowder" }, "count": 32 },
+    	{ "ingredient": { "item": "minecraft:ender_pearl" }, "count": 64 },
+	    { "ingredient": { "item": "minecraft:rotten_flesh" }, "count": 64 },
+        { "ingredient": skeleton, "count": 64 },
+	    { "ingredient": { "item": "minecraft:gunpowder" }, "count": 64 },
 	    { "ingredient": { "item": "minecraft:diamond" }, "count": 32 },
         { "ingredient": chemical , "count": 1 }
 	   
