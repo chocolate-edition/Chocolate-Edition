@@ -1,4 +1,4 @@
-var myIngredient = <item:minecraft:potion>.withTag({Potion: "alexsmobs:bug_pheromones"}) | <item:minecraft:potion>.withTag({Potion: "alexsmobs:long_bug_pheromones"});
+var bugPheromones = <item:minecraft:potion>.withTag({Potion: "alexsmobs:bug_pheromones"}) | <item:minecraft:potion>.withTag({Potion: "alexsmobs:long_bug_pheromones"});
 
 <recipetype:summoningrituals:altar>.addJsonRecipe("queenbee", {
     "type": "summoningrituals:altar",
@@ -9,8 +9,8 @@ var myIngredient = <item:minecraft:potion>.withTag({Potion: "alexsmobs:bug_phero
     "inputs": [	
     	{ "ingredient": { "item": "minecraft:honeycomb" }, "count": 1 },
 	    { "ingredient": { "item": "minecraft:honey_block" }, "count": 16 },
-	    { "ingredient": { "item": "minecraft:diamond" }, "count": 16 },
-	    { "ingredient": myIngredient, "count": 1 },
+	    { "ingredient": { "item": "minecraft:diamond" }, "count": 32},
+	    { "ingredient": bugPheromones, "count": 1 },
 	    { "ingredient": { "item": "create:honeyed_apple" }, "count": 16 }
     ],  
 	"sacrifices": { 

@@ -1,4 +1,4 @@
-var myIngredient = <item:minecraft:potion>.withTag({Potion: "minecraft:night_vision"}) | <item:minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"});
+var nightVision = <item:minecraft:potion>.withTag({Potion: "minecraft:night_vision"}) | <item:minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"});
 
 
 <recipetype:summoningrituals:altar>.addJsonRecipe("bellringer", {
@@ -16,9 +16,9 @@ var myIngredient = <item:minecraft:potion>.withTag({Potion: "minecraft:night_vis
     	{ "ingredient": { "item": "create:haunted_bell" }, "count": 1 },
 	    { "ingredient": { "item": "galosphere:spectre_flare" }, "count": 16 },
         { "ingredient": { "item": "minecraft:spectral_arrow" }, "count": 16 },
-	    { "ingredient": { "item": "minecraft:diamond" }, "count": 16 },
+	    { "ingredient": { "item": "minecraft:diamond" }, "count": 32 },
 	    { "ingredient": { "item": "galosphere:allurite_shard" }, "count": 16 },
-	    { "ingredient": myIngredient, "count": 1 }
+	    { "ingredient": nightVision, "count": 1 }
     ],  
 	"sacrifices": { 
        		"mobs": [
