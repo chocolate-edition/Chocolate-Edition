@@ -1,6 +1,6 @@
 var chemical = <item:minecraft:splash_potion>.withTag({Potion: "mutantmonsters:chemical_x"});
 
-var skeleton = <item:minecraft:bone> | <item:minecraft:arrow>
+var skeleton = <item:minecraft:bone> | <item:minecraft:arrow>;
 
 <recipetype:summoningrituals:altar>.addJsonRecipe("mutant", {
     "type": "summoningrituals:altar",
