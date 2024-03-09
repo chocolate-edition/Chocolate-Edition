@@ -350,7 +350,15 @@ var itemsCursed = [
 	<item:enigmaticlegacy:abyssal_heart>,
 	<item:enigmaticlegacy:desolation_ring>,
 	<item:enigmaticlegacy:the_twist>,
-	<item:enigmaticlegacy:soul_crystal>
+	<item:enigmaticlegacy:soul_crystal>,
+	<item:meetyourfight:dusk_key>,
+	<item:meetyourfight:fossil_bait>,
+	<item:meetyourfight:devils_ante>,
+	<item:meetyourfight:haunted_bell>,
+	<item:predators:relics_of_the_ancient_gods>
+
+
+
 ];
 
 
