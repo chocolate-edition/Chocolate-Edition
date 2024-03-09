@@ -361,7 +361,11 @@ var itemsBossSummons = [
 	<item:predators:relics_of_the_ancient_gods>,
 	<item:predators:refined_prismarine>,
 	<item:minecraft:archer_pottery_sherd>,
-	<item:predators:amethyst_geode>
+	<item:predators:amethyst_geode>,
+	<item:minecraft:suspicious_sand>,
+	<item:minecraft:blade_pottery_sherd>,
+	<item:create_confectionery:honey_candy>,
+	<item:farmersdelight:melon_popsicle>
 
 ];
 

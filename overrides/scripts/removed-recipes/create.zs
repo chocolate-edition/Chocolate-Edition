@@ -4,3 +4,5 @@
 
 recipes.removeByName("create:sequenced_assembly/track");
 recipes.removeByName("create:crafting/kinetics/cart_assembler");
+
+recipes.removeByName("create_confectionery:honey_candy_recipe");
