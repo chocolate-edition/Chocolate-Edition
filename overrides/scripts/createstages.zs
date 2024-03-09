@@ -350,7 +350,7 @@ var itemsCursed = [
 	<item:enigmaticlegacy:abyssal_heart>,
 	<item:enigmaticlegacy:desolation_ring>,
 	<item:enigmaticlegacy:the_twist>,
-	<item:enigmaticlegacy:soul_crystal>,
+	<item:enigmaticlegacy:soul_crystal>
 ];
 
 var itemsBossSummons = [
