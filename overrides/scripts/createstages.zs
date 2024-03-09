@@ -409,7 +409,7 @@ for item in itemsCursed {
 }
 
 for item in itemsBossSummons {
-	ItemStages.restrict(item.anyDamage(), "Summoning Alter").preventInventory(false).preventPickup(false).hiddenName("Summoning Alter Item");
+	ItemStages.restrict(item.anyDamage(), "Summoning Alter").preventInventory(false).preventPickup(false).hiddenName("Summoning Alter Item").preventUsing(false);
 	craftingTable.remove(item);
 }
 

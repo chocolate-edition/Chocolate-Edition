@@ -4,6 +4,7 @@ var freezeArrow = <item:minecraft:tipped_arrow>.withTag({Potion: "rottencreature
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
+{ "item": "minecraft:archer_pottery_sherd" }, 
         { "mob": "predators:huntsman" },
 	{ 
 		"mob": "predators:hunter", 
@@ -33,6 +34,33 @@ var freezeArrow = <item:minecraft:tipped_arrow>.withTag({Potion: "rottencreature
         	"region": { "x": 5, "y": 5, "z": 5 }
    	 },
     	"recipe_time": 200,
+   	"block_below": { "block": "minecraft:powder_snow" },
+	"day_time": "NIGHT"
+}
+);
+
+<recipetype:summoningrituals:altar>.addJsonRecipe("huntsman-alt", {
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
+    "outputs": [ 
+{ "item": "minecraft:archer_pottery_sherd" }, 
+        { "mob": "predators:huntsman" },
+	{ 
+		"mob": "predators:hunter", 
+		"count": 3,
+		"spread": { "x": 10, "y": 0, "z": 10 } 
+	},
+	{ 
+		"mob": "predators:ice_hound", 
+		"count": 10,
+		"spread": { "x": 10, "y": 0, "z": 10 }
+	}
+    ],
+    "inputs": [	
+    	{ "item": "minecraft:archer_pottery_sherd" }
+    ],  
+
+    "recipe_time": 200,
    	"block_below": { "block": "minecraft:powder_snow" },
 	"day_time": "NIGHT"
 }

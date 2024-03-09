@@ -2,6 +2,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" },
     "outputs": [
+            { "item": "predators:refined_prismarine" },
             { "mob": "predators:prisnautilus" }
            ],
     "inputs": [
@@ -15,6 +16,23 @@
     },
     	"recipe_time": 200,
     	"block_below": { "block": "upgrade_aquatic:prismarine_coral_block" },
+	"day_time": "NIGHT",
+   	"weather": "RAIN"
+}
+);
+
+<recipetype:summoningrituals:altar>.addJsonRecipe("prisnautilus-alt", {
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "iter_rpg:spawner_fragment" },
+    "outputs": [
+            { "item": "predators:refined_prismarine" },
+            { "mob": "predators:prisnautilus" }
+           ],
+    "inputs": [
+	{ "item": "predators:refined_prismarine" }
+    ],
+    "recipe_time": 200,
+    "block_below": { "block": "upgrade_aquatic:prismarine_coral_block" },
 	"day_time": "NIGHT",
    	"weather": "RAIN"
 }

@@ -4,6 +4,7 @@ var bugPheromones = <item:minecraft:potion>.withTag({Potion: "alexsmobs:bug_pher
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
+		{ "item": "create_confectionery:honey_candy" }, 
         { "mob": "queen_bee:queen_bee" }
     ],
     "inputs": [	
@@ -21,6 +22,23 @@ var bugPheromones = <item:minecraft:potion>.withTag({Potion: "alexsmobs:bug_pher
         	"region": { "x": 5, "y": 5, "z": 5 }
    	 },
     	"recipe_time": 200,
+   	"block_below": { "block": "minecraft:bee_nest" },
+	"day_time": "NIGHT"
+}
+);
+
+
+<recipetype:summoningrituals:altar>.addJsonRecipe("queenbee-alt", {
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
+    "outputs": [ 
+		{ "item": "create_confectionery:honey_candy" }, 
+        { "mob": "queen_bee:queen_bee" }
+    ],
+    "inputs": [	
+    	{ "item": "create_confectionery:honey_candy" }, 
+    ],  
+    "recipe_time": 200,
    	"block_below": { "block": "minecraft:bee_nest" },
 	"day_time": "NIGHT"
 }

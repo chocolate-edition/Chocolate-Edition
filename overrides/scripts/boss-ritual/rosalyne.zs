@@ -2,6 +2,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
+        { "item": "minecraft:blade_pottery_sherd" }, 
         { "mob": "meetyourfight:rosalyne" },
     ],
     "inputs": [	
@@ -12,6 +13,22 @@
         { "ingredient": { "item": "iter_rpg:ametrine_ingot" }, "count": 4 },
 	    { "ingredient": { "item": "iter_rpg:ametrine_shard" }, "count": 32 }
 	  
+    ],  
+    "recipe_time": 200,
+   	"block_below": { "block": "iter_rpg:polished_ametrine_block" },
+	"day_time": "NIGHT"
+}
+);
+
+<recipetype:summoningrituals:altar>.addJsonRecipe("rosalyne-alt", {
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
+    "outputs": [ 
+        { "item": "minecraft:blade_pottery_sherd" }, 
+        { "mob": "meetyourfight:rosalyne" },
+    ],
+    "inputs": [	
+    	 { "item": "minecraft:blade_pottery_sherd" }
     ],  
     "recipe_time": 200,
    	"block_below": { "block": "iter_rpg:polished_ametrine_block" },
