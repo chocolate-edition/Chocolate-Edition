@@ -351,16 +351,19 @@ var itemsCursed = [
 	<item:enigmaticlegacy:desolation_ring>,
 	<item:enigmaticlegacy:the_twist>,
 	<item:enigmaticlegacy:soul_crystal>,
+];
+
+var itemsBossSummons = [
 	<item:meetyourfight:dusk_key>,
 	<item:meetyourfight:fossil_bait>,
 	<item:meetyourfight:devils_ante>,
 	<item:meetyourfight:haunted_bell>,
-	<item:predators:relics_of_the_ancient_gods>
-
-
+	<item:predators:relics_of_the_ancient_gods>,
+	<item:predators:refined_prismarine>,
+	<item:minecraft:archer_pottery_sherd>,
+	<item:predators:amethyst_geode>
 
 ];
-
 
 //Eye gates
 
@@ -398,6 +401,11 @@ for item in itemsStageFive {
 
 for item in itemsCursed {
 	ItemStages.restrict(item.anyDamage(), "enigma").preventInventory(false).preventPickup(false).hiddenName("§cEnigmatic Item");
+	craftingTable.remove(item);
+}
+
+for item in itemsBossSummons {
+	ItemStages.restrict(item.anyDamage(), "Summoning Alter").preventInventory(false).preventPickup(false).hiddenName("Summoning Alter Item");
 	craftingTable.remove(item);
 }
 
