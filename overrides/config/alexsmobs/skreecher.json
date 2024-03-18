@@ -2,9 +2,9 @@
   "biomes": [
     [
       {
-        "type": "BIOME_TAG",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "alexsmobs:skreechers_can_spawn_wardens"
+        "value": "minecraft:deep_dark"
       }
     ]
   ]
