@@ -11,7 +11,11 @@
     "random": 0.85,
     "onjoin": true,
     "result": "deny"
+  },
+  {
+    "mob": ["iter_rpg:giant_spider"],
+    "onjoin": true,
+    "result": "deny"
   }
-
 
 ]
