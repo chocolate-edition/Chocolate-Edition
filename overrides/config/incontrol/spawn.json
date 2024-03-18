@@ -13,7 +13,7 @@
     "result": "deny"
   },
   {
-    "mob": ["alexsmobs:crow", "alexsmobs:crocodile", "alexsmobs:alligator_snapping_turtle", "alexsmobs:seagull", "born_in_chaos_v1:thornshell_crab", "cnb:cactem", "born_in_chaos_v1:corpse_fly", "born_in_chaos_v1:dread_hound", "born_in_chaos_v1:dire_hound_leader", "epicsamurai:kitsune", "alexsmobs:tiger", "born_in_chaos_v1:zombie_fisherman", "iter_rpg:scallop", "alexsmobs:platypus", "born_in_chaos_v1:bloody_gadfly", "cnb:little_grebe", "naturalist:snail", "endermanoverhaul:flower_fields_enderman", "endermanoverhaul:dark_oak_enderman"],
+    "mob": ["alexsmobs:crow", "alexsmobs:crocodile", "alexsmobs:alligator_snapping_turtle", "alexsmobs:seagull", "born_in_chaos_v1:thornshell_crab", "cnb:cactem", "born_in_chaos_v1:corpse_fly", "born_in_chaos_v1:dread_hound", "born_in_chaos_v1:dire_hound_leader", "epicsamurai:kitsune", "alexsmobs:tiger", "born_in_chaos_v1:zombie_fisherman", "iter_rpg:scallop", "alexsmobs:platypus", "born_in_chaos_v1:bloody_gadfly", "cnb:little_grebe", "naturalist:snail", "endermanoverhaul:flower_fields_enderman", "endermanoverhaul:dark_oak_enderman", "whatareyouvotingfor2023:penguin", "alexsmobs:seal"],
     "maxheight": 60,
     "result": "deny"
   },
