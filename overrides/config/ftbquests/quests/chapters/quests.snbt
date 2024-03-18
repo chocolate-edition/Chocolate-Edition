@@ -8928,7 +8928,7 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "atmospheric:passionfruit"
+						id: "atmospheric:passion_fruit"
 					}
 					type: "item"
 				}
