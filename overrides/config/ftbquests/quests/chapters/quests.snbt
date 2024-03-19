@@ -97,7 +97,7 @@
 			y: 15.25d
 		}
 		{
-			click: ""
+			click: "command:/playsound minecraft:entity.creeper.primed master @p ~ ~ ~ 2 1 1"
 			corner: false
 			dev: false
 			height: 6.0d
@@ -7504,6 +7504,105 @@
 					}
 					type: "item"
 				}
+				{
+					id: "65E13989DB7BAC3D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:aspen_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "1482024F2218F5D4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:green_aspen_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "1F342DB805A56AEA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:laurel_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "2B684E102E44B9D1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:dry_laurel_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "0F09659930BFB584"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:cheerful_cherry_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "77A116CEB7F1E9EA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:moody_cherry_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "6C212953EF2B3362"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:kousa_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "657389F14D9D3887"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:grimwood_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "28804FD1B9307FEA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:pine_sapling"
+					}
+					type: "item"
+				}
 			]
 			title: "The Ultimate Treehugger"
 			x: 16.0d
@@ -8987,6 +9086,50 @@
 					}
 					type: "item"
 				}
+				{
+					id: "50B54306FF9409F0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:orange"
+					}
+					type: "item"
+				}
+				{
+					id: "1067540E76AAA276"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:currant"
+					}
+					type: "item"
+				}
+				{
+					id: "63CD137A0A851793"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:dragon_fruit"
+					}
+					type: "item"
+				}
+				{
+					id: "269FA46C97357DDD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "endergetic:bolloom_fruit"
+					}
+					type: "item"
+				}
 			]
 			title: "Mobile App - Fruit Ninja"
 			x: 20.625d
@@ -10269,6 +10412,28 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "bakery:chocolate_tart"
+					}
+					type: "item"
+				}
+				{
+					id: "1A7A670F39342C9D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:currant_muffin"
+					}
+					type: "item"
+				}
+				{
+					id: "767DD59CE0AFCB61"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:orange_pudding"
 					}
 					type: "item"
 				}
@@ -11751,6 +11916,72 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0F0C9D51C81B587E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:midday_bayhop"
+					}
+					type: "item"
+				}
+				{
+					id: "60BDEF7044602C46"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:firethorn"
+					}
+					type: "item"
+				}
+				{
+					id: "1D5D7FEDDB1CC57F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:forsythia"
+					}
+					type: "item"
+				}
+				{
+					id: "3D75E9ED850F10C2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:agave"
+					}
+					type: "item"
+				}
+				{
+					id: "5ACAE1DA180CEC54"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "environmental:tasselflower"
+					}
+					type: "item"
+				}
+				{
+					id: "0D3D684B7AAC9326"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "endergetic:bolloom_bud"
+					}
+					type: "item"
+				}
 			]
 			title: "Flowey - Basil's Catalogue"
 			x: 13.0d
@@ -12623,6 +12854,32 @@
 					}
 					id: "3D7CDE1C10F44745"
 					title: "Aphid"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "atmospheric:cochineal"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "atmospheric:cochineal_spawn_egg"
+					}
+					id: "599229BA764A12B6"
+					type: "kill"
+					value: 4L
+				}
+				{
+					entity: "endergetic:puff_bug"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "endergetic:puff_bug_spawn_egg"
+					}
+					id: "7D11A303652CFB09"
 					type: "kill"
 					value: 1L
 				}
