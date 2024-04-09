@@ -20,5 +20,5 @@ overrides/simplebackups/
 overrides/config/jei/world/
 overrides/shaderpacks/ComplementaryReimagined_r5.0.1.zip.txt
 overrides/config/blockswap/known_states/
-Chocolate-Edition.zip
+/*.zip
 *.bak
