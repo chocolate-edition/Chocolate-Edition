@@ -125,7 +125,9 @@ var itemsStageOne = [
 	<item:sophisticatedbackpacks:smoking_upgrade>,	
 	<item:sophisticatedbackpacks:auto_smoking_upgrade>,	
 	<item:sophisticatedbackpacks:blasting_upgrade>,	
-	<item:sophisticatedbackpacks:auto_blasting_upgrade>
+	<item:sophisticatedbackpacks:auto_blasting_upgrade>,
+	//--//---------------------------------------------------- Armor Gating --------------------------------------------------------------//--//
+
 ];
 
 

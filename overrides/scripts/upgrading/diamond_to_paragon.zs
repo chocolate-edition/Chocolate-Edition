@@ -1,0 +1,1 @@
+smithing.addRecipe("diamond_to_paragon", <item:shieldexp:paragon_shield>, <item:shieldexp:diamond_shield>.anyDamage(), <item:majruszsdifficulty:enderium_ingot>);
