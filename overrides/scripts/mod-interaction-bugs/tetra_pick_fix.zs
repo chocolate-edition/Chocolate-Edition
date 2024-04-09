@@ -27,7 +27,7 @@ CTEventManager.register<BlockBreakEvent>((event) => {
   val block = event.getBlockState().block;
   val mod = block.registryName.namespace;
   // early return if block isnt from bugged mods
-  if mod != "iter_rpg" && mod != "enlightened_end" {
+  if mod != "iter_rpg" && mod != "enlightened_end" && mod != "born_in_chaos_v1" {
     return;
   }
   // early return if block isnt bugged
