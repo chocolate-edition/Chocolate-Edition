@@ -25,37 +25,37 @@
 ["The Graveyard - Structures Config"]
 
 	["The Graveyard - Structures Config".hauntedHouse]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".largeGraveyard]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".mediumGraveyard]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".memorialTree]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".mushroomGrave]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".smallDesertGrave]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".smallDesertGraveyard]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".smallGrave]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".smallSavannaGrave]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".smallGraveyard]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".smallMountainGraveyard]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".crypt]
 		generate = true
@@ -64,16 +64,16 @@
 		generate = true
 
 	["The Graveyard - Structures Config".giantMushroom]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".lichPrison]
 		generate = true
 
 	["The Graveyard - Structures Config".ruins]
-		generate = true
+		generate = false
 
 	["The Graveyard - Structures Config".deadTree]
-		generate = true
+		generate = false
 
 ["The Graveyard - Mob Spawning Config"]
 
