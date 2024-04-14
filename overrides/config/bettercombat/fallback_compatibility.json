@@ -15,7 +15,7 @@
       "weapon_attributes": "bettercombat:double_axe"
     },
     {
-      "item_id_regex": "scythe|the_harvest",
+      "item_id_regex": "scythe|the_harvest|depth_scythe",
       "weapon_attributes": "bettercombat:scythe"
     },
     {
@@ -35,7 +35,7 @@
       "weapon_attributes": "bettercombat:lance"
     },
     {
-      "item_id_regex": "anchor",
+      "item_id_regex": "anchor|macuahuitl|club",
       "weapon_attributes": "bettercombat:anchor"
     },
     {
@@ -43,7 +43,7 @@
       "weapon_attributes": "bettercombat:battlestaff"
     },
     {
-      "item_id_regex": "claw",
+      "item_id_regex": "claw|ripsaw",
       "weapon_attributes": "bettercombat:claw"
     },
     {
@@ -63,7 +63,7 @@
       "weapon_attributes": "bettercombat:rapier"
     },
     {
-      "item_id_regex": "sickle",
+      "item_id_regex": "sickle|warpick",
       "weapon_attributes": "bettercombat:sickle"
     },
     {
