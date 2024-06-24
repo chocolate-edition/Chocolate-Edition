@@ -1,0 +1,502 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 15,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:diopside_block",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:air",
+            "weight": 25
+            
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:fox_pelt",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:snowball",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:opal_fossil",
+            "weight": 35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 9
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:zeal_lighter",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:golden_scau",
+            "weight": 25
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:charoite",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "oddorganisms:apthoroblattina_ootheca",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 7
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:moonstone_block",
+            "weight": 35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:austro_feather",
+            "weight": 30,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:blue_fruit_scraps",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:amber_fossil",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:barina_whistle",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:dryo_sapling",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:meaty_buffet",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:mammoth_embryo",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:red_fruit_scraps",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "alexsmobs:banana",
+            "weight": 9,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "alexsmobs:maraca",
+            "weight": 9,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "alexsmobs:kangaroo_burger",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "naturalist:cooked_egg",
+            "weight": 9,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "another_furniture:service_bell",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "supplementaries:flute",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "alexsmobs:rainbow_jelly",
+            "weight": 9
+          },
+          {
+            "type": "minecraft:item",
+            "name": "naturalist:teddy_bear",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "alexsmobs:leafcutter_ant_pupa",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "alexsmobs:potted_flutter",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:running_shoes",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:lucky_scarf",
+            "weight": 7
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:superstitious_hat",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:umbrella",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:item",
+            "name": "simplehats:hatbag_epic",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:intoxicatind_bomb",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:cloud_in_a_bottle",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "iter_rpg:air_fragment",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "enlightened_end:frost_fruit",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:opalescent_shuriken",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:moonstone",
+            "weight": 30,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:opal_chunk",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "createdeco:gold_coin",
+            "weight": 35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 12
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "createdeco:gold_coinstack",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "farmersdelight:chocolate_pie",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:totem_of_undying",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "delightful:deluxe_cheeseburger",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_golden_apple",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:diopside_pickaxe",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 50,
+                  "max": 140
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:horizonite_sword",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 50,
+                  "max": 140
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualfishmod:clement_shell",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualfishmod:crimson_bricks",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 15
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualfishmod:relucent_bricks",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 15
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

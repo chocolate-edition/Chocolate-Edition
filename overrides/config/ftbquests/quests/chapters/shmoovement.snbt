@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "shmoovement"
+	group: "6753AA6B545E8D27"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "paraglider:item/stamina_vessel"
+		}
+	}
+	id: "04915C1D4629344B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/2024-06-16_00.56.52.png"
+			rotation: 0.0d
+			width: 6.522292993630573d
+			x: 1.0d
+			y: -12.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "chocolate:textures/2024-06-16_01.03.06.png"
+			rotation: 0.0d
+			width: 9.17039586919105d
+			x: 9.5d
+			y: -12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "chocolate:textures/2024-06-16_01.09.52.png"
+			rotation: 0.0d
+			width: 13.697368421052632d
+			x: -19.25d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "chocolate:textures/2024-06-16_01.11.15.png"
+			rotation: 0.0d
+			width: 12.857142857142858d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "chocolate:textures/Carry-look-at-bottom-of.png"
+			rotation: 0.0d
+			width: 34.02439024390244d
+			x: 26.5d
+			y: 37.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "chocolate:textures/Climb-default-hold-w.png"
+			rotation: 0.0d
+			width: 32.5d
+			x: 5.25d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "chocolate:textures/Crouchingcrawling-defa.png"
+			rotation: 0.0d
+			width: 36.217948717948715d
+			x: 37.25d
+			y: -15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "chocolate:textures/climb.png"
+			rotation: 0.0d
+			width: 12.444444444444443d
+			x: 5.25d
+			y: -21.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "chocolate:textures/crawl.png"
+			rotation: 0.0d
+			width: 21.333333333333332d
+			x: 28.75d
+			y: -24.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "chocolate:textures/crouch.png"
+			rotation: 0.0d
+			width: 21.333333333333332d
+			x: 50.75d
+			y: -23.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "chocolate:textures/Fast-runvault-default-.png"
+			rotation: 0.0d
+			width: 38.10126582278481d
+			x: 53.25d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "chocolate:textures/fastrun.png"
+			rotation: 0.0d
+			width: 21.333333333333332d
+			x: 61.5d
+			y: -4.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "chocolate:textures/Rolling-default-r.png"
+			rotation: 0.0d
+			width: 31.363636363636367d
+			x: -21.5d
+			y: -10.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "chocolate:textures/roll.png"
+			rotation: 0.0d
+			width: 14.222222222222221d
+			x: -30.0d
+			y: -16.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "chocolate:textures/roll2.png"
+			rotation: 0.0d
+			width: 14.222222222222221d
+			x: -22.0d
+			y: -24.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "chocolate:textures/roll3.png"
+			rotation: 0.0d
+			width: 14.222222222222221d
+			x: -13.75d
+			y: -16.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/run.png"
+			rotation: 0.0d
+			width: 17.77777777777778d
+			x: 41.25d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "chocolate:textures/sit.png"
+			rotation: 0.0d
+			width: 26.666666666666664d
+			x: 17.25d
+			y: 12.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "chocolate:textures/vault.png"
+			rotation: 0.0d
+			width: 21.333333333333332d
+			x: 41.5d
+			y: 14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/vault2.png"
+			rotation: 0.0d
+			width: 17.77777777777778d
+			x: 61.25d
+			y: 12.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "chocolate:textures/Wall-jump-look-away-fro.png"
+			rotation: 0.0d
+			width: 32.5609756097561d
+			x: -12.25d
+			y: 16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "chocolate:textures/Zoom-default-c-Ping-.png"
+			rotation: 0.0d
+			width: 19.706896551724135d
+			x: -37.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/zoom.png"
+			rotation: 0.0d
+			width: 17.77777777777778d
+			x: -37.25d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "chocolate:textures/Sit-z.png"
+			rotation: 0.0d
+			width: 4.857142857142857d
+			x: 17.0d
+			y: 4.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "chocolate:textures/carry.png"
+			rotation: 0.0d
+			width: 21.333333333333332d
+			x: 25.5d
+			y: 27.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "chocolate:textures/carry1.png"
+			rotation: 0.0d
+			width: 21.333333333333332d
+			x: 50.5d
+			y: 38.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "chocolate:textures/carry2.png"
+			rotation: 0.0d
+			width: 21.333333333333332d
+			x: 2.5d
+			y: 38.25d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1b
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": { }
+			}
+			id: "paraglider:stamina_vessel"
+		}
+		id: "5859ECF907ACA2D5"
+		invisible: true
+		size: 5.0d
+		tasks: [{
+			id: "3E5558E6A67A59A3"
+			stat: "minecraft:sprint_one_cm"
+			type: "stat"
+			value: 10
+		}]
+		title: "Movement"
+		x: 21.0d
+		y: -1.5d
+	}]
+	title: "&l - Movement"
+}

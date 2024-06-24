@@ -6,7 +6,7 @@
 	group: "124DA5EC6A42A11D"
 	icon: "minecraft:barrier"
 	id: "2C7D4E108CF721D5"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

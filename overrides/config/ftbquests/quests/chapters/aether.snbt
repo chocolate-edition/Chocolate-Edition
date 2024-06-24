@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "6753AA6B545E8D27"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "enlightened_end:items/empty_everglint_mirror"
+		}
+	}
+	id: "1F52FFA2771EC3BE"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1b
+			id: "ftbquests:custom_icon"
+			tag: {
+				Icon: "enlightened_end:items/empty_everglint_mirror"
+			}
+		}
+		id: "1586FC76858DC429"
+		invisible: true
+		size: 5.0d
+		subtitle: "The Realm of Genesis, mythic skies ruled by divine forces seeking justice and purity."
+		tasks: [{
+			id: "310BC413BF76330A"
+			type: "custom"
+		}]
+		title: "Aether"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&6Aether"
+}

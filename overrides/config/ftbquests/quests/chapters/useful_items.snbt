@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "useful_items"
 	group: "75DA3C44FB5FAC43"
 	icon: {
@@ -11,68 +12,6 @@
 		}
 	}
 	id: "66BE6EBB8A2404EE"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 10.0d
-			hover: [ ]
-			image: "chocolate:textures/5.png"
-			rotation: 0.0d
-			width: 5.0568181818181825d
-			x: 7.75d
-			y: -7.75d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 10.0d
-			hover: [ ]
-			image: "chocolate:textures/48.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: 19.25d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 6.0d
-			hover: [ ]
-			image: "chocolate:textures/81.png"
-			rotation: 0.0d
-			width: 7.0d
-			x: 2.25d
-			y: 15.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 10.0d
-			hover: [ ]
-			image: "chocolate:textures/68.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: -4.75d
-			y: 2.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 6.0d
-			hover: [ ]
-			image: "chocolate:textures/66.png"
-			rotation: 0.0d
-			width: 7.325914149443561d
-			x: 20.0d
-			y: 14.25d
-		}
-	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

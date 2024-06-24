@@ -1,7 +1,9 @@
 {
 	chapter_groups: [
 		{ id: "124DA5EC6A42A11D", title: "&l&2Important" }
-		{ id: "1C888CDB8EF0A7FB", title: "&l&9Main Progression" }
-		{ id: "75DA3C44FB5FAC43", title: "&l&6Other Progression" }
+		{ id: "1C888CDB8EF0A7FB", title: "&l&9Recipes" }
+		{ id: "75DA3C44FB5FAC43", title: "&l&6Exchange" }
+		{ id: "6753AA6B545E8D27", title: "&l&3Info" }
+		{ id: "43BFCECB9B138513", title: "&l&8Checklists" }
 	]
 }

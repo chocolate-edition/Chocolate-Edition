@@ -2075,31 +2075,18 @@
 				"&eNightcresses&r can also be turned into &eBlue Dye&r"
 			]
 			id: "6A3880FB783D3A96"
-			rewards: [
-				{
-					count: 10
-					id: "438B7FCC572E012B"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:nightcress"
+			rewards: [{
+				count: 10
+				id: "438B7FCC572E012B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					type: "item"
+					id: "blue_skies:nightcress"
 				}
-				{
-					id: "612EF25B9A0A29F0"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:dark_nelumbo"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.2d
 			subtitle: "A flower found in the Everdawn"
@@ -2331,17 +2318,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "3F4CC390A77345DD"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:ice_cube"
-					}
-					type: "item"
-				}
 			]
 			shape: "pentagon"
 			subtitle: "Found in Deep Frozen Ocean biomes"
@@ -2405,17 +2381,32 @@
 				"The &eDusk Arc&r is also grants invisibility while sneaking while the &eEthereal Arc&r grants a 10% Speed increase"
 			]
 			id: "480C1E862A882A6E"
-			rewards: [{
-				id: "5F759346DFAFA884"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					count: 2
+					id: "3D7BB233B803FE6F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:charoite"
 					}
-					id: "nameless_trinkets:ethereal_wings"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "14B1E3783B1774E3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "blue_skies:diopside_gem"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "Dropped by the Summoner or Alchemist"
 			tasks: [{
