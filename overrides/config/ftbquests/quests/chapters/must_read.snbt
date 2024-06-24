@@ -389,6 +389,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 10000L
 					id: "5E96DC3AC684532D"
 					item: {
@@ -401,6 +402,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 100L
 					id: "4D0085F9654B4F2B"
 					item: {
@@ -413,6 +415,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 10000L
 					id: "021ACBA63D0C8B12"
 					item: {
