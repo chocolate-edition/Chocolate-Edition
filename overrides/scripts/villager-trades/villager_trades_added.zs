@@ -95,11 +95,12 @@ function AddBookTrade(profession as VillagerProfession, enchantment as Enchantme
 }
 
 // apply trades
-for prof, enchants in bookTrades {
-  for enchant in enchants {
-    AddBookTrade(prof, enchant);
-  }
-}
+//! causes a crash when creating a new world. leaving disabled for now
+// for prof, enchants in bookTrades {
+//   for enchant in enchants {
+//     AddBookTrade(prof, enchant);
+//   }
+// }
 
 //? ---------Item Trades --------------
 
