@@ -92,7 +92,7 @@
   {
     "mob": "unusualprehistory:paraceratherium",
     "persecond": 0.1,
-    "attempts": 0.1,
+    "attempts": 1,
     "amount": {
       "minimum": 1,
       "maximum": 2
@@ -108,14 +108,14 @@
   },
   {
     "mob": "unusualprehistory:mammoth",
-    "persecond": 0.1,
-    "attempts": 1,
+    "persecond": 0.5,
+    "attempts": 3,
     "amount": {
       "minimum": 3,
       "maximum": 5
     },
     "conditions": {
-      "maxlocal": 3,
+      "maxlocal": 5,
       "dimension": "blue_skies:everbright",
       "mindist": 40,
       "maxdist": 140,
@@ -971,7 +971,7 @@
   {
     "mob": "blue_skies:municipal_monkfish",
     "persecond": 0.1,
-    "attempts": 10,
+    "attempts": 1,
     "amount": {
       "minimum": 2,
       "maximum": 4
@@ -2181,7 +2181,7 @@
   {
     "mob": "unusualfishmod:kalappa",
     "persecond": 0.1,
-    "attempts": 25,
+    "attempts": 35,
     "amount": {
       "minimum": 1,
       "maximum": 4,
