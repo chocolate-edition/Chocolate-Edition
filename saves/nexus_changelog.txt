@@ -1,0 +1,8 @@
+Version 1
+
+https://drive.google.com/drive/folders/19_8vF8w21a9-Tp9BVzU3L5S45DkaV3a8 <-- Link to Nexus world file/other
+
+Starting this changelog 6/24/24
+Gonna list all the changes i make to the Nexus here and upload em to drive
+
+* Submitted a backup from 5/23, it should have all 50 some odd arenas and some boss spawn mechanisms set up
