@@ -12,7 +12,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/descHorizoniteForge.png"
+			image: "chocolate:textures/deschorizoniteforge.png"
 			rotation: 0.0d
 			width: 8.402985074626866d
 			x: -11.75d
@@ -24,7 +24,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/AlchemyTable.png"
+			image: "chocolate:textures/alchemytable.png"
 			rotation: 0.0d
 			width: 8.612903225806452d
 			x: -21.75d
@@ -36,7 +36,7 @@
 			dev: false
 			height: 1.1d
 			hover: [ ]
-			image: "chocolate:textures/Asrolabetext1.png"
+			image: "chocolate:textures/asrolabetext1.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -2.5d
@@ -48,7 +48,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/Astrolabe.png"
+			image: "chocolate:textures/astrolabe.png"
 			rotation: 0.0d
 			width: 6.048387096774194d
 			x: -2.25d
@@ -72,7 +72,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/Astrolabetext2.png"
+			image: "chocolate:textures/astrolabetext2.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -2.5d
@@ -84,7 +84,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/SnowcapOventext.png"
+			image: "chocolate:textures/snowcapoventext.png"
 			rotation: 0.0d
 			width: 6.985074626865671d
 			x: 6.75d
@@ -96,7 +96,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/SummonerTable.png"
+			image: "chocolate:textures/summonertable.png"
 			rotation: 0.0d
 			width: 9.435483870967742d
 			x: 17.5d
@@ -108,7 +108,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/WardingPearltext.png"
+			image: "chocolate:textures/wardingpearltext.png"
 			rotation: 0.0d
 			width: 17.20689655172414d
 			x: -5.75d
@@ -120,7 +120,7 @@
 			dev: false
 			height: 1.2d
 			hover: [ ]
-			image: "chocolate:textures/descHorizoniteForgetext1.png"
+			image: "chocolate:textures/deschorizoniteforgetext1.png"
 			rotation: 0.0d
 			width: 6.0d
 			x: -11.75d
@@ -132,7 +132,7 @@
 			dev: false
 			height: 0.5d
 			hover: [ ]
-			image: "chocolate:textures/descHorizoniteForgetext2.png"
+			image: "chocolate:textures/deschorizoniteforgetext2.png"
 			rotation: 0.0d
 			width: 7.0d
 			x: -11.75d
@@ -144,7 +144,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/descSnowcapOventext1.png"
+			image: "chocolate:textures/descsnowcapoventext1.png"
 			rotation: 0.0d
 			width: 7.847619047619047d
 			x: 7.0d
@@ -156,7 +156,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/descSnowCapOventext2.png"
+			image: "chocolate:textures/descsnowcapoventext2.png"
 			rotation: 0.0d
 			width: 6.43859649122807d
 			x: 7.0d
@@ -168,7 +168,7 @@
 			dev: false
 			height: 1.5d
 			hover: [ ]
-			image: "chocolate:textures/descSummonerTabletext.png"
+			image: "chocolate:textures/descsummonertabletext.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 17.25d
@@ -180,7 +180,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "chocolate:textures/picAlchemyTable.png"
+			image: "chocolate:textures/picalchemytable.png"
 			rotation: 1.0d
 			width: 11.0d
 			x: -22.0d
@@ -192,7 +192,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "chocolate:textures/picAlchemyTablegui1.png"
+			image: "chocolate:textures/picalchemytablegui1.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -22.25d
@@ -204,7 +204,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "chocolate:textures/picAlchemyTablegui2.png"
+			image: "chocolate:textures/picalchemytablegui2.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -22.25d
@@ -228,7 +228,7 @@
 			dev: false
 			height: 7.0d
 			hover: [ ]
-			image: "chocolate:textures/picAstrolabe.png"
+			image: "chocolate:textures/picastrolabe.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: -2.5d
@@ -240,7 +240,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "chocolate:textures/picSnowCapOven.png"
+			image: "chocolate:textures/picsnowcapoven.png"
 			rotation: 0.0d
 			width: 11.0d
 			x: 6.75d
@@ -252,7 +252,7 @@
 			dev: false
 			height: 8.0d
 			hover: [ ]
-			image: "chocolate:textures/picStarEmitter.png"
+			image: "chocolate:textures/picstaremitter.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -2.5d
@@ -264,7 +264,7 @@
 			dev: false
 			height: 11.0d
 			hover: [ ]
-			image: "chocolate:textures/picSummonerTable.png"
+			image: "chocolate:textures/picsummonertable.png"
 			rotation: 0.0d
 			width: 11.0d
 			x: 17.25d
@@ -276,7 +276,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "chocolate:textures/picSummonerTableGUI.png"
+			image: "chocolate:textures/picsummonertablegui.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 17.25d
@@ -288,7 +288,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "chocolate:textures/picWardingPearl.png"
+			image: "chocolate:textures/picwardingpearl.png"
 			rotation: 0.0d
 			width: 11.0d
 			x: -5.75d
@@ -324,7 +324,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/WardingPearlTitle.png"
+			image: "chocolate:textures/wardingpearlTitle.png"
 			rotation: 0.0d
 			width: 6.895522388059701d
 			x: -5.75d
@@ -336,7 +336,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/descAlchemyTabletext1.png"
+			image: "chocolate:textures/descalchemytabletext1.png"
 			rotation: 0.0d
 			width: 20.25925925925926d
 			x: -22.5d

@@ -67,7 +67,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "chocolate:textures/Carry-look-at-bottom-of.png"
+			image: "chocolate:textures/carry-look-at-bottom-of.png"
 			rotation: 0.0d
 			width: 34.02439024390244d
 			x: 26.5d
@@ -79,7 +79,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "chocolate:textures/Climb-default-hold-w.png"
+			image: "chocolate:textures/climb-default-hold-w.png"
 			rotation: 0.0d
 			width: 32.5d
 			x: 5.25d
@@ -91,7 +91,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "chocolate:textures/Crouchingcrawling-defa.png"
+			image: "chocolate:textures/crouchingcrawling-defa.png"
 			rotation: 0.0d
 			width: 36.217948717948715d
 			x: 37.25d
@@ -139,7 +139,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "chocolate:textures/Fast-runvault-default-.png"
+			image: "chocolate:textures/fast-runvault-default-.png"
 			rotation: 0.0d
 			width: 38.10126582278481d
 			x: 53.25d
@@ -163,7 +163,7 @@
 			dev: false
 			height: 3.0d
 			hover: [ ]
-			image: "chocolate:textures/Rolling-default-r.png"
+			image: "chocolate:textures/rolling-default-r.png"
 			rotation: 0.0d
 			width: 31.363636363636367d
 			x: -21.5d
@@ -259,7 +259,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "chocolate:textures/Wall-jump-look-away-fro.png"
+			image: "chocolate:textures/wall-jump-look-away-fro.png"
 			rotation: 0.0d
 			width: 32.5609756097561d
 			x: -12.25d
@@ -271,7 +271,7 @@
 			dev: false
 			height: 3.0d
 			hover: [ ]
-			image: "chocolate:textures/Zoom-default-c-Ping-.png"
+			image: "chocolate:textures/zoom-default-c-ping-.png"
 			rotation: 0.0d
 			width: 19.706896551724135d
 			x: -37.0d
@@ -295,7 +295,7 @@
 			dev: false
 			height: 2.0d
 			hover: [ ]
-			image: "chocolate:textures/Sit-z.png"
+			image: "chocolate:textures/sit-z.png"
 			rotation: 0.0d
 			width: 4.857142857142857d
 			x: 17.0d

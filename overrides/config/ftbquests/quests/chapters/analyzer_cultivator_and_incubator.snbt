@@ -12,7 +12,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "chocolate:textures/DABABIES.png"
+			image: "chocolate:textures/dababies.png"
 			rotation: 0.0d
 			width: 19.0d
 			x: 9.5d
@@ -48,7 +48,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "chocolate:textures/AnalyzerGUI.png"
+			image: "chocolate:textures/analyzergui.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -28.25d
@@ -60,7 +60,7 @@
 			dev: false
 			height: 8.0d
 			hover: [ ]
-			image: "chocolate:textures/guiceincubatorGUI.png"
+			image: "chocolate:textures/guiceincubatorgui.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: 10.25d
@@ -96,7 +96,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "chocolate:textures/guidecultivatorGUI.png"
+			image: "chocolate:textures/guidecultivatorgui.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -9.25d
