@@ -846,7 +846,6 @@
 			y: 12.379999999999999d
 		}
 		{
-			dependencies: ["7CFCF3BA7E2B325C"]
 			disable_toast: true
 			icon: "supplementaries:key"
 			id: "2A6613CD148A7A46"
@@ -877,7 +876,6 @@
 			y: 12.379999999999999d
 		}
 		{
-			dependencies: ["7CFCF3BA7E2B325C"]
 			disable_toast: true
 			icon: {
 				Count: 1b

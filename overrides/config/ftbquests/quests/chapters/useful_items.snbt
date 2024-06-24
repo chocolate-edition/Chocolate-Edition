@@ -34,6 +34,7 @@
 		}
 		{
 			dependencies: ["538216B8378B0B90"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -76,6 +77,7 @@
 		}
 		{
 			dependencies: ["538216B8378B0B90"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "environmental:architect_belt"
@@ -91,6 +93,7 @@
 		}
 		{
 			dependencies: ["538216B8378B0B90"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -134,6 +137,7 @@
 		}
 		{
 			dependencies: ["538216B8378B0B90"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1697,6 +1701,7 @@
 		}
 		{
 			dependencies: ["60855B118C2FE854"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1712,6 +1717,7 @@
 		}
 		{
 			dependencies: ["60855B118C2FE854"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1885,6 +1891,7 @@
 		}
 		{
 			dependencies: ["60855B118C2FE854"]
+			disable_toast: true
 			icon: "enigmaticlegacy:evil_ingot"
 			id: "2CF7BCB76B6AB7C9"
 			shape: "square"
@@ -1894,6 +1901,7 @@
 		}
 		{
 			dependencies: ["60855B118C2FE854"]
+			disable_toast: true
 			icon: "iter_rpg:geodite"
 			id: "03C270CB97B7F512"
 			shape: "square"
