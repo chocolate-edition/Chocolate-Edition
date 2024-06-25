@@ -17,6 +17,15 @@
 		[types.leaves_type.environmental]
 			willow = true
 			cherry = true
+			hibiscus = true
+			pine = true
+			cheerful_cherry = true
+			moody_cherry = true
+			wisteria = true
+			pink_wisteria = true
+			blue_wisteria = true
+			purple_wisteria = true
+			white_wisteria = true
 
 		[types.leaves_type.autumnity]
 			maple = true
@@ -51,6 +60,15 @@
 			kousa = true
 			aspen = true
 			grimwood = true
+			green_aspen = true
+			laurel = true
+			dry_laurel = true
+			currant = true
+
+		[types.leaves_type.unusualprehistory]
+			foxxi = true
+			ginkgo = true
+			dryo = true
 
 	[types.wood_type]
 
@@ -75,6 +93,7 @@
 			willow = true
 			cherry = true
 			wisteria = true
+			pine = true
 
 		[types.wood_type.autumnity]
 			maple = true
@@ -118,6 +137,15 @@
 			kousa = true
 			aspen = true
 			grimwood = true
+			laurel = true
+
+		[types.wood_type.endergetic]
+			poise = true
+
+		[types.wood_type.unusualprehistory]
+			foxxi = true
+			ginkgo = true
+			dryo = true
 
 [entries]
 

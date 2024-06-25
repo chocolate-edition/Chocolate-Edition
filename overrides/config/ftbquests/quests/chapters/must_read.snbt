@@ -188,7 +188,6 @@
 		}
 		{
 			dependencies: ["5DD0C95C8CB5631A"]
-			disable_toast: true
 			id: "611864D16F64BD93"
 			rewards: [{
 				id: "1B7291650DBE991D"
@@ -362,6 +361,7 @@
 			subtitle: "Get 100k Bars of Chocolate and Beat the Game."
 			tasks: [
 				{
+					consume_items: true
 					count: 100000L
 					id: "3D116B3C43F6D20B"
 					item: {
@@ -371,6 +371,7 @@
 						}
 						id: "create:bar_of_chocolate"
 					}
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -384,6 +385,45 @@
 						tag: {
 							Damage: 0
 						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "5E96DC3AC684532D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create_confectionery:bar_of_black_chocolate"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "4D0085F9654B4F2B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create_confectionery:bar_of_ruby_chocolate"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "021ACBA63D0C8B12"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create_confectionery:bar_of_white_chocolate"
 					}
 					type: "item"
 				}
@@ -419,6 +459,321 @@
 			}]
 			x: -7.0d
 			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "163F947AFF99962A"
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamemode adventure @a[gamemode=survival]"
+					exclude_from_claim_all: true
+					id: "3CFE6116E4136763"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					exclude_from_claim_all: true
+					id: "3572D2537EA7FBDC"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				disable_toast: true
+				id: "20209D1BA2CB64DF"
+				structure: "chocolate:white_palace"
+				type: "structure"
+			}]
+			x: 16.0d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "4496BD04C0766FD8"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamemode survival @a[gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "62033341CE0BBCD0"
+					ignore_reward_blocking: true
+					player_command: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					exclude_from_claim_all: true
+					id: "076DFFFEF9F700E8"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				disable_toast: true
+				id: "103110A690820982"
+				type: "dimension"
+			}]
+			x: 19.0d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "06B65899FDE4D8B1"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamemode survival @a[gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "778923EEF76DC168"
+					ignore_reward_blocking: true
+					player_command: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					exclude_from_claim_all: true
+					id: "35AB4A463ECF6539"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				disable_toast: true
+				id: "18C8816DC04AC2CF"
+				type: "dimension"
+			}]
+			x: 19.25d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "4F886D2655612EEB"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamemode survival @a[gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "59792D288CCE20D1"
+					ignore_reward_blocking: true
+					player_command: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					exclude_from_claim_all: true
+					id: "4A74D13B088BEBB0"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "117EE276EF8C858A"
+				type: "dimension"
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "2F17885A8FC1B3B9"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamemode survival @a[gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "211BD007EA7F06F8"
+					ignore_reward_blocking: true
+					player_command: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					exclude_from_claim_all: true
+					id: "07D743B1D58E06BC"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				id: "641C9DCF0F718EB5"
+				type: "dimension"
+			}]
+			x: 19.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "45EED369E7857FAE"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamemode survival @a[gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "0F262D08E142A308"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					exclude_from_claim_all: true
+					id: "76C17EEA65031E2A"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				disable_toast: true
+				id: "6BF466A8B7D799C4"
+				type: "dimension"
+			}]
+			x: 18.75d
+			y: -10.25d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "6BA5BDE711CAE4D4"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamemode survival @a[gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "63EF81910B526CE7"
+					ignore_reward_blocking: true
+					player_command: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					exclude_from_claim_all: true
+					id: "0F0BB0825804ED05"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "aether:the_aether"
+				disable_toast: true
+				id: "6B347E88F00981BB"
+				type: "dimension"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "12B4402727BF4281"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamemode adventure @a[gamemode=survival]"
+					exclude_from_claim_all: true
+					id: "6594E0C5ED403ABC"
+					ignore_reward_blocking: true
+					player_command: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					exclude_from_claim_all: true
+					id: "27B736B6B68ECE9C"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				disable_toast: true
+				id: "6E8BF6E805CA1DCC"
+				structure: "chocolate:shaded_citadel"
+				type: "structure"
+			}]
+			x: 17.5d
+			y: -7.5d
 		}
 	]
 	title: "Welcome!"

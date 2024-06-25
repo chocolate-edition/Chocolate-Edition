@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "shop"
-	group: "124DA5EC6A42A11D"
+	group: "75DA3C44FB5FAC43"
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: {
@@ -91,6 +91,7 @@
 			can_repeat: true
 			dependencies: ["05BEAD7AD5B5C858"]
 			disable_toast: true
+			hide: false
 			icon: "simplehats:hatbag_uncommon"
 			id: "361B8D4D61F6ABD6"
 			rewards: [{
@@ -159,6 +160,7 @@
 			can_repeat: true
 			dependencies: ["361B8D4D61F6ABD6"]
 			disable_toast: true
+			hide: false
 			icon: "simplehats:hatbag_rare"
 			id: "58C7309942B340B3"
 			rewards: [{
@@ -227,6 +229,7 @@
 			can_repeat: true
 			dependencies: ["58C7309942B340B3"]
 			disable_toast: true
+			hide: false
 			icon: "simplehats:hatbag_epic"
 			id: "133ADEAE54EC48C2"
 			rewards: [{
@@ -295,6 +298,7 @@
 			can_repeat: true
 			dependencies: ["133ADEAE54EC48C2"]
 			disable_toast: true
+			hide: false
 			icon: "simplehats:hatscraps_halloween"
 			id: "631B76921A9652F9"
 			rewards: [
@@ -422,6 +426,7 @@
 			can_repeat: true
 			dependencies: ["570A40D361B38191"]
 			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -835,6 +840,7 @@
 			can_repeat: true
 			dependencies: ["597D2203D24F3676"]
 			disable_toast: true
+			hide: false
 			icon: "quark:music_disc_crickets"
 			id: "31380D77E063E5B4"
 			rewards: [{
@@ -898,6 +904,7 @@
 			can_repeat: true
 			dependencies: ["31380D77E063E5B4"]
 			disable_toast: true
+			hide: false
 			icon: "aquamirae:music_disc_forsaken_drownage"
 			id: "779866B55EF54228"
 			rewards: [{
@@ -961,6 +968,7 @@
 			can_repeat: true
 			dependencies: ["779866B55EF54228"]
 			disable_toast: true
+			hide: false
 			icon: "cataclysm:music_disc_ignis"
 			id: "3845F9E0464F45E6"
 			rewards: [{
@@ -1362,7 +1370,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "16 rubies/jade/aquamarine/onyx"
+			subtitle: "64 rubies/jade/aquamarine/onyx"
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -1434,7 +1442,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "16 rubies/jade/aquamarine/onyx"
+			subtitle: "64 rubies/jade/aquamarine/onyx"
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -1773,7 +1781,7 @@
 			can_repeat: true
 			dependencies: [
 				"6D8D04807B5E4EAE"
-				"37A9BBF72830E75C"
+				"2BA30595346227E0"
 			]
 			disable_toast: true
 			hide: true
@@ -1845,7 +1853,7 @@
 			can_repeat: true
 			dependencies: [
 				"6D8D04807B5E4EAE"
-				"5F469B7758E3C0C5"
+				"0EAB3CF374A4E6DE"
 			]
 			disable_toast: true
 			hide: true
@@ -1917,7 +1925,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BEC64C3A86BF8DD"
-				"7AB63D33128D0A66"
+				"2D1F584FBA78D566"
 			]
 			disable_toast: true
 			hide: true
@@ -1989,7 +1997,7 @@
 			can_repeat: true
 			dependencies: [
 				"6D8D04807B5E4EAE"
-				"7F47D09B99EC0661"
+				"32C7E5F8B989ABB9"
 			]
 			disable_toast: true
 			hide: true
@@ -2059,10 +2067,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"6D8D04807B5E4EAE"
-				"7F47D09B99EC0661"
-			]
+			dependencies: ["6D8D04807B5E4EAE"]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:spider_legs"
@@ -2133,7 +2138,7 @@
 			can_repeat: true
 			dependencies: [
 				"6D8D04807B5E4EAE"
-				"37A9BBF72830E75C"
+				"2BA30595346227E0"
 			]
 			disable_toast: true
 			hide: true
@@ -2205,7 +2210,7 @@
 			can_repeat: true
 			dependencies: [
 				"6D8D04807B5E4EAE"
-				"1573D9BDECE246A3"
+				"43465D413371B623"
 			]
 			disable_toast: true
 			hide: true
@@ -2277,7 +2282,7 @@
 			can_repeat: true
 			dependencies: [
 				"6D8D04807B5E4EAE"
-				"341D3B7B00475835"
+				"05928847558211CE"
 			]
 			disable_toast: true
 			icon: {
@@ -2357,7 +2362,7 @@
 			can_repeat: true
 			dependencies: [
 				"6D8D04807B5E4EAE"
-				"341D3B7B00475835"
+				"05928847558211CE"
 			]
 			disable_toast: true
 			icon: "nameless_trinkets:cracked_crown"
@@ -2428,7 +2433,7 @@
 			can_repeat: true
 			dependencies: [
 				"6D8D04807B5E4EAE"
-				"1D7B66910DFABB14"
+				"15E53073D1B9DB90"
 			]
 			disable_toast: true
 			icon: "nameless_trinkets:true_heart_of_the_sea"
@@ -2499,7 +2504,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BEC64C3A86BF8DD"
-				"7AB63D33128D0A66"
+				"2D1F584FBA78D566"
 			]
 			disable_toast: true
 			hide: true
@@ -2571,7 +2576,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BEC64C3A86BF8DD"
-				"110CD572C20D4635"
+				"565F680090D90100"
 			]
 			disable_toast: true
 			hide: true
@@ -2643,7 +2648,7 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"701CA8BFE3A2BD8F"
+				"111567BDF5D7D9D2"
 			]
 			disable_toast: true
 			hide: true
@@ -2715,7 +2720,7 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"2F6034DAEE00B230"
+				"1BCA27047D8EFFF7"
 			]
 			disable_toast: true
 			hide: true
@@ -2787,7 +2792,7 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"3DAA19B59EFD94A0"
+				"381127B5D7ED2484"
 			]
 			disable_toast: true
 			hide: true
@@ -2859,7 +2864,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"6BB3D8CC55EC10B8"
+				"7C3BBA5A91762C0B"
 			]
 			disable_toast: true
 			hide: true
@@ -2931,7 +2936,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"67E2A55BD2547669"
+				"2E9AE8E7C33A2674"
 			]
 			disable_toast: true
 			hide: true
@@ -3004,7 +3009,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"5ACF8CBDEB4CD47E"
+				"49BED3190B35E2EF"
 			]
 			disable_toast: true
 			hide: true
@@ -3076,7 +3081,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BE94C88FE6C9C13"
-				"6B6DF9C38DC1754E"
+				"7C0F86C05C70EF72"
 			]
 			disable_toast: true
 			icon: "enigmaticlegacy:unholy_grail"
@@ -3147,7 +3152,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BE94C88FE6C9C13"
-				"467BDC2B72D7E7E4"
+				"579F561A88B18002"
 			]
 			disable_toast: true
 			hide: true
@@ -3219,7 +3224,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BE94C88FE6C9C13"
-				"5EA788C59623665A"
+				"6657EDE4281D1C80"
 			]
 			disable_toast: true
 			hide: true
@@ -3291,7 +3296,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BE94C88FE6C9C13"
-				"4493E838D006D43E"
+				"53C251A848353A14"
 			]
 			disable_toast: true
 			hide: true
@@ -3363,7 +3368,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BE94C88FE6C9C13"
-				"1BD11A71CF98AFAA"
+				"442D2A43B968645D"
 			]
 			disable_toast: true
 			hide: true
@@ -3435,7 +3440,7 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"62C7E28CF1E71AC1"
+				"385198FA26CE5717"
 			]
 			disable_toast: true
 			hide: true
@@ -3507,7 +3512,7 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"706CA5A7C1A0B44A"
+				"30F02C7521837E2D"
 			]
 			disable_toast: true
 			hide: true
@@ -3579,12 +3584,23 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"62C7E28CF1E71AC1"
+				"385198FA26CE5717"
 			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:sleeping_pills"
 			id: "44FC0940F2A8DB8A"
+			rewards: [{
+				id: "13A5192BA9C0EB47"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:sleeping_pills"
+				}
+				type: "item"
+			}]
 			subtitle: "64 rubies/jade/aquamarine/onyx"
 			tasks: [{
 				consume_items: true
@@ -3640,7 +3656,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"0DAC3CAA22D1B939"
+				"2BBCA980497C9E44"
 			]
 			disable_toast: true
 			hide: true
@@ -3712,7 +3728,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"4A12922DB8F45B26"
+				"0D5CB302C375F278"
 			]
 			disable_toast: true
 			hide: true
@@ -3784,7 +3800,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"7271A4B4E9DACFA4"
+				"72FDEE8A33AA954D"
 			]
 			disable_toast: true
 			hide: true
@@ -3856,7 +3872,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BEC64C3A86BF8DD"
-				"0DDEBCA861304C8F"
+				"60158B9FEEE95349"
 			]
 			disable_toast: true
 			hide: true
@@ -3928,7 +3944,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BEC64C3A86BF8DD"
-				"5DFA66357B0CEE73"
+				"5ECA2EEA1F2AB60F"
 			]
 			disable_toast: true
 			hide: true
@@ -4005,7 +4021,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BE94C88FE6C9C13"
-				"14B3781FB1440BDC"
+				"2E2BF956A8B5F9C5"
 			]
 			disable_toast: true
 			icon: "nameless_trinkets:reverse_card"
@@ -4076,7 +4092,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BE94C88FE6C9C13"
-				"1979B7FA17AE77DF"
+				"233B028F86F6156A"
 			]
 			disable_toast: true
 			icon: "nameless_trinkets:super_magnet"
@@ -4147,7 +4163,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BE94C88FE6C9C13"
-				"1979B7FA17AE77DF"
+				"233B028F86F6156A"
 			]
 			disable_toast: true
 			icon: {
@@ -4227,7 +4243,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BEC64C3A86BF8DD"
-				"2C2AFB44C0D388C2"
+				"3BBD8ADB599DA49C"
 			]
 			disable_toast: true
 			icon: {
@@ -4236,6 +4252,18 @@
 				tag: { }
 			}
 			id: "73A0D5567830A505"
+			rewards: [{
+				id: "067E03BC1C1F9FDB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
 			subtitle: "256 rubies/jade/aquamarine/onyx"
 			tasks: [{
 				consume_items: true
@@ -4291,19 +4319,19 @@
 			can_repeat: true
 			dependencies: [
 				"5BEC64C3A86BF8DD"
-				"2C2AFB44C0D388C2"
+				"3BBD8ADB599DA49C"
 			]
 			disable_toast: true
 			icon: "nameless_trinkets:reforger"
 			id: "7EB31DABBB2867AD"
 			rewards: [{
-				id: "4F0CC59A6F67F97A"
+				id: "42CACDDC07D9B93A"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "nameless_trinkets:puffer_fish_liver"
+					id: "nameless_trinkets:reforger"
 				}
 				type: "item"
 			}]
@@ -4362,7 +4390,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"1DC36E07D876B48E"
+				"4C8173C737BCD561"
 			]
 			disable_toast: true
 			icon: "nameless_trinkets:fractured_nullstone"
@@ -4433,7 +4461,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"4EE7A20B1DE22E8D"
+				"37C22730501416A3"
 			]
 			disable_toast: true
 			icon: {
@@ -4509,7 +4537,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"4EE7A20B1DE22E8D"
+				"37C22730501416A3"
 			]
 			disable_toast: true
 			icon: {
@@ -4589,7 +4617,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BEC64C3A86BF8DD"
-				"43FE055791C9C72D"
+				"7A1E9A456B5D4316"
 			]
 			disable_toast: true
 			icon: "nameless_trinkets:ghast_eye"
@@ -4660,7 +4688,7 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"706CA5A7C1A0B44A"
+				"30F02C7521837E2D"
 			]
 			disable_toast: true
 			icon: "nameless_trinkets:speed_force"
@@ -4731,7 +4759,7 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"44A55E684766E3BA"
+				"0695500AA4F63195"
 			]
 			disable_toast: true
 			icon: "nameless_trinkets:rage_mind"
@@ -4802,7 +4830,7 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"4DE8468E80DEC980"
+				"3A25BC23D2FB752E"
 			]
 			disable_toast: true
 			icon: "nameless_trinkets:four_leaf_clover"
@@ -4873,7 +4901,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BE94C88FE6C9C13"
-				"557EE6DF8725BBCA"
+				"286C5D5CB3B37A76"
 			]
 			disable_toast: true
 			hide: false
@@ -4954,7 +4982,7 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"6598654D2A8F326B"
+				"710297082DB76502"
 			]
 			disable_toast: true
 			hide: true
@@ -5026,7 +5054,7 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"6598654D2A8F326B"
+				"710297082DB76502"
 			]
 			disable_toast: true
 			hide: true
@@ -5098,7 +5126,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"1DC36E07D876B48E"
+				"4C8173C737BCD561"
 			]
 			disable_toast: true
 			hide: true
@@ -5170,7 +5198,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"4A12922DB8F45B26"
+				"0D5CB302C375F278"
 			]
 			disable_toast: true
 			hide: true
@@ -5263,11 +5291,11 @@
 			can_repeat: true
 			dependencies: [
 				"0B04E6219666D4B5"
-				"44A55E684766E3BA"
-				"6598654D2A8F326B"
-				"4DE8468E80DEC980"
-				"706CA5A7C1A0B44A"
-				"62C7E28CF1E71AC1"
+				"385198FA26CE5717"
+				"3A25BC23D2FB752E"
+				"30F02C7521837E2D"
+				"0695500AA4F63195"
+				"710297082DB76502"
 			]
 			disable_toast: true
 			hide: false
@@ -5345,6 +5373,17 @@
 			hide: true
 			icon: "enigmaticlegacy:monster_charm"
 			id: "316176226614570C"
+			rewards: [{
+				id: "31EE431E3FDB7856"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:monster_charm"
+				}
+				type: "item"
+			}]
 			subtitle: "64 rubies/jade/aquamarine/onyx"
 			tasks: [{
 				consume_items: true
@@ -5406,6 +5445,17 @@
 			hide: true
 			icon: "enigmaticlegacy:eye_of_nebula"
 			id: "226B98BFC19BC4B8"
+			rewards: [{
+				id: "523D70BA04965D80"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:eye_of_nebula"
+				}
+				type: "item"
+			}]
 			subtitle: "64 rubies/jade/aquamarine/onyx"
 			tasks: [{
 				consume_items: true
@@ -5467,6 +5517,17 @@
 			hide: true
 			icon: "enigmaticlegacy:void_pearl"
 			id: "55C27D3B81A52389"
+			rewards: [{
+				id: "4AB8A214FCD00FAE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:void_pearl"
+				}
+				type: "item"
+			}]
 			subtitle: "64 rubies/jade/aquamarine/onyx"
 			tasks: [{
 				consume_items: true
@@ -5527,6 +5588,17 @@
 			disable_toast: true
 			icon: "enigmaticlegacy:blazing_core"
 			id: "2B6AC8B53E138CD3"
+			rewards: [{
+				id: "335B5F12E9A23184"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enigmaticlegacy:blazing_core"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			subtitle: "64 rubies/jade/aquamarine/onyx"
 			tasks: [{
@@ -5883,7 +5955,13 @@
 			can_repeat: true
 			dependencies: [
 				"6D8D04807B5E4EAE"
-				"341D3B7B00475835"
+				"05928847558211CE"
+				"7A1E9A456B5D4316"
+				"0EAB3CF374A4E6DE"
+				"0D5CB302C375F278"
+				"2BA30595346227E0"
+				"4C8173C737BCD561"
+				"7C3BBA5A91762C0B"
 			]
 			disable_toast: true
 			hide: false
@@ -5956,8 +6034,11 @@
 			can_repeat: true
 			dependencies: [
 				"5BEC64C3A86BF8DD"
-				"2C2AFB44C0D388C2"
-				"43FE055791C9C72D"
+				"3BBD8ADB599DA49C"
+				"7A1E9A456B5D4316"
+				"0D5CB302C375F278"
+				"4C8173C737BCD561"
+				"7C3BBA5A91762C0B"
 			]
 			disable_toast: true
 			hide: false
@@ -6037,9 +6118,9 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"6BB3D8CC55EC10B8"
-				"4A12922DB8F45B26"
-				"1DC36E07D876B48E"
+				"0D5CB302C375F278"
+				"4C8173C737BCD561"
+				"7C3BBA5A91762C0B"
 			]
 			disable_toast: true
 			hide: false
@@ -6118,7 +6199,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BE94C88FE6C9C13"
-				"4493E838D006D43E"
+				"53C251A848353A14"
 			]
 			disable_toast: true
 			hide: true
@@ -6190,7 +6271,7 @@
 			can_repeat: true
 			dependencies: [
 				"615D275A59F5A721"
-				"6BB3D8CC55EC10B8"
+				"7C3BBA5A91762C0B"
 			]
 			disable_toast: true
 			hide: true
@@ -6472,7 +6553,7 @@
 			can_repeat: true
 			dependencies: [
 				"5BE94C88FE6C9C13"
-				"4493E838D006D43E"
+				"53C251A848353A14"
 			]
 			disable_toast: true
 			hide: true

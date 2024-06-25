@@ -1,0 +1,40 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "6753AA6B545E8D27"
+	id: "3D7246521F902E6B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		disable_toast: true
+		icon: {
+			Count: 1b
+			id: "ftbquests:custom_icon"
+			tag: {
+				Icon: "enlightened_end:items/overworld_everglint_mirror"
+			}
+		}
+		id: "1F52C530B9B34012"
+		invisible: true
+		invisible_until_tasks: 1
+		size: 5.0d
+		subtitle: "The Realm of Origin, which all other realms are based on."
+		tasks: [{
+			dimension: "minecraft:overworld"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:grass_block"
+			}
+			id: "6EB90CF0E98D5B29"
+			type: "dimension"
+		}]
+		title: "Overworld"
+		x: 0.5d
+		y: 0.25d
+	}]
+	title: "&2Overworld"
+}

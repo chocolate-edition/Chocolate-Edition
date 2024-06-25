@@ -1,0 +1,748 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "analyzer_cultivator_and_incubator"
+	group: "6753AA6B545E8D27"
+	icon: "unusualprehistory:analyzer"
+	id: "5AB553DEAFB3344C"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/dababies.png"
+			rotation: 0.0d
+			width: 19.0d
+			x: 9.5d
+			y: 23.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.8d
+			hover: [ ]
+			image: "chocolate:textures/textguidecultivator.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: -9.25d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.0d
+			hover: [ ]
+			image: "chocolate:textures/tuto-analyzer.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -9.5d
+			y: -8.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "chocolate:textures/analyzergui.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -28.25d
+			y: 10.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "chocolate:textures/guiceincubatorgui.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 10.25d
+			y: 11.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.5d
+			hover: [ ]
+			image: "chocolate:textures/guideanalyzer.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -29.25d
+			y: -0.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/guidecultivator.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.25d
+			y: 6.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/guidecultivatorgui.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.25d
+			y: 18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textguideincubator1.png"
+			rotation: 0.0d
+			width: 16.11627906976744d
+			x: 10.0d
+			y: 6.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textguideincubator2.png"
+			rotation: 0.0d
+			width: 17.441860465116278d
+			x: 9.75d
+			y: 17.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/guidetextgetgoodies.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: -25.0d
+			y: 16.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/guidetextanalyzer1.png"
+			rotation: 0.0d
+			width: 26.186046511627907d
+			x: -29.0d
+			y: 5.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/guideincubator.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 8.5d
+			y: 0.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/guidecultivatorend.png"
+			rotation: 0.0d
+			width: 15.720930232558139d
+			x: -9.0d
+			y: 23.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/coal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -32.25d
+			y: 16.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/bone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -31.25d
+			y: 17.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/particle/dna_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: 8.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/particle/dna_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/particle/dna_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/particle/dna_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: 10.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/particle/dna_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: 11.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/particle/dna_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: 11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/particle/dna_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: 13.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/particle/dna_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/particle/dna_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: 14.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/particle/dna_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: 14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/particle/dna_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: 7.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/mezo_fossil"
+			rotation: 5.0d
+			width: 1.0d
+			x: -34.0d
+			y: 7.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "oddorganisms:item/cenozoic_fossil"
+			rotation: -10.0d
+			width: 1.0d
+			x: -35.25d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/paleo_fossil"
+			rotation: -12.0d
+			width: 1.0d
+			x: -33.25d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/plant_fossil_item"
+			rotation: 15.0d
+			width: 1.0d
+			x: -36.25d
+			y: 11.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/frozen_fossil_item"
+			rotation: 14.0d
+			width: 1.0d
+			x: -34.0d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/tar_fossil_item"
+			rotation: -9.0d
+			width: 1.0d
+			x: -35.0d
+			y: 13.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/opal_fossil"
+			rotation: 15.0d
+			width: 1.0d
+			x: -33.5d
+			y: 14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/anuro_flask"
+			rotation: 10.0d
+			width: 1.0d
+			x: -19.5d
+			y: 17.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/archaefructus_flask"
+			rotation: -7.0d
+			width: 1.0d
+			x: -21.0d
+			y: 18.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/barin_flask"
+			rotation: 12.0d
+			width: 1.0d
+			x: -19.0d
+			y: 19.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "oddorganisms:item/dawn_horse_embryo"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.75d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "oddorganisms:item/doedicurus_embryo"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/giganto_embryo"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.75d
+			y: 11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "oddorganisms:item/leptictidium_embryo"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/mammoth_embryo"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 13.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/megath_embryo"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/palaeo_embryo"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/paracer_embryo"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.75d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/smilodon_embryo"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 11.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/endculti.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -9.25d
+			y: 28.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "chocolate:textures/biganalyzer.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -29.25d
+			y: -6.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "chocolate:textures/bigcultivator.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.25d
+			y: 0.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "chocolate:textures/bigincubator.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 8.5d
+			y: -4.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "jei:textures/gui/icons/arrow_next.png"
+			rotation: -10.0d
+			width: 4.0d
+			x: -17.75d
+			y: 11.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "jei:textures/gui/icons/arrow_next.png"
+			rotation: -10.0d
+			width: 4.0d
+			x: -0.75d
+			y: 15.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "chocolate:textures/titleguideanalyzer.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -9.5d
+			y: -14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/kentro_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 23.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:block/leefructus"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 22.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "oddorganisms:item/dawn_horse_embryo"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 23.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "unusualprehistory:item/flask"
+			rotation: -9.0d
+			width: 1.0d
+			x: -36.25d
+			y: 7.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1b
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": { }
+			}
+			id: "unusualprehistory:mezo_fossil"
+		}
+		id: "74C24C27320A9E3A"
+		invisible: true
+		invisible_until_tasks: 1
+		size: 5.0d
+		tasks: [
+			{
+				id: "0B8AEFCC482E67E8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "unusualprehistory:analyzer"
+				}
+				type: "item"
+			}
+			{
+				id: "169CAF977F92CB8E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "unusualprehistory:cultivator"
+				}
+				type: "item"
+			}
+			{
+				id: "3C682B7D7884D8F7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "unusualprehistory:incubator"
+				}
+				type: "item"
+			}
+		]
+		title: "Reviving"
+		x: -1.0d
+		y: 6.0d
+	}]
+	title: "&l - Reviving"
+}

@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nexus"
+	group: "6753AA6B545E8D27"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "enigmaticlegacy:items/twisted_mirror"
+		}
+	}
+	id: "499ED399EC84E2AC"
+	order_index: 9
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1b
+			id: "ftbquests:custom_icon"
+			tag: {
+				Icon: "enigmaticlegacy:items/twisted_mirror"
+			}
+		}
+		id: "64C7C18D4EFA7E5D"
+		invisible: true
+		size: 5.0d
+		subtitle: "The Realm of Time, the cogs and wheels between the dimensions, able to access ones even beyond our understanding..."
+		tasks: [{
+			dimension: "javd:void"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enigmaticlegacy:astral_block"
+			}
+			id: "2DDC92CB6FF6DE7D"
+			type: "dimension"
+		}]
+		title: "Nexus"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&l&1Nexus"
+}

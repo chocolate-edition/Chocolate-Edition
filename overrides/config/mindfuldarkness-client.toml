@@ -1,5 +1,5 @@
 #Do not add the dark mode toggle buttons to the top of every menu.
-hide_in_game_switcher = false
+hide_in_game_switcher = true
 #Print menu type to game chat whenever a new menu screen is opened. Intended for finding menu types to be added to "menu_blacklist".
 debug_container_types = false
 #Screens to add a dark mode toggle button to, so that toggling is possible outside of inventory menus.
@@ -16,7 +16,7 @@ paths = ["textures/gui/*", "!minecraft:textures/gui/icons.png", "!minecraft:text
 dark_theme = true
 #Percentage of original interface brightness to apply.
 #Range: 0.0 ~ 1.0
-texture_darkness = 0.7398989898989901
+texture_darkness = 0.5398989898989901
 #The minimum brightness value of font while dark mode is enabled.
 #Range: 0.0 ~ 1.0
 font_brightness = 0.0
