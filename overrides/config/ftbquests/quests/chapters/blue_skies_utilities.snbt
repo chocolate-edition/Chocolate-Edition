@@ -1,0 +1,564 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blue_skies_utilities"
+	group: "6753AA6B545E8D27"
+	icon: "blue_skies:horizonite_forge"
+	id: "56B3DA712C1B2B47"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/deschorizoniteforge.png"
+			rotation: 0.0d
+			width: 8.402985074626866d
+			x: -11.75d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/alchemytable.png"
+			rotation: 0.0d
+			width: 8.612903225806452d
+			x: -21.75d
+			y: 5.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.1d
+			hover: [ ]
+			image: "chocolate:textures/asrolabetext1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -2.5d
+			y: -11.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/astrolabe.png"
+			rotation: 0.0d
+			width: 6.048387096774194d
+			x: -2.25d
+			y: -19.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "chocolate:textures/picforgegui.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -11.75d
+			y: 10.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/astrolabetext2.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -2.5d
+			y: -3.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/snowcapoventext.png"
+			rotation: 0.0d
+			width: 6.985074626865671d
+			x: 6.75d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/summonertable.png"
+			rotation: 0.0d
+			width: 9.435483870967742d
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/wardingpearltext.png"
+			rotation: 0.0d
+			width: 17.20689655172414d
+			x: -5.75d
+			y: 28.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chocolate:textures/deschorizoniteforgetext1.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -11.75d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "chocolate:textures/deschorizoniteforgetext2.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -11.75d
+			y: 14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/descsnowcapoventext1.png"
+			rotation: 0.0d
+			width: 7.847619047619047d
+			x: 7.0d
+			y: 7.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/descsnowcapoventext2.png"
+			rotation: 0.0d
+			width: 6.43859649122807d
+			x: 7.0d
+			y: 17.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "chocolate:textures/descsummonertabletext.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 17.25d
+			y: 16.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "chocolate:textures/picalchemytable.png"
+			rotation: 1.0d
+			width: 11.0d
+			x: -22.0d
+			y: 9.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/picalchemytablegui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -22.25d
+			y: 19.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/picalchemytablegui2.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -22.25d
+			y: 27.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.5d
+			hover: [ ]
+			image: "chocolate:textures/picforge.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: -11.75d
+			y: 2.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "chocolate:textures/picastrolabe.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -2.5d
+			y: -15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "chocolate:textures/picsnowcapoven.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: 6.75d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "chocolate:textures/picstaremitter.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -2.5d
+			y: -7.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.0d
+			hover: [ ]
+			image: "chocolate:textures/picsummonertable.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: 17.25d
+			y: 10.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/picsummonertablegui.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 17.25d
+			y: 21.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/picwardingpearl.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: -5.75d
+			y: 23.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/picsnowcapovengui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 6.75d
+			y: 12.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/picsnowcapovengui2.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 6.75d
+			y: 22.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/wardingpearltitle.png"
+			rotation: 0.0d
+			width: 6.895522388059701d
+			x: -5.75d
+			y: 18.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/descalchemytabletext1.png"
+			rotation: 0.0d
+			width: 20.25925925925926d
+			x: -22.5d
+			y: 32.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:item/misc/summoning_tome"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 15.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:item/misc/soul_fragment"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: 15.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:item/materials/raw_horizonite"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:block/misc/sunstone_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 6.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.25d
+			y: 14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.25d
+			y: 14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:item/tools/heads/sword/horizonite"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.75d
+			y: 7.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/water_bucket"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 7.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:block/plants/snowcap_pinhead"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 17.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:item/misc/snowcap_mushroom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 17.25d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1b
+			id: "ftbquests:custom_icon"
+			tag: {
+				Icon: "blue_skies:item/misc/portal_mix"
+			}
+		}
+		id: "47C96790D4044C35"
+		invisible: true
+		invisible_until_tasks: 1
+		size: 5.0d
+		tasks: [
+			{
+				id: "676BB1B7853451E6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:alchemy_table"
+				}
+				type: "item"
+			}
+			{
+				id: "6465ABE8506F4989"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:summoning_table"
+				}
+				type: "item"
+			}
+			{
+				id: "6964A17BEE3EA902"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:horizonite_forge"
+				}
+				type: "item"
+			}
+			{
+				id: "1C2BF2DB6189AF8E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:snowcap_oven"
+				}
+				type: "item"
+			}
+			{
+				id: "55269468DF934338"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:astrolabe"
+				}
+				type: "item"
+			}
+			{
+				id: "6FFD4D4AB6A9D37C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:star_emitter"
+				}
+				type: "item"
+			}
+			{
+				id: "348438096A3C893C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:warding_pearl"
+				}
+				type: "item"
+			}
+		]
+		title: "Evertwined Crafting Stations"
+		x: -3.0d
+		y: 9.75d
+	}]
+	title: "&l - Evertwined Utilities"
+}

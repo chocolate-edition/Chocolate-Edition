@@ -5,7 +5,7 @@
 	#If you add modIDs to this list, only mobs in the structures of the mods will be affected by DespawnTweaker.
 	StructuresMods = []
 	#If you add sturctures registry names to list, only mobs in the structures will be affected by DespawnTweaker.
-	#However, this can be combined with StructuresMods
+	#This can be combined with StructuresMods
 	Structures = []
 
 [Optimization]

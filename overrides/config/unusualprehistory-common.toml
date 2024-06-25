@@ -16,7 +16,7 @@ brachi_sound_volume = 3.0
 #Brachi teen sound volume
 brachi_teen_sound_volume = 1.5
 #Brachi footprints
-brachi_experimental_footprints = false
+brachi_experimental_footprints = true
 #Screen shake rex
 screen_shake_rex = true
 #Screen shake rex range

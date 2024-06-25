@@ -1,0 +1,493 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 15,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 7
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:air",
+            "weight": 25
+            
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 7
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:fiery_beans",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:potion_of_rampage",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:snorkel",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "iter_rpg:small_vase",
+            "weight": 2,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:horizonite_ingot",
+            "weight": 25,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:pyrope_gem",
+            "weight": 30,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 4
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "iter_rpg:vase",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:obsidian_skull",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:cloud_in_a_bottle",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:steadfast_spikes",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:lunar_vine",
+            "weight": 15,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 4
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spider_eye",
+            "weight": 20,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spider_eye",
+            "weight": 10,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "iter_rpg:spider_silk",
+            "weight": 25,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:spider_webbing",
+            "weight": 40,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "celestisynth:lunar_scrap",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "simplehats:dangereqsue",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "simplehats:dangeresquejuly",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "simplehats:triangleshades",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "iter_rpg:twiffle",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:bag_of_spoils",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:warding_pearl",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:falsite_ingot",
+            "weight":25,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "iter_rpg:ametrine_ingot",
+            "weight":30,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "nourished_nether:necronium_ingot",
+            "weight":7,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "graveyard:dark_iron_ingot",
+            "weight":20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:fox_pelt",
+            "weight":20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:dark_metal_ingot",
+            "weight":7
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wither_rose",
+            "weight":5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_mobs:necromancer_helmet",
+            "weight":1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 10,
+                  "max": 20
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_mobs:necromancer_chestplate",
+            "weight":1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 10,
+                  "max": 30
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_mobs:necromancer_leggings",
+            "weight":1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 10,
+                  "max": 30
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_mobs:necromancer_staff",
+            "weight":2,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 10,
+                  "max": 30
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_mobs:necromancer_trident",
+            "weight":1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 10,
+                  "max": 90
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_mobs:drowned_necromancer_helmet",
+            "weight":1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 10,
+                  "max": 20
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_mobs:drowned_necromancer_chestplate",
+            "weight":1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 10,
+                  "max": 30
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_mobs:drowned_necromancer_leggings",
+            "weight":1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 10,
+                  "max": 30
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:staffofthe_summoner",
+            "weight":1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "meetyourfight:bone_raker",
+            "weight":1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "farmersdelight:bone_broth",
+            "weight":30,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 9
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "iter_rpg:coin",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:unsettling_kimono"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "artifacts:vampiric_glove"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 35,
+            "name": "minecraft:skeleton_skull"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "name": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      }
+    ]
+  }

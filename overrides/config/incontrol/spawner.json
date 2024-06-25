@@ -1,1 +1,2801 @@
-[]
+[
+  {
+    "mob": "born_in_chaos_v1:thornshell_crab",
+    "persecond": 0.1,
+    "attempts": 4,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 80,
+      "minheight": 60,
+      "maxheight": 175
+
+    }
+  },
+  {
+    "mob": "naturalist:butterfly",
+    "persecond": 0.5,
+    "attempts": 5,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["minecraft:overworld","blue_skies:everdawn"],
+      "mindist": 20,
+      "maxdist": 80,
+      "minheight": 60,
+      "maxheight": 400
+
+    }
+  },
+  {
+    "mob": "ecologics:squirrel",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 80,
+      "minheight": 60,
+      "maxheight": 400
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:austroraptor",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 40,
+      "maxdist": 80,
+      "minheight": 60,
+      "maxheight": 400
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:ulughbegsaurus",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 40,
+      "maxdist": 128,
+      "minheight": 60,
+      "maxheight": 400
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:paraceratherium",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 40,
+      "maxdist": 140,
+      "minheight": 60,
+      "maxheight": 400
+    }
+  },
+  {
+    "mob": "unusualprehistory:mammoth",
+    "persecond": 0.5,
+    "attempts": 3,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5
+    },
+    "conditions": {
+      "maxlocal": 5,
+      "dimension": "blue_skies:everbright",
+      "mindist": 40,
+      "maxdist": 140,
+      "minheight": 60,
+      "maxheight": 400
+    }
+  },
+  {
+    "mob": "unusualprehistory:ammon",
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 60,
+      "minheight": 0,
+      "maxheight": 400,
+      "inwater": true
+    }
+  },
+  {
+    "mob": "unusualprehistory:dunk",
+    "persecond": 1,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 40,
+      "maxdist": 80,
+      "minheight": 20,
+      "maxheight": 400,
+      "inwater": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:scau",
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 30,
+      "maxdist": 60,
+      "minheight": 20,
+      "maxheight": 400,
+      "inwater": true
+    }
+  },
+  {
+    "mob": "unusualprehistory:palaeophis",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 50,
+      "maxdist": 100,
+      "minheight": 20,
+      "maxheight": 70,
+      "inliquid": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:antarctopelta",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 40,
+      "maxdist": 128,
+      "minheight": 60,
+      "maxheight": 400
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:gigantopithicus",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 40,
+      "maxdist": 128,
+      "minheight": 60,
+      "maxheight": 400
+    }
+  },
+  {
+    "mob": "unusualprehistory:majunga",
+    "persecond": 0.7,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 40,
+      "maxdist": 128,
+      "minheight": 60,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:encrusted",
+    "persecond": 0.5,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 40,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "oddorganisms:apthoroblattina",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 3,
+      "maximum": 10,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "maxlocal": 6,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 40,
+      "maxdist": 80,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+    }
+  },
+  {
+    "mob": "unusualprehistory:stethacanthus",
+    "persecond": 0.7,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5,
+      "groupdistance": 2
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 40,
+      "maxdist": 60,
+      "minheight": 50,
+      "maxheight": 64,
+      "norestrictions": true,
+      "inwater": true
+    }
+  },
+  {
+    "mob": "unusualprehistory:talpanas",
+    "persecond": 0.5,
+    "attempts": 30,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 40,
+      "maxdist": 80,
+      "minheight": 60,
+      "maxheight": 400,
+      "norestrictions": true,
+      "inwater": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:pachy",
+    "persecond": 2,
+    "attempts": 50,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 40,
+      "maxdist": 80,
+      "minheight": 80,
+      "maxheight": 400,
+      "norestrictions": true
+    }
+  },
+  {
+    "mob": "unusualprehistory:kentrosaurus",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4,
+      "groupdistance": 2
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 40,
+      "maxdist": 80,
+      "minheight": 80,
+      "maxheight": 400,
+      "norestrictions": true
+    }
+  },
+  {
+    "mob": "unusualprehistory:rex",
+    "persecond": 0.2,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 80,
+      "maxheight": 400,
+      "norestrictions": true
+    }
+  },
+  {
+    "mob": "oddorganisms:leptictidium",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 40,
+      "maxdist": 60,
+      "minheight": 60,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "oddorganisms:eolactoria",
+    "persecond": 0.7,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5,
+      "groupdistance": 2
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 10,
+      "maxdist": 60,
+      "minheight": 50,
+      "maxheight": 64,
+      "norestrictions": true,
+      "inwater": true
+    }
+  },
+  {
+    "mob": "unusualprehistory:coty",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 60,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:veloci",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 2
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+    }
+  },
+  {
+    "mob": "unusualprehistory:hwachavenator",
+    "persecond": 0.1,
+    "attempts": 3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+    }
+  },
+  {
+    "mob": "oddorganisms:dawn_horse",
+    "persecond": 0.3,
+    "attempts": 3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4,
+      "groupdistance": 2
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+    }
+  },
+  {
+    "mob": "unusualprehistory:megatherium",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:brachi",
+    "persecond": 0.3,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 1,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:sludge",
+    "persecond": 0.1,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 2,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:trike",
+    "persecond": 0.3,
+    "attempts": 8,
+    "amount": {
+      "minimum": 2,
+      "maximum": 3,
+      "groupdistance": 2
+
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:smilodon",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4,
+      "groupdistance": 2
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:eryon",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:anuro",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4,
+      "groupdistance": 2
+
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "oddorganisms:doedicurus",
+    "persecond": 0.4,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:barinasuchus",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:beelz",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 230,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualprehistory:megalania",
+    "persecond": 0.2,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 230,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "predators:ice_hound",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 230,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "endermanoverhaul:snowy_enderman",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everbright","minecraft:overworld"],
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 230,
+      "norestrictions": true
+
+    }
+  },
+
+  {
+    "mob": "blue_skies:diophyde_prowler",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 230,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:armored_frost_spirit",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 230,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:polargeist",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 230,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:frost_spirit",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 230,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:snow_owl",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 20,
+      "dimension": "blue_skies:everbright",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 250,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:reindeer",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 250,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:crynocerous",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 250,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:whistleshell_crab",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 20,
+      "maxheight": 28,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:whistleshell_crab",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 80,
+      "inliquid": false,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:jelly_drifter",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 250,
+      "inwater": true,
+      "norestrictions": true
+      
+
+    }
+  },
+  {
+    "mob": "blue_skies:grittle_flatfish",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 250,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:municipal_monkfish",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "maxlocal": 5,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 250,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:seclam",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 20,
+      "maxheight": 28,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:shrumpty",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:spewter",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": ["blue_skies:everbright","blue_skies:everdawn"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "crittersandcompanions:shima_enaga",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everbright","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 250,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:tusklin",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 250,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "born_in_chaos_v1:glutton_fish",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everbright","blue_skies:everdawn"],
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 250,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "born_in_chaos_v1:corpse_fish",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": ["blue_skies:everbright","blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 250,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "dungeons_mobs:icy_creeper",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 250,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:murmur",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everbright","minecraft:overworld"],
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 250,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "graveyard:wraith",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:rocky_roller",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn", "blue_skies:everbright","minecraft:overworld"],
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "born_in_chaos_v1:nightmare_stalker",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 1,
+      "dimension": ["blue_skies:everbright","minecraft:overworld"],
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:nyctofly",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:emberback",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:charscale_moki",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 6,
+      "groupdistance": 1
+
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:firefly",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:cosmic_fox",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:venom_spider",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 4,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:shade_monitor",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:sliv",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:crogre",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:horizofin_tunid",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 6,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:crystal_camel",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "blue_skies:infested_swarmer",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","blue_skies:everbright"],
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "iter_rpg:giant_spider",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:potoo",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:sugar_glider",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:banana_slug",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "endermanoverhaul:scarab",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:platypus",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 40,
+      "maxheight": 400,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "crittersandcompanions:dragonfly",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "crittersandcompanions:sea_bunny",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "naturalist:dragonfly",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:fly",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "dungeons_mobs:mountaineer",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everbright","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "crittersandcompanions:leaf_insect",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "naturalist:butterfly",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "born_in_chaos_v1:firelight",
+    "persecond": 0.3,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:the_nether"],
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+    }
+  },
+  {
+    "mob": "alexsmobs:anaconda",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:alligator_snapping_turtle",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 40,
+      "maxheight": 400,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:mudskipper",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "endermanoverhaul:swamp_enderman",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:jerboa",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 64,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:centipede_head",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 60,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "alexsmobs:cockroach",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 20,
+      "dimension": ["blue_skies:everdawn","minecraft:overworld"],
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+    }
+  },
+  {
+    "mob": "iter_rpg:peeper",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["blue_skies:everdawn"],
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 400,
+      "norestrictions": true
+    }
+  },
+  {
+    "mob": "born_in_chaos_v1:diamond_termite",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:aero_mono",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:circus",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:blizzardfin",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:snowflaketail",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:porcupine_lobsta",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:roughback_guitarfish",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:forkfish",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:jungleshark",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:crimsonshell",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:squoddle",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:clownthorn_shark",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:spoon_shark",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:brick_snail",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:zebra_cornetfish",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:kalappa",
+    "persecond": 0.1,
+    "attempts": 35,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:skipper",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:beaked_herring",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everbright",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:sea_spider",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:blackcap_snail",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:freshwater_mantis",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:amber_goby",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:tribble",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:ripper",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:tiger_puffer",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:deep_crawler",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:freshwater_mantis",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:bark_angelfish",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:muddytop",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:stout_bichir",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:picklefish",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:rootball",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 100,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:sea_mosquito",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:drooping_gourami",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "blue_skies:everdawn",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 50,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:blindsailfin",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": -64,
+      "maxheight": -20,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:copperflame",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": -64,
+      "maxheight": -20,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:gnasher",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": -64,
+      "maxheight": -20,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:hatchet_fish",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": -15,
+      "maxheight": 15,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:coral_skrimp",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 40,
+      "maxheight": 60,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:eyelash",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 40,
+      "maxheight": 60,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:sneep_snorp",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": -15,
+      "maxheight": 15,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:mossthorn",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:sea_pancake",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:prawn",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": -20,
+      "maxheight": 20,
+      "norestrictions": true
+
+    }
+  },
+  {
+    "mob": "unusualfishmod:sailor_barb",
+    "persecond": 0.1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 70,
+      "inwater": true,
+      "norestrictions": true
+
+    }
+  }
+]

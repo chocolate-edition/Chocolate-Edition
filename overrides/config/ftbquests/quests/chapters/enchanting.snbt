@@ -1,0 +1,615 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchanting"
+	group: "6753AA6B545E8D27"
+	icon: "minecraft:enchanting_table"
+	id: "0A7557D67B13186A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "chocolate:textures/2024-06-14_15.31.17.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: -0.25d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchant.png"
+			rotation: 0.0d
+			width: 9.647727272727273d
+			x: -0.25d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/white_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 0.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/orange_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/magenta_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 3.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/light_blue_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/yellow_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 5.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/lime_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/pink_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 8.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/gray_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/light_gray_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 10.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/cyan_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/purple_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 13.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/blue_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/brown_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 15.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/green_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/red_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 18.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/black_candle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: 19.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.8d
+			hover: [ ]
+			image: "chocolate:textures/textenchant2.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -3.5d
+			y: 5.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/experience_bottle"
+			rotation: 20.0d
+			width: 1.0d
+			x: -10.75d
+			y: 5.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/lapis_lazuli"
+			rotation: -10.0d
+			width: 1.0d
+			x: -9.75d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.0d
+			hover: [ ]
+			image: "chocolate:textures/guimatrix.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: -3.5d
+			y: 11.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "chocolate:textures/textenchant3.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -3.5d
+			y: 17.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/diamond_sword"
+			rotation: 7.0d
+			width: 1.0d
+			x: 3.25d
+			y: 16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantcandle.png"
+			rotation: 0.0d
+			width: 29.666666666666668d
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantunbreaking.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantfireprot.png"
+			rotation: 0.0d
+			width: 7.074074074074074d
+			x: 14.75d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantknock.png"
+			rotation: 0.0d
+			width: 8.88888888888889d
+			x: 15.5d
+			y: 3.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantaqua.png"
+			rotation: 0.0d
+			width: 18.84d
+			x: 19.5d
+			y: 15.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantbane.png"
+			rotation: 0.0d
+			width: 8.689655172413794d
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantblastprot.png"
+			rotation: 0.0d
+			width: 7.518518518518518d
+			x: 14.75d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchanteffi.png"
+			rotation: 0.0d
+			width: 28.17241379310345d
+			x: 23.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantfeather.png"
+			rotation: 0.0d
+			width: 6.586206896551724d
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantfire.png"
+			rotation: 0.0d
+			width: 8.620689655172415d
+			x: 15.0d
+			y: 18.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantfortune.png"
+			rotation: 0.0d
+			width: 15.793103448275861d
+			x: 18.5d
+			y: 5.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantresp.png"
+			rotation: 0.0d
+			width: 13.275862068965518d
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantsweep.png"
+			rotation: 0.0d
+			width: 11.03448275862069d
+			x: 16.0d
+			y: 13.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantsilk.png"
+			rotation: 0.0d
+			width: 10.068965517241379d
+			x: 15.75d
+			y: 8.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantsmite.png"
+			rotation: 0.0d
+			width: 10.93939393939394d
+			x: 16.0d
+			y: 19.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantthorns.png"
+			rotation: 0.0d
+			width: 7.793103448275862d
+			x: 14.5d
+			y: 17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantwhy.png"
+			rotation: 0.0d
+			width: 14.790697674418604d
+			x: 27.25d
+			y: 23.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchanteither.png"
+			rotation: 0.0d
+			width: 28.896551724137932d
+			x: 27.25d
+			y: 24.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "chocolate:textures/textenchantor.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 26.75d
+			y: 25.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantbookshelf.png"
+			rotation: 0.0d
+			width: 30.379310344827587d
+			x: -5.75d
+			y: 23.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/textenchantlightgray.png"
+			rotation: 0.0d
+			width: 4.888888888888889d
+			x: 13.5d
+			y: 10.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "chocolate:textures/2024-06-14_16.43.14.png"
+			rotation: 0.0d
+			width: 24.0d
+			x: -6.25d
+			y: 29.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbchunks:textures/faces/minecraft/skeleton.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 34.5d
+			y: 23.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/diamond_helmet"
+			rotation: -10.0d
+			width: 1.0d
+			x: 5.0d
+			y: 17.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1b
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": { }
+			}
+			id: "minecraft:enchanting_table"
+		}
+		id: "07A03EB9D5178348"
+		invisible: true
+		size: 5.0d
+		tasks: [{
+			id: "0B283F731D36CAA9"
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:enchanting_table"
+			}
+			type: "item"
+		}]
+		title: "Enchanting"
+		x: 7.5d
+		y: 11.25d
+	}]
+	title: "&l - Enchanting"
+}

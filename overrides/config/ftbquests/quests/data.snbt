@@ -19,6 +19,6 @@
 	}
 	pause_game: false
 	progression_mode: "default"
-	title: "Minecraft: Chocolate Edition"
+	title: "&l&7The Nexus"
 	version: 13
 }
