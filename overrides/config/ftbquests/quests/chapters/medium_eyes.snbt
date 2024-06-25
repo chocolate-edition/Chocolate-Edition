@@ -3761,7 +3761,7 @@
 								ForgeCaps: {
 									"dungeons_libraries:built_in_enchantments": { }
 								}
-								id: "blue_skies:bag_of_spoils"
+								id: "illageandspillage:bag_of_horrors"
 							}
 							{
 								Count: 1b
