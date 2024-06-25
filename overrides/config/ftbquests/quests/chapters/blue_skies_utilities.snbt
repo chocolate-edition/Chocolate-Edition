@@ -324,7 +324,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/wardingpearlTitle.png"
+			image: "chocolate:textures/wardingpearltitle.png"
 			rotation: 0.0d
 			width: 6.895522388059701d
 			x: -5.75d
