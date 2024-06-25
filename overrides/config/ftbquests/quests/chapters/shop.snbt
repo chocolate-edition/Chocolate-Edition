@@ -91,6 +91,7 @@
 			can_repeat: true
 			dependencies: ["05BEAD7AD5B5C858"]
 			disable_toast: true
+			hide: false
 			icon: "simplehats:hatbag_uncommon"
 			id: "361B8D4D61F6ABD6"
 			rewards: [{
@@ -159,6 +160,7 @@
 			can_repeat: true
 			dependencies: ["361B8D4D61F6ABD6"]
 			disable_toast: true
+			hide: false
 			icon: "simplehats:hatbag_rare"
 			id: "58C7309942B340B3"
 			rewards: [{
@@ -227,6 +229,7 @@
 			can_repeat: true
 			dependencies: ["58C7309942B340B3"]
 			disable_toast: true
+			hide: false
 			icon: "simplehats:hatbag_epic"
 			id: "133ADEAE54EC48C2"
 			rewards: [{
@@ -295,6 +298,7 @@
 			can_repeat: true
 			dependencies: ["133ADEAE54EC48C2"]
 			disable_toast: true
+			hide: false
 			icon: "simplehats:hatscraps_halloween"
 			id: "631B76921A9652F9"
 			rewards: [
@@ -422,6 +426,7 @@
 			can_repeat: true
 			dependencies: ["570A40D361B38191"]
 			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -835,6 +840,7 @@
 			can_repeat: true
 			dependencies: ["597D2203D24F3676"]
 			disable_toast: true
+			hide: false
 			icon: "quark:music_disc_crickets"
 			id: "31380D77E063E5B4"
 			rewards: [{
@@ -898,6 +904,7 @@
 			can_repeat: true
 			dependencies: ["31380D77E063E5B4"]
 			disable_toast: true
+			hide: false
 			icon: "aquamirae:music_disc_forsaken_drownage"
 			id: "779866B55EF54228"
 			rewards: [{
@@ -961,6 +968,7 @@
 			can_repeat: true
 			dependencies: ["779866B55EF54228"]
 			disable_toast: true
+			hide: false
 			icon: "cataclysm:music_disc_ignis"
 			id: "3845F9E0464F45E6"
 			rewards: [{
@@ -1362,7 +1370,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "16 rubies/jade/aquamarine/onyx"
+			subtitle: "64 rubies/jade/aquamarine/onyx"
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -1434,7 +1442,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "16 rubies/jade/aquamarine/onyx"
+			subtitle: "64 rubies/jade/aquamarine/onyx"
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -1771,7 +1779,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6D8D04807B5E4EAE"]
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"2BA30595346227E0"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:broken_ankh"
@@ -1840,7 +1851,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6D8D04807B5E4EAE"]
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"0EAB3CF374A4E6DE"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:dark_nelumbo"
@@ -1909,7 +1923,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BEC64C3A86BF8DD"]
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"2D1F584FBA78D566"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:lucky_rock"
@@ -1978,7 +1995,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6D8D04807B5E4EAE"]
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"32C7E5F8B989ABB9"
+			]
 			disable_toast: true
 			hide: true
 			icon: "enigmaticlegacy:ender_ring"
@@ -2116,7 +2136,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6D8D04807B5E4EAE"]
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"2BA30595346227E0"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:scarab_amulet"
@@ -2185,7 +2208,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6D8D04807B5E4EAE"]
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"43465D413371B623"
+			]
 			disable_toast: true
 			hide: true
 			icon: "enigmaticlegacy:angel_blessing"
@@ -2254,7 +2280,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6D8D04807B5E4EAE"]
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"05928847558211CE"
+			]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -2331,7 +2360,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6D8D04807B5E4EAE"]
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"05928847558211CE"
+			]
 			disable_toast: true
 			icon: "nameless_trinkets:cracked_crown"
 			id: "52097196E3C3A953"
@@ -2399,7 +2431,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6D8D04807B5E4EAE"]
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"15E53073D1B9DB90"
+			]
 			disable_toast: true
 			icon: "nameless_trinkets:true_heart_of_the_sea"
 			id: "2A9FDE3408624124"
@@ -2467,7 +2502,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BEC64C3A86BF8DD"]
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"2D1F584FBA78D566"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:blaze_nucleus"
@@ -2536,7 +2574,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BEC64C3A86BF8DD"]
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"565F680090D90100"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:pocket_lightning_rod"
@@ -2605,7 +2646,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"111567BDF5D7D9D2"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:what_magnet"
@@ -2674,7 +2718,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"1BCA27047D8EFFF7"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:tick"
@@ -2743,7 +2790,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"381127B5D7ED2484"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:fertilizer"
@@ -2812,7 +2862,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"7C3BBA5A91762C0B"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:wooden_stick"
@@ -2881,7 +2934,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"2E9AE8E7C33A2674"
+			]
 			disable_toast: true
 			hide: true
 			hide_text_until_complete: false
@@ -2951,7 +3007,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"49BED3190B35E2EF"
+			]
 			disable_toast: true
 			hide: true
 			icon: "enigmaticlegacy:magnet_ring"
@@ -3020,7 +3079,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BE94C88FE6C9C13"]
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"7C0F86C05C70EF72"
+			]
 			disable_toast: true
 			icon: "enigmaticlegacy:unholy_grail"
 			id: "515AB8C7225FA3AF"
@@ -3088,7 +3150,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BE94C88FE6C9C13"]
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"579F561A88B18002"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:ice_cube"
@@ -3157,7 +3222,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BE94C88FE6C9C13"]
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"6657EDE4281D1C80"
+			]
 			disable_toast: true
 			hide: true
 			icon: "enigmaticlegacy:golem_heart"
@@ -3226,7 +3294,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BE94C88FE6C9C13"]
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"53C251A848353A14"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:moon_stone"
@@ -3295,7 +3366,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BE94C88FE6C9C13"]
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"442D2A43B968645D"
+			]
 			disable_toast: true
 			hide: true
 			icon: "enigmaticlegacy:ocean_stone"
@@ -3364,7 +3438,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"385198FA26CE5717"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:callus"
@@ -3433,7 +3510,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"30F02C7521837E2D"
+			]
 			disable_toast: true
 			hide: true
 			icon: "enigmaticlegacy:infinimeal"
@@ -3502,7 +3582,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"385198FA26CE5717"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:sleeping_pills"
@@ -3571,7 +3654,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"2BBCA980497C9E44"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:gills"
@@ -3640,7 +3726,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"0D5CB302C375F278"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:light_gloves"
@@ -3709,7 +3798,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"72FDEE8A33AA954D"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:broken_magnet"
@@ -3778,7 +3870,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BEC64C3A86BF8DD"]
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"60158B9FEEE95349"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:puffer_fish_liver"
@@ -3847,7 +3942,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BEC64C3A86BF8DD"]
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"5ECA2EEA1F2AB60F"
+			]
 			disable_toast: true
 			hide: true
 			icon: {
@@ -3921,7 +4019,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BE94C88FE6C9C13"]
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"2E2BF956A8B5F9C5"
+			]
 			disable_toast: true
 			icon: "nameless_trinkets:reverse_card"
 			id: "5CDB117FDE9A8568"
@@ -3989,7 +4090,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BE94C88FE6C9C13"]
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"233B028F86F6156A"
+			]
 			disable_toast: true
 			icon: "nameless_trinkets:super_magnet"
 			id: "30E6F7ED2E722917"
@@ -4057,7 +4161,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BE94C88FE6C9C13"]
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"233B028F86F6156A"
+			]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -4134,7 +4241,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BEC64C3A86BF8DD"]
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"3BBD8ADB599DA49C"
+			]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -4207,18 +4317,21 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BEC64C3A86BF8DD"]
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"3BBD8ADB599DA49C"
+			]
 			disable_toast: true
 			icon: "nameless_trinkets:reforger"
 			id: "7EB31DABBB2867AD"
 			rewards: [{
-				id: "4F0CC59A6F67F97A"
+				id: "42CACDDC07D9B93A"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "nameless_trinkets:puffer_fish_liver"
+					id: "nameless_trinkets:reforger"
 				}
 				type: "item"
 			}]
@@ -4275,7 +4388,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"4C8173C737BCD561"
+			]
 			disable_toast: true
 			icon: "nameless_trinkets:fractured_nullstone"
 			id: "311BE15ADA7196D4"
@@ -4343,7 +4459,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"37C22730501416A3"
+			]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -4416,7 +4535,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"37C22730501416A3"
+			]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -4493,7 +4615,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BEC64C3A86BF8DD"]
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"7A1E9A456B5D4316"
+			]
 			disable_toast: true
 			icon: "nameless_trinkets:ghast_eye"
 			id: "3C186ACFFF8FBCC2"
@@ -4561,7 +4686,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"30F02C7521837E2D"
+			]
 			disable_toast: true
 			icon: "nameless_trinkets:speed_force"
 			id: "4F3F57141048C4FC"
@@ -4629,7 +4757,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"0695500AA4F63195"
+			]
 			disable_toast: true
 			icon: "nameless_trinkets:rage_mind"
 			id: "7CE37B39E57869AD"
@@ -4697,7 +4828,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"3A25BC23D2FB752E"
+			]
 			disable_toast: true
 			icon: "nameless_trinkets:four_leaf_clover"
 			id: "53EE532E70D1B8B3"
@@ -4765,7 +4899,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BE94C88FE6C9C13"]
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"286C5D5CB3B37A76"
+			]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -4843,7 +4980,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"710297082DB76502"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:experience_magnet"
@@ -4912,7 +5052,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"710297082DB76502"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:tear_of_the_sea"
@@ -4981,7 +5124,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"4C8173C737BCD561"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:miners_soul"
@@ -5050,7 +5196,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"0D5CB302C375F278"
+			]
 			disable_toast: true
 			hide: true
 			icon: {
@@ -5140,7 +5289,14 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0B04E6219666D4B5"]
+			dependencies: [
+				"0B04E6219666D4B5"
+				"385198FA26CE5717"
+				"3A25BC23D2FB752E"
+				"30F02C7521837E2D"
+				"0695500AA4F63195"
+				"710297082DB76502"
+			]
 			disable_toast: true
 			hide: false
 			icon: "enigmaticlegacy:enchantment_transposer"
@@ -5797,7 +5953,16 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6D8D04807B5E4EAE"]
+			dependencies: [
+				"6D8D04807B5E4EAE"
+				"05928847558211CE"
+				"7A1E9A456B5D4316"
+				"0EAB3CF374A4E6DE"
+				"0D5CB302C375F278"
+				"2BA30595346227E0"
+				"4C8173C737BCD561"
+				"7C3BBA5A91762C0B"
+			]
 			disable_toast: true
 			hide: false
 			icon: "enigmaticlegacy:escape_scroll"
@@ -5867,7 +6032,14 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BEC64C3A86BF8DD"]
+			dependencies: [
+				"5BEC64C3A86BF8DD"
+				"3BBD8ADB599DA49C"
+				"7A1E9A456B5D4316"
+				"0D5CB302C375F278"
+				"4C8173C737BCD561"
+				"7C3BBA5A91762C0B"
+			]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -5944,7 +6116,12 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"0D5CB302C375F278"
+				"4C8173C737BCD561"
+				"7C3BBA5A91762C0B"
+			]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -6020,7 +6197,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BE94C88FE6C9C13"]
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"53C251A848353A14"
+			]
 			disable_toast: true
 			hide: true
 			icon: "minecraft:dragon_egg"
@@ -6089,7 +6269,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["615D275A59F5A721"]
+			dependencies: [
+				"615D275A59F5A721"
+				"7C3BBA5A91762C0B"
+			]
 			disable_toast: true
 			hide: true
 			icon: "enigmaticlegacy:golden_ring"
@@ -6368,7 +6551,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5BE94C88FE6C9C13"]
+			dependencies: [
+				"5BE94C88FE6C9C13"
+				"53C251A848353A14"
+			]
 			disable_toast: true
 			hide: true
 			icon: "nameless_trinkets:dragons_eye"

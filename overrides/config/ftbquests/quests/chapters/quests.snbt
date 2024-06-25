@@ -15,6 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4DFF46DCFD3F9311"]
 			disable_toast: true
 			id: "579F561A88B18002"
 			rewards: [
@@ -173,6 +174,7 @@
 			y: 0.75d
 		}
 		{
+			dependencies: ["4DFF46DCFD3F9311"]
 			disable_toast: true
 			id: "7C0F86C05C70EF72"
 			rewards: [
@@ -295,6 +297,7 @@
 			y: -2.75d
 		}
 		{
+			dependencies: ["4DFF46DCFD3F9311"]
 			disable_toast: true
 			id: "286C5D5CB3B37A76"
 			rewards: [
@@ -844,6 +847,7 @@
 			y: -11.25d
 		}
 		{
+			dependencies: ["4DFF46DCFD3F9311"]
 			disable_toast: true
 			id: "233B028F86F6156A"
 			rewards: [
@@ -1178,6 +1182,7 @@
 			y: -6.75d
 		}
 		{
+			dependencies: ["4DFF46DCFD3F9311"]
 			disable_toast: true
 			id: "442D2A43B968645D"
 			rewards: [
@@ -1249,6 +1254,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4DFF46DCFD3F9311"]
 			disable_toast: true
 			id: "2E2BF956A8B5F9C5"
 			rewards: [
@@ -1395,6 +1401,7 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["4DFF46DCFD3F9311"]
 			disable_toast: true
 			id: "53C251A848353A14"
 			rewards: [
@@ -1489,6 +1496,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["4DFF46DCFD3F9311"]
 			id: "6657EDE4281D1C80"
 			rewards: [
 				{
@@ -1587,6 +1595,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1DD9C6E201C87291"]
 			disable_toast: true
 			icon: "enigmaticlegacy:lore_inscriber"
 			id: "05928847558211CE"
@@ -1831,6 +1840,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["1DD9C6E201C87291"]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -2011,6 +2021,7 @@
 			y: -1.7999999999999998d
 		}
 		{
+			dependencies: ["1DD9C6E201C87291"]
 			disable_toast: true
 			icon: "iter_rpg:generic_dungeon_gen_block"
 			id: "32C7E5F8B989ABB9"
@@ -2066,6 +2077,7 @@
 			y: -2.75d
 		}
 		{
+			dependencies: ["1DD9C6E201C87291"]
 			disable_toast: true
 			icon: "farmersdelight:nether_salad"
 			id: "0EAB3CF374A4E6DE"
@@ -2190,6 +2202,7 @@
 			y: -6.25d
 		}
 		{
+			dependencies: ["1DD9C6E201C87291"]
 			id: "15E53073D1B9DB90"
 			rewards: [
 				{
@@ -3244,6 +3257,7 @@
 			y: -5.25d
 		}
 		{
+			dependencies: ["1DD9C6E201C87291"]
 			id: "43465D413371B623"
 			rewards: [
 				{
@@ -3450,6 +3464,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["6DFDB0FD9B6DD670"]
 			disable_toast: true
 			id: "3BBD8ADB599DA49C"
 			rewards: [
@@ -3975,6 +3990,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["6DFDB0FD9B6DD670"]
 			disable_toast: true
 			id: "565F680090D90100"
 			rewards: [
@@ -4278,6 +4294,7 @@
 			y: 5.7d
 		}
 		{
+			dependencies: ["6DFDB0FD9B6DD670"]
 			disable_toast: true
 			id: "2D1F584FBA78D566"
 			rewards: [
@@ -4464,6 +4481,7 @@
 			y: 7.199999999999999d
 		}
 		{
+			dependencies: ["6DFDB0FD9B6DD670"]
 			disable_toast: true
 			id: "60158B9FEEE95349"
 			rewards: [
@@ -4576,6 +4594,7 @@
 			y: 5.25d
 		}
 		{
+			dependencies: ["6DFDB0FD9B6DD670"]
 			id: "5ECA2EEA1F2AB60F"
 			rewards: [
 				{
@@ -4990,6 +5009,7 @@
 			y: 4.75d
 		}
 		{
+			dependencies: ["6DFDB0FD9B6DD670"]
 			disable_toast: true
 			id: "7A1E9A456B5D4316"
 			rewards: [
@@ -5259,6 +5279,7 @@
 			y: 6.75d
 		}
 		{
+			dependencies: ["0D64035CA4B55D10"]
 			disable_toast: true
 			id: "72FDEE8A33AA954D"
 			rewards: [
@@ -5431,6 +5452,7 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["0D64035CA4B55D10"]
 			disable_toast: true
 			id: "4C8173C737BCD561"
 			optional: true
@@ -6057,6 +6079,7 @@
 			y: 22.0d
 		}
 		{
+			dependencies: ["0D64035CA4B55D10"]
 			disable_toast: true
 			id: "7C3BBA5A91762C0B"
 			rewards: [
@@ -6266,6 +6289,7 @@
 			y: 17.25d
 		}
 		{
+			dependencies: ["0D64035CA4B55D10"]
 			disable_toast: true
 			id: "49BED3190B35E2EF"
 			rewards: [
@@ -6429,6 +6453,7 @@
 			y: 19.75d
 		}
 		{
+			dependencies: ["0D64035CA4B55D10"]
 			disable_toast: true
 			id: "2E9AE8E7C33A2674"
 			rewards: [
@@ -6490,6 +6515,7 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["0D64035CA4B55D10"]
 			disable_toast: true
 			id: "37C22730501416A3"
 			rewards: [
@@ -6623,6 +6649,7 @@
 			y: 20.25d
 		}
 		{
+			dependencies: ["0D64035CA4B55D10"]
 			disable_toast: true
 			id: "0D5CB302C375F278"
 			rewards: [
@@ -6867,6 +6894,7 @@
 			y: 17.25d
 		}
 		{
+			dependencies: ["0D64035CA4B55D10"]
 			disable_toast: true
 			id: "2BBCA980497C9E44"
 			rewards: [
@@ -7155,6 +7183,7 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["3719A96FC4CFB77F"]
 			disable_toast: true
 			id: "6FFC4BC7B254A73B"
 			min_width: 600
@@ -7726,6 +7755,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["3719A96FC4CFB77F"]
 			disable_toast: true
 			id: "1BCA27047D8EFFF7"
 			rewards: [
@@ -7947,6 +7977,7 @@
 			y: 9.25d
 		}
 		{
+			dependencies: ["3719A96FC4CFB77F"]
 			disable_toast: true
 			id: "381127B5D7ED2484"
 			rewards: [
@@ -8253,6 +8284,7 @@
 			y: 11.25d
 		}
 		{
+			dependencies: ["3719A96FC4CFB77F"]
 			description: ["The reward is footwear so you don't hurt yourself transporting livestock as much."]
 			disable_toast: true
 			id: "111567BDF5D7D9D2"
@@ -8555,6 +8587,7 @@
 			y: 8.75d
 		}
 		{
+			dependencies: ["3719A96FC4CFB77F"]
 			disable_toast: true
 			id: "385198FA26CE5717"
 			optional: true
@@ -8829,6 +8862,7 @@
 			y: 10.875d
 		}
 		{
+			dependencies: ["3719A96FC4CFB77F"]
 			disable_toast: true
 			id: "710297082DB76502"
 			rewards: [
@@ -9344,6 +9378,7 @@
 			y: 12.375d
 		}
 		{
+			dependencies: ["3719A96FC4CFB77F"]
 			disable_toast: true
 			id: "0695500AA4F63195"
 			optional: true
@@ -10036,6 +10071,7 @@
 			y: 14.85d
 		}
 		{
+			dependencies: ["3719A96FC4CFB77F"]
 			disable_toast: true
 			id: "3A25BC23D2FB752E"
 			rewards: [
@@ -10715,6 +10751,7 @@
 			y: 16.875d
 		}
 		{
+			dependencies: ["3719A96FC4CFB77F"]
 			disable_toast: true
 			id: "30F02C7521837E2D"
 			rewards: [
@@ -11221,6 +11258,7 @@
 			y: 17.25d
 		}
 		{
+			dependencies: ["3719A96FC4CFB77F"]
 			id: "2D3E34B3937CAFA2"
 			rewards: [
 				{
@@ -12214,6 +12252,7 @@
 			y: 15.75d
 		}
 		{
+			dependencies: ["4DFF46DCFD3F9311"]
 			id: "5A47790232C52F09"
 			rewards: [
 				{
@@ -12970,6 +13009,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["4DFF46DCFD3F9311"]
 			id: "395E4DD0B9D9B43F"
 			rewards: [
 				{
@@ -13592,13 +13632,8 @@
 			y: -4.5d
 		}
 		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "unusualfishmod:weird_goldfish"
-			}
+			dependencies: ["3719A96FC4CFB77F"]
+			icon: "unusualfishmod:weird_goldfish"
 			id: "7BE09FC98464243B"
 			rewards: [
 				{
