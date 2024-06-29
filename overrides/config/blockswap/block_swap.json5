@@ -86,6 +86,23 @@ to make editing this file much easier.
 	*/
 	"swapper": {
  		"epicsamurai:silver_ore": "galosphere:silver_ore",
+ 		"paraglider:goddess_statue": "minecraft:air",
+ 		"paraglider:goron_goddess_statue": "minecraft:air",
+ 		"paraglider:horned_statue": "minecraft:air",
+ 		"paraglider:kakariko_goddess_statue": "minecraft:air",
+ 		"paraglider:rito_goddess_statue": "minecraft:air",
+		"unusualprehistory:deepslate_fossil":"minecraft:deepslate",
+		"unusualprehistory:deepslate_plant_fossil":"minecraft:deepslate",
+		"unusualprehistory:deepslate_amber_ore":"minecraft:deepslate",
+		"unusualprehistory:deepslate_opal_ore":"minecraft:deepslate",
+		"unusualprehistory:deepslate_tar_fossil":"minecraft:deepslate",	
+		"unusualprehistory:stone_fossil":"minecraft:stone",
+		"unusualprehistory:plant_fossil":"minecraft:stone",
+		"unusualprehistory:stone_amber_ore":"minecraft:stone",
+		"unusualprehistory:stone_opal_ore":"minecraft:stone",
+		"unusualprehistory:stone_tar_fossil":"minecraft:stone",
+		"unusualprehistory:permafrost_fossil":"quark:permafrost",
+		"unusualprehistory:permafrost":"quark:permafrost",
  		"epicsamurai:deepslate_silver_ore": "galosphere:deepslate_silver_ore"
 	}	
 }

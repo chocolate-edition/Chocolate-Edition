@@ -48,7 +48,7 @@
 			"Dark End?" = false
 
 	[Settings."Entity Distance"]
-		"Enable Max Distance Checks" = true
+		"Enable Max Distance Checks" = false
 		"(Entity) Max Vertical Render Distance [Raw, Default 32]" = 40
 		"(Entity) Max Horizontal Render Distance [Squared, Default 64^2]" = 9216
 		"(TileEntity) Max Horizontal Render Distance [Squared, Default 64^2]" = 4096

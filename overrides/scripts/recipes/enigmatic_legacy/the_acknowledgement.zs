@@ -1,0 +1,1 @@
+craftingTable.addShapeless("the_acknowledgments",<item:enigmaticlegacy:the_acknowledgment>, [<item:minecraft:book>,<item:minecraft:lantern>]);

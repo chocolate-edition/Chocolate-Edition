@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Edward_the_llama",
+      "uniqueId": "5d26ef8d-6337-4a95-b2ac-1f60355d560d"
+    },
+    "time": 1719002960077,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ry3udpSSbj"
+    }
+  }
+]

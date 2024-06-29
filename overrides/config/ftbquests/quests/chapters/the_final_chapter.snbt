@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "the_final_chapter"
-	group: "1C888CDB8EF0A7FB"
+	group: "124DA5EC6A42A11D"
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
@@ -14,19 +14,6 @@
 	}
 	id: "748D039F0F054584"
 	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 20.0d
-			hover: [ ]
-			image: "chocolate:textures/87.png"
-			order: 3
-			rotation: 0.0d
-			width: 18.7683284457478d
-			x: 7.0d
-			y: 2.5d
-		}
 		{
 			click: ""
 			corner: false
@@ -57,37 +44,12 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 15.0d
+			height: 2.0d
 			hover: [ ]
-			image: "malum:textures/gui/book/pages/crafting_page.png"
-			order: 3
-			rotation: -20.0d
-			width: 15.0d
-			x: 19.8d
-			y: 12.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 20.0d
-			hover: [ ]
-			image: "aether:textures/gui/menu/lore_book.png"
-			rotation: 20.0d
-			width: 20.0d
-			x: -2.4d
-			y: 16.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 4.0d
-			hover: [ ]
-			image: "chocolate:textures/42.png"
+			image: "witherstormmod:item/command_block_book"
 			order: 3
 			rotation: -10.0d
-			width: 2.5d
+			width: 2.0d
 			x: 17.4d
 			y: -0.1d
 		}
@@ -109,11 +71,23 @@
 			dev: false
 			height: 15.0d
 			hover: [ ]
-			image: "chocolate:textures/73.png"
+			image: "chocolate:textures/87.png"
 			rotation: 0.0d
 			width: 15.0d
 			x: 6.6d
 			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "citadel:textures/gui/book/book_background.png"
+			rotation: 20.0d
+			width: 17.0d
+			x: -2.0d
+			y: 13.25d
 		}
 	]
 	order_index: 3

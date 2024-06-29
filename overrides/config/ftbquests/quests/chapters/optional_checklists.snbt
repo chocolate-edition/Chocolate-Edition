@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "optional_checklists"
-	group: "75DA3C44FB5FAC43"
+	group: "43BFCECB9B138513"
 	icon: {
 		Count: 1b
 		id: "ftbquests:custom_icon"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "5CE53EC3AF77DE93"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

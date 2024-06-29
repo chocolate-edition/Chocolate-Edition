@@ -2238,13 +2238,13 @@
 			description: ["This item can be obtained by crafting 4 &eSoul Salt Clumps&r with a &eSpider Eye&r"]
 			id: "6CC87A6CF640E3EE"
 			rewards: [{
-				id: "30425FE6304B3B44"
+				id: "4AE5D8BCB8AFFBA7"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "born_in_chaos_v1:spiritinabottle"
+					id: "born_in_chaos_v1:ethereal_spirit"
 				}
 				type: "item"
 			}]

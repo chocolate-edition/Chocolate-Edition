@@ -85,8 +85,6 @@ CTEventManager.register<GameStageAdded>((event) => {
 // --------------------------------------------------- ITEM STAGE ONE ------------------------------------------------------------------//
 var itemsStageOne = [
 	<item:quark:backpack>,
-	<item:toms_storage:ts.storage_terminal>,
-	<item:toms_storage:ts.crafting_terminal>,
 	<item:aquaculture:neptunium_axe>,
 	<item:aquaculture:neptunium_block>,
 	<item:aquaculture:neptunium_boots>,
@@ -125,7 +123,9 @@ var itemsStageOne = [
 	<item:sophisticatedbackpacks:smoking_upgrade>,	
 	<item:sophisticatedbackpacks:auto_smoking_upgrade>,	
 	<item:sophisticatedbackpacks:blasting_upgrade>,	
-	<item:sophisticatedbackpacks:auto_blasting_upgrade>
+	<item:sophisticatedbackpacks:auto_blasting_upgrade>,
+	//--//---------------------------------------------------- Armor Gating --------------------------------------------------------------//--//
+
 ];
 
 
@@ -419,6 +419,6 @@ DimensionStages.stageDimensionWithMessage("javd:void", "The Nexus requires 16 ey
 
 
 
-
+ItemStages.restrict(<item:unusualprehistory:encyclopedia>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
 ItemStages.restrict(<item:supplementaries:sack>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
 ItemStages.restrict(<item:iter_rpg:nightfall>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
