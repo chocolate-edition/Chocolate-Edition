@@ -5010,6 +5010,7 @@
 		}
 		{
 			dependencies: ["6DFDB0FD9B6DD670"]
+			description: ["the earth piercer and stone cutter can be crafted by either finding the special materials in large forged containers, or by upgrading a sword or shovel in front of an intact ancient schematic inside a tetra ruin"]
 			disable_toast: true
 			id: "7A1E9A456B5D4316"
 			rewards: [
@@ -5124,7 +5125,12 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "tetra:stonecutter"
+						id: "tetra:modular_sword"
+						tag: {
+							Damage: 0
+							"sword/blade": "sword/stonecutter"
+							"sword/stonecutter_material": "stonecutter/stonecutter"
+						}
 					}
 					type: "item"
 				}
@@ -5135,7 +5141,12 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "tetra:earthpiercer"
+						id: "tetra:modular_single"
+						tag: {
+							Damage: 0
+							"single/earthpiercer_material": "earthpiercer/earthpiercer"
+							"single/head": "single/earthpiercer"
+						}
 					}
 					type: "item"
 				}
@@ -5270,6 +5281,35 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "tetra:forged_bolt"
+					}
+					type: "item"
+				}
+				{
+					id: "627D85EE4D976DE8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										5
+										10
+										13
+										2
+									]
+									intricate: 0b
+									key: "sword/katana/katana_blade"
+									material: 2
+									ribbon: "dbff10"
+									schematics: ["tetra:sword/katana/katana_blade"]
+								}]
+							}
+						}
 					}
 					type: "item"
 				}
