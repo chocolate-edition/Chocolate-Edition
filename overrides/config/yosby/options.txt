@@ -159,7 +159,7 @@ key_key.jei.showRecipe:key.keyboard.r
 key_key.jei.cheatOneItem:key.mouse.left
 key_key.zoom:key.keyboard.c
 key_keybinds.bettercombat.feint:key.keyboard.unknown
-key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.h
+key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_keybinds.combatroll.roll:key.keyboard.r
 key_key.damageindicator.hideIndicator.desc:key.keyboard.unknown
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
