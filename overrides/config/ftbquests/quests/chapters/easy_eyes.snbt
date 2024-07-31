@@ -40,7 +40,7 @@
 				""
 				"• Glow Shroom: Crafted from &eRed Mushrooms&r, &eBrown Mushrooms&r, and &eGlowstone Dust&r."
 				""
-				"• Heart of Diamond: Drops from &aStonelings&r, small creatures found deep underground that disappear when you approach unless you're holding a &eGlow Shroom&r."
+				"• Heart of Diamond: Drops from &aStonelings&r, small creatures found deep underground that disappear when you approach unless you're holding a &eDiamond&r."
 				""
 				"• Forgotten Hat: Drops from a rare, strong variant of a skeleton deep underground called the &cForgotten&r."
 			]
@@ -160,11 +160,9 @@
 		{
 			dependencies: ["2243BA6B2363797E"]
 			description: [
-				"This item can be found in the Glimmering Wealds biome underground below Y=0, or it can be crafted using a &eRed Mushroom&r, a &eBrown Mushroom&r, and &eGlowstone Dust&r&f."
+				"This item can be crafted using a &eRed Mushroom&r, a &eBrown Mushroom&r, and &eGlowstone Dust&r&f."
 				""
 				"&eGlowstone Dust&r can be acquired from the Nether, structures, &cWitches&r, and crushing &ePrismarine Crystals&r. See the relevant quest for more!"
-				""
-				"&eGlow Shrooms&r can be used to lure out &aStonelings&r, which makes the &eHeart of Diamond&r much easier to get."
 			]
 			id: "1A8A4DEE5F184E8D"
 			rewards: [{
@@ -308,7 +306,7 @@
 		{
 			dependencies: ["2243BA6B2363797E"]
 			description: [
-				"This item drops from &aStonelings&r, which are small creatures found deep underground at Y=0 or below. They will run away if you approach them, unless you lure them in with a &eGlow Shroom&r. You can also duplicate them by crafting them with &eDiamonds&r and other gems."
+				"This item drops from &aStonelings&r, which are small creatures found deep underground at Y=0 or below. They will run away if you approach them, unless you lure them in with a &eDiamond&r. You can also duplicate them by crafting them with &eDiamonds&r and other gems."
 				""
 				"You can use a &eHeart of Diamond&r on a block of &eStone&r to create your own &aStoneling&r, or craft it into a &ePickarang&r."
 			]
@@ -2143,7 +2141,7 @@
 		{
 			dependencies: ["2243BA6B2363797E"]
 			description: [
-				"This item is crafted from 4 &eCrystallized Coral Fragments&r, which are dropped by the &cCorallsus&r mob. The &cCorallsus&r spawns in Sunken Cities or can be rarely fished up. This item is not consumed during crafting."
+				"This item is crafted from 4 &eCrystallized Coral Fragments&r or 4 &eCoral Chunk&r, which are dropped by the &cCoral Golem&r and &cCorallsus&r mobs. The &cCorallsus&r spawns in Sunken Cities or can be rarely fished up. This item is not consumed during crafting."
 				""
 				"The &eCrystallized Coral&r is also used to craft the &eAbyssal Sacrifice&r, used to summon the &4Leviathan&r."
 			]
