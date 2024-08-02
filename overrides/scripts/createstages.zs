@@ -357,38 +357,33 @@ var itemsCursed = [
 
 //Stage gates
 for item in itemsStageOne {
-	ItemStages.restrict(item.anyDamage(), "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+	ItemStages.restrict(item.anyDamage(), "one").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§4You need at least 3 eyes to use this item");
 	<tag:items:chocolate:stage_one_item>.add(item);
 	mods.recipestages.Recipes.setRecipeStage("one", item);
-	mods.ItemStages.setUnfamiliarName("You need 3 eyes to use this item");
 }
 
 for item in itemsStageTwo {
-	ItemStages.restrict(item.anyDamage(), "two").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+	ItemStages.restrict(item.anyDamage(), "two").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§4You need at least 6 eyes to use this item");
 	<tag:items:chocolate:stage_two_item>.add(item);
 	mods.recipestages.Recipes.setRecipeStage("two", item);
-	mods.ItemStages.setUnfamiliarName("You need 6 eyes to use this item");
 }
 
 for item in itemsStageThree {
-	ItemStages.restrict(item.anyDamage(), "three").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+	ItemStages.restrict(item.anyDamage(), "three").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§4You need at least 9 eyes to use this item");
 	<tag:items:chocolate:stage_three_item>.add(item);
 	mods.recipestages.Recipes.setRecipeStage("three", item);
-	mods.ItemStages.setUnfamiliarName("You need 9 eyes to use this item");
 }
 
 for item in itemsStageFour {
-	ItemStages.restrict(item.anyDamage(), "four").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+	ItemStages.restrict(item.anyDamage(), "four").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§4You need at least 12 eyes to use this item");
 	<tag:items:chocolate:stage_four_item>.add(item);
 	mods.recipestages.Recipes.setRecipeStage("four", item);
-	mods.ItemStages.setUnfamiliarName("You need 12 eyes to use this item");
 }
 
 for item in itemsStageFive {
-	ItemStages.restrict(item.anyDamage(), "five").preventInventory(false).preventPickup(false).setHiddenInJEI(false);
+	ItemStages.restrict(item.anyDamage(), "five").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§4You need all 16 eyes to use this item");
 	<tag:items:chocolate:stage_five_item>.add(item);
 	mods.recipestages.Recipes.setRecipeStage("five", item);
-	mods.ItemStages.setUnfamiliarName("You need 16 eyes to use this item");
 }
 
 for item in itemsCursed {
