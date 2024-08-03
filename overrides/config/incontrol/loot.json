@@ -16,11 +16,7 @@
 
 "mob":"minecraft:iron_golem",
 
-"player":true,
-
-"item":"minecraft:iron_ingot",
-
-"itemcount": "0/0/0"
+"remove":"minecraft:iron_ingot"
     
 },
 
