@@ -1,6 +1,8 @@
 # Large files
 *.7z
 .obsidian/workspace.json
+overrides/config/registryDump.txt
+overrides/config/spawnbalanceutility/AllMobEntities.rpt
 
 # user specific files
 instancePath.txt
