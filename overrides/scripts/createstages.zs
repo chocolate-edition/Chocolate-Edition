@@ -124,8 +124,16 @@ var itemsStageOne = [
 	<item:sophisticatedbackpacks:auto_smoking_upgrade>,	
 	<item:sophisticatedbackpacks:blasting_upgrade>,	
 	<item:sophisticatedbackpacks:auto_blasting_upgrade>,
-	//--//---------------------------------------------------- Armor Gating --------------------------------------------------------------//--//
-
+	//--//---------------------------------------------------- tetra scrolls --------------------------------------------------------------//--//
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:single/head/mace_head/mace_head"], ribbon: "560060", glyphs: [9, 3, 6, 2], details: "art_of_forging", key: "single/head/mace_head/mace_head"}]}}),
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:utilize/hammer"], ribbon: "fa97e9", details: "art_of_forging", glyphs: [1, 15, 12, 8], key: "utilize/hammer"}]}}),
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:bow/string/compound_string", "tetra:crossbow/string/compound_cross_string"], ribbon: "19e588", glyphs: [15, 13, 12, 14], details: "art_of_forging", key: "bow/string/compound_string"}]}}),
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/key_guard"], ribbon: "fae409", glyphs: [0, 1, 9, 4], details: "art_of_forging", key: "sword/key_guard"}]}}),
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:bow/stave/dreadnought_stave", "tetra:bow/stave/dreadnought_cross_stave"], ribbon: "f3b31f", glyphs: [8, 1, 9, 5], details: "art_of_forging", key: "bow/stave/dreadnought_stave"}]}}),
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:single/head/halberd_head/halberd_head"], ribbon: "444aff", glyphs: [8, 1, 4, 5], details: "art_of_forging", key: "single/head/halberd_head/halberd_head"}]}}),
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/howling"], ribbon: "faf396", glyphs: [8, 9, 10, 5], key: "sword/howling"}]}}),
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/throwing_knife"], ribbon: "b8ced9", glyphs: [4, 1, 0, 5], key: "sword/throwing_knife"}]}}),
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/sturdy_guard"], ribbon: "bcb8b5", glyphs: [3, 2, 2, 1], key: "sword/sturdy_guard"}]}}),
 ];
 
 
@@ -176,7 +184,12 @@ var itemsStageTwo = [
 	<item:sophisticatedbackpacks:advanced_tool_swapper_upgrade>,
 	<item:sophisticatedbackpacks:magnet_upgrade>,
 	<item:sophisticatedbackpacks:advanced_magnet_upgrade>,
-	<item:sophisticatedbackpacks:stack_upgrade_tier_1>
+	<item:sophisticatedbackpacks:stack_upgrade_tier_1>,
+	//--//---------------------------------------------------- tetra scrolls --------------------------------------------------------------//--//
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:sword/katana/katana_blade"], ribbon: "dbff10", details: "art_of_forging", glyphs: [5, 10, 13, 2], key: "sword/katana/katana_blade"}]}}),
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:sword/crucible_blade"], ribbon: "ff1e00", glyphs: [8, 7, 9, 2], details: "art_of_forging", key: "tetra/crucible_blade"}]}}),
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:sword/flamberge_blade"], ribbon: "ff9612", details: "art_of_forging", glyphs: [6, 15, 4, 7], key: "tetra/flamberge_blade"}]}}),
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:sword/rending_scissor_red", "tetra:sword/rending_scissor_purple"], ribbon: "e32182", details: "otherworldly", glyphs: [1, 15, 2, 13], key: "tetra/rending_scissor_purple"}]}}),
 ];
 
 
@@ -184,9 +197,6 @@ var itemsStageTwo = [
 // --------------------------------------------------- ITEM STAGE THREE ------------------------------------------------------------------//
 var itemsStageThree = [
 	<item:infusion_table:infusion_table>,
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/howling"], ribbon: "faf396", glyphs: [8, 9, 10, 5], key: "sword/howling"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/throwing_knife"], ribbon: "b8ced9", glyphs: [4, 1, 0, 5], key: "sword/throwing_knife"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/sturdy_guard"], ribbon: "bcb8b5", glyphs: [3, 2, 2, 1], key: "sword/sturdy_guard"}]}}),
 	//<item:create:redstone_link>,
 	<item:born_in_chaos_v1:dark_metal_armor_helmet>,
 	<item:born_in_chaos_v1:dark_metal_armor_chestplate>,
@@ -207,9 +217,10 @@ var itemsStageThree = [
 	<item:sophisticatedbackpacks:feeding_upgrade>,
 	<item:sophisticatedbackpacks:advanced_feeding_upgrade>,
 	<item:sophisticatedbackpacks:stack_upgrade_tier_2>,
-	<item:sophisticatedbackpacks:stack_upgrade_tier_3>
-
+	<item:sophisticatedbackpacks:stack_upgrade_tier_3>,
 	
+	//--//---------------------------------------------------- tetra scrolls --------------------------------------------------------------//--//
+	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:sword/katana/murasama_blade"], ribbon: "c52323", details: "otherworldly", glyphs: [6, 7, 13, 15], key: "sword/katana/murasama_blade"}]}}),
 ];
 
 
@@ -221,18 +232,6 @@ var itemsStageFour = [
 	<item:cataclysm:monstrous_helm>,
 	<item:cataclysm:gauntlet_of_guard>,
 	<item:cataclysm:wither_assault_shoulder_weapon>,
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:sword/katana/katana_blade"], ribbon: "dbff10", details: "art_of_forging", glyphs: [5, 10, 13, 2], key: "sword/katana/katana_blade"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:single/head/mace_head/mace_head"], ribbon: "560060", glyphs: [9, 3, 6, 2], details: "art_of_forging", key: "single/head/mace_head/mace_head"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:sword/crucible_blade"], ribbon: "ff1e00", glyphs: [8, 7, 9, 2], details: "art_of_forging", key: "tetra/crucible_blade"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:single/head/mace_head/mace_head"], ribbon: "560060", glyphs: [9, 3, 6, 2], details: "art_of_forging", key: "single/head/mace_head/mace_head"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:utilize/hammer"], ribbon: "fa97e9", details: "art_of_forging", glyphs: [1, 15, 12, 8], key: "utilize/hammer"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:sword/katana/murasama_blade"], ribbon: "c52323", details: "otherworldly", glyphs: [6, 7, 13, 15], key: "sword/katana/murasama_blade"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:bow/string/compound_string", "tetra:crossbow/string/compound_cross_string"], ribbon: "19e588", glyphs: [15, 13, 12, 14], details: "art_of_forging", key: "bow/string/compound_string"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:sword/rending_scissor_red", "tetra:sword/rending_scissor_purple"], ribbon: "e32182", details: "otherworldly", glyphs: [1, 15, 2, 13], key: "tetra/rending_scissor_purple"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:sword/key_guard"], ribbon: "fae409", glyphs: [0, 1, 9, 4], details: "art_of_forging", key: "sword/key_guard"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:bow/stave/dreadnought_stave", "tetra:bow/stave/dreadnought_cross_stave"], ribbon: "f3b31f", glyphs: [8, 1, 9, 5], details: "art_of_forging", key: "bow/stave/dreadnought_stave"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:single/head/halberd_head/halberd_head"], ribbon: "444aff", glyphs: [8, 1, 4, 5], details: "art_of_forging", key: "single/head/halberd_head/halberd_head"}]}}),
-	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:sword/flamberge_blade"], ribbon: "ff9612", details: "art_of_forging", glyphs: [6, 15, 4, 7], key: "tetra/flamberge_blade"}]}}),
 	<item:aquamirae:poseidons_breakfast>,
 	<item:aquamirae:coral_lance>.withTag({Enchantments: [{lvl: 4, id: "minecraft:unbreaking"}]}),
 	<item:aquamirae:whisper_of_the_abyss>,
