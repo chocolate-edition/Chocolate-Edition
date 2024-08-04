@@ -23,7 +23,7 @@ hideLightningFlashes:false
 mouseSensitivity:0.5046948356807511
 fov:0.75
 screenEffectScale:0.0
-fovEffectScale:0.15552469748065859
+fovEffectScale:0.30
 darknessEffectScale:1.0
 gamma:1.0
 renderDistance:10
@@ -223,7 +223,7 @@ key_key.journeymap.toggle_waypoints:key.keyboard.z:CONTROL
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.n
 key_key.journeymap.fullscreen_chat_position:key.keyboard.c
 key_key.journeymap.map_toggle_alt:key.keyboard.m
-key_key.journeymap.fullscreen_waypoints:key.keyboard.n
+key_key.journeymap.fullscreen_waypoints:key.keyboard.n:CONTROL
 key_key.journeymap.minimap_toggle_alt:key.keyboard.m:SHIFT
 key_key.journeymap.fullscreen_options:key.keyboard.o
 key_key.journeymap.fullscreen.north:key.keyboard.up
