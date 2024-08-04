@@ -2936,7 +2936,7 @@
 				"2243BA6B2363797E"
 				"112185B930D06A2A"
 			]
-			description: ["The &eGuardian Eye&r accepts two kinds of pearls, and you can choose whichever pearl seems easiest to you. The regular &ePearl&r is obtained by giving &eClams&r to &aOtters&r, however, you may need a LOT of &eClams&r to do so. The Tempest Pearl is obtained by killing the &4Insatiable&r, a boss that spawns on Beach biomes at night."]
+			description: ["The &eGuardian Eye&r accepts two kinds of pearls, and you can choose whichever pearl seems easiest to you. The regular &ePearl&r is obtained by giving &eClams&r to &aOtters&r, however, you may need a LOT of &eClams&r to do so. The Tempest Pearl is obtained by killing the &4Insatiable&r, a boss that spawns after killing farm animals in a swamp with a sacrificial dagger while its raining."]
 			id: "6308B5B267BE4533"
 			rewards: [{
 				id: "50B196016F9818D7"
