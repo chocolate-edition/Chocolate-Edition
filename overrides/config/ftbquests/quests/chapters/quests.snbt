@@ -5889,7 +5889,7 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "epicsamurai:silver_ingot"
+						id: "galosphere:silver_ingot"
 					}
 					type: "item"
 				}

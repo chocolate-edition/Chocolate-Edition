@@ -4965,7 +4965,7 @@
 			description: [
 				"This item can be obtained by exploring The Nether, specifically in Basal Delta biomes"
 				""
-				"&eCoffee Beans&r can be planted on Basalt and will growing to Coffee Trees, supplying you with &eCoffee Berries&r"
+				"&eCoffee Beans&r can be planted on Basalt surrounded by crops and will grow into Coffee Trees, supplying you with &eCoffee Berries&r"
 			]
 			id: "5EE47CB5195BF503"
 			rewards: [
