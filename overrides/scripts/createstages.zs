@@ -124,6 +124,16 @@ var itemsStageOne = [
 	<item:sophisticatedbackpacks:auto_smoking_upgrade>,	
 	<item:sophisticatedbackpacks:blasting_upgrade>,	
 	<item:sophisticatedbackpacks:auto_blasting_upgrade>,
+
+	//--//---------------------------------------------------- create automation --------------------------------------------------------------//--//
+	<item:create:mechanical_drill>,
+	<item:create:mechanical_harvester>,
+	<item:create:mechanical_saw>,
+	<item:create:portable_storage_interface>,
+	<item:create:cart_assembler>,
+	<item:create:linked_controller>,
+	<item:create:redstone_link>,
+
 	//--//---------------------------------------------------- tetra scrolls --------------------------------------------------------------//--//
 	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 1, schematics: ["tetra:single/head/mace_head/mace_head"], ribbon: "560060", glyphs: [9, 3, 6, 2], details: "art_of_forging", key: "single/head/mace_head/mace_head"}]}}),
 	<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 0, material: 2, schematics: ["tetra:utilize/hammer"], ribbon: "fa97e9", details: "art_of_forging", glyphs: [1, 15, 12, 8], key: "utilize/hammer"}]}}),
@@ -168,14 +178,7 @@ var itemsStageTwo = [
 	<item:meetyourfight:cocktail_cutlass>,
 	<item:meetyourfight:blossoming_mind>,
 	<item:meetyourfight:spectres_grasp>,
-	//<item:create:mechanical_drill>,
-	//<item:create:mechanical_roller>,
-	//<item:create:mechanical_harvester>,
-	//<item:create:mechanical_plough>,
-	//<item:create:mechanical_saw>,
-	//<item:create:portable_storage_interface>,
-	//<item:create:cart_assembler>,
-	//<item:create:linked_controller>,
+
 	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:gold_backpack>,
 	<item:sophisticatedbackpacks:compacting_upgrade>,
@@ -197,7 +200,6 @@ var itemsStageTwo = [
 // --------------------------------------------------- ITEM STAGE THREE ------------------------------------------------------------------//
 var itemsStageThree = [
 	<item:infusion_table:infusion_table>,
-	//<item:create:redstone_link>,
 	<item:born_in_chaos_v1:dark_metal_armor_helmet>,
 	<item:born_in_chaos_v1:dark_metal_armor_chestplate>,
 	<item:born_in_chaos_v1:dark_metal_armor_leggings>,
