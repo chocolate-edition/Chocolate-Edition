@@ -1,23 +1,23 @@
 {
   "minimumClient": {
     "desc:": "Set the clients minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable. default:2500, min 2500, max 25000",
-    "minimumClient": 2500
+    "minimumClient": 3072
   },
   "maximumClient": {
     "desc:": "Set the clients maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended memory for the pack is 6000mb then set this to ~8000mb",
-    "maximumClient": 8500
+    "maximumClient": 10240
   },
   "minimumServer": {
     "desc:": "Set the servers minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable. default:2500, min 2500, max 25000",
-    "minimumServer": 2500
+    "minimumServer": 4096
   },
   "maximumServer": {
     "desc:": "Set the servers maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended is 6000mb then set this to ~8000mb",
-    "maximumServer": 8500
+    "maximumServer": 16384
   },
   "disableWarnings": {
     "desc:": "Disable the memory warnings, default: false",
-    "disableWarnings": true
+    "disableWarnings": false
   },
   "howtolink": {
     "desc:": "Set the link used to guide players to a website with instructions to change memory allocation",
@@ -31,18 +31,18 @@
     "desc:": "Set the recommended memory values based off system memory in MB. [\"system memory:recommended\"]",
     "memory values": [
       "3000:2000",
-      "4000:3000",
-      "5000:3500",
-      "6000:3700",
-      "7000:4000",
-      "8000:4200",
-      "10000:5000",
-      "12000:6000",
-      "16000:7000",
-      "20000:8000",
-      "24000:9000",
-      "32000:9500",
-      "64000:10000"
+      "4000:2048",
+      "5000:3072",
+      "6000:3072",
+      "7000:3072",
+      "8000:4096",
+      "10000:5120",
+      "12000:6144",
+      "16000:6144",
+      "20000:6144",
+      "24000:8192",
+      "32000:8192",
+      "64000:8192"
     ]
   }
 }
