@@ -469,9 +469,9 @@
 			rewards: [
 				{
 					auto: "no_toast"
-					command: "/gamemode adventure @a[gamemode=survival]"
+					command: "/gamerule sendCommandFeedback false"
 					exclude_from_claim_all: true
-					id: "3CFE6116E4136763"
+					id: "3572D2537EA7FBDC"
 					ignore_reward_blocking: true
 					silent: true
 					team_reward: false
@@ -479,9 +479,9 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/gamerule sendCommandFeedback false"
+					command: "/gamemode adventure @p"
 					exclude_from_claim_all: true
-					id: "3572D2537EA7FBDC"
+					id: "25CA20AA8E579BB3"
 					ignore_reward_blocking: true
 					silent: true
 					team_reward: false
@@ -505,29 +505,17 @@
 			ignore_reward_blocking: true
 			invisible: true
 			min_required_dependencies: 1
-			rewards: [
-				{
-					auto: "no_toast"
-					command: "/gamemode survival @a[gamemode=adventure]"
-					exclude_from_claim_all: true
-					id: "62033341CE0BBCD0"
-					ignore_reward_blocking: true
-					player_command: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/gamerule sendCommandFeedback false"
-					exclude_from_claim_all: true
-					id: "076DFFFEF9F700E8"
-					ignore_reward_blocking: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				command: "/gamemode survival @p"
+				exclude_from_claim_all: true
+				id: "62033341CE0BBCD0"
+				ignore_reward_blocking: true
+				player_command: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
 			tasks: [{
 				dimension: "blue_skies:everdawn"
 				disable_toast: true
@@ -545,29 +533,6 @@
 			ignore_reward_blocking: true
 			invisible: true
 			min_required_dependencies: 1
-			rewards: [
-				{
-					auto: "no_toast"
-					command: "/gamemode survival @a[gamemode=adventure]"
-					exclude_from_claim_all: true
-					id: "778923EEF76DC168"
-					ignore_reward_blocking: true
-					player_command: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/gamerule sendCommandFeedback false"
-					exclude_from_claim_all: true
-					id: "35AB4A463ECF6539"
-					ignore_reward_blocking: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-			]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				disable_toast: true
@@ -588,7 +553,7 @@
 			rewards: [
 				{
 					auto: "no_toast"
-					command: "/gamemode survival @a[gamemode=adventure]"
+					command: "/gamemode survival @p"
 					exclude_from_claim_all: true
 					id: "59792D288CCE20D1"
 					ignore_reward_blocking: true
@@ -599,9 +564,9 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/gamerule sendCommandFeedback false"
+					command: "/sendCommandFeedback true"
 					exclude_from_claim_all: true
-					id: "4A74D13B088BEBB0"
+					id: "5E689D5BA9383BA4"
 					ignore_reward_blocking: true
 					silent: true
 					team_reward: false
@@ -625,29 +590,6 @@
 			ignore_reward_blocking: true
 			invisible: true
 			min_required_dependencies: 1
-			rewards: [
-				{
-					auto: "no_toast"
-					command: "/gamemode survival @a[gamemode=adventure]"
-					exclude_from_claim_all: true
-					id: "211BD007EA7F06F8"
-					ignore_reward_blocking: true
-					player_command: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/gamerule sendCommandFeedback false"
-					exclude_from_claim_all: true
-					id: "07D743B1D58E06BC"
-					ignore_reward_blocking: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-			]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				disable_toast: true
@@ -665,28 +607,16 @@
 			ignore_reward_blocking: true
 			invisible: true
 			min_required_dependencies: 1
-			rewards: [
-				{
-					auto: "no_toast"
-					command: "/gamemode survival @a[gamemode=adventure]"
-					exclude_from_claim_all: true
-					id: "0F262D08E142A308"
-					ignore_reward_blocking: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/gamerule sendCommandFeedback false"
-					exclude_from_claim_all: true
-					id: "76C17EEA65031E2A"
-					ignore_reward_blocking: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				command: "/gamemode survival @p"
+				exclude_from_claim_all: true
+				id: "0F262D08E142A308"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
 			tasks: [{
 				dimension: "blue_skies:everbright"
 				disable_toast: true
@@ -704,29 +634,6 @@
 			ignore_reward_blocking: true
 			invisible: true
 			min_required_dependencies: 1
-			rewards: [
-				{
-					auto: "no_toast"
-					command: "/gamemode survival @a[gamemode=adventure]"
-					exclude_from_claim_all: true
-					id: "63EF81910B526CE7"
-					ignore_reward_blocking: true
-					player_command: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/gamerule sendCommandFeedback false"
-					exclude_from_claim_all: true
-					id: "0F0BB0825804ED05"
-					ignore_reward_blocking: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-			]
 			tasks: [{
 				dimension: "aether:the_aether"
 				disable_toast: true
@@ -746,20 +653,19 @@
 			rewards: [
 				{
 					auto: "no_toast"
-					command: "/gamemode adventure @a[gamemode=survival]"
+					command: "/gamerule sendCommandFeedback false"
 					exclude_from_claim_all: true
-					id: "6594E0C5ED403ABC"
+					id: "27B736B6B68ECE9C"
 					ignore_reward_blocking: true
-					player_command: true
 					silent: true
 					team_reward: false
 					type: "command"
 				}
 				{
 					auto: "no_toast"
-					command: "/gamerule sendCommandFeedback false"
+					command: "/gamemode adventure @p"
 					exclude_from_claim_all: true
-					id: "27B736B6B68ECE9C"
+					id: "6032E8C54F13F18F"
 					ignore_reward_blocking: true
 					silent: true
 					team_reward: false
