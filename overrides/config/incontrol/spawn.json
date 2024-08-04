@@ -1965,5 +1965,14 @@
   {
     "mob": ["unusualfishmod:rhino_tetra"],
     "result": "deny"
+  },
+  {
+    "mob": ["alexsmobs:flutter"],
+   "biome": ["minecraft:lush_caves"],
+    "result": "allow"
+  },
+  {
+    "mob": ["alexsmobs:flutter"],
+    "result": "deny"
   }
 ]
