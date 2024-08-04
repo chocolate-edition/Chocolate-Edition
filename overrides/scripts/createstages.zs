@@ -40,44 +40,41 @@ var eyesArray = [
 ] as string[];
 
 CTEventManager.register<GameStageAdded>((event) => {
-    var count = 0;
+  var count = 0;
 	// counts the eyes lol
 	for eye in eyesArray {
 		if(event.player.hasGameStage(eye)) {count++;}
 	}
 	 
-	 if (count==16 && !event.player.hasGameStage("five")){
-   event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
-    }
-    else if (count==12 && !event.player.hasGameStage("four")){
-      event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");}
-	  
-    else if (count==9 && !event.player.hasGameStage("three")){
-     event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
-    }
-    else if (count==6 && !event.player.hasGameStage("two")){
-   event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
-    }
-    else if (count==3 && !event.player.hasGameStage("one")){
-        event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
-    }
-    else if (event.player.hasGameStage("firstcontact") && !event.player.hasGameStage("zero")){
-	    event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
-		}
+	if (count==16 && !event.player.hasGameStage("five")){
+   	event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
+  }
+	else if (count==12 && !event.player.hasGameStage("four")){
+		event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
+	}
+	else if (count==9 && !event.player.hasGameStage("three")){
+		event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
+	}
+	else if (count==6 && !event.player.hasGameStage("two")){
+		event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
+	}
+	else if (count==3 && !event.player.hasGameStage("one")){
+		event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
+	}
+	else if (event.player.hasGameStage("firstcontact") && !event.player.hasGameStage("zero")){
+		event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
+	}
 		
 
-    // separated loop from eye count bc i need the count to be completed BEFORE the command starts spitting out your eye count
-    for eye in eyesArray {
-		if(event.stage == eye)
-			if (count!=16)
-				event.player.sendMessage("§dYou have collected §b" + count + "§d of the Eyes.");
-			else
-				event.player.sendMessage("§dYou have collected §ball§d of the Eyes.");
+	// separated loop from eye count bc i need the count to be completed BEFORE the command starts spitting out your eye count
+	for eye in eyesArray {
+	if(event.stage == eye)
+		if (count!=16)
+			event.player.sendMessage("§dYou have collected §b" + count + "§d of the Eyes.");
+		else
+			event.player.sendMessage("§dYou have collected §ball§d of the Eyes.");
 	}
-}
-   
-   
-);
+});
 // shittily coded arrays and loops courtesy of yours truly guyperson1 
 
 
@@ -426,3 +423,6 @@ ItemStages.restrict(<item:iter_rpg:nightfall>, "disabled").preventInventory(fals
 
 // hide create automated shaped crafting from jei so people dont think they can make gated items using mechanical crafters
 Jei.hideCategory(<resource:create:automatic_shaped>);
+
+// allow crafting of gated items using the crafting terminal
+mods.recipestages.Recipes.setPackageStages("com.tom.storagemod", ["one","two", "three", "four", "five"]);
