@@ -422,3 +422,6 @@ DimensionStages.stageDimensionWithMessage("javd:void", "The Nexus requires 16 ey
 ItemStages.restrict(<item:unusualprehistory:encyclopedia>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
 ItemStages.restrict(<item:supplementaries:sack>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
 ItemStages.restrict(<item:iter_rpg:nightfall>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
+
+// hide create automated shaped crafting from jei so people dont think they can make gated items using mechanical crafters
+Jei.hideCategory(<resource:create:automatic_shaped>);
