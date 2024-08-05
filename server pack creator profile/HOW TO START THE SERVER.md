@@ -23,7 +23,7 @@ then you can start the server by running start.ps1 with powershell. (right click
 
 the first time the server starts you will be prompted to accept the EULA. afterwards you should see the server logs as the server starts up.
 
-if you have any problems dont hesitate to ask us in our discord server! https://discord.gg/a9Ht2PWb
+if you have any problems dont hesitate to ask us in our discord server! https://discord.gg/chocolate-edition-minecraft-945364406609514517
 
 ## to specify which java runtime to use
 
