@@ -6,6 +6,452 @@
 	group: "124DA5EC6A42A11D"
 	icon: "minecraft:barrier"
 	id: "2C7D4E108CF721D5"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "unusualfishmod:textures/entity/abyssalblast/abyssal_blast_default.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.25d
+			y: 15.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.25d
+			y: 15.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:textures/mob_effect/abyssal_curse.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.0d
+			y: 15.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:textures/mob_effect/monstrous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: 15.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:item/chain_of_soul_binding"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.25d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/dimensional_rift_idle3.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 23.75d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 11.5d
+			y: 18.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:block/void_lantern_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.25d
+			y: 18.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:textures/mob_effect/curse_of_desert.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.0d
+			y: 18.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:textures/particle/trap_flame_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.25d
+			y: 18.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:textures/particle/shock_wave.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 18.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:item/burning_ashes"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.25d
+			y: 18.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/leviathan/portal/abyss_portal_grow_6.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 16.25d
+			y: 21.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:textures/items/abyssal_fruit.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: 21.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/leviathan/abyss_orb.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.5d
+			y: 21.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/leviathan/portal/abyss_portal_idle_3.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 23.5d
+			y: 21.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/aquaflora_bash/aquaflora_bash3.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 15.25d
+			y: 11.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/aquaflora_flower/aquaflora_flower4.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.0d
+			y: 22.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/rainfall_rain.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 19.25d
+			y: 23.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/aquaflora_pierce_start/aquaflora_pierce_start3.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 14.5d
+			y: 27.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/breezebreaker_dash/breezebreaker_dash2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 20.25d
+			y: 29.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/poltergeist_retreat.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.25d
+			y: 23.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/particle/breezebroken.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 29.25d
+			y: 26.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/particle/rainfall_energy.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.25d
+			y: 28.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/rainfall_vanish.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: 30.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/breezebreaker_wheel/breezebreaker_wheel3.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 26.5d
+			y: 25.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/poltergeist_ward_ground.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.75d
+			y: 23.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/crescentia_strike.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 34.25d
+			y: 26.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/poltergeist_impact_crack.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 35.75d
+			y: 20.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/solaris_spin.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.5d
+			y: 19.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/solaris_spin_soul.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.5d
+			y: 19.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/rainfall_shoot/rainfall_shoot2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.75d
+			y: 20.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/poltergeist_retreat.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.75d
+			y: 21.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/aquaflora_bash/aquaflora_bash6.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 33.25d
+			y: 29.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "celestisynth:textures/particle/rainfall_beam.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.25d
+			y: 30.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "celestisynth:textures/particle/rainfall_beam_quasar.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 33.25d
+			y: 31.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -2038,6 +2484,1256 @@
 			}]
 			x: -4.5d
 			y: 9.5d
+		}
+		{
+			id: "7797F3D6B8EC70CF"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "witherstormmod:withered_symbiont_spawn_egg"
+				}
+				id: "5E8B932E48A5E3B1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "withersstormmod:wither_storm"
+				type: "observation"
+			}]
+			x: 6.25d
+			y: -0.75d
+		}
+		{
+			can_repeat: true
+			id: "29DAC3C2DDCAAB2D"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @e[type=aether:valkyrie_queen] run summon aether:whirlwind ~-10 ~ ~"
+					exclude_from_claim_all: true
+					id: "6C01E7076D923C05"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @e[type=aether:valkyrie_queen] run summon aether:whirlwind ~10 ~ ~"
+					exclude_from_claim_all: true
+					id: "3366184E8AA5535C"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @e[type=aether:valkyrie_queen] run summon aether:whirlwind ~ ~ ~10"
+					exclude_from_claim_all: true
+					id: "5D58C7E1420E4028"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @e[type=aether:valkyrie_queen] run summon aether:whirlwind ~ ~ ~-10"
+					exclude_from_claim_all: true
+					id: "30E9375E1B6AED45"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @e[type=aether:valkyrie_queen] run summon aether:whirlwind ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "45C79053F84C3127"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "3FC0D59C7F5F94CC"
+				type: "dimension"
+			}]
+			title: "valk queen"
+			x: 6.75d
+			y: 3.75d
+		}
+		{
+			id: "0F84C3EE60B1F009"
+			rewards: [{
+				auto: "no_toast"
+				command: "/summon aether:valkyrie_queen ~ ~ ~ {FallFlying:1b,ActiveEffects:[{Id:8,Duration:1000000,Amplifier:5,ShowParticles:0b}],ArmorItems:[{},{},{id:elytra,Count:1}],Attributes:[{Name:\"generic.movement_speed\",Base:1f}],ArmorDropChances:[0f,0f,0f]}"
+				exclude_from_claim_all: true
+				id: "7545A562150BAA74"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "3DFBA402C00272E0"
+				type: "custom"
+			}]
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			id: "2761F3527C2BC753"
+			rewards: [{
+				command: "/summon aether:cloud_crystal ~ ~-4 ~ {Rotation:[-1f],Motion:[0d,-1d]}"
+				id: "59F9E74394397BE4"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7ED6441EC4F9BD8B"
+				type: "custom"
+			}]
+			title: "slider"
+			x: 6.75d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			id: "73E9E5EC3BAF7234"
+			ignore_reward_blocking: true
+			rewards: [{
+				id: "2DB11253C49715F1"
+				table_id: 1078137474486793183L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "119026F38F7DBC97"
+				type: "dimension"
+			}]
+			x: 7.75d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			id: "03D3EEBE9589719B"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @e[type=aether:fire_crystal] run summon supplementaries:bomb ~ ~ ~ {touchedGround:0b, Air:300s, Timer:1, Type:0, HasBeenShot:1b, Active:1b}"
+					exclude_from_claim_all: true
+					id: "69BA24DE7E850A73"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "0243FE17F2E91F8D"
+					table_id: 3198328209093618317L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @e[type=aether:sun_spirit,nbt={BossFight: 1b}] run summon aether:evil_whirlwind"
+					exclude_from_claim_all: true
+					id: "44FE01E96A0874A8"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "0160BEB459090344"
+				type: "dimension"
+			}]
+			title: "sunspirit"
+			x: 6.75d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			id: "5B584CE502BC9124"
+			rewards: [{
+				auto: "no_toast"
+				command: "/execute at @a in blue_skies:everbright run particle endermanoverhaul:snow ~ ~1 ~ 10 5 10 2 200 normal"
+				exclude_from_claim_all: true
+				id: "0E40C703C19CEC37"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "54FD6BC16EFF0D1F"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: 6.75d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "5A95184C0369C9C0"
+			rewards: [{
+				auto: "no_toast"
+				command: "/blue_skies weather clear"
+				exclude_from_claim_all: true
+				id: "5CEC6BE6B573CAD3"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				biome: "blue_skies:calming_skies"
+				id: "2102A734053FEC09"
+				type: "biome"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "71205726B9342781"
+			rewards: [{
+				auto: "no_toast"
+				command: "/execute at @a in blue_skies:everdawn run particle blue_skies:star_glimmer ~ ~1 ~ 10 5 10 2 50 normal"
+				exclude_from_claim_all: true
+				id: "0C245B6219076E3F"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "54D662D096636C13"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: 8.25d
+			y: -0.25d
+		}
+		{
+			can_repeat: true
+			id: "6FB30BCA8CBF9926"
+			rewards: [{
+				auto: "no_toast"
+				command: "/execute at @a in minecraft:overworld run particle bosses_of_mass_destruction:disappearing_swirl ~ ~1 ~ 10 5 10 0.001 200 normal"
+				exclude_from_claim_all: true
+				id: "79A5D7C2BF88F5B5"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				biome: "minecraft:meadow"
+				id: "15214EEB3D7B46D7"
+				type: "biome"
+			}]
+			x: 10.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "236302DFCFD350F4"
+			tasks: [{
+				id: "15C9DD20CB9D321F"
+				type: "custom"
+			}]
+			title: "Random 5"
+			x: -1.0d
+			y: 14.75d
+		}
+		{
+			icon: "waystones:bound_scroll"
+			id: "571FCE18A458502D"
+			rewards: [{
+				auto: "no_toast"
+				id: "0241D45BB325AF71"
+				ignore_reward_blocking: true
+				table_id: 3968136448728763440L
+				team_reward: false
+				type: "random"
+			}]
+			tasks: [{
+				id: "005D01E0FC73E9BB"
+				type: "checkmark"
+			}]
+			title: "Random Bounty"
+			x: -2.5d
+			y: 14.75d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/mob_effect/hero_of_the_village.png"
+				}
+			}
+			id: "324CB092DAFA6EEF"
+			title: "Village Inhabitants"
+			x: 5.25d
+			y: 8.25d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enigmaticlegacy:abyssal_heart"
+			}
+			id: "01BDAB2EA3BD299D"
+			title: "Gatekeepers"
+			x: 9.0d
+			y: 8.25d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "unusualend:void_totem"
+			}
+			id: "65F7658994B743A0"
+			title: "Travelers"
+			x: 12.0d
+			y: 8.25d
+		}
+		{
+			id: "5E6AC963D0906419"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "etched:portal_radio"
+				}
+				id: "65281C966E10172B"
+				title: "Nexus Mind"
+				type: "custom"
+			}]
+			x: 14.75d
+			y: 8.25d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "51CCAD32DCC5CE2E"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @p run effect give @e[type=easy_npc:humanoid,distance=16..32] minecraft:glowing 6 1 true"
+					exclude_from_claim_all: true
+					id: "00FE820D42D02C06"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run effect give @e[type=easy_npc:villager,distance=16..32] minecraft:glowing 6 1 true"
+					exclude_from_claim_all: true
+					id: "56FA70953E697143"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run effect give @e[type=easy_npc:zombie_villager,distance=16..32] minecraft:glowing 6 1 true"
+					exclude_from_claim_all: true
+					id: "461CAEAF34F4AEED"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run effect give @e[type=easy_npc:allay,distance=16..32] minecraft:glowing 6 1 true"
+					exclude_from_claim_all: true
+					id: "0F82C3DEEF912D06"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "7424D6A7AE552C91"
+				type: "dimension"
+			}]
+			x: 20.5d
+			y: 6.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["571FCE18A458502D"]
+			id: "2D7A22174F1D6ABD"
+			tasks: [{
+				id: "3EAABC512B242405"
+				type: "custom"
+			}]
+			title: "Random 1"
+			x: -2.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "7340D8E515D60613"
+			tasks: [{
+				id: "16F3F8045254ED23"
+				type: "custom"
+			}]
+			title: "Random 12"
+			x: -4.25d
+			y: 14.5d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "7938AC2F93A13272"
+			tasks: [{
+				id: "64BBF0652F191C33"
+				type: "custom"
+			}]
+			title: "Random 8"
+			x: -2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "2AAFDE97A04F48C1"
+			tasks: [{
+				id: "3792506572AD9818"
+				type: "custom"
+			}]
+			title: "Random 6"
+			x: -1.25d
+			y: 16.0d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "472CD245CFE2E40F"
+			tasks: [{
+				id: "2883DBDBC7313D45"
+				type: "custom"
+			}]
+			title: "Random 10"
+			x: -3.75d
+			y: 15.75d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "3393C0B63781AC5D"
+			tasks: [{
+				id: "7E0193F2FA6359EF"
+				type: "custom"
+			}]
+			title: "Random 14"
+			x: -3.75d
+			y: 13.5d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "75B579BDEDB8F2EE"
+			tasks: [{
+				id: "6731F8163D0E3EA5"
+				type: "custom"
+			}]
+			title: "Random 3"
+			x: -1.5d
+			y: 13.25d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "7D3D83E5AB4A3ADE"
+			tasks: [{
+				id: "58708CE932EF700B"
+				type: "custom"
+			}]
+			title: "Random 4"
+			x: -0.25d
+			y: 13.5d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "11A69E92EC441473"
+			tasks: [{
+				id: "2A5B91B26765B922"
+				type: "custom"
+			}]
+			title: "Random 2"
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "38C2043957F8BF6F"
+			tasks: [{
+				id: "78E73BD198D9AEBF"
+				type: "custom"
+			}]
+			title: "Random 15"
+			x: -3.75d
+			y: 12.25d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "0D708861AA8A16E8"
+			tasks: [{
+				id: "3136A7F36FAF17EE"
+				type: "custom"
+			}]
+			title: "Random 13"
+			x: -5.25d
+			y: 13.5d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "41017B6A9095AF31"
+			tasks: [{
+				id: "0B4DD9284DFBA8A2"
+				type: "custom"
+			}]
+			title: "Random 11"
+			x: -5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "7AA96F20C013CAEB"
+			tasks: [{
+				id: "3720351FF5BB65EA"
+				type: "custom"
+			}]
+			title: "Random 9"
+			x: -3.75d
+			y: 17.0d
+		}
+		{
+			dependencies: ["571FCE18A458502D"]
+			id: "30AB5CF454331005"
+			tasks: [{
+				id: "6D71FDD98D8062FD"
+				type: "custom"
+			}]
+			title: "Random 7"
+			x: -1.5d
+			y: 17.25d
+		}
+		{
+			disable_toast: true
+			id: "5CCF8440073CE724"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 571FCE18A458502D"
+					exclude_from_claim_all: true
+					id: "09114EE0F807990A"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 38C2043957F8BF6F"
+					exclude_from_claim_all: true
+					id: "747DA5ABDE7C837D"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 3393C0B63781AC5D"
+					exclude_from_claim_all: true
+					id: "287202E2EBA92081"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 0D708861AA8A16E8"
+					exclude_from_claim_all: true
+					id: "380506B1AB2C95FC"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 7340D8E515D60613"
+					exclude_from_claim_all: true
+					id: "0E05DA906A4B3276"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 41017B6A9095AF31"
+					exclude_from_claim_all: true
+					id: "360CBBC67907BF45"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 472CD245CFE2E40F"
+					exclude_from_claim_all: true
+					id: "5EA4965CEDC46324"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 7AA96F20C013CAEB"
+					exclude_from_claim_all: true
+					id: "536E5D7F55D375E1"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 7938AC2F93A13272"
+					exclude_from_claim_all: true
+					id: "47A2928E30ADF731"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 30AB5CF454331005"
+					exclude_from_claim_all: true
+					id: "74F1CA253BE9E9BD"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 2AAFDE97A04F48C1"
+					exclude_from_claim_all: true
+					id: "407CD595AFA24A0F"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 236302DFCFD350F4"
+					exclude_from_claim_all: true
+					id: "4DA9982A55337911"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 7D3D83E5AB4A3ADE"
+					exclude_from_claim_all: true
+					id: "2D4E07E1378E5172"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 75B579BDEDB8F2EE"
+					exclude_from_claim_all: true
+					id: "7038A8E7C1AFE063"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 11A69E92EC441473"
+					exclude_from_claim_all: true
+					id: "6A4249BB4D2D4F2C"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 2D7A22174F1D6ABD"
+					exclude_from_claim_all: true
+					id: "28302298A6EEA936"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "2A3D2FD12605433D"
+					ignore_reward_blocking: true
+					table_id: 3968136448728763440L
+					team_reward: false
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/ftbquests change_progress @p complete 5BE8786CBB35DB22"
+					exclude_from_claim_all: true
+					id: "215A1201D43DCDE4"
+					ignore_reward_blocking: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				disable_toast: true
+				id: "3F814B26F44F36AC"
+				title: "reset random bounty"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 14.75d
+		}
+		{
+			id: "09975DC4830CB82A"
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 5CCF8440073CE724"
+				exclude_from_claim_all: true
+				id: "1E4632D00FE94F8E"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:return_scroll"
+				}
+				id: "168865EC36E047CE"
+				stat: "minecraft:walk_one_cm"
+				title: "first random bounty"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:grass_block"
+			}
+			id: "7F9EF50C41E333E1"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 0470F8E5A08FC778"
+					exclude_from_claim_all: true
+					id: "41F7303455B8C414"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 3C16B1E6A43171A0"
+					exclude_from_claim_all: true
+					id: "2EAAD80C96CE2181"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 37C900EF180B8EE4"
+					exclude_from_claim_all: true
+					id: "30091A7CF3F35A89"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 57322159ECCB54A6"
+					exclude_from_claim_all: true
+					id: "2B2499A35B3FBD10"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 75B29FC232CC6EB7"
+					exclude_from_claim_all: true
+					id: "065DB13427C4469C"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 76E53B21B79E65A5"
+					exclude_from_claim_all: true
+					id: "45B3273519E72AD2"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 20DFE61EEA2972A3"
+					exclude_from_claim_all: true
+					id: "0A9EE0D6125C4218"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 52E8716454715B96"
+					exclude_from_claim_all: true
+					id: "033ED90C1591BF13"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 33DF9D5F82EE5D56"
+					exclude_from_claim_all: true
+					id: "3B3A89F5BBC168F2"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 5D69AF835E92425C"
+					exclude_from_claim_all: true
+					id: "1A7D415418E3C793"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 748F1B0F729214F0"
+					exclude_from_claim_all: true
+					id: "237201B62D301413"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 4BA5B6C6BAC6E49B"
+					exclude_from_claim_all: true
+					id: "2C1243E4CAB24BCE"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 36D736E2DC8743B3"
+					exclude_from_claim_all: true
+					id: "12509F560C20EC49"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 6D76B368838D01CA"
+					exclude_from_claim_all: true
+					id: "280EE3DC2735A549"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "392CEAD56FE30CA1"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 13.75d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "163F947AFF99962A"
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					exclude_from_claim_all: true
+					id: "3572D2537EA7FBDC"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run gamemode adventure @a[distance=..1,gamemode=survival]"
+					exclude_from_claim_all: true
+					id: "25CA20AA8E579BB3"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				disable_toast: true
+				id: "20209D1BA2CB64DF"
+				structure: "chocolate:white_palace"
+				type: "structure"
+			}]
+			x: 26.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "4496BD04C0766FD8"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @p run gamemode survival @a[distance=..1,gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "62033341CE0BBCD0"
+					ignore_reward_blocking: true
+					player_command: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback true"
+					exclude_from_claim_all: true
+					id: "58833B1460E046CC"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				disable_toast: true
+				id: "103110A690820982"
+				type: "dimension"
+			}]
+			x: 29.5d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "06B65899FDE4D8B1"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @p run gamemode survival @a[distance=..1,gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "6C8D0DBF625639EC"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback true"
+					exclude_from_claim_all: true
+					id: "7A18A415A956869E"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				disable_toast: true
+				id: "18C8816DC04AC2CF"
+				type: "dimension"
+			}]
+			x: 29.75d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "4F886D2655612EEB"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback true"
+					exclude_from_claim_all: true
+					id: "5E689D5BA9383BA4"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run gamemode survival @a[distance=..1,gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "07C35A49790C9F4E"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "117EE276EF8C858A"
+				type: "dimension"
+			}]
+			x: 30.0d
+			y: 8.75d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "2F17885A8FC1B3B9"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @p run gamemode survival @a[distance=..1,gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "330BF831F92F967C"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback true"
+					exclude_from_claim_all: true
+					id: "43EA996D5BE879DE"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				id: "641C9DCF0F718EB5"
+				type: "dimension"
+			}]
+			x: 29.5d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "45EED369E7857FAE"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @p run gamemode survival @a[distance=..1,gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "0F262D08E142A308"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback true"
+					exclude_from_claim_all: true
+					id: "48C5F1654428ECB7"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				disable_toast: true
+				id: "6BF466A8B7D799C4"
+				type: "dimension"
+			}]
+			x: 29.25d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "6BA5BDE711CAE4D4"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @p run gamemode survival @a[distance=..1,gamemode=adventure]"
+					exclude_from_claim_all: true
+					id: "31DF30E5BFC5F74C"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback true"
+					exclude_from_claim_all: true
+					id: "4CE4050FED62F190"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "aether:the_aether"
+				disable_toast: true
+				id: "6B347E88F00981BB"
+				type: "dimension"
+			}]
+			x: 30.0d
+			y: 10.25d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "12B4402727BF4281"
+			ignore_reward_blocking: true
+			invisible: true
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					exclude_from_claim_all: true
+					id: "27B736B6B68ECE9C"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run gamemode adventure @a[distance=..1,gamemode=survival]"
+					exclude_from_claim_all: true
+					id: "6032E8C54F13F18F"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				disable_toast: true
+				id: "6E8BF6E805CA1DCC"
+				structure: "chocolate:shaded_citadel"
+				type: "structure"
+			}]
+			x: 28.0d
+			y: 4.75d
 		}
 	]
 	title: "Flags"

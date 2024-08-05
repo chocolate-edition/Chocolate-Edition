@@ -4,6 +4,7 @@
 	disable_toast: true
 	filename: "useful_items"
 	group: "75DA3C44FB5FAC43"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
 		id: "ftbquests:custom_icon"
@@ -12,7 +13,7 @@
 		}
 	}
 	id: "66BE6EBB8A2404EE"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

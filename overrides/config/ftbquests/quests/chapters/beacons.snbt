@@ -1,0 +1,41 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beacons"
+	group: "6753AA6B545E8D27"
+	icon: "minecraft:beacon"
+	id: "5CA3099085337EEA"
+	order_index: 18
+	quest_links: [ ]
+	quests: [{
+		id: "0CFCEA3CCDC0D4D7"
+		tasks: [
+			{
+				id: "322F4DD725E92E66"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:beacon"
+				}
+				type: "item"
+			}
+			{
+				id: "1606CFA773F61C68"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:conduit"
+				}
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&l - Beacons"
+}

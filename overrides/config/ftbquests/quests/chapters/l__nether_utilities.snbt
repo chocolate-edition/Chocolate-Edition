@@ -1,0 +1,46 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l__nether_utilities"
+	group: "6753AA6B545E8D27"
+	icon: "minecraft:smithing_table"
+	id: "459F89ADE5324D18"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			id: "155395250BD36DC7"
+			tasks: [{
+				id: "6ED9E76D3DB8866A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:smithing_table"
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.25d
+		}
+		{
+			id: "2DEBCB2B84B58926"
+			tasks: [{
+				id: "58851E173CD6DB5C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nourished_nether:soul_forge"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.25d
+		}
+	]
+	title: "&l - Nether Utilities"
+}
