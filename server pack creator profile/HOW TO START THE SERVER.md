@@ -1,14 +1,17 @@
 # INSTRUCTIONS
 
 ## for use with a hosting service
+
 some server hosts dont allow you to specify a start script, or automatically download the client pack for you to use. if this is the case, you can set up the server as the host intends, but replace the config, defaultconfigs, mods, and scripts folder with those found in this server pack.
 
 ## for unix (linux or mac)
+
 simply run start.sh using bash or make your hosted server start script be
 
 bash start.sh
 
 ## for windows
+
 you will need to enable running powershell scripts from unknown sources. keep in mind this will allow any powershell script downloaded from the internet to be run, so be careful if downloading anything sketchy.
 
 1. Start Windows PowerShell with the "Run as Administrator" option (windows key > search powershell > run as administrator). Only members of the Administrators group on the computer can change the execution policy.
@@ -36,7 +39,15 @@ if you try starting it and get an error, where at the top it says it cannot pars
 
 if it says "unexpected escape character \P", then try replacing all \ in your path with /
 
-## to upgrade from a previous version:
+if you get a warning or error about having spaces in your server folder path, make sure there are no spaces in any part of the path to the server folder.
+
+for example
+"C:\users\user\desktop\chocolate edition server"
+should instead be
+"C:\users\user\desktop\chocolate_edition_server"
+
+## to upgrade from a previous version
+
 you will need to **fully replace** config, defaultconfig, mods, and scripts. this means either deleting them from your current server and dragging in the new ones, or copy everything else from the old server into the new pack.
 
 simply copying the folders either direction will not work as this may leave remnants of files that should no longer exist.
