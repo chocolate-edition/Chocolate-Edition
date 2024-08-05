@@ -3650,7 +3650,7 @@
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
-			description: ["This item can be obtained by killing &cSoul Vultures&r, which spawns in the Soul Sand Valley. &eSoul Hearts&r can only be obtained onbce a &cSoul Vulture&r has sucked the soul from its victium five times."]
+			description: ["This item can be obtained by killing &cSoul Vultures&r, which spawns in the Soul Sand Valley. &eSoul Hearts&r can only be obtained onbce a &cSoul Vulture&r has sucked the soul from its victium five times. they must be damaged for the soul steal to happen. the soul heart has a 20% drop rate."]
 			id: "67DE26F4537FDCC7"
 			subtitle: "Dropped by Soul Vultures"
 			tasks: [{
@@ -4965,7 +4965,7 @@
 			description: [
 				"This item can be obtained by exploring The Nether, specifically in Basal Delta biomes"
 				""
-				"&eCoffee Beans&r can be planted on Basalt and will growing to Coffee Trees, supplying you with &eCoffee Berries&r"
+				"&eCoffee Beans&r can be planted on Basalt surrounded by crops and will grow into Coffee Trees, supplying you with &eCoffee Berries&r"
 			]
 			id: "5EE47CB5195BF503"
 			rewards: [

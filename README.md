@@ -17,6 +17,7 @@ Available on CurseForge at https://legacy.curseforge.com/minecraft/modpacks/mc-c
 
 ### for a better github notification experience without having your email spammed, try [notifier for github extension](https://github.com/sindresorhus/notifier-for-github)
 
+update schedule working document: https://docs.google.com/document/d/15oeWpq6uOxQ9vquVVf1IKi3XBqOKdQXLizz0_1SwWns/edit
 
 # Contribution guide:
 

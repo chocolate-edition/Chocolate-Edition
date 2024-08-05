@@ -2797,5 +2797,23 @@
       "norestrictions": true
 
     }
+  },
+  {
+    "mob": "alexsmobs:flutter",
+    "persecond": 0.5,
+    "attempts": 5,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5
+    },
+    "conditions": {
+      "maxlocal": 3,
+      "dimension": ["minecraft:overworld"],
+      "mindist": 20,
+      "maxdist": 80,
+      "minheight": -60,
+      "maxheight": 60
+
+    }
   }
 ]

@@ -4328,17 +4328,6 @@
 					type: "item"
 				}
 				{
-					id: "03A3D2BE90F523C1"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:lucky_rock"
-					}
-					type: "item"
-				}
-				{
 					id: "746DC3313E1B4F1F"
 					item: {
 						Count: 1b
@@ -5010,6 +4999,7 @@
 		}
 		{
 			dependencies: ["6DFDB0FD9B6DD670"]
+			description: ["the earth piercer and stone cutter can be crafted by either finding the special materials in large forged containers, or by upgrading a sword or shovel in front of an intact ancient schematic inside a tetra ruin"]
 			disable_toast: true
 			id: "7A1E9A456B5D4316"
 			rewards: [
@@ -5124,7 +5114,12 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "tetra:stonecutter"
+						id: "tetra:modular_sword"
+						tag: {
+							Damage: 0
+							"sword/blade": "sword/stonecutter"
+							"sword/stonecutter_material": "stonecutter/stonecutter"
+						}
 					}
 					type: "item"
 				}
@@ -5135,7 +5130,12 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "tetra:earthpiercer"
+						id: "tetra:modular_single"
+						tag: {
+							Damage: 0
+							"single/earthpiercer_material": "earthpiercer/earthpiercer"
+							"single/head": "single/earthpiercer"
+						}
 					}
 					type: "item"
 				}
@@ -5270,6 +5270,35 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "tetra:forged_bolt"
+					}
+					type: "item"
+				}
+				{
+					id: "627D85EE4D976DE8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										5
+										10
+										13
+										2
+									]
+									intricate: 0b
+									key: "sword/katana/katana_blade"
+									material: 2
+									ribbon: "dbff10"
+									schematics: ["tetra:sword/katana/katana_blade"]
+								}]
+							}
+						}
 					}
 					type: "item"
 				}
@@ -5849,7 +5878,7 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "epicsamurai:silver_ingot"
+						id: "galosphere:silver_ingot"
 					}
 					type: "item"
 				}
@@ -12359,7 +12388,7 @@
 					type: "item"
 				}
 				{
-					id: "7E4F26D61480AA55"
+					id: "0811D144BE70E7BB"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -12369,27 +12398,39 @@
 						tag: {
 							AttributeModifiers: [
 								{
-									Amount: 0.5d
-									AttributeName: "generic.armor"
-									Name: "generic.armor"
+									Amount: 1
+									AttributeName: "generic.armor_toughness"
+									Name: "1722710393178"
 									Slot: "mainhand"
 									UUID: [I;
-										-124518
-										16554
-										212051
-										-33108
+										-12473
+										18960
+										20033
+										-37920
 									]
 								}
 								{
-									Amount: 0.5d
-									AttributeName: "generic.knockback_resistance"
-									Name: "generic.knockback_resistance"
+									Amount: 1
+									AttributeName: "generic.armor"
+									Name: "1722710393178"
 									Slot: "mainhand"
 									UUID: [I;
-										-124518
-										16854
-										212051
-										-33708
+										-12473
+										19260
+										20033
+										-38520
+									]
+								}
+								{
+									Amount: -3.1d
+									AttributeName: "generic.attack_speed"
+									Name: "1722710393178"
+									Slot: "mainhand"
+									UUID: [I;
+										-12473
+										19560
+										20033
+										-39120
 									]
 								}
 							]
@@ -12414,8 +12455,8 @@
 							]
 							HideFlags: 2
 							display: {
-								Lore: ["[\"\",{\"text\":\"Made from \",\"italic\":false,\"color\":\"#6666ff\"},{\"text\":\"STRONK\",\"italic\":false,\"color\":\"#6666ff\",\"bold\":true},{\"text\":\" Beetles\",\"italic\":false,\"color\":\"#6666ff\"}]"]
-								Name: "[\"\",{\"text\":\"a\",\"italic\":false,\"color\":\"#ff0000\",\"obfuscated\":true},{\"italic\":false,\"text\":\" \"},{\"italic\":false,\"text\":\"Da Beeg Beetle\",\"color\":\"#6699ff\"},{\"italic\":false,\"text\":\" \"},{\"italic\":false,\"text\":\"a\",\"color\":\"#ff0000\",\"obfuscated\":true}]"
+								Lore: ["[\"\",{\"text\":\"Made from \",\"italic\":false,\"color\":\"#6699ff\"},{\"text\":\"STRONK\",\"italic\":false,\"color\":\"#6666ff\"},{\"text\":\" Beetles\",\"italic\":false,\"color\":\"#6699ff\"}]"]
+								Name: "[\"\",{\"text\":\"a\",\"italic\":false,\"color\":\"#ff0000\",\"obfuscated\":true},{\"italic\":false,\"text\":\" \"},{\"italic\":false,\"text\":\"Da Beeg Beetle\",\"color\":\"#66ccff\"},{\"italic\":false,\"text\":\" \"},{\"italic\":false,\"text\":\"a\",\"color\":\"#ff0000\",\"obfuscated\":true}]"
 							}
 						}
 					}
@@ -13072,69 +13113,6 @@
 					type: "item"
 				}
 				{
-					id: "72735CCB56FF6234"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:handmade_club"
-						tag: {
-							AttributeModifiers: [
-								{
-									Amount: -0.02d
-									AttributeName: "generic.movement_speed"
-									Name: "generic.movement_speed"
-									Slot: "mainhand"
-									UUID: [I;
-										-124518
-										54119
-										224542
-										-108238
-									]
-								}
-								{
-									Amount: 2
-									AttributeName: "generic.armor"
-									Name: "generic.armor"
-									Slot: "mainhand"
-									UUID: [I;
-										-124518
-										54419
-										224542
-										-108838
-									]
-								}
-							]
-							Damage: 0
-							Enchantments: [
-								{
-									id: "knockback"
-									lvl: 3
-								}
-								{
-									id: "mending"
-									lvl: 1
-								}
-								{
-									id: "sharpness"
-									lvl: 10
-								}
-								{
-									id: "unbreaking"
-									lvl: 5
-								}
-							]
-							HideFlags: 2
-							display: {
-								Lore: ["[\"\",{\"text\":\"JAW BREAKER\",\"italic\":false,\"color\":\"#660000\"}]"]
-								Name: "[\"\",{\"text\":\"THE HUNT\",\"italic\":false,\"color\":\"#663333\",\"bold\":true}]"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
 					count: 64
 					id: "27D95E0A99912153"
 					item: {
@@ -13166,6 +13144,81 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "unusualprehistory:cooked_mammoth"
+					}
+					type: "item"
+				}
+				{
+					id: "43CE32C6C321C6F3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualprehistory:handmade_club"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 1
+									AttributeName: "generic.armor"
+									Name: "1722710584895"
+									Slot: "mainhand"
+									UUID: [I;
+										-12473
+										40414
+										195254
+										-80828
+									]
+								}
+								{
+									Amount: 1.5d
+									AttributeName: "generic.attack_knockback"
+									Name: "1722710584895"
+									Slot: "mainhand"
+									UUID: [I;
+										-12473
+										40714
+										195254
+										-81428
+									]
+								}
+								{
+									Amount: -3.4d
+									AttributeName: "generic.attack_speed"
+									Name: "1722710584895"
+									Slot: "mainhand"
+									UUID: [I;
+										-12473
+										41014
+										195254
+										-82028
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "knockback"
+									lvl: 3
+								}
+								{
+									id: "mending"
+									lvl: 1
+								}
+								{
+									id: "sharpness"
+									lvl: 10
+								}
+								{
+									id: "unbreaking"
+									lvl: 5
+								}
+							]
+							HideFlags: 2
+							display: {
+								Lore: ["[\"\",{\"text\":\"Jaw Breaker\",\"italic\":false,\"color\":\"#ff3333\"}]"]
+								Name: "[\"\",{\"text\":\"THE HUNT\",\"italic\":false,\"color\":\"#663333\",\"bold\":true}]"
+							}
+						}
 					}
 					type: "item"
 				}
@@ -13696,36 +13749,6 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "59C7D423FA433E70"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:splash_potion"
-						tag: {
-							Potion: "parcool:poor_energy_drink"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "09CD6B3F0E91B4A0"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "minecraft:splash_potion"
-						tag: {
-							Potion: "parcool:energy_drink"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "3792DDC97729833F"
 					item: {
 						Count: 1b
@@ -13733,6 +13756,22 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "simplehats:rabbitonhead"
+					}
+					type: "item"
+				}
+				{
+					id: "5328CA0CD42CBFF8"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "0E30DC3F62C1F335"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:lucky_rock"
 					}
 					type: "item"
 				}

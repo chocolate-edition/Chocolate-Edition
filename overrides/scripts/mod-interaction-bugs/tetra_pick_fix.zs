@@ -31,7 +31,13 @@ CTEventManager.register<BlockBreakEvent>((event) => {
     return;
   }
   // early return if block isnt bugged
-  if !<tag:blocks:minecraft:mineable/pickaxe>.contains(block) {
+  if !<tag:blocks:minecraft:mineable/pickaxe>.contains(block) || block == <block:born_in_chaos_v1:infected_diamond_ore> || block == <block:born_in_chaos_v1:infected_deepslate_diamond_ore> {
+    return;
+  }
+
+  // exception for dark metal deposit
+  if block == <block:born_in_chaos_v1:dark_metal_deposit> {
+    event.getWorld().addFreshEntity(new ItemEntity(event.getWorld(), event.pos.x, event.pos.y, event.pos.z, <item:born_in_chaos_v1:pieceofdarkmetal>));
     return;
   }
   
