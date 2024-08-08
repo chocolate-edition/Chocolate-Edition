@@ -88,3 +88,6 @@
 // Used in Ooze Bottle
 <tag:items:chocolate:lizard_tail>.add(<item:naturalist:cooked_lizard_tail>);
 <tag:items:chocolate:lizard_tail>.add(<item:naturalist:lizard_tail>);
+
+//Meatball
+<tag:items:diet:proteins>.add(<item:unusualprehistory:mammoth_meatball>);
