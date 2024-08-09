@@ -1,0 +1,152 @@
+{
+	id: "3711A71376C20C30"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "random"
+	}
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 38C2043957F8BF6F"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 3393C0B63781AC5D"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 0D708861AA8A16E8"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 7340D8E515D60613"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 41017B6A9095AF31"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 472CD245CFE2E40F"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 7AA96F20C013CAEB"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 7938AC2F93A13272"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 30AB5CF454331005"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 2AAFDE97A04F48C1"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 236302DFCFD350F4"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 7D3D83E5AB4A3ADE"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 75B579BDEDB8F2EE"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 11A69E92EC441473"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/ftbquests change_progress @p complete 2D7A22174F1D6ABD"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+	]
+	title: "Random"
+}

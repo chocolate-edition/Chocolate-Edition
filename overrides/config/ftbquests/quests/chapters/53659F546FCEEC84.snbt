@@ -4,8 +4,21 @@
 	default_quest_shape: ""
 	filename: "53659F546FCEEC84"
 	group: "124DA5EC6A42A11D"
+	hide_quest_until_deps_visible: true
 	icon: "citadel:citadel_book"
 	id: "53659F546FCEEC84"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "cataclysm:textures/entity/flame_strike_sigil.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -4.5d
+		y: -12.25d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -15,7 +28,7 @@
 			id: "5B597BC0F1B671E2"
 			shape: "rsquare"
 			size: 3.0d
-			subtitle: "Documents All Dialogue/Lore Unlocks."
+			subtitle: "Documents All Dialogue Entries/Progress."
 			title: "The Story So Far..."
 			x: -4.5d
 			y: 0.48d
@@ -36,6 +49,7 @@
 			icon: "minecraft:crafting_table"
 			id: "26D1445D673CC2CA"
 			shape: "hexagon"
+			size: 2.0d
 			subtitle: "Fate"
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -80,6 +94,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 2.0d
 			subtitle: "Distress"
 			tasks: [{
 				id: "6B281289E9FB2F64"
@@ -87,8 +102,8 @@
 				type: "gamestage"
 			}]
 			title: "A distress call"
-			x: -8.25d
-			y: -0.5d
+			x: -9.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -123,6 +138,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 2.0d
 			subtitle: "Expanded"
 			tasks: [{
 				id: "6B2C0F6E45201D02"
@@ -130,8 +146,8 @@
 				type: "gamestage"
 			}]
 			title: "An expanded world"
-			x: -9.25d
-			y: -0.5d
+			x: -12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -169,6 +185,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 2.0d
 			subtitle: "Conqueror"
 			tasks: [{
 				id: "03F9422ED446F27B"
@@ -176,7 +193,7 @@
 				type: "gamestage"
 			}]
 			title: "A conqueror"
-			x: -9.75d
+			x: -13.5d
 			y: 0.5d
 		}
 		{
@@ -216,6 +233,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 2.0d
 			subtitle: "Destiny"
 			tasks: [{
 				id: "0E53C014E07F4349"
@@ -223,8 +241,8 @@
 				type: "gamestage"
 			}]
 			title: "A fortold destiny"
-			x: -9.25d
-			y: 1.5d
+			x: -11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -265,6 +283,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 2.0d
 			subtitle: "Fate"
 			tasks: [{
 				id: "02982025C2AD3A77"
@@ -272,7 +291,7 @@
 				type: "gamestage"
 			}]
 			title: "A new fate"
-			x: -8.75d
+			x: -10.5d
 			y: 0.5d
 		}
 		{
@@ -280,7 +299,8 @@
 			hide: false
 			icon: "minecraft:ender_eye"
 			id: "5B7CBE6418C5C392"
-			shape: "circle"
+			shape: "hexagon"
+			size: 2.0d
 			subtitle: "As you aquire more Eyes you will unlock more powerful gear."
 			tasks: [{
 				id: "6086327EC82C0379"
@@ -293,16 +313,16 @@
 				}
 				type: "item"
 			}]
-			title: "Stage 0"
-			x: -1.25d
-			y: 0.5d
+			title: "Overworld"
+			x: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
 				"5B7CBE6418C5C392"
 				"7930E1E5F6FA73C1"
 			]
-			hide: false
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "endrem:lost_eye"
@@ -312,21 +332,22 @@
 			}
 			id: "7E7A9B546C15BE8A"
 			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "3915236CB54BF361"
 				stage: "one"
 				type: "gamestage"
 			}]
-			title: "Stage 1"
-			x: 2.0d
-			y: 0.5d
+			title: "Nether"
+			x: 2.25d
+			y: -8.25d
 		}
 		{
 			dependencies: [
 				"7E7A9B546C15BE8A"
 				"08B75FB792CB7704"
 			]
-			hide: false
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "endrem:evil_eye"
@@ -335,21 +356,23 @@
 				}
 			}
 			id: "318AC3A4B80FAB8E"
-			shape: "octagon"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "6B5A13683BA15048"
 				stage: "two"
 				type: "gamestage"
 			}]
-			title: "Stage 2"
-			x: 7.75d
-			y: 0.5d
+			title: "Evertwined"
+			x: -11.5d
+			y: -8.25d
 		}
 		{
 			dependencies: [
 				"318AC3A4B80FAB8E"
 				"301C5436C1E55DAD"
 			]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "endrem:rogue_eye"
@@ -358,21 +381,23 @@
 				}
 			}
 			id: "33B00255BDE26589"
-			shape: "hexagon"
+			shape: "octagon"
+			size: 2.0d
 			tasks: [{
 				id: "47235F0AC8754791"
 				stage: "three"
 				type: "gamestage"
 			}]
-			title: "Stage 3"
-			x: 13.5d
-			y: 0.5d
+			title: "Aether"
+			x: 2.25d
+			y: -15.25d
 		}
 		{
 			dependencies: [
 				"33B00255BDE26589"
 				"422EFAD138D3A1DB"
 			]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "endrem:cursed_eye"
@@ -382,20 +407,23 @@
 			}
 			id: "51E899661EDC06BD"
 			shape: "octagon"
+			size: 2.0d
 			tasks: [{
 				id: "2B02B19520F2320F"
 				stage: "four"
 				type: "gamestage"
 			}]
-			title: "Stage 4"
-			x: 13.5d
-			y: -7.5d
+			title: "End"
+			x: -11.5d
+			y: -15.25d
 		}
 		{
 			dependencies: [
 				"51E899661EDC06BD"
 				"48602E78DFC281AF"
 			]
+			hide: true
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "endrem:nether_eye"
@@ -405,20 +433,19 @@
 			}
 			id: "766544EE45C62981"
 			shape: "octagon"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				id: "7012EA83FCC08940"
 				stage: "five"
 				type: "gamestage"
 			}]
-			title: "Stage 5"
-			x: 7.75d
-			y: -7.5d
+			title: "Nexus"
+			x: -4.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["7E7A9B546C15BE8A"]
 			description: ["On servers/LAN this applies to every player"]
-			hide: false
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -435,12 +462,11 @@
 				type: "dimension"
 			}]
 			title: "The Nether"
-			x: 3.5d
-			y: -0.5d
+			x: 3.75d
+			y: -9.25d
 		}
 		{
 			dependencies: ["7E7A9B546C15BE8A"]
-			hide: false
 			icon: "aquaculture:neptunium_ingot"
 			id: "20CD4D828F833E56"
 			optional: true
@@ -457,12 +483,11 @@
 				type: "item"
 			}]
 			title: "Neptunium Gear"
-			x: 0.5d
-			y: -0.5d
+			x: 0.75d
+			y: -9.25d
 		}
 		{
 			dependencies: ["7E7A9B546C15BE8A"]
-			hide: false
 			icon: "toms_storage:ts.storage_terminal"
 			id: "4DD63443C58D3C4D"
 			optional: true
@@ -479,12 +504,11 @@
 				type: "item"
 			}]
 			title: "Tom's Simple Storage"
-			x: 3.5d
-			y: 1.5d
+			x: 3.75d
+			y: -7.25d
 		}
 		{
 			dependencies: ["318AC3A4B80FAB8E"]
-			hide: false
 			icon: {
 				Count: 1b
 				id: "wstweaks:blaze_blade"
@@ -528,12 +552,11 @@
 				}
 			]
 			title: "The Immolation Blades"
-			x: 9.5d
-			y: 1.25d
+			x: -9.75d
+			y: -7.5d
 		}
 		{
 			dependencies: ["318AC3A4B80FAB8E"]
-			hide: false
 			icon: "minecraft:wither_skeleton_skull"
 			id: "15F2D8BAFA731EBC"
 			optional: true
@@ -564,12 +587,11 @@
 				}
 			]
 			title: "Summoning The Wither"
-			x: 8.5d
-			y: 2.25d
+			x: -10.75d
+			y: -6.5d
 		}
 		{
 			dependencies: ["318AC3A4B80FAB8E"]
-			hide: false
 			icon: "minecraft:netherite_ingot"
 			id: "11B8AA6D97B89961"
 			optional: true
@@ -587,13 +609,12 @@
 				type: "item"
 			}]
 			title: "Netherite Gear"
-			x: 8.5d
-			y: -1.25d
+			x: -10.75d
+			y: -10.0d
 		}
 		{
 			dependencies: ["318AC3A4B80FAB8E"]
 			description: ["On servers/LAN this applies to every player"]
-			hide: false
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -619,8 +640,8 @@
 				}
 			]
 			title: "The Blue Skies"
-			x: 7.0d
-			y: -1.25d
+			x: -12.25d
+			y: -10.0d
 		}
 		{
 			dependencies: ["318AC3A4B80FAB8E"]
@@ -630,7 +651,6 @@
 				"&5Blossoming Mind (Rosalyne)"
 				"&bSpectres Grasp (Bellringer)"
 			]
-			hide: false
 			icon: "meetyourfight:mossy_tooth"
 			id: "38DE652401E40BA8"
 			optional: true
@@ -684,12 +704,11 @@
 				}
 			]
 			title: "Basic Boss Trinkets"
-			x: 7.0d
-			y: 2.25d
+			x: -12.25d
+			y: -6.5d
 		}
 		{
 			dependencies: ["318AC3A4B80FAB8E"]
-			hide: false
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -705,8 +724,8 @@
 				title: "Expert Mode"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: -0.25d
+			x: -13.25d
+			y: -9.0d
 		}
 		{
 			dependencies: ["33B00255BDE26589"]
@@ -772,8 +791,8 @@
 				}
 			]
 			title: "Dark Metal Gear"
-			x: 14.25d
-			y: -0.75d
+			x: 3.25d
+			y: -16.75d
 		}
 		{
 			dependencies: ["33B00255BDE26589"]
@@ -792,8 +811,8 @@
 				type: "item"
 			}]
 			title: "Disenchanting"
-			x: 12.75d
-			y: -0.75d
+			x: 1.25d
+			y: -16.75d
 		}
 		{
 			dependencies: ["33B00255BDE26589"]
@@ -907,12 +926,11 @@
 				}
 			]
 			title: "Tetra Schematics"
-			x: 14.25d
-			y: 1.75d
+			x: 3.25d
+			y: -13.75d
 		}
 		{
 			dependencies: ["318AC3A4B80FAB8E"]
-			hide: false
 			icon: "create:mechanical_drill"
 			id: "4456FB6F2CF773D2"
 			optional: true
@@ -997,8 +1015,8 @@
 				}
 			]
 			title: "Automation Blocks"
-			x: 6.0d
-			y: 1.25d
+			x: -13.25d
+			y: -7.5d
 		}
 		{
 			dependencies: ["33B00255BDE26589"]
@@ -1017,8 +1035,8 @@
 				type: "item"
 			}]
 			title: "Wireless Redstone"
-			x: 14.75d
-			y: 0.5d
+			x: 4.0d
+			y: -15.25d
 		}
 		{
 			dependencies: ["33B00255BDE26589"]
@@ -1036,8 +1054,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.75d
-			y: 1.75d
+			x: 1.25d
+			y: -13.75d
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
@@ -1056,8 +1074,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: -9.25d
+			x: -10.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
@@ -1417,8 +1435,8 @@
 				}
 			]
 			title: "The Art Of Forging"
-			x: 12.75d
-			y: -5.75d
+			x: -12.25d
+			y: -13.5d
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
@@ -1431,8 +1449,8 @@
 				type: "dimension"
 			}]
 			title: "The End"
-			x: 12.0d
-			y: -6.75d
+			x: -13.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
@@ -1516,8 +1534,8 @@
 				}
 			]
 			title: "Advanced Boss Items"
-			x: 15.0d
-			y: -6.75d
+			x: -9.75d
+			y: -14.5d
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
@@ -1601,8 +1619,8 @@
 				}
 			]
 			title: "Powerful Unbreakable Boss Items"
-			x: 14.25d
-			y: -5.75d
+			x: -10.75d
+			y: -13.5d
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
@@ -1621,8 +1639,8 @@
 				type: "item"
 			}]
 			title: "Adamantite"
-			x: 12.0d
-			y: -8.25d
+			x: -13.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
@@ -1641,8 +1659,8 @@
 				type: "item"
 			}]
 			title: "Enderium"
-			x: 12.5d
-			y: -9.25d
+			x: -12.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
@@ -1661,8 +1679,8 @@
 				type: "item"
 			}]
 			title: "Etherium"
-			x: 13.5d
-			y: -9.5d
+			x: -11.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["766544EE45C62981"]
@@ -1719,8 +1737,8 @@
 				}
 			]
 			title: "Godlike Unbreakable Boss Weapons"
-			x: 7.75d
-			y: -5.25d
+			x: -7.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["766544EE45C62981"]
@@ -1764,8 +1782,8 @@
 				}
 			]
 			title: "Advanced Elytra"
-			x: 7.75d
-			y: -9.75d
+			x: -2.25d
+			y: -19.0d
 		}
 		{
 			dependencies: ["766544EE45C62981"]
@@ -1784,8 +1802,8 @@
 				type: "item"
 			}]
 			title: "Ignitium"
-			x: 6.25d
-			y: -9.0d
+			x: -6.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["766544EE45C62981"]
@@ -1804,11 +1822,12 @@
 				type: "item"
 			}]
 			title: "Witherite"
-			x: 6.25d
-			y: -6.0d
+			x: -3.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["766544EE45C62981"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "alexsmobs:shattered_dimensional_carver"
@@ -1831,11 +1850,11 @@
 				}
 				type: "item"
 			}]
-			x: 3.25d
-			y: -7.5d
+			x: -4.5d
+			y: -23.25d
 		}
 		{
-			dependencies: ["766544EE45C62981"]
+			dependencies: ["581D0DDCE25134AA"]
 			description: ["Travel 1 Million blocks in any cardinal direction(N/S/E/W)"]
 			hide_details_until_startable: true
 			icon: "minecraft:command_block"
@@ -1848,8 +1867,8 @@
 				type: "checkmark"
 			}]
 			title: "Something 1,000,000 blocks out"
-			x: 1.0d
-			y: -7.5d
+			x: -4.5d
+			y: -25.5d
 		}
 		{
 			dependencies: ["7E7A9B546C15BE8A"]
@@ -1861,7 +1880,6 @@
 				"&3Weathering Tome (Prisnautilus)"
 				"&3Wave of Abyss (Prisnautilus)"
 			]
-			hide: false
 			icon: {
 				Count: 1b
 				id: "predators:wave_of_abyss"
@@ -1958,12 +1976,11 @@
 				}
 			]
 			title: "Basic Boss Items"
-			x: 2.0d
-			y: -0.75d
+			x: 2.25d
+			y: -10.25d
 		}
 		{
 			dependencies: ["7E7A9B546C15BE8A"]
-			hide: false
 			icon: {
 				Count: 1b
 				id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
@@ -2032,8 +2049,8 @@
 				}
 			]
 			title: "Nightmare Armor"
-			x: 0.5d
-			y: 1.5d
+			x: 0.75d
+			y: -7.25d
 		}
 		{
 			dependencies: ["766544EE45C62981"]
@@ -2050,8 +2067,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -7.5d
+			x: -4.5d
+			y: -21.75d
 		}
 		{
 			dependencies: ["7E7A9B546C15BE8A"]
@@ -2075,8 +2092,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.75d
+			x: 2.25d
+			y: -6.25d
 		}
 		{
 			dependencies: ["318AC3A4B80FAB8E"]
@@ -2099,8 +2116,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -0.25d
+			x: -9.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["33B00255BDE26589"]
@@ -2121,8 +2138,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.25d
-			y: 0.5d
+			x: 0.5d
+			y: -15.25d
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
@@ -2144,9 +2161,392 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: -8.25d
+			x: -10.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"5B597BC0F1B671E2"
+				"65F7658994B743A0"
+			]
+			id: "48523E18ABADC12A"
+			invisible: true
+			size: 2.0d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "unusualend:items/mod_icon"
+					}
+				}
+				id: "1BEF314A0A00E701"
+				title: "Travelers"
+				type: "custom"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5B597BC0F1B671E2"
+				"60724A6364526713"
+				"43286CE0A2C3564E"
+				"5900DE861C8A7B5A"
+				"5EF630C5FBD23519"
+				"43D508FBED45BE02"
+				"1A283898A53BAB77"
+				"6EC5AD0F796C17CA"
+				"632EFA22C7EABAC8"
+				"5496909876E1D041"
+				"5B54ADC2F73A6BD3"
+				"670758770777AF24"
+			]
+			description: ["Everyone here offers their own specific &6contracts&r and &2bounties&r with a variety of rewards! They need to take care of their respective towns, and therefore are willing to pay travelers to get what they need. Go to each type of village to find who's in charge and see what quests they'll be willing to give you!"]
+			hide: true
+			id: "09AD1005C87CF7CA"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "75CBBBE33193F2C1"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			size: 2.0d
+			subtitle: "Those who live in the Overworld and Evertwined villages."
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:textures/mob_effect/hero_of_the_village.png"
+					}
+				}
+				id: "68162B3EEE1B9DB2"
+				type: "custom"
+			}]
+			title: "Village Inhabitants"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5B597BC0F1B671E2"
+				"01BDAB2EA3BD299D"
+			]
+			id: "7DC03FC60DD6D51D"
+			invisible: true
+			size: 2.0d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "enigmaticlegacy:items/abyssal_heart"
+					}
+				}
+				id: "5D82760FBF281945"
+				type: "custom"
+			}]
+			title: "Gatekeepers"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5B7CBE6418C5C392"]
+			id: "6C76BA340215CFFB"
+			tasks: [{
+				id: "31A43DFBDDFBFA68"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5B7CBE6418C5C392"]
+			id: "679D410781CDA657"
+			tasks: [{
+				id: "4648BADB786B451D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: -5.5d
+		}
+		{
+			id: "122B1DF5B3FA137E"
+			invisible: true
+			tasks: [{
+				id: "11493A6C28F56D6B"
+				title: "Last Dragonkin"
+				type: "custom"
+			}]
+			x: -4.5d
+			y: 7.25d
+		}
+		{
+			id: "76AC848D6465389F"
+			invisible: true
+			tasks: [{
+				id: "388A3E7730E02CD8"
+				title: "Ancient Blacksmith"
+				type: "custom"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			id: "0F3493F481D99229"
+			invisible: true
+			tasks: [{
+				id: "00CF526696198CD9"
+				title: "Everkeeper"
+				type: "custom"
+			}]
+			x: -4.5d
+			y: 9.75d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "dungeons_mobs:windcaller_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "632EFA22C7EABAC8"
+			invisible: true
+			subtitle: "Mountain/Blossom Villages"
+			tasks: [{
+				id: "2C3F35CAB3F3E722"
+				title: "Met"
+				type: "custom"
+			}]
+			title: "Monk"
+			x: 1.0d
+			y: 8.25d
+		}
+		{
+			disable_toast: true
+			icon: "iter_rpg:gunpowder_barrel"
+			id: "1A283898A53BAB77"
+			invisible: true
+			subtitle: "Mesa Villages"
+			tasks: [{
+				id: "0B12CC39833D1ADF"
+				title: "Met"
+				type: "custom"
+			}]
+			title: "Arms Dealer"
+			x: 0.5d
+			y: 11.75d
+		}
+		{
+			id: "5EF630C5FBD23519"
+			invisible: true
+			subtitle: "Snowy Villages"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endermanoverhaul:snowy_hood"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "509313E00194E5FA"
+				title: "White Death"
+				type: "custom"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			id: "43286CE0A2C3564E"
+			invisible: true
+			subtitle: "Plains/Forest Villages"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:chainmail_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "43ED90ACD00B7750"
+				title: "False Knight"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 7.25d
+		}
+		{
+			id: "6EC5AD0F796C17CA"
+			invisible: true
+			subtitle: "Beach/Ocean Villages"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "aquaculture:gold_hook"
+				}
+				id: "413AA8C203CC2353"
+				title: "Sailor Captain"
+				type: "custom"
+			}]
+			x: 2.75d
+			y: 12.75d
+		}
+		{
+			id: "5496909876E1D041"
+			invisible: true
+			subtitle: "Spruce Villages"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [{
+								data: [ ]
+								source: "dungeons_libraries:gear_config"
+							}]
+						}
+					}
+					id: "dungeons_mobs:illusioner_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "47EA2C63394C007B"
+				title: "Bandit"
+				type: "custom"
+			}]
+			x: 3.0d
+			y: 8.25d
+		}
+		{
+			id: "60724A6364526713"
+			invisible: true
+			subtitle: "Savanna Villages"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "ecologics:azalea_flower"
+				}
+				id: "5ECD1AB731E9AFFA"
+				title: "Elder"
+				type: "custom"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			id: "5900DE861C8A7B5A"
+			invisible: true
+			subtitle: "Dark Forest Villages"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+				}
+				id: "2640E6E4A371EC4F"
+				title: "Pumpkillager"
+				type: "custom"
+			}]
+			x: 3.5d
+			y: 11.75d
+		}
+		{
+			id: "43D508FBED45BE02"
+			invisible: true
+			subtitle: "Swamp Villages"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nourished_nether:strange_elixir"
+				}
+				id: "5D43AACF2BC7BEA0"
+				title: "Witch Doctor"
+				type: "custom"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "artifacts:item/umbrella_in_inventory"
+				}
+			}
+			id: "5B54ADC2F73A6BD3"
+			invisible: true
+			subtitle: "Jungle Villages"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "artifacts:item/umbrella_in_inventory"
+					}
+				}
+				id: "4B343EF4F7B78AA0"
+				title: "Great Huntsman"
+				type: "custom"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			id: "670758770777AF24"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "alexsmobs:pocket_sand"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5A72CBCABF0A320F"
+				title: "Traveling Merchant"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: 12.75d
 		}
 	]
-	title: "&4Dialogue and Unlocks"
+	title: "&4Entries"
 }

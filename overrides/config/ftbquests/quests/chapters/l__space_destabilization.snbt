@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l__space_destabilization"
+	group: "6753AA6B545E8D27"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "enlightened_end:items/end_portal_bucket"
+		}
+	}
+	id: "760804BAA80766FE"
+	order_index: 25
+	quest_links: [ ]
+	quests: [ ]
+	title: "&l - Space Destabilization"
+}

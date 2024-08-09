@@ -1,0 +1,59 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "machinery"
+	group: "6753AA6B545E8D27"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": { }
+		}
+		id: "minecraft:redstone"
+	}
+	id: "3D6527E475B88971"
+	order_index: 14
+	quest_links: [ ]
+	quests: [{
+		id: "4B1A1E951F795F28"
+		invisible_until_tasks: 1
+		tasks: [
+			{
+				id: "6C071932A2C1FB71"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:zinc_ingot"
+				}
+				type: "item"
+			}
+			{
+				id: "63D7DC795F62669F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}
+			{
+				id: "3DFC4882C3C042B4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&l - Machinery"
+}

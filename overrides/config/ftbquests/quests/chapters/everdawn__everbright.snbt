@@ -5,7 +5,7 @@
 	filename: "everdawn__everbright"
 	group: "6753AA6B545E8D27"
 	id: "513B88027767E135"
-	order_index: 4
+	order_index: 6
 	quest_links: [ ]
 	quests: [{
 		dependency_requirement: "one_completed"

@@ -20,8 +20,8 @@
 		image: "chocolate:textures/74.png"
 		rotation: 0.0d
 		width: 26.6666d
-		x: 31.5d
-		y: 0.25d
+		x: 30.75d
+		y: 0.75d
 	}]
 	order_index: 2
 	quest_links: [ ]
@@ -53,8 +53,8 @@
 				type: "item"
 			}]
 			title: "The End?"
-			x: 0.0d
-			y: 0.0d
+			x: -0.75d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -80,8 +80,8 @@
 				type: "item"
 			}]
 			title: "Your Best Friend"
-			x: 0.0d
-			y: -2.75d
+			x: -0.75d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -174,8 +174,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 4.25d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -222,8 +222,8 @@
 				type: "item"
 			}]
 			title: "Cindershell Shell Shard (Nether Eye)"
-			x: 5.75d
-			y: -1.75d
+			x: 5.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -269,8 +269,8 @@
 				type: "item"
 			}]
 			title: "Crimson Mosquito Larva (Nether Eye)"
-			x: 6.5d
-			y: -1.0d
+			x: 5.75d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -348,8 +348,8 @@
 				type: "item"
 			}]
 			title: "Hone: Gild III (Nether Eye)"
-			x: 6.5d
-			y: 1.25d
+			x: 5.75d
+			y: 1.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -385,8 +385,8 @@
 				type: "item"
 			}]
 			title: "Netherite Scrap (Nether Eye)"
-			x: 5.75d
-			y: 1.75d
+			x: 5.0d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -445,8 +445,8 @@
 				type: "item"
 			}]
 			title: "Fiery Fondue Pot (Nether Eye)"
-			x: 5.0d
-			y: -3.375d
+			x: 4.25d
+			y: -2.875d
 		}
 		{
 			dependencies: [
@@ -519,8 +519,8 @@
 				type: "item"
 			}]
 			title: "Nether Rice Roll Medley (Nether Eye)"
-			x: 5.0d
-			y: 3.5d
+			x: 4.25d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -598,8 +598,8 @@
 				type: "item"
 			}]
 			title: "Mutant Blaze Core (Nether Eye)"
-			x: 3.5999999999999996d
-			y: 1.5d
+			x: 2.8499999999999996d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -650,8 +650,8 @@
 				type: "item"
 			}]
 			title: "Wildfire Crown (Nether Eye)"
-			x: 3.5999999999999996d
-			y: -1.5d
+			x: 2.8499999999999996d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -704,8 +704,8 @@
 				type: "item"
 			}]
 			title: "Lava Fishing Rod (Nether Eye)"
-			x: 5.0d
-			y: 8.0d
+			x: 4.25d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -740,8 +740,8 @@
 				type: "item"
 			}]
 			title: "Warped Kelp Roll Slice (Nether Eye)"
-			x: 5.5d
-			y: 5.0d
+			x: 4.75d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -780,8 +780,8 @@
 				type: "item"
 			}]
 			title: "Soulsucker Roll (Nether Eye)"
-			x: 7.5d
-			y: 6.25d
+			x: 6.75d
+			y: 6.75d
 		}
 		{
 			dependencies: [
@@ -843,8 +843,8 @@
 				type: "item"
 			}]
 			title: "Magma Cube Fish Roll (Nether Eye)"
-			x: 2.25d
-			y: 6.25d
+			x: 1.5d
+			y: 6.75d
 		}
 		{
 			dependencies: [
@@ -912,8 +912,8 @@
 				type: "item"
 			}]
 			title: "Lava Pufferfish Roll (Nether Eye)"
-			x: 2.25d
-			y: 4.5d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -981,8 +981,8 @@
 				type: "item"
 			}]
 			title: "Glowdine Roll (Nether Eye)"
-			x: 7.5d
-			y: 4.5d
+			x: 6.75d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1035,8 +1035,8 @@
 				type: "item"
 			}]
 			title: "Searing Cod Roll (Nether Eye)"
-			x: 3.75d
-			y: 5.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1074,8 +1074,8 @@
 				type: "item"
 			}]
 			title: "Tomato Sauce (Nether Eye)"
-			x: 2.5d
-			y: -4.75d
+			x: 1.75d
+			y: -4.25d
 		}
 		{
 			dependencies: [
@@ -1135,8 +1135,8 @@
 				type: "item"
 			}]
 			title: "Potato (Nether Eye)"
-			x: 2.5d
-			y: -6.75d
+			x: 1.75d
+			y: -6.25d
 		}
 		{
 			dependencies: [
@@ -1221,8 +1221,8 @@
 				type: "item"
 			}]
 			title: "Bread (Nether Eye)"
-			x: 7.75d
-			y: -6.75d
+			x: 7.0d
+			y: -6.25d
 		}
 		{
 			dependencies: [
@@ -1298,8 +1298,8 @@
 				type: "item"
 			}]
 			title: "Milk (Nether Eye)"
-			x: 7.75d
-			y: -4.75d
+			x: 7.0d
+			y: -4.25d
 		}
 		{
 			dependencies: [
@@ -1346,8 +1346,8 @@
 				type: "item"
 			}]
 			title: "Ham (Nether Eye)"
-			x: 4.0d
-			y: -5.75d
+			x: 3.25d
+			y: -5.25d
 		}
 		{
 			dependencies: [
@@ -1394,8 +1394,8 @@
 				type: "item"
 			}]
 			title: "Scarlet Cheese Wheel (Nether Eye)"
-			x: 5.5d
-			y: -5.0d
+			x: 4.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -1509,8 +1509,8 @@
 				}
 			]
 			title: "Cooking Pot (Nether Eye)"
-			x: 5.0d
-			y: -8.0d
+			x: 4.25d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -1580,8 +1580,8 @@
 				}
 			]
 			title: "Used in Nether Eye"
-			x: 0.0d
-			y: 1.5d
+			x: -0.75d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1670,8 +1670,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 0.0d
+			x: 10.25d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -1720,8 +1720,8 @@
 				type: "item"
 			}]
 			title: "Candle Holder (Undead Eye)"
-			x: 10.0d
-			y: -2.5d
+			x: 9.25d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1748,8 +1748,8 @@
 				type: "item"
 			}]
 			title: "Necronium Ingot (Undead Eye)"
-			x: 12.0d
-			y: -2.5d
+			x: 11.25d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -1811,8 +1811,8 @@
 				type: "item"
 			}]
 			title: "Frozen Rotten Flesh (Undead Eye)"
-			x: 12.5d
-			y: -1.5d
+			x: 11.75d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -1862,8 +1862,8 @@
 				type: "item"
 			}]
 			title: "Magma Rotten Flesh (Undead Eye)"
-			x: 9.5d
-			y: -1.5d
+			x: 8.75d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1947,8 +1947,8 @@
 				type: "item"
 			}]
 			title: "Undead Soul (Undead Eye)"
-			x: 11.0d
-			y: 2.0d
+			x: 10.25d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -1992,8 +1992,8 @@
 				type: "item"
 			}]
 			title: "Totem of Post Mortem (Undead Eye)"
-			x: 11.0d
-			y: -3.0d
+			x: 10.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -2042,8 +2042,8 @@
 				type: "item"
 			}]
 			title: "Ectoplasm (Undead Eye)"
-			x: 9.75d
-			y: 2.75d
+			x: 9.0d
+			y: 3.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -2093,8 +2093,8 @@
 				type: "item"
 			}]
 			title: "Soul Bead (Undead Eye)"
-			x: 12.25d
-			y: 2.75d
+			x: 11.5d
+			y: 3.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -2144,8 +2144,8 @@
 				type: "item"
 			}]
 			title: "Ancient Fruit (Undead Eye)"
-			x: 9.75d
-			y: 1.5d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -2192,8 +2192,8 @@
 				type: "item"
 			}]
 			title: "Skreecher Soul (Undead Eye)"
-			x: 12.25d
-			y: 1.5d
+			x: 11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -2227,8 +2227,8 @@
 				type: "item"
 			}]
 			title: "Cerberus Fang (Undead Eye)"
-			x: 12.0d
-			y: 4.0d
+			x: 11.25d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -2261,8 +2261,8 @@
 				type: "item"
 			}]
 			title: "Spirit Eye (Undead Eye) "
-			x: 10.0d
-			y: 4.0d
+			x: 9.25d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -2298,8 +2298,8 @@
 				type: "item"
 			}]
 			title: "Soul Salt Clump (Undead Eye)"
-			x: 9.25d
-			y: 4.75d
+			x: 8.5d
+			y: 5.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -2329,8 +2329,8 @@
 				type: "item"
 			}]
 			title: "Used in Undead Eye"
-			x: 12.75d
-			y: 4.75d
+			x: 12.0d
+			y: 5.25d
 		}
 		{
 			dependencies: [
@@ -2417,8 +2417,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: 0.0d
+			x: 16.25d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -2458,8 +2458,8 @@
 				type: "item"
 			}]
 			title: "Dark Metal Ingot (Wither Eye)"
-			x: 15.0d
-			y: 1.5d
+			x: 14.25d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -2495,8 +2495,8 @@
 				type: "item"
 			}]
 			title: "Wither Sword (Wither Eye)"
-			x: 19.0d
-			y: -1.75d
+			x: 18.25d
+			y: -1.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -2576,8 +2576,8 @@
 				type: "item"
 			}]
 			title: "Mutant Wither Skeleton Skull (Wither Eye)"
-			x: 14.75d
-			y: -2.0d
+			x: 14.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -2616,8 +2616,8 @@
 				type: "item"
 			}]
 			title: "Nether Star (Wither Eye)"
-			x: 17.0d
-			y: -4.125d
+			x: 16.25d
+			y: -3.625d
 		}
 		{
 			dependencies: [
@@ -2702,8 +2702,8 @@
 				type: "item"
 			}]
 			title: "Dark Potion (Wither Eye)"
-			x: 17.0d
-			y: 3.75d
+			x: 16.25d
+			y: 4.25d
 		}
 		{
 			dependencies: [
@@ -2744,8 +2744,8 @@
 				type: "item"
 			}]
 			title: "Potion of Bug Phermones (Wither Eye)"
-			x: 18.25d
-			y: 3.25d
+			x: 17.5d
+			y: 3.75d
 		}
 		{
 			dependencies: [
@@ -2779,8 +2779,8 @@
 				type: "item"
 			}]
 			title: "Bottle of Magical Energy (Wither Eye)"
-			x: 15.75d
-			y: 4.25d
+			x: 15.0d
+			y: 4.75d
 		}
 		{
 			dependencies: [
@@ -2825,8 +2825,8 @@
 				type: "item"
 			}]
 			title: "Potion of Soulsteal (Wither Eye)"
-			x: 16.25d
-			y: 2.5d
+			x: 15.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -2862,8 +2862,8 @@
 				type: "item"
 			}]
 			title: "Blindsight Tongue (Wither Eye)"
-			x: 17.75d
-			y: 2.5d
+			x: 17.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -2914,8 +2914,8 @@
 				type: "item"
 			}]
 			title: "Pile of Dark Metal (Wither Eye)"
-			x: 15.75d
-			y: 3.25d
+			x: 15.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -2975,8 +2975,8 @@
 				type: "item"
 			}]
 			title: "Nightmare Claw (Wither Eye)"
-			x: 18.25d
-			y: 4.25d
+			x: 17.5d
+			y: 4.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3011,8 +3011,8 @@
 				type: "item"
 			}]
 			title: "Fire Light Dust (Wither Eye)"
-			x: 16.5d
-			y: 5.0d
+			x: 15.75d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -3053,8 +3053,8 @@
 				type: "item"
 			}]
 			title: "Potion of Infection (Wither Eye)"
-			x: 17.5d
-			y: 5.0d
+			x: 16.75d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -3114,8 +3114,8 @@
 				type: "item"
 			}]
 			title: "Withering Dross (Wither Eye)"
-			x: 20.0d
-			y: 7.0d
+			x: 19.25d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3159,8 +3159,8 @@
 				type: "item"
 			}]
 			title: "Wither Rose (Wither Eye)"
-			x: 21.0d
-			y: 7.5d
+			x: 20.25d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3219,8 +3219,8 @@
 				type: "item"
 			}]
 			title: "Ink Sac (Wither Eye)"
-			x: 20.0d
-			y: 6.0d
+			x: 19.25d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3264,8 +3264,8 @@
 				type: "item"
 			}]
 			title: "Bone (Wither Eye)"
-			x: 20.0d
-			y: 8.0d
+			x: 19.25d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3314,8 +3314,8 @@
 				type: "item"
 			}]
 			title: "Nether Wart (Wither Eye)"
-			x: 21.0d
-			y: 6.5d
+			x: 20.25d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3350,8 +3350,8 @@
 				type: "item"
 			}]
 			title: "Wither Treasure Bag (Wither Eye)"
-			x: 20.0d
-			y: -2.5d
+			x: 19.25d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3395,8 +3395,8 @@
 				type: "item"
 			}]
 			title: "Wither Skeleton Skull (Wither Eye)"
-			x: 16.0d
-			y: -4.75d
+			x: 15.25d
+			y: -4.25d
 		}
 		{
 			dependencies: [
@@ -3440,8 +3440,8 @@
 				type: "item"
 			}]
 			title: "Salty Folly (Wither Eye)"
-			x: 18.0d
-			y: 8.0d
+			x: 17.25d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3472,8 +3472,8 @@
 				type: "item"
 			}]
 			title: "Sea Pickle (Wither Eye)"
-			x: 17.0d
-			y: 9.0d
+			x: 16.25d
+			y: 9.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3505,8 +3505,8 @@
 				type: "item"
 			}]
 			title: "Dried Kelp (Wither Eye)"
-			x: 18.0d
-			y: 9.0d
+			x: 17.25d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -3543,8 +3543,8 @@
 				type: "item"
 			}]
 			title: "Vodka (Wither Eye)"
-			x: 17.0d
-			y: 8.0d
+			x: 16.25d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -3609,8 +3609,8 @@
 				type: "item"
 			}]
 			title: "Used in Wither Eye"
-			x: 18.75d
-			y: 1.0d
+			x: 18.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3645,8 +3645,8 @@
 				type: "item"
 			}]
 			title: "Keg (Wither Eye)"
-			x: 16.5d
-			y: 7.25d
+			x: 15.75d
+			y: 7.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3665,8 +3665,8 @@
 				type: "item"
 			}]
 			title: "Soul Heart (Wither Eye)"
-			x: 16.25d
-			y: 1.5d
+			x: 15.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3711,8 +3711,8 @@
 				type: "item"
 			}]
 			title: "Ascus Bomb (Wither Eye)"
-			x: 17.5d
-			y: 6.0d
+			x: 16.75d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3742,8 +3742,8 @@
 				type: "item"
 			}]
 			title: "Etheral Spirit (Wither Eye)"
-			x: 15.25d
-			y: 5.25d
+			x: 14.5d
+			y: 5.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -3787,8 +3787,8 @@
 				type: "item"
 			}]
 			title: "Cockroach Wing (Wither Eye)"
-			x: 19.25d
-			y: 3.25d
+			x: 18.5d
+			y: 3.75d
 		}
 		{
 			dependencies: [
@@ -3887,8 +3887,8 @@
 				type: "item"
 			}]
 			title: "..."
-			x: 30.0d
-			y: 0.0d
+			x: 29.25d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -3941,8 +3941,8 @@
 				type: "item"
 			}]
 			title: "Void Worm Eye (...)"
-			x: 30.0d
-			y: 4.5d
+			x: 29.25d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4004,8 +4004,8 @@
 				type: "item"
 			}]
 			title: "Mutant Shulker Shell (...)"
-			x: 27.75d
-			y: -1.125d
+			x: 27.0d
+			y: -0.625d
 		}
 		{
 			dependencies: [
@@ -4056,8 +4056,8 @@
 				type: "item"
 			}]
 			title: "Void Core (...)"
-			x: 27.75d
-			y: 2.25d
+			x: 27.0d
+			y: 2.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4106,8 +4106,8 @@
 				type: "item"
 			}]
 			title: "Void Fragment (...)"
-			x: 32.25d
-			y: 1.125d
+			x: 31.5d
+			y: 1.625d
 		}
 		{
 			dependencies: [
@@ -4146,8 +4146,8 @@
 				type: "item"
 			}]
 			title: "Enderium Ingot (...)"
-			x: 31.875d
-			y: -4.125d
+			x: 31.125d
+			y: -3.625d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4183,8 +4183,8 @@
 				type: "item"
 			}]
 			title: "Void Totem (...)"
-			x: 32.625d
-			y: -0.75d
+			x: 31.875d
+			y: -0.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4234,8 +4234,8 @@
 				type: "item"
 			}]
 			title: "Ancient Shard (...)"
-			x: 27.375d
-			y: 0.75d
+			x: 26.625d
+			y: 1.25d
 		}
 		{
 			dependencies: [
@@ -4273,8 +4273,8 @@
 				type: "item"
 			}]
 			title: "Adamantite (...)"
-			x: 32.25d
-			y: -2.25d
+			x: 31.5d
+			y: -1.75d
 		}
 		{
 			dependencies: [
@@ -4336,8 +4336,8 @@
 				type: "item"
 			}]
 			title: "Irradium Bar (...)"
-			x: 28.5d
-			y: 3.75d
+			x: 27.75d
+			y: 4.25d
 		}
 		{
 			dependencies: [
@@ -4375,8 +4375,8 @@
 				type: "item"
 			}]
 			title: "Enderium Shard Locator (...)"
-			x: 30.375d
-			y: -5.25d
+			x: 29.625d
+			y: -4.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4431,8 +4431,8 @@
 				type: "item"
 			}]
 			title: "Ender Dragon Treasure Bag (...)"
-			x: 28.5d
-			y: -5.625d
+			x: 27.75d
+			y: -5.125d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4464,8 +4464,8 @@
 				type: "item"
 			}]
 			title: "Rad Irradium (...)"
-			x: 28.875d
-			y: 5.625d
+			x: 28.125d
+			y: 6.125d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4500,8 +4500,8 @@
 				type: "item"
 			}]
 			title: "Eye of Void (...)"
-			x: 27.0d
-			y: 3.75d
+			x: 26.25d
+			y: 4.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4574,8 +4574,8 @@
 				type: "item"
 			}]
 			title: "Capsid (...)"
-			x: 33.0d
-			y: 7.125d
+			x: 32.25d
+			y: 7.625d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4608,8 +4608,8 @@
 				type: "item"
 			}]
 			title: "Adamantite Nugget (...)"
-			x: 33.375d
-			y: -3.375d
+			x: 32.625d
+			y: -2.875d
 		}
 		{
 			dependencies: [
@@ -4643,8 +4643,8 @@
 				type: "item"
 			}]
 			title: "Soul Forge (Undead Eye)"
-			x: 13.0d
-			y: -3.0d
+			x: 12.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4680,8 +4680,8 @@
 				type: "item"
 			}]
 			title: "Soul Quartz (Undead Eye)"
-			x: 13.5d
-			y: -4.0d
+			x: 12.75d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3276D2A914468D30"]
@@ -4724,8 +4724,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.5d
+			x: 4.75d
+			y: -6.0d
 		}
 		{
 			dependencies: ["43281916E1BFCA95"]
@@ -4769,8 +4769,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.25d
+			x: 4.75d
+			y: 6.75d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4828,8 +4828,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 2.75d
+			x: 13.75d
+			y: 3.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4891,8 +4891,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 7.0d
+			x: 16.75d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -4957,8 +4957,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.75d
-			y: 6.75d
+			x: 18.0d
+			y: 7.25d
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
@@ -5006,8 +5006,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.75d
-			y: 1.75d
+			x: 19.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["71FD02F37D3FB343"]
@@ -5043,8 +5043,8 @@
 				type: "item"
 			}]
 			title: "Mysterious Worm (...)"
-			x: 31.125d
-			y: 6.0d
+			x: 30.375d
+			y: 6.5d
 		}
 	]
 	title: "&cHard Eyes"

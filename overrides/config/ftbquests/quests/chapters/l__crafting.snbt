@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l__crafting"
+	group: "6753AA6B545E8D27"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": { }
+		}
+		id: "minecraft:crafting_table"
+	}
+	id: "1AC8E81AC6BB1A40"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "&l - Crafting"
+}

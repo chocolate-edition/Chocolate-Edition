@@ -463,7 +463,7 @@
 			y: 17.25d
 		}
 	]
-	order_index: 5
+	order_index: 8
 	quest_links: [ ]
 	quests: [{
 		icon: {

@@ -1,0 +1,45 @@
+{
+	hide_tooltip: true
+	id: "2C62BE8F8A22EA8D"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/execute at @e[type=aether:fire_minion] if entity @a[distance=..15] run summon aether:fire_minion ~ ~ ~"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: ""
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: ""
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/execute at @a if entity @e[type=aether:sun_spirit,nbt={BossFight: 1b}] run summon aether:ice_crystal"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+	]
+	title: "sunspirit command"
+}
