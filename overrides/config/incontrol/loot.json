@@ -22,6 +22,14 @@
 
 {
 
+    "mob":"iter_rpg:scallop",
+    
+    "remove":"iter_rpg:pearl"
+        
+    },
+
+{
+
     "mob":"predators:shaman_of_moonlight",
     
     "player":true,
