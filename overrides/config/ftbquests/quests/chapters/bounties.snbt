@@ -120,6 +120,24 @@
 		{
 			id: "1FE6F1E1A5DB5488"
 			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 3F814B26F44F36AC"
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:warp_scroll"
+				}
+				id: "1298EAD9F6F20C79"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "New Bounty"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			subtitle: "Found in Mountain, Blossom villages."
@@ -1318,6 +1336,24 @@
 		{
 			id: "0CABA740C568F9D0"
 			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 3F814B26F44F36AC"
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:warp_scroll"
+				}
+				id: "601E6B8F9C350084"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "New Bounty"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [{
@@ -1342,6 +1378,24 @@
 		{
 			id: "068DB6F7C7E6453C"
 			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 3F814B26F44F36AC"
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:warp_scroll"
+				}
+				id: "506947FF025304E5"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "New Bounty"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [{
@@ -1489,6 +1543,24 @@
 		{
 			id: "008E6AFA74118780"
 			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 3F814B26F44F36AC"
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:warp_scroll"
+				}
+				id: "1C1D9F906D897F22"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "New Bounty"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [{
@@ -1517,6 +1589,24 @@
 			}
 			id: "3F11777E4A8E2DA1"
 			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 3F814B26F44F36AC"
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:warp_scroll"
+				}
+				id: "085B2DE6C4F433DB"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "New Bounty"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [{
@@ -2384,6 +2474,24 @@
 			}
 			id: "4607E3A8B2C8866C"
 			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 3F814B26F44F36AC"
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:warp_scroll"
+				}
+				id: "2E7BA87C66057341"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "New Bounty"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [{
@@ -6348,7 +6456,7 @@
 			invisible: true
 			rewards: [{
 				auto: "no_toast"
-				command: "/ftbquests change_progress @p complete 5CCF8440073CE724"
+				command: "/ftbquests change_progress @p complete 3F814B26F44F36AC"
 				exclude_from_claim_all: true
 				icon: {
 					Count: 1b
@@ -6357,11 +6465,11 @@
 					}
 					id: "waystones:warp_scroll"
 				}
-				id: "3E781A3BCD0B6ED4"
+				id: "452C9B220483F015"
 				ignore_reward_blocking: true
 				silent: true
 				team_reward: false
-				title: "Do the task and turn it in at the Traveler."
+				title: "New Bounty"
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -9776,6 +9884,24 @@
 		{
 			id: "7E4E2B0222386BA4"
 			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 3F814B26F44F36AC"
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:warp_scroll"
+				}
+				id: "4B015B0AF019A581"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "New Bounty"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			subtitle: "Found in snowy villages"
@@ -10917,6 +11043,24 @@
 			}
 			id: "7AB644DFF8D0E437"
 			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 3F814B26F44F36AC"
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:warp_scroll"
+				}
+				id: "1A2D7E330084E78C"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "New Bounty"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [{
@@ -11073,6 +11217,24 @@
 		{
 			id: "59D7CAA830F52463"
 			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 3F814B26F44F36AC"
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:warp_scroll"
+				}
+				id: "26CEA2D70C38938C"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "New Bounty"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			subtitle: "Found in spruce villages"
@@ -11212,6 +11374,24 @@
 		{
 			id: "1E737AA5F6E48B7D"
 			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 3F814B26F44F36AC"
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "waystones:warp_scroll"
+				}
+				id: "25C08B5C1C0055BB"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "New Bounty"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [{
