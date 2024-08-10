@@ -1,5 +1,18 @@
 {
   "item.iter_rpg.drill": "Redstone Drill",
   "item.iter_rpg.empty_rune": "Elemental Rune",
-  "item.iter_rpg.pearl": "Tempest Pearl"
+  "item.iter_rpg.pearl": "Tempest Pearl",
+  
+  "item.iter_rpg.ice_bricks" : "Smooth Ice Brick",
+  "item.iter_rpg.ornate_ice_bricks" : "Smooth Ornate Ice Brick",
+  "item.iter_rpg.ice_brick_stairs" : "Smooth Ice Stairs Brick",
+  "item.iter_rpg.ice_brick_slab" : "Smooth Ice Brick Slab",
+  "item.iter_rpg.ice_brick_wall" : "Smooth Ice Brick Wall",
+
+  "block.iter_rpg.ice_bricks" : "Smooth Ice Brick",
+  "block.iter_rpg.ornate_ice_bricks" : "Smooth Ornate Ice Brick",
+  "block.iter_rpg.ice_brick_stairs" : "Smooth Ice Stairs Brick",
+  "block.iter_rpg.ice_brick_slab" : "Smooth Ice Brick Slab",
+  "block.iter_rpg.ice_brick_wall" : "Smooth Ice Brick Wall"
+
 }
