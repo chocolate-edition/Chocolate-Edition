@@ -1,0 +1,1 @@
+<recipetype:create:crushing>.addRecipe("clam_to_pearl", [<item:crittersandcompanions:pearl> % 5], <item:crittersandcompanions:clam>);
