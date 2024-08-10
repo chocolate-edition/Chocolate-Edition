@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "6753AA6B545E8D27"
+	id: "3DAD968EE46DCAAC"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1b
+			id: "ftbquests:custom_icon"
+			tag: {
+				Icon: "enlightened_end:items/end_everglint_mirror"
+			}
+		}
+		id: "55BA9E32C79162F5"
+		invisible: true
+		size: 5.0d
+		subtitle: "The Realm of Space, blending extremities of endless void and living off mystical energies."
+		tasks: [{
+			dimension: "minecraft:the_end"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/end_portal.png"
+				}
+			}
+			id: "3A6A72A4555361C3"
+			type: "dimension"
+		}]
+		title: "End"
+		x: 0.25d
+		y: 0.25d
+	}]
+	title: "&5End"
+}

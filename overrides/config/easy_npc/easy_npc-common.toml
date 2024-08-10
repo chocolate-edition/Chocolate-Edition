@@ -269,6 +269,15 @@
 		#Range: 0 ~ 4
 		lookObjectiveConfigurationPermissionLevel = 0
 
+	["[Pose Configuration] Advanced Pose"."[Import Configuration] Import Local Preset"]
+		#Enable local import preset configuration.
+		localImportPresetConfigurationEnabled = true
+		#Allow local import preset configuration in creative mode.
+		localImportPresetConfigurationAllowInCreative = true
+		#local import preset configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		localImportPresetConfigurationPermissionLevel = 0
+
 ["[Attribute Configuration] Abilities Attribute"]
 	#Enable abilities attribute configuration.
 	abilitiesAttributeConfigurationEnabled = true
@@ -295,4 +304,31 @@
 	#advanced dialog configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
 	#Range: 0 ~ 4
 	advancedDialogConfigurationPermissionLevel = 0
+
+["[Attribute Configuration] Display Attribute"]
+	#Enable display attribute configuration.
+	displayAttributeConfigurationEnabled = true
+	#Allow display attribute configuration in creative mode.
+	displayAttributeConfigurationAllowInCreative = true
+	#display attribute configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	displayAttributeConfigurationPermissionLevel = 1
+
+["[Skin Configuration] None Skin"]
+	#Enable none skin configuration.
+	noneSkinConfigurationEnabled = true
+	#Allow none skin configuration in creative mode.
+	noneSkinConfigurationAllowInCreative = true
+	#none skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	noneSkinConfigurationPermissionLevel = 0
+
+["[Skin Configuration] URL Skin"]
+	#Enable url skin configuration.
+	urlSkinConfigurationEnabled = true
+	#Allow url skin configuration in creative mode.
+	urlSkinConfigurationAllowInCreative = true
+	#url skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	urlSkinConfigurationPermissionLevel = 1
 

@@ -17,6 +17,7 @@ Available on CurseForge at https://legacy.curseforge.com/minecraft/modpacks/mc-c
 
 ### for a better github notification experience without having your email spammed, try [notifier for github extension](https://github.com/sindresorhus/notifier-for-github)
 
+update schedule working document: https://docs.google.com/document/d/15oeWpq6uOxQ9vquVVf1IKi3XBqOKdQXLizz0_1SwWns/edit
 
 # Contribution guide:
 
@@ -146,13 +147,13 @@ the default option are generally okay. dont be scared to ask for help if you nee
 2. open the folder and right click in the empty space > `git bash here`
 (if this option is not available you may not have installed git correctly)
 
-4. in your git bash terminal, type, or right click and paste 
+3. in your git bash terminal, type, or right click and paste 
 ```bash
 git clone https://github.com/chocolate-edition/Chocolate-Edition.git
 ```
 you will see the files being downloaded to a "chocolate-edition" folder.
 
-5. if you have never used git before, you will need to link your local git to your github account.
+4. if you have never used git before, you will need to link your local git to your github account.
 once the clone is complete, run 
 ```bash
 git config --global user.name "your github useername"
@@ -170,7 +171,7 @@ I recommend you change you color scheme to "Dark (visual studio)" from file > pr
 
 also, open a terminal by selecting teerminal > new terminal at the top of the screen.
 
-in the terminal, select the drop down next to thee + icon and "select default profile", then choose "git bash"
+in the terminal, select the drop down next to the + icon and "select default profile", then choose "git bash"
 
 3. you may see a window pop up asking if you'd like to install the recommended extension. doing so is highly recommended.
 you can also install them by choosing "extensions" (4 squares icon on the left column) and search for RunItOn! and zslint.

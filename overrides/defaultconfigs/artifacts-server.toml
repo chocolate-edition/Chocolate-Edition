@@ -9,7 +9,7 @@
 		#Affects how many times a negative effect can be shortened before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#The maximum duration (in ticks) a negative effect can last with the antidote vessel equipped
 		#Range: > 0
 		max_effect_duration = 240
@@ -18,13 +18,13 @@
 		#Affects how many seconds the player can run on fluids using the aqua dashers before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 
 	[items.bunny_hoppers]
 		#Affects how many times the player can jump with the bunny hoppers before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 		#Whether Bunny Hoppers should cancel fall damage
 		#Fall damage will still be reduced by the jump boost effect
 		should_cancel_fall_damage = false
@@ -37,13 +37,13 @@
 		#Affects how many seconds the player can stay underwater using the charm of sinking before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 
 	[items.cloud_in_a_bottle]
 		#Affects how many times the player can double jump before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 		#Affects double jump height while sprinting
 		#1 for no height bonus
 		#Range: 0.0 ~ Infinity
@@ -57,16 +57,16 @@
 		#Affects how many times the player can take damage with the cross necklace before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 1561
+		durability = 0
 		#The amount of additional ticks the wearer is invincible after being hit
 		#Range: > 0
-		invincibility_bonus = 15
+		invincibility_bonus = 5
 
 	[items.crystal_heart]
 		#Affects how much damage the player can take while wearing the crystal heart before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 1561
+		durability = 0
 		#The amount additional health applied to the wearer
 		#Range: > 0
 		health_bonus = 10
@@ -75,10 +75,10 @@
 		#Affects how many blocks the player can break using the digging claws before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 		#Mining speed bonus applied by digging claws
 		#Range: 0.0 ~ Infinity
-		mining_speed_bonus = 2.0
+		mining_speed_bonus = 1.25
 		#The tool tier of the digging claws
 		#To modify mineable blocks, use the 'artifacts:mineable/digging_claws' block tag
 		tool_tier = "minecraft:stone"
@@ -87,7 +87,7 @@
 		#Affects how many times this item can be eaten before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#Cooldown (in ticks) before the item can be eaten again
 		#Range: > 0
 		cooldown = 300
@@ -99,7 +99,7 @@
 		#Affects how many times this item can be eaten before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#Cooldown (in ticks) before the item can be eaten again
 		#Range: > 0
 		cooldown = 300
@@ -111,59 +111,59 @@
 		#Affects how many enemies can be hit using the feral claws before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#Attack speed bonus applied by feral claws
 		#Range: 0.0 ~ Infinity
-		attack_speed_bonus = 0.5
+		attack_speed_bonus = 0.15
 
 	[items.fire_gauntlet]
 		#Affects how many enemies can be hit using the fire gauntlet before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#Duration (equal to total fire damage) for which entities are set on fire
 		#Range: > 0
-		fire_duration = 8
+		fire_duration = 4
 
 	[items.flame_pendant]
 		#Affects how many times the pendant's effect can be applied before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#Chance for the pendant to strike an attacker when the wearer is attacked
 		#Range: 0.0 ~ 1.0
-		strike_chance = 0.4
+		strike_chance = 0.75
 		#Duration (equal to total fire damage) for which entities are set on fire
 		#Range: > 0
-		fire_duration = 10
+		fire_duration = 8
 
 	[items.flippers]
 		#Affects how many seconds the player can swim using the flippers
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 		#Swim speed bonus applied by flippers
 		#Range: 0.0 ~ Infinity
-		swim_speed_bonus = 1.0
+		swim_speed_bonus = 0.25
 
 	[items.golden_hook]
 		#Affects how many enemies can be killed using the golden hook before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#The amount of extra experience (multiplied with total xp) entities should drop when killed by a player wearing the golden hook
 		#Range: 0.0 ~ Infinity
-		experience_bonus = 0.75
+		experience_bonus = 0.15
 
 	[items.helium_flamingo]
 		#Affects how many seconds the player can fly using the helium flamingo before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 		#The maximum amount of time (in ticks) a player can fly using the helium flamingo
 		#Set to 0 to allow swimming indefinitely
 		#Range: > 0
-		max_flight_time = 150
+		max_flight_time = 30
 		#The amount of time (in ticks) it takes for the helium flamingo to recharge
 		#Range: > 0
 		recharge_time = 300
@@ -172,13 +172,13 @@
 		#Affects how many creepers the player can attack using the kitty slippers before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 64
+		durability = 0
 
 	[items.lucky_scarf]
 		#Affects how many blocks can be broken using the lucky scarf
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#Fortune bonus applied by the lucky scarf
 		#Range: > 0
 		fortune_bonus = 1
@@ -187,94 +187,94 @@
 		#Affects how many seconds the night vision effect should apply before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 
 	[items.novelty_drinking_hat]
 		#Affects how many items the player can drink or eat using the drinking hat before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#Drinking duration multiplier applied by the drinking hat
 		#Range: 0.0 ~ Infinity
-		drinking_duration_multiplier = 0.5
+		drinking_duration_multiplier = 0.75
 		#Eating duration multiplier applied by the drinking hat
 		#Range: 0.0 ~ Infinity
-		eating_duration_multiplier = 0.5
+		eating_duration_multiplier = 0.75
 
 	[items.obsidian_skull]
 		#Affects how many times the fire resistance effect can be applied before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 64
+		durability = 0
 		#The cooldown (in ticks) on the obsidian skull after applying fire resistance
 		#Range: > 0
-		cooldown = 1200
+		cooldown = 2000
 		#The duration (in ticks) of the fire resistance effect applied by the obsidian skull after taking fire damage
 		#Range: > 0
-		fire_resistance_duration = 300
+		fire_resistance_duration = 100
 
 	[items.panic_necklace]
 		#Affects how many times the necklace's effect can be applied
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#The level of the speed effect applied by the panic necklace
 		#Range: 0 ~ 128
 		speed_level = 1
 		#The duration (in ticks) of the speed effect applied by the panic necklace
 		#Range: > 0
-		speed_duration = 160
+		speed_duration = 60
 
 	[items.plastic_drinking_hat]
 		#Affects how many items the player can drink or eat using the drinking hat before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#Drinking duration multiplier applied by the drinking hat
 		#Range: 0.0 ~ Infinity
-		drinking_duration_multiplier = 0.5
+		drinking_duration_multiplier = 0.75
 		#Eating duration multiplier applied by the drinking hat
 		#Range: 0.0 ~ Infinity
-		eating_duration_multiplier = 0.5
+		eating_duration_multiplier = 0.75
 
 	[items.pocket_piston]
 		#Affects how many enemies can be hit using the pocket piston
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#The amount of extra knockback applied by the pocket piston
 		#Range: 0.0 ~ Infinity
-		knockback_bonus = 1.5
+		knockback_bonus = 1.25
 
 	[items.power_glove]
 		#Affects how many enemies can be hit using the power glove
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#The amount of extra attack damage applied by the power glove
 		#Range: > 0
-		attack_damage_bonus = 4
+		attack_damage_bonus = 2
 
 	[items.running_shoes]
 		#Affects how many seconds the player can sprint using the running shoes
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 		#The amount of extra speed applied by the running shoes
 		#Range: 0.0 ~ Infinity
-		speed_multiplier = 0.4
+		speed_multiplier = 0.2
 
 	[items.scarf_of_invisibility]
 		#Affects how many seconds the invisibility effect should apply before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 
 	[items.shock_pendant]
 		#Affects how many times the pendant's effect can be applied before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#Chance for the pendant to strike an attacker when the wearer is attacked
 		#Range: 0.0 ~ 1.0
 		strike_chance = 0.25
@@ -283,19 +283,19 @@
 		#Affects how many seconds the player can stay underwater using the snorkel before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 
 	[items.steadfast_spikes]
 		#Affects how many times the player can be hit while wearing steadfast spikes before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 
 	[items.superstitious_hat]
 		#Affects how many enemies can be killed using the superstitious hat
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#Looting bonus applied by the superstitious hat
 		#Range: > 0
 		looting_bonus = 1
@@ -304,7 +304,7 @@
 		#Affects how many times the pendant's effect can be applied before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#Chance for the pendant to strike an attacker when the wearer is attacked
 		#Range: 0.0 ~ 1.0
 		strike_chance = 0.5
@@ -320,18 +320,18 @@
 		#Affects how many attacks can be blocked using the umbrella
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 1561
+		durability = 0
 		#Whether umbrellas can be used as a shield
-		is_shield = true
+		is_shield = false
 
 	[items.universal_attractor]
 		#Affects how many items can be picked up using the universal attractor
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 5000
+		durability = 0
 		#The range (in blocks) of the universal attractor
 		#Range: > 0
-		range = 5
+		range = 4
 		#Affects how fast items are moved towards the player
 		#Range: 0.0 ~ Infinity
 		motionMultiplier = 0.6
@@ -343,22 +343,22 @@
 		#Affects how many enemies can be hit using the vampiric glove
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 256
+		durability = 0
 		#The ratio of dealt damage absorbed by the wearer
 		#Range: 0.0 ~ Infinity
 		absorption_ratio = 0.2
 		#The maximum amount of health that can be healed in a single hit
 		#Range: > 0
-		max_health_absorbed = 5
+		max_health_absorbed = 2
 
 	[items.villager_hat]
 		#Affects how many trades can be completed using the villager hat
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 64
+		durability = 0
 		#Affects how much prices are reduced by the villager hat
 		#Range: > 0
-		reputation_bonus = 50
+		reputation_bonus = 25
 
 	[items.whoopee_cushion]
 		#Affects how many farts can be farted using the whoopee cushion

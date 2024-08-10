@@ -11,7 +11,7 @@
       "weapon_attributes": "bettercombat:hammer"
     },
     {
-      "item_id_regex": "double_axe|doubleaxe|war_axe|waraxe|great_axe|greataxe|predators:earthbreaker",
+      "item_id_regex": "macuahuitl|double_axe|doubleaxe|war_axe|waraxe|great_axe|greataxe|predators:earthbreaker",
       "weapon_attributes": "bettercombat:double_axe"
     },
     {
@@ -35,7 +35,7 @@
       "weapon_attributes": "bettercombat:lance"
     },
     {
-      "item_id_regex": "anchor",
+      "item_id_regex": "anchor|club",
       "weapon_attributes": "bettercombat:anchor"
     },
     {
@@ -63,7 +63,7 @@
       "weapon_attributes": "bettercombat:rapier"
     },
     {
-      "item_id_regex": "sickle",
+      "item_id_regex": "sickle|warpick",
       "weapon_attributes": "bettercombat:sickle"
     },
     {

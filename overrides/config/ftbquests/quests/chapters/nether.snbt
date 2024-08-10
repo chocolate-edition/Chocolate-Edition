@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "6753AA6B545E8D27"
+	id: "70B1554E817A968F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1b
+			id: "ftbquests:custom_icon"
+			tag: {
+				Icon: "enlightened_end:items/nether_everglint_mirror"
+			}
+		}
+		id: "51D2618414C8D9EA"
+		invisible: true
+		size: 5.0d
+		subtitle: "The Realm of Chaos, where cthonic and primordial forces bubble and broil."
+		tasks: [{
+			dimension: "minecraft:the_nether"
+			id: "17BF31ED6D334B54"
+			type: "dimension"
+		}]
+		title: "Nether"
+		x: 1.5d
+		y: 0.75d
+	}]
+	title: "&4Nether"
+}

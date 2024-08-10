@@ -16,11 +16,27 @@
 
 "mob":"minecraft:iron_golem",
 
-"player":true,
+"remove":"minecraft:iron_ingot"
+    
+},
 
-"item":"minecraft:iron_ingot",
+{
 
-"itemcount": "0/0/0"
+    "mob":"iter_rpg:scallop",
+    
+    "remove":"iter_rpg:pearl"
+        
+    },
+
+{
+
+    "mob":"predators:shaman_of_moonlight",
+    
+    "player":true,
+    
+    "item":"blue_skies:runic_arc",
+    
+    "itemcount": "1/1/1"
     
 },
 
@@ -35,6 +51,18 @@
 "itemcount": "0-2/1-3/1-4"
 
 },
+
+{
+
+    "mob":"corundumguardian:corundum_guardian",
+    
+    "player":true,
+    
+    "item":"blue_skies:life_arc",
+    
+    "itemcount": "1/1/1"
+    
+    },
 
 {
 

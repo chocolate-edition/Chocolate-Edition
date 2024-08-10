@@ -6,7 +6,7 @@
 	group: "124DA5EC6A42A11D"
 	icon: "minecraft:barrier"
 	id: "2C7D4E108CF721D5"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -2015,6 +2015,29 @@
 			}]
 			x: -4.5d
 			y: 8.25d
+		}
+		{
+			can_repeat: true
+			id: "18FA7E02F0E839F8"
+			rewards: [{
+				id: "498A68C7BCA12BE4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "mutantmore:mutant_blaze_core"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mutantmore:mutant_blaze"
+				id: "7DAB719B237AA4A1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 9.5d
 		}
 	]
 	title: "Flags"
