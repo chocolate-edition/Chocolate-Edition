@@ -5,7 +5,7 @@ var nightVision = <item:minecraft:potion>.withTag({Potion: "minecraft:night_visi
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-		{ "item": "meetyourfight:haunted_bell" },
+		//{ "item": "meetyourfight:haunted_bell" },
         { "mob": "meetyourfight:bellringer" },
 	{ 
 		"mob": "dungeons_mobs:wraith", 

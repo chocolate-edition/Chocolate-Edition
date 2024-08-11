@@ -349,6 +349,7 @@ var itemsCursed = [
 	<item:enigmaticlegacy:soul_crystal>
 ];
 
+
 var itemsBossSummons = [
 	<item:meetyourfight:dusk_key>,
 	<item:meetyourfight:fossil_bait>,
@@ -404,10 +405,12 @@ for item in itemsCursed {
 	craftingTable.remove(item);
 }
 
+/*
 for item in itemsBossSummons {
 	ItemStages.restrict(item.anyDamage(), "Summoning Alter").preventInventory(false).preventPickup(false).hiddenName("Summoning Alter Item").preventUsing(false);
 	craftingTable.remove(item);
 }
+*/
 
 /* gotta figure this out for later
 var stages = ["one", "two", "three", "four", "five"] as string[];

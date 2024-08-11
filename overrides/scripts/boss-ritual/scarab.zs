@@ -2,7 +2,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-        { "item": "minecraft:suspicious_sand" }, 
+       // { "item": "minecraft:suspicious_sand" }, 
         { "mob": "predators:scarab" }
     ],
     "inputs": [	

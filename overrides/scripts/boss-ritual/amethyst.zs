@@ -2,8 +2,8 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-        { "mob": "predators:rock_boss" },
-        { "item": "predators:amethyst_geode" }
+        { "mob": "predators:rock_boss" }
+        //{ "item": "predators:amethyst_geode" }
     ],
     "inputs": [
         { "ingredient": { "item": "epicsamurai:amethyst_ingot" }, "count": 8 }, 

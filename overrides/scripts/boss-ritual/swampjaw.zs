@@ -9,7 +9,7 @@ var Hooks = <item:aquaculture:iron_hook> | <item:aquaculture:gold_hook> | <item:
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-		{ "item": "meetyourfight:fossil_bait" }, 
+	//	{ "item": "meetyourfight:fossil_bait" }, 
         { "mob": "meetyourfight:swampjaw" },
 	{ 
 		"mob": "meetyourfight:swamp_mine", 

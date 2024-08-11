@@ -1,10 +1,12 @@
+/*
+
 var bugPheromones = <item:minecraft:potion>.withTag({Potion: "alexsmobs:bug_pheromones"}) | <item:minecraft:potion>.withTag({Potion: "alexsmobs:long_bug_pheromones"});
 
 <recipetype:summoningrituals:altar>.addJsonRecipe("queenbee", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-		{ "item": "create_confectionery:honey_candy" }, 
+		//{ "item": "create_confectionery:honey_candy" }, 
         { "mob": "queen_bee:queen_bee" }
     ],
     "inputs": [	
@@ -27,7 +29,7 @@ var bugPheromones = <item:minecraft:potion>.withTag({Potion: "alexsmobs:bug_pher
 }
 );
 
-/*
+
 <recipetype:summoningrituals:altar>.addJsonRecipe("queenbee-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 

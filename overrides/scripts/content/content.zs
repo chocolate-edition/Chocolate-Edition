@@ -1,3 +1,5 @@
+  /*
+
 #loader contenttweaker
 
 import contenttweaker.builder.vanilla.item.Basic;
@@ -64,3 +66,4 @@ val swampJawSummoner = <factory:item>.typed<Basic>() // a 'factory' creates is u
     .tab(bossTab)
     .rarity(<constant:minecraft:item/rarity:rare>) 
     .build("Swamp_Jaw_Summoner");  
+*/

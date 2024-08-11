@@ -2,7 +2,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-		{ "item": "predators:relics_of_the_ancient_gods" },
+	//	{ "item": "predators:relics_of_the_ancient_gods" },
         { "mob": "predators:shaman_of_moonlight" },
 	{ 
 		"mob": "predators:follower_of_moonlight", 

@@ -2,7 +2,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" },
     "outputs": [
-            { "item": "predators:refined_prismarine" },
+            //{ "item": "predators:refined_prismarine" },
             { "mob": "predators:prisnautilus" }
            ],
     "inputs": [

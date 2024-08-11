@@ -2,7 +2,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-        { "item": "minecraft:blade_pottery_sherd" }, 
+        //{ "item": "minecraft:blade_pottery_sherd" }, 
         { "mob": "meetyourfight:rosalyne" },
     ],
     "inputs": [	

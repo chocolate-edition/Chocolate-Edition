@@ -4,7 +4,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-{ "item": "minecraft:archer_pottery_sherd" }, 
+		//{ "item": "minecraft:archer_pottery_sherd" }, 
         { "mob": "predators:huntsman" },
 	{ 
 		"mob": "predators:hunter", 

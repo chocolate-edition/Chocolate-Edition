@@ -3,7 +3,7 @@
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
 
-        { "item": "meetyourfight:devils_ante" }, 
+        //{ "item": "meetyourfight:devils_ante" }, 
         { "mob": "meetyourfight:dame_fortuna" }
     ],
     "inputs": [	
