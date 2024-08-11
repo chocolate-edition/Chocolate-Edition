@@ -170,8 +170,8 @@ key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.toggle_felling:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
 key_treechop.key.open_settings_overlay:key.keyboard.unknown
-key_placebo.toggleTrails:key.keyboard.keypad.9
-key_placebo.toggleWings:key.keyboard.keypad.8
+key_placebo.toggleTrails:key.keyboard.unknown
+key_placebo.toggleWings:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
