@@ -103,6 +103,13 @@ to make editing this file much easier.
 		"unusualprehistory:stone_tar_fossil":"minecraft:stone",
 		"unusualprehistory:permafrost_fossil":"quark:permafrost",
 		"unusualprehistory:permafrost":"quark:permafrost",
- 		"epicsamurai:deepslate_silver_ore": "galosphere:deepslate_silver_ore"
+ 		"epicsamurai:deepslate_silver_ore": "galosphere:deepslate_silver_ore",
+		"naturalist:duckweed" : "environmental:duckweed",
+		"naturalist:cattail" : "environmental:cattail",
+		"quark:carrot_crate" : "farmersdelight:carrot_crate",
+		"quark:potato_crate" : "farmersdelight:potato_crate",
+		"quark:beetroot_crate" : "farmersdelight:beetroot_crate"
+
+		
 	}	
 }

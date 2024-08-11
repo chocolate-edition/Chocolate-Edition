@@ -1,0 +1,1 @@
+smithing.addRecipe("netherite_to_dark_metal_sword", <item:born_in_chaos_v1:sharpened_dark_metal_sword>, <item:minecraft:netherite_sword>.anyDamage(), <item:born_in_chaos_v1:armor_plate_from_dark_metal>);
