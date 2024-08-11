@@ -32,6 +32,7 @@ var Hooks = <item:aquaculture:iron_hook> | <item:aquaculture:gold_hook> | <item:
 }
 );
 
+/*
 <recipetype:summoningrituals:altar>.addJsonRecipe("spawmjaw-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
@@ -53,3 +54,4 @@ var Hooks = <item:aquaculture:iron_hook> | <item:aquaculture:gold_hook> | <item:
     "weather": "THUNDER"
 }
 );
+*/

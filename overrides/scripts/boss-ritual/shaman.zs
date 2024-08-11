@@ -25,6 +25,7 @@
 }
 );
 
+/*
 <recipetype:summoningrituals:altar>.addJsonRecipe("shaman-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
@@ -46,3 +47,4 @@
 	"weather": "CLEAR"
 }
 );
+*/

@@ -8,6 +8,7 @@
     "inputs": [
 	{ "ingredient": { "item": "ecologics:seashell" }, "count": 3 },
 	{ "ingredient": { "item": "upgrade_aquatic:prismarine_rod" }, "count": 4 },
+    { "ingredient": { "item": "minecraft:heart_of_the_sea" }, "count": 1 },
         { "ingredient": { "item": "minecraft:diamond" }, "count": 32 }
     ],
     "sacrifices": { 
@@ -21,6 +22,7 @@
 }
 );
 
+/*
 <recipetype:summoningrituals:altar>.addJsonRecipe("prisnautilus-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" },
@@ -37,3 +39,5 @@
    	"weather": "RAIN"
 }
 );
+
+*/

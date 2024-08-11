@@ -34,7 +34,7 @@ var nightVision = <item:minecraft:potion>.withTag({Potion: "minecraft:night_visi
 }
 );
 
-
+/*
 <recipetype:summoningrituals:altar>.addJsonRecipe("bellringer-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
@@ -55,4 +55,4 @@ var nightVision = <item:minecraft:potion>.withTag({Potion: "minecraft:night_visi
 	"day_time": "NIGHT"
 }
 );
-
+*/

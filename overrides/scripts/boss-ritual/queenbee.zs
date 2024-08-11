@@ -27,7 +27,7 @@ var bugPheromones = <item:minecraft:potion>.withTag({Potion: "alexsmobs:bug_pher
 }
 );
 
-
+/*
 <recipetype:summoningrituals:altar>.addJsonRecipe("queenbee-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
@@ -43,3 +43,4 @@ var bugPheromones = <item:minecraft:potion>.withTag({Potion: "alexsmobs:bug_pher
 	"day_time": "NIGHT"
 }
 );
+*/

@@ -31,6 +31,8 @@
 }
 );
 
+/*
+
 <recipetype:summoningrituals:altar>.addJsonRecipe("melon-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
@@ -58,3 +60,5 @@
 	"weather": "RAIN"
 }
 );
+
+*/
