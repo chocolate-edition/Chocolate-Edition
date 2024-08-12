@@ -2842,7 +2842,7 @@
 			rewards: [
 				{
 					auto: "no_toast"
-					command: "/execute at @p run effect give @e[type=easy_npc:humanoid,distance=16..32] minecraft:glowing 6 1 true"
+					command: "/execute at @p run effect give @e[type=easy_npc:humanoid,distance=8..32] minecraft:glowing 6 1 true"
 					exclude_from_claim_all: true
 					id: "00FE820D42D02C06"
 					ignore_reward_blocking: true
@@ -2852,7 +2852,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/execute at @p run effect give @e[type=easy_npc:villager,distance=16..32] minecraft:glowing 6 1 true"
+					command: "/execute at @p run effect give @e[type=easy_npc:villager,distance=8..32] minecraft:glowing 6 1 true"
 					exclude_from_claim_all: true
 					id: "56FA70953E697143"
 					ignore_reward_blocking: true
@@ -2862,7 +2862,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/execute at @p run effect give @e[type=easy_npc:zombie_villager,distance=16..32] minecraft:glowing 6 1 true"
+					command: "/execute at @p run effect give @e[type=easy_npc:zombie_villager,distance=8..32] minecraft:glowing 6 1 true"
 					exclude_from_claim_all: true
 					id: "461CAEAF34F4AEED"
 					ignore_reward_blocking: true
@@ -2872,7 +2872,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/execute at @p run effect give @e[type=easy_npc:allay,distance=16..32] minecraft:glowing 6 1 true"
+					command: "/execute at @p run effect give @e[type=easy_npc:allay,distance=8..32] minecraft:glowing 6 1 true"
 					exclude_from_claim_all: true
 					id: "0F82C3DEEF912D06"
 					ignore_reward_blocking: true
