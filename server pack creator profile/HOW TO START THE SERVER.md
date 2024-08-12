@@ -10,17 +10,17 @@ simply run start.sh using bash or make your hosted server start script be
 
 bash start.sh
 
-## for windows 11
+## for windows
 
 you may be able to get away with simply "un blocking" the script.
 1. right click the start.ps1 file, and choose "properties"
-2. find and click the "unblock" button
+2. find and check the "unblock" checkbox at the bottom of the window
 3. then you can start the server by running start.ps1 with powershell. (right click > run with powershell)
 
 if this doesnt work, please try the following steps as well
 
 
-## for Windows 10
+## Set execution policy to Remote-Signed
 
 you will need to enable running powershell scripts from unknown sources. keep in mind this will allow any powershell script downloaded from the internet to be run, so be careful if downloading anything sketchy.
 
@@ -30,6 +30,8 @@ you will need to enable running powershell scripts from unknown sources. keep in
 set-executionpolicy remotesigned
 
 then you can start the server by running start.ps1 with powershell. (right click > run with powershell)
+
+## Common problems
 
 the first time the server starts you will be prompted to accept the EULA. afterwards you should see the server logs as the server starts up.
 
@@ -45,7 +47,7 @@ example:
 
 JAVA=C:/Program Files/Java/jdk-17/bin/java.exe
 
-if you try starting it and get an error, where at the top it says it cannot parse your java path, chech and see if the path it shows has 2 sets of quotes. if it looks like ""C:/Program Files/Java/jdk-17/bin/java.exe"", then remove quotes from you path specification.
+if you try starting it and get an error, where at the top it says it cannot parse your java path, check and see if the path it shows has 2 sets of quotes. if it looks like ""C:/Program Files/Java/jdk-17/bin/java.exe"", then remove quotes from you path specification.
 
 if it says "unexpected escape character \P", then try replacing all \ in your path with /
 
@@ -58,6 +60,6 @@ should instead be
 
 ## to upgrade from a previous version
 
-you will need to **fully replace** config, defaultconfig, mods, and scripts. this means either deleting them from your current server and dragging in the new ones, or copy everything else from the old server into the new pack.
+you will need to **fully replace** config, defaultconfigs, mods, and scripts. this means either deleting them from your current server and dragging in the new ones, or copy everything else from the old server into the new pack.
 
 simply copying the folders either direction will not work as this may leave remnants of files that should no longer exist.
