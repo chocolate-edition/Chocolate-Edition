@@ -341,7 +341,6 @@
 	order_index: 2
 	quest_links: [ ]
 	quests: [{
-		disable_toast: true
 		icon: {
 			Count: 1b
 			ForgeCaps: {
@@ -350,6 +349,11 @@
 			id: "paraglider:stamina_vessel"
 		}
 		id: "5859ECF907ACA2D5"
+		rewards: [{
+			id: "78E5BFBDF55E7BF2"
+			type: "xp_levels"
+			xp_levels: 2
+		}]
 		size: 5.0d
 		tasks: [{
 			id: "3E5558E6A67A59A3"

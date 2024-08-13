@@ -1183,7 +1183,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["4EB20E7651FBF99C"]
+			disable_toast: true
 			icon: "waystones:waystone"
 			id: "0033D56F43CF73BC"
 			rewards: [{
@@ -1200,11 +1200,7 @@
 			shape: "square"
 			size: 3.0d
 			subtitle: "Place it only once for your base. That is the intended experience; however if you end up carrying it around with you, i can't stop you."
-			tasks: [{
-				id: "49B26960800CA1C9"
-				title: "A Waystone for your Base"
-				type: "checkmark"
-			}]
+			title: "Free waystone for your base!"
 			x: 4.5d
 			y: 10.5d
 		}
