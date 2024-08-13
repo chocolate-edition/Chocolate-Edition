@@ -2027,7 +2027,7 @@
 				""
 				"• Athame - Dropped by &cDeepling Priests&r, which are found in Sunken Cities or rarely fished up"
 				""
-				"• Crystallized Coral - Crafted using &eCrystallized Coral Fragments&r dropped by &cCorallsus&r, which are found in Sunken Cities or rarely fished up"
+				"• Crystallized Coral - Crafted using &eCoral Chunks&r dropped by &cCorallsus&r, which are found in Sunken Cities or rarely fished up"
 				""
 				"• Neptunium Ingot - Found in the rarely fished up &eNeptune's Bounty&r or smelted down from &eNeptunium&r gear."
 			]
@@ -2141,7 +2141,7 @@
 		{
 			dependencies: ["2243BA6B2363797E"]
 			description: [
-				"This item is crafted from 4 &eCrystallized Coral Fragments&r or 4 &eCoral Chunk&r, which are dropped by the &cCoral Golem&r and &cCorallsus&r mobs. The &cCorallsus&r spawns in Sunken Cities or can be rarely fished up. This item is not consumed during crafting."
+				"This item is crafted from 4 &eCoral Chunk&r or 4 &eCrystallized Coral Fragments&r, which are dropped by the &cCorallsus&r and &cCoral Golem&r mobs respectively. The &cCorallsus&r spawns in Sunken Cities or can be rarely fished up. This item is not consumed during crafting."
 				""
 				"The &eCrystallized Coral&r is also used to craft the &eAbyssal Sacrifice&r, used to summon the &4Leviathan&r."
 			]
@@ -2159,7 +2159,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Crafted from 4 Crystallized Coral Fragments, which are dropped by the Coralssus found in Sunken Cities"
+			subtitle: "Crafted from 4 Coral Chunks, which are dropped by the Coralssus found in Sunken Cities"
 			tasks: [{
 				id: "7C1138C1C02EB2B8"
 				item: {
@@ -2936,7 +2936,7 @@
 				"2243BA6B2363797E"
 				"112185B930D06A2A"
 			]
-			description: ["The &eGuardian Eye&r accepts two kinds of pearls, and you can choose whichever pearl seems easiest to you. The regular &ePearl&r is obtained by giving &eClams&r to &aOtters&r, however, you may need a LOT of &eClams&r to do so. The Tempest Pearl is obtained by killing the &4Insatiable&r, a boss that spawns after killing farm animals in a swamp with a sacrificial dagger while its raining."]
+			description: ["The &eGuardian Eye&r accepts two kinds of pearls, and you can choose whichever pearl seems easiest to you. The regular &ePearl&r is obtained by crushing &eClams&r or by giving &eClams&r to &aOtters&r, however, you may need a LOT of &eClams&r to do so. The Tempest Pearl is obtained by killing the &4Insatiable&r, a boss that spawns after killing farm animals in a swamp with a sacrificial dagger while its raining."]
 			id: "6308B5B267BE4533"
 			rewards: [{
 				id: "50B196016F9818D7"
@@ -2950,7 +2950,7 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Obtained by giving Clams to an Otter or by killing the Insatiable"
+			subtitle: "Obtained by crushing clams, giving Clams to an Otter or by killing the Insatiable"
 			tasks: [
 				{
 					id: "674C0846FFECD464"
