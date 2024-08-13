@@ -13567,13 +13567,7 @@
 			tasks: [
 				{
 					entity: "unusualprehistory:ammon"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:ammon_spawn_egg"
-					}
+					icon: "unusualprehistory:ammon_spawn_egg"
 					id: "592C72C61137425B"
 					title: "Kill 5 Ammonites"
 					type: "kill"
@@ -13581,13 +13575,7 @@
 				}
 				{
 					entity: "unusualprehistory:antarctopelta"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:antarcto_spawn_egg"
-					}
+					icon: "unusualprehistory:antarcto_spawn_egg"
 					id: "3AD096262C269F11"
 					title: "Kill 2 Antarctopelta"
 					type: "kill"
@@ -13595,13 +13583,7 @@
 				}
 				{
 					entity: "unusualprehistory:anuro"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:anuro_spawn_egg"
-					}
+					icon: "unusualprehistory:anuro_spawn_egg"
 					id: "7AA92B0ECEC6700A"
 					title: "Kill 3 Anurognathus"
 					type: "kill"
@@ -13609,13 +13591,7 @@
 				}
 				{
 					entity: "unusualprehistory:austroraptor"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:austroraptor_spawn_egg"
-					}
+					icon: "unusualprehistory:austroraptor_spawn_egg"
 					id: "713CB12B65D2008F"
 					title: "Kill 2 Flamengo"
 					type: "kill"
@@ -13623,13 +13599,7 @@
 				}
 				{
 					entity: "unusualprehistory:barinasuchus"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:barinasuchus_spawn_egg"
-					}
+					icon: "unusualprehistory:barinasuchus_spawn_egg"
 					id: "56C92F2A2ABAA5EE"
 					title: "Kill 3 Barinasuchus"
 					type: "kill"
@@ -13637,13 +13607,7 @@
 				}
 				{
 					entity: "unusualprehistory:beelz"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:beelz_spawn_egg"
-					}
+					icon: "unusualprehistory:beelz_spawn_egg"
 					id: "7C828C4BB3EAEFC6"
 					title: "Kill 2x Beelzebufo"
 					type: "kill"
@@ -13651,13 +13615,7 @@
 				}
 				{
 					entity: "unusualprehistory:brachi"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:brachi_spawn_egg"
-					}
+					icon: "unusualprehistory:brachi_spawn_egg"
 					id: "13F25ED303B2850F"
 					title: "Kill 1x Brachiosaurus"
 					type: "kill"
@@ -13665,36 +13623,11 @@
 				}
 				{
 					entity: "unusualprehistory:coty"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:coty_spawn_egg"
-					}
+					icon: "unusualprehistory:coty_spawn_egg"
 					id: "068249818B757B05"
 					title: "Kill 5x Cotylorhynchus"
 					type: "kill"
 					value: 5L
-				}
-				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:dunk_spawn_egg"
-					}
-					id: "154DFB9BCD3431DD"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:dunk_spawn_egg"
-					}
-					title: "Kill 1x Rock Thrasher"
-					type: "item"
 				}
 				{
 					entity: "unusualprehistory:eryon"
@@ -13880,13 +13813,7 @@
 				}
 				{
 					entity: "unusualprehistory:sludge"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:sludge_spawn_egg"
-					}
+					icon: "unusualprehistory:sludge_spawn_egg"
 					id: "4F48B18E9A28EC4B"
 					title: "Kill 1x Sludge"
 					type: "kill"
@@ -13977,20 +13904,6 @@
 					value: 3L
 				}
 				{
-					entity: "oddorganisms:borealopelta"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "oddorganisms:leptictidium_spawn_egg"
-					}
-					id: "2A76486E22FCA625"
-					title: "Kill 5x Lepticium"
-					type: "kill"
-					value: 5L
-				}
-				{
 					entity: "oddorganisms:dawn_horse"
 					icon: {
 						Count: 1b
@@ -14017,6 +13930,19 @@
 					title: "Kill 2x Doedicurus"
 					type: "kill"
 					value: 2L
+				}
+				{
+					entity: "unusualprehistory:dunk"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualprehistory:dunk_spawn_egg"
+					}
+					id: "794E1E2E490CD848"
+					type: "kill"
+					value: 1L
 				}
 			]
 			title: "I AM BECOME METEOR - Ancient Hunt"
