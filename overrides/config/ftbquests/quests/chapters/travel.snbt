@@ -1,0 +1,28 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "travel"
+	group: "6753AA6B545E8D27"
+	icon: "waystones:waystone"
+	id: "5FD74D9DFBF9E2D1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "10DA8DBFD01A77E7"
+		tasks: [{
+			id: "74225C9D39B11A04"
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "easy_npc:humanoid_spawn_egg"
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&l - Travel"
+}

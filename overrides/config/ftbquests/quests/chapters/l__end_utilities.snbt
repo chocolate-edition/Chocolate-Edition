@@ -1,0 +1,75 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l__end_utilities"
+	group: "6753AA6B545E8D27"
+	icon: "endergetic:activated_mystical_obsidian_activation_rune"
+	id: "68D1DF7FD258461E"
+	order_index: 23
+	quest_links: [ ]
+	quests: [
+		{
+			id: "748D5030D700FD4C"
+			tasks: [{
+				id: "3207AC92C539F775"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "enlightened_end:nuclear_furnace"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "22A4E2F2A7F54284"
+			tasks: [
+				{
+					id: "621A5065E0EA6B45"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:xenon_laser"
+					}
+					type: "item"
+				}
+				{
+					id: "7F9917A1BDA86ADC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:malachite_reflector"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "7A713AF5AD9C49DF"
+			tasks: [{
+				id: "54242E9DB547CD59"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "endergetic:activated_mystical_obsidian_activation_rune"
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 0.0d
+		}
+	]
+	title: "&l - End Utilities"
+}

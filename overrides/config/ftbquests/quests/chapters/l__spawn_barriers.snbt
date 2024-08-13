@@ -1,0 +1,62 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l__spawn_barriers"
+	group: "6753AA6B545E8D27"
+	icon: "brazier:icon"
+	id: "792D274AEE1A6390"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4373306D03DE8F67"
+			tasks: [{
+				id: "0012B4FAF0358620"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "brazier:brazier"
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.5d
+		}
+		{
+			id: "5F88CC3E05B37642"
+			tasks: [{
+				id: "0EF685E3B8A6FD72"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "bosses_of_mass_destruction:mob_ward"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "5F0167878F94CD3D"
+			tasks: [{
+				id: "269A2CE54EA08C7F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "blue_skies:warding_pearl"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+	]
+	title: "&l - Barriers"
+}

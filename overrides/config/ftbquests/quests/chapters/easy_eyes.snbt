@@ -82,8 +82,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: -11.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -154,8 +154,8 @@
 				type: "item"
 			}]
 			title: "Hulk Hammer (Lost Eye)"
-			x: 5.0d
-			y: -2.25d
+			x: -11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -190,8 +190,8 @@
 				type: "item"
 			}]
 			title: "Glow Shroom (Lost Eye)"
-			x: 4.0d
-			y: 1.75d
+			x: -12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -262,8 +262,8 @@
 				}
 			]
 			title: "Rope Arrow (Lost Eye)"
-			x: 6.0d
-			y: 1.75d
+			x: -10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -300,8 +300,8 @@
 				type: "item"
 			}]
 			title: "Voidquartz Shard (Lost Eye)"
-			x: 3.5d
-			y: 0.75d
+			x: -12.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -338,8 +338,8 @@
 				type: "item"
 			}]
 			title: "Heart of Diamond (Lost Eye)"
-			x: 4.0d
-			y: -1.5d
+			x: -12.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -377,8 +377,8 @@
 				type: "item"
 			}]
 			title: "Forgotten Hat (Lost Eye)"
-			x: 6.0d
-			y: -1.5d
+			x: -10.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -426,8 +426,8 @@
 				type: "item"
 			}]
 			title: "Bomb (Lost Eye)"
-			x: 6.5d
-			y: 0.75d
+			x: -9.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -476,8 +476,8 @@
 				type: "item"
 			}]
 			title: "Ancient Geode (Lost Eye)"
-			x: 5.0d
-			y: 2.25d
+			x: -11.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -501,8 +501,8 @@
 				type: "item"
 			}]
 			title: "Blaze Powder"
-			x: -1.25d
-			y: 0.5d
+			x: -17.25d
+			y: 1.75d
 		}
 		{
 			dependencies: [
@@ -552,8 +552,8 @@
 				type: "item"
 			}]
 			title: "A Simple Eye"
-			x: 0.0d
-			y: 0.0d
+			x: -16.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -649,8 +649,8 @@
 				type: "item"
 			}]
 			title: "Ender Pearl"
-			x: -1.25d
-			y: -0.5d
+			x: -17.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -693,8 +693,8 @@
 				type: "item"
 			}]
 			title: "Ravager Hide (Corrupted Eye)"
-			x: 11.0d
-			y: -1.5d
+			x: -5.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -726,8 +726,8 @@
 				type: "item"
 			}]
 			title: "Emerald Block (Corrupted Eye)"
-			x: 9.0d
-			y: 1.25d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -791,8 +791,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: -6.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -823,8 +823,8 @@
 				type: "item"
 			}]
 			title: "Hay Bale (Corrupted Eye)"
-			x: 11.0d
-			y: 1.25d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -858,8 +858,8 @@
 				type: "item"
 			}]
 			title: "Conjurer Hat (Corrupted Eye)"
-			x: 10.0d
-			y: -2.25d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -894,8 +894,8 @@
 				type: "item"
 			}]
 			title: "Carved Pumpkin (Corrupted Eye)"
-			x: 10.0d
-			y: 2.0d
+			x: -6.0d
+			y: 3.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -928,8 +928,8 @@
 				type: "item"
 			}]
 			title: "Halloween Candy (Corrupted Eye)"
-			x: 9.0d
-			y: -1.5d
+			x: -7.0d
+			y: -0.25d
 		}
 		{
 			dependencies: [
@@ -954,8 +954,8 @@
 				type: "item"
 			}]
 			title: "Your Best Friend"
-			x: 0.0d
-			y: -3.5d
+			x: -16.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1003,8 +1003,8 @@
 				type: "item"
 			}]
 			title: "Treasure Pouch (Black Eye)"
-			x: 14.5d
-			y: 2.0d
+			x: -1.5d
+			y: 3.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1045,8 +1045,8 @@
 				type: "item"
 			}]
 			title: "Pacific Halibut (Black Eye)"
-			x: 13.5d
-			y: -1.5d
+			x: -2.5d
+			y: -0.25d
 		}
 		{
 			dependencies: [
@@ -1131,8 +1131,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1175,8 +1175,8 @@
 				type: "item"
 			}]
 			title: "Rainbow Trout (Black Eye)"
-			x: 14.5d
-			y: -2.25d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1213,8 +1213,8 @@
 				type: "item"
 			}]
 			title: "Black Tea Leaves (Black Eye)"
-			x: 13.75d
-			y: 1.25d
+			x: -2.25d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1258,8 +1258,8 @@
 				type: "item"
 			}]
 			title: "Sea Stew (Black Eye)"
-			x: 15.5d
-			y: 2.0d
+			x: -0.5d
+			y: 3.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1319,8 +1319,8 @@
 				type: "item"
 			}]
 			title: "Piranha (Black Eye)"
-			x: 16.5d
-			y: -1.5d
+			x: 0.5d
+			y: -0.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1375,8 +1375,8 @@
 				type: "item"
 			}]
 			title: "Fish Oil (Black Eye)"
-			x: 16.25d
-			y: 1.25d
+			x: 0.25d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1423,8 +1423,8 @@
 				type: "item"
 			}]
 			title: "Atlantic Halibut (Black Eye)"
-			x: 15.5d
-			y: -2.25d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1460,8 +1460,8 @@
 				type: "item"
 			}]
 			title: "Polished Rose Quartz (Evil Eye)"
-			x: 21.0d
-			y: 1.25d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1499,8 +1499,8 @@
 				type: "item"
 			}]
 			title: "Block of Experience (Evil Eye)"
-			x: 19.0d
-			y: 1.25d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1590,8 +1590,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: 0.0d
+			x: 4.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1652,8 +1652,8 @@
 				type: "item"
 			}]
 			title: "Precision Mechanism (Evil Eye)"
-			x: 19.0d
-			y: -1.5d
+			x: 3.0d
+			y: -0.25d
 		}
 		{
 			dependencies: [
@@ -1717,8 +1717,8 @@
 				type: "item"
 			}]
 			title: "Sturdy Sheet (Evil Eye)"
-			x: 21.0d
-			y: -1.5d
+			x: 5.0d
+			y: -0.25d
 		}
 		{
 			dependencies: [
@@ -1757,8 +1757,8 @@
 				type: "item"
 			}]
 			title: "Brass Ingot (Evil Eye)"
-			x: 20.0d
-			y: -2.25d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1827,8 +1827,8 @@
 				type: "item"
 			}]
 			title: "Crushing Wheel (Evil Eye)"
-			x: 22.25d
-			y: -2.25d
+			x: 6.25d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1884,8 +1884,8 @@
 				type: "item"
 			}]
 			title: "Mechanical Crafter (Evil Eye)"
-			x: 22.5d
-			y: -3.5d
+			x: 6.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -1919,8 +1919,8 @@
 				type: "item"
 			}]
 			title: "Totem of Undying (Evil Eye)"
-			x: 18.5d
-			y: -4.5d
+			x: 2.5d
+			y: -3.25d
 		}
 		{
 			dependencies: [
@@ -1973,8 +1973,8 @@
 				}
 			]
 			title: "Blaze Burner (Evil Eye)"
-			x: 19.0d
-			y: -3.25d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2005,8 +2005,8 @@
 				type: "item"
 			}]
 			title: "Netherrack (Evil Eye)"
-			x: 17.75d
-			y: -3.5d
+			x: 1.75d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -2027,7 +2027,7 @@
 				""
 				"• Athame - Dropped by &cDeepling Priests&r, which are found in Sunken Cities or rarely fished up"
 				""
-				"• Crystallized Coral - Crafted using &eCrystallized Coral Fragments&r dropped by &cCorallsus&r, which are found in Sunken Cities or rarely fished up"
+				"• Crystallized Coral - Crafted using &eCoral Chunks&r dropped by &cCorallsus&r, which are found in Sunken Cities or rarely fished up"
 				""
 				"• Neptunium Ingot - Found in the rarely fished up &eNeptune's Bounty&r or smelted down from &eNeptunium&r gear."
 			]
@@ -2086,8 +2086,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.0d
-			y: 0.0d
+			x: 9.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2135,13 +2135,13 @@
 				type: "item"
 			}]
 			title: "Neptunium Ingot (Exotic Eye)"
-			x: 26.0d
-			y: 1.25d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
 			description: [
-				"This item is crafted from 4 &eCrystallized Coral Fragments&r or 4 &eCoral Chunk&r, which are dropped by the &cCoral Golem&r and &cCorallsus&r mobs. The &cCorallsus&r spawns in Sunken Cities or can be rarely fished up. This item is not consumed during crafting."
+				"This item is crafted from 4 &eCoral Chunk&r or 4 &eCrystallized Coral Fragments&r, which are dropped by the &cCorallsus&r and &cCoral Golem&r mobs respectively. The &cCorallsus&r spawns in Sunken Cities or can be rarely fished up. This item is not consumed during crafting."
 				""
 				"The &eCrystallized Coral&r is also used to craft the &eAbyssal Sacrifice&r, used to summon the &4Leviathan&r."
 			]
@@ -2159,7 +2159,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Crafted from 4 Crystallized Coral Fragments, which are dropped by the Coralssus found in Sunken Cities"
+			subtitle: "Crafted from 4 Coral Chunks, which are dropped by the Coralssus found in Sunken Cities"
 			tasks: [{
 				id: "7C1138C1C02EB2B8"
 				item: {
@@ -2172,8 +2172,8 @@
 				type: "item"
 			}]
 			title: "Crystallized Coral (Exotic Eye)"
-			x: 25.0d
-			y: 2.0d
+			x: 9.0d
+			y: 3.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2224,8 +2224,8 @@
 				type: "item"
 			}]
 			title: "Prismarine Coral (Exotic Eye)"
-			x: 23.5d
-			y: -1.5d
+			x: 7.5d
+			y: -0.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2271,8 +2271,8 @@
 				type: "item"
 			}]
 			title: "Elder Prismarine Coral (Exotic Eye)"
-			x: 26.5d
-			y: -1.5d
+			x: 10.5d
+			y: -0.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2311,8 +2311,8 @@
 				type: "item"
 			}]
 			title: "Athame (Exotic Eye)"
-			x: 24.0d
-			y: 1.25d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2350,8 +2350,8 @@
 				type: "item"
 			}]
 			title: "Pristine Emerald (Exotic Eye)"
-			x: 25.75d
-			y: -2.25d
+			x: 9.75d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2389,8 +2389,8 @@
 				type: "item"
 			}]
 			title: "Pristine Diamond (Exotic Eye)"
-			x: 24.25d
-			y: -2.25d
+			x: 8.25d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2422,8 +2422,8 @@
 				type: "item"
 			}]
 			title: "Eye of Abyss (Exotic Eye)"
-			x: 25.0d
-			y: 3.0d
+			x: 9.0d
+			y: 4.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2521,8 +2521,8 @@
 				type: "item"
 			}]
 			title: "Fishing Rods (Exotic Eye)"
-			x: 26.25d
-			y: 2.25d
+			x: 10.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2553,8 +2553,8 @@
 				type: "item"
 			}]
 			title: "Tackle Box (Exotic Eye)"
-			x: 27.0d
-			y: 1.5d
+			x: 11.0d
+			y: 2.75d
 		}
 		{
 			dependencies: [
@@ -2618,8 +2618,8 @@
 				}
 				type: "item"
 			}]
-			x: 30.0d
-			y: 0.0d
+			x: 14.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2656,8 +2656,8 @@
 				type: "item"
 			}]
 			title: "Prismarine Crystal (Guardian Eye)"
-			x: 28.5d
-			y: -1.5d
+			x: 12.5d
+			y: -0.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2720,8 +2720,8 @@
 				type: "item"
 			}]
 			title: "Prismarine Shard (Guardian Eye)"
-			x: 31.5d
-			y: -1.5d
+			x: 15.5d
+			y: -0.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2762,8 +2762,8 @@
 				type: "item"
 			}]
 			title: "Necromancer Trident (Guardian Eye)"
-			x: 30.0d
-			y: -2.5d
+			x: 14.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2816,8 +2816,8 @@
 				type: "item"
 			}]
 			title: "Elder Eye (Guardian Eye)"
-			x: 29.5d
-			y: 2.25d
+			x: 13.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2853,8 +2853,8 @@
 				type: "item"
 			}]
 			title: "Thrasher Tooth (Guardian Eye)"
-			x: 28.5d
-			y: 1.25d
+			x: 12.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2928,15 +2928,15 @@
 				type: "item"
 			}]
 			title: "Conduit (Guardian Eye)"
-			x: 30.5d
-			y: 2.25d
+			x: 14.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
 				"2243BA6B2363797E"
 				"112185B930D06A2A"
 			]
-			description: ["The &eGuardian Eye&r accepts two kinds of pearls, and you can choose whichever pearl seems easiest to you. The regular &ePearl&r is obtained by giving &eClams&r to &aOtters&r, however, you may need a LOT of &eClams&r to do so. The Tempest Pearl is obtained by killing the &4Insatiable&r, a boss that spawns after killing farm animals in a swamp with a sacrificial dagger while its raining."]
+			description: ["The &eGuardian Eye&r accepts two kinds of pearls, and you can choose whichever pearl seems easiest to you. The regular &ePearl&r is obtained by crushing &eClams&r or by giving &eClams&r to &aOtters&r, however, you may need a LOT of &eClams&r to do so. The Tempest Pearl is obtained by killing the &4Insatiable&r, a boss that spawns after killing farm animals in a swamp with a sacrificial dagger while its raining."]
 			id: "6308B5B267BE4533"
 			rewards: [{
 				id: "50B196016F9818D7"
@@ -2950,7 +2950,7 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Obtained by giving Clams to an Otter or by killing the Insatiable"
+			subtitle: "Obtained by crushing clams, giving Clams to an Otter or by killing the Insatiable"
 			tasks: [
 				{
 					id: "674C0846FFECD464"
@@ -2978,8 +2978,8 @@
 				}
 			]
 			title: "Pearl (Guardian Eye)"
-			x: 31.5d
-			y: 1.25d
+			x: 15.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -2999,8 +2999,8 @@
 				type: "item"
 			}]
 			title: "Ocean Monument Explorer Map (Guardian Eye)"
-			x: 30.0d
-			y: -4.0d
+			x: 14.0d
+			y: -2.75d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -3031,8 +3031,8 @@
 				type: "item"
 			}]
 			title: "Clam (Guardian Eye)"
-			x: 32.0d
-			y: 2.25d
+			x: 16.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -3066,8 +3066,8 @@
 				type: "item"
 			}]
 			title: "Sea Lantern (Guardian Eye)"
-			x: 28.5d
-			y: -2.5d
+			x: 12.5d
+			y: -1.25d
 		}
 		{
 			dependencies: [
@@ -3162,8 +3162,8 @@
 				}
 				type: "item"
 			}]
-			x: 35.0d
-			y: 0.0d
+			x: 19.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -3199,8 +3199,8 @@
 				type: "item"
 			}]
 			title: "Banana (Rogue Eye)"
-			x: 36.0d
-			y: 1.75d
+			x: 20.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -3230,8 +3230,8 @@
 				type: "item"
 			}]
 			title: "Potted Flutter (Rogue Eye)"
-			x: 33.5d
-			y: -1.5d
+			x: 17.5d
+			y: -0.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -3283,8 +3283,8 @@
 				type: "item"
 			}]
 			title: "Slimeball (Rogue Eye)"
-			x: 34.5d
-			y: -2.5d
+			x: 18.5d
+			y: -1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -3354,8 +3354,8 @@
 				type: "item"
 			}]
 			title: "Creeper Shard (Rogue Eye)"
-			x: 35.5d
-			y: -2.5d
+			x: 19.5d
+			y: -1.25d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -3396,8 +3396,8 @@
 				type: "item"
 			}]
 			title: "Thief's Hood (Rogue Eye)"
-			x: 34.0d
-			y: 1.75d
+			x: 18.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -3454,8 +3454,8 @@
 				type: "item"
 			}]
 			title: "Glow Berry Custard (Rogue Eye)"
-			x: 35.0d
-			y: 2.25d
+			x: 19.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -3494,8 +3494,8 @@
 				type: "item"
 			}]
 			title: "Bottle o' Enchanting (Rogue Eye)"
-			x: 36.5d
-			y: -1.5d
+			x: 20.5d
+			y: -0.25d
 		}
 		{
 			description: ["&eGlowstone Dust&r can be found or crafted a variety of ways. They spawn in clusters in the Nether, crushed from &ePrismarine Crystals&r, dropped by &cWitches&r, and traded from &aCleric&r villagers. They can also be crafted using \"glow items\" (&eGlow Ink&r, &eGlow Berries&r, or &eGlow Lichen&r), &eRedstone&r, and &eAmetrine Shards&r."]
@@ -3513,8 +3513,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.25d
-			y: 0.5d
+			x: -18.25d
+			y: 1.75d
 		}
 		{
 			id: "7432AC9814131290"
@@ -3530,8 +3530,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.25d
-			y: -0.5d
+			x: -18.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -3563,8 +3563,8 @@
 				type: "item"
 			}]
 			title: "Tea Seeds (Black Eye)"
-			x: 12.75d
-			y: 2.25d
+			x: -3.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
@@ -3600,8 +3600,8 @@
 				type: "item"
 			}]
 			title: "Brass Hand (Evil Eye)"
-			x: 20.0d
-			y: 2.0d
+			x: 4.0d
+			y: 3.25d
 		}
 	]
 	title: "&aEasy Eyes"

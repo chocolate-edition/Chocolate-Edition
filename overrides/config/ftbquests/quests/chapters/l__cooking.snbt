@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l__cooking"
+	group: "6753AA6B545E8D27"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "farmersdelight:textures/item/cooking_pot.png"
+		}
+	}
+	id: "6123C016D3F73B6B"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "&l - Cooking"
+}

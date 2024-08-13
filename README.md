@@ -109,13 +109,13 @@ if you are adding or removing mods, there is a process you must follow in order 
 
 3. export a profile of your instance by selecting your instance in curseforge > 3dots > export profile
 
-4. ensure `configs`, `defaultconfigs`, `mods`, `resourcepacks`, `scripts`, `shaderepacks`, and `overrides.txt` are selected, then click export.
+4. ensure `configs`, `defaultconfigs`, `mods`, `resourcepacks`, `scripts`, `shaderepacks`, and `servers.dat` are selected, then click export.
 
 5. extract the contents of the generated .zip
 
 6. in your local repo, delete your `/overrides` folder, and copy over the contents from the extracted .zip, overwritting `modlist.html` and `manifest.json`
 
-7. verify that the mod has been added or removed from the modlist, and that the respective config files/folders appear. you may need to manually delete configs for removed mods.
+7. verify that the mod has been added or removed from the modlist. you can use https://diffsort.com/ to check the changes to the modlist. also check that the respective config files/folders appear. you may need to manually delete configs for removed mods.
 
 8. commit and push the changes, open a PR and wait for review.
 

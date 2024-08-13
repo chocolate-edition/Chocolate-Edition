@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "commands"
+	group: "6753AA6B545E8D27"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": { }
+		}
+		id: "minecraft:command_block"
+	}
+	id: "78123ACA4A71205A"
+	order_index: 28
+	quest_links: [ ]
+	quests: [ ]
+	title: "&l - Commands"
+}

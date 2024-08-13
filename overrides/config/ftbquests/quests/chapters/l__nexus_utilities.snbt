@@ -1,0 +1,45 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l__nexus_utilities"
+	group: "6753AA6B545E8D27"
+	id: "1E20111522A67B36"
+	order_index: 26
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1C08D8564D87499D"
+			tasks: [{
+				id: "71DFAA8502D87A5A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "cataclysm:mechanical_fusion_anvil"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6518132D560399FC"
+			tasks: [{
+				id: "2D981F22150FDFFC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "celestisynth:celestial_crafting_table"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "&l - Nexus Utilities"
+}

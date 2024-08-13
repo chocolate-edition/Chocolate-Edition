@@ -1,0 +1,19 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l__infusion"
+	group: "6753AA6B545E8D27"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": { }
+		}
+		id: "infusion_table:infusion_table"
+	}
+	id: "14BF5C31FF1CFE43"
+	order_index: 22
+	quest_links: [ ]
+	quests: [ ]
+	title: "&l - Infusing"
+}
