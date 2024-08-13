@@ -2,7 +2,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" },
     "outputs": [
-            //{ "item": "predators:refined_prismarine" },
+            { "item": "contenttweaker:prisnautilus_summoner" },
             { "mob": "predators:prisnautilus" }
            ],
     "inputs": [
@@ -22,16 +22,16 @@
 }
 );
 
-/*
+
 <recipetype:summoningrituals:altar>.addJsonRecipe("prisnautilus-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" },
     "outputs": [
-            { "item": "predators:refined_prismarine" },
+            { "item": "contenttweaker:prisnautilus_summoner" },
             { "mob": "predators:prisnautilus" }
            ],
     "inputs": [
-	{ "item": "predators:refined_prismarine" }
+	{ "item": "contenttweaker:prisnautilus_summoner" }
     ],
     "recipe_time": 200,
     "block_below": { "block": "contenttweaker:prisnautilus_core" },
@@ -40,4 +40,3 @@
 }
 );
 
-*/

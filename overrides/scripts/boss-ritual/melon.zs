@@ -2,7 +2,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-		//{ "item": "farmersdelight:melon_popsicle" },
+		{ "item": "contenttweaker:melon_summoner" },
         { "mob": "predators:melon_goliath", "offset": { "x": -3, "y":0, "z": -3 } },
 	{ 
 		"mob": "predators:melon_walker", 
@@ -31,13 +31,13 @@
 }
 );
 
-/*
+
 
 <recipetype:summoningrituals:altar>.addJsonRecipe("melon-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-		{ "item": "farmersdelight:melon_popsicle" },
+		{ "item": "contenttweaker:melon_summoner" },
         { "mob": "predators:melon_goliath", "offset": { "x": -3, "y":0, "z": -3 } },
 	{ 
 		"mob": "predators:melon_walker", 
@@ -52,13 +52,12 @@
 	}
     ],
     "inputs": [
-       { "item": "farmersdelight:melon_popsicle" }
+       { "item": "contenttweaker:melon_summoner" }
     ],  
     	"recipe_time": 200,
-    	"block_below": { "block": "minecraft:melon" },
+    	"block_below": { "block": "contenttweaker:melon_core" },
 	"day_time": "NIGHT",
 	"weather": "RAIN"
 }
 );
 
-*/

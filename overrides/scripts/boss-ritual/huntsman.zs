@@ -4,7 +4,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-		//{ "item": "minecraft:archer_pottery_sherd" }, 
+		{ "item": "contenttweaker:huntsman_summoner" }, 
         { "mob": "predators:huntsman" },
 	{ 
 		"mob": "predators:hunter", 
@@ -39,12 +39,12 @@
 }
 );
 
-/*
+
 <recipetype:summoningrituals:altar>.addJsonRecipe("huntsman-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-{ "item": "minecraft:archer_pottery_sherd" }, 
+{ "item": "contenttweaker:huntsman_summoner" }, 
         { "mob": "predators:huntsman" },
 	{ 
 		"mob": "predators:hunter", 
@@ -58,7 +58,7 @@
 	}
     ],
     "inputs": [	
-    	{ "item": "minecraft:archer_pottery_sherd" }
+    	{ "item": "contenttweaker:huntsman_summoner" }
     ],  
 
     "recipe_time": 200,
@@ -66,4 +66,3 @@
 	"day_time": "NIGHT"
 }
 );
-*/

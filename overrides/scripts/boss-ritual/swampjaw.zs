@@ -9,7 +9,7 @@ var Hooks = <item:aquaculture:iron_hook> | <item:aquaculture:gold_hook> | <item:
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-	//	{ "item": "meetyourfight:fossil_bait" }, 
+		{ "item": "contenttweaker:swamp_jaw_summoner" }, 
         { "mob": "meetyourfight:swampjaw" },
 	{ 
 		"mob": "meetyourfight:swamp_mine", 
@@ -32,12 +32,12 @@ var Hooks = <item:aquaculture:iron_hook> | <item:aquaculture:gold_hook> | <item:
 }
 );
 
-/*
+
 <recipetype:summoningrituals:altar>.addJsonRecipe("spawmjaw-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-		{ "item": "meetyourfight:fossil_bait" }, 
+		{ "item": "contenttweaker:swamp_jaw_summoner" }, 
         { "mob": "meetyourfight:swampjaw" },
 	{ 
 		"mob": "meetyourfight:swamp_mine", 
@@ -46,12 +46,12 @@ var Hooks = <item:aquaculture:iron_hook> | <item:aquaculture:gold_hook> | <item:
 	}
     ],
     "inputs": [	
-    	{ "item": "meetyourfight:fossil_bait" }
+    	{ "item": "contenttweaker:swamp_jaw_summoner" }
     ],  
     "recipe_time": 200,
-   	"block_below": { "block": "minecraft:mud" },
+   	"block_below": { "block": "contenttweaker:swamp_jaw_core" },
 	"day_time": "NIGHT",
     "weather": "THUNDER"
 }
 );
-*/
+

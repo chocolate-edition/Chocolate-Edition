@@ -2,7 +2,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-       // { "item": "minecraft:suspicious_sand" }, 
+        { "item": "contenttweaker:scarab_summoner" }, 
         { "mob": "predators:scarab" }
     ],
     "inputs": [	
@@ -19,20 +19,19 @@
 }
 );
 
-/*
+
 <recipetype:summoningrituals:altar>.addJsonRecipe("scarab-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-        { "item": "minecraft:suspicious_sand" }, 
+        { "item": "contenttweaker:scarab_summoner" }, 
         { "mob": "predators:scarab" }
     ],
     "inputs": [	
-	{ "item": "minecraft:suspicious_sand" }, 
+	{ "item": "contenttweaker:scarab_summoner" }, 
     ],  
     	"recipe_time": 200,
-   	"block_below": { "block": "minecraft:sandstone" },
+   	"block_below": { "block": "contenttweaker:scarab_core" },
 	"day_time": "NIGHT"
 }
 );
-*/

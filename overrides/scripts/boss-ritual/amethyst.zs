@@ -2,8 +2,8 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-        { "mob": "predators:rock_boss" }
-        //{ "item": "predators:amethyst_geode" }
+        { "mob": "predators:rock_boss" },
+        { "item": "contenttweaker:amethyst_summoner" }
     ],
     "inputs": [
         { "ingredient": { "item": "epicsamurai:amethyst_ingot" }, "count": 8 }, 
@@ -19,20 +19,18 @@
 }
 );
 
-/*
 <recipetype:summoningrituals:altar>.addJsonRecipe("amethyst-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
         { "mob": "predators:rock_boss" },
-        { "item": "predators:amethyst_geode" }
+        { "item": "contenttweaker:amethyst_summoner" }
     ],
     "inputs": [
-     { "item": "predators:amethyst_geode" }
+     { "item": "contenttweaker:amethyst_summoner" }
     ],  
    	"recipe_time": 200,
-    	"block_below": { "block": "minecraft:budding_amethyst" },
+    	"block_below": { "block": "contenttweaker:amethyst_core" },
 	"day_time": "NIGHT"
 }
 );
-*/

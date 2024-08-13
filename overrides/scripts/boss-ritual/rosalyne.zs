@@ -2,7 +2,7 @@
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-        //{ "item": "minecraft:blade_pottery_sherd" }, 
+        { "item": "contenttweaker:rosalyne_summoner" }, 
         { "mob": "meetyourfight:rosalyne" },
     ],
     "inputs": [	
@@ -20,20 +20,19 @@
 }
 );
 
-/*
+
 <recipetype:summoningrituals:altar>.addJsonRecipe("rosalyne-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-        { "item": "minecraft:blade_pottery_sherd" }, 
+        { "item": "contenttweaker:rosalyne_summoner" }, 
         { "mob": "meetyourfight:rosalyne" },
     ],
     "inputs": [	
-    	 { "item": "minecraft:blade_pottery_sherd" }
+    	 { "item": "contenttweaker:rosalyne_summoner" }
     ],  
     "recipe_time": 200,
    	"block_below": { "block": "contenttweaker:rosalyne_core" },
 	"day_time": "NIGHT"
 }
 );
-*/

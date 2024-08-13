@@ -3,7 +3,7 @@
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
 
-        //{ "item": "meetyourfight:devils_ante" }, 
+        { "item": "contenttweaker:dame_summoner" }, 
         { "mob": "meetyourfight:dame_fortuna" }
     ],
     "inputs": [	
@@ -21,22 +21,21 @@
 }
 );
 
-/*
+
 <recipetype:summoningrituals:altar>.addJsonRecipe("dame-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
 
-        { "item": "meetyourfight:devils_ante" }, 
+        { "item": "contenttweaker:dame_summoner" }, 
         { "mob": "meetyourfight:dame_fortuna" }
     ],
     "inputs": [	
-    	{ "item": "meetyourfight:devils_ante" }
+    	{ "item": "contenttweaker:dame_summoner" }
 	  
     ],  
     "recipe_time": 200,
-   	"block_below": { "block": "minecraft:red_mushroom_block" },
+   	"block_below": { "block": "contenttweaker:dame_core" },
 	"day_time": "NIGHT"
 }
 );
-*/

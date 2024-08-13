@@ -5,7 +5,7 @@ var nightVision = <item:minecraft:potion>.withTag({Potion: "minecraft:night_visi
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-		//{ "item": "meetyourfight:haunted_bell" },
+		{ "item": "contenttweaker:bell_ringer_summoner" },
         { "mob": "meetyourfight:bellringer" },
 	{ 
 		"mob": "dungeons_mobs:wraith", 
@@ -34,12 +34,12 @@ var nightVision = <item:minecraft:potion>.withTag({Potion: "minecraft:night_visi
 }
 );
 
-/*
+
 <recipetype:summoningrituals:altar>.addJsonRecipe("bellringer-alt", {
     "type": "summoningrituals:altar",
     "catalyst": { "item": "iter_rpg:spawner_fragment" }, 
     "outputs": [ 
-		{ "item": "meetyourfight:haunted_bell" },
+		{ "item": "contenttweaker:bell_ringer_summoner" },
         { "mob": "meetyourfight:bellringer" },
 	{ 
 		"mob": "dungeons_mobs:wraith", 
@@ -48,11 +48,11 @@ var nightVision = <item:minecraft:potion>.withTag({Potion: "minecraft:night_visi
 	}
     ],
     "inputs": [	
-    	{ "item": "meetyourfight:haunted_bell" }
+    	{ "item": "contenttweaker:bell_ringer_summoner" }
     ],  
 	"recipe_time": 200,
-   	"block_below": { "block": "galosphere:allurite_lamp" },
+   	"block_below": { "block": "contenttweaker:bell_ringer_core" },
 	"day_time": "NIGHT"
 }
 );
-*/
+
