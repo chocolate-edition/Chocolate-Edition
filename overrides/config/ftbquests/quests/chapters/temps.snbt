@@ -2776,6 +2776,7 @@
 		}
 		{
 			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -2789,6 +2790,7 @@
 			y: 8.25d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				ForgeCaps: {
@@ -2802,6 +2804,7 @@
 			y: 8.25d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1b
 				ForgeCaps: {

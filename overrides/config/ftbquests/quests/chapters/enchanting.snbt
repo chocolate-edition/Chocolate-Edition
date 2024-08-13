@@ -586,13 +586,12 @@
 	order_index: 3
 	quest_links: [ ]
 	quests: [{
-		icon: {
-			Count: 1b
-			ForgeCaps: {
-				"dungeons_libraries:built_in_enchantments": { }
-			}
-			id: "minecraft:enchanting_table"
-		}
+		description: [
+			"Enchanting uses Quark's matrix enchanting. costs more levels than vanilla but grants consistency and allows you to attempt to get max enchants in one try"
+			""
+			"note: 15 bookshelves is the maximum needed to generate the most amount of blocks for 1 item"
+		]
+		icon: "minecraft:enchanting_table"
 		id: "07A03EB9D5178348"
 		invisible: true
 		size: 5.0d

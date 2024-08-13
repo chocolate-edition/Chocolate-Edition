@@ -86,17 +86,13 @@
 			icon: "minecraft:player_head"
 			id: "7CFCF3BA7E2B325C"
 			rewards: [{
+				auto: "disabled"
 				id: "1386CF72F3DA4076"
 				type: "xp"
 				xp: 100
 			}]
 			size: 4.0d
 			subtitle: "Start Here"
-			tasks: [{
-				id: "3FD0E56DAB57F358"
-				title: "Welcome"
-				type: "checkmark"
-			}]
 			title: "Welcome!"
 			x: 0.0d
 			y: 0.0d

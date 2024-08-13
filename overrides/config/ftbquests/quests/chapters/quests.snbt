@@ -14604,7 +14604,38 @@
 				}
 			]
 			title: "The Greatest Chocolatier"
-			x: 4.0d
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Here you can see a collection of &6contract&r quests you can work on as you play."
+				""
+				"some quests here are hidden until you interact with a certain &aNPC&r found in different village types."
+				""
+				"Accepting a &6Contract&r from an &aNPC&r will unlock a new quest on this page. once all other requirements for that quest are completed, return to the &aNPC&r to claim your rewards!"
+			]
+			disable_toast: true
+			hide_text_until_complete: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/mob_effect/hero_of_the_village.png"
+				}
+			}
+			id: "76E1793E65765D20"
+			rewards: [{
+				auto: "disabled"
+				id: "6A6B6F2F89AC15F6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "circle"
+			size: 3.0d
+			subtitle: "Long term quests with big rewards"
+			title: "CONTRACTS"
+			x: 3.75d
 			y: 4.5d
 		}
 	]

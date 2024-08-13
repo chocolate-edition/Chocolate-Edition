@@ -14433,21 +14433,28 @@
 			y: -12.25d
 		}
 		{
-			description: ["Everyone here offers their own specific &6contracts&r and &2bounties&r with a variety of rewards! They need to take care of their respective towns, and therefore are willing to pay travelers to get what they need. Go to each type of village to find who's in charge and see what quests they'll be willing to give you!"]
-			id: "4DF7A460B1AB74A5"
-			size: 2.0d
-			subtitle: "Those who live in the Overworld and Evertwined villages."
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "minecraft:textures/mob_effect/hero_of_the_village.png"
-					}
+			description: [
+				"Everyone here offers their own specific &6contracts&r and &2bounties&r with a variety of rewards! They need to take care of their respective towns, and therefore are willing to pay travelers to get what they need. Go to each type of village to find who's in charge and see what quests they'll be willing to give you!"
+				""
+				"Interact with &aNPCs&r in villages to unlock &2bounties&r. &2bounties&r are small quests with simple rewards. once complete, a new &2bounty&r will be unlocked for the same &aNPC&r"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/mob_effect/hero_of_the_village.png"
 				}
-				id: "601533EDFF16FA71"
-				type: "custom"
+			}
+			id: "4DF7A460B1AB74A5"
+			rewards: [{
+				auto: "disabled"
+				id: "059C842A1EC331EE"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
+			size: 3.0d
+			subtitle: "Those who live in the Overworld and Evertwined villages."
 			title: "Village Inhabitants"
 			x: -0.5d
 			y: -8.0d
