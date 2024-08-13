@@ -2663,7 +2663,7 @@
 			id: "5B584CE502BC9124"
 			rewards: [{
 				auto: "no_toast"
-				command: "/execute at @a in blue_skies:everbright run particle endermanoverhaul:snow ~ ~1 ~ 10 5 10 2 200 normal"
+				command: "/execute at @p in blue_skies:everbright run particle endermanoverhaul:snow ~ ~1 ~ 10 5 10 2 200 normal"
 				exclude_from_claim_all: true
 				id: "0E40C703C19CEC37"
 				ignore_reward_blocking: true
@@ -2706,7 +2706,7 @@
 			id: "71205726B9342781"
 			rewards: [{
 				auto: "no_toast"
-				command: "/execute at @a in blue_skies:everdawn run particle blue_skies:star_glimmer ~ ~1 ~ 10 5 10 2 50 normal"
+				command: "/execute at @p in blue_skies:everdawn run particle blue_skies:star_glimmer ~ ~1 ~ 10 5 10 2 50 normal"
 				exclude_from_claim_all: true
 				id: "0C245B6219076E3F"
 				ignore_reward_blocking: true
@@ -2728,7 +2728,7 @@
 			id: "6FB30BCA8CBF9926"
 			rewards: [{
 				auto: "no_toast"
-				command: "/execute at @a in minecraft:overworld run particle bosses_of_mass_destruction:disappearing_swirl ~ ~1 ~ 10 5 10 0.001 200 normal"
+				command: "/execute at @p in minecraft:overworld run particle bosses_of_mass_destruction:disappearing_swirl ~ ~1 ~ 10 5 10 0.001 50 normal"
 				exclude_from_claim_all: true
 				id: "79A5D7C2BF88F5B5"
 				ignore_reward_blocking: true

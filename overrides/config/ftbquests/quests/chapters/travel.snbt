@@ -1,15 +1,10 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "travel"
 	group: "6753AA6B545E8D27"
-	icon: {
-		Count: 1b
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": { }
-		}
-		id: "waystones:waystone"
-	}
+	icon: "waystones:waystone"
 	id: "5FD74D9DFBF9E2D1"
 	order_index: 5
 	quest_links: [ ]
