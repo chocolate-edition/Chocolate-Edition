@@ -100,8 +100,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: -5.75d
+			y: 3.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -169,8 +169,8 @@
 				type: "item"
 			}]
 			title: "Mutant Skeleton Skull (Old Eye)"
-			x: 5.75d
-			y: 2.25d
+			x: -5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -231,8 +231,8 @@
 				type: "item"
 			}]
 			title: "Glowcoke (Old Eye) "
-			x: 4.25d
-			y: 2.25d
+			x: -6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -285,8 +285,8 @@
 				type: "item"
 			}]
 			title: "Glowsilk (Old Eye) "
-			x: 5.0d
-			y: -2.5d
+			x: -5.75d
+			y: 1.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -338,8 +338,8 @@
 				type: "item"
 			}]
 			title: "Pocket of Sand (Old Eye)"
-			x: 6.0d
-			y: -2.0d
+			x: -4.75d
+			y: 1.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -401,8 +401,8 @@
 				type: "item"
 			}]
 			title: "Sombrero (Old Eye)"
-			x: 3.25d
-			y: -1.0d
+			x: -7.5d
+			y: 2.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -440,8 +440,8 @@
 				type: "item"
 			}]
 			title: "Roadrunner Feather (Old Eye) "
-			x: 3.5d
-			y: 1.25d
+			x: -7.25d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -522,8 +522,8 @@
 				type: "item"
 			}]
 			title: "Emu Feather (Old Eye)"
-			x: 6.5d
-			y: 1.25d
+			x: -4.25d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -568,8 +568,8 @@
 				type: "item"
 			}]
 			title: "Gilded Eye (Old Eye)"
-			x: 6.5d
-			y: -1.0d
+			x: -4.25d
+			y: 2.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -624,8 +624,8 @@
 				type: "item"
 			}]
 			title: "Tropical Stew (Old Eye)"
-			x: 4.0d
-			y: -2.0d
+			x: -6.75d
+			y: 1.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -673,8 +673,8 @@
 				type: "item"
 			}]
 			title: "Guster Eye (Old Eye)"
-			x: 6.5d
-			y: -3.0d
+			x: -4.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -708,8 +708,8 @@
 				type: "item"
 			}]
 			title: "Maraca (Old Eye)"
-			x: 2.5d
-			y: -1.75d
+			x: -8.25d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -737,8 +737,8 @@
 				type: "item"
 			}]
 			title: "Half way there!"
-			x: 0.0d
-			y: 0.0d
+			x: -10.75d
+			y: 3.75d
 		}
 		{
 			dependencies: [
@@ -764,8 +764,8 @@
 				type: "item"
 			}]
 			title: "Your Best Friend"
-			x: 0.0d
-			y: -3.0d
+			x: -10.75d
+			y: 0.75d
 		}
 		{
 			dependencies: [
@@ -846,8 +846,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: -0.75d
+			y: 3.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -947,8 +947,8 @@
 				type: "item"
 			}]
 			title: "Witch Pupil (Witch Eye)"
-			x: 11.75d
-			y: 1.25d
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1003,8 +1003,8 @@
 				type: "item"
 			}]
 			title: "Rabbit's Foot (Witch Eye)"
-			x: 11.0d
-			y: 2.25d
+			x: 0.25d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1055,8 +1055,8 @@
 				type: "item"
 			}]
 			title: "Gongylidia (Witch Eye)"
-			x: 8.25d
-			y: 1.25d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1095,8 +1095,8 @@
 				type: "item"
 			}]
 			title: "Ghast Tear (Witch Eye)"
-			x: 9.0d
-			y: 2.25d
+			x: -1.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1144,8 +1144,8 @@
 				type: "item"
 			}]
 			title: "Banana Slug Slime (Witch Eye)"
-			x: 10.0d
-			y: 2.75d
+			x: -0.75d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1199,8 +1199,8 @@
 				type: "item"
 			}]
 			title: "Used in Witch Eye"
-			x: 10.0d
-			y: -2.5d
+			x: -0.75d
+			y: 1.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1255,8 +1255,8 @@
 				type: "item"
 			}]
 			title: "Potion of Fire Resistance (Witch Eye)"
-			x: 8.75d
-			y: -1.75d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1317,8 +1317,8 @@
 				type: "item"
 			}]
 			title: "Potion of Freeze (Witch Eye)"
-			x: 11.25d
-			y: -1.75d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1373,8 +1373,8 @@
 				type: "item"
 			}]
 			title: "Potion of Harming (Witch Eye)"
-			x: 9.5d
-			y: -4.25d
+			x: -1.25d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1428,8 +1428,8 @@
 				type: "item"
 			}]
 			title: "Potion of Slowness (Witch Eye)"
-			x: 11.5d
-			y: -4.75d
+			x: 0.75d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1502,8 +1502,8 @@
 				type: "item"
 			}]
 			title: "Potion of Poison (Witch Eye)"
-			x: 8.5d
-			y: -4.75d
+			x: -2.25d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1558,8 +1558,8 @@
 				type: "item"
 			}]
 			title: "Potion of Weakness (Witch Eye)"
-			x: 10.5d
-			y: -4.25d
+			x: -0.25d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1627,8 +1627,8 @@
 				type: "item"
 			}]
 			title: "Corrupted Potion (Witch Eye)"
-			x: 10.0d
-			y: -5.75d
+			x: -0.75d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1711,8 +1711,8 @@
 				type: "item"
 			}]
 			title: "Lionfish (Witch Eye)"
-			x: 8.5d
-			y: -6.75d
+			x: -2.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1761,8 +1761,8 @@
 				type: "item"
 			}]
 			title: "Lizard Tail (Witch Eye)"
-			x: 9.5d
-			y: -7.25d
+			x: -1.25d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1810,8 +1810,8 @@
 				type: "item"
 			}]
 			title: "Lily of the Valley (Witch Eye)"
-			x: 11.5d
-			y: -6.75d
+			x: 0.75d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -1886,8 +1886,8 @@
 				type: "item"
 			}]
 			title: "Pufferfish (Witch Eye)"
-			x: 10.5d
-			y: -7.25d
+			x: -0.25d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1999,8 +1999,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 4.25d
+			y: 3.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2064,8 +2064,8 @@
 				type: "item"
 			}]
 			title: "Snowbloom (Cold Eye)"
-			x: 14.1d
-			y: 2.1d
+			x: 3.3499999999999996d
+			y: 5.85d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2102,8 +2102,8 @@
 				type: "item"
 			}]
 			title: "Nightcress (Cold Eye)"
-			x: 15.899999999999999d
-			y: 2.1d
+			x: 5.149999999999999d
+			y: 5.85d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2168,8 +2168,8 @@
 				type: "item"
 			}]
 			title: "Soul Fragment (Cold Eye)"
-			x: 16.25d
-			y: -1.5d
+			x: 5.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2204,8 +2204,8 @@
 				type: "item"
 			}]
 			title: "Star Flare (Cold Eye)"
-			x: 13.75d
-			y: -1.5d
+			x: 3.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2243,8 +2243,8 @@
 				type: "item"
 			}]
 			title: "Totem of Freezing (Cold Eye)"
-			x: 14.5d
-			y: -2.5d
+			x: 3.75d
+			y: 1.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2282,8 +2282,8 @@
 				type: "item"
 			}]
 			title: "Froststalker Horn (Cold Eye)"
-			x: 15.5d
-			y: -2.5d
+			x: 4.75d
+			y: 1.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2333,8 +2333,8 @@
 				type: "item"
 			}]
 			title: "Wisteria Niveis (Cold Eye)"
-			x: 13.5d
-			y: 1.0d
+			x: 2.75d
+			y: 4.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2370,8 +2370,8 @@
 				type: "item"
 			}]
 			title: "Golden Moth in a Jar (Cold Eye)"
-			x: 16.5d
-			y: 1.0d
+			x: 5.75d
+			y: 4.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2445,8 +2445,8 @@
 				type: "item"
 			}]
 			title: "Dusk/Ethereal Arc (Cold Eye)"
-			x: 15.0d
-			y: 3.0d
+			x: 4.25d
+			y: 6.75d
 		}
 		{
 			dependencies: [
@@ -2533,8 +2533,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: 0.0d
+			x: 9.25d
+			y: 3.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2574,8 +2574,8 @@
 				type: "item"
 			}]
 			title: "Lodestone (Cursed Eye)"
-			x: 20.7d
-			y: -2.4d
+			x: 9.95d
+			y: 1.3499999999999996d
 		}
 		{
 			dependencies: [
@@ -2607,8 +2607,8 @@
 				type: "item"
 			}]
 			title: "Forged Steal (Cursed Eye)"
-			x: 19.25d
-			y: -2.5d
+			x: 8.5d
+			y: 1.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2639,8 +2639,8 @@
 				type: "item"
 			}]
 			title: "Pigstep (Cursed Eye)"
-			x: 19.0d
-			y: 2.0d
+			x: 8.25d
+			y: 5.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2671,8 +2671,8 @@
 				type: "item"
 			}]
 			title: "11 (Cursed Eye)"
-			x: 21.0d
-			y: 2.0d
+			x: 10.25d
+			y: 5.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2738,8 +2738,8 @@
 				type: "item"
 			}]
 			title: "Endersoul Hand (Cursed Eye)"
-			x: 20.0d
-			y: 2.6999999999999997d
+			x: 9.25d
+			y: 6.449999999999999d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2771,8 +2771,8 @@
 				type: "item"
 			}]
 			title: "Gilded Pearl (Cursed Eye)"
-			x: 20.0d
-			y: -4.0d
+			x: 9.25d
+			y: -0.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2821,8 +2821,8 @@
 				type: "item"
 			}]
 			title: "Flex Mesh (Cursed Eye)"
-			x: 21.5d
-			y: -1.5d
+			x: 10.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2871,8 +2871,8 @@
 				type: "item"
 			}]
 			title: "Bolt (Cursed Eye)"
-			x: 18.5d
-			y: -1.5d
+			x: 7.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -2908,8 +2908,8 @@
 				type: "item"
 			}]
 			title: "Metal Scrap (Cursed Eye)"
-			x: 16.75d
-			y: -3.75d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -3020,8 +3020,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.0d
-			y: 0.0d
+			x: 14.25d
+			y: 3.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -3139,8 +3139,8 @@
 				type: "item"
 			}]
 			title: "Geomancer Robes (Magical Eye)"
-			x: 26.25d
-			y: -3.5d
+			x: 15.5d
+			y: 0.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -3258,8 +3258,8 @@
 				type: "item"
 			}]
 			title: "Windcaller Robes (Magical Eye)"
-			x: 23.75d
-			y: -3.5d
+			x: 13.0d
+			y: 0.25d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -3421,8 +3421,8 @@
 				type: "item"
 			}]
 			title: "Mage Robes (Magical Eye)"
-			x: 26.5d
-			y: -2.0d
+			x: 15.75d
+			y: 1.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -3584,8 +3584,8 @@
 				type: "item"
 			}]
 			title: "Iceologer Robes (Magical Eye)"
-			x: 23.5d
-			y: -2.0d
+			x: 12.75d
+			y: 1.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -3686,8 +3686,8 @@
 				type: "item"
 			}]
 			title: "Necromancer Staff (Magical Eye)"
-			x: 25.0d
-			y: -3.0d
+			x: 14.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -3786,8 +3786,8 @@
 				type: "item"
 			}]
 			title: "Raid Conqueror (Magical Eye)"
-			x: 25.0d
-			y: 2.4d
+			x: 14.25d
+			y: 6.15d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -3823,8 +3823,8 @@
 				type: "item"
 			}]
 			title: "Totem of Undying (Magical Eye)"
-			x: 23.75d
-			y: 1.75d
+			x: 13.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -3860,8 +3860,8 @@
 				type: "item"
 			}]
 			title: "Totem of Illusion (Magical Eye)"
-			x: 26.25d
-			y: 1.75d
+			x: 15.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -3896,8 +3896,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: -4.5d
+			x: 6.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
@@ -3931,8 +3931,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: -4.75d
+			x: 7.75d
+			y: -1.0d
 		}
 		{
 			dependencies: ["628C3C324A0B135B"]
@@ -3963,8 +3963,8 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: 17.75d
-			y: -3.25d
+			x: 7.0d
+			y: 0.5d
 		}
 	]
 	title: "&6Medium Eyes"

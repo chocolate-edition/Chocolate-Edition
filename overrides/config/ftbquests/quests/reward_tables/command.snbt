@@ -1,0 +1,63 @@
+{
+	hide_tooltip: true
+	id: "0EF6505221D273DF"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/execute at @a run tp @e[type=aether:slider,nbt={BossFight: 1b}] ~ ~3 ~"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/execute at @a run tp @e[type=aether:slider,nbt={BossFight: 1b}] ~ ~ ~3"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/execute at @a run tp @e[type=aether:slider,nbt={BossFight: 1b}] ~ ~ ~-3"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/execute at @a run tp @e[type=aether:slider,nbt={BossFight: 1b}] ~3 ~ ~"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/execute at @a tp @e[type=aether:slider,nbt={BossFight: 1b}] @s ~-3 ~ ~"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/execute at @a tp @e[type=aether:slider,nbt={BossFight: 1b}] @s ~ ~-3 ~"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			silent: true
+			team_reward: false
+			type: "command"
+		}
+	]
+	title: "slider command"
+}

@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "missions"
+	group: "75DA3C44FB5FAC43"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tetra:items/scroll_blue"
+		}
+	}
+	id: "6ECF0C019CCCBE6D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "1F8B7DCB06B47FF9"
+		invisible: true
+		tasks: [{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							glyphs: [
+								3
+								2
+								2
+								1
+							]
+							intricate: 0b
+							key: "sword/sturdy_guard"
+							material: 1
+							ribbon: "bcb8b5"
+							schematics: ["tetra:sword/sturdy_guard"]
+						}]
+					}
+				}
+			}
+			id: "5161D534CB2EE2F7"
+			title: "Missions"
+			type: "custom"
+		}]
+		x: 5.0d
+		y: -0.25d
+	}]
+	title: "&fMissions"
+}

@@ -1144,6 +1144,7 @@
 		}
 		{
 			dependencies: ["7CFCF3BA7E2B325C"]
+			disable_toast: true
 			icon: "minecraft:writable_book"
 			id: "4E16BB33F1BB405D"
 			shape: "circle"
@@ -1154,6 +1155,7 @@
 		}
 		{
 			dependencies: ["4E16BB33F1BB405D"]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"

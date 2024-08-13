@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fishing"
+	group: "6753AA6B545E8D27"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": { }
+		}
+		id: "aquaculture:diamond_fishing_rod"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7D2BD7C59F4381FA"
+	order_index: 11
+	quest_links: [ ]
+	quests: [ ]
+	title: "&l - Fishing"
+}
