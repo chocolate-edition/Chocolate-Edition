@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "quests"
 	group: "75DA3C44FB5FAC43"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
 		id: "ftbquests:custom_icon"
@@ -11,11 +12,14 @@
 		}
 	}
 	id: "47D2F42931629D19"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4DFF46DCFD3F9311"]
+			dependencies: [
+				"4DFF46DCFD3F9311"
+				"5EF630C5FBD23519"
+			]
 			disable_toast: true
 			id: "579F561A88B18002"
 			rewards: [
@@ -152,10 +156,22 @@
 					}
 					type: "item"
 				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "75B29FC232CC6EB7"
+					title: "Talk to White Death (In Snowy Villages)"
+					type: "custom"
+				}
 			]
 			title: "A Rare Bounty and Diving Expedition"
-			x: 13.25d
-			y: -4.375d
+			x: 13.125d
+			y: -2.625d
 		}
 		{
 			disable_toast: true
@@ -174,7 +190,10 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["4DFF46DCFD3F9311"]
+			dependencies: [
+				"4DFF46DCFD3F9311"
+				"5496909876E1D041"
+			]
 			disable_toast: true
 			id: "7C0F86C05C70EF72"
 			rewards: [
@@ -290,6 +309,18 @@
 					id: "3B61DABEAAC6D076"
 					type: "kill"
 					value: 3L
+				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "76E53B21B79E65A5"
+					title: "Talk to Bandit (Taiga Villages)"
+					type: "custom"
 				}
 			]
 			title: "Illager Bounty Hunter"
@@ -1178,8 +1209,8 @@
 				}
 			]
 			title: "Expert Thief"
-			x: 18.75d
-			y: -6.75d
+			x: 15.0d
+			y: -7.125d
 		}
 		{
 			dependencies: ["4DFF46DCFD3F9311"]
@@ -1492,8 +1523,8 @@
 				}
 			]
 			title: "How to train your Dragon"
-			x: 16.0d
-			y: -6.5d
+			x: 17.25d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4DFF46DCFD3F9311"]
@@ -1581,8 +1612,8 @@
 				}
 			]
 			title: "Golem's Precious"
-			x: 13.75d
-			y: -7.75d
+			x: 12.75d
+			y: -7.0d
 		}
 		{
 			disable_toast: true
@@ -1840,7 +1871,10 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["1DD9C6E201C87291"]
+			dependencies: [
+				"1DD9C6E201C87291"
+				"670758770777AF24"
+			]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -2015,13 +2049,28 @@
 					structure: "blue_skies:village_sunset_maple_forest"
 					type: "structure"
 				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "33DF9D5F82EE5D56"
+					title: "Talk to Traveling Merchant (Desert Villages)"
+					type: "custom"
+				}
 			]
 			title: "Merchantiere Extroardinare"
 			x: -5.3999999999999995d
 			y: -1.7999999999999998d
 		}
 		{
-			dependencies: ["1DD9C6E201C87291"]
+			dependencies: [
+				"1DD9C6E201C87291"
+				"43286CE0A2C3564E"
+			]
 			disable_toast: true
 			icon: "iter_rpg:generic_dungeon_gen_block"
 			id: "32C7E5F8B989ABB9"
@@ -2071,13 +2120,28 @@
 					structure: "betterdungeons:small_nether_dungeon"
 					type: "structure"
 				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "20DFE61EEA2972A3"
+					title: "Talk to False Knight(In Plains/Forest Villages)"
+					type: "custom"
+				}
 			]
 			title: "Dungeoneer (is that even a word)"
 			x: -2.25d
 			y: -2.75d
 		}
 		{
-			dependencies: ["1DD9C6E201C87291"]
+			dependencies: [
+				"1DD9C6E201C87291"
+				"43D508FBED45BE02"
+			]
 			disable_toast: true
 			icon: "farmersdelight:nether_salad"
 			id: "0EAB3CF374A4E6DE"
@@ -2196,10 +2260,22 @@
 					structure: "idas:necromancers_spire"
 					type: "structure"
 				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "52E8716454715B96"
+					title: "Talk to Witch Doctor (Swamp Villages)"
+					type: "custom"
+				}
 			]
 			title: "Underworld Anthropologist"
-			x: -4.5d
-			y: -6.25d
+			x: -2.25d
+			y: -4.75d
 		}
 		{
 			dependencies: ["1DD9C6E201C87291"]
@@ -2355,6 +2431,7 @@
 				}
 			]
 			shape: "rsquare"
+			size: 1.5d
 			subtitle: "Catch All Biome Fish. Good luck."
 			tasks: [
 				{
@@ -3253,8 +3330,8 @@
 				}
 			]
 			title: "Trawlem Globetrotters"
-			x: -2.5d
-			y: -5.25d
+			x: -4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1DD9C6E201C87291"]
@@ -3450,8 +3527,8 @@
 				}
 			]
 			title: "Sacriligeous Antiquarian"
-			x: -6.25d
-			y: -3.75d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			disable_toast: true
@@ -3990,7 +4067,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6DFDB0FD9B6DD670"]
+			dependencies: [
+				"6DFDB0FD9B6DD670"
+				"60724A6364526713"
+			]
 			disable_toast: true
 			id: "565F680090D90100"
 			rewards: [
@@ -4288,24 +4368,41 @@
 					}
 					type: "item"
 				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "5D69AF835E92425C"
+					title: "Talk to Elder (Savanna Villages)"
+					type: "custom"
+				}
 			]
 			title: "Specialist in Interior Design "
 			x: -7.5d
 			y: 5.7d
 		}
 		{
-			dependencies: ["6DFDB0FD9B6DD670"]
+			dependencies: [
+				"6DFDB0FD9B6DD670"
+				"6EC5AD0F796C17CA"
+			]
 			disable_toast: true
+			hide: true
 			id: "2D1F584FBA78D566"
+			progression_mode: "flexible"
 			rewards: [
 				{
-					id: "14F82BC72718537D"
+					id: "5D2DEFE32153BD03"
 					type: "xp"
 					xp: 1000
 				}
 				{
 					count: 64
-					id: "6E024B6816D282D2"
+					id: "690DB0D5386A2B0D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4317,7 +4414,7 @@
 				}
 				{
 					count: 16
-					id: "3BAB0D8EC333C480"
+					id: "64B92691EE07A553"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4328,7 +4425,18 @@
 					type: "item"
 				}
 				{
-					id: "746DC3313E1B4F1F"
+					id: "55229DF25697D7F7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nameless_trinkets:lucky_rock"
+					}
+					type: "item"
+				}
+				{
+					id: "4DA47610EE3C9B63"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -4463,6 +4571,12 @@
 						id: "bakery:cobblestone_stove"
 					}
 					type: "item"
+				}
+				{
+					icon: "ftbquests:book"
+					id: "748F1B0F729214F0"
+					title: "Talk to Great Huntsman (Jungle Villages)"
+					type: "custom"
 				}
 			]
 			title: "I just wanna grill for darn sake"
@@ -4999,7 +5113,15 @@
 		}
 		{
 			dependencies: ["6DFDB0FD9B6DD670"]
-			description: ["the earth piercer and stone cutter can be crafted by either finding the special materials in large forged containers, or by upgrading a sword or shovel in front of an intact ancient schematic inside a tetra ruin"]
+			description: [
+				"the earth piercer and stone cutter can be crafted by either finding the special materials in large forged containers, or by upgrading a sword or shovel in front of an intact ancient schematic inside a tetra ruin"
+				""
+				"the katana scroll is gated to stage 2 (6 eyes) and is crafted as such"
+				""
+				"[             ,     sword      ,             ]"
+				"[iron ingot , book and quil , iron ingot]"
+				"[             , block of coal ,             ]"
+			]
 			disable_toast: true
 			id: "7A1E9A456B5D4316"
 			rewards: [
@@ -5274,7 +5396,7 @@
 					type: "item"
 				}
 				{
-					id: "627D85EE4D976DE8"
+					id: "2C9A9BA96E0E7C9D"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -5304,8 +5426,8 @@
 				}
 			]
 			title: "Foremost of the Foundry"
-			x: -11.625d
-			y: 6.75d
+			x: -10.875d
+			y: 7.125d
 		}
 		{
 			dependencies: ["0D64035CA4B55D10"]
@@ -5339,10 +5461,36 @@
 					}
 					type: "item"
 				}
+				{
+					count: 256
+					id: "7CD5AC73441E2DB3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "6203D0794A3695A9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:extendo_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Create a fully fledged portable storage system that maximizes space by filtering with a proxy to storage crates to store 20x a normal chest for single items, and connect storage drawers to bulk store one type of item per drawer. Use chests for everything that's not a single item or an item you put in a drawer. "
+			subtitle: "Create a fully fledged portable storage system that maximizes space by filtering with a proxy to storage crates/vaults to store 20x a normal chest for single items, and connect storage drawers to bulk store one type of item per drawer. Use chests for everything that's not a single item or an item you put in a drawer. "
 			tasks: [
 				{
 					id: "7B8C31335A1FD010"
@@ -5465,6 +5613,40 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16L
+					id: "33F297CCDC93FDDF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:item_vault"
+					}
+					type: "item"
+				}
+				{
+					id: "4EF28555B722E77E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:ender_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "7CB1BACA9756221C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:seed_pouch"
+					}
+					type: "item"
+				}
 			]
 			title: "Warehouse Warrior"
 			x: -2.5d
@@ -5484,7 +5666,6 @@
 			dependencies: ["0D64035CA4B55D10"]
 			disable_toast: true
 			id: "4C8173C737BCD561"
-			optional: true
 			rewards: [
 				{
 					count: 4
@@ -6108,7 +6289,10 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["0D64035CA4B55D10"]
+			dependencies: [
+				"0D64035CA4B55D10"
+				"6EC5AD0F796C17CA"
+			]
 			disable_toast: true
 			id: "7C3BBA5A91762C0B"
 			rewards: [
@@ -6312,17 +6496,27 @@
 					}
 					type: "item"
 				}
+				{
+					icon: "ftbquests:book"
+					id: "36D736E2DC8743B3"
+					title: "Talk to Sailor Captain (Beach/Ocean Villages)"
+					type: "custom"
+				}
 			]
 			title: "Sparkle Sparkle"
-			x: -6.75d
-			y: 17.25d
+			x: -2.75d
+			y: 14.25d
 		}
 		{
-			dependencies: ["0D64035CA4B55D10"]
+			dependencies: [
+				"0D64035CA4B55D10"
+				"43286CE0A2C3564E"
+			]
 			disable_toast: true
 			id: "49BED3190B35E2EF"
 			rewards: [
 				{
+					count: 3
 					id: "55F70048382503F4"
 					item: {
 						Count: 1b
@@ -6476,13 +6670,112 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3CC982DF1E1EEE2A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70F1F30CE7C4A0F6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FE6E2791F921480"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09F8B7930CC31A34"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "781F36A5CAE15E1B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:diamond_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "141B6DB529D05531"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "shieldexp:diamond_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "6D76B368838D01CA"
+					title: "Talk to False Knight (Plains/Forest Villages)"
+					type: "custom"
+				}
 			]
 			title: "Actually Covered in Diamonds"
-			x: -5.25d
-			y: 19.75d
+			x: 1.0d
+			y: 16.75d
 		}
 		{
-			dependencies: ["0D64035CA4B55D10"]
+			dependencies: [
+				"0D64035CA4B55D10"
+				"6EC5AD0F796C17CA"
+			]
 			disable_toast: true
 			id: "2E9AE8E7C33A2674"
 			rewards: [
@@ -6499,6 +6792,29 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "nameless_trinkets:amphibious_hands"
+					}
+					type: "item"
+				}
+				{
+					id: "4A04280588992BB9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "35E5EC94FA3CBFAD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:diamond"
 					}
 					type: "item"
 				}
@@ -6537,6 +6853,18 @@
 						id: "aquaculture:neptunes_bounty"
 					}
 					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "4BA5B6C6BAC6E49B"
+					title: "Talk to Sailor Captain (Beach/Ocean Villages)"
+					type: "custom"
 				}
 			]
 			title: "Skilled Angler"
@@ -6919,8 +7247,8 @@
 				}
 			]
 			title: "Sparklier"
-			x: 1.0d
-			y: 17.25d
+			x: -5.5d
+			y: 19.75d
 		}
 		{
 			dependencies: ["0D64035CA4B55D10"]
@@ -6933,7 +7261,7 @@
 					xp: 1000
 				}
 				{
-					count: 10
+					count: 64
 					id: "335A858635A44403"
 					item: {
 						Count: 1b
@@ -7208,8 +7536,8 @@
 				}
 			]
 			title: "Master Angler"
-			x: -4.0d
-			y: 14.5d
+			x: -5.25d
+			y: 15.5d
 		}
 		{
 			dependencies: ["3719A96FC4CFB77F"]
@@ -7765,7 +8093,7 @@
 			]
 			title: "The Ultimate Treehugger"
 			x: 16.0d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			disable_toast: true
@@ -7784,7 +8112,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["3719A96FC4CFB77F"]
+			dependencies: [
+				"3719A96FC4CFB77F"
+				"1A283898A53BAB77"
+			]
 			disable_toast: true
 			id: "1BCA27047D8EFFF7"
 			rewards: [
@@ -8000,13 +8331,28 @@
 					}
 					type: "item"
 				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "57322159ECCB54A6"
+					title: "Talk to Arms Dealer (Mesa Villages)"
+					type: "custom"
+				}
 			]
 			title: "Ultimate Nerf War"
 			x: 14.0d
 			y: 9.25d
 		}
 		{
-			dependencies: ["3719A96FC4CFB77F"]
+			dependencies: [
+				"3719A96FC4CFB77F"
+				"632EFA22C7EABAC8"
+			]
 			disable_toast: true
 			id: "381127B5D7ED2484"
 			rewards: [
@@ -8041,7 +8387,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Get all growable crops on farmland."
+			subtitle: "Get all overworld seeds on farmland."
 			tasks: [
 				{
 					id: "4B008B5C73D219D5"
@@ -8264,17 +8610,6 @@
 					type: "item"
 				}
 				{
-					id: "25CFFF69FD652EBA"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "enlightened_end:elevibloom_seeds"
-					}
-					type: "item"
-				}
-				{
 					id: "619B972103F6EED7"
 					item: {
 						Count: 1b
@@ -8307,13 +8642,28 @@
 					}
 					type: "item"
 				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "0470F8E5A08FC778"
+					title: "Talk to Monk (Mountain/Blossom villages)"
+					type: "custom"
+				}
 			]
 			title: "Crop Hoarder"
 			x: 13.25d
 			y: 11.25d
 		}
 		{
-			dependencies: ["3719A96FC4CFB77F"]
+			dependencies: [
+				"3719A96FC4CFB77F"
+				"5B54ADC2F73A6BD3"
+			]
 			description: ["The reward is footwear so you don't hurt yourself transporting livestock as much."]
 			disable_toast: true
 			id: "111567BDF5D7D9D2"
@@ -8610,6 +8960,18 @@
 					}
 					type: "item"
 				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "37C900EF180B8EE4"
+					title: "Talk to Great Huntsman (In Jungle Villages)"
+					type: "custom"
+				}
 			]
 			title: "Beast Whisperer"
 			x: 12.25d
@@ -8887,8 +9249,8 @@
 				}
 			]
 			title: "Lord of Stewing"
-			x: 18.375d
-			y: 10.875d
+			x: 19.875d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3719A96FC4CFB77F"]
@@ -11289,6 +11651,7 @@
 		{
 			dependencies: ["3719A96FC4CFB77F"]
 			id: "2D3E34B3937CAFA2"
+			min_width: 600
 			rewards: [
 				{
 					id: "32A2527D14D6F1BA"
@@ -12388,7 +12751,7 @@
 					type: "item"
 				}
 				{
-					id: "0811D144BE70E7BB"
+					id: "7E4F26D61480AA55"
 					item: {
 						Count: 1b
 						ForgeCaps: {
@@ -12398,39 +12761,27 @@
 						tag: {
 							AttributeModifiers: [
 								{
-									Amount: 1
-									AttributeName: "generic.armor_toughness"
-									Name: "1722710393178"
-									Slot: "mainhand"
-									UUID: [I;
-										-12473
-										18960
-										20033
-										-37920
-									]
-								}
-								{
-									Amount: 1
+									Amount: 0.5d
 									AttributeName: "generic.armor"
-									Name: "1722710393178"
+									Name: "generic.armor"
 									Slot: "mainhand"
 									UUID: [I;
-										-12473
-										19260
-										20033
-										-38520
+										-124518
+										16554
+										212051
+										-33108
 									]
 								}
 								{
-									Amount: -3.1d
-									AttributeName: "generic.attack_speed"
-									Name: "1722710393178"
+									Amount: 0.5d
+									AttributeName: "generic.knockback_resistance"
+									Name: "generic.knockback_resistance"
 									Slot: "mainhand"
 									UUID: [I;
-										-12473
-										19560
-										20033
-										-39120
+										-124518
+										16854
+										212051
+										-33708
 									]
 								}
 							]
@@ -12455,8 +12806,8 @@
 							]
 							HideFlags: 2
 							display: {
-								Lore: ["[\"\",{\"text\":\"Made from \",\"italic\":false,\"color\":\"#6699ff\"},{\"text\":\"STRONK\",\"italic\":false,\"color\":\"#6666ff\"},{\"text\":\" Beetles\",\"italic\":false,\"color\":\"#6699ff\"}]"]
-								Name: "[\"\",{\"text\":\"a\",\"italic\":false,\"color\":\"#ff0000\",\"obfuscated\":true},{\"italic\":false,\"text\":\" \"},{\"italic\":false,\"text\":\"Da Beeg Beetle\",\"color\":\"#66ccff\"},{\"italic\":false,\"text\":\" \"},{\"italic\":false,\"text\":\"a\",\"color\":\"#ff0000\",\"obfuscated\":true}]"
+								Lore: ["[\"\",{\"text\":\"Made from \",\"italic\":false,\"color\":\"#6666ff\"},{\"text\":\"STRONK\",\"italic\":false,\"color\":\"#6666ff\",\"bold\":true},{\"text\":\" Beetles\",\"italic\":false,\"color\":\"#6666ff\"}]"]
+								Name: "[\"\",{\"text\":\"a\",\"italic\":false,\"color\":\"#ff0000\",\"obfuscated\":true},{\"italic\":false,\"text\":\" \"},{\"italic\":false,\"text\":\"Da Beeg Beetle\",\"color\":\"#6699ff\"},{\"italic\":false,\"text\":\" \"},{\"italic\":false,\"text\":\"a\",\"color\":\"#ff0000\",\"obfuscated\":true}]"
 							}
 						}
 					}
@@ -13046,8 +13397,8 @@
 				}
 			]
 			title: "Buggies ! - Professional Entomologist"
-			x: 10.5d
-			y: -5.5d
+			x: 15.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["4DFF46DCFD3F9311"]
@@ -13113,6 +13464,69 @@
 					type: "item"
 				}
 				{
+					id: "72735CCB56FF6234"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualprehistory:handmade_club"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: -0.02d
+									AttributeName: "generic.movement_speed"
+									Name: "generic.movement_speed"
+									Slot: "mainhand"
+									UUID: [I;
+										-124518
+										54119
+										224542
+										-108238
+									]
+								}
+								{
+									Amount: 2
+									AttributeName: "generic.armor"
+									Name: "generic.armor"
+									Slot: "mainhand"
+									UUID: [I;
+										-124518
+										54419
+										224542
+										-108838
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "knockback"
+									lvl: 3
+								}
+								{
+									id: "mending"
+									lvl: 1
+								}
+								{
+									id: "sharpness"
+									lvl: 10
+								}
+								{
+									id: "unbreaking"
+									lvl: 5
+								}
+							]
+							HideFlags: 2
+							display: {
+								Lore: ["[\"\",{\"text\":\"JAW BREAKER\",\"italic\":false,\"color\":\"#660000\"}]"]
+								Name: "[\"\",{\"text\":\"THE HUNT\",\"italic\":false,\"color\":\"#663333\",\"bold\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
 					count: 64
 					id: "27D95E0A99912153"
 					item: {
@@ -13144,81 +13558,6 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "unusualprehistory:cooked_mammoth"
-					}
-					type: "item"
-				}
-				{
-					id: "43CE32C6C321C6F3"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:handmade_club"
-						tag: {
-							AttributeModifiers: [
-								{
-									Amount: 1
-									AttributeName: "generic.armor"
-									Name: "1722710584895"
-									Slot: "mainhand"
-									UUID: [I;
-										-12473
-										40414
-										195254
-										-80828
-									]
-								}
-								{
-									Amount: 1.5d
-									AttributeName: "generic.attack_knockback"
-									Name: "1722710584895"
-									Slot: "mainhand"
-									UUID: [I;
-										-12473
-										40714
-										195254
-										-81428
-									]
-								}
-								{
-									Amount: -3.4d
-									AttributeName: "generic.attack_speed"
-									Name: "1722710584895"
-									Slot: "mainhand"
-									UUID: [I;
-										-12473
-										41014
-										195254
-										-82028
-									]
-								}
-							]
-							Damage: 0
-							Enchantments: [
-								{
-									id: "knockback"
-									lvl: 3
-								}
-								{
-									id: "mending"
-									lvl: 1
-								}
-								{
-									id: "sharpness"
-									lvl: 10
-								}
-								{
-									id: "unbreaking"
-									lvl: 5
-								}
-							]
-							HideFlags: 2
-							display: {
-								Lore: ["[\"\",{\"text\":\"Jaw Breaker\",\"italic\":false,\"color\":\"#ff3333\"}]"]
-								Name: "[\"\",{\"text\":\"THE HUNT\",\"italic\":false,\"color\":\"#663333\",\"bold\":true}]"
-							}
-						}
 					}
 					type: "item"
 				}
@@ -13681,11 +14020,14 @@
 				}
 			]
 			title: "I AM BECOME METEOR - Ancient Hunt"
-			x: 20.5d
-			y: -4.5d
+			x: 14.25d
+			y: -5.25d
 		}
 		{
-			dependencies: ["3719A96FC4CFB77F"]
+			dependencies: [
+				"3719A96FC4CFB77F"
+				"5900DE861C8A7B5A"
+			]
 			icon: "unusualfishmod:weird_goldfish"
 			id: "7BE09FC98464243B"
 			rewards: [
@@ -13749,6 +14091,36 @@
 					type: "item"
 				}
 				{
+					count: 16
+					id: "59C7D423FA433E70"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "parcool:poor_energy_drink"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "09CD6B3F0E91B4A0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "parcool:energy_drink"
+						}
+					}
+					type: "item"
+				}
+				{
 					id: "3792DDC97729833F"
 					item: {
 						Count: 1b
@@ -13756,22 +14128,6 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "simplehats:rabbitonhead"
-					}
-					type: "item"
-				}
-				{
-					id: "5328CA0CD42CBFF8"
-					type: "xp"
-					xp: 2000
-				}
-				{
-					id: "0E30DC3F62C1F335"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "nameless_trinkets:lucky_rock"
 					}
 					type: "item"
 				}
@@ -13988,11 +14344,300 @@
 					}
 					type: "item"
 				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:book"
+					}
+					id: "3C16B1E6A43171A0"
+					title: "Talk to Pumpkillager (Dark Forest Villages)"
+					type: "custom"
+				}
 			]
 			title: "SNACK TIME ! - Fish and Crisp"
 			x: 10.25d
 			y: 13.0d
 		}
+		{
+			dependencies: ["3DAD968EE46DCAAC"]
+			id: "611864D16F64BD93"
+			rewards: [{
+				id: "1B7291650DBE991D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "create:bar_of_chocolate"
+					tag: {
+						Enchantments: [
+							{
+								id: "aqua_affinity"
+								lvl: 1
+							}
+							{
+								id: "bane_of_arthropods"
+								lvl: 10
+							}
+							{
+								id: "blast_protection"
+								lvl: 10
+							}
+							{
+								id: "channeling"
+								lvl: 1
+							}
+							{
+								id: "depth_strider"
+								lvl: 10
+							}
+							{
+								id: "efficiency"
+								lvl: 10
+							}
+							{
+								id: "feather_falling"
+								lvl: 10
+							}
+							{
+								id: "fire_aspect"
+								lvl: 10
+							}
+							{
+								id: "fire_protection"
+								lvl: 10
+							}
+							{
+								id: "flame"
+								lvl: 1
+							}
+							{
+								id: "fortune"
+								lvl: 10
+							}
+							{
+								id: "frost_walker"
+								lvl: 10
+							}
+							{
+								id: "impaling"
+								lvl: 10
+							}
+							{
+								id: "infinity"
+								lvl: 1
+							}
+							{
+								id: "knockback"
+								lvl: 10
+							}
+							{
+								id: "looting"
+								lvl: 10
+							}
+							{
+								id: "loyalty"
+								lvl: 10
+							}
+							{
+								id: "luck_of_the_sea"
+								lvl: 10
+							}
+							{
+								id: "lure"
+								lvl: 10
+							}
+							{
+								id: "mending"
+								lvl: 1
+							}
+							{
+								id: "multishot"
+								lvl: 1
+							}
+							{
+								id: "piercing"
+								lvl: 10
+							}
+							{
+								id: "power"
+								lvl: 10
+							}
+							{
+								id: "projectile_protection"
+								lvl: 10
+							}
+							{
+								id: "protection"
+								lvl: 10
+							}
+							{
+								id: "punch"
+								lvl: 10
+							}
+							{
+								id: "quick_charge"
+								lvl: 10
+							}
+							{
+								id: "respiration"
+								lvl: 10
+							}
+							{
+								id: "riptide"
+								lvl: 10
+							}
+							{
+								id: "sharpness"
+								lvl: 10
+							}
+							{
+								id: "silk_touch"
+								lvl: 1
+							}
+							{
+								id: "smite"
+								lvl: 10
+							}
+							{
+								id: "soul_speed"
+								lvl: 10
+							}
+							{
+								id: "sweeping"
+								lvl: 10
+							}
+							{
+								id: "swift_sneak"
+								lvl: 10
+							}
+							{
+								id: "thorns"
+								lvl: 10
+							}
+							{
+								id: "unbreaking"
+								lvl: 10
+							}
+						]
+						display: {
+							Lore: ["[{\"text\":\"A Chocolatier's Trump Card\",\"italic\":false}]"]
+							Name: "[{\"text\":\"The Chocolatest Bar\",\"italic\":false}]"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Get 100k Bars of Chocolate and Beat all Bosses. Kinda a joke quest."
+			tasks: [
+				{
+					consume_items: true
+					count: 100000L
+					id: "3D116B3C43F6D20B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:bar_of_chocolate"
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "0F27FF6088CC8A2F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:final_fractal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "5E96DC3AC684532D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create_confectionery:bar_of_black_chocolate"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "4D0085F9654B4F2B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create_confectionery:bar_of_ruby_chocolate"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "021ACBA63D0C8B12"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create_confectionery:bar_of_white_chocolate"
+					}
+					type: "item"
+				}
+			]
+			title: "The Greatest Chocolatier"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Here you can see a collection of &6contract&r quests you can work on as you play."
+				""
+				"some quests here are hidden until you interact with a certain &aNPC&r found in different village types."
+				""
+				"Accepting a &6Contract&r from an &aNPC&r will unlock a new quest on this page. once all other requirements for that quest are completed, return to the &aNPC&r to claim your rewards!"
+			]
+			disable_toast: true
+			hide_text_until_complete: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/mob_effect/hero_of_the_village.png"
+				}
+			}
+			id: "76E1793E65765D20"
+			rewards: [{
+				auto: "disabled"
+				id: "6A6B6F2F89AC15F6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "circle"
+			size: 3.0d
+			subtitle: "Long term quests with big rewards"
+			title: "CONTRACTS"
+			x: 3.75d
+			y: 4.5d
+		}
 	]
-	title: "&bQuests"
+	title: "&bContracts"
 }

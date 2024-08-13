@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l__time_destabilizing"
+	group: "6753AA6B545E8D27"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "enlightened_end:items/nether_portal_bucket"
+		}
+	}
+	id: "36799EABDC3B75B7"
+	order_index: 29
+	quest_links: [ ]
+	quests: [ ]
+	title: "&l - Time Destabilization"
+}

@@ -380,7 +380,7 @@
 	brassTunnelTimer = 10
 	#.
 	#Whether hostile mobs walking near a seat will start riding it.
-	seatHostileMobs = true
+	seatHostileMobs = false
 
 #.
 #Everything related to Schematic tools
