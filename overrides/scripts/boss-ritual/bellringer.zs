@@ -29,7 +29,7 @@ var nightVision = <item:minecraft:potion>.withTag({Potion: "minecraft:night_visi
         	"region": { "x": 5, "y": 5, "z": 5 }
    	 },
     	"recipe_time": 200,
-   	"block_below": { "block": "galosphere:allurite_lamp" },
+   	"block_below": { "block": "contenttweaker:bell_ringer_core" },
 	"day_time": "NIGHT"
 }
 );

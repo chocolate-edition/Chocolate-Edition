@@ -41,7 +41,7 @@ var bugPheromones = <item:minecraft:potion>.withTag({Potion: "alexsmobs:bug_pher
     	{ "item": "create_confectionery:honey_candy" }, 
     ],  
     "recipe_time": 200,
-   	"block_below": { "block": "minecraft:bee_nest" },
+   	"block_below": { "block": "contenttweaker:bee_nest" },
 	"day_time": "NIGHT"
 }
 );

@@ -15,7 +15,7 @@
 	  
     ],  
     "recipe_time": 200,
-   	"block_below": { "block": "iter_rpg:polished_ametrine_block" },
+   	"block_below": { "block": "contenttweaker:rosalyne_core" },
 	"day_time": "NIGHT"
 }
 );
@@ -32,7 +32,7 @@
     	 { "item": "minecraft:blade_pottery_sherd" }
     ],  
     "recipe_time": 200,
-   	"block_below": { "block": "iter_rpg:polished_ametrine_block" },
+   	"block_below": { "block": "contenttweaker:rosalyne_core" },
 	"day_time": "NIGHT"
 }
 );

@@ -34,7 +34,7 @@
         	"region": { "x": 5, "y": 5, "z": 5 }
    	 },
     	"recipe_time": 200,
-   	"block_below": { "block": "minecraft:powder_snow" },
+   	"block_below": { "block": "contenttweaker:huntsman_core" },
 	"day_time": "NIGHT"
 }
 );
@@ -62,7 +62,7 @@
     ],  
 
     "recipe_time": 200,
-   	"block_below": { "block": "minecraft:powder_snow" },
+   	"block_below": { "block": "contenttweaker:huntsman_core" },
 	"day_time": "NIGHT"
 }
 );

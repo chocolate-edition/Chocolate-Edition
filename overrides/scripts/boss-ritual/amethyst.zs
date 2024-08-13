@@ -14,7 +14,7 @@
         { "ingredient": { "item": "minecraft:amethyst_shard" }, "count": 8 }
     ],  
    	"recipe_time": 200,
-    	"block_below": { "block": "minecraft:budding_amethyst" },
+    	"block_below": { "block": "contenttweaker:amethyst_core" },
 	"day_time": "NIGHT"
 }
 );

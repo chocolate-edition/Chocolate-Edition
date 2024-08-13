@@ -44,7 +44,7 @@ var skeleton = <item:minecraft:bone> | <item:minecraft:arrow>;
         	"region": { "x": 5, "y": 5, "z": 5 }
    	 },
     	"recipe_time": 200,
-   	"block_below": { "block": "minecraft:obsidian" },
+   	"block_below": { "block": "minecraft:bedrock" },
 	"day_time": "NIGHT",
     "weather": "THUNDER"
 }

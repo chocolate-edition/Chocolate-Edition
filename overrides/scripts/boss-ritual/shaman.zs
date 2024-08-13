@@ -19,7 +19,7 @@
 	{ "ingredient": { "item": "bosses_of_mass_destruction:soul_star" }, "count": 8 }
     ],  
     	"recipe_time": 200,
-   	"block_below": { "block": "minecraft:glowstone" },
+   	"block_below": { "block": "contenttweaker:shaman_core" },
 	"day_time": "NIGHT",
 	"weather": "CLEAR"
 }

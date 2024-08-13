@@ -16,7 +16,7 @@
 	  
     ],  
     "recipe_time": 200,
-   	"block_below": { "block": "minecraft:red_mushroom_block" },
+   	"block_below": { "block": "contenttweaker:dame_core" },
 	"day_time": "NIGHT"
 }
 );

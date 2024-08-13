@@ -26,7 +26,7 @@ var Hooks = <item:aquaculture:iron_hook> | <item:aquaculture:gold_hook> | <item:
 	    { "ingredient": fishBones, "count": 1 }
     ],  
     "recipe_time": 200,
-   	"block_below": { "block": "minecraft:mud" },
+   	"block_below": { "block": "contenttweaker:swamp_jaw_core" },
 	"day_time": "NIGHT",
     "weather": "THUNDER"
 }

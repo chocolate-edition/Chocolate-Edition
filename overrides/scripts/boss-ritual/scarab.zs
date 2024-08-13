@@ -14,7 +14,7 @@
         { "ingredient": { "item": "alexsmobs:cockroach_wing_fragment" }, "count": 2 }
     ],  
     	"recipe_time": 200,
-   	"block_below": { "block": "minecraft:sandstone" },
+   	"block_below": { "block": "contenttweaker:scarab_core" },
 	"day_time": "NIGHT"
 }
 );

@@ -16,7 +16,7 @@
         "region": { "x": 3, "y": 3, "z": 3 }
     },
     	"recipe_time": 200,
-    	"block_below": { "block": "upgrade_aquatic:prismarine_coral_block" },
+    	"block_below": { "block": "contenttweaker:prisnautilus_core" },
 	"day_time": "NIGHT",
    	"weather": "RAIN"
 }
@@ -34,7 +34,7 @@
 	{ "item": "predators:refined_prismarine" }
     ],
     "recipe_time": 200,
-    "block_below": { "block": "upgrade_aquatic:prismarine_coral_block" },
+    "block_below": { "block": "contenttweaker:prisnautilus_core" },
 	"day_time": "NIGHT",
    	"weather": "RAIN"
 }

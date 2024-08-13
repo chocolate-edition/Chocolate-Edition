@@ -25,7 +25,7 @@
         { "ingredient": { "item": "minecraft:glistering_melon_slice" }, "count": 8 }
     ],  
     	"recipe_time": 200,
-    	"block_below": { "block": "minecraft:melon" },
+    	"block_below": { "block": "contenttweaker:melon_core" },
 	"day_time": "NIGHT",
 	"weather": "RAIN"
 }
