@@ -1009,7 +1009,7 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"This item can be obtained by interacting with a fungal-covered &eLeafcutter Ant Chamber&r found underneath a &6Leafcutter Ant&r mounds in jungles"
+				"This item can be obtained by interacting with a fungal-covered &eLeafcutter Ant Chamber&r found underneath a &6Leafcutter Ant&r mounds in jungles and more easily, sparse jungles"
 				""
 				""
 				"However, unless a &eShroomlight&r is nearby the &6Leafcutter Ants&r, and their Queen, will become hostile"
