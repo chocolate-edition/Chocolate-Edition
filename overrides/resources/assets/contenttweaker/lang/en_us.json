@@ -24,17 +24,16 @@
     "block.contenttweaker.swamp_jaw_core":"Swamp Jaw's Core",
 
 
-    "item.contenttweaker.huntsman_summoner":"Huntsman's Arrow",
-    "item.contenttweaker.dame_summoner":"Devil's Orb",
-    "item.contenttweaker.melon_summoner":"Goliath Tendril",
-    "item.contenttweaker.amethyst_summoner":"Amethyst Spine",
-    "item.contenttweaker.shaman_summoner":"Lunar Essence",
-    "item.contenttweaker.prisnautilus_summoner":"Ancient Shell",
-    "item.contenttweaker.scarab_summoner":"Wings of Sand",
-    "item.contenttweaker.rosalyne_summoner":"Lost Capsule",
-    "item.contenttweaker.bell_ringer_summoner":"Possessed Bell",
-    "item.contenttweaker.swamp_jaw_summoner":"Fish Head"
-    
+    "item.contenttweaker.huntsman_summoner":"Huntsman's Fragment",
+    "item.contenttweaker.dame_summoner":"Dame Fortuna's Fragment",
+    "item.contenttweaker.melon_summoner":"Melon Goliath's Fragment",
+    "item.contenttweaker.amethyst_summoner":"Amethyst Colossus' Fragment",
+    "item.contenttweaker.shaman_summoner":"Shaman of Moonlight's Fragment",
+    "item.contenttweaker.prisnautilus_summoner":"Prisnautilus' Fragment",
+    "item.contenttweaker.scarab_summoner":"Scarab of Fegefeuer's Fragment",
+    "item.contenttweaker.rosalyne_summoner":"Rosalyne's Fragment",
+    "item.contenttweaker.bell_ringer_summoner":"Bell Ringer's Fragment",
+    "item.contenttweaker.swamp_jaw_summoner":"Swamp Jaw's Fragment"
     
 
 }
