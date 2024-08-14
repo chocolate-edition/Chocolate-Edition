@@ -2336,5 +2336,9 @@
   {
     "mob": ["alexsmobs:underminer"],
     "result": "deny"
+  },
+  {
+    "mob": ["rottencreatures:mummy"],
+    "result": "deny"
   }
 ]
