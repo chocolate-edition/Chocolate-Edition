@@ -6,7 +6,7 @@
   {
     "mob": "oddorganisms:apthoroblattina",
     "healthmultiply": 2,
-    "damagemultiply":2,
+    "damagemultiply": 2,
     "structure": "chocolate:shaded_citadel",
     "result": "allow"
   },
@@ -33,30 +33,60 @@
   },
   {
     "mob": "dungeons_mobs:endersent",
-    "dimension":"minecraft:the_end",
+    "dimension": "minecraft:the_end",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "mob": ["dungeons_mobs:blastling", "dungeons_mobs:watchling", "dungeons_mobs:snareling", "endermanoverhaul:end_enderman"],
-    "dimension":"minecraft:the_end",
+    "mob": [
+      "dungeons_mobs:blastling",
+      "dungeons_mobs:watchling",
+      "dungeons_mobs:snareling",
+      "endermanoverhaul:end_enderman"
+    ],
+    "dimension": "minecraft:the_end",
     "random": 0.85,
     "onjoin": true,
     "result": "deny"
   },
   {
     "mob": ["infernalexp:glowsilk_moth"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": "minecraft:basalt_deltas",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": "minecraft:basalt_deltas",
     "random": 0.85,
     "onjoin": true,
     "result": "deny"
   },
   {
-    "mob": ["alexsmobs:crow", "alexsmobs:crocodile", "alexsmobs:alligator_snapping_turtle", "alexsmobs:seagull", "born_in_chaos_v1:thornshell_crab", "cnb:cactem", "born_in_chaos_v1:corpse_fly", "born_in_chaos_v1:dread_hound", "born_in_chaos_v1:dire_hound_leader", "epicsamurai:kitsune", "alexsmobs:tiger", "born_in_chaos_v1:zombie_fisherman", "iter_rpg:scallop", "alexsmobs:platypus", "born_in_chaos_v1:bloody_gadfly", "cnb:little_grebe", "naturalist:snail", "endermanoverhaul:flower_fields_enderman", "endermanoverhaul:dark_oak_enderman", "whatareyouvotingfor2023:penguin", "alexsmobs:seal", "born_in_chaos_v1:zombie_lumberjack", "alexsmobs:rattlesnake", "alexsmobs:kangaroo"],
+    "mob": [
+      "alexsmobs:crow",
+      "alexsmobs:crocodile",
+      "alexsmobs:alligator_snapping_turtle",
+      "alexsmobs:seagull",
+      "born_in_chaos_v1:thornshell_crab",
+      "cnb:cactem",
+      "born_in_chaos_v1:corpse_fly",
+      "born_in_chaos_v1:dread_hound",
+      "born_in_chaos_v1:dire_hound_leader",
+      "epicsamurai:kitsune",
+      "alexsmobs:tiger",
+      "born_in_chaos_v1:zombie_fisherman",
+      "iter_rpg:scallop",
+      "alexsmobs:platypus",
+      "born_in_chaos_v1:bloody_gadfly",
+      "cnb:little_grebe",
+      "naturalist:snail",
+      "endermanoverhaul:flower_fields_enderman",
+      "endermanoverhaul:dark_oak_enderman",
+      "whatareyouvotingfor2023:penguin",
+      "alexsmobs:seal",
+      "born_in_chaos_v1:zombie_lumberjack",
+      "alexsmobs:rattlesnake",
+      "alexsmobs:kangaroo"
+    ],
     "maxheight": 60,
-    "dimension":"minecraft:overworld",
+    "dimension": "minecraft:overworld",
     "result": "deny"
   },
   {
@@ -76,9 +106,30 @@
   },
   {
     "mob": ["naturalist:butterfly"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:searing_grassland", "blue_skies:sunset_maple_forest", "minecraft:plains", "minecraft:meadow", "minecraft:savanna", "minecraft:forest", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:jungle", "minecraft:sparse_jungle", "minecraft:savanna_plateau", "minecraft:sunflower_plains", "minecraft:wooded_badlands", "autumnity:pumpkin_fields", "atmospheric:aspen_parkland", "atmospheric:laurel_forest", "minecraft:old_growth_birch_forest", "atmospheric:rainforest", "environmental:blossom_valleys", "environmental:blossom_woods"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:searing_grassland",
+      "blue_skies:sunset_maple_forest",
+      "minecraft:plains",
+      "minecraft:meadow",
+      "minecraft:savanna",
+      "minecraft:forest",
+      "minecraft:flower_forest",
+      "minecraft:birch_forest",
+      "minecraft:jungle",
+      "minecraft:sparse_jungle",
+      "minecraft:savanna_plateau",
+      "minecraft:sunflower_plains",
+      "minecraft:wooded_badlands",
+      "autumnity:pumpkin_fields",
+      "atmospheric:aspen_parkland",
+      "atmospheric:laurel_forest",
+      "minecraft:old_growth_birch_forest",
+      "atmospheric:rainforest",
+      "environmental:blossom_valleys",
+      "environmental:blossom_woods"
+    ],
     "result": "allow"
   },
   {
@@ -115,9 +166,16 @@
   },
   {
     "mob": ["ecologics:squirrel"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["autumnity:pumpkin_fields", "autumnity:maple_forest", "minecraft:birch_forest", "minecraft:forest", "minecraft:old_growth_birch_forest", "environmental:blossom_woods"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "autumnity:pumpkin_fields",
+      "autumnity:maple_forest",
+      "minecraft:birch_forest",
+      "minecraft:forest",
+      "minecraft:old_growth_birch_forest",
+      "environmental:blossom_woods"
+    ],
     "result": "allow"
   },
   {
@@ -126,9 +184,9 @@
   },
   {
     "mob": ["born_in_chaos_v1:thornshell_crab"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:stony_shore"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:stony_shore"],
     "result": "allow"
   },
   {
@@ -137,21 +195,28 @@
   },
   {
     "mob": ["minecraft:cod", "minecraft:salmon"],
-    "dimension":["blue_skies:everbright", "blue_skies:everdawn"],
+    "dimension": ["blue_skies:everbright", "blue_skies:everdawn"],
     "onjoin": true,
     "result": "deny"
   },
   {
     "mob": ["born_in_chaos_v1:glutton_fish", "born_in_chaos_v1:corpse_fish"],
-    "dimension":["minecraft:overworld"],
+    "dimension": ["minecraft:overworld"],
     "onjoin": true,
     "result": "deny"
   },
   {
     "mob": ["unusualprehistory:austroraptor"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:polar_highland", "blue_skies:brisk_meadow", "blue_skies:frostbitten_forest", "blue_skies:frostbitten_forest_clearing", "blue_skies:calming_skies", "blue_skies:snow_covered_pines"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:polar_highland",
+      "blue_skies:brisk_meadow",
+      "blue_skies:frostbitten_forest",
+      "blue_skies:frostbitten_forest_clearing",
+      "blue_skies:calming_skies",
+      "blue_skies:snow_covered_pines"
+    ],
     "result": "allow"
   },
   {
@@ -161,9 +226,9 @@
   {
     "mob": ["unusualprehistory:ulughbegsaurus"],
     "angry": true,
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:polar_highland", "blue_skies:brightlands", "blue_skies:brisk_meadow"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:polar_highland", "blue_skies:brightlands", "blue_skies:brisk_meadow"],
     "result": "allow"
   },
   {
@@ -172,9 +237,13 @@
   },
   {
     "mob": ["unusualprehistory:paraceratherium"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:polar_highland", "blue_skies:brisk_meadow", "blue_skies:snow_covered_pines"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:polar_highland",
+      "blue_skies:brisk_meadow",
+      "blue_skies:snow_covered_pines"
+    ],
     "result": "allow"
   },
   {
@@ -183,9 +252,13 @@
   },
   {
     "mob": ["unusualprehistory:mammoth"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:calming_skies", "blue_skies:brisk_meadow", "blue_skies:frostbitten_forest_clearing"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:calming_skies",
+      "blue_skies:brisk_meadow",
+      "blue_skies:frostbitten_forest_clearing"
+    ],
     "result": "allow"
   },
   {
@@ -194,9 +267,13 @@
   },
   {
     "mob": ["unusualprehistory:ammon", "unusualprehistory:scau", "unusualprehistory:dunk"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest"
+    ],
     "result": "allow"
   },
   {
@@ -206,9 +283,13 @@
   {
     "mob": ["unusualprehistory:palaeophis"],
     "angry": true,
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest"
+    ],
     "result": "allow"
   },
   {
@@ -217,9 +298,13 @@
   },
   {
     "mob": ["unusualprehistory:antarctopelta"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:polar_highland", "blue_skies:frostbitten_forest_clearing", "blue_skies:brightlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:polar_highland",
+      "blue_skies:frostbitten_forest_clearing",
+      "blue_skies:brightlands"
+    ],
     "result": "allow"
   },
   {
@@ -228,9 +313,9 @@
   },
   {
     "mob": ["unusualprehistory:gigantopithicus"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:frostbitten_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:frostbitten_forest"],
     "result": "allow"
   },
   {
@@ -239,9 +324,9 @@
   },
   {
     "mob": ["unusualprehistory:majunga"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:shaded_woodlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:shaded_woodlands"],
     "result": "allow",
     "potion": "alexsmobs:poison_resistance,10000,1"
   },
@@ -251,24 +336,30 @@
   },
   {
     "mob": ["unusualprehistory:encrusted"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:shaded_woodlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:shaded_woodlands"],
     "result": "allow",
     "potion": "alexsmobs:poison_resistance,10000,1"
   },
   {
     "mob": ["unusualprehistory:encrusted"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crescent_orchard", "blue_skies:sunset_maple_forest", "blue_skies:crystal_roughs", "blue_skies:crystal_dunes", "blue_skies:crystal_dunes_spikes"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:crescent_orchard",
+      "blue_skies:sunset_maple_forest",
+      "blue_skies:crystal_roughs",
+      "blue_skies:crystal_dunes",
+      "blue_skies:crystal_dunes_spikes"
+    ],
     "result": "allow"
   },
   {
     "mob": ["unusualprehistory:encrusted"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everdawn",
+    "dimension": "blue_skies:everdawn",
     "result": "allow"
   },
   {
@@ -277,16 +368,16 @@
   },
   {
     "mob": ["oddorganisms:apthoroblattina"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:shaded_woodlands", "blue_skies:crescent_orchard"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:shaded_woodlands", "blue_skies:crescent_orchard"],
     "result": "allow"
   },
   {
     "mob": ["oddorganisms:apthoroblattina"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everdawn",
+    "dimension": "blue_skies:everdawn",
     "result": "allow"
   },
   {
@@ -300,9 +391,9 @@
   },
   {
     "mob": ["unusualprehistory:stethacanthus"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:rising_creek"],
     "result": "allow"
   },
   {
@@ -311,9 +402,9 @@
   },
   {
     "mob": ["unusualprehistory:talpanas"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek", "blue_skies:crystal_roughs"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:rising_creek", "blue_skies:crystal_roughs"],
     "result": "allow"
   },
   {
@@ -322,9 +413,9 @@
   },
   {
     "mob": ["unusualprehistory:pachy"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:unorthodox_valley"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:unorthodox_valley"],
     "seesky": true,
     "result": "allow"
   },
@@ -334,9 +425,9 @@
   },
   {
     "mob": ["unusualprehistory:kentrosaurus"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:unorthodox_valley"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:unorthodox_valley"],
     "seesky": true,
     "result": "allow"
   },
@@ -346,9 +437,9 @@
   },
   {
     "mob": ["unusualprehistory:rex"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:unorthodox_valley"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:unorthodox_valley"],
     "seesky": true,
     "result": "allow"
   },
@@ -358,9 +449,9 @@
   },
   {
     "mob": ["oddorganisms:leptictidium"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crescent_orchard", "blue_skies:searing_grassland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:crescent_orchard", "blue_skies:searing_grassland"],
     "result": "allow"
   },
   {
@@ -369,9 +460,9 @@
   },
   {
     "mob": ["oddorganisms:eolactoria"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crescent_orchard", "blue_skies:crescent_orchard_lake"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:crescent_orchard", "blue_skies:crescent_orchard_lake"],
     "result": "allow"
   },
   {
@@ -380,9 +471,9 @@
   },
   {
     "mob": ["unusualprehistory:coty"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:sunset_maple_forest", "blue_skies:searing_grassland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:sunset_maple_forest", "blue_skies:searing_grassland"],
     "result": "allow"
   },
   {
@@ -391,9 +482,9 @@
   },
   {
     "mob": ["unusualprehistory:veloci"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:sunset_maple_forest", "blue_skies:searing_grassland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:sunset_maple_forest", "blue_skies:searing_grassland"],
     "result": "allow"
   },
   {
@@ -403,9 +494,9 @@
   {
     "mob": ["unusualprehistory:hwachavenator"],
     "angry": true,
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:sunset_maple_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:sunset_maple_forest"],
     "result": "allow"
   },
   {
@@ -414,9 +505,9 @@
   },
   {
     "mob": ["oddorganisms:dawn_horse"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:sunset_maple_forest", "blue_skies:searing_grassland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:sunset_maple_forest", "blue_skies:searing_grassland"],
     "result": "allow"
   },
   {
@@ -425,9 +516,9 @@
   },
   {
     "mob": ["unusualprehistory:megatherium"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:sunset_maple_forest", "blue_skies:searing_grassland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:sunset_maple_forest", "blue_skies:searing_grassland"],
     "seesky": true,
     "result": "allow"
   },
@@ -437,9 +528,14 @@
   },
   {
     "mob": ["unusualprehistory:megalania"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:searing_grassland", "blue_skies:crystal_dunes", "blue_skies:crystal_dunes_spikes", "blue_skies:crystal_roughs"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:searing_grassland",
+      "blue_skies:crystal_dunes",
+      "blue_skies:crystal_dunes_spikes",
+      "blue_skies:crystal_roughs"
+    ],
     "seesky": true,
     "result": "allow"
   },
@@ -449,9 +545,9 @@
   },
   {
     "mob": ["oddorganisms:doedicurus"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:searing_grassland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:searing_grassland"],
     "seesky": true,
     "result": "allow"
   },
@@ -461,9 +557,9 @@
   },
   {
     "mob": ["unusualprehistory:brachi"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crystal_dunes_spikes", "blue_skies:crystal_dunes"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:crystal_dunes_spikes", "blue_skies:crystal_dunes"],
     "result": "allow"
   },
   {
@@ -472,9 +568,13 @@
   },
   {
     "mob": ["unusualprehistory:sludge"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crystal_dunes", "blue_skies:crystal_dunes_spikes", "blue_skies:midday_shore"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:crystal_dunes",
+      "blue_skies:crystal_dunes_spikes",
+      "blue_skies:midday_shore"
+    ],
     "seesky": true,
     "result": "allow"
   },
@@ -482,7 +582,7 @@
     "mob": ["unusualprehistory:sludge"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everbright",
+    "dimension": "blue_skies:everbright",
     "result": "allow"
   },
   {
@@ -491,9 +591,9 @@
   },
   {
     "mob": ["unusualprehistory:trike"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crystal_roughs", "blue_skies:crystal_dunes"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:crystal_roughs", "blue_skies:crystal_dunes"],
     "result": "allow"
   },
   {
@@ -502,9 +602,9 @@
   },
   {
     "mob": ["unusualprehistory:barinasuchus"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "seesky": true,
     "result": "allow"
   },
@@ -514,9 +614,9 @@
   },
   {
     "mob": ["unusualprehistory:smilodon"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:searing_grassland", "blue_skies:crystal_roughs"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:searing_grassland", "blue_skies:crystal_roughs"],
     "seesky": true,
     "result": "allow"
   },
@@ -526,9 +626,9 @@
   },
   {
     "mob": ["unusualprehistory:eryon"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -537,9 +637,9 @@
   },
   {
     "mob": ["unusualprehistory:anuro"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "seesky": true,
     "result": "allow"
   },
@@ -549,9 +649,9 @@
   },
   {
     "mob": ["unusualprehistory:beelz"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:slushlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:slushlands"],
     "seesky": true,
     "result": "allow"
   },
@@ -561,9 +661,9 @@
   },
   {
     "mob": ["predators:ice_hound"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:brightlands", "blue_skies:snow_covered_pines"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:brightlands", "blue_skies:snow_covered_pines"],
     "result": "allow"
   },
   {
@@ -572,20 +672,33 @@
   },
   {
     "mob": ["endermanoverhaul:snowy_enderman"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:brightlands", "blue_skies:snow_covered_pines", "blue_skies:calming_skies", "blue_skies:brisk_meadow"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:brightlands",
+      "blue_skies:snow_covered_pines",
+      "blue_skies:calming_skies",
+      "blue_skies:brisk_meadow"
+    ],
     "result": "allow"
   },
   {
     "mob": ["endermanoverhaul:snowy_enderman"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:snowy_plains", "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:snowy_taiga", "minecraft:ice_spikes", "environmental:snowy_pine_barrens", "atmospheric:snowy_shrubland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:frozen_peaks",
+      "minecraft:snowy_taiga",
+      "minecraft:ice_spikes",
+      "environmental:snowy_pine_barrens",
+      "atmospheric:snowy_shrubland"
+    ],
     "maxlight": 0,
     "mintime": 12500,
     "seesky": true,
-    "result":"allow"
+    "result": "allow"
   },
   {
     "mob": ["endermanoverhaul:snowy_enderman"],
@@ -593,9 +706,9 @@
   },
   {
     "mob": ["endermanoverhaul:scarab"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:shaded_woodlands", "blue_skies:crystal_roughs"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:shaded_woodlands", "blue_skies:crystal_roughs"],
     "result": "allow"
   },
   {
@@ -604,18 +717,18 @@
   },
   {
     "mob": ["endermanoverhaul:swamp_enderman"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "seesky": true,
     "result": "allow"
   },
   {
     "mob": ["endermanoverhaul:swamp_enderman"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:mangrove_swamp", "minecraft:swamp", "environmental:marsh"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:mangrove_swamp", "minecraft:swamp", "environmental:marsh"],
+    "result": "allow"
   },
   {
     "mob": ["endermanoverhaul:swamp_enderman"],
@@ -623,17 +736,39 @@
   },
   {
     "mob": ["crittersandcompanions:shima_enaga"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:snow_covered_pines", "blue_skies:polar_highland", "blue_skies:brisk_meadow", "blue_skies:frostbitten_forest", "blue_skies:frostbitten_forest_clearing"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:snow_covered_pines",
+      "blue_skies:polar_highland",
+      "blue_skies:brisk_meadow",
+      "blue_skies:frostbitten_forest",
+      "blue_skies:frostbitten_forest_clearing"
+    ],
     "result": "allow"
   },
   {
     "mob": ["crittersandcompanions:shima_enaga"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:grove", "autumnity:maple_forest", "minecraft:taiga", "minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga", "minecraft:snowy_taiga", "minecraft:snowy_plains", "minecraft:windswept_forest", "minecraft:windswept_hills", "environmental:blossom_valleys", "environmental:blossom_woods", "environmental:pine_barrens", "environmental:snowy_pine_barrens", "atmospheric:kousa_jungle", "atmospheric:snowy_shrubland"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "minecraft:grove",
+      "autumnity:maple_forest",
+      "minecraft:taiga",
+      "minecraft:old_growth_pine_taiga",
+      "minecraft:old_growth_spruce_taiga",
+      "minecraft:snowy_taiga",
+      "minecraft:snowy_plains",
+      "minecraft:windswept_forest",
+      "minecraft:windswept_hills",
+      "environmental:blossom_valleys",
+      "environmental:blossom_woods",
+      "environmental:pine_barrens",
+      "environmental:snowy_pine_barrens",
+      "atmospheric:kousa_jungle",
+      "atmospheric:snowy_shrubland"
+    ],
+    "result": "allow"
   },
   {
     "mob": ["crittersandcompanions:shima_enaga"],
@@ -641,17 +776,17 @@
   },
   {
     "mob": ["crittersandcompanions:sea_bunny"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:rising_creek"],
     "result": "allow"
   },
   {
     "mob": ["crittersandcompanions:sea_bunny"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:warm_ocean"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:warm_ocean"],
+    "result": "allow"
   },
   {
     "mob": ["crittersandcompanions:sea_bunny"],
@@ -659,18 +794,29 @@
   },
   {
     "mob": ["crittersandcompanions:leaf_insect"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crescent_orchard", "blue_skies:sunset_maple_forest", "blue_skies:searing_grassland", "atmospheric:rainforest", "minecraft:jungle"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:crescent_orchard",
+      "blue_skies:sunset_maple_forest",
+      "blue_skies:searing_grassland",
+      "atmospheric:rainforest",
+      "minecraft:jungle"
+    ],
     "seesky": true,
     "result": "allow"
   },
   {
     "mob": ["crittersandcompanions:leaf_insect"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["environmental:blossom_woods", "minecraft:lush_caves", "minecraft:flower_forest", "minecraft:bamboo_jungle"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "environmental:blossom_woods",
+      "minecraft:lush_caves",
+      "minecraft:flower_forest",
+      "minecraft:bamboo_jungle"
+    ],
+    "result": "allow"
   },
   {
     "mob": ["crittersandcompanions:leaf_insect"],
@@ -678,31 +824,52 @@
   },
   {
     "mob": ["rottencreatures:glacial_hunter"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:calming_skies", "blue_skies:midday_shore","blue_skies:brightlands", "blue_skies:brisk_meadow"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:calming_skies",
+      "blue_skies:midday_shore",
+      "blue_skies:brightlands",
+      "blue_skies:brisk_meadow"
+    ],
     "seesky": true,
     "result": "allow"
   },
   {
     "mob": ["rottencreatures:glacial_hunter"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:snowy_plains", "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:snowy_taiga", "minecraft:ice_spikes", "environmental:snowy_pine_barrens", "atmospheric:snowy_shrubland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:frozen_peaks",
+      "minecraft:snowy_taiga",
+      "minecraft:ice_spikes",
+      "environmental:snowy_pine_barrens",
+      "atmospheric:snowy_shrubland"
+    ],
     "maxlight": 0,
     "mintime": 12500,
     "seesky": true,
-    "result":"allow"
+    "result": "allow"
   },
   {
     "mob": ["rottencreatures:glacial_hunter"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:snowy_plains", "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:snowy_taiga", "minecraft:ice_spikes", "environmental:snowy_pine_barrens", "atmospheric:snowy_shrubland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:frozen_peaks",
+      "minecraft:snowy_taiga",
+      "minecraft:ice_spikes",
+      "environmental:snowy_pine_barrens",
+      "atmospheric:snowy_shrubland"
+    ],
     "maxlight": 0,
     "weather": "thunder",
     "seesky": true,
-    "result":"allow"
+    "result": "allow"
   },
   {
     "mob": ["rottencreatures:glacial_hunter"],
@@ -710,9 +877,9 @@
   },
   {
     "mob": ["alexsmobs:tusklin"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:brisk_meadow", "blue_skies:calming_skies"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:brisk_meadow", "blue_skies:calming_skies"],
     "result": "allow"
   },
   {
@@ -723,14 +890,14 @@
     "mob": ["alexsmobs:murmur"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everbright",
+    "dimension": "blue_skies:everbright",
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:murmur"],
     "maxheight": 0,
-    "dimension":"minecraft:overworld",
-    "result":"allow"
+    "dimension": "minecraft:overworld",
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:murmur"],
@@ -738,23 +905,23 @@
   },
   {
     "mob": ["alexsmobs:rocky_roller"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crystal_roughs", "blue_skies:crystal_dunes"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:crystal_roughs", "blue_skies:crystal_dunes"],
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:rocky_roller"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:dripstone_caves"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:dripstone_caves"],
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:rocky_roller"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everbright",
+    "dimension": "blue_skies:everbright",
     "result": "allow"
   },
   {
@@ -763,17 +930,21 @@
   },
   {
     "mob": ["alexsmobs:potoo"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:shaded_woodlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:shaded_woodlands"],
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:potoo"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:dark_forest", "minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "minecraft:dark_forest",
+      "minecraft:old_growth_pine_taiga",
+      "minecraft:old_growth_spruce_taiga"
+    ],
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:potoo"],
@@ -781,17 +952,21 @@
   },
   {
     "mob": ["alexsmobs:sugar_glider"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:shaded_woodlands", "blue_skies:crescent_orchard"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:shaded_woodlands", "blue_skies:crescent_orchard"],
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:sugar_glider"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["atmospheric:aspen_parkland", "minecraft:old_growth_birch_forest", "minecraft:birch_forest"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "atmospheric:aspen_parkland",
+      "minecraft:old_growth_birch_forest",
+      "minecraft:birch_forest"
+    ],
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:sugar_glider"],
@@ -799,17 +974,21 @@
   },
   {
     "mob": ["alexsmobs:banana_slug"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:shaded_woodlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:shaded_woodlands"],
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:banana_slug"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga", "atmospheric:aspen_parkland"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "minecraft:old_growth_pine_taiga",
+      "minecraft:old_growth_spruce_taiga",
+      "atmospheric:aspen_parkland"
+    ],
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:banana_slug"],
@@ -817,17 +996,17 @@
   },
   {
     "mob": ["alexsmobs:platypus"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek", "blue_skies:crescent_orchard_lake"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:rising_creek", "blue_skies:crescent_orchard_lake"],
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:platypus"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:swamp", "minecraft:river"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:swamp", "minecraft:river"],
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:platypus"],
@@ -835,17 +1014,21 @@
   },
   {
     "mob": ["alexsmobs:fly"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:unorthodox_valley", "blue_skies:crescent_orchard", "blue_skies:searing_grassland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:unorthodox_valley",
+      "blue_skies:crescent_orchard",
+      "blue_skies:searing_grassland"
+    ],
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:fly"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:mangrove_swamp", "minecraft:swamp", "environmental:marsh"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:mangrove_swamp", "minecraft:swamp", "environmental:marsh"],
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:fly"],
@@ -853,17 +1036,17 @@
   },
   {
     "mob": ["alexsmobs:anaconda"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:anaconda"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:mangrove_swamp", "minecraft:swamp", "environmental:marsh"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:mangrove_swamp", "minecraft:swamp", "environmental:marsh"],
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:anaconda"],
@@ -871,17 +1054,22 @@
   },
   {
     "mob": ["alexsmobs:alligator_snapping_turtle"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir" ],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:alligator_snapping_turtle"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["atmospheric:sparse_rainforest_basin", "atmospheric:rainforest_basin", "minecraft:swamp", "environmental:marsh"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "atmospheric:sparse_rainforest_basin",
+      "atmospheric:rainforest_basin",
+      "minecraft:swamp",
+      "environmental:marsh"
+    ],
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:alligator_snapping_turtle"],
@@ -889,17 +1077,17 @@
   },
   {
     "mob": ["alexsmobs:mudskipper"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:mudskipper"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:mangrove_swamp"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:mangrove_swamp"],
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:mudskipper"],
@@ -907,18 +1095,31 @@
   },
   {
     "mob": ["alexsmobs:jerboa"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crystal_roughs", "blue_skies:crystal_dunes", "blue_skies:crystal_dunes_spikes"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:crystal_roughs",
+      "blue_skies:crystal_dunes",
+      "blue_skies:crystal_dunes_spikes"
+    ],
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:jerboa"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["atmospheric:flourishing_dunes", "minecraft:desert", "atmospheric:dunes", "atmospheric:petrified_dunes", "atmospheric:petrified_dunes", "atmospheric:rocky_dunes", "atmospheric:scrubland", "atmospheric:spiny_thicket"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "atmospheric:flourishing_dunes",
+      "minecraft:desert",
+      "atmospheric:dunes",
+      "atmospheric:petrified_dunes",
+      "atmospheric:petrified_dunes",
+      "atmospheric:rocky_dunes",
+      "atmospheric:scrubland",
+      "atmospheric:spiny_thicket"
+    ],
     "maxtime": 12500,
-    "result":"allow"
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:jerboa"],
@@ -928,15 +1129,15 @@
     "mob": ["alexsmobs:centipede_head"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everdawn",
+    "dimension": "blue_skies:everdawn",
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:centipede_head"],
     "maxheight": 20,
-    "dimension":"minecraft:overworld",
+    "dimension": "minecraft:overworld",
     "seesky": "false",
-    "result":"allow"
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:centipede_head"],
@@ -946,15 +1147,15 @@
     "mob": ["alexsmobs:cockroach"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everdawn",
+    "dimension": "blue_skies:everdawn",
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:cockroach"],
     "maxheight": 60,
-    "dimension":"minecraft:overworld",
+    "dimension": "minecraft:overworld",
     "seesky": "false",
-    "result":"allow"
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:cockroach"],
@@ -962,9 +1163,15 @@
   },
   {
     "mob": ["born_in_chaos_v1:glutton_fish"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest", "blue_skies:rising_creek", "blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest",
+      "blue_skies:rising_creek",
+      "blue_skies:moonlit_reservoir"
+    ],
     "result": "allow"
   },
   {
@@ -973,17 +1180,23 @@
   },
   {
     "mob": ["born_in_chaos_v1:corpse_fish"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest", "blue_skies:rising_creek", "blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest",
+      "blue_skies:rising_creek",
+      "blue_skies:moonlit_reservoir"
+    ],
     "result": "allow"
   },
   {
     "mob": ["born_in_chaos_v1:corpse_fish"],
     "maxheight": 60,
-    "dimension":"minecraft:overworld",
+    "dimension": "minecraft:overworld",
     "seesky": "false",
-    "result":"allow"
+    "result": "allow"
   },
   {
     "mob": ["born_in_chaos_v1:corpse_fish"],
@@ -993,7 +1206,7 @@
     "mob": ["born_in_chaos_v1:diamond_termite"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everdawn",
+    "dimension": "blue_skies:everdawn",
     "result": "allow"
   },
   {
@@ -1002,24 +1215,29 @@
   },
   {
     "mob": ["born_in_chaos_v1:firelight"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:searing_grassland", "blue_skies:crystal_roughs", "blue_skies:crystal_dunes", "blue_skies:crystal_dunes_spikes"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:searing_grassland",
+      "blue_skies:crystal_roughs",
+      "blue_skies:crystal_dunes",
+      "blue_skies:crystal_dunes_spikes"
+    ],
     "result": "allow"
   },
   {
     "mob": ["born_in_chaos_v1:firelight"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everdawn",
+    "dimension": "blue_skies:everdawn",
     "result": "allow"
   },
   {
     "mob": ["born_in_chaos_v1:firelight"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:nether_wastes", "minecraft:crimson_forest", "minecraft:basalt_deltas"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:nether_wastes", "minecraft:crimson_forest", "minecraft:basalt_deltas"],
+    "result": "allow"
   },
   {
     "mob": ["born_in_chaos_v1:firelight"],
@@ -1027,31 +1245,31 @@
   },
   {
     "mob": ["born_in_chaos_v1:nightmare_stalker"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:shaded_woodlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:shaded_woodlands"],
     "result": "allow"
   },
   {
     "mob": ["born_in_chaos_v1:nightmare_stalker"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everdawn",
+    "dimension": "blue_skies:everdawn",
     "result": "allow"
   },
   {
     "mob": ["born_in_chaos_v1:nightmare_stalker"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everbright",
+    "dimension": "blue_skies:everbright",
     "result": "allow"
   },
   {
     "mob": ["born_in_chaos_v1:nightmare_stalker"],
     "maxheight": 60,
-    "dimension":"minecraft:overworld",
+    "dimension": "minecraft:overworld",
     "seesky": "false",
-    "result":"allow"
+    "result": "allow"
   },
   {
     "mob": ["born_in_chaos_v1:nightmare_stalker"],
@@ -1061,7 +1279,7 @@
     "mob": ["dungeons_mobs:icy_creeper"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everbright",
+    "dimension": "blue_skies:everbright",
     "result": "allow"
   },
   {
@@ -1072,7 +1290,7 @@
     "mob": ["graveyard:wraith"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everbright",
+    "dimension": "blue_skies:everbright",
     "result": "allow"
   },
   {
@@ -1081,16 +1299,16 @@
   },
   {
     "mob": ["iter_rpg:giant_spider"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:shaded_woodlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:shaded_woodlands"],
     "result": "allow"
   },
   {
     "mob": ["iter_rpg:giant_spider"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everdawn",
+    "dimension": "blue_skies:everdawn",
     "result": "allow"
   },
   {
@@ -1100,17 +1318,22 @@
   {
     "mob": ["dungeons_mobs:mountaineer"],
     "seesky": "true",
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome":["blue_skies:brightlands","blue_skies:polar_highland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:brightlands", "blue_skies:polar_highland"],
     "result": "allow"
   },
   {
     "mob": ["dungeons_mobs:mountaineer"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:jagged_peaks", "minecraft:frozen_peaks", "minecraft:stony_peaks", "minecraft:snowy_slope"],
-    "result":"allow"
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "minecraft:jagged_peaks",
+      "minecraft:frozen_peaks",
+      "minecraft:stony_peaks",
+      "minecraft:snowy_slope"
+    ],
+    "result": "allow"
   },
   {
     "mob": ["dungeons_mobs:mountaineer"],
@@ -1120,7 +1343,7 @@
     "mob": ["iter_rpg:peeper"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everdawn",
+    "dimension": "blue_skies:everdawn",
     "result": "allow"
   },
   {
@@ -1130,16 +1353,24 @@
 
   {
     "mob": ["blue_skies:diophyde_prowler"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:brightlands", "blue_skies:snow_covered_pines", "blue_skies:calming_skies", "blue_skies:polar_highland", "blue_skies:brisk_meadow", "blue_skies:frostbitten_forest", "blue_skies:frostbitten_forest_clearing"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:brightlands",
+      "blue_skies:snow_covered_pines",
+      "blue_skies:calming_skies",
+      "blue_skies:polar_highland",
+      "blue_skies:brisk_meadow",
+      "blue_skies:frostbitten_forest",
+      "blue_skies:frostbitten_forest_clearing"
+    ],
     "result": "allow"
   },
   {
     "mob": ["blue_skies:diophyde_prowler"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everbright",
+    "dimension": "blue_skies:everbright",
     "result": "allow"
   },
   {
@@ -1148,16 +1379,27 @@
   },
   {
     "mob": ["blue_skies:armored_frost_spirit"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:brightlands", "blue_skies:snow_covered_pines", "blue_skies:calming_skies", "blue_skies:midday_shore", "blue_skies:polar_highland", "blue_skies:slushlands", "blue_skies:brisk_meadow", "blue_skies:frostbitten_forest", "blue_skies:frostbitten_forest_clearing", "blue_skies:brightlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:brightlands",
+      "blue_skies:snow_covered_pines",
+      "blue_skies:calming_skies",
+      "blue_skies:midday_shore",
+      "blue_skies:polar_highland",
+      "blue_skies:slushlands",
+      "blue_skies:brisk_meadow",
+      "blue_skies:frostbitten_forest",
+      "blue_skies:frostbitten_forest_clearing",
+      "blue_skies:brightlands"
+    ],
     "result": "allow"
   },
   {
     "mob": ["blue_skies:armored_frost_spirit"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everbright",
+    "dimension": "blue_skies:everbright",
     "result": "allow"
   },
   {
@@ -1166,16 +1408,25 @@
   },
   {
     "mob": ["blue_skies:polargeist"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:brightlands", "blue_skies:snow_covered_pines", "blue_skies:calming_skies", "blue_skies:midday_shore", "blue_skies:slushlands", "blue_skies:brisk_meadow", "blue_skies:frostbitten_forest", "blue_skies:frostbitten_forest_clearing"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:brightlands",
+      "blue_skies:snow_covered_pines",
+      "blue_skies:calming_skies",
+      "blue_skies:midday_shore",
+      "blue_skies:slushlands",
+      "blue_skies:brisk_meadow",
+      "blue_skies:frostbitten_forest",
+      "blue_skies:frostbitten_forest_clearing"
+    ],
     "result": "allow"
   },
   {
     "mob": ["blue_skies:polargeist"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everbright",
+    "dimension": "blue_skies:everbright",
     "result": "allow"
   },
   {
@@ -1184,9 +1435,18 @@
   },
   {
     "mob": ["blue_skies:frost_spirit"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:brightlands", "blue_skies:snow_covered_pines", "blue_skies:calming_skies", "blue_skies:polar_highland", "blue_skies:slushlands", "blue_skies:brisk_meadow", "blue_skies:frostbitten_forest", "blue_skies:frostbitten_forest_clearing"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:brightlands",
+      "blue_skies:snow_covered_pines",
+      "blue_skies:calming_skies",
+      "blue_skies:polar_highland",
+      "blue_skies:slushlands",
+      "blue_skies:brisk_meadow",
+      "blue_skies:frostbitten_forest",
+      "blue_skies:frostbitten_forest_clearing"
+    ],
     "result": "allow"
   },
   {
@@ -1195,9 +1455,13 @@
   },
   {
     "mob": ["blue_skies:snow_owl"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:frostbitten_forest", "blue_skies:frostbitten_forest_clearing", "blue_skies:snow_covered_pines"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:frostbitten_forest",
+      "blue_skies:frostbitten_forest_clearing",
+      "blue_skies:snow_covered_pines"
+    ],
     "result": "allow"
   },
   {
@@ -1206,9 +1470,13 @@
   },
   {
     "mob": ["blue_skies:reindeer"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:snow_covered_pines", "blue_skies:frostbitten_forest", "blue_skies:frostbitten_forest_clearing"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:snow_covered_pines",
+      "blue_skies:frostbitten_forest",
+      "blue_skies:frostbitten_forest_clearing"
+    ],
     "result": "allow"
   },
   {
@@ -1217,16 +1485,22 @@
   },
   {
     "mob": ["blue_skies:crynocerous"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:calming_skies", "blue_skies:polar_highland", "blue_skies:slushlands", "blue_skies:brisk_meadow", "blue_skies:frostbitten_forest_clearing"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:calming_skies",
+      "blue_skies:polar_highland",
+      "blue_skies:slushlands",
+      "blue_skies:brisk_meadow",
+      "blue_skies:frostbitten_forest_clearing"
+    ],
     "result": "allow"
   },
   {
     "mob": ["blue_skies:crynocerous"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everbright",
+    "dimension": "blue_skies:everbright",
     "result": "allow"
   },
   {
@@ -1235,9 +1509,14 @@
   },
   {
     "mob": ["blue_skies:whistleshell_crab"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:midday_shore", "blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:midday_shore",
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest"
+    ],
     "result": "allow"
   },
   {
@@ -1246,9 +1525,14 @@
   },
   {
     "mob": ["blue_skies:jelly_drifter"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest", "blue_skies:slushlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest",
+      "blue_skies:slushlands"
+    ],
     "result": "allow"
   },
   {
@@ -1257,9 +1541,13 @@
   },
   {
     "mob": ["blue_skies:grittle_flatfish"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest"
+    ],
     "result": "allow"
   },
   {
@@ -1268,9 +1556,13 @@
   },
   {
     "mob": ["blue_skies:municipal_monkfish"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest"
+    ],
     "result": "allow"
   },
   {
@@ -1280,9 +1572,9 @@
   {
     "mob": ["blue_skies:seclam"],
     "maxheight": 28,
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
     "result": "allow"
   },
   {
@@ -1291,9 +1583,9 @@
   },
   {
     "mob": ["blue_skies:shrumpty"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:slushlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:slushlands"],
     "result": "allow"
   },
   {
@@ -1302,9 +1594,9 @@
   },
   {
     "mob": ["blue_skies:spewter"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:frostbitten_forest", "blue_skies:shaded_woodlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:frostbitten_forest", "blue_skies:shaded_woodlands"],
     "result": "allow"
   },
   {
@@ -1313,9 +1605,13 @@
   },
   {
     "mob": ["blue_skies:nyctofly"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:shaded_woodlands", "blue_skies:moonlit_reservoir", "blue_skies:unorthodox_valley"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:shaded_woodlands",
+      "blue_skies:moonlit_reservoir",
+      "blue_skies:unorthodox_valley"
+    ],
     "result": "allow"
   },
   {
@@ -1324,16 +1620,23 @@
   },
   {
     "mob": ["blue_skies:emberback"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:shaded_woodlands", "blue_skies:sunset_maple_forest", "blue_skies:searing_grassland", "blue_skies:crystal_roughs", "blue_skies:crystal_dunes", "blue_skies:crystal_dunes_spikes"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:shaded_woodlands",
+      "blue_skies:sunset_maple_forest",
+      "blue_skies:searing_grassland",
+      "blue_skies:crystal_roughs",
+      "blue_skies:crystal_dunes",
+      "blue_skies:crystal_dunes_spikes"
+    ],
     "result": "allow"
   },
   {
     "mob": ["blue_skies:emberback"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everdawn",
+    "dimension": "blue_skies:everdawn",
     "result": "allow"
   },
   {
@@ -1342,9 +1645,13 @@
   },
   {
     "mob": ["blue_skies:charscale_moki"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek", "blue_skies:crescent_orchard_lake", "blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:rising_creek",
+      "blue_skies:crescent_orchard_lake",
+      "blue_skies:moonlit_reservoir"
+    ],
     "result": "allow"
   },
   {
@@ -1353,9 +1660,16 @@
   },
   {
     "mob": ["blue_skies:firefly"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek", "blue_skies:unorthodox_valley", "blue_skies:crescent_orchard", "blue_skies:sunset_maple_forest", "blue_skies:searing_grassland", "blue_skies:crystal_roughs"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:rising_creek",
+      "blue_skies:unorthodox_valley",
+      "blue_skies:crescent_orchard",
+      "blue_skies:sunset_maple_forest",
+      "blue_skies:searing_grassland",
+      "blue_skies:crystal_roughs"
+    ],
     "result": "allow"
   },
   {
@@ -1364,9 +1678,9 @@
   },
   {
     "mob": ["blue_skies:cosmic_fox"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:unorthodox_valley", "blue_skies:crescent_orchard"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:unorthodox_valley", "blue_skies:crescent_orchard"],
     "result": "allow"
   },
   {
@@ -1375,16 +1689,21 @@
   },
   {
     "mob": ["blue_skies:venom_spider"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crescent_orchard", "blue_skies:unorthodox_valley", "blue_skies:sunset_maple_forest", "blue_skies:searing_grassland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:crescent_orchard",
+      "blue_skies:unorthodox_valley",
+      "blue_skies:sunset_maple_forest",
+      "blue_skies:searing_grassland"
+    ],
     "result": "allow"
   },
   {
     "mob": ["blue_skies:venom_spider"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":"blue_skies:everdawn",
+    "dimension": "blue_skies:everdawn",
     "result": "allow"
   },
   {
@@ -1393,9 +1712,14 @@
   },
   {
     "mob": ["blue_skies:shade_monitor"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crescent_orchard", "blue_skies:crystal_roughs", "blue_skies:crystal_dunes", "blue_skies:crystal_dunes_spikes"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:crescent_orchard",
+      "blue_skies:crystal_roughs",
+      "blue_skies:crystal_dunes",
+      "blue_skies:crystal_dunes_spikes"
+    ],
     "result": "allow"
   },
   {
@@ -1404,9 +1728,9 @@
   },
   {
     "mob": ["blue_skies:sliv"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:searing_grassland"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:searing_grassland"],
     "result": "allow"
   },
   {
@@ -1415,9 +1739,9 @@
   },
   {
     "mob": ["blue_skies:crogre"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1426,9 +1750,9 @@
   },
   {
     "mob": ["blue_skies:horizofin_tunid"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1437,9 +1761,13 @@
   },
   {
     "mob": ["blue_skies:crystal_camel"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crystal_roughs", "blue_skies:crystal_dunes", "blue_skies:crystal_dunes_spikes"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:crystal_roughs",
+      "blue_skies:crystal_dunes",
+      "blue_skies:crystal_dunes_spikes"
+    ],
     "result": "allow"
   },
   {
@@ -1448,16 +1776,20 @@
   },
   {
     "mob": ["blue_skies:infested_swarmer"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:crystal_roughs", "blue_skies:crystal_dunes", "blue_skies:crystal_dunes_spikes"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:crystal_roughs",
+      "blue_skies:crystal_dunes",
+      "blue_skies:crystal_dunes_spikes"
+    ],
     "result": "allow"
   },
   {
     "mob": ["blue_skies:infested_swarmer"],
     "maxheight": 60,
     "seesky": "false",
-    "dimension":["blue_skies:everdawn","blue_skies:everbright"],
+    "dimension": ["blue_skies:everdawn", "blue_skies:everbright"],
     "result": "allow"
   },
   {
@@ -1466,9 +1798,9 @@
   },
   {
     "mob": ["unusualfishmod:aero_mono"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:peeking_ocean"],
     "result": "allow"
   },
   {
@@ -1477,9 +1809,13 @@
   },
   {
     "mob": ["unusualfishmod:circus"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest"
+    ],
     "result": "allow"
   },
   {
@@ -1488,9 +1824,13 @@
   },
   {
     "mob": ["unusualfishmod:blizzardfin"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest"
+    ],
     "result": "allow"
   },
   {
@@ -1499,9 +1839,9 @@
   },
   {
     "mob": ["unusualfishmod:snowflaketail"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:peeking_ocean"],
     "result": "allow"
   },
   {
@@ -1510,9 +1850,13 @@
   },
   {
     "mob": ["unusualfishmod:porcupine_lobsta"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest"
+    ],
     "result": "allow"
   },
   {
@@ -1521,9 +1865,13 @@
   },
   {
     "mob": ["unusualfishmod:roughback_guitarfish"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:peeking_ocean", "blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "blue_skies:peeking_ocean",
+      "blue_skies:deep_peeking_ocean",
+      "blue_skies:brumble_forest"
+    ],
     "result": "allow"
   },
   {
@@ -1532,9 +1880,9 @@
   },
   {
     "mob": ["unusualfishmod:forkfish"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
     "result": "allow"
   },
   {
@@ -1543,9 +1891,9 @@
   },
   {
     "mob": ["unusualfishmod:jungleshark"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
     "result": "allow"
   },
   {
@@ -1554,9 +1902,9 @@
   },
   {
     "mob": ["unusualfishmod:crimsonshell"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
     "result": "allow"
   },
   {
@@ -1565,9 +1913,9 @@
   },
   {
     "mob": ["unusualfishmod:squoddle"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
     "result": "allow"
   },
   {
@@ -1576,9 +1924,9 @@
   },
   {
     "mob": ["unusualfishmod:clownthorn_shark"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:deep_peeking_ocean", "blue_skies:brumble_forest"],
     "result": "allow"
   },
   {
@@ -1587,9 +1935,9 @@
   },
   {
     "mob": ["unusualfishmod:spoon_shark"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:deep_peeking_ocean"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:deep_peeking_ocean"],
     "result": "allow"
   },
   {
@@ -1598,9 +1946,9 @@
   },
   {
     "mob": ["unusualfishmod:brick_snail"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:brumble_forest", "blue_skies:slushlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:brumble_forest", "blue_skies:slushlands"],
     "result": "allow"
   },
   {
@@ -1609,9 +1957,9 @@
   },
   {
     "mob": ["unusualfishmod:zebra_cornetfish"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:brumble_forest"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:brumble_forest"],
     "result": "allow"
   },
   {
@@ -1621,9 +1969,9 @@
   {
     "mob": ["unusualfishmod:kalappa"],
     "potion": "alexsmobs:knockback_resistance,10000,1",
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:midday_shore"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:midday_shore"],
     "result": "allow"
   },
   {
@@ -1632,9 +1980,9 @@
   },
   {
     "mob": ["unusualfishmod:skipper"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:slushlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:slushlands"],
     "result": "allow"
   },
   {
@@ -1643,9 +1991,9 @@
   },
   {
     "mob": ["unusualfishmod:beaked_herring"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:slushlands"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:slushlands"],
     "result": "allow"
   },
   {
@@ -1654,9 +2002,9 @@
   },
   {
     "mob": ["unusualfishmod:sea_spider"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:rising_creek"],
     "result": "allow"
   },
   {
@@ -1665,9 +2013,9 @@
   },
   {
     "mob": ["unusualfishmod:blackcap_snail"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:rising_creek"],
     "result": "allow"
   },
   {
@@ -1676,9 +2024,9 @@
   },
   {
     "mob": ["unusualfishmod:freshwater_mantis"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek", "blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:rising_creek", "blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1687,9 +2035,9 @@
   },
   {
     "mob": ["unusualfishmod:amber_goby"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:rising_creek"],
     "result": "allow"
   },
   {
@@ -1698,9 +2046,9 @@
   },
   {
     "mob": ["unusualfishmod:tribble"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek", "blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:rising_creek", "blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1709,9 +2057,9 @@
   },
   {
     "mob": ["unusualfishmod:ripper"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:rising_creek"],
     "result": "allow"
   },
   {
@@ -1720,9 +2068,9 @@
   },
   {
     "mob": ["unusualfishmod:tiger_puffer"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:rising_creek"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:rising_creek"],
     "result": "allow"
   },
   {
@@ -1731,9 +2079,9 @@
   },
   {
     "mob": ["unusualfishmod:deep_crawler"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1742,9 +2090,9 @@
   },
   {
     "mob": ["unusualfishmod:bark_angelfish"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1753,9 +2101,9 @@
   },
   {
     "mob": ["unusualfishmod:muddytop"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1764,9 +2112,9 @@
   },
   {
     "mob": ["unusualfishmod:stout_bichir"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1775,9 +2123,9 @@
   },
   {
     "mob": ["unusualfishmod:picklefish"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1786,9 +2134,9 @@
   },
   {
     "mob": ["unusualfishmod:rootball"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1797,9 +2145,9 @@
   },
   {
     "mob": ["unusualfishmod:sea_mosquito"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1808,9 +2156,9 @@
   },
   {
     "mob": ["unusualfishmod:drooping_gourami"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["blue_skies:moonlit_reservoir"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["blue_skies:moonlit_reservoir"],
     "result": "allow"
   },
   {
@@ -1846,9 +2194,9 @@
   },
   {
     "mob": ["unusualfishmod:sailor_barb"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["environmental:marsh"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["environmental:marsh"],
     "result": "allow"
   },
   {
@@ -1858,9 +2206,9 @@
   {
     "mob": ["unusualfishmod:hatchet_fish"],
     "maxheight": 30,
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:deep_frozen_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_ocean"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:deep_frozen_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_ocean"],
     "result": "allow"
   },
   {
@@ -1869,9 +2217,9 @@
   },
   {
     "mob": ["unusualfishmod:coral_skrimp"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:warm_ocean"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:warm_ocean"],
     "result": "allow"
   },
   {
@@ -1880,17 +2228,17 @@
   },
   {
     "mob": ["unusualfishmod:eyelash"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:warm_ocean"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:warm_ocean"],
     "result": "allow"
   },
   {
     "mob": ["unusualfishmod:sneep_snorp"],
     "maxheight": 30,
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:deep_lukewarm_ocean", "minecraft:deep_ocean"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:deep_lukewarm_ocean", "minecraft:deep_ocean"],
     "result": "deny"
   },
   {
@@ -1903,9 +2251,9 @@
   },
   {
     "mob": ["unusualfishmod:mossthorn"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:swamp"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:swamp"],
     "result": "allow"
   },
   {
@@ -1914,9 +2262,9 @@
   },
   {
     "mob": ["unusualfishmod:sea_pancake"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:beach"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": ["minecraft:beach"],
     "result": "allow"
   },
   {
@@ -1925,9 +2273,19 @@
   },
   {
     "mob": ["unusualfishmod:prawn"],
-   "healthmultiply": 2,
-   "damagemultiply":2,
-   "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:lukewarm_ocean", "minecraft:warm_ocean", "minecraft:frozen_ocean","minecraft:deep_frozen_ocean","minecraft:cold_ocean"],
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "biome": [
+      "minecraft:ocean",
+      "minecraft:deep_ocean",
+      "minecraft:deep_cold_ocean",
+      "minecraft:deep_lukewarm_ocean",
+      "minecraft:lukewarm_ocean",
+      "minecraft:warm_ocean",
+      "minecraft:frozen_ocean",
+      "minecraft:deep_frozen_ocean",
+      "minecraft:cold_ocean"
+    ],
     "result": "allow"
   },
   {
@@ -1968,11 +2326,15 @@
   },
   {
     "mob": ["alexsmobs:flutter"],
-   "biome": ["minecraft:lush_caves"],
+    "biome": ["minecraft:lush_caves"],
     "result": "allow"
   },
   {
     "mob": ["alexsmobs:flutter"],
+    "result": "deny"
+  },
+  {
+    "mob": ["alexsmobs:underminer"],
     "result": "deny"
   }
 ]
