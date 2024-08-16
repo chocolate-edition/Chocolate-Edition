@@ -79,7 +79,6 @@
       "naturalist:snail",
       "endermanoverhaul:flower_fields_enderman",
       "endermanoverhaul:dark_oak_enderman",
-      "whatareyouvotingfor2023:penguin",
       "alexsmobs:seal",
       "born_in_chaos_v1:zombie_lumberjack",
       "alexsmobs:rattlesnake",
@@ -2335,6 +2334,22 @@
   },
   {
     "mob": ["alexsmobs:underminer"],
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["rottencreatures:mummy"],
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["whatareyouvotingfor2023:penguin"],
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["crittersandcompanions:dragonfly"],
+    "mincount": 25,
     "result": "deny"
   }
 ]

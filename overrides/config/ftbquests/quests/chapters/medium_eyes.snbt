@@ -3960,7 +3960,6 @@
 					}
 					id: "art_of_forging:resonant_alloy"
 				}
-				optional_task: true
 				type: "item"
 			}]
 			x: 7.0d
