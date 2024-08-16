@@ -899,9 +899,11 @@
 		}
 		{
 			dependencies: ["2243BA6B2363797E"]
-			description: ["This item is dropped by &4Sir Pumpkinhead&r, who can be summoned by breaking an &eInfernal Evil Pumpkin&r. You can locate these by just exploring your world, they'll have a ritual taking place with &eCandles&r all around it!"
-			""
-			"commonly found in vanilla plains and forest biomes, set your map to night mode and look for a small grouping of candles"]
+			description: [
+				"This item is dropped by &4Sir Pumpkinhead&r, who can be summoned by breaking an &eInfernal Evil Pumpkin&r. You can locate these by just exploring your world, they'll have a ritual taking place with &eCandles&r all around it!"
+				""
+				"commonly found in vanilla plains and forest biomes, set your map to night mode and look for a small grouping of candles"
+			]
 			id: "49171FCF7274350A"
 			rewards: [{
 				count: 8
@@ -1937,13 +1939,13 @@
 			icon: "create:blaze_burner"
 			id: "7C88EE2650AC9994"
 			rewards: [{
-				id: "528D84263A1376FA"
+				id: "6357312208616F1F"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "create:blaze_cake"
+					id: "minecraft:blaze_powder"
 				}
 				type: "item"
 			}]
@@ -2953,32 +2955,35 @@
 			}]
 			shape: "circle"
 			subtitle: "Obtained by crushing clams, giving Clams to an Otter or by killing the Insatiable"
-			tasks: [
-				{
-					id: "674C0846FFECD464"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "crittersandcompanions:pearl"
+			tasks: [{
+				id: "3034FC17336815A2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
 					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "24F6BF6EB05E2E47"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "iter_rpg:pearl"
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "iter_rpg:pearl"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "crittersandcompanions:pearl"
+							}
+						]
 					}
-					optional_task: true
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "Pearl (Guardian Eye)"
 			x: 15.5d
 			y: 2.5d
