@@ -158,3 +158,57 @@
     <tag:items:chocolate:eye_items>.add(<item:environmental:thief_hood>);
     <tag:items:chocolate:eye_items>.add(<item:mutantmonsters:creeper_shard>);
     <tag:items:chocolate:eye_items>.add(<item:farmersdelight:glow_berry_custard>);
+
+     // ----- OLD EYE -----
+    <tag:items:chocolate:eye_items>.add(<item:alexsmobs:sombrero>);
+    <tag:items:chocolate:eye_items>.add(<item:infernalexp:glowcoal>);
+    <tag:items:chocolate:eye_items>.add(<item:infernalexp:glowsilk>);
+    <tag:items:chocolate:eye_items>.add(<item:ecologics:tropical_stew>);
+    <tag:items:chocolate:eye_items>.add(<item:mutantmonsters:mutant_skeleton_skull>);
+    <tag:items:chocolate:eye_items>.add(<item:unusualend:gilded_pearl>);
+    <tag:items:chocolate:eye_items>.add(<item:alexsmobs:pocket_sand>);
+    <tag:items:chocolate:eye_items>.add(<item:alexsmobs:roadrunner_feather>);
+    <tag:items:chocolate:eye_items>.add(<item:alexsmobs:emu_feather>);
+
+    // ----- WITCH EYE -----
+    <tag:items:chocolate:eye_items>.add(<item:alexsmobs:banana_slug_slime>);
+    <tag:items:chocolate:eye_items>.add(<item:enlightened_end:ooze_bottle>);
+    <tag:items:chocolate:eye_items>.add(<item:minecraft:ghast_tear>);
+    <tag:items:chocolate:eye_items>.add(<item:endrem:witch_pupil>);
+    <tag:items:chocolate:eye_items>.add(<item:alexsmobs:gongylidia>);
+    <tag:items:chocolate:eye_items>.add(<item:minecraft:rabbit_hide>);
+    <tag:items:chocolate:eye_items>.add(<item:minecraft:potion>.withTag({Potion: "rottencreatures:freeze"}));
+    <tag:items:chocolate:eye_items>.add(<item:minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}));
+    
+    // ----- COLD EYE -----
+    <tag:items:chocolate:eye_items>.add(<item:aquamirae:wisteria_niveis>);
+    <tag:items:chocolate:eye_items>.add(<item:alexsmobs:froststalker_horn>);
+    <tag:items:chocolate:eye_items>.add(<item:blue_skies:soul_fragment>);
+    <tag:items:chocolate:eye_items>.add(<item:blue_skies:star_flare>);
+    <tag:items:chocolate:eye_items>.add(<item:aquamirae:golden_moth_in_a_jar>);
+    <tag:items:chocolate:eye_items>.add(<item:blue_skies:snowbloom>);
+    <tag:items:chocolate:eye_items>.add(<item:blue_skies:nightcress>);
+    <tag:items:chocolate:eye_items>.add(<item:friendsandfoes:totem_of_freezing>);
+    <tag:items:chocolate:eye_items>.add(<tag:items:chocolate:tower_arcs>);
+   
+
+    // ----- CURSED EYE -----
+    <tawg:items:chocolate:eye_items>.add(<item:minecraft:music_disc_11>);
+    <tag:items:chocolate:eye_items>.add(<item:minecraft:music_disc_pigstep>);
+    <tag:items:chocolate:eye_items>.add(<item:art_of_forging:forged_steel_ingot>);
+    <tag:items:chocolate:eye_items>.add(<item:minecraft:lodestone>);
+    <tag:items:chocolate:eye_items>.add(<item:mutantmonsters:endersoul_hand>);
+    <tag:items:chocolate:eye_items>.add(<item:tetra:forged_bolt>);
+    <tag:items:chocolate:eye_items>.add(<item:tetra:forged_mesh>);
+    //GILIDED PEARL IS USSED IN THIS EYE BUT ITS ALREADY IN THE OLD EYE
+
+    // ----- MAGIC EYE -----
+    <tag:items:chocolate:eye_items>.add(<tag:items:chocolate:iceologer>);
+    <tag:items:chocolate:eye_items>.add(<tag:items:chocolate:windcaller>);
+    <tag:items:chocolate:eye_items>.add(<tag:items:chocolate:geomancer>);
+    <tag:items:chocolate:eye_items>.add(<tag:items:chocolate:mage>);
+    <tag:items:chocolate:eye_items>.add(<tag:items:chocolate:raid_boss_items>);
+    <tag:items:chocolate:eye_items>.add(<item:friendsandfoes:totem_of_illusion>);
+    <tag:items:chocolate:eye_items>.add(<item:minecraft:totem_of_undying>);
+    <tag:items:chocolate:eye_items>.add(<item:dungeons_mobs:necromancer_staff>);
+
