@@ -94,6 +94,11 @@
 
 
 
+
+
+
+
+
 //----- ALL EYE INGREDIENTS ----- 
 
     // ----- LOST EYE -----
@@ -191,9 +196,8 @@
     <tag:items:chocolate:eye_items>.add(<item:friendsandfoes:totem_of_freezing>);
     <tag:items:chocolate:eye_items>.add(<tag:items:chocolate:tower_arcs>);
    
-
     // ----- CURSED EYE -----
-    <tawg:items:chocolate:eye_items>.add(<item:minecraft:music_disc_11>);
+    <tag:items:chocolate:eye_items>.add(<item:minecraft:music_disc_11>);
     <tag:items:chocolate:eye_items>.add(<item:minecraft:music_disc_pigstep>);
     <tag:items:chocolate:eye_items>.add(<item:art_of_forging:forged_steel_ingot>);
     <tag:items:chocolate:eye_items>.add(<item:minecraft:lodestone>);
@@ -212,3 +216,39 @@
     <tag:items:chocolate:eye_items>.add(<item:minecraft:totem_of_undying>);
     <tag:items:chocolate:eye_items>.add(<item:dungeons_mobs:necromancer_staff>);
 
+   // ----- NETHER EYE -----
+    <tag:items:chocolate:eye_items>.add(<item:tetra:scroll_rolled>.withTag({BlockEntityTag: {data: [{intricate: 1, material: 2, schematics: ["tetra:hone/gild_1", "tetra:hone/gild_2", "tetra:hone/gild_3"], ribbon: "deb243", glyphs: [13, 14, 14, 15], key: "hone/gild_3"}]}}));
+    <tag:items:chocolate:eye_items>.add(<item:minecraft:netherite_scrap>);
+    <tag:items:chocolate:eye_items>.add(<item:mutantmore:mutant_blaze_core>);
+    <tag:items:chocolate:eye_items>.add(<item:alexsmobs:mosquito_larva>);
+    <tag:items:chocolate:eye_items>.add(<item:dungeons_mobs:netherplate_helmet>);
+    <tag:items:chocolate:eye_items>.add(<item:cnb:cindershell_shell_shard>);
+    <tag:items:chocolate:eye_items>.add(<item:brewinandchewin:fiery_fondue_pot>);
+    <tag:items:chocolate:eye_items>.add(<item:netherdepthsupgrade:nether_rice_roll_medley_block>);
+
+     // ----- UNDEAD EYE -----
+    <tag:items:chocolate:eye_items>.add(<item:supplementaries:candle_holder>);
+    <tag:items:chocolate:eye_items>.add(<item:nourished_nether:totem_of_post_mortem>);
+    <tag:items:chocolate:eye_items>.add(<item:rottencreatures:magma_rotten_flesh>);
+    <tag:items:chocolate:eye_items>.add(<item:endrem:undead_soul>);
+    <tag:items:chocolate:eye_items>.add(<item:nourished_nether:necronium_ingot>);
+    <tag:items:chocolate:eye_items>.add(<item:rottencreatures:frozen_rotten_flesh>);
+
+    // ----- WITHER EYE -----
+    <tag:items:chocolate:eye_items>.add(<item:minecraft:potion>.withTag({Potion: "illageandspillage:mutation"}));
+    <tag:items:chocolate:eye_items>.add(<item:farmersrespite:blazing_chili>);
+    <tag:items:chocolate:eye_items>.add(<item:majruszsdifficulty:wither_sword>);
+    <tag:items:chocolate:eye_items>.add(<item:born_in_chaos_v1:dark_metal_ingot>);
+    <tag:items:chocolate:eye_items>.add(<item:mutantmore:mutant_wither_skeleton_skull>);
+    
+     // ----- CRYPTIC (...) EYE -----
+    <tag:items:chocolate:eye_items>.add(<item:alexsmobs:void_worm_eye>);
+    <tag:items:chocolate:eye_items>.add(<item:enlightened_end:irradium_bar>);
+    <tag:items:chocolate:eye_items>.add(<item:iter_rpg:void_fragment>);
+    <tag:items:chocolate:eye_items>.add(<item:cataclysm:void_core>);
+    <tag:items:chocolate:eye_items>.add(<item:mutantmore:mutant_shulker_shell>);
+    <tag:items:chocolate:eye_items>.add(<item:majruszsdifficulty:enderium_shard>);
+    <tag:items:chocolate:eye_items>.add(<item:majruszsdifficulty:enderium_ingot>);
+    <tag:items:chocolate:eye_items>.add(<item:enlightened_end:adamantite_ingot>);
+    <tag:items:chocolate:eye_items>.add(<item:unusualend:void_totem>);
+    
