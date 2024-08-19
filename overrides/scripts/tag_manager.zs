@@ -181,9 +181,9 @@
     <tag:items:chocolate:eye_items>.add(<item:minecraft:ghast_tear>);
     <tag:items:chocolate:eye_items>.add(<item:endrem:witch_pupil>);
     <tag:items:chocolate:eye_items>.add(<item:alexsmobs:gongylidia>);
-    <tag:items:chocolate:eye_items>.add(<item:minecraft:rabbit_hide>);
-    <tag:items:chocolate:eye_items>.add(<item:minecraft:potion>.withTag({Potion: "rottencreatures:freeze"}));
-    <tag:items:chocolate:eye_items>.add(<item:minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}));
+    <tag:items:chocolate:eye_items>.add(<item:minecraft:rabbit_hide>);  
+    //<tag:items:chocolate:eye_items>.add(<item:minecraft:potion>.withTag({Potion: "rottencreatures:freeze"}));
+    //<tag:items:chocolate:eye_items>.add(<item:minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}));
     
     // ----- COLD EYE -----
     <tag:items:chocolate:eye_items>.add(<item:aquamirae:wisteria_niveis>);
@@ -235,7 +235,7 @@
     <tag:items:chocolate:eye_items>.add(<item:rottencreatures:frozen_rotten_flesh>);
 
     // ----- WITHER EYE -----
-    <tag:items:chocolate:eye_items>.add(<item:minecraft:potion>.withTag({Potion: "illageandspillage:mutation"}));
+    //<tag:items:chocolate:eye_items>.add(<item:minecraft:potion>.withTag({Potion: "illageandspillage:mutation"}));
     <tag:items:chocolate:eye_items>.add(<item:farmersrespite:blazing_chili>);
     <tag:items:chocolate:eye_items>.add(<item:majruszsdifficulty:wither_sword>);
     <tag:items:chocolate:eye_items>.add(<item:born_in_chaos_v1:dark_metal_ingot>);
