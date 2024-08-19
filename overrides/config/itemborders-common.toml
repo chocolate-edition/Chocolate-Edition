@@ -47,5 +47,4 @@
 		#   Negation - ~ followed by any selector above.  This selector will be negated, matching every item that does NOT match the selector.  Examples: "~minecraft:stick", "~!uncommon", "~@minecraft"
 		#   Combining selectors - Any number of selectors can be combined by separating them with a plus sign.  Examples: "minecraft:diamond_sword+&Enchantments", "minecraft:stick+~!common+&Damage=0"
 		[client.options.manual_borders]
-			yellow = ["minecraft:stick"]
-
+			dark_purple = ["$chocolate:eye_items", "%Dark Potion+~%Splash+~%Arrow+~%Lingering+~%Spikes", "%Potion of Freeze+~%Splash+~%Arrow+~%Lingering+~%Spikes", "%Potion of Fire Resistance+~%Splash+~%Arrow+~%Lingering+~%Spikes"]
