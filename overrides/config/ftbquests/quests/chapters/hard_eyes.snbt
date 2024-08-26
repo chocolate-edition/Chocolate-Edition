@@ -3650,7 +3650,7 @@
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
-			description: ["This item can be obtained by killing &cSoul Vultures&r, which spawns in the Soul Sand Valley. &eSoul Hearts&r can only be obtained onbce a &cSoul Vulture&r has sucked the soul from its victium five times. they must be damaged for the soul steal to happen. the soul heart has a 20% drop rate."]
+			description: ["This item can be obtained by killing &cSoul Vultures&r, which spawns in the Soul Sand Valley. &eSoul Hearts&r can only be obtained onbce a &cSoul Vulture&r has sucked the soul from its victium five times. when the soul vulture is below half health and attacks you, they will heal some hp. after doing so 5 times their wings will glow blue, and they will drop a soul heart when killed."]
 			id: "67DE26F4537FDCC7"
 			subtitle: "Dropped by Soul Vultures"
 			tasks: [{
