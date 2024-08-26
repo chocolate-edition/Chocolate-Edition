@@ -2,23 +2,25 @@
 
 ## for use with a hosting service
 
-some server hosts dont allow you to specify a start script, or automatically download the client pack for you to use. if this is the case, you can set up the server as the host intends, but replace the config, defaultconfigs, mods, and scripts folder with those found in this server pack.
+some server hosts dont allow you to specify a start script, or automatically download the client pack for you to use. if this is the case, you can set up the server as the host intends, but replace the `config`, `defaultconfigs`, `mods`, `resources` and `scripts` folder with those found in this server pack.
 
 ## for unix (linux or mac)
 
-simply run start.sh using bash or make your hosted server start script be
+simply run `start.sh` using bash or make your hosted server start script be
 
+```sh
 bash start.sh
+```
 
 ## for windows
 
 you may be able to get away with simply "un blocking" the script.
+
 1. right click the start.ps1 file, and choose "properties"
 2. find and check the "unblock" checkbox at the bottom of the window
-3. then you can start the server by running start.ps1 with powershell. (right click > run with powershell)
+3. then you can start the server by double clicking `start.bat` or by running `start.ps1` with powershell. (right click > run with powershell)
 
 if this doesnt work, please try the following steps as well
-
 
 ## Set execution policy to Remote-Signed
 
@@ -29,13 +31,13 @@ you will need to enable running powershell scripts from unknown sources. keep in
 
 set-executionpolicy remotesigned
 
-then you can start the server by running start.ps1 with powershell. (right click > run with powershell)
+then you can start the server by double clicking `start.bat` or by running `start.ps1` with powershell. (right click > run with powershell)
 
 ## Common problems
 
 the first time the server starts you will be prompted to accept the EULA. afterwards you should see the server logs as the server starts up.
 
-if you have any problems dont hesitate to ask us in our discord server! https://discord.gg/chocolate-edition-minecraft-945364406609514517
+if you have any problems dont hesitate to ask us in our discord server! <https://discord.gg/chocolate-edition-minecraft-945364406609514517>
 
 ## to specify which java runtime to use
 
@@ -60,6 +62,6 @@ should instead be
 
 ## to upgrade from a previous version
 
-you will need to **fully replace** config, defaultconfigs, mods, and scripts. this means either deleting them from your current server and dragging in the new ones, or copy everything else from the old server into the new pack.
+you will need to **fully replace** `config`, `defaultconfigs`, `mods`, `resources` and `scripts`. this means either deleting them from your current server and dragging in the new ones, or copy everything else from the old server into the new pack.
 
 simply copying the folders either direction will not work as this may leave remnants of files that should no longer exist.

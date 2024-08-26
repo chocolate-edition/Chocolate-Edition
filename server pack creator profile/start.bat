@@ -1,0 +1,1 @@
+start powershell -command "& '.\start.ps1'
