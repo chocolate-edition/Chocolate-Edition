@@ -94,4 +94,4 @@
 
 
 //Passion Fruit
-<tag:item:forge:fruits/passionfruit>.add(<item:atmospheric:passion_fruit>)
+<tag:items:forge:fruits/passionfruit>.add(<item:atmospheric:passion_fruit>);
