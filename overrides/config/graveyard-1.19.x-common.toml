@@ -73,7 +73,7 @@
 		generate = false
 
 	["The Graveyard - Structures Config".deadTree]
-		generate = false
+		generate = true
 
 ["The Graveyard - Mob Spawning Config"]
 
