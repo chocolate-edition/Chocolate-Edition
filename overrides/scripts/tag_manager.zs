@@ -91,3 +91,7 @@
 
 //Meatball
 <tag:items:diet:proteins>.add(<item:unusualprehistory:mammoth_meatball>);
+
+
+//Passion Fruit
+<tag:item:forge:fruits/passionfruit>.add(<item:atmospheric:passion_fruit>)
