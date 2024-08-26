@@ -1,0 +1,394 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	[[triggers.structure]]
+		resource_name = [ "chocolate:white_palace" ]
+		identifier = "white_palace"
+	[[triggers.structure]]
+		resource_name = [ "chocolate:shaded_citadel" ]
+		identifier = "shaded_citadel"
+	[[triggers.structure]]
+		resource_name = [ "blue_skies:everbright_blinding_dungeon" "blue_skies:everdawn_blinding_dungeon" "blue_skies:poison_dungeon" "blue_skies:nature_dungeon" ]
+		identifier = "blue_skies"
+	[[triggers.dimension]]
+		resource_name = [ "minecraft:overworld" ]
+		identifier = "overworld"
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "mutantnether"
+		resource_name = [ "mutantmore:mutant_blaze" "mutantmore:mutant_wither_skeleton" ]
+	[[triggers.mob]]
+		detection_range = "64"
+		identifier = "midgame"
+		priority = "10"
+		resource_name = [ "bosses_of_mass_destruction:lich" "bosses_of_mass_destruction:void_blossom" "predators:shaman" "blue_skies:summoner" "blue_skies:alchemist" "blue_skies:starlit_crusher" "blue_skies:arachnarch" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "raid_boss"
+		priority = "11"
+		resource_name = [ "illageandspillage:spiritcaller" "illageandspillage:magispeller" "illageandspillage:freakager" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "early_bosses"
+		persistence = "100"
+		resource_name = [ "meetyourfight:bellringer" "meetyourfight:swampjaw" "predators:huntsman" "iter_rpg:insatiable" "queen_bee:queen_bee" "mutantmonsters:mutant_creeper" "mutantmonsters:mutant_enderman" "predators:scarab" "minecraft:elder_guardian" "mutantmonsters:mutant_zombie" "mutantmonsters:mutant_skeleton" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "strong_enemies"
+		resource_name = [ "cataclysm:the_prowler" "cataclysm:kobolediator" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "corundum_guardian"
+		mob_targeting = false
+		priority = "10"
+		resource_name = [ "corundumguardian:corundum_guardian" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "harbinger"
+		mob_targeting = false
+		resource_name = [ "cataclysm:the_harbinger" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "leviathan"
+		resource_name = [ "cataclysm:the_leviathan" ]
+	[[triggers.mob]]
+		detection_range = "196"
+		identifier = "ender_dragon"
+		mob_targeting = false
+		priority = "15"
+		persistence = "100"
+		resource_name = [ "minecraft:ender_dragon" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "mutant_shulker"
+		mob_targeting = false
+		resource_name = [ "mutantmore:mutant_shulker" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "obsidilith"
+		persistence = "100"
+		resource_name = [ "bosses_of_mass_destruction:obsidilith" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "mutant_wither_skeleton"
+		mob_targeting = false
+		resource_name = [ "mutantmore:mutant_wither_skeleton" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "mutant_blaze"
+		mob_targeting = false
+		resource_name = [ "mutantmore:mutant_blaze" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "nether_gauntlet"
+		resource_name = [ "bosses_of_mass_destruction:gauntlet" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "magispeller"
+		mob_targeting = false
+		resource_name = [ "illageandspillage:magispeller" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "void_blossom"
+		mob_targeting = false
+		resource_name = [ "bosses_of_mass_destruction:void_blossom" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "night_lich"
+		mob_targeting = false
+		resource_name = [ "bosses_of_mass_destruction:lich" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "rosalyne"
+		resource_name = [ "meetyourfight:rosalyne" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "dame_fortuna"
+		mob_targeting = false
+		resource_name = [ "meetyourfight:dame_fortuna" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "spiritcaller"
+		mob_targeting = false
+		resource_name = [ "illageandspillage:spiritcaller" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "mutant_enderman"
+		mob_targeting = false
+		resource_name = [ "mutantmonsters:mutant_enderman" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "mutant_creeper"
+		mob_targeting = false
+		resource_name = [ "mutantmonsters:mutant_creeper" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "queen_bee"
+		mob_targeting = false
+		resource_name = [ "queen_bee:queen_bee" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "insatiable"
+		mob_targeting = false
+		resource_name = [ "iter_rpg:insatiable" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "bellringer"
+		mob_targeting = false
+		resource_name = [ "meetyourfight:bellringer" ]
+	[[triggers.mob]]
+		detection_range = "32"
+		identifier = "freakager"
+		mob_targeting = false
+		resource_name = [ "illageandspillage:freakager" ]
+	[[triggers.mob]]
+		identifier = "boss"
+		priority = "10"
+		not = true
+		resource_name = [ "conjurer_illager:conjurer" "born_in_chaos_v1:sir_pumpkinhead" "born_in_chaos_v1:pumpkinhead" "born_in_chaos_v1:sir_pumpkinhead_without_horse" "illageandspillage:freakager" "meetyourfight:bellringer" "predators:huntsman" "iter_rpg:insatiable" "aquamirae:captain_cornelia" "blue_skies:summoner" "queen_bee:queen_bee" "meetyourfight:swampjaw" "minecraft:elder_guardian" "predators:scarab" "mutantmonsters:mutant_zombie" "mutantmonsters:mutant_skeleton" "mutantmonsters:mutant_creeper" "mutantmonsters:mutant_enderman" "majruszsdifficulty:cerberus" "iter_rpg:sorrowsealed" "illageandspillage:spiritcaller" "blue_skies:alchemist" "predators:rock_boss" "alexsmobs:warped_mosco" "predators:prisnautilus" "meetyourfight:dame_fortuna" "meetyourfight:rosalyne" "bosses_of_mass_destruction:lich" "bosses_of_mass_destruction:void_blossom" "blue_skies:arachnarch" "blue_skies:starlit_crusher" "illageandspillage:magispeller" "bosses_of_mass_destruction:gauntlet" "mutantmore:mutant_blaze" "mutantmore:mutant_wither_skeleton" "cataclysm:netherite_monstrosity" "minecraft:wither" "bosses_of_mass_destruction:obsidilith" "mutantmore:mutant_shulker" "unusualend:endstone_golem" "endergetic:brood_eetle" "alexsmobs:void_worm" "minecraft:ender_dragon" "cataclysm:ancient_remnant" "cataclysm:the_leviathan" "graveyard:lich" "cataclysm:ender_guardian" "cataclysm:the_harbinger" "cataclysm:ignis" "witherstormmod:withered_symbiont" "witherstormmod:wither_storm" "predators:shaman" "corundumguardian:corundum_guardian" "aether:valkyrie_queen" "aether:slider" "aether:sun_spirit" "cataclysm:amethyst_crab" "cataclysm:ignited_revenant" "cataclysm:the_prowler" "cataclysm:ender_golem" "cataclysm:kobolediator" ]
+		detection_range = "32"
+	[[triggers.height]]
+		level = "50"
+		identifier = "underground"
+	[[triggers.dimension]]
+		resource_name = [ "javd:void" ]
+		identifier = "nexus"
+	[[triggers.dimension]]
+		resource_name = [ "minecraft:the_end" ]
+		identifier = "end"
+	[[triggers.dimension]]
+		resource_name = [ "aether:the_aether" ]
+		identifier = "aether"
+	[[triggers.dimension]]
+		resource_name = [ "blue_skies:everdawn" ]
+		identifier = "everdawn"
+	[[triggers.dimension]]
+		resource_name = [ "blue_skies:everbright" ]
+		identifier = "everbright"
+	[[triggers.dimension]]
+		resource_name = [ "minecraft:the_nether" ]
+		identifier = "nether"
+	[[triggers.biome]]
+		resource_name = [ "minecraft:ocean" "minecraft:deep_ocean" "minecraft:deep_lukewarm_ocean" "minecraft:deep_cold_ocean" "minecraft:cold_ocean" "minecraft:lukewarm_ocean" "minecraft:warm_ocean" ]
+		identifier = "ocean"
+	[[triggers.biome]]
+		resource_name = [ "minecraft:badlands" "minecraft:eroded_badlands" "minecraft:wooded_badlands" ]
+		identifier = "mesa"
+	[[triggers.biome]]
+		resource_name = [ "minecraft:jungle" "minecraft:sparse_jungle" "atmospheric:sparse_rainforest" "atmospheric:rainforest" "minecraft:bamboo_jungle" ]
+		identifier = "jungle"
+	[[triggers.biome]]
+		resource_name = [ "minecraft:savanna" "minecraft:savanna_plateau" "minecraft:windswept_savanna" ]
+		identifier = "savanna"
+	[[triggers.biome]]
+		resource_name = [ "minecraft:swamp" "environmental:marsh" "minecraft:mangrove_swamp" "atmospheric:rainforest_basin" "atmospheric:sparse_rainforest_basin" ]
+		identifier = "swamp"
+	[[triggers.biome]]
+		resource_name = [ "minecraft:mushroom_fields" ]
+		identifier = "mooshroom"
+	[[triggers.biome]]
+		resource_name = [ "minecraft:beach" "minecraft:stony_shores" "minecraft:snowy_beach" ]
+		identifier = "beach"
+	[[triggers.biome]]
+		resource_name = [ "minecraft:snowy_slopes" "minecraft:jagged_peaks" "minecraft:stony_peaks" "minecraft:windswept_hills" "minecraft:windswept_gravelly_hills" "minecraft:grove" ]
+		identifier = "mountains"
+	[[triggers.biome]]
+		resource_name = [ "minecraft:dark_forest" "autumnity:pumpkin_fields" "atmospheric:aspen_parkland" ]
+		identifier = "dark_forest"
+	[[triggers.biome]]
+		priority = "5"
+		resource_name = [ "minecraft:snowy_plains" "minecraft:snowy_taiga" "atmospheric:snowy_shrubland" "atmospheric:kousa_jungle" "minecraft:frozen_river" "minecraft:ice_spikes" "environmental:snowy_pine_barrens" ]
+		identifier = "snow"
+	[[triggers.height]]
+		check_above_level = true
+		level = "64"
+		priority = "4"
+		identifier = "surface"
+	[[triggers.biome]]
+		resource_name = [ "minecraft:desert" "atmospheric:dunes" "atmospheric:flourishing_dunes" "atmospheric:petrified_dunes" "atmospheric:rocky_dunes" "atmospheric:shrubland" "atmospheric:spiny_thicket" ]
+		identifier = "desert"
+	[[triggers.biome]]
+		identifier = "forest"
+		resource_name = [ "minecraft:taiga" "minecraft:forest" "minecraft:birch_forest" "minecraft:taiga" "minecraft:flower_forest" "minecraft:old_growth_birch_forest" "minecraft:old_growth_spruce_taiga" "minecraft:old_growth_pine_taiga" "minecraft:windswept_forest" "environmental:pine_barrens" "environmental:blossom_woods" "atmospheric:laurel_forest" "autumnity:maple_forest" ]
+	[[triggers.mob]]
+		horde_targeting_percentage = "100"
+		identifier = "huntsman"
+		resource_name = [ "predators:huntsman" ]
+		mob_targeting = false
+		detection_range = "32"
+		horde_health_percentage = "100"
+	[[triggers.mob]]
+		mob_nbt = "meetyourfight:bellringer"
+		resource_name = [ "meetyourfight:swampjaw" ]
+		horde_health_percentage = "100"
+		mob_targeting = false
+		detection_range = "32"
+		identifier = "swampjaw"
+	[triggers.storming]
+		priority = "3"
+	[triggers.raining]
+		priority = "3"
+	[[triggers.mob]]
+		identifier = "any"
+		level = "5"
+		horde_targeting_percentage = "100"
+		detection_range = "24"
+		resource_name = [ ":" ]
+	[[triggers.biome]]
+		identifier = "plains"
+		fade_out = "100"
+		fade_in = "20"
+		resource_name = [ "minecraft:plains" "minecraft:meadow" "minecraft:sunflower_plains" "environmental:blossom_valleys" "minecraft:river" ]
+	[triggers.universal]
+		fade_out = "80"
+		persistence = "0"
+		trigger_delay = "0"
+		song_delay = "0"
+		start_delay = "0"
+		stop_delay = "0"
+		fade_in = "20"
+[songs]
+	[songs.creepy]
+		resume_on_play = true
+		triggers = [ "mob-corundum_guardian" ]
+	[[songs.crystal_cave_pause_menu_open_ver]]
+		resume_on_play = true
+		triggers = [ "structure-blue_skies" ]
+	[songs.white_palace]
+		resume_on_play = true
+		play_x = "100"
+		triggers = [ "structure-white_palace" ]
+	[songs.shaded_citadel]
+		resume_on_play = true
+		triggers = [ "structure-shaded_citadel" ]
+	[[songs.yes]]
+		resume_on_play = true
+		triggers = [ "mob-strong_enemies" ]
+	[songs.status_palcow_stracone]
+		resume_on_play = true
+		triggers = [ ]
+	[songs.soup_can_vigil_ex_machina]
+		resume_on_play = true
+		triggers = [ "mob-harbinger" ]
+	[songs.deicide-promise_the_sea]
+		resume_on_play = true
+		triggers = [ "mob-leviathan" ]
+	[songs.instability_compressed]
+		resume_on_play = true
+		triggers = [ "mob-ender_dragon" ]
+	[[songs.anthropophagus]]
+		resume_on_play = true
+		triggers = [ "mob-mutant_shulker" ]
+	[[songs.yes]]
+		resume_on_play = true
+		triggers = [ "mob-obsidilith" ]
+	[songs.contagion]
+		resume_on_play = true
+		triggers = [ "mob-mutantnether" ]
+	[songs.kaiju]
+		resume_on_play = true
+		triggers = [ "mob-nether_gauntlet" ]
+	[songs.firebrand_trebuchet]
+		resume_on_play = true
+		triggers = [ "mob-midgame" ]
+	[songs.god_in_the_making_b_3]
+		resume_on_play = true
+		[songs.god_in_the_making_b_3.loop]
+			to = "20500"
+			num_loops = "10"
+			from = "130200"
+		triggers = [ "mob-rosalyne" ]
+	[songs.soup_-_iconoclasm]
+		resume_on_play = true
+		triggers = [ "mob-dame_fortuna" ]
+	[songs.tier1beastfight_final]
+		resume_on_play = true
+		triggers = [ "mob-early_bosses" ]
+	[songs.soup_starchaser]
+		resume_on_play = true
+		triggers = [ "mob-early_bosses" ]
+	[songs.soup_can_-_fist_of_steele]
+		resume_on_play = true
+		triggers = [ "mob-early_bosses" ]
+	[songs.man_in_green]
+		resume_on_play = true
+		triggers = [ "mob-early_bosses" ]
+	[songs.proxy]
+		resume_on_play = true
+		triggers = [ "mob-raid_boss" ]
+	[[songs.crystal_cave_pause_menu_open_ver]]
+		resume_on_play = true
+		triggers = [ "biome-snow" "mob-any" "mob-boss" ]
+	[[songs.anthropophagus]]
+		resume_on_play = true
+		triggers = [ "biome-mooshroom" "mob-any" "mob-boss" ]
+	[songs.miniboss]
+		resume_on_play = true
+		triggers = [ "dimension-nexus" "mob-any" "mob-boss" ]
+	[songs.soupwip]
+		resume_on_play = true
+		triggers = [ "dimension-aether" "mob-any" "mob-boss" ]
+	[songs.strider_style]
+		resume_on_play = true
+		triggers = [ "mob-any" "mob-boss" "biome-forest" ]
+	[songs.waveweaver]
+		resume_on_play = true
+		triggers = [ "biome-savanna" "mob-any" "mob-boss" ]
+	[songs.tarantula_tarantella]
+		resume_on_play = true
+		triggers = [ "height-underground" "mob-any" "mob-boss" ]
+	[songs.soupshowtime]
+		resume_on_play = true
+		triggers = [ "biome-plains" "mob-any" "mob-boss" ]
+	[songs.maningreen_no_guitar]
+		resume_on_play = true
+		triggers = [ "biome-desert" "mob-any" "mob-boss" ]
+	[songs.cry_me_a_river_-_raining_cats_and]
+		resume_on_play = true
+		triggers = [ "dimension-end" "mob-any" "mob-boss" ]
+	[songs.4]
+		resume_on_play = true
+		triggers = [ "biome-swamp" "mob-any" "mob-boss" ]
+	[songs.weaponmarketv1]
+		resume_on_play = true
+		triggers = [ "raining" "height-surface" "mob-boss" "dimension-overworld" ]
+	[songs.man_in_green_-_chase_mix]
+		resume_on_play = true
+		triggers = [ "biome-mesa" "mob-any" "mob-boss" ]
+	[songs.slime_poachers]
+		resume_on_play = true
+		triggers = [ "biome-ocean" "mob-any" "mob-boss" ]
+	[songs.soup_desert_showdown_final]
+		triggers = [ "raining" "mob-boss" "height-surface" "biome-desert" ]
+	[songs.desert_chase]
+		resume_on_play = true
+		triggers = [ "biome-desert" "mob-any" "mob-boss" ]
+	[songs.alphachase1_2ogg]
+		resume_on_play = true
+		triggers = [ "biome-plains" "mob-any" "mob-boss" ]
+	[songs.metalchiptunedraft4]
+		resume_on_play = true
+		triggers = [ "dimension-nether" "mob-any" "mob-boss" ]
+	[songs.waves_weaving]
+		resume_on_play = true
+		triggers = [ "biome-forest" "mob-any" "mob-boss" ]
+	[songs.spinnereckless]
+		resume_on_play = true
+		triggers = [ "dimension-everdawn" "mob-any" "mob-boss" ]
+	[songs.blackmarket]
+		resume_on_play = true
+		triggers = [ "raining" "mob-boss" "dimension-overworld" "height-surface" ]
+	[songs.striken__possessed]
+		resume_on_play = true
+		triggers = [ "biome-dark_forest" "mob-any" "mob-boss" ]
+	[songs.take_it_slow]
+		triggers = [ "raining" "mob-boss" "height-surface" "biome-snow" ]
+	[songs.spinnerecklessv2]
+		resume_on_play = true
+		triggers = [ "dimension-everbright" "mob-any" "mob-boss" ]
+	[songs.soupsamuraitest]
+		resume_on_play = true
+		triggers = [ "biome-jungle" "mob-any" "mob-boss" ]
+	[songs.universal]

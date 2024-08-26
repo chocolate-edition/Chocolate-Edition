@@ -1,0 +1,48 @@
+Format this like name = url
+If you are trying to redirect to an already registered resource location Format it like name == location instead
+Any lines with Format in the name or = not present will not be read in
+Make sure each new entry is on a new line
+
+temp33 == minecraft:sounds/music/game/piano2.ogg
+temp11 == minecraft:sounds/music/game/creative/creative6.ogg
+temp34 == minecraft:sounds/music/game/piano3.ogg
+temp12 == minecraft:sounds/music/game/end/boss.ogg
+temp35 == minecraft:sounds/music/game/stand_tall.ogg
+temp13 == minecraft:sounds/music/game/end/credits.ogg
+temp36 == minecraft:sounds/music/game/swamp/aerie.ogg
+temp14 == minecraft:sounds/music/game/end/end.ogg
+ancestry == minecraft:sounds/music/game/ancestry.ogg
+temp30 == minecraft:sounds/music/game/nuance2.ogg
+temp31 == minecraft:sounds/music/game/one_more_day.ogg
+temp32 == minecraft:sounds/music/game/piano1.ogg
+temp10 == minecraft:sounds/music/game/creative/creative5.ogg
+temp19 == minecraft:sounds/music/game/hal4.ogg
+temp37 == minecraft:sounds/music/game/swamp/firebugs.ogg
+temp15 == minecraft:sounds/music/game/floating_dream.ogg
+anordinaryday == minecraft:sounds/music/game/an_ordinary_day.ogg
+temp38 == minecraft:sounds/music/game/swamp/labyrinthine.ogg
+temp16 == minecraft:sounds/music/game/hal1.ogg
+temp39 == minecraft:sounds/music/game/water/dragon_fish.ogg
+temp17 == minecraft:sounds/music/game/hal2.ogg
+temp18 == minecraft:sounds/music/game/hal3.ogg
+calm1 == minecraft:sounds/music/game/calm1.ogg
+calm2 == minecraft:sounds/music/game/calm2.ogg
+calm3 == minecraft:sounds/music/game/calm3.ogg
+temp22 == minecraft:sounds/music/game/nether/crimson_forest/chrysopoeia.ogg
+temp23 == minecraft:sounds/music/game/nether/nether1.ogg
+temp24 == minecraft:sounds/music/game/nether/nether2.ogg
+temp25 == minecraft:sounds/music/game/nether/nether3.ogg
+temp40 == minecraft:sounds/music/game/water/axolotl.ogg
+temp41 == minecraft:sounds/music/game/water/shuniji.ogg
+temp42 == minecraft:sounds/music/game/wending.ogg
+temp20 == minecraft:sounds/music/game/infinite_amethyst.ogg
+temp21 == minecraft:sounds/music/game/left_to_bloom.ogg
+temp26 == minecraft:sounds/music/game/nether/nether4.ogg
+temp27 == minecraft:sounds/music/game/nether/nether_wastes/rubedo.ogg
+temp28 == minecraft:sounds/music/game/nether/soulsand_valley/so_below.ogg
+temp29 == minecraft:sounds/music/game/nuance1.ogg
+temp6 == minecraft:sounds/music/game/creative/creative1.ogg
+temp7 == minecraft:sounds/music/game/creative/creative2.ogg
+comfortingmemories == minecraft:sounds/music/game/comforting_memories.ogg
+temp8 == minecraft:sounds/music/game/creative/creative3.ogg
+temp9 == minecraft:sounds/music/game/creative/creative4.ogg
