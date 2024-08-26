@@ -8,5 +8,5 @@
 # 
 # If battle music is prevented from playing when fighting the mutants in Mutant More
 # usually set to false
-"Play Battle Music Off" = false
+"Play Battle Music Off" = true
 

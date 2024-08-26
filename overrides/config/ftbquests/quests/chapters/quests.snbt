@@ -5114,7 +5114,13 @@
 		{
 			dependencies: ["6DFDB0FD9B6DD670"]
 			description: [
-				"the earth piercer and stone cutter can be crafted by either finding the special materials in large forged containers, or by upgrading a sword or shovel in front of an intact ancient schematic inside a tetra ruin"
+				"these items can be found in tetra ruins, underground in cold biomes. (they are easy to find in deep cold oceans)"
+				""
+				"use a tetra hammer and claw tool to open the small forged crates by right clikcing the prompt square on the faces of the crates with the correct tool"
+				""
+				"you can find to rarer items in the larger forged containers. to opoen these, you must hammer off all 4 latches, then use a claw to pry open the lid. forged containers have 3 pages of loot, so be sure to check them all!"
+				""
+				""
 				""
 				"the katana scroll is gated to stage 2 (6 eyes) and is crafted as such"
 				""
@@ -5236,12 +5242,7 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "tetra:modular_sword"
-						tag: {
-							Damage: 0
-							"sword/blade": "sword/stonecutter"
-							"sword/stonecutter_material": "stonecutter/stonecutter"
-						}
+						id: "tetra:stonecutter"
 					}
 					type: "item"
 				}
@@ -5252,12 +5253,7 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "tetra:modular_single"
-						tag: {
-							Damage: 0
-							"single/earthpiercer_material": "earthpiercer/earthpiercer"
-							"single/head": "single/earthpiercer"
-						}
+						id: "tetra:earthpiercer"
 					}
 					type: "item"
 				}

@@ -2441,6 +2441,7 @@
 				id: "4B8152EF49B91B7B"
 				type: "dimension"
 			}]
+			title: "Give Quest Book"
 			x: -2.0d
 			y: -1.5d
 		}
@@ -2484,25 +2485,6 @@
 			}]
 			x: -4.5d
 			y: 9.5d
-		}
-		{
-			id: "7797F3D6B8EC70CF"
-			tasks: [{
-				icon: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "witherstormmod:withered_symbiont_spawn_egg"
-				}
-				id: "5E8B932E48A5E3B1"
-				observe_type: 5
-				timer: 0L
-				to_observe: "withersstormmod:wither_storm"
-				type: "observation"
-			}]
-			x: 6.25d
-			y: -0.75d
 		}
 		{
 			can_repeat: true
@@ -2564,7 +2546,7 @@
 				id: "3FC0D59C7F5F94CC"
 				type: "dimension"
 			}]
-			title: "valk queen"
+			title: "valk queen rework"
 			x: 6.75d
 			y: 3.75d
 		}
@@ -2584,7 +2566,8 @@
 				id: "3DFBA402C00272E0"
 				type: "custom"
 			}]
-			x: 7.5d
+			title: "Debug valk queen stats"
+			x: 7.75d
 			y: 3.75d
 		}
 		{
@@ -2598,8 +2581,8 @@
 				id: "7ED6441EC4F9BD8B"
 				type: "custom"
 			}]
-			title: "slider"
-			x: 6.75d
+			title: "slider idk what this is??"
+			x: 7.75d
 			y: 5.25d
 		}
 		{
@@ -2616,7 +2599,8 @@
 				id: "119026F38F7DBC97"
 				type: "dimension"
 			}]
-			x: 7.75d
+			title: "slider rework"
+			x: 6.75d
 			y: 5.25d
 		}
 		{
@@ -2654,7 +2638,7 @@
 				id: "0160BEB459090344"
 				type: "dimension"
 			}]
-			title: "sunspirit"
+			title: "sunspirit rework"
 			x: 6.75d
 			y: 6.75d
 		}
@@ -2663,7 +2647,7 @@
 			id: "5B584CE502BC9124"
 			rewards: [{
 				auto: "no_toast"
-				command: "/execute at @a in blue_skies:everbright run particle endermanoverhaul:snow ~ ~1 ~ 10 5 10 2 200 normal"
+				command: "/execute at @p in blue_skies:everbright run particle endermanoverhaul:snow ~ ~1 ~ 10 5 10 2 200 normal"
 				exclude_from_claim_all: true
 				id: "0E40C703C19CEC37"
 				ignore_reward_blocking: true
@@ -2677,36 +2661,16 @@
 				type: "stat"
 				value: 1
 			}]
-			x: 6.75d
-			y: 1.0d
-		}
-		{
-			can_repeat: true
-			id: "5A95184C0369C9C0"
-			rewards: [{
-				auto: "no_toast"
-				command: "/blue_skies weather clear"
-				exclude_from_claim_all: true
-				id: "5CEC6BE6B573CAD3"
-				ignore_reward_blocking: true
-				silent: true
-				team_reward: false
-				type: "command"
-			}]
-			tasks: [{
-				biome: "blue_skies:calming_skies"
-				id: "2102A734053FEC09"
-				type: "biome"
-			}]
-			x: 9.5d
-			y: 1.5d
+			title: "Everbright snow particle"
+			x: 7.25d
+			y: -0.25d
 		}
 		{
 			can_repeat: true
 			id: "71205726B9342781"
 			rewards: [{
 				auto: "no_toast"
-				command: "/execute at @a in blue_skies:everdawn run particle blue_skies:star_glimmer ~ ~1 ~ 10 5 10 2 50 normal"
+				command: "/execute at @p in blue_skies:everdawn run particle blue_skies:star_glimmer ~ ~1 ~ 10 5 10 2 50 normal"
 				exclude_from_claim_all: true
 				id: "0C245B6219076E3F"
 				ignore_reward_blocking: true
@@ -2720,6 +2684,7 @@
 				type: "stat"
 				value: 1
 			}]
+			title: "Everdawn Dust particle"
 			x: 8.25d
 			y: -0.25d
 		}
@@ -2728,7 +2693,7 @@
 			id: "6FB30BCA8CBF9926"
 			rewards: [{
 				auto: "no_toast"
-				command: "/execute at @a in minecraft:overworld run particle bosses_of_mass_destruction:disappearing_swirl ~ ~1 ~ 10 5 10 0.001 200 normal"
+				command: "/execute at @p in minecraft:overworld run particle bosses_of_mass_destruction:disappearing_swirl ~ ~1 ~ 10 5 10 0.001 50 normal"
 				exclude_from_claim_all: true
 				id: "79A5D7C2BF88F5B5"
 				ignore_reward_blocking: true
@@ -2741,8 +2706,9 @@
 				id: "15214EEB3D7B46D7"
 				type: "biome"
 			}]
-			x: 10.0d
-			y: 3.75d
+			title: "Meadow wind particle"
+			x: 9.25d
+			y: -0.25d
 		}
 		{
 			dependencies: ["571FCE18A458502D"]
@@ -2766,11 +2732,12 @@
 				team_reward: false
 				type: "random"
 			}]
+			subtitle: "RNG is determined here by randomly rewarding a completion of a quest in the circle labeled random 1-15"
 			tasks: [{
 				id: "005D01E0FC73E9BB"
 				type: "checkmark"
 			}]
-			title: "Random Bounty"
+			title: "Picks Random Bounty (Debug), Surrounding it is RNG calculator"
 			x: -2.5d
 			y: 14.75d
 		}
@@ -2890,6 +2857,7 @@
 				id: "7424D6A7AE552C91"
 				type: "dimension"
 			}]
+			title: "Glowing npcs"
 			x: 20.5d
 			y: 6.25d
 		}
@@ -3236,6 +3204,7 @@
 				title: "reset random bounty"
 				type: "checkmark"
 			}]
+			title: "Resets rng calculator and picks a random one"
 			x: 2.0d
 			y: 14.75d
 		}
@@ -3251,6 +3220,7 @@
 				team_reward: false
 				type: "command"
 			}]
+			subtitle: "This just exists so the player has a random bounty to begin with upon world join"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -3270,13 +3240,7 @@
 		}
 		{
 			can_repeat: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "minecraft:grass_block"
-			}
+			icon: "minecraft:grass_block"
 			id: "7F9EF50C41E333E1"
 			rewards: [
 				{
@@ -3425,6 +3389,7 @@
 				id: "392CEAD56FE30CA1"
 				type: "dimension"
 			}]
+			title: "Reset talking to npc tasks"
 			x: 4.0d
 			y: 13.75d
 		}
@@ -3462,8 +3427,9 @@
 				structure: "chocolate:white_palace"
 				type: "structure"
 			}]
-			x: 26.5d
-			y: 2.25d
+			title: "Adventure in White Palace"
+			x: 28.0d
+			y: 3.25d
 		}
 		{
 			can_repeat: true
@@ -3502,6 +3468,7 @@
 				id: "103110A690820982"
 				type: "dimension"
 			}]
+			title: "Switch adv back to Survival"
 			x: 29.5d
 			y: 3.75d
 		}
@@ -3541,7 +3508,8 @@
 				id: "18C8816DC04AC2CF"
 				type: "dimension"
 			}]
-			x: 29.75d
+			title: "Switch adv back to Survival"
+			x: 29.5d
 			y: 6.75d
 		}
 		{
@@ -3580,8 +3548,9 @@
 				id: "117EE276EF8C858A"
 				type: "dimension"
 			}]
-			x: 30.0d
-			y: 8.75d
+			title: "Switch adv back to Survival"
+			x: 29.5d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -3619,6 +3588,7 @@
 				id: "641C9DCF0F718EB5"
 				type: "dimension"
 			}]
+			title: "Switch adv back to Survival"
 			x: 29.5d
 			y: 5.25d
 		}
@@ -3658,8 +3628,9 @@
 				id: "6BF466A8B7D799C4"
 				type: "dimension"
 			}]
-			x: 29.25d
-			y: 2.0d
+			title: "Switch adv back to Survival"
+			x: 29.5d
+			y: 2.25d
 		}
 		{
 			can_repeat: true
@@ -3697,8 +3668,9 @@
 				id: "6B347E88F00981BB"
 				type: "dimension"
 			}]
-			x: 30.0d
-			y: 10.25d
+			title: "Switch adv back to Survival"
+			x: 29.5d
+			y: 9.5d
 		}
 		{
 			can_repeat: true
@@ -3735,6 +3707,7 @@
 				structure: "chocolate:shaded_citadel"
 				type: "structure"
 			}]
+			title: "Adventure in Shaded Citadel"
 			x: 28.0d
 			y: 4.75d
 		}

@@ -47,7 +47,7 @@
 				""
 				"• Pocket of Sand - Crafted with &eGuster Eye&r (Dropped by &cGusters&r), &eLeather&r, and &eSand&r"
 				""
-				"• Gilded Eye - Crafted with 8 &eGold Ingots&r around an &eEye of Ender&r"
+				"• Gilded Pearl - Crafted with 8 &eGold Ingots&r around an &eEye of Ender&r"
 			]
 			id: "0E2BD307EC9FDCE2"
 			min_width: 600
@@ -567,7 +567,7 @@
 				}
 				type: "item"
 			}]
-			title: "Gilded Eye (Old Eye)"
+			title: "Gilded Pearl (Old Eye)"
 			x: -4.25d
 			y: 2.75d
 		}
@@ -1009,7 +1009,7 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"This item can be obtained by interacting with a fungal-covered &eLeafcutter Ant Chamber&r found underneath a &6Leafcutter Ant&r mounds in jungles"
+				"This item can be obtained by interacting with a fungal-covered &eLeafcutter Ant Chamber&r found underneath a &6Leafcutter Ant&r mounds in jungles and more easily, sparse jungles"
 				""
 				""
 				"However, unless a &eShroomlight&r is nearby the &6Leafcutter Ants&r, and their Queen, will become hostile"
@@ -3960,7 +3960,6 @@
 					}
 					id: "art_of_forging:resonant_alloy"
 				}
-				optional_task: true
 				type: "item"
 			}]
 			x: 7.0d
