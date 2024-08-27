@@ -95,6 +95,86 @@
 
 
 
+// ------- ALL EYES -----------
+
+<tag:items:chocolate:eyes>.add(<item:endrem:guardian_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:magical_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:wither_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:witch_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:undead_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:exotic_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:cryptic_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:evil_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:cursed_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:rogue_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:old_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:nether_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:lost_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:corrupted_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:cold_eye>.withTag({Damage: 0}));
+<tag:items:chocolate:eyes>.add(<item:endrem:black_eye>.withTag({Damage: 0}));
+
+
+// --------- All QUEST TRINKETS -------
+
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:lucky_rock>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:broken_magnet>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:magnet_ring>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:astral_breaker>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:ascension_amulet>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:light_gloves>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:void_stone>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:fractured_nullstone>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:miners_soul>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:broken_ankh>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:what_magnet>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:puffer_fish_liver>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:tick>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:ghast_eye>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:wooden_stick>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:blaze_nucleus>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:ice_cube>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:amphibious_hands>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:gills>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:true_heart_of_the_sea>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:reforger>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:pocket_lightning_rod>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:scarab_amulet>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:dark_nelumbo>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:xp_scroll>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:escape_scroll>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:unholy_grail>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:dragons_eye>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:ocean_stone>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:speed_force>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:tear_of_the_sea>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:experience_magnet>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:reverse_card>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:spider_legs>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:enigmatic_elytra>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:cracked_crown>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:fertilizer>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:sleeping_pills>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:callus>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:ichor_bottle>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:rage_mind>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:super_magnet>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:forbidden_axe>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:golem_heart>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:infinimeal>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:four_leaf_clover>);
+<tag:items:chocolate:quest_trinkets>.add(<item:create:creative_blaze_cake>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:astral_potato>);
+<tag:items:chocolate:quest_trinkets>.add(<item:nameless_trinkets:moon_stone>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:ender_ring>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:mining_charm>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:monster_charm>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:angel_blessing>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:void_pearl>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:eye_of_nebula>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:blazing_core>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:enchantment_transposer>);
+<tag:items:chocolate:quest_trinkets>.add(<item:enigmaticlegacy:golden_ring>);
 
 
 
