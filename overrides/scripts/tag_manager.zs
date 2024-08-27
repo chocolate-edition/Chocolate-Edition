@@ -95,6 +95,7 @@
 
 
 
+
 // ------- ALL EYES -----------
 
 <tag:items:chocolate:eyes>.add(<item:endrem:guardian_eye>.withTag({Damage: 0}));
@@ -332,3 +333,7 @@
     <tag:items:chocolate:eye_items>.add(<item:enlightened_end:adamantite_ingot>);
     <tag:items:chocolate:eye_items>.add(<item:unusualend:void_totem>);
     
+
+//Passion Fruit
+<tag:items:forge:fruits/passionfruit>.add(<item:atmospheric:passion_fruit>);
+

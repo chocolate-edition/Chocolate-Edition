@@ -343,7 +343,7 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: ["This item can be obtained by playing a &eMaraca&r while near &aCockroach&r and killing it while it dances. "]
+			description: ["This item can be obtained by giving a &eMaraca&r to a &aCockroach&r and killing it while it dances. "]
 			id: "18C7095EA653E6A0"
 			rewards: [
 				{
