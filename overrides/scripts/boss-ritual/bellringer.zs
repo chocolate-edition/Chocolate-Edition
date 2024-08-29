@@ -19,16 +19,10 @@ var nightVision = <item:minecraft:potion>.withTag({Potion: "minecraft:night_visi
         { "ingredient": { "item": "minecraft:spectral_arrow" }, "count": 16 },
 	    { "ingredient": { "item": "minecraft:diamond" }, "count": 32 },
 	    { "ingredient": { "item": "galosphere:allurite_shard" }, "count": 16 },
+		{ "ingredient": { "item": "galosphere:bottle_of_spectre" }, "count": 1 },
 	    { "ingredient": nightVision, "count": 1 }
     ],  
-	"sacrifices": { 
-       		"mobs": [
-			{ "mob": "galosphere:spectre", "count": 1 }
-		],
-
-        	"region": { "x": 5, "y": 5, "z": 5 }
-   	 },
-    	"recipe_time": 200,
+   	"recipe_time": 200,
    	"block_below": { "block": "contenttweaker:bell_ringer_core" },
 	"day_time": "NIGHT"
 }

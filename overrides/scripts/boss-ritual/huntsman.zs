@@ -23,16 +23,11 @@
         { "ingredient": { "item": "minecraft:ice" }, "count": 16 },
 	    { "ingredient": { "item": "minecraft:diamond" }, "count": 32 },
 	    { "ingredient": { "item": "minecraft:bow" }, "count": 1 },
-	    { "ingredient": { "item": "minecraft:arrow" }, "count": 32 }
+	    { "ingredient": { "item": "minecraft:arrow" }, "count": 32 },
+		{ "ingredient": { "item": "minecraft:skeleton_skull" }, "count": 1 }
+		
     ],  
-	"sacrifices": { 
-       		"mobs": [
-			{ "mob": "minecraft:wolf", "count": 3 },
-			{ "mob": "minecraft:stray", "count": 1 }
-		],
-
-        	"region": { "x": 5, "y": 5, "z": 5 }
-   	 },
+	
     	"recipe_time": 200,
    	"block_below": { "block": "contenttweaker:huntsman_core" },
 	"day_time": "NIGHT"

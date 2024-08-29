@@ -41,7 +41,7 @@ var skeleton = <item:minecraft:bone> | <item:minecraft:arrow>;
 			{ "mob": "minecraft:enderman", "count": 1 }
 		],
 
-        	"region": { "x": 5, "y": 5, "z": 5 }
+        	"region": { "x": 10, "y": 10, "z": 10 }
    	 },
     	"recipe_time": 200,
    	"block_below": { "block": "minecraft:bedrock" },
