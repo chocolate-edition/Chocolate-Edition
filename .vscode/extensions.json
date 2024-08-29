@@ -1,5 +1,7 @@
 {
   "recommendations": [
-    "bloodworkxgaming.zslint"
+    "bloodworkxgaming.zslint",
+    "tamasfe.even-better-toml",
+    "tnze.snbt"
   ]
 }
