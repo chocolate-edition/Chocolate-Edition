@@ -70,7 +70,7 @@
 		generate = true
 
 	["The Graveyard - Structures Config".ruins]
-		generate = false
+		generate = true
 
 	["The Graveyard - Structures Config".deadTree]
 		generate = true
