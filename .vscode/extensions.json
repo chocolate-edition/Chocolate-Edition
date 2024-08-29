@@ -1,3 +1,5 @@
 {
-  "recommendations": ["fsevenm.run-it-on", "bloodworkxgaming.zslint"]
+  "recommendations": [
+    "bloodworkxgaming.zslint"
+  ]
 }
