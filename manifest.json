@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "The Chocolate Edition - [FORGE]",
+  "name": "TEST",
   "version": "1.8.0",
   "author": "richestprune",
   "files": [
@@ -57,6 +57,11 @@
     {
       "projectID": 416294,
       "fileID": 4805925,
+      "required": true
+    },
+    {
+      "projectID": 297818,
+      "fileID": 4730071,
       "required": true
     },
     {
@@ -522,6 +527,11 @@
     {
       "projectID": 638111,
       "fileID": 3993293,
+      "required": true
+    },
+    {
+      "projectID": 1089158,
+      "fileID": 5656313,
       "required": true
     },
     {
