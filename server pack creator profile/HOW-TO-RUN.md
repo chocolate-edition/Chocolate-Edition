@@ -14,24 +14,16 @@ bash start.sh
 
 ## for windows
 
-you may be able to get away with simply "un blocking" the script.
+double click to Run `start.bat`.
+Do **not** delete the PowerShell (ps1) files!
 
-1. right click the start.ps1 file, and choose "properties"
-2. find and check the "unblock" checkbox at the bottom of the window
-3. then you can start the server by double clicking `start.bat` or by running `start.ps1` with powershell. (right click > run with powershell)
+### Convenience
 
-if this doesnt work, please try the following steps as well
+You may run `start.ps1` from a console-window manually, but using the Batch-script is recommended.
+Running PowerShell-scripts requires changing the ExecutionPolicy of your Windows-system. The Batch-script
+can bypass this for the start-script.
 
-## Set execution policy to Remote-Signed
-
-you will need to enable running powershell scripts from unknown sources. keep in mind this will allow any powershell script downloaded from the internet to be run, so be careful if downloading anything sketchy.
-
-1. Start Windows PowerShell with the "Run as Administrator" option (windows key > search powershell > run as administrator). Only members of the Administrators group on the computer can change the execution policy.
-2. Enable running unsigned scripts by entering:
-
-set-executionpolicy remotesigned
-
-then you can start the server by double clicking `start.bat` or by running `start.ps1` with powershell. (right click > run with powershell)
+TL;DR: start.bat better than start.ps1
 
 ## Common problems
 
