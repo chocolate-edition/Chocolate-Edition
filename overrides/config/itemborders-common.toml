@@ -49,3 +49,4 @@
 		[client.options.manual_borders]
 			dark_purple = ["$chocolate:eyes"]
 			orange = ["$chocolate:quest_trinkets"]
+
