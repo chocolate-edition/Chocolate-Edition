@@ -1,3 +1,7 @@
 {
-  "recommendations": ["fsevenm.run-it-on", "bloodworkxgaming.zslint"]
+  "recommendations": [
+    "bloodworkxgaming.zslint",
+    "tamasfe.even-better-toml",
+    "tnze.snbt"
+  ]
 }
