@@ -287,7 +287,7 @@
 				type: "item"
 			}]
 			shape: "pentagon"
-			subtitle: "Found in clusters deep underground"
+			subtitle: "Found in clusters deep underground."
 			tasks: [{
 				id: "159FED51E88B0A0C"
 				item: {
@@ -488,7 +488,7 @@
 			]
 			id: "41B55A1B1C300F99"
 			shape: "square"
-			subtitle: "Craft from a Witch Pupil and Fire Charge, or from Blaze Rods"
+			subtitle: "Craft from a Witch Pupil and Fire Charge, or from Blaze Rods."
 			tasks: [{
 				id: "74E5E8B318780B50"
 				item: {
@@ -564,7 +564,7 @@
 			]
 			id: "44E5BB061B798E9F"
 			shape: "rsquare"
-			subtitle: "Kill Enderman at night, trade with Piglins/Clerics, or find in chests"
+			subtitle: "Kill Enderman at night, trade with Piglins/Clerics, or find in chests."
 			tasks: [{
 				id: "46288EC1E8A3D0E4"
 				item: {
@@ -902,7 +902,7 @@
 			description: [
 				"This item is dropped by &4Sir Pumpkinhead&r, who can be summoned by breaking an &eInfernal Evil Pumpkin&r. You can locate these by just exploring your world, they'll have a ritual taking place with &eCandles&r all around it!"
 				""
-				"commonly found in vanilla plains and forest biomes, set your map to night mode and look for a small grouping of candles"
+				"Commonly found in vanilla plains and forest biomes, set your map to night mode and look for a small grouping of candles."
 			]
 			id: "49171FCF7274350A"
 			rewards: [{
@@ -3505,7 +3505,7 @@
 			y: -0.25d
 		}
 		{
-			description: ["&eGlowstone Dust&r can be found or crafted a variety of ways. They spawn in clusters in the Nether, crushed from &ePrismarine Crystals&r, dropped by &cWitches&r, and traded from &aCleric&r villagers. They can also be crafted using \"glow items\" (&eGlow Ink&r, &eGlow Berries&r, or &eGlow Lichen&r), &eRedstone&r, and &eAmetrine Shards&r."]
+			description: ["&eGlowstone Dust&r can be found or crafted in a variety of ways. They spawn in clusters in the Nether, crushed from &ePrismarine Crystals&r, dropped by &cWitches&r, and traded from &aCleric&r villagers. They can also be crafted using \"glow items\" (&eGlow Ink&r, &eGlow Berries&r, or &eGlow Lichen&r), &eRedstone&r, and &eAmetrine Shards&r."]
 			id: "652943FA575B6B67"
 			subtitle: "Found in Nether, crafted, and more..."
 			tasks: [{
@@ -3525,7 +3525,7 @@
 		}
 		{
 			id: "7432AC9814131290"
-			subtitle: "Drops from Wraiths, which spawn in Plains, Forests, and Caves"
+			subtitle: "Drops from Wraiths, which spawn in Plains, Forests, and Caves."
 			tasks: [{
 				id: "78F4DE9C7A94C3DC"
 				item: {
