@@ -128,7 +128,7 @@
 		}
 		{
 			dependencies: ["7CFCF3BA7E2B325C"]
-			description: ["This modpack can seem like a lot to handle, but I think it's worth it. Every eye requires a boss to be slain or adventure to be had, on top of many little slice of life things like going to biomes to cultivate animals or find certain flora. The later eyes do really ramp up in \"difficulty\"- but that just means theres more to do to get them. More adventures, more mechanics to explore, more to build.. more minecraft. Go easy on yourself and enjoy the slow burn!"]
+			description: ["This modpack can seem like a lot to handle, but I think it's worth it. Every eye requires a boss to be slain or adventure to be had, on top of many little slice of life things like going to biomes to cultivate animals or find certain flora. The later eyes do really ramp up in \"difficulty\"- but that just means there's more to do to get them. More adventures, more mechanics to explore, more to build, more minecraft. Go easy on yourself and enjoy the slow burn!"]
 			disable_toast: true
 			icon: {
 				Count: 1b
