@@ -69,7 +69,7 @@
 			description: [
 				"      I see you've started to collect some &5&kE&r&5eyes&r&5&kE&r, hmm? Oh, sorry for scaring you. Don't be afraid, you're not going insane - I'm a &alowly ender being&r communicating with my mind. I've only come to ask you for help, my people and I have been locked away for eons, due the the quarreling of &lGods&r... "
 				""
-				"      We hoped to bring peace to the worlds, but we were only caught in the crossfire. Those &5&kE&r&5eyes&r&5&kE&r you've been collecting, they're the source of all the &lGods&r power, used to shape the world to their will. Just from you holding so many, you've been embued with a portion of the &lGods&r strength..."
+				"      We hoped to bring peace to the worlds, but we were only caught in the crossfire. Those &5&kE&r&5eyes&r&5&kE&r you've been collecting, they're the source of all the &lGods&r power, used to shape the world to their will. Just from you holding so many, you've been imbued with a portion of the &lGods&r strength..."
 				""
 				"      I ask on behalf of my people, please save us, its so lonely here. Fight your way through the underworld and empower yourself with &lGod&r &bNeptune's&r Armor, I give you this &eHeart&r as an offering of peace, use it to keep yourself save Young Adventurer, &othe world is full of monsters, theives, and liars.&r"
 			]
@@ -111,11 +111,11 @@
 				"08B75FB792CB7704"
 			]
 			description: [
-				"      The power of the &lGods&r contiunes to follow through you. You're &5&kE&r&5eyes&r&5&kE&r have granted you sight of the relms of Light and Dark. With this, you should have all you need to obtain the remaining 6 &5&kE&r&5eyes&r&5&kE&r."
+				"      The power of the &lGods&r continues to follow through you. Your &5&kE&r&5eyes&r&5&kE&r have granted you sight of the realms of Light and Dark. With these, you should have all you need to obtain the remaining 6 &5&kE&r&5eyes&r&5&kE&r."
 				""
-				"   You, for the first time in eons, have inspired hope in my people, thank you. Contiune on your adventure young one. Venture to the Everbright and Everdawn, summon ancient demons, and empower yourself with Netherite."
+				"   You, for the first time in eons, have inspired hope in my people, thank you. Continue on your adventure young one. Venture to the Everbright and Everdawn, summon ancient demons, and empower yourself with Netherite."
 				""
-				"    But becareful, long forgotten foes have started to rise...feeling the pull of the &lGods&r power. You have a long road ahead, I offer you another &eHeart&r as a sign of apperciation from my people. "
+				"    But be careful, long forgotten foes have started to rise...feeling the pull of the &lGods&r power. You have a long road ahead, I offer you another &eHeart&r as a sign of appreciation from my people. "
 			]
 			hide: true
 			icon: {
@@ -301,7 +301,7 @@
 			id: "5B7CBE6418C5C392"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "As you aquire more Eyes you will unlock more powerful gear."
+			subtitle: "As you acquire more Eyes you will unlock more powerful gear."
 			tasks: [{
 				id: "6086327EC82C0379"
 				item: {
@@ -470,7 +470,7 @@
 			icon: "aquaculture:neptunium_ingot"
 			id: "20CD4D828F833E56"
 			optional: true
-			subtitle: "Neptunium Armor, Tools, and Weapons"
+			subtitle: "Neptunium Armor, Tools, and Weapons."
 			tasks: [{
 				id: "32FCEFDDA97E8933"
 				item: {
@@ -491,7 +491,7 @@
 			icon: "toms_storage:ts.storage_terminal"
 			id: "4DD63443C58D3C4D"
 			optional: true
-			subtitle: "Similar to AE or RS systems but much simpler, works with storage drawers"
+			subtitle: "Similar to AE or RS systems but much simpler, works with storage drawers."
 			tasks: [{
 				id: "3E259D8A422EE917"
 				item: {
@@ -595,7 +595,7 @@
 			icon: "minecraft:netherite_ingot"
 			id: "11B8AA6D97B89961"
 			optional: true
-			subtitle: "Armor, Diving Gear, Samurai Armor, Weapons, and Tools"
+			subtitle: "Armor, Diving Gear, Samurai Armor, Weapons, and Tools."
 			tasks: [{
 				id: "1FFA14066E0A7A7E"
 				item: {
@@ -718,7 +718,7 @@
 			}
 			id: "3FFC286F3D0CF299"
 			optional: true
-			subtitle: "Unlocked by going to the Everbright or Everdawn, which release the spirits of Light and Dark. Spawns hundreds of new, unique mobs all over the world. The new mobs are REALLY tough.."
+			subtitle: "Unlocked by going to the Everbright or Everdawn, which release the spirits of Light and Dark. Spawns hundreds of new, unique mobs all over the world. The new mobs are REALLY tough."
 			tasks: [{
 				id: "3DE4000CD51C8B52"
 				title: "Expert Mode"
@@ -934,7 +934,7 @@
 			icon: "create:mechanical_drill"
 			id: "4456FB6F2CF773D2"
 			optional: true
-			subtitle: "Drills, rollers, harvesters, ploughs, saws, portable storage connectors"
+			subtitle: "Drills, rollers, harvesters, ploughs, saws, and portable storage connectors."
 			tasks: [
 				{
 					id: "733006D27467E83E"
