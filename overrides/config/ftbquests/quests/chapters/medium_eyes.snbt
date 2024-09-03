@@ -2262,9 +2262,9 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"This item can be obtained by killing &cIceologers&r which spawn in raids that take place in cold biomes or igloos found in cold biomes"
+				"This item can be obtained by killing &cIceologers&r which spawn in raids that take place in cold biomes or igloos found in cold biomes."
 				""
-				"The &eTotem of Freezing&r - upon taking lethal damage - prevents death and gives a short burst of Speed"
+				"The &eTotem of Freezing&r - upon taking lethal damage - prevents death and gives a short burst of Speed."
 			]
 			id: "72E2D16CD4878594"
 			rewards: [{
@@ -2282,7 +2282,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "Dropped from Iceologers"
+			subtitle: "Dropped from Iceologers."
 			tasks: [{
 				id: "2ABB26AAB9DFB697"
 				item: {
@@ -2321,7 +2321,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "Dropped by Froststalkers"
+			subtitle: "Dropped by Froststalkers."
 			tasks: [{
 				id: "6759354012E325D4"
 				item: {
@@ -2340,7 +2340,7 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"This item can be obtained by exploring Deep Freezing Ocean biomes"
+				"This item can be obtained by exploring Deep Freezing Ocean biomes."
 				""
 				""
 				"&eWisteria Niveis&r can also be used to craft &eGreen Dye&r"
@@ -2372,7 +2372,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Found in Deep Frozen Ocean biomes"
+			subtitle: "Found in Deep Frozen Ocean biomes."
 			tasks: [{
 				id: "78F797D21F074C7E"
 				item: {
@@ -2391,7 +2391,7 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"This item can be obtained by clicking on a &aGolden Moth&r with a &eBottle&r. &aGolden Moths&r spawn in Frozen Oceans"
+				"This item can be obtained by clicking on a &aGolden Moth&r with a &eBottle&r. &aGolden Moths&r spawn in Frozen Oceans."
 				""
 				"Can also work as a fancy light source!"
 			]
@@ -2409,7 +2409,7 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Capture a Golden Moth with a Bottle"
+			subtitle: "Capture a Golden Moth with a Bottle."
 			tasks: [{
 				id: "1F4046D08F0A68F7"
 				item: {
@@ -2428,9 +2428,9 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"These items can be obtained by killing the &4Summoner&r and &4Alchemist&r which can be found in the Everbright Blinding Dunegon and Everdawn Blinding Dunegon respectively"
+				"These items can be obtained by killing the &4Summoner&r and &4Alchemist&r which can be found in the Everbright Blinding Dungeon and Everdawn Blinding Dungeon respectively."
 				""
-				"The &eDusk Arc&r is also grants invisibility while sneaking while the &eEthereal Arc&r grants a 10% Speed increase"
+				"The &eDusk Arc&r is also grants invisibility while sneaking while the &eEthereal Arc&r grants a 10% Speed increase."
 			]
 			id: "480C1E862A882A6E"
 			rewards: [
@@ -2460,7 +2460,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Dropped by the Summoner or Alchemist"
+			subtitle: "Dropped by the Summoner or Alchemist."
 			tasks: [{
 				id: "38574C47CFA2CCBC"
 				item: {
