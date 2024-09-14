@@ -92,6 +92,23 @@
 // ----- Meatball ----
 <tag:items:diet:proteins>.add(<item:unusualprehistory:mammoth_meatball>);
 
+// --- CHEM X ---
+<tag:items:chocolate:chem>.add(<item:mutantmonsters:endersoul_hand>);
+<tag:items:chocolate:chem>.add(<item:mutantmonsters:mutant_skeleton_skull>);
+<tag:items:chocolate:chem>.add(<item:mutantmonsters:creeper_shard>);
+<tag:items:chocolate:chem>.add(<item:mutantmonsters:hulk_hammer>);
+
+<tag:items:chocolate:chem>.add(<item:supplementaries:enderman_head>);
+<tag:items:chocolate:chem>.add(<item:minecraft:skeleton_skull>);
+<tag:items:chocolate:chem>.add(<item:minecraft:creeper_head>);
+<tag:items:chocolate:chem>.add(<item:minecraft:zombie_head>);
+
+
+
+
+
+
+
 
 
 
