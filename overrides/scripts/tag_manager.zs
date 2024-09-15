@@ -93,7 +93,9 @@
 <tag:items:diet:proteins>.add(<item:unusualprehistory:mammoth_meatball>);
 
 
-
+// ----- Maggot -------
+<tag:items:chocolate:maggot>.add(<item:alexsmobs:maggot>);
+<tag:items:chocolate:maggot>.add(<item:born_in_chaos_v1:corpse_maggot>);
 
 
 // ------- ALL EYES -----------
