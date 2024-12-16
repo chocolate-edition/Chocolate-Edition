@@ -85,6 +85,7 @@ to make editing this file much easier.
 	   	}
 	*/
 	"swapper": {
+		"supplementaries:sack": "minecraft:air"
  		"epicsamurai:silver_ore": "galosphere:silver_ore",
  		"paraglider:goddess_statue": "minecraft:air",
  		"paraglider:goron_goddess_statue": "minecraft:air",

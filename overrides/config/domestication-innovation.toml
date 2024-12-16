@@ -113,7 +113,7 @@
 	#true if blazing protection enchant is enabled, false if disabled
 	blazing_protection_enabled = true
 	#true if healing aura enchant is enabled, false if disabled
-	healing_aura_enabled = true
+	healing_aura_enabled = false
 	#true if rejuvenation enchant is enabled, false if disabled
 	rejuvenation_enabled = true
 	#true if undead curse enchant is enabled, false if disabled

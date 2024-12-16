@@ -70,10 +70,10 @@
 		generate = true
 
 	["The Graveyard - Structures Config".ruins]
-		generate = false
+		generate = true
 
 	["The Graveyard - Structures Config".deadTree]
-		generate = false
+		generate = true
 
 ["The Graveyard - Mob Spawning Config"]
 
@@ -202,7 +202,7 @@
 ["The Graveyard - Horde Config"]
 
 	["The Graveyard - Horde Config".horde]
-		generate = true
+		generate = false
 		#Range: 0 ~ 1000
 		mobSpawnAttempts = 40
 		#Range: 1 ~ 1000000
