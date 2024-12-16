@@ -157,13 +157,7 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "75B29FC232CC6EB7"
 					title: "Talk to White Death (In Snowy Villages)"
 					type: "custom"
@@ -311,13 +305,7 @@
 					value: 3L
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "76E53B21B79E65A5"
 					title: "Talk to Bandit (Taiga Villages)"
 					type: "custom"
@@ -848,26 +836,14 @@
 				}
 				{
 					entity: "predators:shaman_of_moonlight"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "predators:moonlight_shard"
-					}
+					icon: "predators:moonlight_shard"
 					id: "5E9BCC737614A518"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "corundumguardian:corundum_guardian"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "quark:red_crystal_lamp"
-					}
+					icon: "quark:red_crystal_lamp"
 					id: "77B805E3847DF0D1"
 					type: "kill"
 					value: 1L
@@ -1854,13 +1830,7 @@
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:spawn_structures_dark_tower"
-					}
+					icon: "born_in_chaos_v1:spawn_structures_dark_tower"
 					id: "6D710BD27D7758A8"
 					structure: "chocolate:shaded_citadel"
 					type: "structure"
@@ -2050,13 +2020,7 @@
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "33DF9D5F82EE5D56"
 					title: "Talk to Traveling Merchant (Desert Villages)"
 					type: "custom"
@@ -2121,13 +2085,7 @@
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "20DFE61EEA2972A3"
 					title: "Talk to False Knight(In Plains/Forest Villages)"
 					type: "custom"
@@ -2261,13 +2219,7 @@
 					type: "structure"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "52E8716454715B96"
 					title: "Talk to Witch Doctor (Swamp Villages)"
 					type: "custom"
@@ -4369,13 +4321,7 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "5D69AF835E92425C"
 					title: "Talk to Elder (Savanna Villages)"
 					type: "custom"
@@ -6751,13 +6697,7 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "6D76B368838D01CA"
 					title: "Talk to False Knight (Plains/Forest Villages)"
 					type: "custom"
@@ -6851,13 +6791,7 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "4BA5B6C6BAC6E49B"
 					title: "Talk to Sailor Captain (Beach/Ocean Villages)"
 					type: "custom"
@@ -8328,13 +8262,7 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "57322159ECCB54A6"
 					title: "Talk to Arms Dealer (Mesa Villages)"
 					type: "custom"
@@ -8639,13 +8567,7 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "0470F8E5A08FC778"
 					title: "Talk to Monk (Mountain/Blossom villages)"
 					type: "custom"
@@ -8957,13 +8879,7 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "37C900EF180B8EE4"
 					title: "Talk to Great Huntsman (In Jungle Villages)"
 					type: "custom"
@@ -10449,6 +10365,39 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "unusualfishmod:cooked_mossthorn"
+					}
+					type: "item"
+				}
+				{
+					id: "28E5F77A3992AAE1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualfishmod:cooked_shockcat"
+					}
+					type: "item"
+				}
+				{
+					id: "7EAFC27FAB6014DC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualfishmod:cooked_lobster"
+					}
+					type: "item"
+				}
+				{
+					id: "6E3AFA9D47EDF61B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "unusualfishmod:cooked_unusual_fillet"
 					}
 					type: "item"
 				}
@@ -12827,39 +12776,21 @@
 				}
 				{
 					entity: "alexsmobs:centipede_head"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "alexsmobs:spawn_egg_centipede"
-					}
+					icon: "alexsmobs:spawn_egg_centipede"
 					id: "192DDFDB5D743580"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "iter_rpg:spiderling"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "iter_rpg:spiderling_spawn_egg"
-					}
+					icon: "iter_rpg:spiderling_spawn_egg"
 					id: "0AB08CE912BC899D"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "iter_rpg:giant_spider"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "iter_rpg:giant_spider_spawn_egg"
-					}
+					icon: "iter_rpg:giant_spider_spawn_egg"
 					id: "71315CC8579B21A4"
 					type: "kill"
 					value: 2L
@@ -12872,65 +12803,35 @@
 				}
 				{
 					entity: "alexsmobs:fly"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "alexsmobs:spawn_egg_fly"
-					}
+					icon: "alexsmobs:spawn_egg_fly"
 					id: "4CB03106CD052877"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "naturalist:firefly"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "naturalist:firefly_spawn_egg"
-					}
+					icon: "naturalist:firefly_spawn_egg"
 					id: "0745AF7485F45A4D"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "mutantmonsters:spider_pig"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "mutantmonsters:spider_pig_spawn_egg"
-					}
+					icon: "mutantmonsters:spider_pig_spawn_egg"
 					id: "436285C6174C395B"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "alexsmobs:cockroach"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "alexsmobs:spawn_egg_cockroach"
-					}
+					icon: "alexsmobs:spawn_egg_cockroach"
 					id: "082E24C46A91DD26"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "alexsmobs:leafcutter_ant"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "alexsmobs:spawn_egg_leafcutter_ant"
-					}
+					icon: "alexsmobs:spawn_egg_leafcutter_ant"
 					id: "55F4A02E713FB2CB"
 					type: "kill"
 					value: 10L
@@ -12949,429 +12850,231 @@
 				}
 				{
 					entity: "alexsmobs:tarantula_hawk"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "alexsmobs:spawn_egg_tarantula_hawk"
-					}
+					icon: "alexsmobs:spawn_egg_tarantula_hawk"
 					id: "0127F3C87D204951"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "born_in_chaos_v1:firelight"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:firelight_spawn_egg"
-					}
+					icon: "born_in_chaos_v1:firelight_spawn_egg"
 					id: "76D689B2A2009CFD"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "born_in_chaos_v1:diamond_termite"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:diamond_termite_spawn_egg"
-					}
+					icon: "born_in_chaos_v1:diamond_termite_spawn_egg"
 					id: "5390E212F899AC51"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "crittersandcompanions:dragonfly"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "crittersandcompanions:dragonfly_spawn_egg"
-					}
+					icon: "crittersandcompanions:dragonfly_spawn_egg"
 					id: "7DC2DD52BF08AA06"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "naturalist:dragonfly"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "naturalist:dragonfly_spawn_egg"
-					}
+					icon: "naturalist:dragonfly_spawn_egg"
 					id: "2F632B348D4BA60D"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "crittersandcompanions:leaf_insect"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "crittersandcompanions:leaf_insect_spawn_egg"
-					}
+					icon: "crittersandcompanions:leaf_insect_spawn_egg"
 					id: "36AE25F6A8A27B0A"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "naturalist:butterfly"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "naturalist:butterfly_spawn_egg"
-					}
+					icon: "naturalist:butterfly_spawn_egg"
 					id: "68ED6ADD96A4AD84"
 					type: "kill"
 					value: 5L
 				}
 				{
 					entity: "galosphere:spectre"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "galosphere:spectre_spawn_egg"
-					}
+					icon: "galosphere:spectre_spawn_egg"
 					id: "774B84215117537C"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "aquamirae:golden_moth"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "aquamirae:golden_moth_spawn_egg"
-					}
+					icon: "aquamirae:golden_moth_spawn_egg"
 					id: "1103144AA6F29A5F"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "endermanoverhaul:scarab"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "endermanoverhaul:scarab_spawn_egg"
-					}
+					icon: "endermanoverhaul:scarab_spawn_egg"
 					id: "0A6D40724E9DA891"
 					type: "kill"
 					value: 5L
 				}
 				{
 					entity: "born_in_chaos_v1:maggot"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:maggot_spawn_egg"
-					}
+					icon: "born_in_chaos_v1:maggot_spawn_egg"
 					id: "006781378C4C305E"
 					type: "kill"
 					value: 20L
 				}
 				{
 					entity: "born_in_chaos_v1:corpse_fly"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:corpse_fly_spawn_egg"
-					}
+					icon: "born_in_chaos_v1:corpse_fly_spawn_egg"
 					id: "7B5FFC2DFBA02972"
 					type: "kill"
 					value: 5L
 				}
 				{
 					entity: "born_in_chaos_v1:bloody_gadfly"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:bloody_gadfly_spawn_egg"
-					}
+					icon: "born_in_chaos_v1:bloody_gadfly_spawn_egg"
 					id: "1A895AADC1635BFB"
 					type: "kill"
 					value: 2L
 				}
 				{
 					entity: "alexsmobs:crimson_mosquito"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "alexsmobs:spawn_egg_crimson_mosquito"
-					}
+					icon: "alexsmobs:spawn_egg_crimson_mosquito"
 					id: "596A721A10AA9A64"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "infernalexp:warpbeetle"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "infernalexp:warpbeetle_spawn_egg"
-					}
+					icon: "infernalexp:warpbeetle_spawn_egg"
 					id: "2405E03B5ADF9567"
 					type: "kill"
 					value: 3L
 				}
 				{
 					entity: "infernalexp:glowsilk_moth"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "infernalexp:glowsilk_moth_spawn_egg"
-					}
+					icon: "infernalexp:glowsilk_moth_spawn_egg"
 					id: "06B0A63ED8BF4339"
 					type: "kill"
 					value: 2L
 				}
 				{
 					entity: "infernalexp:glowsquito"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "infernalexp:glowsquito_spawn_egg"
-					}
+					icon: "infernalexp:glowsquito_spawn_egg"
 					id: "4606902F488F43A4"
 					type: "kill"
 					value: 3L
 				}
 				{
 					entity: "unusualprehistory:encrusted"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:encrusted_spawn_egg"
-					}
+					icon: "unusualprehistory:encrusted_spawn_egg"
 					id: "15B3CDEE46F05109"
 					type: "kill"
 					value: 2L
 				}
 				{
 					entity: "blue_skies:emberback"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:emberback_spawn_egg"
-					}
+					icon: "blue_skies:emberback_spawn_egg"
 					id: "17BA1DDA3CD87AA6"
 					type: "kill"
 					value: 5L
 				}
 				{
 					entity: "blue_skies:venom_spider"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:venom_spider_spawn_egg"
-					}
+					icon: "blue_skies:venom_spider_spawn_egg"
 					id: "4D65CBFC383EE0DE"
 					type: "kill"
 					value: 5L
 				}
 				{
 					entity: "blue_skies:nested_spider"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:nested_spider_spawn_egg"
-					}
+					icon: "blue_skies:nested_spider_spawn_egg"
 					id: "4958FCB79A6B5C09"
 					type: "kill"
 					value: 5L
 				}
 				{
 					entity: "blue_skies:nyctofly"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:nyctofly_spawn_egg"
-					}
+					icon: "blue_skies:nyctofly_spawn_egg"
 					id: "265A9D6F389E9B3C"
 					type: "kill"
 					value: 5L
 				}
 				{
 					entity: "blue_skies:infested_swarmer"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:infested_swarmer_spawn_egg"
-					}
+					icon: "blue_skies:infested_swarmer_spawn_egg"
 					id: "7E765351DD608AB1"
 					type: "kill"
 					value: 5L
 				}
 				{
 					entity: "blue_skies:firefly"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "blue_skies:firefly_spawn_egg"
-					}
+					icon: "blue_skies:firefly_spawn_egg"
 					id: "499AF1F068FD38F0"
 					type: "kill"
 					value: 3L
 				}
 				{
 					entity: "oddorganisms:apthoroblattina"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "oddorganisms:apthoroblattina_spawn_egg"
-					}
+					icon: "oddorganisms:apthoroblattina_spawn_egg"
 					id: "75F53A2D21FBCCBD"
 					type: "kill"
 					value: 5L
 				}
 				{
 					entity: "unusualend:ender_blob"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualend:ender_blob_spawn_egg"
-					}
+					icon: "unusualend:ender_blob_spawn_egg"
 					id: "1C35D2DE7161D795"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "cataclysm:endermaptera"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "cataclysm:endermaptera_spawn_egg"
-					}
+					icon: "cataclysm:endermaptera_spawn_egg"
 					id: "252B9DE5B9445ECA"
 					type: "kill"
 					value: 5L
 				}
 				{
 					entity: "unusualend:ender_firefly"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualend:ender_firefly_spawn_egg"
-					}
+					icon: "unusualend:ender_firefly_spawn_egg"
 					id: "1B0624463F9B3BA2"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "alexsmobs:endergrade"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "alexsmobs:spawn_egg_endergrade"
-					}
+					icon: "alexsmobs:spawn_egg_endergrade"
 					id: "430279DE2C55A3A8"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "alexsmobs:cosmaw"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "alexsmobs:spawn_egg_cosmaw"
-					}
+					icon: "alexsmobs:spawn_egg_cosmaw"
 					id: "167BA90EA4406B38"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "atmospheric:cochineal"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "atmospheric:cochineal_spawn_egg"
-					}
+					icon: "atmospheric:cochineal_spawn_egg"
 					id: "06F1A91DA18B5D4D"
 					type: "kill"
 					value: 4L
 				}
 				{
 					entity: "endergetic:puff_bug"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "endergetic:puff_bug_spawn_egg"
-					}
+					icon: "endergetic:puff_bug_spawn_egg"
 					id: "04743F22BBC1C869"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "unusualfishmod:freshwater_mantis"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualfishmod:freshwater_mantis_spawn_egg"
-					}
+					icon: "unusualfishmod:freshwater_mantis_spawn_egg"
 					id: "742154E4869DA0BC"
 					title: "Kill 1x Freshwater Mantis"
 					type: "kill"
@@ -13379,13 +13082,7 @@
 				}
 				{
 					entity: "unusualfishmod:sea_mosquito"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualfishmod:sea_mosquito_spawn_egg"
-					}
+					icon: "unusualfishmod:sea_mosquito_spawn_egg"
 					id: "1F66F6BA97E6B405"
 					title: "Kill 1x Sea Mosquito"
 					type: "kill"
@@ -13627,13 +13324,7 @@
 				}
 				{
 					entity: "unusualprehistory:eryon"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:eryon_spawn_egg"
-					}
+					icon: "unusualprehistory:eryon_spawn_egg"
 					id: "18A7512E32D12B71"
 					title: "Kill 3x Eryon"
 					type: "kill"
@@ -13641,13 +13332,7 @@
 				}
 				{
 					entity: "unusualprehistory:gigantopithicus"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:giganto_spawn_egg"
-					}
+					icon: "unusualprehistory:giganto_spawn_egg"
 					id: "2FDEF70F8F11468D"
 					title: "Kill 1x Gigantopithecus"
 					type: "kill"
@@ -13655,13 +13340,7 @@
 				}
 				{
 					entity: "unusualprehistory:hwachavenator"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:hwacha_spawn_egg"
-					}
+					icon: "unusualprehistory:hwacha_spawn_egg"
 					id: "02D2846CBB445F37"
 					title: "Kill 1x Hwachavenator"
 					type: "kill"
@@ -13669,13 +13348,7 @@
 				}
 				{
 					entity: "unusualprehistory:kentrosaurus"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:kentro_spawn_egg"
-					}
+					icon: "unusualprehistory:kentro_spawn_egg"
 					id: "114E31E0A9009E73"
 					title: "Kill 2x Kentrosaurus"
 					type: "kill"
@@ -13683,13 +13356,7 @@
 				}
 				{
 					entity: "unusualprehistory:majunga"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:majunga_spawn_egg"
-					}
+					icon: "unusualprehistory:majunga_spawn_egg"
 					id: "02BDD69EA2C4CC88"
 					title: "Kill 2x Majungasaurus"
 					type: "kill"
@@ -13697,13 +13364,7 @@
 				}
 				{
 					entity: "unusualprehistory:mammoth"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:mammoth_spawn_egg"
-					}
+					icon: "unusualprehistory:mammoth_spawn_egg"
 					id: "3A7BB632FEB45352"
 					title: "Kill 2x Mammoth"
 					type: "kill"
@@ -13711,13 +13372,7 @@
 				}
 				{
 					entity: "unusualprehistory:megalania"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:megalania_spawn_egg"
-					}
+					icon: "unusualprehistory:megalania_spawn_egg"
 					id: "3C955F471F2B5D34"
 					title: "Kill 2x Megalania"
 					type: "kill"
@@ -13725,13 +13380,7 @@
 				}
 				{
 					entity: "unusualprehistory:megatherium"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:megatherium_spawn_egg"
-					}
+					icon: "unusualprehistory:megatherium_spawn_egg"
 					id: "49F5409EF9F91F12"
 					title: "Kill 1x Megatherium"
 					type: "kill"
@@ -13739,13 +13388,7 @@
 				}
 				{
 					entity: "unusualprehistory:pachy"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:pachy_spawn_egg"
-					}
+					icon: "unusualprehistory:pachy_spawn_egg"
 					id: "2A79ECBA51AFB533"
 					title: "Kill 5x Pachycephalosaurus"
 					type: "kill"
@@ -13753,13 +13396,7 @@
 				}
 				{
 					entity: "unusualprehistory:palaeophis"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:palaophis_spawn_egg"
-					}
+					icon: "unusualprehistory:palaophis_spawn_egg"
 					id: "2C9332EC9B0ACF29"
 					title: "Kill 2x Palaeophis"
 					type: "kill"
@@ -13767,13 +13404,7 @@
 				}
 				{
 					entity: "unusualprehistory:paraceratherium"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:paraceratherium_spawn_egg"
-					}
+					icon: "unusualprehistory:paraceratherium_spawn_egg"
 					id: "73B30ECA80DF9ACB"
 					title: "Kill 1x Paraceratherium"
 					type: "kill"
@@ -13781,13 +13412,7 @@
 				}
 				{
 					entity: "unusualprehistory:rex"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:rex_spawn_egg"
-					}
+					icon: "unusualprehistory:rex_spawn_egg"
 					id: "1FEF7209DB2940B1"
 					title: "Kill 1x Tyrannosaurus Rex"
 					type: "kill"
@@ -13795,13 +13420,7 @@
 				}
 				{
 					entity: "unusualprehistory:scau"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:scau_spawn_egg"
-					}
+					icon: "unusualprehistory:scau_spawn_egg"
 					id: "6BA9552B419BCB92"
 					title: "Kill 10x Scaumenacia"
 					type: "kill"
@@ -13817,13 +13436,7 @@
 				}
 				{
 					entity: "unusualprehistory:smilodon"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:smilodon_spawn_egg"
-					}
+					icon: "unusualprehistory:smilodon_spawn_egg"
 					id: "4ED65462EE25A730"
 					title: "Kill 2x Smilodon"
 					type: "kill"
@@ -13831,13 +13444,7 @@
 				}
 				{
 					entity: "unusualprehistory:stethacanthus"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:stetha_spawn_egg"
-					}
+					icon: "unusualprehistory:stetha_spawn_egg"
 					id: "18C199A7705ACD91"
 					title: "Kill 5x Stethacanthus"
 					type: "kill"
@@ -13845,13 +13452,7 @@
 				}
 				{
 					entity: "unusualprehistory:talpanas"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:talpanas_spawn_egg"
-					}
+					icon: "unusualprehistory:talpanas_spawn_egg"
 					id: "4BDF5F92790DE5EA"
 					title: "Kill 3x Talpanas"
 					type: "kill"
@@ -13859,13 +13460,7 @@
 				}
 				{
 					entity: "unusualprehistory:trike"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:trike_spawn_egg"
-					}
+					icon: "unusualprehistory:trike_spawn_egg"
 					id: "45EF696B926DAEEF"
 					title: "Kill 2x Triceratops"
 					type: "kill"
@@ -13873,13 +13468,7 @@
 				}
 				{
 					entity: "unusualprehistory:ulughbegsaurus"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:ulugh_spawn_egg"
-					}
+					icon: "unusualprehistory:ulugh_spawn_egg"
 					id: "60A6707BA8AD60B0"
 					title: "Kill 2x Ulugbegsaurus"
 					type: "kill"
@@ -13887,13 +13476,7 @@
 				}
 				{
 					entity: "unusualprehistory:veloci"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:veloci_spawn_egg"
-					}
+					icon: "unusualprehistory:veloci_spawn_egg"
 					id: "4B5DF26943831E6D"
 					title: "Kill 3x Velociraptor"
 					type: "kill"
@@ -13901,13 +13484,7 @@
 				}
 				{
 					entity: "oddorganisms:dawn_horse"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "oddorganisms:dawn_horse_spawn_egg"
-					}
+					icon: "oddorganisms:dawn_horse_spawn_egg"
 					id: "140F22D13A22AC9A"
 					title: "Kill 2x Poney"
 					type: "kill"
@@ -13915,13 +13492,7 @@
 				}
 				{
 					entity: "oddorganisms:doedicurus"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "oddorganisms:doedicurus_spawn_egg"
-					}
+					icon: "oddorganisms:doedicurus_spawn_egg"
 					id: "2B5EDDB3F5AA178C"
 					title: "Kill 2x Doedicurus"
 					type: "kill"
@@ -13929,13 +13500,7 @@
 				}
 				{
 					entity: "unusualprehistory:dunk"
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "unusualprehistory:dunk_spawn_egg"
-					}
+					icon: "unusualprehistory:dunk_spawn_egg"
 					id: "794E1E2E490CD848"
 					type: "kill"
 					value: 1L
@@ -14267,13 +13832,7 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:book"
-					}
+					icon: "ftbquests:book"
 					id: "3C16B1E6A43171A0"
 					title: "Talk to Pumpkillager (Dark Forest Villages)"
 					type: "custom"

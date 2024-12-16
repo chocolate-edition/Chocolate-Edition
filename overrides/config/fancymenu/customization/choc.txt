@@ -4,7 +4,7 @@ customization-meta {
   identifier = net.minecraft.client.gui.screens.TitleScreen
   randomgroup = 1
   renderorder = foreground
-  randommode = true
+  randommode = false
   custom_menu_title = Minecraft Chocolate Edition
   randomonlyfirsttime = false
 }
@@ -35,6 +35,15 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  seconds = 2.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = top-left
   x = 14
@@ -50,11 +59,29 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 1.4
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=376322%
   orientation = top-left
   x = 185
   action = movebutton
   y = 166
+}
+
+customization {
+  identifier = %id=376322%
+  seconds = 1.3
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
 }
 
 customization {
@@ -73,6 +100,15 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 1.1
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = top-left
   x = 14
@@ -85,6 +121,15 @@ customization {
   width = 196
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 1.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
 }
 
 customization {
@@ -109,6 +154,15 @@ customization {
 }
 
 customization {
+  identifier = %id=604346%
+  seconds = 1.2
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = top-left
   x = 185
@@ -117,11 +171,29 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  seconds = 1.1
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=628382%
   orientation = top-left
   x = 19
   action = movebutton
   y = 225
+}
+
+customization {
+  identifier = %id=628382%
+  seconds = 1.1
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
 }
 
 customization {
@@ -140,11 +212,29 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 1.3
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = top-left
   x = 20
   action = movebutton
   y = 165
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  seconds = 1.3
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
 }
 
 customization {
@@ -163,11 +253,29 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  seconds = 1.2
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=3763461%
   orientation = top-left
   x = 185
   action = movebutton
   y = 196
+}
+
+customization {
+  identifier = %id=3763461%
+  seconds = 1.2
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
 }
 
 customization {
@@ -181,6 +289,22 @@ customization {
   x = 565
   action = movebutton
   y = 45
+}
+
+customization {
+  orientation = top-left
+  delayappearanceseconds = 2.0
+  path = config/fancymenu/customguis/logo2.png
+  fadein = true
+  fadeinspeed = 2.0
+  x = -8
+  width = 270
+  action = addtexture
+  actionid = 89ed5beb-aee2-413e-936a-b998ab5994ff1694552698788
+  y = 8
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 99
 }
 
 customization {
@@ -242,87 +366,75 @@ customization {
   orientation = top-left
   splash_color = #ffff00
   hidden = false
-  x = 217
+  x = 229
   width = 60
   splash_rotation = -10
   action = deep_customization_element:title_screen_splash
   actionid = 57b975c7-d0f8-4de8-8b05-2f1db89939ad1694547185003
-  y = 116
+  y = 109
   height = 30
 }
 
 customization {
-  path = config/fancymenu/customguis/logo2.png
-  orientation = top-left
-  x = -8
-  width = 270
-  action = addtexture
-  actionid = 89ed5beb-aee2-413e-936a-b998ab5994ff1694552698788
-  y = 9
-  height = 99
-}
-
-customization {
   orientation = top-left
   restartbackgroundanimations = true
+  delayappearanceseconds = 1.0
   buttonaction = openlink;https://discord.gg/ejrrmHXFUX%btnaction_splitter_fm%
   label = 
   loopbackgroundanimations = true
   hoverlabel = Discord
-  x = 53
+  fadein = true
+  fadeinspeed = 1.0
+  x = 70
   width = 20
   action = addbutton
   actionid = 4bffd2f7-f7e8-4ce0-9a15-25df49bad3961694564652215
-  y = 259
+  y = 256
+  delayappearance = true
   backgroundnormal = config/fancymenu/customguis/dicsord.png
+  delayappearanceeverytime = false
   height = 20
 }
 
 customization {
   orientation = top-left
   restartbackgroundanimations = true
+  delayappearanceseconds = 1.0
   buttonaction = openlink;https://legacy.curseforge.com/members/richestprune/projects%btnaction_splitter_fm%
   label = 
   loopbackgroundanimations = true
   hoverlabel = Projects
-  x = 85
+  fadein = true
+  fadeinspeed = 1.0
+  x = 102
   width = 20
   action = addbutton
   actionid = 50883c98-7c74-49d6-bb38-2ab3879312f11694567111319
-  y = 258
+  y = 256
+  delayappearance = true
   backgroundnormal = config/fancymenu/customguis/cf.png
+  delayappearanceeverytime = false
   height = 20
 }
 
 customization {
   orientation = top-left
   restartbackgroundanimations = true
-  buttonaction = openlink;https://www.youtube.com/@PoorPrune/featured%btnaction_splitter_fm%
-  label = 
-  loopbackgroundanimations = true
-  hoverlabel = Channel
-  x = 151
-  width = 20
-  action = addbutton
-  actionid = 06574b77-468d-4d53-a1e3-83e1d5e4f6d11694581482486
-  y = 259
-  backgroundnormal = config/fancymenu/customguis/yutub.png
-  height = 20
-}
-
-customization {
-  orientation = top-left
-  restartbackgroundanimations = true
+  delayappearanceseconds = 1.0
   buttonaction = openlink;https://github.com/RichPrune%btnaction_splitter_fm%
   label = 
   loopbackgroundanimations = true
   hoverlabel = Issues
-  x = 118
-  width = 20
+  fadein = true
+  fadeinspeed = 1.0
+  x = 134
+  width = 19
   action = addbutton
   actionid = 0eab0573-3030-4e73-9073-c2094914a14e1694581484545
-  y = 258
+  y = 256
+  delayappearance = true
   backgroundnormal = config/fancymenu/customguis/ghu.png
+  delayappearanceeverytime = false
   height = 20
 }
 
