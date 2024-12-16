@@ -237,7 +237,7 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"This item can be obtained by breaking a &eGlowsilk Cocoon&r - which gernerate in The Nether in biomes such as Crimson Forest, Basalt Deltas, and Glowstone Canyons."
+				"This item can be obtained by breaking a &eGlowsilk Cocoon&r - which generate in The Nether in biomes such as Crimson Forest, Basalt Deltas, and Glowstone Canyons."
 				""
 				"&eGlowsilk&r can also be crafted by using 4 &eGlowstone&r, 2 &eNetherite Scrap&r, 2 &eAmetrine Shards&r, and 1 &eString&r"
 				""
@@ -1241,15 +1241,36 @@
 			shape: "gear"
 			subtitle: "Brew a Magma Cream with an Awkward Potion"
 			tasks: [{
-				id: "4D7C8524E2931AC6"
+				id: "19E83D6ACC23FD66"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "minecraft:potion"
+					id: "itemfilters:or"
 					tag: {
-						Potion: "minecraft:fire_resistance"
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:long_fire_resistance"
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:fire_resistance"
+								}
+							}
+						]
 					}
 				}
 				type: "item"
@@ -1303,15 +1324,46 @@
 			shape: "gear"
 			subtitle: "Brew Frozen Rotten Flesh with an Corrupted Potion"
 			tasks: [{
-				id: "59759ADE7B4EA1AB"
+				id: "6C952A9020D5D6BF"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "minecraft:potion"
+					id: "itemfilters:or"
 					tag: {
-						Potion: "rottencreatures:freeze"
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:potion"
+								tag: {
+									Potion: "rottencreatures:freeze"
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:potion"
+								tag: {
+									Potion: "rottencreatures:long_freeze"
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": { }
+								}
+								id: "minecraft:potion"
+								tag: {
+									Potion: "rottencreatures:strong_freeze"
+								}
+							}
+						]
 					}
 				}
 				type: "item"

@@ -1,5 +1,11 @@
 [
   {
+    "mob": "cataclysm:coral_golem",
+    "random": 0.5,
+    "onjoin": true,
+    "result": "deny"
+  },  
+  {
     "structure": "chocolate:white_palace",
     "result": "deny"
   },
