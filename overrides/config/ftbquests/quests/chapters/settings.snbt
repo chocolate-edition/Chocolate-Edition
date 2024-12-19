@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "settings"
 	group: "124DA5EC6A42A11D"
 	icon: {
@@ -11,11 +12,13 @@
 		}
 	}
 	id: "64B4B29528916F10"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			disable_toast: true
 			id: "5E0D0EFACA192EEB"
+			optional: true
 			rewards: [{
 				auto: "no_toast"
 				command: "/ftbquests change_progress @p reset 44D66299DE5AC92F"
@@ -36,7 +39,9 @@
 			y: 0.0d
 		}
 		{
+			disable_toast: true
 			id: "177CCA876BBC9A3E"
+			optional: true
 			rewards: [{
 				auto: "no_toast"
 				command: "/ftbquests change_progress @p reset 6364CE1BD6EFFA37"
@@ -57,7 +62,9 @@
 			y: 0.0d
 		}
 		{
+			disable_toast: true
 			id: "572E7C8B81EA10ED"
+			optional: true
 			rewards: [{
 				auto: "no_toast"
 				command: "/ftbquests change_progress @p reset 6EBC8FCAB1C178FE"
@@ -78,7 +85,9 @@
 			y: 0.0d
 		}
 		{
+			disable_toast: true
 			id: "44D66299DE5AC92F"
+			optional: true
 			rewards: [{
 				auto: "no_toast"
 				command: "/ftbquests change_progress @p reset 5E0D0EFACA192EEB"
@@ -100,7 +109,9 @@
 			y: -4.0d
 		}
 		{
+			disable_toast: true
 			id: "6364CE1BD6EFFA37"
+			optional: true
 			rewards: [{
 				auto: "no_toast"
 				command: "/ftbquests change_progress @p reset 177CCA876BBC9A3E"
@@ -121,7 +132,9 @@
 			y: -4.0d
 		}
 		{
+			disable_toast: true
 			id: "6EBC8FCAB1C178FE"
+			optional: true
 			rewards: [{
 				auto: "no_toast"
 				command: "/ftbquests change_progress @p reset 572E7C8B81EA10ED"
