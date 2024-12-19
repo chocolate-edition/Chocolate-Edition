@@ -350,6 +350,22 @@ var itemsCursed = [
 ];
 
 
+var itemsBossSummons = [
+	<item:meetyourfight:dusk_key>,
+	<item:meetyourfight:fossil_bait>,
+	<item:meetyourfight:devils_ante>,
+	<item:meetyourfight:haunted_bell>,
+	<item:predators:relics_of_the_ancient_gods>,
+	<item:predators:refined_prismarine>,
+	<item:minecraft:archer_pottery_sherd>,
+	<item:predators:amethyst_geode>,
+	<item:minecraft:suspicious_sand>,
+	<item:minecraft:blade_pottery_sherd>,
+	<item:create_confectionery:honey_candy>,
+	<item:farmersdelight:melon_popsicle>
+
+];
+
 //Eye gates
 
 
@@ -388,6 +404,13 @@ for item in itemsCursed {
 	ItemStages.restrict(item.anyDamage(), "enigma").preventInventory(false).preventPickup(false).hiddenName("§cEnigmatic Item");
 	craftingTable.remove(item);
 }
+
+/*
+for item in itemsBossSummons {
+	ItemStages.restrict(item.anyDamage(), "Summoning Alter").preventInventory(false).preventPickup(false).hiddenName("Summoning Alter Item").preventUsing(false);
+	craftingTable.remove(item);
+}
+*/
 
 /* gotta figure this out for later
 var stages = ["one", "two", "three", "four", "five"] as string[];
