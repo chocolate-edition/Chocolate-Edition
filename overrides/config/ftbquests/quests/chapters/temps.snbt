@@ -452,7 +452,7 @@
 			y: 31.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -2644,17 +2644,50 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["177CCA876BBC9A3E"]
 			id: "5B584CE502BC9124"
-			rewards: [{
-				auto: "no_toast"
-				command: "/execute at @p in blue_skies:everbright run particle endermanoverhaul:snow ~ ~1 ~ 10 5 10 2 200 normal"
-				exclude_from_claim_all: true
-				id: "0E40C703C19CEC37"
-				ignore_reward_blocking: true
-				silent: true
-				team_reward: false
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @p in blue_skies:everbright run particle endermanoverhaul:snow ~ 80 ~ 10 20 10 2 200 normal"
+					exclude_from_claim_all: true
+					id: "0E40C703C19CEC37"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p in blue_skies:everbright run particle endermanoverhaul:snow ~ 120 ~ 10 20 10 3 200 normal"
+					exclude_from_claim_all: true
+					id: "6410B6B2A6E9B417"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p in blue_skies:everbright run particle minecraft:snowflake ~ 160 ~ 10 20 10 .3 100 normal"
+					exclude_from_claim_all: true
+					id: "0C15A9AFD4F91AC2"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p in blue_skies:everbright run particle minecraft:snowflake ~ 200 ~ 10 20 10 .5 100 normal"
+					exclude_from_claim_all: true
+					id: "6AF411490B1A3087"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "54FD6BC16EFF0D1F"
 				stat: "minecraft:walk_one_cm"
@@ -2662,15 +2695,16 @@
 				value: 1
 			}]
 			title: "Everbright snow particle"
-			x: 7.25d
+			x: 8.25d
 			y: -0.25d
 		}
 		{
 			can_repeat: true
+			dependencies: ["572E7C8B81EA10ED"]
 			id: "71205726B9342781"
 			rewards: [{
 				auto: "no_toast"
-				command: "/execute at @p in blue_skies:everdawn run particle blue_skies:star_glimmer ~ ~1 ~ 10 5 10 2 50 normal"
+				command: "/execute at @p in blue_skies:everdawn run particle blue_skies:searing_smoke ~ ~1 ~ 10 5 10 .1 50 normal"
 				exclude_from_claim_all: true
 				id: "0C245B6219076E3F"
 				ignore_reward_blocking: true
@@ -2685,29 +2719,42 @@
 				value: 1
 			}]
 			title: "Everdawn Dust particle"
-			x: 8.25d
+			x: 9.5d
 			y: -0.25d
 		}
 		{
 			can_repeat: true
+			dependencies: ["5E0D0EFACA192EEB"]
 			id: "6FB30BCA8CBF9926"
-			rewards: [{
-				auto: "no_toast"
-				command: "/execute at @p in minecraft:overworld run particle bosses_of_mass_destruction:disappearing_swirl ~ ~1 ~ 10 5 10 0.001 50 normal"
-				exclude_from_claim_all: true
-				id: "79A5D7C2BF88F5B5"
-				ignore_reward_blocking: true
-				silent: true
-				team_reward: false
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @p in minecraft:overworld run particle bosses_of_mass_destruction:disappearing_swirl ~ 80 ~ 5 20 5 0.001 50 normal"
+					exclude_from_claim_all: true
+					id: "79A5D7C2BF88F5B5"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p in minecraft:overworld run particle bosses_of_mass_destruction:disappearing_swirl ~ 120 ~ 5 20 5 0.001 50 normal"
+					exclude_from_claim_all: true
+					id: "7B49E8CE6FCBDDC2"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
 			tasks: [{
 				biome: "minecraft:meadow"
 				id: "15214EEB3D7B46D7"
 				type: "biome"
 			}]
 			title: "Meadow wind particle"
-			x: 9.25d
+			x: 7.0d
 			y: -0.25d
 		}
 		{
@@ -3710,6 +3757,54 @@
 			title: "Adventure in Shaded Citadel"
 			x: 28.0d
 			y: 4.75d
+		}
+		{
+			id: "24EC36810521746E"
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 0D454B0F185F8E6E"
+				exclude_from_claim_all: true
+				id: "0B8915A0337E3CDA"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			title: "Default turn on everbright snow"
+			x: 8.25d
+			y: -4.5d
+		}
+		{
+			id: "3F177169BF9FE9F1"
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 2550CC6C0E83B07D"
+				exclude_from_claim_all: true
+				id: "4C14ED12871996B1"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			title: "Default turn on everdawn smoke"
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			id: "1AEB21C9EF089CCC"
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 14A81C6A83A447AE"
+				exclude_from_claim_all: true
+				id: "01CF04614E8E8EA5"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			title: "Default turn on meadow wind"
+			x: 7.0d
+			y: -4.5d
 		}
 	]
 	title: "Flags"
