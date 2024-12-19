@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "settings"
+	group: "124DA5EC6A42A11D"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/settings"
+		}
+	}
+	id: "64B4B29528916F10"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "5E0D0EFACA192EEB"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p reset 44D66299DE5AC92F"
+				exclude_from_claim_all: true
+				id: "133D051F1B255F4D"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "14A81C6A83A447AE"
+				title: "Meadow Wind Particles On"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "177CCA876BBC9A3E"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p reset 6364CE1BD6EFFA37"
+				exclude_from_claim_all: true
+				id: "2DA7105A98D004BE"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "0D454B0F185F8E6E"
+				title: "Everbright Snow Particles On"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "572E7C8B81EA10ED"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p reset 6EBC8FCAB1C178FE"
+				exclude_from_claim_all: true
+				id: "4EBB433FD20D45AA"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "2550CC6C0E83B07D"
+				title: "Everdawn Smoke Particles On"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "44D66299DE5AC92F"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p reset 5E0D0EFACA192EEB"
+				exclude_from_claim_all: true
+				id: "1449F976C935F24A"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "Off"
+				type: "command"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "60FE486A907EFED1"
+				title: "Meadow Wind Particles Off"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			disable_toast: true
+			id: "6364CE1BD6EFFA37"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p reset 177CCA876BBC9A3E"
+				exclude_from_claim_all: true
+				id: "32295D047401F527"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "18987CDC5EF766E3"
+				title: "Everbright Snow Particles Off"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			disable_toast: true
+			id: "6EBC8FCAB1C178FE"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p reset 572E7C8B81EA10ED"
+				exclude_from_claim_all: true
+				id: "0538915E778A14D3"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "0A9717BD7B1820A5"
+				title: "Everdawn Smoke Particles Off"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+	]
+	title: "SETTINGS"
+}
