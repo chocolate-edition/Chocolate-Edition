@@ -2645,6 +2645,7 @@
 		{
 			can_repeat: true
 			dependencies: ["177CCA876BBC9A3E"]
+			disable_toast: true
 			id: "5B584CE502BC9124"
 			rewards: [
 				{
@@ -2701,6 +2702,7 @@
 		{
 			can_repeat: true
 			dependencies: ["572E7C8B81EA10ED"]
+			disable_toast: true
 			id: "71205726B9342781"
 			rewards: [{
 				auto: "no_toast"
@@ -2725,6 +2727,7 @@
 		{
 			can_repeat: true
 			dependencies: ["5E0D0EFACA192EEB"]
+			disable_toast: true
 			id: "6FB30BCA8CBF9926"
 			rewards: [
 				{
@@ -3759,6 +3762,7 @@
 			y: 4.75d
 		}
 		{
+			disable_toast: true
 			id: "24EC36810521746E"
 			rewards: [{
 				auto: "no_toast"
@@ -3775,6 +3779,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			id: "3F177169BF9FE9F1"
 			rewards: [{
 				auto: "no_toast"
@@ -3791,6 +3796,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			id: "1AEB21C9EF089CCC"
 			rewards: [{
 				auto: "no_toast"

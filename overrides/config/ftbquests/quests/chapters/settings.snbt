@@ -31,6 +31,7 @@
 			}]
 			size: 3.0d
 			tasks: [{
+				disable_toast: true
 				id: "14A81C6A83A447AE"
 				title: "Meadow Wind Particles On"
 				type: "checkmark"
@@ -54,6 +55,7 @@
 			}]
 			size: 3.0d
 			tasks: [{
+				disable_toast: true
 				id: "0D454B0F185F8E6E"
 				title: "Everbright Snow Particles On"
 				type: "checkmark"
@@ -77,6 +79,7 @@
 			}]
 			size: 3.0d
 			tasks: [{
+				disable_toast: true
 				id: "2550CC6C0E83B07D"
 				title: "Everdawn Smoke Particles On"
 				type: "checkmark"
@@ -101,6 +104,7 @@
 			}]
 			size: 3.0d
 			tasks: [{
+				disable_toast: true
 				id: "60FE486A907EFED1"
 				title: "Meadow Wind Particles Off"
 				type: "checkmark"
@@ -124,6 +128,7 @@
 			}]
 			size: 3.0d
 			tasks: [{
+				disable_toast: true
 				id: "18987CDC5EF766E3"
 				title: "Everbright Snow Particles Off"
 				type: "checkmark"
@@ -147,6 +152,7 @@
 			}]
 			size: 3.0d
 			tasks: [{
+				disable_toast: true
 				id: "0A9717BD7B1820A5"
 				title: "Everdawn Smoke Particles Off"
 				type: "checkmark"
