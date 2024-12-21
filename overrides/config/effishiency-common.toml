@@ -1,5 +1,0 @@
-
-[General]
-	#Should amount of durability damage depend on the amount of fish caught? If false, only one durability will be removed, regardless of amount of fish caught.
-	amount_of_durability = true
-
