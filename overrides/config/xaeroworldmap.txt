@@ -1,5 +1,6 @@
 ignoreUpdate:161
 updateNotification:true
+allowInternetAccess:true
 differentiateByServerAddress:true
 caveMapsAllowed:true
 debug:false
@@ -30,7 +31,7 @@ adjustHeightForCarpetLikeBlocks:true
 onlyCurrentMapWaypoints:false
 minZoomForLocalWaypoints:0.0
 arrowColour:-2
-minimapRadar:false
+minimapRadar:true
 renderWaypoints:true
 partialYTeleportation:true
 displayStainedGlass:true
@@ -43,6 +44,11 @@ caveModeToggleTimer:1000
 defaultCaveModeType:1
 biomeBlending:true
 trackedPlayers:true
+multipleImagesExport:false
+nightExport:false
+highlightsExport:false
+exportScaleDownSquare:20
+mapWritingDistance:-1
 displayClaims:true
 claimsFillOpacity:46
 claimsBorderOpacity:80
