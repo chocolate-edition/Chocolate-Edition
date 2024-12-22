@@ -37,6 +37,8 @@
 15. in your local git repo, delete the `overrides` folder, then copy the contents (overrides, modlist, manifest) of the profile export into your git repo, replacing/overriding the existing modlist and manifest.
 16. using vscode source control tab or github desktop, review the changes made by copying in the profile export. use <https://diffsort.com/> to compare changes in the modlist and manifest.
   ensure no unintended changes have been made. if not, correct the changes then start over from step 1.
+
+  use the sorted version of the modlist from diffsort(make sure the opening <u> has no / while the closing </u> does).
 17. edit the manifest in the profile export zip to ensure the title, version, and author are correct.
 
 ## uploading
