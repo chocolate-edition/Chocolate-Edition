@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "enlightened_end:adamantite_block",
+    "cataclysm:ignitium_block",
+    "cataclysm:witherite_block",
+    "born_in_chaos_v1:dark_metal_block",
+    "majruszsdifficulty:enderium_block",
+    "enigmaticlegacy:etherium_block",
+    "epicsamurai:steel_block",
+    "epicsamurai:silver_block",
+    "aquaculture:neptunium_block"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:husk",
+      "weight": 15
+    },
+    {
+      "name": "rottencreatures:mummy",
+      "weight": 5
+    },
+    {
+      "name": "dungeons_mobs:mossy_skeleton",
+      "weight": 5
+    },
+
+    {
+      "name": "born_in_chaos_v1:restless_spirit",
+      "weight": 1
+    },
+    {
+      "name": "born_in_chaos_v1:spirit_guide",
+      "weight": 5
+    },
+    {
+      "name": "quark:forgotten",
+      "weight": 1
+    }
+  ]
+}

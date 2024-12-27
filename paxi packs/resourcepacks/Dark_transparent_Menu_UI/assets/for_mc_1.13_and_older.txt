@@ -1,0 +1,12 @@
+For minecraft 1.13 and older
+
+change:
+
+assets\minecraft\textures\gui\container\brewing_stand_old.png 
+to brewing_stand.png
+
+assets\minecraft\textures\gui\container\inventory_old.png 
+to inventory.png
+
+assets\minecraft\textures\gui\container\creative_inventory\tab_inventory_old.png 
+to tab_inventory.png

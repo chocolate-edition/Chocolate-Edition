@@ -1,0 +1,35 @@
+{
+    "key": "epicsamurai_samurai_steel",
+    "category": "metal",
+    "primary": 6,
+    "secondary": 3.8,
+    "tertiary": 3,
+    "durability": 1561,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 72,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 9,
+    "tints": {
+        "glyph": "8c8e98",
+        "texture": "8c8e98"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "epicsamurai:steel_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "epicsamurai"
+        }
+    ]
+}

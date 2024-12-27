@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "dungeons_mobs:blastling",
+      "weight": 10
+    },
+    {
+      "name": "dungeons_mobs:watchling",
+      "weight": 10
+    }
+  ]
+}
