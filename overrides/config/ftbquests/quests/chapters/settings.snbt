@@ -165,6 +165,29 @@
 			x: 9.0d
 			y: -4.0d
 		}
+		{
+			description: [
+				"&n&lBIOME PARTICLES&l&n"
+				"we use hidden quests and commands to add particles to some biomes. in meadows you will see pollen/wind particles, snow in the everbright, and embers in the everdawn. "
+				""
+				"to disable these particles, simply click the checkmark on the \"Off\" quest of the one you want to disable"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "create:cogwheel"
+			}
+			id: "007CEC9A687DD828"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Here you will find some editable settings for things we have added."
+			title: "INFO"
+			x: -5.0d
+			y: -2.0d
+		}
 	]
 	title: "SETTINGS"
 }
