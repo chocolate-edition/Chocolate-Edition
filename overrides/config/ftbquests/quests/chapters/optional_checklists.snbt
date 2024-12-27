@@ -19,7 +19,7 @@
 			disable_toast: true
 			icon: "minecraft:ender_eye"
 			id: "2E05AE019E817141"
-			subtitle: "Standard grade, tride and true pets [CLICK CHECKMARK TO EXPAND]"
+			subtitle: "Standard grade, tride and true pets "
 			x: -6.5d
 			y: -7.5d
 		}
@@ -34,7 +34,7 @@
 				}
 			}
 			id: "672BAB96369ACA26"
-			subtitle: "Basic mounts and minions [CLICK CHECKMARK TO EXPAND]"
+			subtitle: "Basic mounts and minions "
 			x: -4.0d
 			y: -7.5d
 		}
@@ -1172,7 +1172,6 @@
 			dependencies: ["6BDB961B56D84137"]
 			icon: "minecraft:ender_eye"
 			id: "250EA74C9879C5C7"
-			subtitle: "[CLICK CHECKMARK TO EXPAND]"
 			tasks: [{
 				id: "237C1F278FD108F4"
 				title: "Tier 1 (Any Eyes Recommended)"
@@ -1191,7 +1190,6 @@
 				}
 			}
 			id: "77322EFE45DA7FFD"
-			subtitle: "[CLICK CHECKMARK TO EXPAND]"
 			tasks: [{
 				id: "6040EA3DAEAC9F23"
 				title: "Tier 2 (0-3 eyes recommended)"
@@ -2274,7 +2272,6 @@
 			dependencies: ["1FB0360D1AC61D14"]
 			icon: "minecraft:ender_eye"
 			id: "520E8FDF7962AB70"
-			subtitle: "[CLICK CHECKMARK TO EXPAND]"
 			tasks: [{
 				id: "03ABE974224591F5"
 				title: "Tier 1 (Any Eyes Recommended)"
@@ -2293,7 +2290,6 @@
 				}
 			}
 			id: "3F9D63A6BBCB546F"
-			subtitle: "[CLICK CHECKMARK TO EXPAND]"
 			tasks: [{
 				id: "4639A5556F563C82"
 				title: "Tier 2 (0-3 eyes recommended)"
@@ -3781,7 +3777,7 @@
 			dependencies: ["7CDF2FC17EB833C7"]
 			icon: "minecraft:ender_eye"
 			id: "0F9A26D48FCD40FB"
-			subtitle: "Non-Hostile Structures, Villages [CLICK CHECKMARK TO EXPAND]"
+			subtitle: "Non-Hostile Structures, Villages "
 			tasks: [{
 				id: "590E39AF7319FD75"
 				title: "Tier 1 (Any Eyes Recommended)"
@@ -3800,7 +3796,7 @@
 				}
 			}
 			id: "4831D53768ABFD2C"
-			subtitle: "Common Dungeons [CLICK CHECKMARK TO EXPAND]"
+			subtitle: "Common Dungeons "
 			tasks: [{
 				id: "6A40DFBD64DD0DCB"
 				title: "Tier 2 (0-3 eyes recommended)"
