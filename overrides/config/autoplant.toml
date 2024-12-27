@@ -1,8 +1,0 @@
-
-#General settings
-[autoplant]
-	#Planting saplings allowed
-	plantAllSaplings = true
-	#Extra blocks to auto plant
-	extras = ["minecraft:grass"]
-
