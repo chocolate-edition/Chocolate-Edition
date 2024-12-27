@@ -2690,10 +2690,9 @@
 				}
 			]
 			tasks: [{
-				id: "54FD6BC16EFF0D1F"
-				stat: "minecraft:walk_one_cm"
-				type: "stat"
-				value: 1
+				biome: "#blue_skies:everbright"
+				id: "2A25D06941498859"
+				type: "biome"
 			}]
 			title: "Everbright snow particle"
 			x: 8.25d
@@ -2715,10 +2714,9 @@
 				type: "command"
 			}]
 			tasks: [{
-				id: "54D662D096636C13"
-				stat: "minecraft:walk_one_cm"
-				type: "stat"
-				value: 1
+				biome: "#blue_skies:everdawn"
+				id: "7DA61A5BF57C66A8"
+				type: "biome"
 			}]
 			title: "Everdawn Dust particle"
 			x: 9.5d
