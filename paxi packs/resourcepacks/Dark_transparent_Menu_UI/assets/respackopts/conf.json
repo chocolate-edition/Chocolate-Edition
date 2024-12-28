@@ -1,0 +1,22 @@
+{
+  "id": "dtg",
+  "version": 3,
+  "conf": {
+    "brewingStandCheatSheet": true,
+    "optionsBackground": [
+      "gray_concrete_powder",
+      "black_concrete_powder",
+      "gray_concrete",
+      "gray_wool",
+      "black_wool",
+      "coal_block",
+      "blackstone",
+      "deepslate"
+    ],
+    "supportedMods": {
+      "inventoryProfilesNext": true,
+      "betterGameMenu": true,
+      "optifine": true
+    }
+  }
+}

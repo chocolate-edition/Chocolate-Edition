@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:bamboo_jungle",
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "terralith:jungle_mountains",
+    "terralith:rocky_jungle",
+    "terralith:tropical_jungle"
+  ]
+}

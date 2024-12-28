@@ -1,0 +1,20 @@
+{
+  "mobs": [
+    {
+      "name": "dungeons_mobs:wavewhisperer",
+      "weight": 1
+    },
+    {
+      "name": "upgrade_aquatic:thrasher",
+      "weight": 10
+    },
+    {
+      "name": "dungeons_mobs:drowned_necromancer",
+      "weight": 1
+    },
+    {
+      "name": "rottencreatures:immortal",
+      "weight": 1
+    }
+  ]
+}

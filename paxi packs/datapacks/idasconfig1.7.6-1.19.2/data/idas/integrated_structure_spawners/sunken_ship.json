@@ -1,0 +1,17 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:drowned",
+      "weight": 15
+    },
+    {
+      "name": "dungeons_mobs:sunken_skeleton",
+      "weight": 15
+    },
+
+    {
+      "name": "rottencreatures:immortal",
+      "weight": 3
+    }
+  ]
+}

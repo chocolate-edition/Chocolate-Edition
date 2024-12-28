@@ -1,0 +1,37 @@
+{
+  "mobs": [
+    {
+      "name": "alexsmobs:centipede_head",
+      "weight": 10
+    },
+    {
+      "name": "aquamirae:tortured_soul",
+      "weight": 1
+    },
+    {
+      "name": "creeperoverhaul:dripstone_creeper",
+      "weight": 5
+    },
+
+    {
+      "name": "dungeons_mobs:necromancer",
+      "weight": 8
+    },
+    {
+      "name": "born_in_chaos_v1:scarlet_persecutor",
+      "weight": 1
+    },
+    {
+      "name": "unusualend:undead_enderling",
+      "weight": 5
+    },
+    {
+      "name": "born_in_chaos_v1:skeleton_demoman",
+      "weight": 1
+    },
+    {
+      "name": "rottencreatures:undead_miner",
+      "weight": 15
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#minecraft:sand",
+    "#minecraft:dirt",
+    "#minecraft:base_stone_overworld",
+    "#minecraft:terracotta",
+    "minecraft:sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:tnt",
+    "minecraft:anvil",
+    "minecraft:chipped_anvil",
+    "minecraft:damaged_anvil"
+  ]
+}

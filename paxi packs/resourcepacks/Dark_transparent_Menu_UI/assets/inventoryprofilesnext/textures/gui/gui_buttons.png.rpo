@@ -1,0 +1,5 @@
+{
+  "conditions": [
+    "dtg:supportedMods.inventoryProfilesNext"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:totem_of_undying", 
+    "friendsandfoes:totem_of_illusion",
+    "friendsandfoes:totem_of_freezing",
+    "unusualend:void_totem"
+  ]
+}

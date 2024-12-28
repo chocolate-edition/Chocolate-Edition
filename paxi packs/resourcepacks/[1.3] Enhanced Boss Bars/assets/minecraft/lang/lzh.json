@@ -1,0 +1,12 @@
+{
+  "language.name": "文言",
+  "language.region": "華夏",
+  "language.code": "lzh",
+
+  "event.minecraft.raid": "\uE903",
+  "entity.minecraft.wither": "\uE906",
+  "entity.minecraft.ender_dragon": "\uE907",
+  "event.minecraft.raid.raiders_remaining": "",
+  "event.minecraft.raid.victory": "",
+  "event.minecraft.raid.defeat": ""
+}

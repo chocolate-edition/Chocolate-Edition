@@ -1,0 +1,32 @@
+{
+  "mobs": [
+    {
+      "name": "quark:wraith",
+      "weight": 5
+    },
+    {
+      "name": "quark:forgotten",
+      "weight": 5
+    },
+    {
+      "name": "dungeons_mobs:sunken_skeleton",
+      "weight": 15
+    },
+    {
+      "name": "dungeons_mobs:wavewhisperer",
+      "weight": 1
+    },
+    {
+      "name": "dungeons_mobs:drowned_necromancer",
+      "weight": 1
+    },
+    {
+      "name": "rottencreatures:immortal",
+      "weight": 1
+    },
+    {
+      "name": "minecraft:drowned",
+      "weight": 15
+    }
+  ]
+}

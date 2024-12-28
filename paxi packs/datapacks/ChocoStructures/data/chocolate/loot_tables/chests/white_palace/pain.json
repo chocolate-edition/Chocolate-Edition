@@ -1,0 +1,246 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 27,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:diopside_block",
+            "weight": 35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:air",
+            "weight": 25
+            
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:charoite_block",
+            "weight": 35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:aquite_block",
+            "weight": 45,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:pyrope_block",
+            "weight": 45,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "create:experience_nugget",
+            "weight": 45,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 25
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "create:experience_nugget",
+            "weight": 45,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 25
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "enigmaticlegacy:cosmic_cake",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "luphieclutteredmod:luphie_pancake_stack",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "enigmaticlegacy:unholy_grail",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_eye",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "endermanoverhaul:ancient_pearl",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:moonstone_block",
+            "weight": 35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 10,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "brewinandchewin:mead",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 15
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "brewinandchewin:saccharine_rum",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "brewinandchewin:steel_toe_stout",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:blue_fruit",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 10,
+                  "max": 15
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{StoredEnchantments:[{id:'minecraft:protection',lvl:7s}]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{StoredEnchantments:[{id:'minecraft:unbreaking',lvl:10s}]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{StoredEnchantments:[{id:'combatroll:multi_roll',lvl:7s}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

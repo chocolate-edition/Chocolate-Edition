@@ -1,0 +1,12 @@
+{
+  "language.name": "Türkçe",
+  "language.region": "Turkish",
+  "language.code": "tr_tr",
+
+  "event.minecraft.raid": "\uE903",
+  "entity.minecraft.wither": "\uE906",
+  "entity.minecraft.ender_dragon": "\uE907",
+  "event.minecraft.raid.raiders_remaining": "",
+  "event.minecraft.raid.victory": "",
+  "event.minecraft.raid.defeat": ""
+}

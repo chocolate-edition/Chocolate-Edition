@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "chocolate:white_palace",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 90,
+      "separation": 65,
+      "salt": 90938457
+    }
+}

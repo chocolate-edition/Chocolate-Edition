@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: ctov
+Specification-Vendor: choicetheorem
+Specification-Version: 1
+Implementation-Title: ctov
+Implementation-Version: 3.2.3
+Implementation-Vendor: 1.19.4+3.2.3
+Implementation-Timestamp: 2023-06-10T19:39:20+0700
+
