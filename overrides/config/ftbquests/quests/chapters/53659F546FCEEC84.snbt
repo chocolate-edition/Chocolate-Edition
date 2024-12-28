@@ -445,7 +445,7 @@
 		}
 		{
 			dependencies: ["7E7A9B546C15BE8A"]
-			description: ["On servers/LAN this applies to every player"]
+			description: [""]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -455,7 +455,6 @@
 			}
 			id: "0E7AC1DAD88A9579"
 			optional: true
-			subtitle: "&4ENTERING THE NETHER WILL START HARD MODE"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "1A0799C1C0BD76B8"

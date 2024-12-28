@@ -28,7 +28,6 @@
 			id: "538216B8378B0B90"
 			shape: "square"
 			size: 2.5d
-			subtitle: "[CLICK CHECKMARK TO EXPAND]"
 			title: "Combat"
 			x: 1.25d
 			y: -2.25d
@@ -104,7 +103,6 @@
 			}
 			id: "2BB27E5C4A460ED1"
 			shape: "square"
-			subtitle: "[CLICK CHECKMARK TO EXPAND]"
 			title: "Buffs"
 			x: 1.25d
 			y: -0.25d
@@ -575,7 +573,7 @@
 			id: "78E50217106635B5"
 			shape: "square"
 			size: 2.5d
-			subtitle: "In order of roughly early game to end game items. [CLICK CHECKMARK TO EXPAND]"
+			subtitle: "In order of roughly early game to end game items. "
 			title: "Exploration"
 			x: 11.5d
 			y: 5.25d
@@ -1210,7 +1208,7 @@
 			id: "03E1F82B1F4D6090"
 			shape: "square"
 			size: 2.5d
-			subtitle: "In order of roughly early game to end game items. [CLICK CHECKMARK TO EXPAND]"
+			subtitle: "In order of roughly early game to end game items. "
 			title: "Building/Crafting"
 			x: 4.5d
 			y: 6.0d
@@ -1573,7 +1571,7 @@
 			id: "60855B118C2FE854"
 			shape: "square"
 			size: 2.5d
-			subtitle: "In order of roughly early game to end game items. [CLICK CHECKMARK TO EXPAND]"
+			subtitle: "In order of roughly early game to end game items. "
 			title: "Resources"
 			x: 16.25d
 			y: -3.0d
@@ -2075,7 +2073,7 @@
 			id: "6F3E05793CF05637"
 			shape: "square"
 			size: 2.5d
-			subtitle: "In order of roughly early game to end game items. [CLICK CHECKMARK TO EXPAND]"
+			subtitle: "In order of roughly early game to end game items. "
 			title: "Agriculture"
 			x: 22.75d
 			y: 9.75d
