@@ -1,0 +1,15 @@
+
+["Scrollable Inventories Mod Server Config"]
+	#Range: 1 ~ 100
+	"Number of Inventories, default: 5 - Applies to ALL players!:" = 6
+	#Range: 1 ~ 100
+	"Number of Hotbars, default: 5 - Applies to ALL players!:" = 3
+	#List of numbers of slots for each inventory, default is 27, if not enough members are present in the list will use fill the rest of the list with 27's, number must be between 1 and 27, adding an invalid value will skip the inv alltogether
+	"List of inventory sizes:" = [27, 27, 27, 27, 27, 27]
+	#List of lists of tags which are whitelisted/blacklisted for each inventory respectively. The lists may not be empty but they can contain valid or invalid tags. Invalid tags will just not apply! The list can be longer than the number of inventories in use the excess wont apply!
+	"List of lists of blacklisted tags:" = [["chocolate:consumable", "chocolate:blocks", "chocolate:placeable", "chocolate:material"], ["chocolate:gear", "chocolate:blocks", "chocolate:placeable", "chocolate:material"], ["chocolate:gear", "chocolate:consumable", "chocolate:placeable", "chocolate:material"], ["chocolate:gear", "chocolate:consumable", "chocolate:placeable", "chocolate:material"], ["chocolate:gear", "chocolate:consumable", "chocolate:blocks", "chocolate:material"], ["chocolate:gear", "chocolate:consumable", "chocolate:blocks", "chocolate:placeable"]]
+	#A check weather or not the whitelist should be enabled, switching to false enables the blacklist.
+	"Whitelist: " = false
+	#A check weather scrollable (non-main) inventories should drop (false - should drop, true - should not drop) *made for modpack makers should ignore*.
+	"Save inventories: " = true
+
