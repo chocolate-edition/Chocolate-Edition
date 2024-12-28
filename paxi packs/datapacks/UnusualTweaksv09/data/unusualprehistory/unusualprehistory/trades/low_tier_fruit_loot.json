@@ -1,0 +1,44 @@
+{
+  "tier": 2,
+  "trade_item": "unusualprehistory:zuloagae",
+  "translation_key": "unusualprehistory.fruit_loot_box.exotic",
+  "items": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "item": "unusualprehistory:red_fruit_scraps",
+          "weight": 10,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "item": "unusualprehistory:horsetail",
+          "weight": 10,
+          "amount": 3
+        },
+        {
+          "item": "minecraft:hanging_roots",
+          "weight": 10,
+          "amount": 2
+        },
+        {
+          "item": "blue_skies:winter_leaf_seeds",
+          "weight": 10,
+          "amount": 2
+        },
+        {
+          "item": "blue_skies:pine_fruit_seeds",
+          "weight": 10,
+          "amount": 2
+        }
+      ]
+    }
+  ],
+  "color": "#3ca8b3",
+  "CustomModelData": 2
+}

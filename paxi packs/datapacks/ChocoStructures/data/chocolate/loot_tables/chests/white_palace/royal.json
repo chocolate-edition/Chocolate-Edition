@@ -1,0 +1,642 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 20,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:star_flare",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:air",
+            "weight": 25
+            
+          },
+          {
+            "type": "minecraft:item",
+            "name": "quark:bottled_cloud",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:snowball",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "create:mechanical_saw",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "galosphere:golden_lichen_cordyceps",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "iter_rpg:arcane_flower",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_carrot",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_apple",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dustrial_decor:wrapped_gold_chains",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualprehistory:opalescent_pearl",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:marigolds",
+            "weight": 7
+          },
+          {
+            "type": "minecraft:item",
+            "name": "nameless_trinkets:pocket_lightning_rod",
+            "weight": 7
+          },
+          {
+            "type": "minecraft:item",
+            "name": "crittersandcompanions:pearl_necklace_2",
+            "weight": 7
+          },
+          {
+            "type": "minecraft:item",
+            "name": "crittersandcompanions:pearl_necklace_3",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "aquamirae:golden_moth_in_a_jar",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "rottencreatures:treasure_chest",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:power_glove",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:golden_hook",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:cross_necklace",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "enigmaticlegacy:unholy_grail",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:shock_pendant",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "artifacts:cloud_in_a_bottle",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "alexsdelight:bunfungus_sandwich",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:decorations/nordic_mead_bottles",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:royal/lockbox",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:decorations/coin_stack_gold",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:royal/wool",
+            "weight": 35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:royal/drawer",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:royal/counter",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:royal/oven",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:royal/painting_wide",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:royal/cushion",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_gold_block",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_ingot",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "createdeco:gold_coin",
+            "weight": 35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "createdeco:gold_coinstack",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualfishmod:weird_goldfish",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "aquaculture:goldfish",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:royal/desk_left",
+            "weight": 30
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:royal/table_large",
+            "weight": 30
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:decorations/royal_wall_mirror_small",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:royal/bookshelf",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "farmersdelight:chocolate_pie",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "fantasyfurniture:decorations/royal_crown",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "alexsdelight:lobster_pasta",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_block",
+            "weight": 35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "alexsdelight:acacia_blossom_soup",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "delightful:berry_matcha_latte",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "farmersdelight:horse_feed",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:totem_of_undying",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "delightful:deluxe_cheeseburger",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_golden_apple",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:charoite_chestplate",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 40,
+                  "max": 120
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:charoite_leggings",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 40,
+                  "max": 120
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:charoite_helmet",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 40,
+                  "max": 120
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:charoite_boots",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 40,
+                  "max": 120
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:starlit_spear",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 50,
+                  "max": 180
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:charoite_sword",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 50,
+                  "max": 180
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:charoite_pickaxe",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 50,
+                  "max": 180
+                },
+                "treasure": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

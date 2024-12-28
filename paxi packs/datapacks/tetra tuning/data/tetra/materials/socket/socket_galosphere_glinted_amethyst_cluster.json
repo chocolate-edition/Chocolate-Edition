@@ -1,0 +1,43 @@
+{
+    "key": "socket_galosphere_glinted_amethyst_cluster",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 0.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes": {
+        "forge:reach_distance": 0,
+        "forge:attack_range": 0
+    },
+    "effects": {
+        "reaching": [
+            10,
+            0.7
+        ]
+    },
+    "tints": {
+        "glyph": "8d6acc",
+        "texture": "8d6acc"
+    },
+    "textures": [
+        "pristine"
+    ],
+    "experienceCost": 10,
+    "material": {
+        "items": [
+            "galosphere:glinted_amethyst_cluster"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "galosphere"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "mobs": [
+
+    {
+      "name": "aquamirae:tortured_soul",
+      "weight": 10
+    },
+    {
+      "name": "creeperoverhaul:dripstone_creeper",
+      "weight": 5
+    },
+    {
+      "name": "dungeons_mobs:necromancer",
+      "weight": 5
+    },
+    {
+      "name": "born_in_chaos_v1:skeleton_demoman",
+      "weight": 5
+    },
+    {
+      "name": "rottencreatures:undead_miner",
+      "weight": 15
+    }
+  ]
+}

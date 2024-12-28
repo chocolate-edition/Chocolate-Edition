@@ -1,0 +1,15 @@
+{
+    "name": "chocolate:sunken_submarine_vertical",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "chocolate:sunken_submarine_vertical",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

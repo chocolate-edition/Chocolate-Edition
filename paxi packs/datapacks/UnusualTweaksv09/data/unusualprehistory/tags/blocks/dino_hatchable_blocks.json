@@ -1,0 +1,22 @@
+{
+  "values": [
+    "#minecraft:sand",
+    "#minecraft:dirt",
+    "#minecraft:logs",
+    "#minecraft:leaves",
+    "minecraft:grass_block",
+    "minecraft:podzol",
+    "minecraft:moss_block",
+    "minecraft:mycelium",
+    "#minecraft:base_stone_overworld",
+    "minecraft:gravel",
+    "minecraft:hay_block",
+    "blue_skies:lunar_dirt",
+    "blue_skies:lunar_grass_block",
+    "blue_skies:crystal_sand",
+    "blue_skies:turquoise_grass_block",
+    "blue_skies:turquoise_dirt",
+    "blue_skies:midnight_sand",
+    "blue_skies:midnight_sandstone"
+  ]
+}

@@ -1,0 +1,10 @@
+<NEWLINE>
+<NEWLINE>
+<NEWLINE>
+The Diamondback is a medium sized snake found in deserts and badlands. This reptile is responsible for the majority of snakebite fatalities in these areas. Most of the time, the diamondback is heard, not
+seen, since it produces a loud rattle warning sound when a potential predator is nearby. If one gets close enough to a
+rattlesnake while it is rattling, the creature will become hostile and use its poisonous bite to defend itself. Diamondbacks
+are the sworn enemy of Roadrunners, their most common predator. Diamondback can be bred with any type of meat.
+<NEWLINE>
+If it is slain, it has a chance to drop its rattle. These rattles can be brewed with Potions of Poison in
+order to create a foul, poisonous essence. Brewing this essence with a Cave Centipede Leg can result in the coveted poison resistance potion.

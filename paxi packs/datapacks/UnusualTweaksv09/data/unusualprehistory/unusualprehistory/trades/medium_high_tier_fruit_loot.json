@@ -1,0 +1,54 @@
+{
+  "tier": 4,
+  "trade_item": "unusualprehistory:white_fruit",
+  "translation_key": "unusualprehistory.fruit_loot_box.redolent",
+  "items": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "item": "unusualprehistory:yellow_fruit_scraps",
+          "weight": 10,
+          "amount": 1
+        },
+        {
+          "item": "unusualprehistory:white_fruit_scraps",
+          "weight": 10,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "item": "unusualprehistory:handmade_club",
+          "weight": 5,
+          "amount": 1
+        },
+        {
+          "item": "unusualfishmod:crimson_hard",
+          "weight": 15,
+          "amount": 12
+        },
+        {
+          "item": "minecraft:ventium_nugget",
+          "weight": 15,
+          "amount": 8
+        },
+        {
+          "item": "unusualprehistory:carrot",
+          "weight": 5,
+          "amount": 2
+        },
+        {
+          "item": "unusualprehistory:barina_whistle",
+          "weight": 1,
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "color": "#7F7F7F",
+  "CustomModelData": 4
+}

@@ -1,0 +1,40 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:skeleton",
+      "weight": 15
+    },
+    {
+      "name": "rottencreatures:undead_miner",
+      "weight": 10
+    },
+    {
+      "name": "quark:stoneling",
+      "weight": 3
+    },
+    {
+      "name": "friendsandfoes:copper_golem",
+      "weight": 3
+    },
+    {
+      "name": "dungeons_mobs:skeleton_vanguard",
+      "weight": 10
+    },
+    {
+      "name": "creeperoverhaul:cave_creeper",
+      "weight": 8
+    },
+    {
+      "name": "born_in_chaos_v1:skeleton_demoman",
+      "weight": 8
+    },
+    {
+      "name": "alexsmobs:rocky_roller",
+      "weight": 8
+    },
+    {
+      "name": "quark:forgotten",
+      "weight": 8
+    }
+  ]
+}
