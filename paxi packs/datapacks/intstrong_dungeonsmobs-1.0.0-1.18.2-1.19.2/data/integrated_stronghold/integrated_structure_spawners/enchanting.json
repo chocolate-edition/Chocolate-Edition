@@ -1,0 +1,20 @@
+{
+  "mobs": [
+    {
+      "name": "dungeons_mobs:mage",
+      "weight": 5
+    },
+    {
+      "name": "dungeons_mobs:geomancer",
+      "weight": 5
+    },
+    {
+      "name": "dungeons_mobs:wraith",
+      "weight": 10
+    },
+    {
+      "name": "dungeons_mobs:watchling",
+      "weight": 10
+    }
+  ]
+}

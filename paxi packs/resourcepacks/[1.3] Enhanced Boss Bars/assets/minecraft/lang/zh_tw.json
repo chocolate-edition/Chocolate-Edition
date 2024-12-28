@@ -1,0 +1,12 @@
+{
+  "language.name": "简体中文",
+  "language.region": "台灣",
+  "language.code": "zh_tw",
+
+  "event.minecraft.raid": "\uE903",
+  "entity.minecraft.wither": "\uE906",
+  "entity.minecraft.ender_dragon": "\uE907",
+  "event.minecraft.raid.raiders_remaining": "",
+  "event.minecraft.raid.victory": "",
+  "event.minecraft.raid.defeat": ""
+}

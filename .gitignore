@@ -22,5 +22,5 @@ src/overrides/simplebackups/
 src/overrides/config/jei/world/
 src/overrides/shaderpacks/ComplementaryReimagined_r5.0.1.zip.txt
 src/overrides/config/blockswap/known_states/
-/*.zip
+/src/*.zip
 *.bak

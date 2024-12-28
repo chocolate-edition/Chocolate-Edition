@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#minecraft:leaves",
+    "#minecraft:dirt",
+    "#minecraft:sand",
+    "minecraft:snow",
+    "minecraft:snow_block",
+    "minecraft:powder_snow",
+    "blue_skies:lunar_dirt",
+    "blue_skies:lunar_grass_block",
+    "blue_skies:crystal_sand",
+    "blue_skies:lunar_mud",
+    "blue_skies:lunar_stone",
+    "blue_skies:vitreous_crystal",
+    "blue_skies:lunar_leaves",
+    "blue_skies:lunar_log",
+    "blue_skies:crystallized_log",
+    "blue_skies:crystallized_leaves",
+    "#minecraft:logs"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "chocolate:shaded_citadel",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 65,
+      "separation": 55,
+      "salt": 93784680
+
+    }
+}

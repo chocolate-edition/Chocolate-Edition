@@ -1,0 +1,34 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:desert",
+    {
+      "id": "biomesoplenty:lush_desert",
+      "required": false
+    },
+    {
+      "id": "byg:mojave_desert",
+      "required": false
+    },
+    {
+      "id": "byg:windswept_desert",
+      "required": false
+    },
+    {
+      "id": "terralith:sandstone_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_oasis",
+      "required": false
+    },
+    {
+        "id": "wythers:deep_desert",
+        "required": false
+    },
+    {
+        "id": "wythers:wooded_desert",
+        "required": false
+    }
+  ]
+}

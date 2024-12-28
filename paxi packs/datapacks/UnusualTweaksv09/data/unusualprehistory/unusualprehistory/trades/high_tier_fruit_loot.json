@@ -1,0 +1,64 @@
+{
+  "tier": 5,
+  "trade_item": "unusualprehistory:yellow_fruit",
+  "translation_key": "unusualprehistory.fruit_loot_box.salubrious",
+  "items": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "item": "unusualprehistory:blue_fruit_scraps",
+          "weight": 10,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "item": "minecraft:emerald",
+          "weight": 12,
+          "amount": 2
+        },
+        {
+          "item": "unusualprehistory:handmade_spear",
+          "weight": 5,
+          "amount": 1
+        },
+        {
+          "item": "minecraft:falsite_nugget",
+          "weight": 15,
+          "amount": 8
+        },
+        {
+          "item": "minecraft:golden_carrot",
+          "weight": 15,
+          "amount": 4
+        },
+        {
+          "item": "unusualprehistory:ginkgo_sapling",
+          "weight": 5,
+          "amount": 1
+        },
+        {
+          "item": "unusualprehistory:foxii_sapling",
+          "weight": 5,
+          "amount": 4
+        },
+        {
+          "item": "unusualprehistory:dryo_sapling",
+          "weight": 5,
+          "amount": 1
+        },
+        {
+          "item": "unusualprehistory:zulogae_disc",
+          "weight": 1,
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "color": "#CCCCCC",
+  "CustomModelData": 5
+}

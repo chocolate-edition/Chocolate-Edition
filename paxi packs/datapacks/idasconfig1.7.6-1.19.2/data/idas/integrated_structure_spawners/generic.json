@@ -1,0 +1,50 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:zombie",
+      "weight": 4
+    },
+    {
+      "name": "minecraft:skeleton",
+      "weight": 4
+    },
+    {
+      "name": "rottencreatures:burned",
+      "weight": 4
+    },
+    {
+      "name": "rottencreatures:frostbitten",
+      "weight": 4
+    },
+    {
+      "name": "quark:forgotten",
+      "weight": 1
+    },
+
+    {
+      "name": "minecraft:spider",
+      "weight": 4
+    },
+    {
+      "name": "dungeons_mobs:mossy_skeleton",
+      "weight": 4
+    },
+    {
+      "name": "born_in_chaos_v1:scarlet_persecutor",
+      "weight": 4
+    },
+    {
+      "name": "born_in_chaos_v1:door_knight",
+      "weight": 4
+    },
+    {
+      "name": "born_in_chaos_v1:fallen_chaos_knight",
+      "weight": 4
+    },
+
+    {
+      "name": "quark:wraith",
+      "weight": 2
+    }
+  ]
+}

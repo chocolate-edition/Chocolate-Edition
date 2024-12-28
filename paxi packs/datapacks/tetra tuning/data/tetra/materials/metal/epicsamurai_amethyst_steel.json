@@ -1,0 +1,42 @@
+{
+	"replace": true,
+    "key": "epicsamurai_amethyst_steel",
+    "category": "metal",
+    "primary": 5.5,
+    "secondary": 3.5,
+    "tertiary": 2,
+    "durability": 2031,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 9,
+    "effects": {
+        "criticalStrike": [
+            1,
+            0.5
+        ]
+    },
+    "tints": {
+        "glyph": "d4b5e9",
+        "texture": "d4b5e9"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "epicsamurai:amethyst_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "epicsamurai"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+container.inventory=§fInventory
+container.hopper=§fItem Hopper
+container.crafting=§fCrafting
+container.dispenser=§fDispenser
+container.dropper=§fDropper
+container.furnace=§fFurnace
+container.enchant=§fEnchant
+container.enchant.lapis.one=§f1 Lapis Lazuli
+container.enchant.lapis.many=§f%d Lapis Lazuli
+container.enchant.level.one=§f1 Enchantment Level
+container.enchant.level.many=§f%d Enchantment Levels
+container.enchant.clue=§f%s . . . ?
+container.repair=§fRepair & Name
+container.repair.cost=§fEnchantment Cost: %1$d
+container.repair.expensive=§fToo Expensive!
+container.creative=§fItem Selection
+container.brewing=§fBrewing Stand
+container.chest=§fChest
+container.chestDouble=§fLarge Chest
+container.minecart=§fMinecart
+container.enderchest=§fEnder Chest
+container.beacon=§fBeacon
+container.shulkerBox=§fShulker Box
+container.shulkerBox.more=§fand %s more...
+
+container.isLocked=§f%s is locked!
+
+entity.Villager.name=§fVillager
+
+entity.Villager.farmer=§fFarmer
+entity.Villager.fisherman=§fFisherman
+entity.Villager.shepherd=§fShepherd
+entity.Villager.fletcher=§fFletcher
+entity.Villager.librarian=§fLibrarian
+entity.Villager.cleric=§fCleric
+entity.Villager.armor=§fArmorer
+entity.Villager.weapon=§fWeapon Smith
+entity.Villager.tool=§fTool Smith
+entity.Villager.butcher=§fButcher
+entity.Villager.leather=§fLeatherworker
+entity.Villager.nitwit=§fNitwit
+entity.Villager.cartographer=§fCartographer
+
+entity.EntityHorse.name=§fHorse
+entity.horse.name=§fHorse
+entity.donkey.name=§fDonkey
+entity.mule.name=§fMule
+entity.skeletonhorse.name=§fSkeleton Horse
+entity.zombiehorse.name=§fZombie Horse
+entity.Llama.name=§fLlama
+
+entity.Minecart.name=§fMinecart
+entity.MinecartHopper.name=§fMinecart with Hopper
+entity.MinecartChest.name=§fMinecart with Chest
+
+gui.achievements=§fAchievements
+gui.stats=§fStatistics
+
+itemGroup.buildingBlocks=§fBuilding Blocks
+itemGroup.decorations=§fDecoration Blocks
+itemGroup.redstone=§fRedstone
+itemGroup.transportation=§fTransportation
+itemGroup.misc=§fMiscellaneous
+itemGroup.search=§fSearch Items
+itemGroup.food=§fFoodstuffs
+itemGroup.tools=§fTools
+itemGroup.combat=§fCombat
+itemGroup.brewing=§fBrewing
+itemGroup.materials=§fMaterials
+itemGroup.inventory=§fSurvival Inventory
+itemGroup.hotbar=§fSaved Toolbars
+
+inventory.binSlot=§fDestroy Item

@@ -1,0 +1,20 @@
+{
+  "item.goodall.deer_spawn_egg": "Red Deer Spawn Egg",
+  "item.goodall.deer_head": "Red Deer Head",
+  "entity.goodall.deer": "Red Deer",
+  "entity.goodall.toucan": "Toucanet",
+  "item.goodall.toucan_spawn_egg": "Toucanet Spawn Egg",
+  "entity.goodall.rhino": "Black Rhino",
+  "item.goodall.rhino_spawn_egg": "Black Rhino Spawn Egg",
+  "entity.goodall.tortoise": "Koopa Tortoise",
+  "item.goodall.tortoise_spawn_egg": "Koopa Tortoise Spawn Egg",
+  "item.goodall.tortoise_egg": "Koopa Tortoise Egg",
+  "item.goodall.tortoise_scute": "Koopa Tortoise Scute",
+  "item.goodall.tortoise_scute_block": "Koopa Tortoise Scute Block",
+  "entity.goodall.seal": "Grey Seal",
+  "item.goodall.seal_spawn_egg": "Grey Seal Spawn Egg",
+  "entity.goodall.dumbo_octopus": "Small Octopus",
+  "item.goodall.dumbo_octopus_bucket": "Bucket of Small Octopus",
+  "item.goodall.dumbo_octopus_spawn_egg": "Small Octopus Spawn Egg"
+
+}

@@ -1,0 +1,66 @@
+{
+  "structures": [
+    {
+      "structure": "idas:abandonedhouse",
+      "weight": 5
+    },
+    {
+      "structure": "idas:bearclaw_inn",
+      "weight": 2
+    },
+    {
+      "structure": "idas:hermits_hollow",
+      "weight": 1
+    },
+    {
+      "structure": "idas:hunters_cabin",
+      "weight": 5
+    },
+    {
+      "structure": "idas:castle",
+      "weight": 3
+    },
+    {
+      "structure": "idas:brickhouse",
+      "weight": 5
+    },
+    {
+      "structure": "idas:enchantingtower",
+      "weight": 1
+    },
+    {
+      "structure": "idas:wizard_tower",
+      "weight": 1
+    },
+    {
+      "structure": "idas:redhorn_guild",
+      "weight": 3
+    },
+    {
+      "structure": "idas:beekeepers_house",
+      "weight": 1
+    },
+    {
+      "structure": "idas:farmhouse",
+      "weight": 5
+    },
+    {
+      "structure": "idas:witches_treestump",
+      "weight": 5
+    },
+    {
+      "structure": "idas:fishermans_lodge",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "salt": 169480670,
+    "spacing": 35,
+    "separation": 25,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 2,
+      "other_set": "#idas:common_avoid"
+    }
+  }
+}

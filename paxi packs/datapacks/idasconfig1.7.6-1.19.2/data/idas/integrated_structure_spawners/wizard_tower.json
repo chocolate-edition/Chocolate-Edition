@@ -1,0 +1,24 @@
+{
+  "mobs": [
+    {
+      "name": "dungeons_mobs:geomancer",
+      "weight": 2
+    },
+    {
+      "name": "dungeons_mobs:illusioner",
+      "weight": 5
+    },
+    {
+      "name": "dungeons_mobs:mage",
+      "weight": 5
+    },
+    {
+      "name": "dungeons_mobs:windcaller",
+      "weight": 2
+    },
+    {
+      "name": "dungeons_mobs:iceologer",
+      "weight": 2
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "structures": [
+    {
+      "structure": "chocolate:alien_outpost",
+      "weight": 1
+    },
+    {
+      "structure": "chocolate:asteroid_field",
+      "weight": 3
+    },
+    {
+      "structure": "chocolate:asteroid_large",
+      "weight": 1
+    },
+    {
+      "structure": "chocolate:astral_presence",
+      "weight": 1
+    },
+    {
+      "structure": "chocolate:twin_moons",
+      "weight": 1
+    },
+    {
+      "structure": "chocolate:destroyed_engine",
+      "weight": 2
+    },
+    {
+      "structure": "chocolate:lunar_shrine",
+      "weight": 1
+    },
+    {
+      "structure": "chocolate:sunken_engine",
+      "weight": 1
+    },
+    {
+      "structure": "chocolate:sunken_submarine",
+      "weight": 3
+    },
+    {
+      "structure": "chocolate:sunken_submarine_large",
+      "weight": 1
+    },
+    {
+      "structure": "chocolate:sunken_submarine_vertical",
+      "weight": 2
+    },
+    {
+      "structure": "chocolate:sunken_submarine_wreck",
+      "weight": 2
+    },
+    {
+      "structure": "chocolate:small_tower_shelter",
+      "weight": 1
+    },
+    {
+      "structure": "chocolate:small_white_shrine",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 88371663,
+    "spacing": 40,
+    "separation": 35,
+    "type": "minecraft:random_spread"
+  }
+}

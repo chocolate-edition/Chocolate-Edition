@@ -1,0 +1,299 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 27,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "iter_rpg:coin",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:air",
+            "weight": 25
+            
+          },
+          {
+            "type": "minecraft:item",
+            "name": "iter_rpg:coin",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "iter_rpg:coin",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "brewinandchewin:withering_dross",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:falsite_ingot",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 9
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:charoite",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:dark_ritual_dagger",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:ethereal_spirit",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "iter_rpg:bloodthirst",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 10,
+                  "max": 120
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "unusualend:wither_orb",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:nightmare_claw",
+            "weight": 3,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 25
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 25
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:totem_of_undying",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "nourished_nether:totem_of_post_mortem",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:dark_metal_ingot",
+            "weight": 7
+          },
+          {
+            "type": "minecraft:item",
+            "name": "enigmaticlegacy:escape_scroll",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "delightful:deluxe_cheeseburger",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:moonstone_block",
+            "weight": 30,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 10
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "celestisynth:lunar_scrap",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:nightmare_stalker_skull",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:diopside_gem",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "alexsmobs:blood_sac",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "blue_skies:spike_shield",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{StoredEnchantments:[{id:'domesticationinnovation:vampire',lvl:5s}]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:nightmare_scythe",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 50,
+                  "max": 120
+                },
+                "treasure": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:magical_holiday_candy",
+            "weight":10,
+            "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 5,
+                    "max": 20
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "alexsmobs:blood_sprayer",
+            "weight":5
+          }
+        ]
+      }
+    ]
+  }
