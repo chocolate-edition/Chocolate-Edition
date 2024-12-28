@@ -2645,6 +2645,7 @@
 		{
 			can_repeat: true
 			dependencies: ["177CCA876BBC9A3E"]
+			disable_toast: true
 			id: "5B584CE502BC9124"
 			rewards: [
 				{
@@ -2689,10 +2690,9 @@
 				}
 			]
 			tasks: [{
-				id: "54FD6BC16EFF0D1F"
-				stat: "minecraft:walk_one_cm"
-				type: "stat"
-				value: 1
+				biome: "#blue_skies:everbright"
+				id: "2A25D06941498859"
+				type: "biome"
 			}]
 			title: "Everbright snow particle"
 			x: 8.25d
@@ -2701,6 +2701,7 @@
 		{
 			can_repeat: true
 			dependencies: ["572E7C8B81EA10ED"]
+			disable_toast: true
 			id: "71205726B9342781"
 			rewards: [{
 				auto: "no_toast"
@@ -2713,10 +2714,9 @@
 				type: "command"
 			}]
 			tasks: [{
-				id: "54D662D096636C13"
-				stat: "minecraft:walk_one_cm"
-				type: "stat"
-				value: 1
+				biome: "#blue_skies:everdawn"
+				id: "7DA61A5BF57C66A8"
+				type: "biome"
 			}]
 			title: "Everdawn Dust particle"
 			x: 9.5d
@@ -2725,6 +2725,7 @@
 		{
 			can_repeat: true
 			dependencies: ["5E0D0EFACA192EEB"]
+			disable_toast: true
 			id: "6FB30BCA8CBF9926"
 			rewards: [
 				{
@@ -3759,6 +3760,7 @@
 			y: 4.75d
 		}
 		{
+			disable_toast: true
 			id: "24EC36810521746E"
 			rewards: [{
 				auto: "no_toast"
@@ -3775,6 +3777,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			id: "3F177169BF9FE9F1"
 			rewards: [{
 				auto: "no_toast"
@@ -3791,6 +3794,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			id: "1AEB21C9EF089CCC"
 			rewards: [{
 				auto: "no_toast"
