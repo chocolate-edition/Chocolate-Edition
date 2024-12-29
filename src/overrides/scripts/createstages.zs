@@ -103,10 +103,6 @@ var itemsStageOne = [
 	<item:predators:prisblade>,
 	<item:predators:sultan_of_fegefeuer>,
 	<item:predators:huntsmans_spear>,
-	<item:born_in_chaos_v1:nightmare_mantleofthe_night_boots>,
-	<item:born_in_chaos_v1:nightmare_mantleofthe_night_leggings>,
-	<item:born_in_chaos_v1:nightmare_mantleofthe_night_chestplate>,
-	<item:born_in_chaos_v1:nightmare_mantleofthe_night_helmet>,
 	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:backpack>,
 	<item:sophisticatedbackpacks:iron_backpack>,
@@ -175,6 +171,10 @@ var itemsStageTwo = [
 	<item:meetyourfight:cocktail_cutlass>,
 	<item:meetyourfight:blossoming_mind>,
 	<item:meetyourfight:spectres_grasp>,
+	<item:born_in_chaos_v1:nightmare_mantleofthe_night_boots>,
+	<item:born_in_chaos_v1:nightmare_mantleofthe_night_leggings>,
+	<item:born_in_chaos_v1:nightmare_mantleofthe_night_chestplate>,
+	<item:born_in_chaos_v1:nightmare_mantleofthe_night_helmet>,
 
 	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:gold_backpack>,

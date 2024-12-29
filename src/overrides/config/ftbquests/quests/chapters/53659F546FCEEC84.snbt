@@ -16,8 +16,8 @@
 		image: "cataclysm:textures/entity/flame_strike_sigil.png"
 		rotation: 0.0d
 		width: 10.0d
-		x: -4.5d
-		y: -12.25d
+		x: -5.0d
+		y: -12.0d
 	}]
 	order_index: 2
 	quest_links: [ ]
@@ -322,7 +322,8 @@
 				"5B7CBE6418C5C392"
 				"7930E1E5F6FA73C1"
 			]
-			hide_dependency_lines: true
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "endrem:lost_eye"
@@ -333,12 +334,13 @@
 			id: "7E7A9B546C15BE8A"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "Stage One Unlocks"
 			tasks: [{
 				id: "3915236CB54BF361"
 				stage: "one"
 				type: "gamestage"
 			}]
-			title: "Nether"
+			title: "3 Eyes"
 			x: 2.25d
 			y: -8.25d
 		}
@@ -347,7 +349,8 @@
 				"7E7A9B546C15BE8A"
 				"08B75FB792CB7704"
 			]
-			hide_dependency_lines: true
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "endrem:evil_eye"
@@ -358,21 +361,23 @@
 			id: "318AC3A4B80FAB8E"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "Stage Two Unlocks"
 			tasks: [{
 				id: "6B5A13683BA15048"
 				stage: "two"
 				type: "gamestage"
 			}]
-			title: "Evertwined"
-			x: -11.5d
-			y: -8.25d
+			title: "6 Eyes"
+			x: 2.25d
+			y: -14.75d
 		}
 		{
 			dependencies: [
 				"318AC3A4B80FAB8E"
 				"301C5436C1E55DAD"
 			]
-			hide_dependency_lines: true
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "endrem:rogue_eye"
@@ -383,21 +388,23 @@
 			id: "33B00255BDE26589"
 			shape: "octagon"
 			size: 2.0d
+			subtitle: "Stage Three Unlocks"
 			tasks: [{
 				id: "47235F0AC8754791"
 				stage: "three"
 				type: "gamestage"
 			}]
-			title: "Aether"
-			x: 2.25d
-			y: -15.25d
+			title: "9 Eyes"
+			x: -5.0d
+			y: -19.5d
 		}
 		{
 			dependencies: [
 				"33B00255BDE26589"
 				"422EFAD138D3A1DB"
 			]
-			hide_dependency_lines: true
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "endrem:cursed_eye"
@@ -408,12 +415,13 @@
 			id: "51E899661EDC06BD"
 			shape: "octagon"
 			size: 2.0d
+			subtitle: "Stage Four Unlocks"
 			tasks: [{
 				id: "2B02B19520F2320F"
 				stage: "four"
 				type: "gamestage"
 			}]
-			title: "End"
+			title: "12 Eyes"
 			x: -11.5d
 			y: -15.25d
 		}
@@ -422,8 +430,8 @@
 				"51E899661EDC06BD"
 				"48602E78DFC281AF"
 			]
-			hide: true
-			hide_dependency_lines: true
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "endrem:nether_eye"
@@ -434,80 +442,20 @@
 			id: "766544EE45C62981"
 			shape: "octagon"
 			size: 2.5d
+			subtitle: "Stage Five Unlocks"
 			tasks: [{
 				id: "7012EA83FCC08940"
 				stage: "five"
 				type: "gamestage"
 			}]
-			title: "Nexus"
-			x: -4.5d
-			y: -19.0d
+			title: "16 Eyes"
+			x: -10.25d
+			y: -6.0d
 		}
 		{
-			dependencies: ["7E7A9B546C15BE8A"]
-			description: [""]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:block/nether_portal"
-				}
-			}
-			id: "0E7AC1DAD88A9579"
-			optional: true
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "1A0799C1C0BD76B8"
-				type: "dimension"
-			}]
-			title: "The Nether"
-			x: 3.75d
-			y: -9.25d
-		}
-		{
-			dependencies: ["7E7A9B546C15BE8A"]
-			icon: "aquaculture:neptunium_ingot"
-			id: "20CD4D828F833E56"
-			optional: true
-			subtitle: "Neptunium Armor, Tools, and Weapons"
-			tasks: [{
-				id: "32FCEFDDA97E8933"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "aquaculture:neptunium_ingot"
-				}
-				type: "item"
-			}]
-			title: "Neptunium Gear"
-			x: 0.75d
-			y: -9.25d
-		}
-		{
-			dependencies: ["7E7A9B546C15BE8A"]
-			icon: "toms_storage:ts.storage_terminal"
-			id: "4DD63443C58D3C4D"
-			optional: true
-			subtitle: "Similar to AE or RS systems but much simpler, works with storage drawers"
-			tasks: [{
-				id: "3E259D8A422EE917"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "toms_storage:ts.storage_terminal"
-				}
-				type: "item"
-			}]
-			title: "Tom's Simple Storage"
-			x: 3.75d
-			y: -7.25d
-		}
-		{
-			dependencies: ["318AC3A4B80FAB8E"]
+			dependencies: ["4E676F48B6C7955B"]
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "wstweaks:blaze_blade"
@@ -516,10 +464,10 @@
 				}
 			}
 			id: "6754660507496A32"
-			optional: true
 			subtitle: "One-shots skeletons, and beheads them. Both swords are the same, just choose the texture you like more."
 			tasks: [
 				{
+					disable_toast: true
 					id: "126E0292A34B66D5"
 					item: {
 						Count: 1b
@@ -531,10 +479,10 @@
 							Damage: 0
 						}
 					}
-					optional_task: true
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0A50E7C6A04C1AE8"
 					item: {
 						Count: 1b
@@ -546,22 +494,23 @@
 							Damage: 0
 						}
 					}
-					optional_task: true
 					type: "item"
 				}
 			]
 			title: "The Immolation Blades"
-			x: -9.75d
-			y: -7.5d
+			x: 5.25d
+			y: -18.0d
 		}
 		{
-			dependencies: ["318AC3A4B80FAB8E"]
+			dependencies: ["4E676F48B6C7955B"]
+			disable_toast: true
+			hide: false
 			icon: "minecraft:wither_skeleton_skull"
 			id: "15F2D8BAFA731EBC"
-			optional: true
 			tasks: [
 				{
 					count: 3L
+					disable_toast: true
 					id: "04DDBA8C09AB6E85"
 					item: {
 						Count: 1b
@@ -574,6 +523,7 @@
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "7FAF946E7D2E439A"
 					item: {
 						Count: 1b
@@ -586,75 +536,33 @@
 				}
 			]
 			title: "Summoning The Wither"
-			x: -10.75d
-			y: -6.5d
+			x: 7.75d
+			y: -15.25d
 		}
 		{
-			dependencies: ["318AC3A4B80FAB8E"]
-			icon: "minecraft:netherite_ingot"
-			id: "11B8AA6D97B89961"
-			optional: true
-			subtitle: "Armor, Diving Gear, Samurai Armor, Weapons, and Tools"
-			tasks: [{
-				id: "1FFA14066E0A7A7E"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "minecraft:netherite_ingot"
-				}
-				optional_task: true
-				type: "item"
-			}]
-			title: "Netherite Gear"
-			x: -10.75d
-			y: -10.0d
-		}
-		{
-			dependencies: ["318AC3A4B80FAB8E"]
-			description: ["On servers/LAN this applies to every player"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "blue_skies:item/misc/portal_mix"
-				}
-			}
-			id: "0B695F62F4DE6879"
-			optional: true
-			subtitle: "&4ENTERING EITHER OF THESE WILL START EXPERT MODE"
-			tasks: [
-				{
-					dimension: "blue_skies:everdawn"
-					id: "32F1C88AF612BD30"
-					optional_task: true
-					type: "dimension"
-				}
-				{
-					dimension: "blue_skies:everbright"
-					id: "1014A20F72794190"
-					optional_task: true
-					type: "dimension"
-				}
-			]
-			title: "The Blue Skies"
-			x: -12.25d
-			y: -10.0d
-		}
-		{
-			dependencies: ["318AC3A4B80FAB8E"]
+			dependencies: ["4E676F48B6C7955B"]
 			description: [
 				"&fBone Raker (Swampjaw)"
 				"&4Cocktail Cutlass (Dame Fortuna)"
 				"&5Blossoming Mind (Rosalyne)"
 				"&bSpectres Grasp (Bellringer)"
 			]
-			icon: "meetyourfight:mossy_tooth"
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "meetyourfight:cocktail_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "38DE652401E40BA8"
-			optional: true
 			tasks: [
 				{
+					disable_toast: true
 					id: "31982163DB2D7482"
 					item: {
 						Count: 1b
@@ -666,6 +574,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "37A9D8CF73202A87"
 					item: {
 						Count: 1b
@@ -680,6 +589,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6C0D8E8ACFC383CB"
 					item: {
 						Count: 1b
@@ -691,6 +601,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "4F9CDC25331A7958"
 					item: {
 						Count: 1b
@@ -703,11 +614,17 @@
 				}
 			]
 			title: "Basic Boss Trinkets"
-			x: -12.25d
-			y: -6.5d
+			x: 6.5d
+			y: -14.25d
 		}
 		{
-			dependencies: ["318AC3A4B80FAB8E"]
+			dependencies: [
+				"3AA58AD569CB791A"
+				"5B2AFAA309E25971"
+			]
+			description: ["on servers/lan, expert mode is actiavted for everyone once 1 player enters one of the envertwined dimensions."]
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -716,23 +633,34 @@
 				}
 			}
 			id: "3FFC286F3D0CF299"
-			optional: true
 			subtitle: "Unlocked by going to the Everbright or Everdawn, which release the spirits of Light and Dark. Spawns hundreds of new, unique mobs all over the world. The new mobs are REALLY tough.."
 			tasks: [{
+				disable_toast: true
 				id: "3DE4000CD51C8B52"
 				title: "Expert Mode"
 				type: "checkmark"
 			}]
-			x: -13.25d
-			y: -9.0d
+			x: 2.25d
+			y: -19.5d
 		}
 		{
-			dependencies: ["33B00255BDE26589"]
-			icon: "born_in_chaos_v1:dark_metal_ingot"
+			dependencies: ["45057A63E5057167"]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "42DDD8BA2B3F82A8"
-			optional: true
 			tasks: [
 				{
+					disable_toast: true
 					id: "27AA272F0B989917"
 					item: {
 						Count: 1b
@@ -747,6 +675,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "68489BAE3FB00C9C"
 					item: {
 						Count: 1b
@@ -761,6 +690,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "7335D69024CB13CD"
 					item: {
 						Count: 1b
@@ -775,6 +705,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "474002A29DA69D9F"
 					item: {
 						Count: 1b
@@ -788,17 +719,180 @@
 					}
 					type: "item"
 				}
+				{
+					disable_toast: true
+					id: "026AA5FECF3DA07E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3C1284D07202186D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:soul_cutlass"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5E7B8CA162E1D048"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:intoxicating_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6CA31E7F1EC830CB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:great_reaper_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "19444B9994BFF442"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:darkwarblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "146BCD11D2321DFB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:spiritual_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "696D13A5FCEE3173"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:nightmare_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "56A348FA8FE4517F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "47C30E26DFB86CA0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:trident_hayfork"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "203B50C7F07DFCC3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:dark_ritual_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
-			title: "Dark Metal Gear"
-			x: 3.25d
-			y: -16.75d
+			title: "Dark Metal Gear and other weapons"
+			x: -5.5d
+			y: -23.0d
 		}
 		{
-			dependencies: ["33B00255BDE26589"]
+			dependencies: ["45057A63E5057167"]
+			description: [
+				"to transfer enchantments:"
+				"1. right cloick the infusion table with a book"
+				"2. right click with the item you want to pull enchantments from"
+				"3. right click with flint and steel"
+				""
+				"&l&oThe item will be destroyed&l&n"
+				""
+				"left click to pick up the enchanted book"
+			]
+			disable_toast: true
+			hide: false
 			icon: "infusion_table:infusion_table"
 			id: "0D77A6690CFF6C34"
-			optional: true
+			subtitle: "a way to transfer enchantments"
 			tasks: [{
+				disable_toast: true
 				id: "70A8203B54F6C4F5"
 				item: {
 					Count: 1b
@@ -810,649 +904,165 @@
 				type: "item"
 			}]
 			title: "Disenchanting"
-			x: 1.25d
-			y: -16.75d
+			x: -6.25d
+			y: -22.0d
 		}
 		{
-			dependencies: ["33B00255BDE26589"]
+			dependencies: ["52CBD524A88A8E7E"]
+			description: ["abyssal quartz can be crafted or dropped by the mother of the maze in the ice maze (deep cold ocean)"]
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
-				id: "tetra:scroll_rolled"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "aquamirae:abyssal_brigantine"
 				tag: {
-					BlockEntityTag: {
-						data: [{
-							glyphs: [
-								8
-								9
-								10
-								5
-							]
-							intricate: 0b
-							key: "sword/howling"
-							material: 1
-							ribbon: "faf396"
-							schematics: ["tetra:sword/howling"]
-						}]
-					}
+					Damage: 0
 				}
 			}
-			id: "2A0B969D67CC2842"
-			optional: true
-			tasks: [
-				{
-					id: "13BC99C8324187F5"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									glyphs: [
-										8
-										9
-										10
-										5
-									]
-									intricate: 0b
-									key: "sword/howling"
-									material: 1
-									ribbon: "faf396"
-									schematics: ["tetra:sword/howling"]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1EAF0AC192795EA1"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									glyphs: [
-										4
-										1
-										0
-										5
-									]
-									intricate: 0b
-									key: "sword/throwing_knife"
-									material: 1
-									ribbon: "b8ced9"
-									schematics: ["tetra:sword/throwing_knife"]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7FFA58F4E074B194"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									glyphs: [
-										3
-										2
-										2
-										1
-									]
-									intricate: 0b
-									key: "sword/sturdy_guard"
-									material: 1
-									ribbon: "bcb8b5"
-									schematics: ["tetra:sword/sturdy_guard"]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Tetra Schematics"
-			x: 3.25d
-			y: -13.75d
-		}
-		{
-			dependencies: ["318AC3A4B80FAB8E"]
-			icon: "create:mechanical_drill"
-			id: "4456FB6F2CF773D2"
-			optional: true
-			subtitle: "Drills, rollers, harvesters, ploughs, saws, portable storage connectors"
-			tasks: [
-				{
-					id: "733006D27467E83E"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "create:mechanical_drill"
-					}
-					type: "item"
-				}
-				{
-					id: "66686C953F3CBEB8"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "create:mechanical_saw"
-					}
-					type: "item"
-				}
-				{
-					id: "37F9043F838DC6A4"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "create:mechanical_plough"
-					}
-					type: "item"
-				}
-				{
-					id: "1F00EAF2B2F580D5"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "create:mechanical_harvester"
-					}
-					type: "item"
-				}
-				{
-					id: "5A68C357458FFFDC"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "create:mechanical_roller"
-					}
-					type: "item"
-				}
-				{
-					id: "7F483F28CE323431"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "create:portable_storage_interface"
-					}
-					type: "item"
-				}
-				{
-					id: "7C4FB6DE30063D02"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "create:portable_fluid_interface"
-					}
-					type: "item"
-				}
-			]
-			title: "Automation Blocks"
-			x: -13.25d
-			y: -7.5d
-		}
-		{
-			dependencies: ["33B00255BDE26589"]
-			icon: "create:redstone_link"
-			id: "4D19845BA82BCDFA"
-			optional: true
-			tasks: [{
-				id: "4EEE10BB88CAF2B6"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "create:redstone_link"
-				}
-				type: "item"
-			}]
-			title: "Wireless Redstone"
-			x: 4.0d
-			y: -15.25d
-		}
-		{
-			dependencies: ["33B00255BDE26589"]
-			icon: "create:cart_assembler"
-			id: "6CF3DC92422C57AF"
-			optional: true
-			tasks: [{
-				id: "3E5F237515EFCCF7"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "create:cart_assembler"
-				}
-				type: "item"
-			}]
-			x: 1.25d
-			y: -13.75d
-		}
-		{
-			dependencies: ["51E899661EDC06BD"]
-			description: ["Used to craft the &nDivider&r and the &nWhisper of the Abyss"]
-			icon: "aquamirae:abyssal_amethyst"
 			id: "0D4AA9326ABA5E66"
-			optional: true
-			tasks: [{
-				id: "084AAD582A5DDA19"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			tasks: [
+				{
+					disable_toast: true
+					id: "084AAD582A5DDA19"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:abyssal_amethyst"
 					}
-					id: "aquamirae:abyssal_amethyst"
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -10.5d
+				{
+					disable_toast: true
+					id: "09010B2E16F87E36"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:whisper_of_the_abyss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "24C4D63C0969DA18"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:divider"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "21F4138592E9A7CD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "35FD6193548B10AB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2205408F2BBE1054"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "16FB03B677A287F5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4F5763E574961E3E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:abyssal_tiara"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0B253BA8A356177B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquamirae:maze_rose"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Abyssal Amethyst Gear"
+			x: -15.25d
 			y: -17.0d
 		}
 		{
-			dependencies: ["51E899661EDC06BD"]
-			description: [""]
-			icon: {
-				Count: 1b
-				id: "tetra:scroll_rolled"
-				tag: {
-					BlockEntityTag: {
-						data: [{
-							details: "art_of_forging"
-							glyphs: [
-								8
-								7
-								9
-								2
-							]
-							intricate: 0b
-							key: "tetra/crucible_blade"
-							material: 2
-							ribbon: "ff1e00"
-							schematics: ["tetra:sword/crucible_blade"]
-						}]
-					}
-				}
-			}
-			id: "2951AC8E93ACE03E"
-			optional: true
-			tasks: [
-				{
-					id: "10412E8C1235ADCE"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									details: "art_of_forging"
-									glyphs: [
-										5
-										10
-										13
-										2
-									]
-									intricate: 0b
-									key: "sword/katana/katana_blade"
-									material: 2
-									ribbon: "dbff10"
-									schematics: ["tetra:sword/katana/katana_blade"]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "094D3D6CB8F6F127"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									details: "art_of_forging"
-									glyphs: [
-										9
-										3
-										6
-										2
-									]
-									intricate: 0b
-									key: "single/head/mace_head/mace_head"
-									material: 1
-									ribbon: "560060"
-									schematics: ["tetra:single/head/mace_head/mace_head"]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7924ADBAFDF9B401"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									details: "art_of_forging"
-									glyphs: [
-										8
-										7
-										9
-										2
-									]
-									intricate: 0b
-									key: "tetra/crucible_blade"
-									material: 2
-									ribbon: "ff1e00"
-									schematics: ["tetra:sword/crucible_blade"]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3D15ADC1B7286AAC"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									details: "art_of_forging"
-									glyphs: [
-										1
-										15
-										12
-										8
-									]
-									intricate: 0b
-									key: "utilize/hammer"
-									material: 2
-									ribbon: "fa97e9"
-									schematics: ["tetra:utilize/hammer"]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6B3CED71E05DFC40"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									details: "art_of_forging"
-									glyphs: [
-										15
-										13
-										12
-										14
-									]
-									intricate: 0b
-									key: "bow/string/compound_string"
-									material: 1
-									ribbon: "19e588"
-									schematics: [
-										"tetra:bow/string/compound_string"
-										"tetra:crossbow/string/compound_cross_string"
-									]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "19F4D5B4F9F9EE0E"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									details: "otherworldly"
-									glyphs: [
-										6
-										7
-										13
-										15
-									]
-									intricate: 0b
-									key: "sword/katana/murasama_blade"
-									material: 2
-									ribbon: "c52323"
-									schematics: ["tetra:sword/katana/murasama_blade"]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "374BD97AD7FC27F3"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									details: "otherworldly"
-									glyphs: [
-										1
-										15
-										2
-										13
-									]
-									intricate: 0b
-									key: "tetra/rending_scissor_purple"
-									material: 2
-									ribbon: "e32182"
-									schematics: [
-										"tetra:sword/rending_scissor_red"
-										"tetra:sword/rending_scissor_purple"
-									]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "58AB73EBF1ACD939"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									details: "art_of_forging"
-									glyphs: [
-										0
-										1
-										9
-										4
-									]
-									intricate: 0b
-									key: "sword/key_guard"
-									material: 1
-									ribbon: "fae409"
-									schematics: ["tetra:sword/key_guard"]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7B681B1723AD11E8"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									details: "art_of_forging"
-									glyphs: [
-										8
-										1
-										9
-										5
-									]
-									intricate: 0b
-									key: "bow/stave/dreadnought_stave"
-									material: 1
-									ribbon: "f3b31f"
-									schematics: [
-										"tetra:bow/stave/dreadnought_stave"
-										"tetra:bow/stave/dreadnought_cross_stave"
-									]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6C12F47D75F45EE9"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									details: "art_of_forging"
-									glyphs: [
-										8
-										1
-										4
-										5
-									]
-									intricate: 0b
-									key: "single/head/halberd_head/halberd_head"
-									material: 1
-									ribbon: "444aff"
-									schematics: ["tetra:single/head/halberd_head/halberd_head"]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "23A090E2FCBCF2E1"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:scroll_rolled"
-						tag: {
-							BlockEntityTag: {
-								data: [{
-									details: "art_of_forging"
-									glyphs: [
-										6
-										15
-										4
-										7
-									]
-									intricate: 0b
-									key: "tetra/flamberge_blade"
-									material: 2
-									ribbon: "ff9612"
-									schematics: ["tetra:sword/flamberge_blade"]
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "The Art Of Forging"
-			x: -12.25d
-			y: -13.5d
-		}
-		{
-			dependencies: ["51E899661EDC06BD"]
-			icon: "minecraft:end_portal_frame"
-			id: "6E0117CF9284743E"
-			optional: true
-			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "5CB05B916FC9E22D"
-				type: "dimension"
-			}]
-			title: "The End"
-			x: -13.0d
-			y: -14.5d
-		}
-		{
-			dependencies: ["51E899661EDC06BD"]
+			dependencies: ["52CBD524A88A8E7E"]
 			description: [
 				"&6Passages toll (Bellringer)"
 				"&7Ace of iron (Dame Fortuna)"
@@ -1460,6 +1070,8 @@
 				"&dTwilights Thorn (Rosalyne)"
 				"&5Endersoul Hand (Mutant Enderman)"
 			]
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "mutantmonsters:endersoul_hand"
@@ -1468,9 +1080,9 @@
 				}
 			}
 			id: "44F2FAB3F71A2450"
-			optional: true
 			tasks: [
 				{
+					disable_toast: true
 					id: "2DE5EE9797696AC3"
 					item: {
 						Count: 1b
@@ -1482,6 +1094,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "088990966249787B"
 					item: {
 						Count: 1b
@@ -1493,6 +1106,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "1A8AA19B69D59ADD"
 					item: {
 						Count: 1b
@@ -1504,6 +1118,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "1D0CEE94A08EF0E9"
 					item: {
 						Count: 1b
@@ -1518,6 +1133,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0993749976C30E47"
 					item: {
 						Count: 1b
@@ -1533,11 +1149,11 @@
 				}
 			]
 			title: "Advanced Boss Items"
-			x: -9.75d
-			y: -14.5d
+			x: -12.5d
+			y: -14.0d
 		}
 		{
-			dependencies: ["51E899661EDC06BD"]
+			dependencies: ["52CBD524A88A8E7E"]
 			description: [
 				"&4Infernal Forge (Netherite monstrosity)"
 				"&4Monstrous Helm (Netherite Monstrosity)"
@@ -1545,6 +1161,8 @@
 				"&dGauntlet of Guard(Ender Guardian)"
 				"&cWither Assault Shoulder Weapon(Harbinger)"
 			]
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "cataclysm:infernal_forge"
@@ -1553,9 +1171,9 @@
 				}
 			}
 			id: "6D22F160331E9973"
-			optional: true
 			tasks: [
 				{
+					disable_toast: true
 					id: "39A90A07AEA591CC"
 					item: {
 						Count: 1b
@@ -1570,6 +1188,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "2D83E8DE512AD8E6"
 					item: {
 						Count: 1b
@@ -1581,6 +1200,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "2954CD1A55BDDA71"
 					item: {
 						Count: 1b
@@ -1595,6 +1215,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "19C41B0825876A6F"
 					item: {
 						Count: 1b
@@ -1606,6 +1227,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "2AD1F84477698AE0"
 					item: {
 						Count: 1b
@@ -1618,76 +1240,489 @@
 				}
 			]
 			title: "Powerful Unbreakable Boss Items"
-			x: -10.75d
-			y: -13.5d
+			x: -13.5d
+			y: -13.0d
 		}
 		{
-			dependencies: ["51E899661EDC06BD"]
-			icon: "enlightened_end:adamantite_ingot"
+			dependencies: ["52CBD524A88A8E7E"]
+			description: ["increased armor and health but decreased damage and speed. you can be a true tank.. or more like a steel wall"]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enlightened_end:adamantite_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "196EBA20D76813E3"
-			optional: true
-			tasks: [{
-				id: "196907B12D73D9C7"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "enlightened_end:adamantite_ingot"
-				}
-				type: "item"
-			}]
-			title: "Adamantite"
-			x: -13.0d
-			y: -16.0d
-		}
-		{
-			dependencies: ["51E899661EDC06BD"]
-			icon: "majruszsdifficulty:enderium_ingot"
-			id: "3D2A2A76CF46AA51"
-			optional: true
-			tasks: [{
-				id: "3A3B1B235A8FD5E3"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "majruszsdifficulty:enderium_ingot"
-				}
-				type: "item"
-			}]
-			title: "Enderium"
-			x: -12.5d
-			y: -17.0d
-		}
-		{
-			dependencies: ["51E899661EDC06BD"]
-			icon: "enigmaticlegacy:etherium_ingot"
-			id: "208224F4AD9F45DB"
-			optional: true
-			tasks: [{
-				id: "52373FA038D60F00"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "enigmaticlegacy:etherium_ingot"
-				}
-				type: "item"
-			}]
-			title: "Etherium"
-			x: -11.5d
-			y: -18.0d
-		}
-		{
-			dependencies: ["766544EE45C62981"]
-			icon: "cataclysm:the_incinerator"
-			id: "1049F5C9FB3A6B37"
-			optional: true
 			tasks: [
 				{
+					disable_toast: true
+					id: "2C6E501447C15EE7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:adamantite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5E2346B4EA1E41AA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:adamantite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "378039199F16599A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:adamantite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "40DE4339D1DA8847"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:adamantite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2492053A592AA823"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:adamantite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "169ED944E4C25F30"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:adamantite_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "35859634F42A8BE7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:adamantite_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "134FAF0E1799EB7B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:adamantite_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "72B03E6FB9171C12"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enlightened_end:adamantite_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Adamantite Gear"
+			x: -15.0d
+			y: -13.25d
+		}
+		{
+			dependencies: ["52CBD524A88A8E7E"]
+			description: ["overall good armor with some end-related set bonuses"]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "majruszsdifficulty:enderium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3D2A2A76CF46AA51"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2E842A7A9B692C66"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:enderium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "15752AF7590EE89E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:enderium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "30842C222969034A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:enderium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3F7859E9E4254C25"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:enderium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2AC4048BBF8B8507"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:enderium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "62972ECAAAC1111E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:enderium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2FBC7D24C1BFE601"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:enderium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "39637C5FA326B0EB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:enderium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0DA89C149472D49C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "majruszsdifficulty:enderium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Enderium Gear"
+			x: -16.0d
+			y: -14.25d
+		}
+		{
+			dependencies: ["52CBD524A88A8E7E"]
+			description: ["provides less armour and reduces health, but increases damage. live your best glass cannon life"]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enigmaticlegacy:etherium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "208224F4AD9F45DB"
+			tasks: [
+				{
+					disable_toast: true
+					id: "69734F205FB8EC53"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:etherium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "720B7265F910DE87"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:etherium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "489D3E2F7C57CFDF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:etherium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "316B59CA12940A0A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:etherium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "42537DEC630FDCCE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:etherium_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "027C0CAC4459BE56"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:etherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0A13DFACF90FE6B9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:etherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6308DA190BB6B3EA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:etherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5F1AFEAF0CE64C0F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "enigmaticlegacy:etherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Etherium Gear"
+			x: -16.0d
+			y: -15.75d
+		}
+		{
+			dependencies: ["033E7215F1636702"]
+			disable_toast: true
+			hide: false
+			icon: "cataclysm:the_incinerator"
+			id: "1049F5C9FB3A6B37"
+			tasks: [
+				{
+					disable_toast: true
 					id: "7375B6CAA15BEAEC"
 					item: {
 						Count: 1b
@@ -1699,6 +1734,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "5A7277F9E745D410"
 					item: {
 						Count: 1b
@@ -1710,6 +1746,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "1EF4DBC14B3A4BD4"
 					item: {
 						Count: 1b
@@ -1721,6 +1758,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "26FA3E847FB4EFFE"
 					item: {
 						Count: 1b
@@ -1736,11 +1774,13 @@
 				}
 			]
 			title: "Godlike Unbreakable Boss Weapons"
-			x: -7.0d
-			y: -19.0d
+			x: -13.5d
+			y: -6.25d
 		}
 		{
-			dependencies: ["766544EE45C62981"]
+			dependencies: ["033E7215F1636702"]
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
 				id: "alexsmobs:tarantula_hawk_elytra"
@@ -1749,9 +1789,9 @@
 				}
 			}
 			id: "17F803F9A5A15E31"
-			optional: true
 			tasks: [
 				{
+					disable_toast: true
 					id: "55F76EA1AF5BFFC1"
 					item: {
 						Count: 1b
@@ -1766,6 +1806,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "4CB4C062E070C5E8"
 					item: {
 						Count: 1b
@@ -1781,52 +1822,183 @@
 				}
 			]
 			title: "Advanced Elytra"
-			x: -2.25d
-			y: -19.0d
+			x: -13.0d
+			y: -8.75d
 		}
 		{
-			dependencies: ["766544EE45C62981"]
-			icon: "cataclysm:ignitium_ingot"
-			id: "579424FC81326EE1"
-			optional: true
-			tasks: [{
-				id: "0C2E4F0E1D22FA46"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "cataclysm:ignitium_ingot"
+			dependencies: ["033E7215F1636702"]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
 				}
-				type: "item"
-			}]
-			title: "Ignitium"
-			x: -6.0d
-			y: -20.5d
+				id: "cataclysm:ignitium_elytra_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "579424FC81326EE1"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0C2E4F0E1D22FA46"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "03CF9897C557D9FB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "09AB2809C09EA30F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1072794652CB37AD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:ignitium_elytra_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0C4B7BD38B06BFF8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "683B4D935F249B35"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ignitium Gear"
+			x: -14.0d
+			y: -8.25d
 		}
 		{
-			dependencies: ["766544EE45C62981"]
+			dependencies: ["033E7215F1636702"]
+			disable_toast: true
+			hide: false
+			hide_details_until_startable: true
 			icon: "cataclysm:witherite_ingot"
 			id: "4D01AE1087F655CB"
-			optional: true
-			tasks: [{
-				id: "7E2014BBA8A3B317"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			tasks: [
+				{
+					disable_toast: true
+					id: "7E2014BBA8A3B317"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:witherite_ingot"
 					}
-					id: "cataclysm:witherite_ingot"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Witherite"
-			x: -3.0d
-			y: -20.5d
+				{
+					disable_toast: true
+					id: "662128C99F851BF4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:wither_assault_shoulder_weapon"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5D073FC8DADFD4B7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:laser_gatling"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "15A3D7E5BC6CE55B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:meat_shredder"
+					}
+					type: "item"
+				}
+			]
+			title: "Witherite weapons"
+			x: -14.25d
+			y: -7.25d
 		}
 		{
 			dependencies: ["766544EE45C62981"]
-			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "alexsmobs:shattered_dimensional_carver"
@@ -1849,8 +2021,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -23.25d
+			x: -15.25d
+			y: -5.25d
 		}
 		{
 			dependencies: ["581D0DDCE25134AA"]
@@ -1866,302 +2038,336 @@
 				type: "checkmark"
 			}]
 			title: "Something 1,000,000 blocks out"
-			x: -4.5d
-			y: -25.5d
+			x: -18.375d
+			y: -3.75d
 		}
 		{
-			dependencies: ["7E7A9B546C15BE8A"]
-			description: [
-				"&0Sultan of Fegefeuer (Scarab)"
-				"&5Earthbreaker (Amethyst Colossus)"
-				"&9Huntsman Spear (Huntsman)"
-				"&3Prisblade (Prisnautilus)"
-				"&3Weathering Tome (Prisnautilus)"
-				"&3Wave of Abyss (Prisnautilus)"
-			]
+			dependencies: ["033E7215F1636702"]
+			disable_toast: true
+			hide: false
 			icon: {
 				Count: 1b
-				id: "predators:wave_of_abyss"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "celestisynth:solaris"
 				tag: {
 					Damage: 0
 				}
 			}
-			id: "1A963FC6B4A2E745"
-			optional: true
-			tasks: [
-				{
-					id: "77DC76511C5B6ACE"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "predators:sultan_of_fegefeuer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "06D1AF0D316EA5F3"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "predators:prisblade"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6A18C03378281439"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "predators:earthbreaker"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "00533D858C7AEC49"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "predators:huntsmans_spear"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "07BFC38A533598AA"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "predators:weathering"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "58F9F03462F59E1B"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "predators:wave_of_abyss"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Basic Boss Items"
-			x: 2.25d
-			y: -10.25d
-		}
-		{
-			dependencies: ["7E7A9B546C15BE8A"]
-			icon: {
-				Count: 1b
-				id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "2BA5B714AD740F98"
-			optional: true
-			tasks: [
-				{
-					id: "64E37050A487B7A5"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "42E78B19B920DA19"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "27DE4D5336CFD894"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:nightmare_mantleofthe_night_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "63D8AB37A25FBEA8"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "born_in_chaos_v1:nightmare_mantleofthe_night_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Nightmare Armor"
-			x: 0.75d
-			y: -7.25d
-		}
-		{
-			dependencies: ["766544EE45C62981"]
-			icon: "celestisynth:celestial_core"
 			id: "4BB1D790E1FA5D44"
-			tasks: [{
-				id: "0502B93668055A4F"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			tasks: [
+				{
+					disable_toast: true
+					id: "7132D78A1E72C2ED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "celestisynth:crescentia"
+						tag: {
+							Damage: 0
+						}
 					}
-					id: "celestisynth:celestial_core"
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: -21.75d
-		}
-		{
-			dependencies: ["7E7A9B546C15BE8A"]
-			description: [
-				"- Filter Upgrades"
-				"- Refill Upgrades"
-				"- Smelting Upgrades"
-				"- Smoking Upgrades"
-				"- Blasting Upgrades"
+				{
+					disable_toast: true
+					id: "29BED5406C56EC12"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "celestisynth:breezebreaker"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6FC5F6F649D1F6E4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "celestisynth:poltergeist"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6B05BD7F9BCE75AB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "celestisynth:aquaflora"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4778BFBFD14D1725"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "celestisynth:rainfall_serenity"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4E70C1EE251E7682"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "celestisynth:solaris"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
-			id: "2B88C17F16A903AD"
-			optional: true
-			tasks: [{
-				id: "3ECA8B24E3377F6D"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "sophisticatedbackpacks:iron_backpack"
-				}
-				type: "item"
-			}]
-			x: 2.25d
-			y: -6.25d
+			title: "celestial weapons"
+			x: -11.75d
+			y: -8.25d
 		}
 		{
-			dependencies: ["318AC3A4B80FAB8E"]
+			dependencies: ["4E676F48B6C7955B"]
 			description: [
 				"- Magnet Upgrades"
 				"- Compacting Upgrades"
 				"- Stack Upgrade 1"
 				"- Tool Swapper Upgrades"
 			]
-			id: "53FED51FE3565B13"
-			optional: true
-			tasks: [{
-				id: "0C9BC52C7C75465F"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "sophisticatedbackpacks:gold_backpack"
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
 				}
-				type: "item"
-			}]
-			x: -9.75d
-			y: -9.0d
+				id: "sophisticatedbackpacks:gold_backpack"
+			}
+			id: "53FED51FE3565B13"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0C9BC52C7C75465F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:gold_backpack"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5C1AFF8108F3E1CA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:advanced_compacting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "09A510A74B288F2D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3C8FB82867E2B772"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2BC381F1A342CBD7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					}
+					type: "item"
+				}
+			]
+			title: "Gold Backpack and additional upgrades"
+			x: 4.0d
+			y: -16.75d
 		}
 		{
-			dependencies: ["33B00255BDE26589"]
+			dependencies: ["45057A63E5057167"]
 			description: [
 				"- Feeding Upgrades"
 				"- Stack Upgrades 2 and 3"
 			]
+			disable_toast: true
+			hide: false
 			id: "3D62384111BB472F"
-			optional: true
-			tasks: [{
-				id: "7758E647ABC8035A"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			tasks: [
+				{
+					disable_toast: true
+					id: "7758E647ABC8035A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:diamond_backpack"
 					}
-					id: "sophisticatedbackpacks:diamond_backpack"
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: -15.25d
+				{
+					disable_toast: true
+					id: "1CB1231B072AC446"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:advanced_feeding_upgrade"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "38AF0EFAC4334BEC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					}
+					type: "item"
+				}
+			]
+			x: -4.25d
+			y: -23.0d
 		}
 		{
-			dependencies: ["51E899661EDC06BD"]
+			dependencies: ["52CBD524A88A8E7E"]
 			description: [
 				"- Inception Upgrade"
 				"- Stack Upgrade 4"
 				"- Experience Pump Upgrade"
 			]
-			id: "327735F14553713B"
-			optional: true
-			tasks: [{
-				id: "58F14D13FF2FE110"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "sophisticatedbackpacks:netherite_backpack"
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
 				}
-				type: "item"
-			}]
-			x: -10.0d
-			y: -16.0d
+				id: "sophisticatedbackpacks:netherite_backpack"
+			}
+			id: "327735F14553713B"
+			tasks: [
+				{
+					disable_toast: true
+					id: "58F14D13FF2FE110"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:netherite_backpack"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4EC7E72396BAA7BA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:xp_pump_upgrade"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2570C0AD6139F4D0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:everlasting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1A1F9BFFDD7849E1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:inception_upgrade"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "177CF1A208A3BFAD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite backpack and upgrades"
+			x: -14.0d
+			y: -17.25d
 		}
 		{
 			dependencies: [
@@ -2249,40 +2455,6 @@
 			title: "Gatekeepers"
 			x: -4.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["5B7CBE6418C5C392"]
-			id: "6C76BA340215CFFB"
-			tasks: [{
-				id: "31A43DFBDDFBFA68"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "minecraft:diamond"
-				}
-				type: "item"
-			}]
-			x: -2.25d
-			y: -5.5d
-		}
-		{
-			dependencies: ["5B7CBE6418C5C392"]
-			id: "679D410781CDA657"
-			tasks: [{
-				id: "4648BADB786B451D"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "minecraft:oak_log"
-				}
-				type: "item"
-			}]
-			x: -6.75d
-			y: -5.5d
 		}
 		{
 			id: "122B1DF5B3FA137E"
@@ -2545,6 +2717,1843 @@
 			}]
 			x: 1.5d
 			y: 12.75d
+		}
+		{
+			dependencies: ["7E7A9B546C15BE8A"]
+			description: ["the task list will always be accurate. the surrounding quests may be outdated* and are only here to provide more information."]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "aquaculture:neptunium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3CF60CE0867D9A1A"
+			subtitle: "Items unlocked by collecting 3 eyes"
+			tasks: [
+				{
+					disable_toast: true
+					id: "489429C831D3176A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "chocolate:stage_one_item"
+						}
+					}
+					title: "Stage One Items"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2339CDB54B5728F5"
+					title: "Mark Complete"
+					type: "checkmark"
+				}
+			]
+			title: "Stage One Items"
+			x: 5.5d
+			y: -7.25d
+		}
+		{
+			dependencies: ["7E7A9B546C15BE8A"]
+			disable_toast: true
+			hide: false
+			id: "04AD273FAC17DE7F"
+			subtitle: "Collect at least 3 Eyes to enter the Nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				id: "65C19D61DE2A5F59"
+				title: "The Nether"
+				type: "dimension"
+			}]
+			title: "The Nether"
+			x: 5.5d
+			y: -9.25d
+		}
+		{
+			dependencies: ["318AC3A4B80FAB8E"]
+			description: ["the task list will always be accurate. the surrounding quests may be outdated* and are only here to provide more information."]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "epicsamurai:netherite_samurai_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E676F48B6C7955B"
+			subtitle: "Items unlocked by collecting 6 eyes"
+			tasks: [
+				{
+					disable_toast: true
+					id: "65A8F4F13E9AB285"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "chocolate:stage_two_item"
+						}
+					}
+					title: "Stage Two Items"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "239E6CD00B118D55"
+					title: "Mark Complete"
+					type: "checkmark"
+				}
+			]
+			title: "Stage Two Items"
+			x: 5.75d
+			y: -16.25d
+		}
+		{
+			dependencies: ["318AC3A4B80FAB8E"]
+			disable_toast: true
+			hide: false
+			id: "3AA58AD569CB791A"
+			subtitle: "Collect at least 6 eyes to enter the Everbright"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				disable_toast: true
+				id: "5BF22B87E4AC4ACC"
+				title: "Everbright"
+				type: "dimension"
+			}]
+			x: 1.25d
+			y: -18.25d
+		}
+		{
+			dependencies: ["318AC3A4B80FAB8E"]
+			disable_toast: true
+			hide: false
+			id: "5B2AFAA309E25971"
+			subtitle: "Collect at least 6 eyes to enter the Everdawn"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				disable_toast: true
+				id: "1BFB0354947EDF09"
+				title: "Everdawn"
+				type: "dimension"
+			}]
+			x: 3.25d
+			y: -18.25d
+		}
+		{
+			dependencies: ["33B00255BDE26589"]
+			description: ["the task list will always be accurate. the surrounding quests may be outdated* and are only here to provide more information."]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "born_in_chaos_v1:dark_metal_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "45057A63E5057167"
+			subtitle: "Items unlocked by collecting 9 eyes"
+			tasks: [
+				{
+					disable_toast: true
+					id: "05524B01A7CBB156"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "chocolate:stage_three_item"
+						}
+					}
+					title: "Stage Three Items"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6D68E30115820000"
+					title: "Mark Complete"
+					type: "checkmark"
+				}
+			]
+			title: "Stage Three Items"
+			x: -5.0d
+			y: -21.75d
+		}
+		{
+			dependencies: ["51E899661EDC06BD"]
+			description: ["the task list will always be accurate. the surrounding quests may be outdated* and are only here to provide more information."]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enigmaticlegacy:etherium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "52CBD524A88A8E7E"
+			subtitle: "Items unlocked by collecting 12 eyes"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0E6FD4BE4C979ACE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "chocolate:stage_four_item"
+						}
+					}
+					title: "Stage Four Items"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6EAD4781670EDFD9"
+					title: "Mark Complete"
+					type: "checkmark"
+				}
+			]
+			title: "Stage Four Items"
+			x: -13.75d
+			y: -15.0d
+		}
+		{
+			dependencies: ["766544EE45C62981"]
+			description: ["the task list will always be accurate. the surrounding quests may be outdated* and are only here to provide more information."]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "033E7215F1636702"
+			subtitle: "Items unlocked by collecting 16 eyes"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2FF76988C4559C54"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "chocolate:stage_five_item"
+						}
+					}
+					title: "Stage Five Items"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "36D81AA7606A0B3E"
+					title: "Mark Complete"
+					type: "checkmark"
+				}
+			]
+			title: "Stage Five Items"
+			x: -12.5d
+			y: -7.25d
+		}
+		{
+			dependencies: ["51E899661EDC06BD"]
+			description: [""]
+			disable_toast: true
+			hide: false
+			id: "5961EA3629CDF004"
+			subtitle: "Use the eyes you have crafted to locate and activate the End Portal"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				disable_toast: true
+				id: "6D13ECD1BCF791D8"
+				title: "The End"
+				type: "dimension"
+			}]
+			x: -11.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["766544EE45C62981"]
+			description: ["The Nexus is still under construction. We do not yet have any estimation of when it will be complete."]
+			disable_toast: true
+			hide: false
+			id: "51199D07DA2C72D1"
+			subtitle: "Coming soon... (eventually)"
+			tasks: [{
+				dimension: "javd:void"
+				disable_toast: true
+				id: "00D769712F5E7B55"
+				title: "The Nexus"
+				type: "dimension"
+			}]
+			x: -12.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["3CF60CE0867D9A1A"]
+			description: ["neptunium gear can be found by fishing up neptune's bounties. these arte quite rare, but the item inside can be smelted down to an ingot, and the ingot can be used to upgrade diamond gear."]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "aquaculture:neptunium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "69CEBE8793F06CC3"
+			tasks: [
+				{
+					disable_toast: true
+					id: "4777F6B4739CDE5D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_block"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "68321968B14A5FFE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_ingot"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4B57046DCEC5BC62"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_nugget"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5629219ACD9775B0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2A26A950999A8BEF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "16D74BE41D50D80E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "65870591155149ED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "148A6D3B8C8DAC48"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "542F833849E132FD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "71159707A22A8659"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0779BD77597DDEDA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1F8239235FDBB029"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "65F93F616B6447F0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3D7A274FD768B99E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "aquaculture:neptunium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Neptunium Gear"
+			x: 3.25d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3CF60CE0867D9A1A"]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "673AF313B2AB51BC"
+			tasks: [
+				{
+					disable_toast: true
+					id: "6038E7A1A826C712"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:iron_backpack"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "570AF537A0F79877"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:backpack"
+						tag: {
+							Inventory: [
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6D8F01FC044EF179"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:advanced_filter_upgrade"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "075E31E73E158520"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:advanced_refill_upgrade"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5A0319222366FD5D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:auto_smelting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "44C847FC98ABC303"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:auto_smoking_upgrade"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "52A78B9386532410"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "sophisticatedbackpacks:auto_blasting_upgrade"
+					}
+					type: "item"
+				}
+			]
+			title: "Backpacks and basic upgrades"
+			x: 4.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3CF60CE0867D9A1A"]
+			description: ["With 3 eyes collected, you gain access to create contractions that can automate farms and such"]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "create:mechanical_drill"
+			}
+			id: "0175F58C2F657EF6"
+			tasks: [
+				{
+					disable_toast: true
+					id: "594162F747B79676"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:mechanical_drill"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5122BAE477ACBC60"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:mechanical_harvester"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2CB66A93300C81C8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:mechanical_saw"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2A9C88A8F24A1224"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:portable_storage_interface"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7E465A7E13062E3D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:cart_assembler"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6A1809B7A7670E20"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:linked_controller"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1CCD62C2B3155EE7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:redstone_link"
+					}
+					type: "item"
+				}
+			]
+			title: "Create Automation tools"
+			x: 7.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["3CF60CE0867D9A1A"]
+			description: [
+				"&0Sultan of Fegefeuer (Scarab)"
+				"&5Earthbreaker (Amethyst Colossus)"
+				"&9Huntsman Spear (Huntsman)"
+				"&3Prisblade (Prisnautilus)"
+				"&3Weathering Tome (Prisnautilus)"
+				"&3Wave of Abyss (Prisnautilus)"
+				""
+				"these weapons arent necessarily any good, but damn do they look cool!"
+			]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "predators:prisblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "32D1383BFD16B15E"
+			tasks: [
+				{
+					disable_toast: true
+					id: "4BE25E585A017212"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "predators:earthbreaker"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "79A4CCD78F822C8A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "predators:wave_of_abyss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "10AFFDFE84C87ACD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "predators:prisblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3F828E446EAB9BFB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "predators:sultan_of_fegefeuer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6F2FA4EB82B77B2A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "predators:huntsmans_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "68959A69D1B419C8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "predators:weathering"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Basic Boss Weapons"
+			x: 7.5d
+			y: -7.75d
+		}
+		{
+			dependencies: ["3CF60CE0867D9A1A"]
+			description: [
+				"tetra scrolls for:"
+				""
+				"- Mace head (single head)"
+				"- quarry hammer (hammer)"
+				"- compound string (bow string)"
+				"- key guard (sword)"
+				"- dreadnaught stave (bow staves)"
+				"- halberd head (single head)"
+				"- howling blade (sword)"
+				"- throwing knife (sword)"
+				"- sturdy guard (sword)"
+				""
+				"place these down within a 5x5x5 area centered one block above a workbench to unlock new tool parts"
+			]
+			disable_toast: true
+			hide: false
+			id: "41C38DCB0A02A829"
+			tasks: [
+				{
+					disable_toast: true
+					id: "486F8A9C906E929A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										3
+										2
+										2
+										1
+									]
+									intricate: 0b
+									key: "sword/sturdy_guard"
+									material: 1
+									ribbon: "bcb8b5"
+									schematics: ["tetra:sword/sturdy_guard"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "60CA3479F1CE1F30"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										4
+										1
+										0
+										5
+									]
+									intricate: 0b
+									key: "sword/throwing_knife"
+									material: 1
+									ribbon: "b8ced9"
+									schematics: ["tetra:sword/throwing_knife"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4B9CD9B328386B85"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										8
+										9
+										10
+										5
+									]
+									intricate: 0b
+									key: "sword/howling"
+									material: 1
+									ribbon: "faf396"
+									schematics: ["tetra:sword/howling"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6CEE551075CE5514"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										9
+										3
+										6
+										2
+									]
+									intricate: 0b
+									key: "single/head/mace_head/mace_head"
+									material: 1
+									ribbon: "560060"
+									schematics: ["tetra:single/head/mace_head/mace_head"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5FD3F6DCE5AF0897"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										8
+										1
+										9
+										5
+									]
+									intricate: 0b
+									key: "bow/stave/dreadnought_stave"
+									material: 1
+									ribbon: "f3b31f"
+									schematics: [
+										"tetra:bow/stave/dreadnought_stave"
+										"tetra:bow/stave/dreadnought_cross_stave"
+									]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "757B02C0FEFCCD6E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										15
+										13
+										12
+										14
+									]
+									intricate: 0b
+									key: "bow/string/compound_string"
+									material: 1
+									ribbon: "19e588"
+									schematics: [
+										"tetra:bow/string/compound_string"
+										"tetra:crossbow/string/compound_cross_string"
+									]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "019E2AF14B7D4568"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										1
+										15
+										12
+										8
+									]
+									intricate: 0b
+									key: "utilize/hammer"
+									material: 2
+									ribbon: "fa97e9"
+									schematics: ["tetra:utilize/hammer"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6B7205E8C3572D20"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										0
+										1
+										9
+										4
+									]
+									intricate: 0b
+									key: "sword/key_guard"
+									material: 1
+									ribbon: "fae409"
+									schematics: ["tetra:sword/key_guard"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "07C72FF4BF557D60"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										8
+										1
+										4
+										5
+									]
+									intricate: 0b
+									key: "single/head/halberd_head/halberd_head"
+									material: 1
+									ribbon: "444aff"
+									schematics: ["tetra:single/head/halberd_head/halberd_head"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Basic Tetra Scrolls"
+			x: 6.0d
+			y: -4.75d
+		}
+		{
+			dependencies: ["4E676F48B6C7955B"]
+			description: [""]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "424F864590806D38"
+			tasks: [
+				{
+					disable_toast: true
+					id: "7D8F5562ABED9670"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1C0A8601F2AA0786"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "079C13B7F0A3EAF2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3E3EB0940A7370C9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "nightmare armor"
+			x: 7.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["4E676F48B6C7955B"]
+			description: [""]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F2F9AE15040F22C"
+			tasks: [
+				{
+					disable_toast: true
+					id: "7A9A4E142C5947C1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "23326F29EA522DF6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6018E217D03C8941"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1CF38AF51E996DE5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1661369E28B8ADB2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2F6E31BF8C273105"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0998EEEC27C05718"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5E54312FE999EF3D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2B0F95E5AA4E992D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "544A85F554A04DF3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6AAB6C3BA40D3E2F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "71712DA4BE41E950"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "24E29BA5C5EF53A3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:netherite_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "584C14AD9DE046C4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:netherite_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4A88FB3F1E357A3F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create:netherite_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "41BA29DA41CAA89B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "epicsamurai:netherite_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "417546BFCB75F9C9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "epicsamurai:netherite_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "50DABAF0D8ECAEEE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "epicsamurai:netherite_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6089AE865ECCACD2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "epicsamurai:netherite_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Gear"
+			x: 8.0d
+			y: -16.75d
+		}
+		{
+			dependencies: ["4E676F48B6C7955B"]
+			description: [
+				"tetra scrolls for "
+				""
+				"- katana blade (sword)"
+				"- crucible blade (sword)"
+				"- flamberg blade (sword)"
+				"- rending scissors (sword)"
+			]
+			disable_toast: true
+			hide: false
+			id: "104E8C9A13713BAD"
+			subtitle: "higher level sword schematics"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1F2E57631CD7C628"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										6
+										15
+										4
+										7
+									]
+									intricate: 0b
+									key: "tetra/flamberge_blade"
+									material: 2
+									ribbon: "ff9612"
+									schematics: ["tetra:sword/flamberge_blade"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1AD86C65113C3F73"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										8
+										7
+										9
+										2
+									]
+									intricate: 0b
+									key: "tetra/crucible_blade"
+									material: 2
+									ribbon: "ff1e00"
+									schematics: ["tetra:sword/crucible_blade"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "30318042CE73A5E7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										5
+										10
+										13
+										2
+									]
+									intricate: 0b
+									key: "sword/katana/katana_blade"
+									material: 2
+									ribbon: "dbff10"
+									schematics: ["tetra:sword/katana/katana_blade"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3DBCCD2272CA9688"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "otherworldly"
+									glyphs: [
+										1
+										15
+										2
+										13
+									]
+									intricate: 0b
+									key: "tetra/rending_scissor_purple"
+									material: 2
+									ribbon: "e32182"
+									schematics: [
+										"tetra:sword/rending_scissor_red"
+										"tetra:sword/rending_scissor_purple"
+									]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "advanced tetra scrolls"
+			x: 4.5d
+			y: -14.25d
+		}
+		{
+			dependencies: ["45057A63E5057167"]
+			description: [
+				"the murasama schematic is crafted as such"
+				""
+				"[              ,   sword  ,              ]"
+				""
+				"[ netherite , book and , netherite ]"
+				"     ingot        quil         ingot"
+				"[             ,   sword   ,              ]"
+				""
+				"it provides a new blade option when upgrading a katana in a workbench"
+			]
+			disable_toast: true
+			hide: false
+			id: "5205A7F4DAC0BAD2"
+			subtitle: "an upgrade to the katana"
+			tasks: [{
+				disable_toast: true
+				id: "199DBE048F1F7A27"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								details: "otherworldly"
+								glyphs: [
+									6
+									7
+									13
+									15
+								]
+								intricate: 0b
+								key: "sword/katana/murasama_blade"
+								material: 2
+								ribbon: "c52323"
+								schematics: ["tetra:sword/katana/murasama_blade"]
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Murasama Blade"
+			x: -3.25d
+			y: -21.75d
+		}
+		{
+			dependencies: ["52CBD524A88A8E7E"]
+			disable_toast: true
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "graveyard:middle_bone_staff"
+			}
+			id: "4D3BA178BCA9FDE6"
+			subtitle: "dropped by the lich boss, use these staffs to summon Ghoulings"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2A7189FEB7C4EF2D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "graveyard:white_bone_staff"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "68777FFFB2A404BF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "graveyard:black_bone_staff"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0AFEA2DE863421B4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "graveyard:black_bone_staff"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0F45C8C07E673E8D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "graveyard:red_bone_staff"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "62B437184FDA22D3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "graveyard:cyan_bone_staff"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0D609C36105B94E9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "graveyard:purple_bone_staff"
+					}
+					type: "item"
+				}
+			]
+			title: "Lich's bone staffs"
+			x: -12.75d
+			y: -16.5d
 		}
 	]
 	title: "&4Entries"
