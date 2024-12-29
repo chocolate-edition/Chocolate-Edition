@@ -75,7 +75,7 @@
 	#true if linked inventory enchant is enabled, false if disabled
 	linked_inventory_enabled = true
 	#true if total recall enchant is enabled, false if disabled
-	total_recall_enabled = true
+	total_recall_enabled = false
 	#true if health siphon enchant is enabled, false if disabled
 	health_siphon_enabled = true
 	#true if bubbling enchant is enabled, false if disabled
@@ -83,7 +83,7 @@
 	#true if herding enchant is enabled, false if disabled
 	herding_enabled = true
 	#true if amphibious enchant is enabled, false if disabled
-	amphibious_enabled = true
+	amphibious_enabled = false
 	#true if vampire enchant is enabled, false if disabled
 	vampire_enabled = true
 	#true if void cloud enchant is enabled, false if disabled
@@ -93,7 +93,7 @@
 	#true if shadow hands enchant is enabled, false if disabled
 	shadow_hands_enabled = true
 	#true if disc jockey enchant is enabled, false if disabled
-	disc_jockey_enabled = true
+	disc_jockey_enabled = false
 	#true if defusal enchant is enabled, false if disabled
 	defusal_enabled = true
 	#true if warping bite enchant is enabled, false if disabled
