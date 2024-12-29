@@ -113,3 +113,9 @@ craftingTable.addShaped("zuloagae7", <item:blue_skies:cherry_stick> * 4, [
 	[<item:minecraft:air>, <item:unusualprehistory:zuloagae>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
+craftingTable.addShapeless("austro",<item:minecraft:feather> * 9, [<item:unusualprehistory:austro_feather>]);
+	//cooking recipes
+craftingTable.addShapeless("Flamingotochicken",<item:minecraft:raw_chicken> * 9, [<item:unusualprehistory:raw_austro>,<item:blue_skies:horizonite_ingot>]);
+craftingTable.addShapeless("Flamingotochickencooked",<item:minecraft:cooked_chicken> * 9, [<item:unusualprehistory:cooked_austro>,<item:blue_skies:horizonite_ingot>]);
+craftingTable.addShapeless("Cotytopig",<item:minecraft:porkchop> * 9, [<item:unusualprehistory:raw_coty>,<item:blue_skies:horizonite_ingot>]);
+craftingTable.addShapeless("Cotytopigcooked",<item:minecraft:cooked_porkchop> * 9, [<item:unusualprehistory:cooked_coty>,<item:blue_skies:horizonite_ingot>]);
