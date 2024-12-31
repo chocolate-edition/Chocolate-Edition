@@ -1,0 +1,701 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "tips_and_tricks"
+	group: "124DA5EC6A42A11D"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "jei:textures/gui/icons/info.png"
+		}
+	}
+	id: "2829C945B5283BD3"
+	images: [
+		{
+			click: "https://discord.gg/vhQHTku8ma"
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["Discord"]
+			image: "supplementaries:textures/gui/book/icon/discord.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_ore-generation.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: -0.25d
+			y: 19.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_pets.png"
+			rotation: 0.0d
+			width: 9.798873692679003d
+			x: 20.75d
+			y: 18.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_spawners.png"
+			rotation: 0.0d
+			width: 15.7d
+			x: -22.25d
+			y: -11.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_armor-nerf.png"
+			rotation: 0.0d
+			width: 6.957894736842105d
+			x: -0.5d
+			y: -16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_custom-recipes.png"
+			rotation: 0.0d
+			width: 9.694736842105263d
+			x: -6.0d
+			y: 5.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_expert-mode.png"
+			rotation: 0.0d
+			width: 7.91578947368421d
+			x: -0.5d
+			y: -22.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_food.png"
+			rotation: 0.0d
+			width: 3.0526315789473686d
+			x: 19.75d
+			y: -16.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_getting-started.png"
+			rotation: 0.0d
+			width: 10.126315789473685d
+			x: 0.25d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_harder-spawners.png"
+			rotation: 0.0d
+			width: 10.673684210526316d
+			x: -22.25d
+			y: -16.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_keep-inventory.png"
+			rotation: 0.0d
+			width: 9.48421052631579d
+			x: 6.5d
+			y: 5.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_mending.png"
+			rotation: 0.0d
+			width: 5.073684210526316d
+			x: -18.25d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_ore-generation.png"
+			rotation: 0.0d
+			width: 9.621052631578948d
+			x: -0.5d
+			y: 14.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_pets-and-mounts.png"
+			rotation: 0.0d
+			width: 10.463157894736842d
+			x: 20.75d
+			y: 13.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_storage.png"
+			rotation: 0.0d
+			width: 5.178947368421053d
+			x: 20.0d
+			y: -4.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_villagers.png"
+			rotation: 0.0d
+			width: 6.08421052631579d
+			x: -18.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_you-feel-like-something-.png"
+			rotation: 0.0d
+			width: 21.23076923076923d
+			x: -1.25d
+			y: -26.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_toms.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_villagers.png"
+			rotation: 0.0d
+			width: 9.466484268125855d
+			x: -17.75d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_armour.png"
+			rotation: 0.0d
+			width: 29.065817409766456d
+			x: -0.25d
+			y: -11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "delightful:item/sinigang"
+			rotation: 0.0d
+			width: 5.0d
+			x: 15.25d
+			y: -13.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "delightful:item/deluxe_cheeseburger"
+			rotation: 0.0d
+			width: 5.0d
+			x: 24.5d
+			y: -14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "farmersdelight:item/cake_slice"
+			rotation: 0.0d
+			width: 5.0d
+			x: 19.75d
+			y: -11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chocolate:textures/tips-tricks_text_lootr.png"
+			rotation: 0.0d
+			width: 3.768421052631579d
+			x: 0.25d
+			y: 9.75d
+		}
+	]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"here you will find a collection of tips and tricks meant to help you getting started and enjoying your playthrough"
+				""
+				"for questions, issues and suggestions, please visit our discord"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "jei:textures/gui/icons/info.png"
+				}
+			}
+			id: "1783A86E5EBBBC96"
+			rewards: [{
+				id: "1D585353DAC5293E"
+				type: "xp"
+				xp: 5
+			}]
+			size: 2.0d
+			title: "Tips and Tricks"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Keep inventory is on by default, using the mod Configurable keep inventory. You will keep your items, but lose xp and arc stones on death. "
+				""
+				"To disable keep inventory, you need to either adjust the configurable keep inventory configs, or remove the mod altogether."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:ender_chest"
+			}
+			id: "66665E15CA6B8D14"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "36BF64D20E7E8D39"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Keep Inventory"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			description: ["We have many custom recipes in this pack. For example, blaze powder can be crafted without requiring blazes. use jei to find the item you want and click it (or press 'r' when hovering your mouse over any item) to see the recipes for how to craft it, and right-click in jei or press 'u' to see an item's uses."]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:blaze_powder"
+			}
+			id: "058BECBC63B4FA4E"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "0C73374B524F0FC7"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Custom Recipes"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"To get started, play like normal; mining exploring setting up base, until you get enchanted iron or diamond gear then start gathering ingredients for the eyes"
+				" "
+				"armour progression is as follows. each step is generally locked behind the next stage (every 3 eyes) iron > diamond > neptunium(optional) > netherite > diopsite/charoite(optional) > dark metal > adamantite/enderium/etherium > ingitium"
+				""
+				"for weapons/ tools you can use tetra. generally, the best tetra weapons/tools use forged steel as the main material, then end rod with warped muscle wrap is generally the best handle. any further tweaking is up to you!"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:crafting_table"
+			}
+			id: "23FE60718CECA142"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "0D1ED0C0F4460196"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Getting Started"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: ["Mending cannot be found from trade cycling villagers, or from enchanting. Instead, a meding book can be crafted. "]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "794ACFE0D1961209"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "48FC5ECB7450EA37"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Mending books"
+			x: -18.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Level 1 villager trades for emeralds (sticks, flint etc) have been removed. This is to discourage trading halls and infinite emeralds. "
+				""
+				"Additionally, iron golems no longer drop iron. If you wish to create an iron farm, you can still do so with create, but it is far more efficient to simply go mining or adventuring."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "easy_npc:iron_golem_spawn_egg"
+			}
+			id: "5D49B443278BEDFA"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "4A63C541DD618AFC"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Villagers and Iron Golems"
+			x: -18.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Ore generation has been changed to only generate ores that would be exposed to air. "
+				""
+				"This means that strip (or branch) mining &lwill not work&r&o and you must explore caves to find resources. "
+				""
+				"The exception to this rule is ancient debris, whose generation has not been changed from vanilla."
+				""
+				"As you are caving, you might often come across diamond ore that turns out to be termites. While annoying, these do not replace real diamonds in ore generation so they act as a small bonus to your diamond collection. The deeper you go, the more likely diamond ore is actually diamonds and not termites."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "born_in_chaos_v1:infected_deepslate_diamond_ore"
+			}
+			id: "41C18CF62078329A"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "3E40209925692C38"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Ore Generation"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			description: ["Damage reduction from basic protection and armour toughness has been reduced. You may be better off having at least one piece of armor with projectile protection as regular prot presents diminished returns. "]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C814B9800CC1ED5"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "7B584170B14F7263"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Armour Nerf"
+			x: -0.5d
+			y: -18.0d
+		}
+		{
+			description: ["Spawners now expire and break themselves after 20 uses. They are 8 times harder to break than vanilla and have a farther radius of spawning(about 12(vanilla)->20(chocolate)), so you often get a spawn before you can break it without efficiency five. Oh, and spawning ignores light levels now. This makes dealing with them much harder. However: spawners can be one shot with Flamearangs and Echorangs, upgrades of the Pickarang."]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "iter_rpg:goblin_spawner"
+			}
+			id: "7842E964EDE06DE6"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "2B10EB275C71256E"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Harder Spawners"
+			x: -22.0d
+			y: -18.5d
+		}
+		{
+			description: ["Expert mode is activated for all players once one person first visits the Everbright or Everdawn. It includes many new difficult mob spawns."]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "blue_skies:everdawn_portal"
+			}
+			id: "259849F8F8F13A0A"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "1489E08B1722BE67"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Expert Mode"
+			x: -0.5d
+			y: -24.0d
+		}
+		{
+			description: ["This text appears automatically on your third day in game. It is meant to indicate that nightmare stalkers can begin spawning, but we have them restricted to expert mode. When you see this text, dont panic, nothing will happen."]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "born_in_chaos_v1:nightmare_stalker_skull"
+			}
+			id: "4E9461BEF434D2B8"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "5524A7C5EA2D4E00"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "You feel like something is chasing you"
+			x: -0.5d
+			y: -28.0d
+		}
+		{
+			description: [
+				"Thanks to the diet mod, the food you eat matters. A balanced diet give you some solid buffs. "
+				""
+				"For each of fruits, grains, proteins and vegetables that you keep above 80%, you will gain an additional 2 hearts, +1 knockback resistance, and +1 armour toughness."
+				""
+				"If you can maintain all 4 of these above 80%, you will gain an additional 2 hearts, +2 attack damage, and +10% attack speed"
+				""
+				"Keeping sugar above 80% gives +25% movement speed"
+				""
+				"The category percentage reduces slowly over time."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:enchanted_golden_apple"
+			}
+			id: "5DB4E59960C93665"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "18E9357335F98066"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Food"
+			x: 19.5d
+			y: -18.0d
+		}
+		{
+			description: [
+				"Use Toms simple storage for all your storage needs! "
+				"craft an inventory connector and a storage/crafting terminal and make a giant clump of chests. so long as the inventory connector is touching any side of one chest, any other chests that are also touching will be combined into one large searchable inventory. "
+				""
+				"(I personally like to just bury all the chests under my house and have just the connector and terminal sticking up out of the ground)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "toms_storage:ts.crafting_terminal"
+			}
+			id: "47B5100F9B14B1D2"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "771415A2E89F93C2"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Storage"
+			x: 20.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Tamed horses can be marked as a personal horse using ‘p’. Your personal horse can be summoned to you with ‘shift + v’"
+				""
+				"Pushing a pet onto a pet bed until you see ‘zzz’ above their head will allow them to respawn there at the next sunrise."
+				" Placing a wayward lantern near your base will allow pets stuck in unloaded chunks to safely teleport to your base."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "simplehats:horsemask"
+			}
+			id: "71F364F74FF84A2A"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "6A5B83F5B37B9618"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Pets and Mounts"
+			x: 20.5d
+			y: 11.5d
+		}
+		{
+			description: [
+				"we have included lootr: a mod that allows multiple people to open the same loot chest and get different loot. "
+				""
+				"when a generated chest is broken, it will not drop any of the items inside, as those items only exist for the player viewing them until they are removed from the chest. "
+				""
+				"if you are setting up your base in a generated structure, be sure to loot all the chests, then break them and re-place them before putting any of your own items in!"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "minecraft:trapped_chest"
+			}
+			id: "6F09F18C4E0A40BB"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "108808C237E8D3B5"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Lootr"
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+	title: "Tips and Tricks"
+}

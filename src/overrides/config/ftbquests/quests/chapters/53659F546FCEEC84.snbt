@@ -19,7 +19,7 @@
 		x: -5.0d
 		y: -12.0d
 	}]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -1937,7 +1937,6 @@
 			dependencies: ["033E7215F1636702"]
 			disable_toast: true
 			hide: false
-			hide_details_until_startable: true
 			icon: "cataclysm:witherite_ingot"
 			id: "4D01AE1087F655CB"
 			tasks: [
@@ -1950,18 +1949,6 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "cataclysm:witherite_ingot"
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "662128C99F851BF4"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "cataclysm:wither_assault_shoulder_weapon"
 					}
 					type: "item"
 				}
