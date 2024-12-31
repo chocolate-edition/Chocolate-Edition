@@ -92,7 +92,7 @@
 	#Whether the void worm boss is summonable or not, via the mysterious worm item.
 	voidWormSummonable = true
 	#Whether seagulls should steal food out of players' hotbar slots.
-	seagullStealing = true
+	seagullStealing = false
 	#List of items that seagulls cannot take from players.
 	seagullStealingBlacklist = []
 	#Whether the Clinging Potion effect should flip the screen. Warning: may cause nausea.
@@ -688,4 +688,3 @@
 			[general.spawning.uniqueSpawning.dangerZone]
 				#Its been so long...
 				superSecretSettings = false
-
