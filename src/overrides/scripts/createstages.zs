@@ -294,6 +294,8 @@ var itemsStageFour = [
 
 // --------------------------------------------------- ITEM STAGE FIVE ------------------------------------------------------------------//
 var itemsStageFive = [
+	<item:cataclysm:meat_shredder>,
+	<item:cataclysm:laser_gatling>,
 	<item:cataclysm:ignitium_elytra_chestplate>,
 	<item:cataclysm:ignitium_boots>,
 	<item:cataclysm:ignitium_helmet>,
