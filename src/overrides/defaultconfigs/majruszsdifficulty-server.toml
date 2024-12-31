@@ -1,137 +1,4 @@
 
-[UndeadArmy]
-	#Determines whether the Undead Army can spawn in any way.
-	is_enabled = true
-	#Duration that players have to defeat a single wave (in seconds).
-	#Range: 300.0 ~ 3600.0
-	wave_duration = 1200.0
-	#Duration before the next wave arrives (in seconds).
-	#Range: 1.0 ~ 30.0
-	preparation_duration = 10.0
-	#Duration before all mobs will be highlighted (in seconds).
-	#Range: 30.0 ~ 3600.0
-	highlight_delay = 30.0
-	#Extra size ratio per each additional player on multiplayer (0.25 means ~25% bigger army per player).
-	#Range: 0.0 ~ 1.0
-	extra_size_per_player = 0.5
-	#Radius, which determines how big is the raid circle (in blocks).
-	#Range: 35 ~ 140
-	army_radius = 70
-	#Required amount of killed undead to start the Undead Army. (set to 0 if you want to disable this)
-	#Range: 0 ~ 1000
-	kill_requirement = 140
-	#Required amount of killed undead to start the first Undead Army.
-	#Range: 0 ~ 1000
-	kill_requirement_first = 70
-	#Determines if the undead has to spawn naturally to contribute to the kill_requirement.
-	natural_spawns_only = true
-	#If all participants of an undead army should have their kill count reset (false resets only the person who caused it).
-	reset_participants_kill_requirement = true
-	#How many left to kill until the undead army warning shows up (set to 0 to disable this).
-	#Range: 0 ~ 1000
-	kill_requirement_warning = 3
-
-[GameStage]
-	#Game stage set at the beginning of a new world.
-	#Allowed Values: NORMAL, EXPERT, MASTER
-	default_mode = "NORMAL"
-
-	#Determines what starts the Expert Mode.
-	[GameStage.ExpertMode]
-		#List of entities which start the game stage after killing them.
-		#Supports 'regular expressions' when text starts with {regex} prefix.
-		triggering_entities = ["none"]
-		#List of dimensions which start the game stage after entering them.
-		#Supports 'regular expressions' when text starts with {regex} prefix.
-		triggering_dimensions = ["blue_skies:everdawn", "blue_skies:everbright"]
-
-	#Determines what starts the Master Mode.
-	[GameStage.MasterMode]
-		#List of entities which start the game stage after killing them.
-		#Supports 'regular expressions' when text starts with {regex} prefix.
-		triggering_entities = []
-		#List of dimensions which start the game stage after entering them.
-		#Supports 'regular expressions' when text starts with {regex} prefix.
-		triggering_dimensions = ["none"]
-
-	#Determines the value by which the Clamped Regional Difficulty is increased.
-	[GameStage.ClampedRegionalDifficultyPenalty]
-		#Normal Mode
-		#Range: 0.0 ~ 1.0
-		normal = 0.0
-		#Expert Mode
-		#Range: 0.0 ~ 1.0
-		expert = 0.0
-		#Master Mode
-		#Range: 0.0 ~ 1.0
-		master = 0.0
-
-[TreasureBag]
-
-	[TreasureBag.UndeadArmy]
-		#Determines whether this Treasure Bag should drop.
-		is_enabled = true
-
-	[TreasureBag.ElderGuardian]
-		#Determines whether this Treasure Bag should drop.
-		is_enabled = true
-
-	[TreasureBag.Wither]
-		#Determines whether this Treasure Bag should drop.
-		is_enabled = true
-
-	[TreasureBag.EnderDragon]
-		#Determines whether this Treasure Bag should drop.
-		is_enabled = true
-
-	[TreasureBag.Fishing]
-		#Determines whether this Treasure Bag should drop.
-		is_enabled = true
-
-		#Required amount of items fished to get this Treasure Bag.
-		[TreasureBag.Fishing.RequiredFishCount]
-			#Normal Mode
-			#Range: 3 ~ 100
-			normal = 30
-			#Expert Mode
-			#Range: 3 ~ 100
-			expert = 25
-			#Master Mode
-			#Range: 3 ~ 100
-			master = 20
-
-	[TreasureBag.PillagerRaid]
-		#Determines whether this Treasure Bag should drop.
-		is_enabled = true
-
-	[TreasureBag.Warden]
-		#Determines whether this Treasure Bag should drop.
-		is_enabled = true
-
-[Mobs]
-
-	[Mobs.CursedArmor]
-		#Chance for each equipped item to drop when killed.
-		#Range: 0.0 ~ 1.0
-		drop_chance = 0.1
-
-		#Makes some Cursed Armors have a custom name.
-		[Mobs.CursedArmor.CustomName]
-			#Chance for this to happen.
-			#Range: 0.0 ~ 1.0
-			chance = 0.025
-			name = "Freshah"
-
-	[Mobs.Cerberus]
-
-		[Mobs.Cerberus.Wither]
-			#Level of the effect to apply.
-			#Range: 1 ~ 10
-			amplifier = 2
-			#Duration in seconds.
-			#Range: 1.0 ~ 999.0
-			duration = 10.0
-
 [Features]
 
 	#Undead mobs may spawn in groups as the Undead Army Patrol.
@@ -763,6 +630,139 @@
 		#Specifies whether this is enabled.
 		is_enabled = true
 
+[UndeadArmy]
+	#Determines whether the Undead Army can spawn in any way.
+	is_enabled = true
+	#Determines if the undead has to spawn naturally to contribute to the kill_requirement.
+	natural_spawns_only = true
+	#Duration that players have to defeat a single wave (in seconds).
+	#Range: 300.0 ~ 3600.0
+	wave_duration = 1200.0
+	#Duration before the next wave arrives (in seconds).
+	#Range: 1.0 ~ 30.0
+	preparation_duration = 10.0
+	#Duration before all mobs will be highlighted (in seconds).
+	#Range: 30.0 ~ 3600.0
+	highlight_delay = 30.0
+	#Extra size ratio per each additional player on multiplayer (0.25 means ~25% bigger army per player).
+	#Range: 0.0 ~ 1.0
+	extra_size_per_player = 0.5
+	#Radius, which determines how big is the raid circle (in blocks).
+	#Range: 35 ~ 140
+	army_radius = 70
+	#Required amount of killed undead to start the Undead Army. (set to 0 if you want to disable this)
+	#Range: 0 ~ 1000
+	kill_requirement = 140
+	#Required amount of killed undead to start the first Undead Army.
+	#Range: 0 ~ 1000
+	kill_requirement_first = 70
+	#If all participants of an undead army should have their kill count reset (false resets only the person who caused it).
+	reset_participants_kill_requirement = true
+	#How many left to kill until the undead army warning shows up (set to 0 to disable this).
+	#Range: 0 ~ 1000
+	kill_requirement_warning = 3
+
+[GameStage]
+	#Game stage set at the beginning of a new world.
+	#Allowed Values: NORMAL, EXPERT, MASTER
+	default_mode = "NORMAL"
+
+	#Determines what starts the Expert Mode.
+	[GameStage.ExpertMode]
+		#List of entities which start the game stage after killing them.
+		#Supports 'regular expressions' when text starts with {regex} prefix.
+		triggering_entities = [""]
+		#List of dimensions which start the game stage after entering them.
+		#Supports 'regular expressions' when text starts with {regex} prefix.
+		triggering_dimensions = ["blue_skies:everdawn", "blue_skies:everbright"]
+
+	#Determines what starts the Master Mode.
+	[GameStage.MasterMode]
+		#List of entities which start the game stage after killing them.
+		#Supports 'regular expressions' when text starts with {regex} prefix.
+		triggering_entities = [""]
+		#List of dimensions which start the game stage after entering them.
+		#Supports 'regular expressions' when text starts with {regex} prefix.
+		triggering_dimensions = [""]
+
+	#Determines the value by which the Clamped Regional Difficulty is increased.
+	[GameStage.ClampedRegionalDifficultyPenalty]
+		#Normal Mode
+		#Range: 0.0 ~ 1.0
+		normal = 0.0
+		#Expert Mode
+		#Range: 0.0 ~ 1.0
+		expert = 0.0
+		#Master Mode
+		#Range: 0.0 ~ 1.0
+		master = 0.0
+
+[TreasureBag]
+
+	[TreasureBag.UndeadArmy]
+		#Determines whether this Treasure Bag should drop.
+		is_enabled = true
+
+	[TreasureBag.ElderGuardian]
+		#Determines whether this Treasure Bag should drop.
+		is_enabled = true
+
+	[TreasureBag.Wither]
+		#Determines whether this Treasure Bag should drop.
+		is_enabled = true
+
+	[TreasureBag.EnderDragon]
+		#Determines whether this Treasure Bag should drop.
+		is_enabled = true
+
+	[TreasureBag.Fishing]
+		#Determines whether this Treasure Bag should drop.
+		is_enabled = true
+
+		#Required amount of items fished to get this Treasure Bag.
+		[TreasureBag.Fishing.RequiredFishCount]
+			#Normal Mode
+			#Range: 3 ~ 100
+			normal = 30
+			#Expert Mode
+			#Range: 3 ~ 100
+			expert = 25
+			#Master Mode
+			#Range: 3 ~ 100
+			master = 20
+
+	[TreasureBag.PillagerRaid]
+		#Determines whether this Treasure Bag should drop.
+		is_enabled = true
+
+	[TreasureBag.Warden]
+		#Determines whether this Treasure Bag should drop.
+		is_enabled = true
+
+[Mobs]
+
+	[Mobs.CursedArmor]
+		#Chance for each equipped item to drop when killed.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 0.1
+
+		#Makes some Cursed Armors have a custom name.
+		[Mobs.CursedArmor.CustomName]
+			#Chance for this to happen.
+			#Range: 0.0 ~ 1.0
+			chance = 0.025
+			name = "Freshah"
+
+	[Mobs.Cerberus]
+
+		[Mobs.Cerberus.Wither]
+			#Level of the effect to apply.
+			#Range: 1 ~ 10
+			amplifier = 2
+			#Duration in seconds.
+			#Range: 1.0 ~ 999.0
+			duration = 10.0
+
 [Bleeding]
 	#Specifies whether this is enabled.
 	is_enabled = false
@@ -833,4 +833,3 @@
 		#Master Mode
 		#Range: 1.0 ~ 999.0
 		master = 1.0
-
