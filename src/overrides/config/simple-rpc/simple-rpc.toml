@@ -1,5 +1,7 @@
+
+#General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
 [general]
-	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	#The Application ID of the Discord App to use
 	applicationID = 762726289341677668
 	#Enable/Disable the mod
 	enabled = true
@@ -12,6 +14,7 @@
 	#Internal Version Number. NO TOUCHY!
 	version = 18
 
+#The Game Loading event
 [init]
 	#Enable/Disable the Game Loading Event
 	enabled = true
@@ -27,15 +30,16 @@
 	smallImageKey = ["https://as2.ftcdn.net/v2/jpg/03/08/61/77/1000_F_308617770_n8C1PlBswDFxAzEU86r04qYxLNvzRrE4.jpg"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
+#The Main Menu event
 [main_menu]
 	#Enable/Disable the Main Menu Event
 	enabled = true
 	#The first line of text under the app name
 	description = "%player% is currently lazy"
-	#The second line of text under the app name
+	#The seconds line of text under the app name
 	state = "Chilling in the menu"
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["https://as2.ftcdn.net/v2/jpg/03/08/61/77/1000_F_308617770_n8C1PlBswDFxAzEU86r04qYxLNvzRrE4.jpg"]
@@ -45,9 +49,10 @@
 	smallImageKey = ["https://as2.ftcdn.net/v2/jpg/03/08/61/77/1000_F_308617770_n8C1PlBswDFxAzEU86r04qYxLNvzRrE4.jpg"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
+#The Server List event
 [server_list]
 	#Enable/Disable the Server List Event
 	enabled = true
@@ -63,9 +68,10 @@
 	smallImageKey = ["https://as2.ftcdn.net/v2/jpg/03/08/61/77/1000_F_308617770_n8C1PlBswDFxAzEU86r04qYxLNvzRrE4.jpg"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
+#The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
 	enabled = true
@@ -81,9 +87,10 @@
 	smallImageKey = ["https://as2.ftcdn.net/v2/jpg/03/08/61/77/1000_F_308617770_n8C1PlBswDFxAzEU86r04qYxLNvzRrE4.jpg"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
+#The Join Game Event
 [join_game]
 	#Enable/Disable the Join Game Event
 	enabled = true
@@ -99,9 +106,10 @@
 	smallImageKey = ["https://as2.ftcdn.net/v2/jpg/03/08/61/77/1000_F_308617770_n8C1PlBswDFxAzEU86r04qYxLNvzRrE4.jpg"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
+#The Single Player Event
 [single_player]
 	#Enable/Disable the Single Player Event
 	enabled = true
@@ -117,9 +125,10 @@
 	smallImageKey = ["https://as2.ftcdn.net/v2/jpg/03/08/61/77/1000_F_308617770_n8C1PlBswDFxAzEU86r04qYxLNvzRrE4.jpg"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
+#The Multi Player Event
 [multi_player]
 	#Enable/Disable the Multi Player Event
 	enabled = true
@@ -135,9 +144,10 @@
 	smallImageKey = ["https://as2.ftcdn.net/v2/jpg/03/08/61/77/1000_F_308617770_n8C1PlBswDFxAzEU86r04qYxLNvzRrE4.jpghttps://as2.ftcdn.net/v2/jpg/03/08/61/77/1000_F_308617770_n8C1PlBswDFxAzEU86r04qYxLNvzRrE4.jpg"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
+#The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
 	enabled = true
@@ -153,9 +163,10 @@
 	smallImageKey = ["https://as2.ftcdn.net/v2/jpg/03/08/61/77/1000_F_308617770_n8C1PlBswDFxAzEU86r04qYxLNvzRrE4.jpg"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%realmdescription%"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
+#Fallback event for disabled events
 [generic]
 	#The first line of text under the app name
 	description = "Playing Minecraft Chocolate Edition"
@@ -169,46 +180,74 @@
 	smallImageKey = ["https://as2.ftcdn.net/v2/jpg/03/08/61/77/1000_F_308617770_n8C1PlBswDFxAzEU86r04qYxLNvzRrE4.jpg"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
+#Custom Config Variables that you can use
 [custom]
 	#Must these variables be parsed along with other variables
 	enabled = true
 	#Your custom variables to add
 	variables = []
 
+#Dimension Information Overrides
 [dimension_overrides]
+	#Allows you to override the displayed values for dimensions
 	enabled = false
 
+	#The Dimensions to override
 	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "overworld"
+		#The first line of text under the app name
 		description = "%player% is in The Overworld"
+		#The second line of text under the app name
 		state = ""
+		#The Asset ID of the image to display as the large image
 		largeImageKey = ["overworld"]
+		#The text that gets displayed when the large image is hovered
 		largeImageText = "In the Overworld"
+		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
+		#The text that gets displayed when the small image is hovered
 		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
 		buttons = []
 
 	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "the_nether"
+		#The first line of text under the app name
 		description = "%player% is in The Nether"
+		#The second line of text under the app name
 		state = ""
+		#The Asset ID of the image to display as the large image
 		largeImageKey = ["nether"]
+		#The text that gets displayed when the large image is hovered
 		largeImageText = "In the Nether"
+		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
+		#The text that gets displayed when the small image is hovered
 		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
 		buttons = []
 
 	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "the_end"
+		#The first line of text under the app name
 		description = "%player% is in The End"
+		#The second line of text under the app name
 		state = ""
+		#The Asset ID of the image to display as the large image
 		largeImageKey = ["end"]
+		#The text that gets displayed when the large image is hovered
 		largeImageText = "In the End"
+		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
+		#The text that gets displayed when the small image is hovered
 		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
 		buttons = []
 
 
