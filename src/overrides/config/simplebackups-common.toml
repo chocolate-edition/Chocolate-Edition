@@ -25,6 +25,9 @@ sendMessages = true
 maxDiskSize = "25 GB"
 #Used to define the output path.
 outputPath = "simplebackups"
+#Should sub-directories be generated for each world?
+#Keep in mind that all configs above, including backupsToKeep and maxDiskSize, will be calculated for each sub directory.
+createSubDirs = false
 
 [mod_compat]
 	#Should backup notifications be sent to Discord by using mc2discord? (needs to be installed)
