@@ -1,5 +1,8 @@
 
 ["Basic Stats Settings\n"]
+	#Corundum Guardian will attack only players if this is true
+	#Default = false
+	attack_player_only = false
 	#Max health value of Corundum Guardian
 	#Default = 350
 	#Range: 1.0 ~ 10000.0
