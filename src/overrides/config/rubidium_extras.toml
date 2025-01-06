@@ -12,7 +12,7 @@
 		"Use Borderless Fullscreen" = "FULLSCREEN"
 
 	[Settings."FPS Counter"]
-		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "OFF"
+		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "SIMPLE"
 		"FPS Counter Distance" = 12
 
 	[Settings."Entity Distance"]
@@ -53,3 +53,4 @@
 			#Range: 0.0 ~ 1.0
 			"Dark End Fog Brightness (0->1)" = 0.0
 			"Dark If No Skylight?" = false
+
