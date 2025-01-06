@@ -1,36 +1,52 @@
 
 #General Settings
 [general]
-	#How long does the player need to be sleeping in order
-	#for entity despawning to occur? | Default: 50
-	#Range: 1 ~ 100
-	sleepTimer = 50
-	#Check to see if it's too close to morning for despawning? | Default: true
-	sleptLateCheck = true
-	#Should check and disable entity despawning around other
-	#non-sleeping players withing range? | Default: true
-	playerCheck = true
-	#Enables individual mob despawns instead of group despawning. | Default: false
+	#Use list instead of built-in rules for despawning?
 	enableList = false
-	#List of mobs to despawn.
-	#Formatting: ["minecraft:creeper", "minecraft:zombie", "minecraft:spider", "modid:entityname"]
-	mobs = ["minecraft:creeper", "minecraft:zombie", "minecraft:spider"]
+	#List of mobs to despawn. [Requires enableList]
+	#Formatting: ["minecraft:zombie", "minecraft:*", "<modId>:<entityId>"]
+	mobs = ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "minecraft:creeper"]
+	#Adds mobs to despawn group. Mobs in blacklisted are prevented from despawning.
+	#Allowed Groups: boss, monster, villager, creature, ambient, construct, misc, blacklisted
+	#Formatting: ["minecraft:villager:villager", "minecraft:*:creature", "<modId>:<entityId>:<group>"]
+	groups = ["minecraft:ender_dragon:boss", "minecraft:wither:boss", "minecraft:warden:boss", "minecraft:villager:villager", "minecraft:wandering_trader:villager", "minecraft:iron_golem:construct", "minecraft:snow_golem:construct"]
 
 #Range Settings
-[ranges]
-	#Should scaling based on difficulty be enabled? | Default: true
+[range]
+	#Should difficulty based range scaling be enabled?
+	#Difficulty Scaling: EASY = base | NORMAL = base / 2 | HARD = base / 4
 	enableScaling = true
-	#Vertical range to check for mobs to despawn. | Default: 16
-	#Scaling: EASY = base | NORMAL = base / 2 | HARD = base / 4
-	#Range: 0 ~ 64
-	verticalRange = 16
-	#Horizontal range to check for mobs to despawn. | Default: 64
-	#Scaling: EASY = base | NORMAL = base / 2 | HARD = base / 4
+	#Horizontal radius to check for mobs to despawn.
 	#Range: 0 ~ 256
 	horizontalRange = 64
-	#Range in which mobs are considered too close to despawn.
-	#Disabled if scaling isn't enabled or when set to 0. | Default: 2.5
-	#Scaling: EASY = Disabled | NORMAL = base | HARD = base * 2
-	#Range: 0.0 ~ 5.0
-	antiCheese = 2.5
+	#Vertical radius to check for mobs to despawn.
+	#Range: 0 ~ 64
+	verticalRange = 16
 
+#Conditional Checks
+[checks]
+	#Player must sleep before this time to allow despawning.
+	#Allowed Values: MORNING_E, MORNING, MORNING_L, NOON_E, NOON, NOON_L, EVENING_E, EVENING, EVENING_L, NIGHT_E, NIGHT, NIGHT_L, DISABLED
+	lateCheck = "NIGHT_L"
+	#Latest time the player can wakeup to allow despawning.
+	#Allowed Values: MORNING_E, MORNING, MORNING_L, NOON_E, NOON, NOON_L, EVENING_E, EVENING, EVENING_L, NIGHT_E, NIGHT, NIGHT_L, DISABLED
+	morningCheck = "MORNING_E"
+	#Should non-sleeping players prevent despawning around them?
+	playerCheck = true
+
+	#Group Checks [Requires enableList]
+	[checks.group_checks]
+		#Check boss group?
+		bossCheck = false
+		#Check monster group?
+		monsterCheck = false
+		#Check villager group?
+		villagerCheck = false
+		#Check creature group?
+		creatureCheck = false
+		#Check ambient group?
+		ambientCheck = false
+		#Check construct group?
+		constructCheck = false
+		#Check misc group?
+		miscCheck = false
