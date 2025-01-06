@@ -197,6 +197,10 @@
 		#.
 		#Whether minecart contraptions can be placed into container items.
 		minecartContraptionInContainers = false
+		#.
+		#Whether stabilised bearings create a separated entity even on non-rotating contraptions.
+		#[Technical]
+		stabiliseStableContraptions = false
 
 	#.
 	#Configure speed/capacity levels for requirements and indicators.
@@ -274,8 +278,8 @@
 				brass_encased_large_cogwheel = 0.0
 				mysterious_cuckoo_clock = 1.0
 				stressometer = 0.0
-				shaft = 0.0
 				brass_encased_shaft = 0.0
+				shaft = 0.0
 				gearshift = 0.0
 				turntable = 4.0
 				sticky_mechanical_piston = 4.0
@@ -284,8 +288,8 @@
 				cogwheel = 0.0
 				andesite_encased_cogwheel = 0.0
 				belt = 0.0
-				brass_encased_cogwheel = 0.0
 				gearbox = 0.0
+				brass_encased_cogwheel = 0.0
 				hose_pulley = 4.0
 				elevator_pulley = 4.0
 				mechanical_crafter = 2.0
@@ -390,10 +394,14 @@
 	#Whether placing a Schematic directly in Creative Mode should replace world blocks with Air
 	creativePrintIncludesAir = false
 	#.
+	#The amount of Schematics a player can upload until previous ones are overwritten.
+	#Range: > 1
+	maxSchematics = 10
+	#.
 	#[in KiloBytes]
 	#The maximum allowed file size of uploaded Schematics.
 	#Range: > 16
-	maxSchematics = 256
+	maxTotalSchematicSize = 256
 	#.
 	#[in Bytes]
 	#The maximum packet size uploaded Schematics are split into.
@@ -412,13 +420,9 @@
 		#Range: > 1
 		schematicannonDelay = 10
 		#.
-		#% of Schematicannon's Fuel filled by 1 Gunpowder.
-		#Range: 0.0 ~ 100.0
-		schematicannonGunpowderWorth = 20.0
-		#.
-		#% of Schematicannon's Fuel used for each fired block.
-		#Range: 0.0 ~ 100.0
-		schematicannonFuelUsage = 0.05000000074505806
+		#Amount of blocks a Schematicannon can print per Gunpowder item provided.
+		#Range: > 1
+		schematicannonShotsPerGunpowder = 400
 
 #.
 #Equipment and gadgets added by Create

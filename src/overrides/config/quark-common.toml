@@ -902,8 +902,8 @@
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
-		"Enable Doors" = true
-		"Enable Fence Gates" = true
+		"Enable Doors" = false
+		"Enable Fence Gates" = false
 
 	[tweaks.diamond_repair]
 		#List of changes to apply to repair items, format is "<item>=<repair_item>" as seen in the defualt.
