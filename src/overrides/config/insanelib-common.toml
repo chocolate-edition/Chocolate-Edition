@@ -1,7 +1,12 @@
-#A few fixes
-"Enable Fixes" = true
 #No more boring 2D Area of Effect Clouds
 "Enable Area Effect Cloud 3D" = true
+#A few fixes
+"Enable Fixes" = true
+
+#No more boring 2D Area of Effect Clouds
+["Area Effect Cloud 3D"]
+	#If true, vanilla Area of Effect Clouds will be replaced with 3D versions of them
+	"Replace Vanilla Area of Effect Clouds" = true
 
 #A few fixes
 [Fixes]
@@ -13,9 +18,4 @@
 	"Fix Flying Speed" = true
 	#The fix for Jump Movement Factor is applied only when the player is slowed down. If false, the player will jump really farther when going faster.
 	"Fix Jump Movement Factor Slowdown Only" = true
-
-#No more boring 2D Area of Effect Clouds
-["Area Effect Cloud 3D"]
-	#If true, vanilla Area of Effect Clouds will be replaced with 3D versions of them
-	"Replace Vanilla Area of Effect Clouds" = true
 

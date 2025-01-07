@@ -16,20 +16,20 @@
 		"summonMechanic": {
 			"isEnabled": true,
 			"entitiesThatCountToSummonCounter": [
+				"minecraft:zombie",
 				"minecraft:skeleton",
+				"minecraft:drowned",
 				"minecraft:giant",
-				"minecraft:phantom",
-				"minecraft:zoglin",
-				"minecraft:zombified_piglin",
-				"minecraft:wither_skeleton",
 				"minecraft:husk",
+				"minecraft:phantom",
 				"minecraft:skeleton_horse",
 				"minecraft:stray",
-				"minecraft:zombie_horse",
-				"minecraft:zombie",
-				"minecraft:drowned",
 				"minecraft:wither",
-				"minecraft:zombie_villager"
+				"minecraft:wither_skeleton",
+				"minecraft:zoglin",
+				"minecraft:zombie_horse",
+				"minecraft:zombie_villager",
+				"minecraft:zombified_piglin"
 			],
 			"numEntitiesKilledToDropSoulStar": 50
 		}

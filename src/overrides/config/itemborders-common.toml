@@ -19,7 +19,6 @@
 		auto_borders = false
 		# If enabled and Legendary Tooltips is installed, borders will sync with tooltip border colors.
 		legendary_tooltips_sync = false
-
 		# Custom border colors for specific items. Format: { <color> = ["list of selectors"] }.
 		# Color formats supported:
 		#   Hex color code - A hex color code is preceded by # or 0x and must be quoted.  Supports 3, 4, 6, or 8 digit codes in the formats RGB, ARGB, RRGGBB, or AARRGGBB.  Examples: "#F4C", "0xFEE0", "#40FF2E", "#CC00E2EE"

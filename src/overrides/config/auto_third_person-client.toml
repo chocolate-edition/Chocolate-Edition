@@ -1,16 +1,16 @@
-configVersion = 6
+configVersion = 7
 
 #Things that might get you into third person.
 [scenarios]
 	#Automatically go into third person when riding a boat?
 	#Default: true
-	boat = false
+	boat = true
 	#Automatically go into third person when riding a minecart?
 	#Default: true
-	cart = false
+	cart = true
 	#Automatically go into third person when riding an animal?
 	#Default: true
-	animal = false
+	animal = true
 	#Automatically go into third person when flying an elytra?
 	#Default: true
 	elytra = false
