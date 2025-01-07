@@ -1,5 +1,5 @@
 {
-  "configVersion": 10,
+  "configVersion": 11,
   "animationSmoothingSpeed": 0.2,
   "holdingItems": [
     "minecraft:clock",
