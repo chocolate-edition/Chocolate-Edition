@@ -40,6 +40,13 @@
 
   use the sorted version of the modlist from diffsort(make sure the opening <u> has no / while the closing </u> does).
 17. edit the manifest in the profile export zip to ensure the title, version, and author are correct.
+  also update the version in `src/config/bcc-common.toml`, and `src/config/modpack-update-checker/config.json`
+  and add the release details to `modpackUpdateChecker/meta.json`, with the changelog in `modpackUpdateChecker/versions/<version>/changelog.txt`
+  options for updateType are
+    "minor"
+    "minor_breaking": Will show a backup screen upon entering an older world.
+    "major": Will show a backup screen upon entering an older world.
+    "incompatible": Will prevent users from entering old worlds.
 
 ## uploading
 
