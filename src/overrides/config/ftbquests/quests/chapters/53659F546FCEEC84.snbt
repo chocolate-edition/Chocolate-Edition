@@ -2019,6 +2019,7 @@
 			id: "14627EFC8F677E32"
 			shape: "pentagon"
 			size: 1.5d
+			subtitle: "&4The final boss fight(Cracker's wither storm) is current unavailable due to being a complete buggy mess, sorry :( we are working on improving it for a future update!&r"
 			tasks: [{
 				id: "6C0CCE57D80B6C63"
 				title: "Use your dimensional carver to travel far away"
