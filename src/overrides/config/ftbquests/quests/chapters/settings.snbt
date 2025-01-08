@@ -175,10 +175,10 @@
 			disable_toast: true
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "jei:textures/gui/icons/info.png"
 				}
-				id: "create:cogwheel"
 			}
 			id: "007CEC9A687DD828"
 			shape: "gear"
