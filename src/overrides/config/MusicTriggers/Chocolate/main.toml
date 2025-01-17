@@ -245,7 +245,7 @@
 		fade_out = "80"
 		persistence = "0"
 		trigger_delay = "0"
-		song_delay = "0"
+		song_delay = "7200"
 		start_delay = "0"
 		stop_delay = "0"
 		fade_in = "20"
