@@ -25,12 +25,6 @@
 	#Enables keeping of souls upon death, disabled by default. [true / false]
 	enableKeepSoulsOnDeath = false
 
-#Artifact Configuration
-[artifact_configuration]
-	#Set the durability for artifacts. [0-1024, default: 64
-	#Range: 0 ~ 1024
-	artifactDurability = 64
-
 #Elite Mob Configuration
 [elite_mob_configuration]
 	#Enables elite mobs, enabled by default. [true / false]

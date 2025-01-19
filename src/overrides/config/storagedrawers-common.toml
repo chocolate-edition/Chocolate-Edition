@@ -9,6 +9,9 @@
 	#large range, but not beyond the chunk load distance.
 	#Range: 1 ~ 75
 	controllerRange = 50
+	#Whether redstone upgrades should emit an analog redstone signal, requiring
+	#the use of a comparator to read it.  This will default to true starting with MC 1.21.
+	enableAnalogRedstone = false
 	enableUI = true
 	enableSidedInput = true
 	enableSidedOutput = true
@@ -24,9 +27,9 @@
 	#When multiple storage upgrades are used together, their multipliers are added before being applied.
 	level1Mult = 2
 	level2Mult = 4
-	level3Mult = 16
-	level4Mult = 32
-	level5Mult = 8
+	level3Mult = 8
+	level4Mult = 16
+	level5Mult = 32
 
 [Integration]
 	#When true, shows quantity as NxS + R (by stack size) rather than count

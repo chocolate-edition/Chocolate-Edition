@@ -2687,6 +2687,7 @@
 		}
 		{
 			id: "670758770777AF24"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1b

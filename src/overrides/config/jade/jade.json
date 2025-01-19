@@ -16,9 +16,9 @@
     "hintOverlayToggle": true
   },
   "overlay": {
-    "overlayPosX": 0.51,
+    "overlayPosX": 0.5,
     "overlayPosY": 1.0,
-    "overlayScale": 0.7021739,
+    "overlayScale": 0.7,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
     "overlaySquare": false,

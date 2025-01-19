@@ -16,9 +16,9 @@
 		canBeTrue = true
 
 	[permissions.sneakBehavior]
-		canBeNone = true
 		canBeInvertFelling = true
 		canBeInvertChopping = true
+		canBeNone = true
 
 	[permissions.treeMustHaveLeaves]
 		canBeFalse = true
@@ -134,7 +134,7 @@
 			blacklistOrWhitelist = "BLACKLIST"
 			#List of item registry names (mod:item), tags (#mod:tag), and namespaces (@mod) for items that should not chop when used to break a log
 			#- Items in this list that have special support for TreeChop will not be blacklisted; see https://github.com/hammertater/treechop/blob/main/docs/compatibility.md#blacklist
-			items = ["botania:terra_axe", "mekanism:atomic_disassembler", "@lumberjack", "practicaltools:iron_greataxe", "practicaltools:golden_greataxe", "practicaltools:diamond_greataxe", "practicaltools:netherite_greataxe"]
+			items = ["botania:terra_axe", "@lumberjack", "mekanism:atomic_disassembler", "practicaltools:diamond_greataxe", "practicaltools:golden_greataxe", "practicaltools:iron_greataxe", "practicaltools:netherite_greataxe", "twilightforest:giant_pickaxe"]
 
 		#The chop settings used by non-player entities, such as robots and machine blocks
 		[compatibility.general.fakePlayerChopSettings]
@@ -162,8 +162,8 @@
 			leaves = ["#minecraft:wart_blocks", "minecraft:shroomlight"]
 
 		[compatibility.trees.problematicLeavesTrees]
-			logs = ["tropicraft:.*_log(_.*)?", "mysticbiomes:.*_log", "betternether:.*_bark", "betternether:.*_log", "biomesoplenty:palm_logs"]
-			leaves = ["tropicraft:.*_leaves(_.*)?", "betternether:.*_leaves", "regions_unexplored:brimwood_leaves", "biomesoplenty:palm_leaves"]
+			logs = ["tropicraft:.*_log(_.*)?", "mysticbiomes:.*_log", "betternether:.*_bark", "betternether:.*_log", "biomesoplenty:palm_logs", "alexscaves:.*_log", "alexscaves:pewen_wood"]
+			leaves = ["tropicraft:.*_leaves(_.*)?", "betternether:.*_leaves", "regions_unexplored:brimwood_leaves", "biomesoplenty:palm_leaves", "alexscaves:.*_branch", "alexscaves:pewen_pines"]
 
 	[compatibility.silentgear]
 		#https://www.curseforge.com/minecraft/mc-mods/tinkers-construct

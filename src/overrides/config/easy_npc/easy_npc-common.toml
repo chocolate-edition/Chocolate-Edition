@@ -35,6 +35,33 @@
 	#Range: 0 ~ 4
 	distanceActionConfigurationPermissionLevel = 1
 
+["[Attribute Configuration] Abilities Attribute"]
+	#Enable abilities attribute configuration.
+	abilitiesAttributeConfigurationEnabled = true
+	#Allow abilities attribute configuration in creative mode.
+	abilitiesAttributeConfigurationAllowInCreative = true
+	#abilities attribute configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	abilitiesAttributeConfigurationPermissionLevel = 0
+
+["[Attribute Configuration] Base Attribute"]
+	#Enable base attribute configuration.
+	baseAttributeConfigurationEnabled = true
+	#Allow base attribute configuration in creative mode.
+	baseAttributeConfigurationAllowInCreative = true
+	#base attribute configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	baseAttributeConfigurationPermissionLevel = 1
+
+["[Attribute Configuration] Display Attribute"]
+	#Enable display attribute configuration.
+	displayAttributeConfigurationEnabled = true
+	#Allow display attribute configuration in creative mode.
+	displayAttributeConfigurationAllowInCreative = true
+	#display attribute configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	displayAttributeConfigurationPermissionLevel = 1
+
 ["[Dialog Configuration] None Dialog"]
 	#Enable none dialog configuration.
 	noneDialogConfigurationEnabled = true
@@ -62,6 +89,24 @@
 	#Range: 0 ~ 4
 	yesNoDialogConfigurationPermissionLevel = 0
 
+["[Dialog Configuration] Advanced Dialog"]
+	#Enable advanced dialog configuration.
+	advancedDialogConfigurationEnabled = true
+	#Allow advanced dialog configuration in creative mode.
+	advancedDialogConfigurationAllowInCreative = true
+	#advanced dialog configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	advancedDialogConfigurationPermissionLevel = 0
+
+["[Skin Configuration] None Skin"]
+	#Enable none skin configuration.
+	noneSkinConfigurationEnabled = true
+	#Allow none skin configuration in creative mode.
+	noneSkinConfigurationAllowInCreative = true
+	#none skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	noneSkinConfigurationPermissionLevel = 0
+
 ["[Skin Configuration] Default Skin"]
 	#Enable default skin configuration.
 	defaultSkinConfigurationEnabled = true
@@ -79,6 +124,15 @@
 	#player skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
 	#Range: 0 ~ 4
 	playerSkinConfigurationPermissionLevel = 1
+
+["[Skin Configuration] URL Skin"]
+	#Enable url skin configuration.
+	urlSkinConfigurationEnabled = true
+	#Allow url skin configuration in creative mode.
+	urlSkinConfigurationAllowInCreative = true
+	#url skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	urlSkinConfigurationPermissionLevel = 1
 
 ["[Skin Configuration] Custom Skin"]
 	#Enable custom skin configuration.
@@ -179,6 +233,15 @@
 		#Range: 0 ~ 4
 		defaultImportPresetConfigurationPermissionLevel = 0
 
+	["[Pose Configuration] Advanced Pose"."[Import Configuration] Import Local Preset"]
+		#Enable local import preset configuration.
+		localImportPresetConfigurationEnabled = true
+		#Allow local import preset configuration in creative mode.
+		localImportPresetConfigurationAllowInCreative = true
+		#local import preset configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		localImportPresetConfigurationPermissionLevel = 0
+
 	["[Pose Configuration] Advanced Pose"."[Import Configuration] Import Custom Preset"]
 		#Enable custom import preset configuration.
 		customImportPresetConfigurationEnabled = true
@@ -268,67 +331,4 @@
 		#look objective configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
 		#Range: 0 ~ 4
 		lookObjectiveConfigurationPermissionLevel = 0
-
-	["[Pose Configuration] Advanced Pose"."[Import Configuration] Import Local Preset"]
-		#Enable local import preset configuration.
-		localImportPresetConfigurationEnabled = true
-		#Allow local import preset configuration in creative mode.
-		localImportPresetConfigurationAllowInCreative = true
-		#local import preset configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
-		#Range: 0 ~ 4
-		localImportPresetConfigurationPermissionLevel = 0
-
-["[Attribute Configuration] Abilities Attribute"]
-	#Enable abilities attribute configuration.
-	abilitiesAttributeConfigurationEnabled = true
-	#Allow abilities attribute configuration in creative mode.
-	abilitiesAttributeConfigurationAllowInCreative = true
-	#abilities attribute configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
-	#Range: 0 ~ 4
-	abilitiesAttributeConfigurationPermissionLevel = 0
-
-["[Attribute Configuration] Base Attribute"]
-	#Enable base attribute configuration.
-	baseAttributeConfigurationEnabled = true
-	#Allow base attribute configuration in creative mode.
-	baseAttributeConfigurationAllowInCreative = true
-	#base attribute configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
-	#Range: 0 ~ 4
-	baseAttributeConfigurationPermissionLevel = 1
-
-["[Dialog Configuration] Advanced Dialog"]
-	#Enable advanced dialog configuration.
-	advancedDialogConfigurationEnabled = true
-	#Allow advanced dialog configuration in creative mode.
-	advancedDialogConfigurationAllowInCreative = true
-	#advanced dialog configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
-	#Range: 0 ~ 4
-	advancedDialogConfigurationPermissionLevel = 0
-
-["[Attribute Configuration] Display Attribute"]
-	#Enable display attribute configuration.
-	displayAttributeConfigurationEnabled = true
-	#Allow display attribute configuration in creative mode.
-	displayAttributeConfigurationAllowInCreative = true
-	#display attribute configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
-	#Range: 0 ~ 4
-	displayAttributeConfigurationPermissionLevel = 1
-
-["[Skin Configuration] None Skin"]
-	#Enable none skin configuration.
-	noneSkinConfigurationEnabled = true
-	#Allow none skin configuration in creative mode.
-	noneSkinConfigurationAllowInCreative = true
-	#none skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
-	#Range: 0 ~ 4
-	noneSkinConfigurationPermissionLevel = 0
-
-["[Skin Configuration] URL Skin"]
-	#Enable url skin configuration.
-	urlSkinConfigurationEnabled = true
-	#Allow url skin configuration in creative mode.
-	urlSkinConfigurationAllowInCreative = true
-	#url skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
-	#Range: 0 ~ 4
-	urlSkinConfigurationPermissionLevel = 1
 

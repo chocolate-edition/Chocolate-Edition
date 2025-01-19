@@ -19,7 +19,7 @@
 		cursorType = "CONSOLE"
 		#The controller icons to use in game to display actions
 		#Allowed Values: DEFAULT, PLAYSTATION_5, PLAYSTATION_4, PLAYSTATION_3, XBOX_ONE, XBOX_360, SWITCH_JOYCONS, SWITCH_CONTROLLER, GAMECUBE, STEAM
-		controllerIcons = "XBOX_ONE"
+		controllerIcons = "DEFAULT"
 		#If enabled, inverts the controls on the Y axis for the camera
 		invertLook = false
 		#If enabled, inverts the controls on the X axis for the camera
@@ -54,7 +54,7 @@
 		cursorThumbstick = "LEFT"
 		#The scale of the mouse speed when hovering a widget or item slot
 		#Range: 0.05 ~ 1.0
-		hoverModifier = 0.35000000000000003
+		hoverModifier = 0.35
 		#Enabling this option will improve polling of controllers when your game FPS is capped. This will not have an effect if your game is already running at a low FPS without a cap.
 		fpsPollingFix = true
 		#Draws a transparent background behind the text of the button hint

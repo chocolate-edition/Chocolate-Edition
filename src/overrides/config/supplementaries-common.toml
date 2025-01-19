@@ -10,7 +10,6 @@
 	gold_trapdoor = true
 	lock_block = true
 	dispenser_minecart = true
-	crystal_display = true
 	relayer = true
 
 	[redstone.speaker_block]
@@ -63,6 +62,8 @@
 
 	[redstone.turn_table]
 		enabled = true
+		#Allows turn table (and wrenches) to shuffle inventories when they turn them horizontally
+		shuffle_inventories = true
 		#can rotate entities standing on it?
 		rotate_entities = true
 
@@ -71,6 +72,11 @@
 		#Chance for a new mineshaft elevator piece to spawn
 		#Range: 0.0 ~ 1.0
 		mineshaft_elevator = 0.02
+
+	[redstone.crystal_display]
+		enabled = true
+		#Makes it so when a crystal display is receiving at 10 or more power and it has another display to its right, it will connect to it forming a 2 wide display. Disable to have more control over them
+		display_carry_over = true
 
 [functional]
 	fodder = true
@@ -194,6 +200,7 @@
 	sconce = true
 	sconce_lever = true
 	sconce_green = false
+	altimeter = false
 	pancake = true
 	netherite_door = true
 	netherite_trapdoor = true
@@ -212,7 +219,6 @@
 	doormat = true
 	flint_block = true
 	candle_holder = true
-	altimeter = false
 
 	[building.blackboard]
 		enabled = true
@@ -311,10 +317,10 @@
 			show_distance_text = true
 
 [tools]
+	altimeter = true
 	antique_ink = true
 	candy = true
 	stasis = true
-	altimeter = true
 
 	[tools.quiver]
 		enabled = true
@@ -323,13 +329,19 @@
 		#Arrow stacks that can fit inside a quiver. Requires reboot
 		#Range: 1 ~ 9
 		slots = 6
+		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
+		#Range: 0.0 ~ 1.0
+		quiver_skeleton_spawn_chance = 0.025
 		#Allows quiver to only be used when in offhand or in curio slot
 		only_works_in_curio = false
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same type
 		quiver_pickup = true
-		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
+
+	[tools.slice_map]
+		enabled = true
+		#Multiplier that will be applied by slice maps to lower their range compared to normal maps
 		#Range: 0.0 ~ 1.0
-		quiver_skeleton_spawn_chance = 0.025
+		range_multiplier = 0.25
 
 	[tools.bubble_blower]
 		enabled = true
@@ -402,12 +414,6 @@
 		stasis_deceleration = 0.9625
 		#Allow enderman to intercept any slingshot projectile
 		unrestricted_enderman_intercept = true
-
-	[tools.slice_map]
-		enabled = true
-		#Multiplier that will be applied by slice maps to lower their range compared to normal maps
-		#Range: 0.0 ~ 1.0
-		range_multiplier = 0.25
 
 #General settings
 [general]
@@ -517,8 +523,14 @@
 		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
 		#Best kept disabled if you are adding custom adventurer maps with datapack (check the wiki for more)
 		random_adventurer_maps = false
+		#Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. On could take much more time to compute
+		random_adventurer_maps_select_random_structure = false
 		#Enables beacons, lodestones, respawn anchors, beds, conduits, portals to be displayed on maps by clicking one of them with a map
 		block_map_markers = true
+		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
+		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
+		death_marker = "WITH_COMPASS"
+		colored_map = true
 		#If Quark is installed adventurer maps will be replaced by adventurer quills. These will not lag the server when generating
 		quill_adventurer_maps = false
 		#If Quark is installed replaces buried treasure and mansion maps with their equivalent quill form. This removes the lag spike they create when generating
@@ -532,10 +544,6 @@
 		#Increases any search done with a quoll to be at least this radius. Vanilla locate is 100 while buried treasure is 50 chunks for reference
 		#Range: 0 ~ 500
 		minimum_search_radius = 100
-		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
-		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
-		death_marker = "WITH_COMPASS"
-		colored_map = true
 
 	[tweaks.ceiling_banners]
 		#Allow banners to be placed on ceilings
