@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "removes higher than vanilla prot drops from WDA structures",
+        "pack_format": 10
+    }
+}
