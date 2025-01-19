@@ -2262,7 +2262,7 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"This item can be obtained by killing &cIceologers&r which spawn in raids that take place in cold biomes or igloos found in cold biomes"
+				"This item can be obtained by killing &cIceologers&r which spawn in igloos found in cold biomes"
 				""
 				"The &eTotem of Freezing&r - upon taking lethal damage - prevents death and gives a short burst of Speed"
 			]
@@ -3077,7 +3077,7 @@
 		}
 		{
 			dependencies: ["3901079844A43EC1"]
-			description: ["This item is obtained by killing &cGeomancers&r, which spawn in raids that occur in Savana biomes. They are also know to guard some rooms in Strongholds"]
+			description: ["This item is obtained by killing &cGeomancers&r, which spawn semi rarely underground or at night in savannas. They are also know to guard some rooms in Strongholds."]
 			id: "3386F8BCC804078B"
 			rewards: [
 				{
