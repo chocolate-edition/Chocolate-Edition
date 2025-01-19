@@ -19,6 +19,7 @@
 [XP] Portal Highlights Opacity:100.0
 [XP] New Chunks Render Inverse:false
 [XP] Highlight Shader:true
+[XP] 2b2t Highways Width:0
 [XP] Waypoint Beacon Distance Min:24.0
 [XP] Disable Receiving Waypoints:false
 [XP] PortalSkip OldChunks Inverse:true
