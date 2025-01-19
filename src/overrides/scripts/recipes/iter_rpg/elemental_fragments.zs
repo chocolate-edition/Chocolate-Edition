@@ -1,0 +1,10 @@
+craftingTable.addShapeless("elemental_fragment",
+  <item:iter_rpg:elemental_fragment>,
+  [
+    <item:iter_rpg:earth_fragment>,
+    <item:iter_rpg:water_fragment>,
+    <item:iter_rpg:air_fragment>,
+    <item:iter_rpg:fire_fragment>,
+    <item:iter_rpg:void_fragment>,
+  ]
+);
