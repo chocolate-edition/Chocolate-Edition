@@ -959,7 +959,7 @@
 				id: "3A49F06F2F819568"
 				type: "checkmark"
 			}]
-			title: "Brewed with a creeper, zombie or skeleton skull, or Hulk Hammer, Mutant Skeleton Skull, Creeper shard, or endersoul hand with a thick potion. Works on zombies, skeletons, creepers, enderman, snow golems, and pigs."
+			title: "Brewed with a creeper, zombie or skeleton skull, or Hulk Hammer, Mutant Skeleton Skull, Creeper shard, or endersoul hand with a thick potion. Works on zombies, skeletons, creepers, enderman, snow golems, and pigs. (vanilla variants only, does not work on biome variants)"
 			x: 13.0d
 			y: 7.85d
 		}
