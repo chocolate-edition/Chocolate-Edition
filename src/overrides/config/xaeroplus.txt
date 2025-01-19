@@ -5,7 +5,7 @@
 [XP] OldBiomes Color:1
 [XP] Persist Dim Switch:true
 [XP] Disable Xaero Internet Access:false
-[XP] Waystone Waypoint Set:false
+[XP] Waystone Waypoint Set:true
 [XP] Show Render Distance WorldMap:false
 [XP] WorldTools Highlights:true
 [XP] Save/Load Portals to Disk:true
@@ -22,7 +22,7 @@
 [XP] Waypoint Beacon Distance Min:24.0
 [XP] Disable Receiving Waypoints:false
 [XP] PortalSkip OldChunks Inverse:true
-[XP] Data Dir Mode:0
+[XP] Data Dir Mode:1
 [XP] Transparent Obsidian Roof:false
 [XP] PortalSkip NewChunks:true
 [XP] WorldTools Highlights Color:1
@@ -33,10 +33,10 @@
 [XP] Region Writes While Dim Switched:false
 [XP] Palette NewChunks Color:0
 [XP] Waystone Color:16
-[XP] Expanded Setting Entries:false
+[XP] Expanded Setting Entries:true
 [XP] Switch to Overworld:false
 [XP] Minimap FPS Limit:30.0
-[XP] Min WorldMap Zoom:0.1
+[XP] Min WorldMap Zoom:0.0
 [XP] Transparent Background:true
 [XP] Minimap FPS Limiter:true
 [XP] Portal Highlights Color:5
