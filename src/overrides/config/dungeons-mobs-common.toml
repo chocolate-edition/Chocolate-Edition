@@ -109,3 +109,4 @@
 	enableStrongerHusks = true
 	#Enables Spiders and Cave Spiders shooting webs as a ranged attack like they do in Minecraft Dungeons. [true / false]
 	enableRangedSpiders = false
+
