@@ -194,6 +194,28 @@
 			x: -7.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["7CFCF3BA7E2B325C"]
+			description: [
+				"it is better to each remain on your own team/no team and add others as allies for chunk claiming purposes. "
+				""
+				"to share progress, you can simply pass items around as tasks are triggered as items enter ones inventory"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "jei:textures/gui/icons/info.png"
+				}
+			}
+			id: "26AC58AF24712F48"
+			size: 1.25d
+			subtitle: "We advise against using ftb teams, as our hidden utility quests can behave inconsistently for teams. "
+			title: "Important!"
+			x: 0.0d
+			y: 4.6875d
+		}
 	]
 	title: "Welcome!"
 }

@@ -1,0 +1,16 @@
+## Features:
+- Added pigstep recipe
+- Corpse Maggots can now be used to craft Crimson Mosquito Larva
+- Mob heads can now be used to craft Chemical X (get those channeling tridents ready!)
+
+## Changes:
+- Chemical X recipes can now be seen in JEI
+- Lowered Coral Golem spawn rate
+- Bunny Hoppers now stop all fall damage
+
+## Bug fixes:
+- High sugar levels no longer gives Hunger 4
+- Powdered Snow max stack size is now 1
+- Removed Healing Aura enchantment
+- End Ships from WDA have been moved down
+- Fixed server specific crash caused by Music Triggers mod

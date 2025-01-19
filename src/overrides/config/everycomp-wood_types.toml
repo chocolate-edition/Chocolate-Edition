@@ -78,6 +78,10 @@
 			ginkgo = true
 			dryo = true
 
+		[types.wood_type.gardens_of_the_dead]
+			soulblight = true
+			whistlecane = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.blue_skies]

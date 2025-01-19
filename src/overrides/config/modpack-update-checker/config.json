@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 9,
+  "currentVersion": "1.8.2",
+  "modpackName": "The Chocolate Edition",
+  "modpackAuthor": "richestprune",
+  "modpackReleaseType": "stable",
+  "updateCheckerId": "https://github.com/chocolate-edition/Chocolate-Edition/tree/main/modpackUpdateChecker/",
+  "advanced": {
+    "bccEnabled": false,
+    "expandButton": false,
+    "updateCheckerType": 2,
+    "retroWarning": false,
+    "modpackMods": []
+  }
+}

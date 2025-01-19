@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "hotfixesFormat": null,
+  "versions": [
+    {
+      "id": "1.8.2",
+      "releasedAt": 1727258400010,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "curseforge": "https://www.curseforge.com/minecraft/modpacks/mc-chocolate-edition/files/5756278"
+        }
+      }
+    }
+  ]
+}
