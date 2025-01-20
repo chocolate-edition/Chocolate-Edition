@@ -1,0 +1,149 @@
+Sorry its been so long since 1.8.2! we've been working really hard on the next update to balance mob spawning, and have put together some of the other fixes we've done in between.
+
+the bulk of this update is just that we finally got around to updating most of the outdated mods. there are a few more with pending updates, but doing these updates will break things so they will have to hold off for now.
+
+thank you so much for all your support and for 700 000 downloads!! its crazy to think about how many people are playing and enjoying the pack even in its unfinished/unpolished state :)
+
+# Features
+- lots of mod updates and some additions! see below for more details.
+- updated the quest book stage unlocks page
+- added a tips and tricks page with some of our most common questions/most important features
+- added a settings page to QB with options to toggle custom biome particles
+- removed hard mode and "click to expand" mentions from the questbook
+- disabled seagull food stealing :)
+- added xaeros minimap, but disabled for now. this way if you are updating an old world you have some time to fill out xaeros in the background. eventually we will remove journeymap and fully replace it with xaeros. feel free to swap the keybinds and enable xaeros now.
+- added a recipe for elemental fragments
+- updated the text that appears when swinging non axes in the nature dungeon to specify that only axes from everbright ores will work.
+- enable lootr chest textures
+- tweaked the default shader settings
+
+# Changes
+- temporarily hide all wither storm related quests. the fight itself is super buggy and the spawning structure doesn't appear most of the time. we have a rework coming later after we get some more important things done
+- disabled some buggy pet enchants (disc jockey, amphibious, total recall)
+- remove iceologers and geomancers from raids (should help stop random ones deep underground from joining a raid)
+- add a delay between songs in the same biome (still a work in progress but should help from the same 2-3 songs playing over and over again)
+- remove prot 8 and 10 drops from mobs of certain structures
+- updated the description of chemical x
+
+# Bug fixes
+- fix server script issues
+- fix witch eye crafting recipe
+- fix wireless terminals randomly not working
+- possibly fix server watchdog crashes
+
+## some notable changes from the mod update changelogs:
+- Neptune leggings effect fixed
+- Neptune nuggets can be fished up
+- new jumping spider and sea bunny mobs.
+- silk leash, grappling hook, sea bunny slime items
+- possible fix for stuck in loading terrain bug
+- new crab mob
+- potion of reaching
+- possible fix for watchdog crashes
+
+# mod changes:
+- updated to forge 43.4.12
+## added:
+- xaeros minimap, worldmap, xaero plus, zoomout
+- ftb quests optimizer
+- crater lib (added for simple discord rpc update)
+- fusion (for connected glass update)
+- enhanced boss bars (replaced the old texture pack)
+- let me sleep
+- max health fix
+- gardens of the dead
+- modpack update checker
+- serene shrubbery
+
+## removed:
+- limited chunkloading
+
+## updated:
+- abnormal delight: 4.1.0 -> 4.1.2
+- ambient sounds 6: 5.2.13 -> 5.3.9
+- aquaculture 2: 2.4.8 -> 2.4.17
+- architecture API: 6.5.85 -> 6.6.92
+- artifacts: 5.0.4 -> 5.0.6
+- attributefix: 17.2.7 -> 17.2.8
+- bigger stacks: 3.8.1 -> 3.8.2
+- bisect hosting server integration: 2.4.1 -> 2.4.2
+- calm mornings 2.0.2 -> 4.0.3
+- carry on: 2.1.1.21 -> 2.1.2.23
+- cloth config API: 8.3.103 -> 8.3.134
+- collective: 7.3 -> 7.64
+- comforts: 6.0.6 -> 6.0.7
+- configurable mob potion effects: 3.0 -> 3.3
+- connected glass: 1.1.8 -> 1.1.12
+- corundum guardian reborn: 1.1.0 -> 1.2.1
+- crafting tweaks: 15.1.8 -> 15.1.9
+- create: 0.5.1.f -> 0.5.1.i
+- create central kitchen: 1.3.9.e -> 1.3.11.c
+- creativeCore: 2.9.4 -> 2.11.28
+- critters and companions: 2.0.3 -> 2.1.2
+- curios API: 5.1.4.2 -> 5.1.6.4
+- double doors: 5.1 -> 5.7
+- dragon mounts legacy: 1.1.4a -> 1.2.3-beta
+- dungeons libraries: 3.0.10 -> 3.0.12
+- e4mc: 5.1.0 -> 5.2.1
+- embeddium: 0.2.7 -> 0.3.18.1
+- enchantment descriptions: 13.0.16 -> 13.0.20
+- enderman overhaul: 0.0.1 -> 0.0.1
+- euphoria patches: 0.1.1 -> 1.4.3
+- every compat: 2.5.14 -> 2.5.31
+- fairy lights: 6.0.0 -> 6.0.1
+- farmers delight: 1.2.3 -> 1.2.4
+- fast async world save: 1.2 -> 2.0
+- fast paintings: 1.1.2 -> 1.1.3
+- first-person model: 2.2.3 -> 2.4.8
+- fish on the line: 3.0 -> 3.2
+- friends and foes: 1.8.10 -> 3.0.7
+- ftb chunks: 1902.4.2-build.302 -> 1902.4.7-build.420
+- ftb xmod compat: 1.2.2 -> 1.2.4
+- guard villagers: 1.5.8 -> 1.5.9
+- harder spawners: 43.2.24.0 -> 43.2.24.1
+- ht treechop: 0.18.6 -> 0.19.1
+- in control!: 7.1.11 -> 7.1.18
+- integrated API: 1.2.7 -> 1.2.8
+- integrated dungeons and structures: 1.7.6 -> 1.7.7
+- iris and oculus flywheel compat: 0.2.1 -> 1.0.3b
+- item stages: 5.1.3 -> 5.1.4
+- journeymap: 5.9.7 -> 5.9.8
+- jei: 11.6.0.1018 -> 11.8.1.1034
+- jer: 1.2.2.236 -> 1.2.3.243
+- kiwi: 8.3.4 -> 8.3.6
+- konkrete: 1.6.1 -> 1.8.0
+- loot integrations: 3.4 -> 4.0
+- lootr: 0.4.28.72 -> 0.4.29.76
+- modernfix: 5.15.0 -> 5.18.1
+- moonlight lib: 2.3.5 -> 2.3.7
+- multi mine: 1.19.2.4 -> 1.19.2.5
+- mutil: 5.1.0 -> 5.2.0
+- nameless trinkets: 1.7.6 -> 1.8.0
+- necromonicon API: 1.2.0 -> 1.4.2
+- neruina: 2.1.1 -> 2.1.2
+- nether depths upgrade: 3.1.1 -> 3.1.4
+- not enough animations: 1.6.2 -> 1.9.1
+- oculus: 1.6.9 -> 1.6.9a
+- placebo: 7.3.3 -> 7.4.0
+- polymorph: 0.46.5 -> 0.46.6
+- quick right click: 1.0 -> 1.4
+- rhino: 1902.2.2-build.280 -> 1902.2.3-build.284
+- samurai dynasty: 0.0.16 -> 0.0.17
+- shield expansion: 1.1.6 -> 1.2.2
+- shoulder surfing: 4.3.0 -> 4.8.0
+- simple backups: 2.1.10 -> 2.1.11
+- simple discord rpc: 3.2.4 -> 3.3.3
+- simple hats: 0.1.6 -> 0.3.2
+- sophisticated backpacks: 3.18.63.934 -> 3.2.20.2.1035
+- sophisticated core: 0.5.98.459 -> 0.6.4.730
+- storage drawers: 11.1.2 -> 11.4.1
+- structure no rotate: 1.0.0 -> 1.0.2
+- superMartijn642 core lib: 1.1.15 -> 1.1.18
+- supplementaries: 2.4.9 -> 2.4.20
+- tectonic: 2.1.1 -> 2.3.5a
+- toms simple storage: 1.5.9 -> 1.5.11
+- towers of the wild modded: 1.0.4 -> 1.0.5
+- weaker spiderwebs: 3.3 -> 3.4
+- weavers cosmetics: 1.11 -> 1.14
+- yungs API: 3.8.9 -> 3.8.10
+- yungs better mineshafts: 3.2.0 -> 3.2.1
