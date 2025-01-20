@@ -1,0 +1,38 @@
+{
+    "key": "epicsamurai_quartz_steel",
+    "category": "metal",
+    "primary": 6,
+    "secondary": 3.5,
+    "tertiary": 2,
+    "durability": 2031,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 9,
+    "effects": {
+        "intuit": 1
+    },
+    "tints": {
+        "glyph": "d9cfc3",
+        "texture": "d9cfc3"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "epicsamurai:quartz_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "epicsamurai"
+        }
+    ]
+}

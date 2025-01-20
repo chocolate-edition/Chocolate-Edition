@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "enlightened_end:adamantite_ingot",
+    "cataclysm:ignitium_ingot",
+    "cataclysm:witherite_ingot",
+    "born_in_chaos_v1:dark_metal_ingot",
+    "majruszsdifficulty:enderium_ingot",
+    "enigmaticlegacy:etherium_ingot",
+    "epicsamurai:steel_ingot",
+    "epicsamurai:silver_ingot",
+    "aquaculture:neptunium_ingot"
+  ]
+}

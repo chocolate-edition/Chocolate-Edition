@@ -1,0 +1,2 @@
+- Queen Bee beehive now spawns in Jungle biomes
+- Queen Bee beehive is made of Jungle Wood instead of Oak Wood

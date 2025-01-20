@@ -2,6 +2,11 @@
   "recommendations": [
     "bloodworkxgaming.zslint",
     "tamasfe.even-better-toml",
-    "tnze.snbt"
+    "tnze.snbt",
+    "mrmlnc.vscode-json5",
+    "arcensoth.language-mcfunction",
+    "misodee.vscode-nbt",
+    "minecraftcommands.syntax-mcfunction",
+    "thinker.sort-json"
   ]
 }

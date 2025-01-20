@@ -1,0 +1,40 @@
+
+
+{
+
+    "item.everycomp.faf/blue_skies/maple_beehive" : "Dark Maple Beehive", 
+
+
+    "item.everycomp.af/blue_skies/maple_planter_box" : "Dark Maple Flower Box",
+    "item.everycomp.af/blue_skies/maple_bench" : "Dark Maple Bench",
+    "item.everycomp.af/blue_skies/maple_drawer" : "Dark Maple Drawer",
+    "item.everycomp.af/blue_skies/maple_shelf" : "Dark Maple Shelf",
+    "item.everycomp.af/blue_skies/maple_chair" : "Dark Maple Chair",
+    "item.everycomp.af/blue_skies/maple_table" : "Dark Maple Table",
+    "item.everycomp.af/blue_skies/maple_shutter" : "Dark Maple Shutter",
+    
+    "item.everycomp.q/blue_skies/maple_post" : "Dark Maple Post",
+    "item.everycomp.q/blue_skies/stripped_maple_post" : "Stripped Dark Maple Post",
+    "item.everycomp.q/blue_skies/maple_leaf_carpet" : "Dark Maple Leaf Carpet",
+    "item.everycomp.q/blue_skies/maple_hedge" : "Dark Maple Hedge",
+    "item.everycomp.q/blue_skies/vertical_maple_planks" : "Vertical Dark Maple Planks",
+    "item.everycomp.q/blue_skies/hollow_maple_log" : "Hollow Dark Maple Log",
+
+    "block.everycomp.faf/blue_skies/maple_beehive" : "Dark Maple Beehive", 
+
+
+    "block.everycomp.af/blue_skies/maple_planter_box" : "Dark Maple Flower Box",
+    "block.everycomp.af/blue_skies/maple_bench" : "Dark Maple Bench",
+    "block.everycomp.af/blue_skies/maple_drawer" : "Dark Maple Drawer",
+    "block.everycomp.af/blue_skies/maple_shelf" : "Dark Maple Shelf",
+    "block.everycomp.af/blue_skies/maple_chair" : "Dark Maple Chair",
+    "block.everycomp.af/blue_skies/maple_table" : "Dark Maple Table",
+    "block.everycomp.af/blue_skies/maple_shutter" : "Dark Maple Shutter",
+    
+    "block.everycomp.q/blue_skies/maple_post" : "Dark Maple Post",
+    "block.everycomp.q/blue_skies/stripped_maple_post" : "Stripped Dark Maple Post",
+    "block.everycomp.q/blue_skies/maple_leaf_carpet" : "Dark Maple Leaf Carpet",
+    "block.everycomp.q/blue_skies/maple_hedge" : "Dark Maple Hedge",
+    "block.everycomp.q/blue_skies/vertical_maple_planks" : "Vertical Dark Maple Planks",
+    "block.everycomp.q/blue_skies/hollow_maple_log" : "Hollow Dark Maple Log"
+}

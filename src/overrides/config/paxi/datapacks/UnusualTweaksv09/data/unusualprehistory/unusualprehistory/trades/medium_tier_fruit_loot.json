@@ -1,0 +1,79 @@
+{
+  "tier": 3,
+  "trade_item": "unusualprehistory:red_fruit",
+  "translation_key": "unusualprehistory.fruit_loot_box.luxurious",
+  "items": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "item": "unusualprehistory:white_fruit_scraps",
+          "weight": 10,
+          "amount": 1
+        },
+        {
+          "item": "unusualprehistory:red_fruit_scraps",
+          "weight": 10,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "item": "unusualprehistory:horsetail",
+          "weight": 10,
+          "amount": 1
+        },
+        {
+          "item": "unusualprehistory:leefructus",
+          "weight": 10,
+          "amount": 1
+        },
+        {
+          "item": "unusualprehistory:tall_horsetail",
+          "weight": 10,
+          "amount": 1
+        },
+        {
+          "item": "unusualprehistory:bennet",
+          "weight": 10,
+          "amount": 1
+        },
+        {
+          "item": "unusualprehistory:archaeos",
+          "weight": 10,
+          "amount": 1
+        },
+        {
+          "item": "unusualprehistory:sarracenia",
+          "weight": 10,
+          "amount": 1
+        },
+        {
+          "item": "unusualprehistory:tall_sarracenia",
+          "weight": 10,
+          "amount": 1
+        },
+        {
+          "item": "unusualprehistory:handmade_battleaxe",
+          "weight": 5,
+          "amount": 1
+        },
+        {
+          "item": "unusualfishmod:relucent_shard",
+          "weight": 5,
+          "amount": 12
+        },
+        {
+          "item": "minecraft:carrot",
+          "weight": 8,
+          "amount": 2
+        }
+      ]
+    }
+  ],
+  "color": "#7F7F7F",
+  "CustomModelData": 3
+}

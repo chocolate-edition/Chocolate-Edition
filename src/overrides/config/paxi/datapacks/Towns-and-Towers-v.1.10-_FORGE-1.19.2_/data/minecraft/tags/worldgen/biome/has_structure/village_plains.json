@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:plains",
+    {
+      "id": "biomesoplenty:grassland",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:prairie",
+      "required": false
+    },
+    {
+      "id": "byg:allium_fields",
+      "required": false
+    },
+    {
+      "id": "byg:temperate_rainforest",
+      "required": false
+    },
+    {
+        "id": "wythers:cool_plains",
+        "required": false
+    }
+  ]
+}

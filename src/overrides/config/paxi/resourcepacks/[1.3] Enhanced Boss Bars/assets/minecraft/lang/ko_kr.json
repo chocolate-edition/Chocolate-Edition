@@ -1,0 +1,12 @@
+{
+  "language.name": "한국어",
+  "language.region": "Korean",
+  "language.code": "ko_kr",
+
+  "event.minecraft.raid": "\uE903",
+  "entity.minecraft.wither": "\uE906",
+  "entity.minecraft.ender_dragon": "\uE907",
+  "event.minecraft.raid.raiders_remaining": "",
+  "event.minecraft.raid.victory": "",
+  "event.minecraft.raid.defeat": ""
+}

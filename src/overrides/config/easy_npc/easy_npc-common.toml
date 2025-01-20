@@ -1,0 +1,334 @@
+
+["[Main Configuration]"]
+	#Enable main configuration.
+	mainConfigurationEnabled = true
+	#Allow main configuration in creative mode.
+	mainConfigurationAllowInCreative = true
+	#main configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	mainConfigurationPermissionLevel = 0
+
+["[Action Configuration] Basic Action"]
+	#Enable basic action configuration.
+	basicActionConfigurationEnabled = true
+	#Allow basic action configuration in creative mode.
+	basicActionConfigurationAllowInCreative = true
+	#basic action configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	basicActionConfigurationPermissionLevel = 1
+
+["[Action Configuration] Dialog Action"]
+	#Enable dialog action configuration.
+	dialogActionConfigurationEnabled = true
+	#Allow dialog action configuration in creative mode.
+	dialogActionConfigurationAllowInCreative = true
+	#dialog action configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	dialogActionConfigurationPermissionLevel = 1
+
+["[Action Configuration] Distance Action"]
+	#Enable distance action configuration.
+	distanceActionConfigurationEnabled = true
+	#Allow distance action configuration in creative mode.
+	distanceActionConfigurationAllowInCreative = true
+	#distance action configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	distanceActionConfigurationPermissionLevel = 1
+
+["[Attribute Configuration] Abilities Attribute"]
+	#Enable abilities attribute configuration.
+	abilitiesAttributeConfigurationEnabled = true
+	#Allow abilities attribute configuration in creative mode.
+	abilitiesAttributeConfigurationAllowInCreative = true
+	#abilities attribute configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	abilitiesAttributeConfigurationPermissionLevel = 0
+
+["[Attribute Configuration] Base Attribute"]
+	#Enable base attribute configuration.
+	baseAttributeConfigurationEnabled = true
+	#Allow base attribute configuration in creative mode.
+	baseAttributeConfigurationAllowInCreative = true
+	#base attribute configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	baseAttributeConfigurationPermissionLevel = 1
+
+["[Attribute Configuration] Display Attribute"]
+	#Enable display attribute configuration.
+	displayAttributeConfigurationEnabled = true
+	#Allow display attribute configuration in creative mode.
+	displayAttributeConfigurationAllowInCreative = true
+	#display attribute configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	displayAttributeConfigurationPermissionLevel = 1
+
+["[Dialog Configuration] None Dialog"]
+	#Enable none dialog configuration.
+	noneDialogConfigurationEnabled = true
+	#Allow none dialog configuration in creative mode.
+	noneDialogConfigurationAllowInCreative = true
+	#none dialog configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	noneDialogConfigurationPermissionLevel = 0
+
+["[Dialog Configuration] Basic Dialog"]
+	#Enable basic dialog configuration.
+	basicDialogConfigurationEnabled = true
+	#Allow basic dialog configuration in creative mode.
+	basicDialogConfigurationAllowInCreative = true
+	#basic dialog configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	basicDialogConfigurationPermissionLevel = 0
+
+["[Dialog Configuration] Yes/No Dialog"]
+	#Enable yes/no dialog configuration.
+	yesNoDialogConfigurationEnabled = true
+	#Allow yes/no dialog configuration in creative mode.
+	yesNoDialogConfigurationAllowInCreative = true
+	#yes/no dialog configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	yesNoDialogConfigurationPermissionLevel = 0
+
+["[Dialog Configuration] Advanced Dialog"]
+	#Enable advanced dialog configuration.
+	advancedDialogConfigurationEnabled = true
+	#Allow advanced dialog configuration in creative mode.
+	advancedDialogConfigurationAllowInCreative = true
+	#advanced dialog configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	advancedDialogConfigurationPermissionLevel = 0
+
+["[Skin Configuration] None Skin"]
+	#Enable none skin configuration.
+	noneSkinConfigurationEnabled = true
+	#Allow none skin configuration in creative mode.
+	noneSkinConfigurationAllowInCreative = true
+	#none skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	noneSkinConfigurationPermissionLevel = 0
+
+["[Skin Configuration] Default Skin"]
+	#Enable default skin configuration.
+	defaultSkinConfigurationEnabled = true
+	#Allow default skin configuration in creative mode.
+	defaultSkinConfigurationAllowInCreative = true
+	#default skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	defaultSkinConfigurationPermissionLevel = 0
+
+["[Skin Configuration] Player Skin"]
+	#Enable player skin configuration.
+	playerSkinConfigurationEnabled = true
+	#Allow player skin configuration in creative mode.
+	playerSkinConfigurationAllowInCreative = true
+	#player skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	playerSkinConfigurationPermissionLevel = 1
+
+["[Skin Configuration] URL Skin"]
+	#Enable url skin configuration.
+	urlSkinConfigurationEnabled = true
+	#Allow url skin configuration in creative mode.
+	urlSkinConfigurationAllowInCreative = true
+	#url skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	urlSkinConfigurationPermissionLevel = 1
+
+["[Skin Configuration] Custom Skin"]
+	#Enable custom skin configuration.
+	customSkinConfigurationEnabled = true
+	#Allow custom skin configuration in creative mode.
+	customSkinConfigurationAllowInCreative = true
+	#custom skin configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	customSkinConfigurationPermissionLevel = 2
+
+["[Pose Configuration] Default Pose"]
+	#Enable default pose configuration.
+	defaultPoseConfigurationEnabled = true
+	#Allow default pose configuration in creative mode.
+	defaultPoseConfigurationAllowInCreative = true
+	#default pose configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	defaultPoseConfigurationPermissionLevel = 0
+
+["[Pose Configuration] Advanced Pose"]
+	#Enable advanced pose configuration.
+	advancedPoseConfigurationEnabled = true
+	#Allow advanced pose configuration in creative mode.
+	advancedPoseConfigurationAllowInCreative = true
+	#advanced pose configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+	#Range: 0 ~ 4
+	advancedPoseConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Pose Configuration] Custom Pose"]
+		#Enable custom pose configuration.
+		customPoseConfigurationEnabled = true
+		#Allow custom pose configuration in creative mode.
+		customPoseConfigurationAllowInCreative = true
+		#custom pose configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		customPoseConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Equipment Configuration]"]
+		#Enable equipment configuration.
+		equipmentConfigurationEnabled = true
+		#Allow equipment configuration in creative mode.
+		equipmentConfigurationAllowInCreative = true
+		#equipment configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		equipmentConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Position Configuration]"]
+		#Enable position configuration.
+		defaultPositionConfigurationEnabled = true
+		#Allow position configuration in creative mode.
+		defaultPositionConfigurationAllowInCreative = true
+		#position configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		defaultPositionConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Rotation Configuration]"]
+		#Enable rotation configuration.
+		defaultRotationConfigurationEnabled = true
+		#Allow rotation configuration in creative mode.
+		defaultRotationConfigurationAllowInCreative = true
+		#rotation configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		defaultRotationConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Scale Configuration]"]
+		#Enable scale configuration.
+		scaleConfigurationEnabled = true
+		#Allow scale configuration in creative mode.
+		scaleConfigurationAllowInCreative = true
+		#scale configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		scaleConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Export Configuration] Export Custom Preset"]
+		#Enable custom export preset configuration.
+		customExportPresetConfigurationEnabled = true
+		#Allow custom export preset configuration in creative mode.
+		customExportPresetConfigurationAllowInCreative = true
+		#custom export preset configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		customExportPresetConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Export Configuration] Export World Preset"]
+		#Enable world export preset configuration.
+		worldExportPresetConfigurationEnabled = true
+		#Allow world export preset configuration in creative mode.
+		worldExportPresetConfigurationAllowInCreative = true
+		#world export preset configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		worldExportPresetConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Import Configuration] Import Default Preset"]
+		#Enable default import preset configuration.
+		defaultImportPresetConfigurationEnabled = true
+		#Allow default import preset configuration in creative mode.
+		defaultImportPresetConfigurationAllowInCreative = true
+		#default import preset configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		defaultImportPresetConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Import Configuration] Import Local Preset"]
+		#Enable local import preset configuration.
+		localImportPresetConfigurationEnabled = true
+		#Allow local import preset configuration in creative mode.
+		localImportPresetConfigurationAllowInCreative = true
+		#local import preset configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		localImportPresetConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Import Configuration] Import Custom Preset"]
+		#Enable custom import preset configuration.
+		customImportPresetConfigurationEnabled = true
+		#Allow custom import preset configuration in creative mode.
+		customImportPresetConfigurationAllowInCreative = true
+		#custom import preset configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		customImportPresetConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Import Configuration] Import Server Preset"]
+		#Enable world import preset configuration.
+		worldImportPresetConfigurationEnabled = true
+		#Allow world import preset configuration in creative mode.
+		worldImportPresetConfigurationAllowInCreative = true
+		#world import preset configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		worldImportPresetConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Trading Configuration] Default Trading"]
+		#Enable none trading configuration.
+		noneTradingConfigurationEnabled = true
+		#Allow none trading configuration in creative mode.
+		noneTradingConfigurationAllowInCreative = true
+		#none trading configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		noneTradingConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Trading Configuration] Basic Trading"]
+		#Enable basic trading configuration.
+		basicTradingConfigurationEnabled = true
+		#Allow basic trading configuration in creative mode.
+		basicTradingConfigurationAllowInCreative = true
+		#basic trading configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		basicTradingConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Trading Configuration] Advanced Trading"]
+		#Enable advanced trading configuration.
+		advancedTradingConfigurationEnabled = true
+		#Allow advanced trading configuration in creative mode.
+		advancedTradingConfigurationAllowInCreative = true
+		#advanced trading configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		advancedTradingConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Trading Configuration] Custom Trading"]
+		#Enable custom trading configuration.
+		customTradingConfigurationEnabled = true
+		#Allow custom trading configuration in creative mode.
+		customTradingConfigurationAllowInCreative = true
+		#custom trading configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		customTradingConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Objective Configuration] Basic Objective"]
+		#Enable basic objective configuration.
+		basicObjectiveConfigurationEnabled = true
+		#Allow basic objective configuration in creative mode.
+		basicObjectiveConfigurationAllowInCreative = true
+		#basic objective configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		basicObjectiveConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Objective Configuration] Attack Objective"]
+		#Enable attack objective configuration.
+		attackObjectiveConfigurationEnabled = true
+		#Allow attack objective configuration in creative mode.
+		attackObjectiveConfigurationAllowInCreative = true
+		#attack objective configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		attackObjectiveConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Objective Configuration] Follow Objective"]
+		#Enable follow objective configuration.
+		followObjectiveConfigurationEnabled = true
+		#Allow follow objective configuration in creative mode.
+		followObjectiveConfigurationAllowInCreative = true
+		#follow objective configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		followObjectiveConfigurationPermissionLevel = 0
+
+	["[Pose Configuration] Advanced Pose"."[Objective Configuration] Look Objective"]
+		#Enable look objective configuration.
+		lookObjectiveConfigurationEnabled = true
+		#Allow look objective configuration in creative mode.
+		lookObjectiveConfigurationAllowInCreative = true
+		#look objective configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		lookObjectiveConfigurationPermissionLevel = 0
+

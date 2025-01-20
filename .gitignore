@@ -1,26 +1,27 @@
 # Large files
 *.7z
 .obsidian/workspace.json
-overrides/config/registryDump.txt
-overrides/config/spawnbalanceutility/AllMobEntities.rpt
+src/overrides/config/registryDump.txt
+src/overrides/config/spawnbalanceutility/AllMobEntities.rpt
 
 # user specific files
 instancePath.txt
 
 # stuff to make it possible to just copy over from a profile export
-overrides/usercache.json
-overrides/patchouli_data.json
-overrides/options.txt
-overrides/enigmatic_persistence.dat
-overrides/modernfix/
-overrides/logs/
-overrides/local/
-overrides/journeymap/
-overrides/fancymenu_data/
-overrides/saves/
-overrides/simplebackups/
-overrides/config/jei/world/
-overrides/shaderpacks/ComplementaryReimagined_r5.0.1.zip.txt
-overrides/config/blockswap/known_states/
-/*.zip
+src/overrides/usercache.json
+src/overrides/patchouli_data.json
+src/overrides/options.txt
+src/overrides/enigmatic_persistence.dat
+src/overrides/modernfix/
+src/overrides/logs/
+src/overrides/local/
+src/overrides/journeymap/
+src/overrides/fancymenu_data/
+src/overrides/saves/
+src/overrides/simplebackups/
+src/overrides/config/jei/world/
+src/overrides/shaderpacks/ComplementaryReimagined_r5.0.1.zip.txt
+src/overrides/shaderpacks/ComplementaryReimagined_r5.3 + EuphoriaPatches_1.4.3.txt
+src/overrides/config/blockswap/known_states/
+/src/*.zip
 *.bak

@@ -44,11 +44,29 @@ if you have any problems dont hesitate to ask us in our discord server! <https:/
 #### if you get an error like  "Error: could not find or load main class @user_jvm_args.txt"
 
 then it means your default java runtime is not compatible. we recommend java 17, but 18 should work as well. to fix this, open `variables.txt` and replace JAVA="java" with
-JAVA="path/to/your/java/installation/java.exe"
+JAVA=path/to/your/java/installation/java.exe
+
+note: it should not have quotes
 
 example:
 
 JAVA=C:/Program Files/Java/jdk-17/bin/java.exe
+
+### Remember
+
+ Escape \ and : in your Java path on Windows with another \,
+ or replace all \ with /
+
+ Example
+ JAVA=C:\Program Files\Java\jdk-17\bin\java.exe
+
+#### should be either
+
+ JAVA=C\:\\Program Files\\Java\\jdk-17\\bin\\java.exe
+
+ or
+
+ JAVA=C:/Program Files/Java/jdk-17/bin/java.exe
 
 #### if you try starting it and get an error, where at the top it says it cannot parse your java path
 

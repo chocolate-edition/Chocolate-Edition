@@ -1,0 +1,52 @@
+
+["Basic Stats Settings\n"]
+	#Corundum Guardian will attack only players if this is true
+	#Default = false
+	attack_player_only = false
+	#Max health value of Corundum Guardian
+	#Default = 350
+	#Range: 1.0 ~ 10000.0
+	max_health = 350.0
+	#Movement speed value of Corundum Guardian
+	#Default = 0.3
+	#Range: 0.0 ~ 2.0
+	movement_speed = 0.3
+	#Knockback resistance value of Corundum Guardian
+	#Default = 0.8
+	#Range: 0.0 ~ 1.0
+	knockback_resistance = 0.8
+	#Attack knockback value of Corundum Guardian
+	#Default = 4
+	#Range: 0.0 ~ 10.0
+	attack_knockback = 4.0
+	#Armor value of Corundum Guardian
+	#Default = 15
+	#Range: 0 ~ 30
+	armor = 15
+	#Attack damage value of Corundum Guardian
+	#Default = 15
+	#Range: 0.0 ~ 10000.0
+	attack_damage = 15.0
+	#Melee attack anim speed value of Corundum Guardian. Too low value may cause unpredicted bugs.
+	#Default = 35
+	#Range: 0 ~ 1000
+	melee_attack_anim_speed = 35
+
+	["Basic Stats Settings\n"."Shockwave Stats Settings\n"]
+		#Lifetime of shockwave
+		#Default = 30
+		#Range: 1 ~ 10000
+		shockwave_lifetime = 10
+		#Speed of shockwave
+		#Default = 3
+		#Range: 0.0 ~ 10.0
+		shockwave_speed = 3.0
+		#Damage of shockwave, depends on main attack damage
+		#Default = 0.7
+		#Range: 0.0 ~ 10000.0
+		shockwave_damage = 0.7
+		#Knockback power of shockwave
+		#Default = 4
+		#Range: 0.0 ~ 10.0
+		shockwave_knockback = 4.0
+

@@ -1,0 +1,12 @@
+{
+  "language.name": "日本語",
+  "language.region": "日本",
+  "language.code": "ja_jp",
+
+  "event.minecraft.raid": "\uE903",
+  "entity.minecraft.wither": "\uE906",
+  "entity.minecraft.ender_dragon": "\uE907",
+  "event.minecraft.raid.raiders_remaining": "",
+  "event.minecraft.raid.victory": "",
+  "event.minecraft.raid.defeat": ""
+}

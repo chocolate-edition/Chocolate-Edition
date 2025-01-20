@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "structures"
+	group: "124DA5EC6A42A11D"
+	id: "39A609A9FFFA4856"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "Structures"
+}

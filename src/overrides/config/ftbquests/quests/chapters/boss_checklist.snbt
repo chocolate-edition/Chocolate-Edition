@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss_checklist"
+	group: "124DA5EC6A42A11D"
+	id: "0D693FCDBA550429"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Bosses"
+}

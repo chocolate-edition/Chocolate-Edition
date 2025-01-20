@@ -8,16 +8,16 @@
     ```git
     git checkout -b release/<version number>
     ```
-
-3. open the root folder of your git repo.
-4. select all files, and send to a zip archive.
+3. update the version in `src/manifest.json`, `src/overrides/config/bcc-common.toml`, and `src/overrides/config/modpack-update-checker/config.json`
+4. open the root folder of your git repo.
+5. select all files, and send to a zip archive.
 
 ## client pack
 
 5. open curseforge and "import" the .zip as a profile.
 6. start the game an verify everything works in a single player world.
 7. in curseforge, export the profile.
-  when exporting, name it "The Chocolate Edition - [FORGE]" and set the package version. ensure `config`, `defaultconfigs`, `mods`, `resourcepacks`, `resources`, `scripts`, `shaderpacks`, and `servers.dat` are checked. all others should remain unchecked.
+  when exporting, name it "The Chocolate Edition" and set the package version. ensure `config`, `defaultconfigs`, `mods`, `resourcepacks`, `resources`, `scripts`, `shaderpacks`(uncheck the shaderpack settings.txt file), and `servers.dat` are checked. all others should remain unchecked.
 8. once complete, you can safely delete the profile made from the git repo. create a new profile import using the zip you just exported.
 9. start the game and verify everything works in a single player world.
 
@@ -29,7 +29,7 @@
     - click the green folder for `server icon` and choose the image found in this repo
 11. click "Generate."
 12. once the server pack has completed, run the server and connect to it via local host to verify everything works.
-13. open your server pack folder and find the server pack zip that was jsut created. rename it to `The_Chocolate_Edition_<version>_server_pack.zip`.
+13. open your server pack folder and find the server pack zip that was just created. rename it to `The_Chocolate_Edition-<version>_server_pack.zip`.
 14. copy the `how to start the server` instructions into the zip.
 
 ## verifying changes
@@ -37,12 +37,22 @@
 15. in your local git repo, delete the `overrides` folder, then copy the contents (overrides, modlist, manifest) of the profile export into your git repo, replacing/overriding the existing modlist and manifest.
 16. using vscode source control tab or github desktop, review the changes made by copying in the profile export. use <https://diffsort.com/> to compare changes in the modlist and manifest.
   ensure no unintended changes have been made. if not, correct the changes then start over from step 1.
+
+  use the sorted version of the modlist from diffsort(make sure the opening <u> has no / while the closing </u> does).\
+  sort the manifest files by project id using [sort json extension](https://marketplace.cursorapi.com/items?itemName=Thinker.sort-json).
+
 17. edit the manifest in the profile export zip to ensure the title, version, and author are correct.
+  add the release details to `modpackUpdateChecker/meta.json`, with the changelog in `modpackUpdateChecker/versions/<version>/changelog.txt`
+  options for updateType are
+    "minor"
+    "minor_breaking": Will show a backup screen upon entering an older world.
+    "major": Will show a backup screen upon entering an older world.
+    "incompatible": Will prevent users from entering old worlds.
 
 ## uploading
 
 18. go [here](https://authors.curseforge.com/#/projects/888414/files) and click "upload file."
-19. choose the profile export zip with the corrected manifest, set the modloader to forge and set the minecraft version to 1.19.2
+19. choose the profile export zip with the corrected manifest, bcc and modpacka update checker configs, set the modloader to forge and set the minecraft version to 1.19.2
 20. while it is uploading, use the items in the "done for this update" column of the [todo list](https://github.com/orgs/chocolate-edition/projects/1) to write the changelog.
   the changelog can be split up into `features`, `changes`, and `bug fixes`. use your discretion as to what is what. be descriptive yet succinct about the changes. see past changelogs for examples.
 21. once the file upload is complete, click "upload file" at the bottom of the page.

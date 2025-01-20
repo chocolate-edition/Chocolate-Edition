@@ -1,0 +1,53 @@
+
+#General Settings
+[general]
+	#Use list instead of built-in rules for despawning?
+	enableList = false
+	#List of mobs to despawn. [Requires enableList]
+	#Formatting: ["minecraft:zombie", "minecraft:*", "<modId>:<entityId>"]
+	mobs = ["minecraft:creeper", "minecraft:zombie", "minecraft:spider"]
+	#Adds mobs to despawn group. Mobs in blacklisted are prevented from despawning.
+	#Allowed Groups: boss, monster, villager, creature, ambient, construct, misc, blacklisted
+	#Formatting: ["minecraft:villager:villager", "minecraft:*:creature", "<modId>:<entityId>:<group>"]
+	groups = ["minecraft:ender_dragon:boss", "minecraft:wither:boss", "minecraft:warden:boss", "minecraft:villager:villager", "minecraft:wandering_trader:villager", "minecraft:iron_golem:construct", "minecraft:snow_golem:construct"]
+
+#Range Settings
+[range]
+	#Should difficulty based range scaling be enabled?
+	#Difficulty Scaling: EASY = base | NORMAL = base / 2 | HARD = base / 4
+	enableScaling = true
+	#Horizontal radius to check for mobs to despawn.
+	#Range: 0 ~ 256
+	horizontalRange = 64
+	#Vertical radius to check for mobs to despawn.
+	#Range: 0 ~ 64
+	verticalRange = 16
+
+#Conditional Checks
+[checks]
+	#Player must sleep before this time to allow despawning.
+	#Allowed Values: MORNING_E, MORNING, MORNING_L, NOON_E, NOON, NOON_L, EVENING_E, EVENING, EVENING_L, NIGHT_E, NIGHT, NIGHT_L, DISABLED
+	lateCheck = "NIGHT_L"
+	#Latest time the player can wakeup to allow despawning.
+	#Allowed Values: MORNING_E, MORNING, MORNING_L, NOON_E, NOON, NOON_L, EVENING_E, EVENING, EVENING_L, NIGHT_E, NIGHT, NIGHT_L, DISABLED
+	morningCheck = "MORNING_E"
+	#Should non-sleeping players prevent despawning around them?
+	playerCheck = true
+
+	#Group Checks [Requires enableList]
+	[checks.group_checks]
+		#Check boss group?
+		bossCheck = false
+		#Check monster group?
+		monsterCheck = true
+		#Check villager group?
+		villagerCheck = false
+		#Check creature group?
+		creatureCheck = true
+		#Check ambient group?
+		ambientCheck = true
+		#Check construct group?
+		constructCheck = false
+		#Check misc group?
+		miscCheck = false
+

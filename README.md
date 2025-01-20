@@ -23,7 +23,7 @@ update schedule working document: <https://docs.google.com/document/d/15oeWpq6uO
 
 ### Creating Issues
 
-we use [the todo list](https://github.com/orgs/chocolate-edition/projects/1/views/1?filterQuery=) to track our progress and act as a sort of changelog.
+we use [the todo list](https://github.com/orgs/chocolate-edition/projects/1/views/1) to track our progress and act as a sort of changelog.
 
 1. you can choose an existing issue and assign it to yourself, or create a new one by selecting "add item" at the bottom of a list and give it a title.
 
@@ -53,7 +53,7 @@ we use [the todo list](https://github.com/orgs/chocolate-edition/projects/1/view
 
 3. open the repo in the file explorer (you can do this easily from vscode by right clicking any file and chose "reveal in file explorer")
 
-4. select all items (you can leave .git unselected to speed up the compression), and send them to a zip archive. we reccommend using [Winrar](https://www.win-rar.com/start.html?&L=0) for all your zipping and unzipping needs. simply select the files, right click, then "add to archive"
+4. select the contents of the `/src/` folder and send to archive. we reccommend using [Winrar](https://www.win-rar.com/start.html?&L=0) for all your zipping and unzipping needs. simply select the files, right click, then "add to archive"
     be sure to first delete any previous zips\
     be sure to select `ZIP` as your archive format.\
     ![add to archive](<documentation screenshots/winrar add to archive.png>)
@@ -73,7 +73,7 @@ we use [the todo list](https://github.com/orgs/chocolate-edition/projects/1/view
 
 8. extract the zip (right click, choose winrar "extract to"), then open the extracted folder and **copy** the contents.
 
-9. open your git repo in the file explorer, delete the `overrides`, `manifest.json`, and `modlist.html`, and paste in the ones you copied.\
+9. open your git repo in the file explorer, delete the contents of the `/src/` folder, and paste in the ones you copied.\
 once you are done copying, it is safe to delete the zip and extracted foler
 
 10. open the repo in vscode, and go to the `source control` tab. review your changes by clicking each file and see the lines being added in green, and removed in red.
@@ -93,7 +93,10 @@ once you are done copying, it is safe to delete the zip and extracted foler
 13. verify the `modlist.html` using [diffsort](https://diffsort.com/).
     1. with the editor in side-by-side mode, click on the left side and do `ctrl + a`, `ctrl + c` to copy, then paste into the left side of diffsort.
     2. repeat for the right side, then click "sort lines" at the top of the page.
-    do this to verify that the changes you intened to make to the mods have actually been applied, and nothing has been changed unintentionally.
+    do this to verify that the changes you intened to make to the mods have actually been applied, and nothing has been changed unintentionally. please use the sorted version of the modlist, ensuring it begins with `<u>` (no /) and ends with `</u>`
+    3. using [sort json extension](https://marketplace.cursorapi.com/items?itemName=Thinker.sort-json), sort the manifest files array accending by project id.\
+    ![sort](<documentation screenshots/sort-ascending.png>)\
+    ![projectid](<documentation screenshots/sort-projectid.png>)
 
 14. once you have *added* some files to *staged changes*, you can commit them by writting a short message to describe the changes, then press the blue "commit" button\
     commit messages should be 1 line sentences to briefly describe what changes are being made in the fiels included in the commit.\

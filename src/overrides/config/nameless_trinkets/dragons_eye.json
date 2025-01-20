@@ -1,0 +1,7 @@
+{
+  "config": {
+    "radius": 15.0,
+    "blindness": true,
+    "isEnable": true
+  }
+}

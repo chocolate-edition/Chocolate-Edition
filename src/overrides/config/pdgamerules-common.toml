@@ -1,0 +1,5 @@
+[rules."minecraft:overworld"]
+theappearanceoftheNightmareStalker = "false"
+maggotsAppearance = "false"
+[rules."minecraft:the_nether"]
+doMobLoot = "true"

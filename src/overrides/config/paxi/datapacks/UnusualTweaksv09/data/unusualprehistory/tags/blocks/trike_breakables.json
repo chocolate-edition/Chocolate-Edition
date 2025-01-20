@@ -1,0 +1,18 @@
+{
+  "values": [
+    "#minecraft:leaves",
+    "#minecraft:planks",
+    "#minecraft:logs",
+    "#minecraft:wooden_stairs",
+    "#minecraft:wooden_slabs",
+    "#minecraft:wool",
+    "minecraft:lily_pad",
+    "minecraft:cactus",
+    "minecraft:bamboo",
+    "blue_skies:vitreous_moonstone",
+    "blue_skies:lunar_leaves",
+    "blue_skies:lunar_log",
+    "blue_skies:crystallized_leaves",
+    "blue_skies:crystallized_log"
+  ]
+}
