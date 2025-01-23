@@ -4,7 +4,7 @@
   "modpackName": "The Chocolate Edition",
   "modpackAuthor": "richestprune",
   "modpackReleaseType": "stable",
-  "updateCheckerId": "https://raw.githubusercontent.com/chocolate-edition/Chocolate-Edition/refs/heads/main/modpackUpdateChecker",
+  "updateCheckerId": "https://raw.githubusercontent.com/chocolate-edition/Chocolate-Edition/refs/heads/main/modpackUpdateChecker/",
   "advanced": {
     "bccEnabled": false,
     "expandButton": false,
