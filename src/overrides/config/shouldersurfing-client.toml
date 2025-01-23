@@ -8,7 +8,7 @@
 	camera_step_size = 0.025
 	#The speed multiplier at which the camera transitions between positions.
 	#Range: 0.05 ~ 1.0
-	camera_transition_speed_multiplier = 0.25
+	camera_transition_speed_multiplier = 0.5
 	#The angle at which the camera will be centered when looking down. Set to 0 to disable.
 	#Range: 0.0 ~ 90.0
 	center_camera_when_looking_down_angle = 10.0
@@ -23,7 +23,7 @@
 		offset_x = -0.5
 		#Third person camera y-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_y = 0.0
+		offset_y = 0.5
 		#Third person camera z-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		offset_z = 2.5
@@ -91,7 +91,7 @@
 				multiplier_offset_y = 1.0
 				#z-offset multiplier for when the player is aiming.
 				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-				multiplier_offset_z = 1.0
+				multiplier_offset_z = 0.25
 
 			[camera.offset.multiplier.fall_flying]
 				#x-offset multiplier for when using Elytra.
