@@ -9,5 +9,7 @@
 	// When enables, the mod works with double fence gates.
 	"enableFenceGates": true,
 	// When enables, the mod works with double trapdoors.
-	"enableTrapdoors": true
+	"enableTrapdoors": true,
+	// Checks if there are other mods loaded with double door functionality, such as Quark. If found, it edits a line in their config to disable double doors. Fixes doors not opening due to code being ran twice.
+	"enableModIncompatibilityCheck": true
 }

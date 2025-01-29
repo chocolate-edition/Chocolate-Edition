@@ -1,6 +1,10 @@
 
 [mobs]
 
+	[mobs.deer]
+		#If Deer can reproduce and spread flowers by feeding them an Apple followed by a flower
+		"Deer flower reproducing" = true
+
 	[mobs.koi]
 		#Make Koi only block natural spawns
 		"Block only natural spawns" = true
@@ -12,10 +16,6 @@
 		"Vertical serenity range (radius)" = 8
 		#If Koi exude Serenity as a potion effect
 		"Serenity potion effect" = true
-
-	[mobs.deer]
-		#If Deer can reproduce and spread flowers by feeding them an Apple followed by a flower
-		"Deer flower reproducing" = true
 
 	[mobs.pig]
 		#If Pigs hunt for Truffles when given a Golden Carrot

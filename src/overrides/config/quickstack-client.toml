@@ -28,8 +28,8 @@
 	#Survival inventory button position height offset.
 	#Range: > -2147483648
 	"Survival inventory button Y offset" = -20
-	"Blacklisted Block Entities" = ["minecraft:furnace", "minecraft:blast_furnace", "minecraft:smoker"]
-	"Whitelisted containers" = ["curios:curios_container"]
 	#favorites color background
 	favorite_color = "#FFFFBB"
+	"Blacklisted Block Entities" = ["minecraft:furnace", "minecraft:blast_furnace", "minecraft:smoker"]
+	"Whitelisted containers" = ["curios:curios_container"]
 

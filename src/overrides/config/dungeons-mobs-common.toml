@@ -87,13 +87,13 @@
 	#Enable the addition of Royal Guards to raids. [true / false]
 	enableRoyalGuardsInRaids = true
 	#Enable the addition of Geomancers to raids. [true / false]
-	enableGeomancersInRaids = true
+	enableGeomancersInRaids = false
 	#Enable the addition of Illusioners to raids. [true / false]
 	enableIllusionersInRaids = true
 	#Enable the addition of Mages to raids. [true / false]
 	enableMagesInRaids = true
 	#Enable the addition of Iceologers to raids. [true / false]
-	enableIceologersInRaids = true
+	enableIceologersInRaids = false
 	#Enable the addition of Windcallers to raids. [true / false]
 	enableWindcallersInRaids = true
 	#Enable the addition of Armored Pillagers to raids. [true / false]

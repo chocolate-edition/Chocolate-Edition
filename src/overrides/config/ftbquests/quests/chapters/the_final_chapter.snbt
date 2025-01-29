@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
@@ -90,7 +91,7 @@
 			y: 13.25d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -892,33 +893,6 @@
 			title: "UHHHH OKAY THAT DIDN'T WORK"
 			x: 7.25d
 			y: 15.25d
-		}
-		{
-			can_repeat: true
-			dependencies: ["18D13DCDDA5080A0"]
-			description: ["You can submit one experience point to check the Wither Storm's current Phase."]
-			icon: "witherstormmod:amulet"
-			id: "56E27A0E697BEB43"
-			rewards: [{
-				command: "data get entity @e[type=witherstormmod:wither_storm,limit=1] Phase"
-				exclude_from_claim_all: true
-				icon: "witherstormmod:amulet"
-				id: "67022095843F11A5"
-				player_command: true
-				team_reward: false
-				title: "Get Wither Storm Phase"
-				type: "command"
-			}]
-			subtitle: "For the low, low price of an experience point!"
-			tasks: [{
-				id: "0AB72FB0616D871A"
-				points: false
-				type: "xp"
-				value: 1L
-			}]
-			title: "Wither Storm Phase Check"
-			x: 21.25d
-			y: 7.25d
 		}
 	]
 	title: "&5The Final Chapter?"

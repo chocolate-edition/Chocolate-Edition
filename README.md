@@ -94,6 +94,9 @@ once you are done copying, it is safe to delete the zip and extracted foler
     1. with the editor in side-by-side mode, click on the left side and do `ctrl + a`, `ctrl + c` to copy, then paste into the left side of diffsort.
     2. repeat for the right side, then click "sort lines" at the top of the page.
     do this to verify that the changes you intened to make to the mods have actually been applied, and nothing has been changed unintentionally. please use the sorted version of the modlist, ensuring it begins with `<u>` (no /) and ends with `</u>`
+    3. using [sort json extension](https://marketplace.cursorapi.com/items?itemName=Thinker.sort-json), sort the manifest files array accending by project id.\
+    ![sort](<documentation screenshots/sort-ascending.png>)\
+    ![projectid](<documentation screenshots/sort-projectid.png>)
 
 14. once you have *added* some files to *staged changes*, you can commit them by writting a short message to describe the changes, then press the blue "commit" button\
     commit messages should be 1 line sentences to briefly describe what changes are being made in the fiels included in the commit.\

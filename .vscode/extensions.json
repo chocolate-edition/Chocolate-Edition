@@ -6,6 +6,7 @@
     "mrmlnc.vscode-json5",
     "arcensoth.language-mcfunction",
     "misodee.vscode-nbt",
-    "minecraftcommands.syntax-mcfunction"
+    "minecraftcommands.syntax-mcfunction",
+    "thinker.sort-json"
   ]
 }

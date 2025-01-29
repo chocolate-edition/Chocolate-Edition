@@ -1,6 +1,87 @@
 
 [types]
 
+	[types.wood_type]
+
+		[types.wood_type.blue_skies]
+			crystallized = true
+			bluebright = true
+			starlit = true
+			frostbright = true
+			lunar = true
+			dusk = true
+			maple = true
+			cherry = true
+
+		[types.wood_type.quark]
+			bamboo = true
+			azalea = true
+			ancient = true
+			blossom = true
+
+		[types.wood_type.ecologics]
+			flowering_azalea = true
+			azalea = true
+			coconut = true
+			walnut = true
+
+		[types.wood_type.iter_rpg]
+			sacred = true
+
+		[types.wood_type.luphieclutteredmod]
+			luphie_flowering_pink = true
+			luphie_yellow = true
+			luphie_flowering_yellow = true
+			luphie_green = true
+			luphie_glow = true
+			luphie_purple = true
+			luphie_flowering_purple = true
+			luphie_pink = true
+
+		[types.wood_type.born_in_chaos_v1]
+			scorched = true
+
+		[types.wood_type.cataclysm]
+			chorus = true
+
+		[types.wood_type.enlightened_end]
+			indigo = true
+			cerulean = true
+
+		[types.wood_type.environmental]
+			willow = true
+			pine = true
+			cherry = true
+			wisteria = true
+
+		[types.wood_type.upgrade_aquatic]
+			driftwood = true
+			river = true
+
+		[types.wood_type.endergetic]
+			poise = true
+
+		[types.wood_type.autumnity]
+			maple = true
+
+		[types.wood_type.atmospheric]
+			rosewood = true
+			morado = true
+			yucca = true
+			aspen = true
+			laurel = true
+			kousa = true
+			grimwood = true
+
+		[types.wood_type.unusualprehistory]
+			foxxi = true
+			ginkgo = true
+			dryo = true
+
+		[types.wood_type.gardens_of_the_dead]
+			soulblight = true
+			whistlecane = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.blue_skies]
@@ -14,11 +95,18 @@
 			maple = true
 			cherry = true
 
+		[types.leaves_type.iter_rpg]
+			sacred = true
+
+		[types.leaves_type.ecologics]
+			coconut = true
+			walnut = true
+
 		[types.leaves_type.environmental]
-			willow = true
-			cherry = true
 			hibiscus = true
+			willow = true
 			pine = true
+			cherry = true
 			cheerful_cherry = true
 			moody_cherry = true
 			wisteria = true
@@ -27,21 +115,27 @@
 			purple_wisteria = true
 			white_wisteria = true
 
+		[types.leaves_type.upgrade_aquatic]
+			river = true
+
 		[types.leaves_type.autumnity]
 			maple = true
 			yellow_maple = true
 			orange_maple = true
 			red_maple = true
 
-		[types.leaves_type.upgrade_aquatic]
-			river = true
-
-		[types.leaves_type.ecologics]
-			coconut = true
-			walnut = true
-
-		[types.leaves_type.iter_rpg]
-			sacred = true
+		[types.leaves_type.atmospheric]
+			rosewood = true
+			morado = true
+			flowering_morado = true
+			yucca = true
+			aspen = true
+			green_aspen = true
+			laurel = true
+			dry_laurel = true
+			kousa = true
+			currant = true
+			grimwood = true
 
 		[types.leaves_type.quark]
 			ancient = true
@@ -52,126 +146,14 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.atmospheric]
-			rosewood = true
-			morado = true
-			flowering_morado = true
-			yucca = true
-			kousa = true
-			aspen = true
-			grimwood = true
-			green_aspen = true
-			laurel = true
-			dry_laurel = true
-			currant = true
-
 		[types.leaves_type.unusualprehistory]
-			foxxi = true
-			ginkgo = true
-			dryo = true
-
-	[types.wood_type]
-
-		[types.wood_type.blue_skies]
-			crystallized = true
-			bluebright = true
-			starlit = true
-			frostbright = true
-			lunar = true
-			dusk = true
-			maple = true
-			cherry = true
-
-		[types.wood_type.born_in_chaos_v1]
-			scorched = true
-
-		[types.wood_type.enlightened_end]
-			indigo = true
-			cerulean = true
-
-		[types.wood_type.environmental]
-			willow = true
-			cherry = true
-			wisteria = true
-			pine = true
-
-		[types.wood_type.autumnity]
-			maple = true
-
-		[types.wood_type.upgrade_aquatic]
-			driftwood = true
-			river = true
-
-		[types.wood_type.ecologics]
-			flowering_azalea = true
-			azalea = true
-			coconut = true
-			walnut = true
-
-		[types.wood_type.iter_rpg]
-			sacred = true
-
-		[types.wood_type.quark]
-			bamboo = true
-			azalea = true
-			ancient = true
-			blossom = true
-
-		[types.wood_type.luphieclutteredmod]
-			luphie_flowering_pink = true
-			luphie_yellow = true
-			luphie_flowering_yellow = true
-			luphie_green = true
-			luphie_glow = true
-			luphie_purple = true
-			luphie_flowering_purple = true
-			luphie_pink = true
-
-		[types.wood_type.cataclysm]
-			chorus = true
-
-		[types.wood_type.atmospheric]
-			rosewood = true
-			morado = true
-			yucca = true
-			kousa = true
-			aspen = true
-			grimwood = true
-			laurel = true
-
-		[types.wood_type.endergetic]
-			poise = true
-
-		[types.wood_type.unusualprehistory]
 			foxxi = true
 			ginkgo = true
 			dryo = true
 
 [entries]
 
-	[entries.leaves_type]
-
-		[entries.leaves_type.woodworks]
-			leaf_pile = true
-
-		[entries.leaves_type.quark]
-			hedge = true
-			leaf_carpet = true
-
 	[entries.wood_type]
-
-		[entries.wood_type.create]
-			window = true
-			window_pane = true
-
-		[entries.wood_type.farmersdelight]
-			cabinet = true
-
-		[entries.wood_type.woodworks]
-			bookshelf = true
-			boards = true
-			ladder = true
-			beehive = true
 
 		[entries.wood_type.friendsandfoes]
 			beehive = true
@@ -185,6 +167,35 @@
 			half_drawers_2 = true
 			full_drawers_1 = true
 
+		[entries.wood_type.another_furniture]
+			shelf = true
+			shutter = true
+			planter_box = true
+			bench = true
+			table = true
+			drawer = true
+			chair = true
+
+		[entries.wood_type.table_top_craft]
+			connect_four = true
+			chess = true
+			chess_timer = true
+
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
+
+		[entries.wood_type.woodworks]
+			trapped_chest = true
+			boards = true
+			chest = true
+			beehive = true
+			bookshelf = true
+			ladder = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
 		[entries.wood_type.quark]
 			hollow_log = true
 			vertical_planks = true
@@ -195,12 +206,12 @@
 			stripped_post = true
 			ladder = true
 
-		[entries.wood_type.another_furniture]
-			shelf = true
-			shutter = true
-			planter_box = true
-			bench = true
-			table = true
-			drawer = true
-			chair = true
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+
+		[entries.leaves_type.woodworks]
+			leaf_pile = true
 

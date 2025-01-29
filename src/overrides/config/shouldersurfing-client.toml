@@ -6,31 +6,27 @@
 	#Size of the camera adjustment per step.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	camera_step_size = 0.025
-	#Whether or not to temporarily center the camera when climbing.
-	center_camera_when_climbing = true
-	#Whether or not to temporarily center the camera when using Elytra.
-	center_camera_when_fall_flying = true
 	#The speed multiplier at which the camera transitions between positions.
 	#Range: 0.05 ~ 1.0
-	camera_transition_speed_multiplier = 0.25
+	camera_transition_speed_multiplier = 0.5
 	#The angle at which the camera will be centered when looking down. Set to 0 to disable.
 	#Range: 0.0 ~ 90.0
 	center_camera_when_looking_down_angle = 10.0
 	#Whether or not to dynamically adjust camera offsets depending on space constraints.
 	dynamically_adjust_offsets = true
 	#Whether or not to decouple the camera rotation from the player rotation.
-	decoupled_camera = true
+	decoupled_camera = false
 
 	[camera.offset]
 		#Third person camera x-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_x = -0.75
+		offset_x = -0.5
 		#Third person camera y-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_y = 0.0
+		offset_y = 0.5
 		#Third person camera z-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_z = 1.5
+		offset_z = 2.5
 
 		[camera.offset.min]
 			#When x-offset is limited this is the minimum amount.
@@ -95,7 +91,7 @@
 				multiplier_offset_y = 1.0
 				#z-offset multiplier for when the player is aiming.
 				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-				multiplier_offset_z = 1.0
+				multiplier_offset_z = 0.25
 
 			[camera.offset.multiplier.fall_flying]
 				#x-offset multiplier for when using Elytra.
@@ -105,6 +101,17 @@
 				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 				multiplier_offset_y = 1.0
 				#z-offset multiplier for when using Elytra.
+				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				multiplier_offset_z = 1.0
+
+			[camera.offset.multiplier.climbing]
+				#x-offset multiplier for when the player is climbing.
+				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				multiplier_offset_x = 0.0
+				#y-offset multiplier for when the player is climbing.
+				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				multiplier_offset_y = 1.0
+				#z-offset multiplier for when the player is climbing.
 				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 				multiplier_offset_z = 1.0
 
@@ -154,6 +161,17 @@
 				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 				modifier_offset_z = 0.0
 
+			[camera.offset.modifiers.climbing]
+				#x-offset modifier for when the player is climbing.
+				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				modifier_offset_x = 0.0
+				#y-offset modifier for when the player is climbing.
+				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				modifier_offset_y = 0.0
+				#z-offset modifier for when the player is climbing.
+				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				modifier_offset_z = 0.0
+
 [perspective]
 	#The default perspective when you load the game.
 	#Allowed Values: FIRST_PERSON, THIRD_PERSON_BACK, THIRD_PERSON_FRONT, SHOULDER_SURFING
@@ -162,22 +180,26 @@
 	remember_last_perspective = true
 	#Whether or not to replace the default third person perspective.
 	replace_default_perspective = true
-	#Whether or not to skip the third person front perspective.
-	skip_third_person_front_perspective = false
+	#Whether or not the first person perspective is enabled.
+	first_person_enabled = true
+	#Whether or not the third person front perspective is enabled.
+	third_person_front_enabled = true
+	#Whether or not the third person back perspective is enabled.
+	third_person_back_enabled = true
 
 [player]
 	#Whether or not to adjust the player model transparency when view is obstructed. Changing this value may require a game restart to take full effect.
 	adjust_player_transparency = true
 	#The angle at which the player will no longer be rendered when looking up. Set to 0 to disable.
 	#Range: 0.0 ~ 90.0
-	hide_player_when_looking_up_angle = 30.0
+	hide_player_when_looking_up_angle = 10.0
 	#Whether the x-rot of the player should follow the camera x-rot. This config option only applies when camera is decoupled.
-	player_x_rot_follows_camera = true
+	player_x_rot_follows_camera = false
 	#Whether the y-rot of the player should follow the camera y-rot. This config option only applies when camera is decoupled.
-	player_y_rot_follows_camera = true
+	player_y_rot_follows_camera = false
 	#The maximum angle to which the player y-rot follows the camera y-rot. This config option only applies when player y-rot follows camera option is enabled.
 	#Range: 0.0 ~ 180.0
-	player_y_rot_follow_angle_limit = 180.0
+	player_y_rot_follow_angle_limit = 90.0
 
 	[player.turning]
 		#Whether to turn the player when using an item. This config option only applies when camera is decoupled.
@@ -185,7 +207,7 @@
 		when_using_item = "ALWAYS"
 		#Whether to turn the player when attacking. This config option only applies when camera is decoupled.
 		#Allowed Values: ALWAYS, NEVER, REQUIRES_TARGET
-		when_attacking = "ALWAYS"
+		when_attacking = "REQUIRES_TARGET"
 		#Whether to turn the player when interacting with blocks. This config option only applies when camera is decoupled.
 		#Allowed Values: ALWAYS, NEVER, REQUIRES_TARGET
 		when_interacting = "ALWAYS"
@@ -229,21 +251,33 @@
 	#Item properties of an item, that when used, trigger the dynamic crosshair in adaptive mode.
 	adaptive_crosshair_use_item_properties = ["minecraft:pull", "minecraft:throwing"]
 
+	[crosshair.obstruction]
+		#When the crosshair type is static, shows an additional indicator on obstacles that stand between you and your target.
+		show_obstruction_indicator = true
+		#Only show the obstruction indicator when using items that would trigger the adaptive crosshair.
+		only_when_aiming = true
+		#Hide the obstruction indicator when it is too close to the main crosshair. Distance measured in scaled pixels.
+		#Range: > 0
+		min_distance_to_crosshair = 8
+		#Ignore obstructions that are too far away from the player. Distance measured in blocks. Set to 0 to disable.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		max_distance_to_obstruction = 20.0
+
 	[crosshair.visibility]
 		#Crosshair visibility for first person.
 		#Allowed Values: ALWAYS, NEVER, WHEN_AIMING, WHEN_IN_RANGE, WHEN_AIMING_OR_IN_RANGE
 		first_person = "ALWAYS"
 		#Crosshair visibility for third person back.
 		#Allowed Values: ALWAYS, NEVER, WHEN_AIMING, WHEN_IN_RANGE, WHEN_AIMING_OR_IN_RANGE
-		third_person_back = "ALWAYS"
+		third_person_back = "NEVER"
 		#Crosshair visibility for third person front.
 		#Allowed Values: ALWAYS, NEVER, WHEN_AIMING, WHEN_IN_RANGE, WHEN_AIMING_OR_IN_RANGE
-		third_person_front = "ALWAYS"
+		third_person_front = "NEVER"
 		#Crosshair visibility for shoulder surfing.
 		#Allowed Values: ALWAYS, NEVER, WHEN_AIMING, WHEN_IN_RANGE, WHEN_AIMING_OR_IN_RANGE
 		shoulder_surfing = "ALWAYS"
 
 [audio]
 	#Whether to center sounds made by the player.
-	center_player_sounds = true
+	center_player_sounds = false
 

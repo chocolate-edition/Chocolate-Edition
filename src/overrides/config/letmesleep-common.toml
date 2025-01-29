@@ -1,0 +1,14 @@
+
+#General Settings
+[general]
+	#Should nearby monsters prevent sleep?
+	monsterCheck = true
+	#Should only monsters tracking the player prevent sleep? [Requires monsterCheck]
+	betterChecking = true
+	#Horizontal radius to check for monsters. [Requires betterChecking]
+	#Range: 0 ~ 256
+	horizontalRange = 32
+	#Vertical radius to check for monsters. [Requires betterChecking]
+	#Range: 0 ~ 64
+	verticalRange = 16
+
