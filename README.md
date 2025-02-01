@@ -39,6 +39,11 @@ we use [the todo list](https://github.com/orgs/chocolate-edition/projects/1/view
 
 ### Typical Workflow
 
+**note:**
+if your changes involve deleting a file from `/src/overrides/scripts/`, instead leave the file blank, then create a new issue on the todo list to delete the file as part of the next update. 
+
+(this is due to a quirk with how ATLauncher automatic updates work and should jsut genreally help reduce the amount of people with broken scripts after an update) 
+
 `main` represents the current latest release. It should only be merged to prior to a new version release. Do not touch it unless you just published a new version.
 
 `develop` branch is the main development branch that represents the next release as it is developed.
