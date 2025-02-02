@@ -16,6 +16,11 @@
 		}
 		id: "55BA9E32C79162F5"
 		invisible: true
+		rewards: [{
+			id: "448655442033F405"
+			item: "waystones:waystone"
+			type: "item"
+		}]
 		size: 5.0d
 		subtitle: "The Realm of Space, blending extremities of endless void and living off mystical energies."
 		tasks: [{
