@@ -7,23 +7,28 @@
 	id: "513B88027767E135"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		dependency_requirement: "one_completed"
-		hide: true
-		icon: {
-			Count: 1b
-			id: "ftbquests:custom_icon"
-			tag: {
-				Icon: "enlightened_end:items/empty_everglint_mirror"
+	quests: [
+		{
+			dependency_requirement: "one_completed"
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enlightened_end:items/empty_everglint_mirror"
+				}
 			}
-		}
-		id: "002119AE11735C80"
-		invisible: true
-		invisible_until_tasks: 1
-		size: 5.0d
-		subtitle: "Distorted Realms of Light and Dark, simultaneously prehistoric and everlasting."
-		tasks: [
-			{
+			id: "002119AE11735C80"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "3A50EF61FD3573F3"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			size: 5.0d
+			subtitle: "Distorted Realms of Light and Dark, simultaneously prehistoric and everlasting."
+			tasks: [{
 				dimension: "blue_skies:everbright"
 				icon: {
 					Count: 1b
@@ -34,8 +39,32 @@
 				}
 				id: "1F7AA9CFCB617A97"
 				type: "dimension"
+			}]
+			title: "Everbright"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enlightened_end:items/empty_everglint_mirror"
+				}
 			}
-			{
+			id: "08EBAC5620061699"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "716D5E5C00A9DAF5"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			size: 5.0d
+			subtitle: "Distorted Realms of Light and Dark, simultaneously prehistoric and everlasting."
+			tasks: [{
 				dimension: "blue_skies:everdawn"
 				icon: {
 					Count: 1b
@@ -44,13 +73,13 @@
 						Icon: "blue_skies:block/portal/everdawn_portal"
 					}
 				}
-				id: "3F62B00F0F96C510"
+				id: "3B1DE078D7D568D6"
 				type: "dimension"
-			}
-		]
-		title: "Everdawn - Everbright"
-		x: 0.5d
-		y: 0.25d
-	}]
+			}]
+			title: "Everdawn"
+			x: 6.25d
+			y: 0.0d
+		}
+	]
 	title: "&bEverdawn - &cEverbright"
 }
