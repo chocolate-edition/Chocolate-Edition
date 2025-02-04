@@ -16,6 +16,11 @@
 		}
 		id: "51D2618414C8D9EA"
 		invisible: true
+		rewards: [{
+			id: "00276539921AA1F9"
+			item: "waystones:waystone"
+			type: "item"
+		}]
 		size: 5.0d
 		subtitle: "The Realm of Chaos, where cthonic and primordial forces bubble and broil."
 		tasks: [{

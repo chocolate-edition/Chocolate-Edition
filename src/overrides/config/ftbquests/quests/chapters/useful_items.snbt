@@ -1183,28 +1183,6 @@
 		}
 		{
 			disable_toast: true
-			icon: "waystones:waystone"
-			id: "0033D56F43CF73BC"
-			rewards: [{
-				id: "5578CAF9467D49D8"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "waystones:waystone"
-				}
-				type: "item"
-			}]
-			shape: "square"
-			size: 3.0d
-			subtitle: "Place it only once for your base. That is the intended experience; however if you end up carrying it around with you, i can't stop you."
-			title: "Free waystone for your base!"
-			x: 4.5d
-			y: 10.5d
-		}
-		{
-			disable_toast: true
 			icon: "iter_rpg:big_vase"
 			id: "03E1F82B1F4D6090"
 			shape: "square"

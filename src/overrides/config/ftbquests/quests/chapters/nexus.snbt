@@ -23,6 +23,11 @@
 		}
 		id: "64C7C18D4EFA7E5D"
 		invisible: true
+		rewards: [{
+			id: "728C196106D2F583"
+			item: "waystones:waystone"
+			type: "item"
+		}]
 		size: 5.0d
 		subtitle: "The Realm of Time, the cogs and wheels between the dimensions, able to access ones even beyond our understanding..."
 		tasks: [{
