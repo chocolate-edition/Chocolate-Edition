@@ -975,6 +975,7 @@
 		}
 		{
 			dependencies: ["3291DD3425A92D43"]
+			description: ["Note: The shield functionality of this item has been disabled due to it having infinite durability."]
 			id: "2542A4FE57D3622A"
 			rewards: [{
 				id: "4491AE05597258D1"
@@ -982,6 +983,7 @@
 				xp: 300
 			}]
 			shape: "square"
+			subtitle: "I'm Mary Poppins, Y'all!"
 			tasks: [{
 				id: "23298698784D3EBD"
 				item: {
