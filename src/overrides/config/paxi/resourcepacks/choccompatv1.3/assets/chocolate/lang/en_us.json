@@ -15,6 +15,7 @@
     "jei_desc.chocolate.infusion_table_2": "Enchantment transferral is done with the following steps:\n1. Place a book on the table. \n2. Place an enchanted item on the table. \n3. Use a Flint and Steel on the table. \n4. Punch the table once the particles subside.",
     "jei_desc.chocolate.backpack_encumbering": "If you're carrying more than one backpack, a Slowness effect will be applied.",
     "jei_desc.chocolate.artifact_repair": "Artifacts can be repaired in an Anvil using Dubious Dust, which can be crafted from other Artifacts at any durability.",
+    "jei_desc.chocolate.umbrella": "Note: The shield functionality of this item has been disabled due to it having infinite durability.",
     "jei_desc.chocolate.ignis_summon": "Place Burning Ashes on the Altar of Fire to summon Ignis.",
     "jei_desc.chocolate.leviathan_summon": "Place an Abyssal Sacrifice on the Altar of Abyss to summon the Leviathan.",
     "jei_desc.chocolate.crab_meat_blessing": "Place Amethyst Crab Meat on the Altar of Amethyst to bless it.",
