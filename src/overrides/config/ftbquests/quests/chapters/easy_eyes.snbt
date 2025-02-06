@@ -1603,6 +1603,8 @@
 				"This item is obtained by processing a &eGold Sheet&r by adding an &eIron Nugget&r, a &eCogwheel&r, and a &eLarge Cogwheel&r using &eDeployers&r. This process must be repeated five times, and has a 20% chance to fail. For more information, use the Ponder mechanic on the &eDeployer&r."
 				""
 				"The Precision Mechanism is fairly tedious to make, but it is used a variety of extremely powerful Create tools such as the &eRotation Speed Controller&r, the &eExtendo-Grip&r, the &eWand of Symmetry&r, and others."
+				""
+				"&oThere is an alternative crafting recipe to craft this for those who are not interested in sequenced assembly.&r"
 			]
 			id: "305E7EC139FEE651"
 			rewards: [
