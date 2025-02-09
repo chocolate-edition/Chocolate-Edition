@@ -104,7 +104,7 @@ once you are done copying, it is safe to delete the zip and extracted foler
 13. sort and verify the manifest and modlist.html using [diffsort](https://diffsort.com/).
     1. copy and paste the contents of `modlist.html` into [diffsort](https://diffsort.com/)
     2. click "sort lines" then copy the contents and paste back into the modlist file, overriding the original contents. ensure it begins with `<ul>` (no /) and ends with `</ul>` (these get incorrectly rearranged due to the sort)
-    3. using [sort json extension](https://marketplace.cursorapi.com/items?itemName=Thinker.sort-json), sort the manifest files array accending by project id.\
+    3. using [sort json extension](https://marketplace.cursorapi.com/items?itemName=Thinker.sort-json), sort the manifest files array accending by project id. note: you may need to correct the indentation by pressing `TAB` with the array selected.\
     4. once sorted, you can review the changes the same as the other files
     ![sort](<documentation screenshots/sort-ascending.png>)\
     ![projectid](<documentation screenshots/sort-projectid.png>)
