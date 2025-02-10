@@ -477,7 +477,6 @@
 <tag:items:chocolate:gear>.add(<item:create:wand_of_symmetry>);
 <tag:items:chocolate:gear>.add(<item:create:wrench>);
 <tag:items:chocolate:gear>.add(<item:create_central_kitchen:cooking_guide>);
-<tag:items:chocolate:gear>.add(<item:create_questing:blueprint>);
 <tag:items:chocolate:gear>.add(<item:crittersandcompanions:gold_dragonfly_armor>);
 <tag:items:chocolate:gear>.add(<item:crittersandcompanions:iron_dragonfly_armor>);
 <tag:items:chocolate:gear>.add(<item:crittersandcompanions:pearl_necklace_1>);
