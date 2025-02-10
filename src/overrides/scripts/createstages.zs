@@ -81,7 +81,6 @@ CTEventManager.register<GameStageAdded>((event) => {
 
 // --------------------------------------------------- ITEM STAGE ONE ------------------------------------------------------------------//
 var itemsStageOne = [
-	//<item:quark:backpack>,
 	<item:aquaculture:neptunium_axe>,
 	<item:aquaculture:neptunium_block>,
 	<item:aquaculture:neptunium_boots>,
