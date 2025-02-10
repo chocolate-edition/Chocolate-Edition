@@ -81,7 +81,7 @@ CTEventManager.register<GameStageAdded>((event) => {
 
 // --------------------------------------------------- ITEM STAGE ONE ------------------------------------------------------------------//
 var itemsStageOne = [
-	<item:quark:backpack>,
+	//<item:quark:backpack>,
 	<item:aquaculture:neptunium_axe>,
 	<item:aquaculture:neptunium_block>,
 	<item:aquaculture:neptunium_boots>,
@@ -104,8 +104,11 @@ var itemsStageOne = [
 	<item:predators:sultan_of_fegefeuer>,
 	<item:predators:huntsmans_spear>,
 	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
-	<item:sophisticatedbackpacks:backpack>,
+	//<item:sophisticatedbackpacks:backpack>,
+	<item:sophisticatedbackpacks:copper_backpack>,
 	<item:sophisticatedbackpacks:iron_backpack>,
+	<item:sophisticatedbackpacks:stack_upgrade_starter_tier>,
+	<item:sophisticatedbackpacks:anvil_upgrade>,
 	<item:sophisticatedbackpacks:filter_upgrade>,
 	<item:sophisticatedbackpacks:advanced_filter_upgrade>,
 	<item:sophisticatedbackpacks:restock_upgrade>,
