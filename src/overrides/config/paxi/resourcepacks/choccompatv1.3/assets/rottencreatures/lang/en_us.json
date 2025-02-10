@@ -1,0 +1,9 @@
+{
+  "entity.rottencreatures.glacial_hunter": "Hunter",
+  "entity.rottencreatures.skeleton_lackey": "Lackey",
+  "entity.rottencreatures.undead_miner": "Miner",
+  "entity.rottencreatures.zap": "Zapped",
+  "entity.rottencreatures.zombie_lackey": "Lackey",
+  "item.rottencreatures.glacial_hunter_spawn_egg": "Hunter Spawn Egg",
+  "item.rottencreatures.undead_miner_spawn_egg": "Miner Spawn Egg"
+}
