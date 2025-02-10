@@ -4,7 +4,7 @@
 [XP] Switch to Nether:false
 [XP] OldBiomes Color:1
 [XP] Persist Dim Switch:true
-[XP] Disable Xaero Internet Access:false
+[XP] Disable Xaero Internet Access:true
 [XP] Waystone Waypoint Set:true
 [XP] Show Render Distance WorldMap:false
 [XP] WorldTools Highlights:true
