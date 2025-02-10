@@ -4,5 +4,7 @@
   "item.environmental.koi_bucket": "Bucket of Red Koi",
   "item.environmental.koi_spawn_egg": "Red Koi Spawn Egg",
   "entity.environmental.deer": "White-Tailed Deer",
+  "entity.environmental.zebra": "Zebra(White with Black Stripes)",
+  "item.environmental.zebra_spawn_egg": "Zebra(White with Black Stripes) Spawn Egg",
   "item.environmental.deer_spawn_egg": "White-Tailed Deer Spawn Egg"
 }

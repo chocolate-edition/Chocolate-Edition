@@ -1,5 +1,9 @@
 {
   "entity.alexsmobs.platypus": "Duck Billed Platypus",
   "item.alexsmobs.platypus_bucket": "Bucked of Duck Billed Platypus",
-  "item.alexsmobs.spawn_egg_platypus": "Duck Billed Platypus Spawn Egg"
+  "item.alexsmobs.spawn_egg_platypus": "Duck Billed Platypus Spawn Egg",
+  "entity.alexsmobs.elephant": "Brown Elephant",
+  "item.alexsmobs.spawn_egg_elephant": "Brown Elephant Egg",
+  "entity.alexsmobs.rhino": "Black Rhino",
+  "item.alexsmobs.spawn_egg_rhino": "Black Rhino Egg"
 }

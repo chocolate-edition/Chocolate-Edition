@@ -1,0 +1,8 @@
+{
+  "entity.graveyard.wraith": "Reaper",
+  "item.graveyard.wraith_spawn_egg": "Reaper Spawn Egg",
+  "entity.graveyard.reaper": "Reapling",
+  "item.graveyard.reaper_spawn_egg": "Reapling Spawn Egg",
+  "entity.graveyard.revenant": "Fiend",
+  "item.graveyard.revenant_spawn_egg": "Fiend Spawn Egg"
+}

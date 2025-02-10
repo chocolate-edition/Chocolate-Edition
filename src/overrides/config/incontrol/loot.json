@@ -10,6 +10,90 @@
     "remove": "minecraft:iron_ingot"
   },
   {
+    "mob": "born_in_chaos_v1:skeleton_thrasher",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "4/5/6"
+  },
+  {
+    "mob": "graveyard:acolyte",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "2/3/4"
+  },
+  {
+    "mob": "graveyard:wraith",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "1/2/3"
+  },
+  {
+    "mob": "born_in_chaos_v1:restless_spirit",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "1/2/3"
+  },
+  {
+    "mob": "born_in_chaos_v1:zombie_clown",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "2/3/4"
+  },
+  {
+    "mob": "born_in_chaos_v1:fallen_chaos_knight",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "4/5/6"
+  },
+  {
+    "mob": "born_in_chaos_v1:bonescaller",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "1/2/3"
+  },
+  {
+    "mob": "born_in_chaos_v1:spirit_guide",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "0/1/2"
+  },
+  {
+    "mob": "born_in_chaos_v1:sir_the_headless",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "4/5/6"
+  },
+  {
+    "mob": "born_in_chaos_v1:zombie_bruiser",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "0/2/4"
+  },
+  {
+    "mob": "born_in_chaos_v1:supreme_bonescaller",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "4/5/6"
+  },
+  {
+    "mob": "born_in_chaos_v1:seared_spirit",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "0/1/2"
+  },
+  {
+    "mob": "born_in_chaos_v1:infernal_spirit",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "1/2/3"
+  },
+  {
+    "mob": "born_in_chaos_v1:missioner",
+    "player": true,
+    "item": "majruszsdifficulty:cloth",
+    "itemcount": "7/8/9"
+  },
+  {
     "mob": "iter_rpg:scallop",
     "remove": "iter_rpg:pearl"
   },
@@ -18,6 +102,24 @@
     "player": true,
     "item": "blue_skies:runic_arc",
     "itemcount": "1/1/1"
+  },
+  {
+    "mob": "dungeons_mobs:iceologer",
+    "player": true,
+    "item": "friendsandfoes:totem_of_freezing",
+    "itemcount": "1/1/1"
+  },
+  {
+    "mob": "dungeons_mobs:illusioner",
+    "player": true,
+    "item": "friendsandfoes:totem_of_illusion",
+    "itemcount": "1/1/1"
+  },
+  {
+    "mob": "infernalexp:embody",
+    "player": true,
+    "item": "nourished_nether:soul_quartz",
+    "itemcount": "1/2/3"
   },
   {
     "mob": "iter_rpg:hobgoblin",
@@ -29,6 +131,12 @@
     "mob": "corundumguardian:corundum_guardian",
     "player": true,
     "item": "blue_skies:life_arc",
+    "itemcount": "1/1/1"
+  },
+  {
+    "mob": "iter_rpg:insatiable",
+    "player": true,
+    "item": "iter_rpg:pearl",
     "itemcount": "1/1/1"
   },
   {

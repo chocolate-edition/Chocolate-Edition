@@ -3,8 +3,9 @@
 
   "entity.naturalist.rhino": "White Rhino", 
   "item.naturalist.rhino_spawn_egg": "White Rhino Spawn Egg", 
+  "entity.naturalist.elephant": "Grey Elephant", 
+  "item.naturalist.elephant_spawn_egg": "Grey Elephant Spawn Egg", 
   "entity.naturalist.catfish": "Bullhead",
-  "entity.naturalist.bluejay": "Interior Blue Jay",
   "item.naturalist.catfish_spawn_egg": "Bullhead Spawn Egg",
   "item.naturalist.catfish_bucket": "Bucket of Bullhead",
   "item.naturalist.catfish": "Bullhead",
@@ -15,7 +16,8 @@
   "item.naturalist.duck_egg": "Mallard Egg",
   "item.naturalist.duck": "Mallard",
   "item.naturalist.cooked_duck": "Cooked Mallard",
-
+  "entity.naturalist.zebra": "Zebra(Black with White Stripes)",
+  "item.naturalist.zebra_spawn_egg": "Zebra(Black with White Stripes) Spawn Egg",
   "item.naturalist.bluejay_spawn_egg": "Interior Blue Jay Spawn Egg",
   "entity.naturalist.bluejay": "Interior Blue Jay",
   "item.naturalist.dragonfly_spawn_egg": "Goggle-Eyed Dragonfly",

@@ -1,6 +1,6 @@
 {
   "attributes": {
-    "attack_range": 3.5,
+    "attack_range": 3,
     "two_handed": true,
     "pose": "bettercombat:pose_two_handed_sword",
     "category": "soul_knife",
