@@ -104,7 +104,6 @@ var itemsStageOne = [
 	<item:predators:sultan_of_fegefeuer>,
 	<item:predators:huntsmans_spear>,
 	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
-	//<item:sophisticatedbackpacks:backpack>,
 	<item:sophisticatedbackpacks:copper_backpack>,
 	<item:sophisticatedbackpacks:iron_backpack>,
 	<item:sophisticatedbackpacks:stack_upgrade_starter_tier>,
