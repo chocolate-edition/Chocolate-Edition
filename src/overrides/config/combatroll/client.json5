@@ -4,6 +4,6 @@
 	"playRollSound": true,
 	"hudArrowColor": 5540067,
 	"hudBackgroundOpacity": 50,
-	"showWhenFull": false,
+	"showWhenFull": true,
 	"showHUDInCreative": true
 }

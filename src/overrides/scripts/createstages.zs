@@ -419,10 +419,10 @@ DimensionStages.stageDimensionWithMessage("minecraft:the_end", "The End requires
 DimensionStages.stageDimensionWithMessage("javd:void", "The Nexus requires 16 eyes worth of power, come back n e v e r...", "four");
 
 
-
-ItemStages.restrict(<item:unusualprehistory:encyclopedia>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
-ItemStages.restrict(<item:supplementaries:sack>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
-ItemStages.restrict(<item:iter_rpg:nightfall>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
+ItemStages.restrict(<item:luphieclutteredmod:luphie_ancient_codex>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
+ItemStages.restrict(<item:unusualprehistory:encyclopedia>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
+ItemStages.restrict(<item:supplementaries:sack>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
+ItemStages.restrict(<item:iter_rpg:nightfall>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
 
 // hide create automated shaped crafting from jei so people dont think they can make gated items using mechanical crafters
 Jei.hideCategory(<resource:create:automatic_shaped>);
