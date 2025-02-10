@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "The Chocolate Edition",
-  "version": "1.8.3",
+  "version": "1.9",
   "author": "richestprune",
   "files": [
     {
@@ -1020,7 +1020,7 @@
       "required": true
     },
     {
-      "fileID": 5349726,
+      "fileID": 5921717,
       "projectID": 551586,
       "required": true
     },
@@ -1040,7 +1040,7 @@
       "required": true
     },
     {
-      "fileID": 5335081,
+      "fileID": 6005782,
       "projectID": 559312,
       "required": true
     },
