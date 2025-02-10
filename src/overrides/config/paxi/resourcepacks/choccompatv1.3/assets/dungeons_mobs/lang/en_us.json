@@ -1,0 +1,14 @@
+{
+  "entity.dungeons_mobs.frozen_zombie": "Everzombie",
+  "entity.dungeons_mobs.icy_creeper": "Evercreeper",
+  "entity.dungeons_mobs.jungle_zombie": "Outcast",
+  "entity.dungeons_mobs.mossy_skeleton": "Bogged",
+  "entity.dungeons_mobs.skeleton_vanguard": "Vanguard",
+  "entity.dungeons_mobs.sunken_skeleton": "Sunkened",
+  "item.dungeons_mobs.frozen_zombie_spawn_egg": "Everzombie Spawn Egg",
+  "item.dungeons_mobs.icy_creeper_spawn_egg": "Evercreeper Spawn Egg",
+  "item.dungeons_mobs.jungle_zombie_spawn_egg": "Outcast Spawn Egg",
+  "item.dungeons_mobs.mossy_skeleton_spawn_egg": "Bogged Spawn Egg",
+  "item.dungeons_mobs.skeleton_vanguard_spawn_egg": "Vanguard Spawn Egg",
+  "item.dungeons_mobs.sunken_skeleton_spawn_egg": "Sunkened Spawn Egg"
+}

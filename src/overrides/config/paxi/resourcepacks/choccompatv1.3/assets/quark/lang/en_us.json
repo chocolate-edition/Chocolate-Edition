@@ -1,3 +1,5 @@
 {
-  "item.quark.backpack":  "Inventory Upgrade"
+  "item.quark.backpack":  "Inventory Upgrade",
+  "entity.quark.wraith": "Ghost",
+  "item.quark.wraith_spawn_egg": "Ghost Spawn Egg"
 }

@@ -1,0 +1,17 @@
+{
+  "entity.predators.huntsman": "Blizzard Huntsman",
+  "entity.predators.scarab": "Storm Scarab",
+  "entity.predators.hunter": "Blizzard Hunter",
+  
+  "item.predators.fegefeuer_fireball": "Storm Fireball",
+  "item.predators.fegefeuer_pearl": "Storm Pearl",
+  "item.predators.fegefeuer_spread": "Storm Spread",
+  "item.predators.hunter_spawn_egg": "Blizzard Hunter Spawn Egg",
+  "item.predators.huntsman_spawn_egg": "Blizzard Huntsman Spawn Egg",
+  "item.predators.item_box_scarab": "Scarab Item Box",
+  "item.predators.scarab_spawn_egg": "Storm Scarab Spawn Egg",
+  "item.predators.sultan_of_fegefeuer": "Sultan Sword",
+  "item.predators.sultan_of_fegefeuer_fireball": "Sultan Fireball",
+  "item.predators.treasure_box_huntsman": "Blizzard Huntsman Treasure Box"
+
+}
