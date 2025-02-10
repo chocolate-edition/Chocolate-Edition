@@ -1,6 +1,6 @@
 
 [General]
-	renderThreeBoltHelmetOverlay = true
+	renderThreeBoltHelmetOverlay = false
 	stylizedBossbar = true
 
 [IceMazeAmbient]

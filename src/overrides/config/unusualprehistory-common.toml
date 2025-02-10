@@ -26,5 +26,5 @@ screen_shake_rex_amplifier = 1
 #Rex sound volume
 rex_sound_volume = 0.5
 #Turn natural dino spawning on or off
-dino_natural_spawn = false
+dino_natural_spawn = true
 

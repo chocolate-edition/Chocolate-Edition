@@ -1,0 +1,7 @@
+
+["Scrollable Inventories Mod Client Config"]
+	#List of resource locations to be used as the icons for respective inventories. Default value is the location of a bundle as it is the default icon. If not enough icons are present will leave blank instead, the icons should follow the default format!
+	"Inventory icon location list:" = ["diamond_sword", "cooked_beef", "oak_log", "oak_log", "torch", "iron_ingot"]
+	#List of resource locations to be used as the icons for respective hotbars. Default value is the location of a carrot as it is the default icon. If not enough icons are present will leave blank instead, the icons should follow the default format!
+	"Hotbar icon location list:" = ["chest", "bundle", "quark:backpack"]
+
