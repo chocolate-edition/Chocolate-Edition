@@ -28,7 +28,7 @@
 			# Percent chance of generating in an allowed chunk.
 			# Default: 75
 			#Range: 0 ~ 100
-			probability = 50
+			probability = 75
 
 ["Mod Compatibility"]
 	#
