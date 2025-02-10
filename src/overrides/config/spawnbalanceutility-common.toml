@@ -4,13 +4,13 @@
 	#Range: 0 ~ 2
 	debugLevel = 0
 	#generateReport
-	generateReport = false
+	generateReport = true
 	#suppressMinecraftMobReporting
 	suppressMinecraftMobReporting = false
 	#fixEmptyNether
 	fixEmptyNether = true
 	#Use the 'BiomeMobWeight.csv' file to balance Biome spawn values
-	balanceBiomeSpawnValues = false
+	balanceBiomeSpawnValues = true
 	#Fix min, max values and add nether creatures
 	fixSpawnValues = true
 	#Use the 'StructMobWeight.csv' file to balance structure spawn values
@@ -26,5 +26,5 @@
 	#Range: 1 ~ 1000
 	maxSpawnWeight = 80
 	#list of Mod:MobName,DefaultSpawnweight;
-	defaultSpawnWeightList = "minecraft:enderman,5;minecraft:witch,5;alexsmobs:flutter,40;dungeons_mobs:wraith,20;cataclysm:deepling,5;cataclysm:deepling_angler,5;cataclysm:deepling_brute,5;minecraft:pig,40;minecraft:cow,40;minecraft:sheep,40;minecraft:chicken,40;"
+	defaultSpawnWeightList = ""
 
