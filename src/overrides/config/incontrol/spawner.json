@@ -2540,8 +2540,8 @@
   },
   {
     "mob": "unusualprehistory:austroraptor",
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 1,
+    "attempts": 10,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -2556,8 +2556,8 @@
   },
   {
     "mob": "unusualprehistory:ulughbegsaurus",
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 1,
+    "attempts": 10,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -2572,8 +2572,8 @@
   },
   {
     "mob": "unusualprehistory:paraceratherium",
-    "persecond": 0.1,
-    "attempts": 1,
+    "persecond": 1,
+    "attempts": 10,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -2588,7 +2588,7 @@
   },
   {
     "mob": "unusualprehistory:mammoth",
-    "persecond": 0.5,
+    "persecond": 1,
     "attempts": 10,
     "amount": {
       "minimum": 1,
@@ -3101,7 +3101,7 @@
   },
   {
     "mob": "unusualprehistory:barinasuchus",
-    "persecond": 0.1,
+    "persecond": 0.5,
     "attempts": 10,
     "amount": {
       "minimum": 1,
@@ -3119,7 +3119,7 @@
   {
     "mob": "unusualprehistory:beelz",
     "persecond": 0.5,
-    "attempts": 1,
+    "attempts": 10,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -3135,8 +3135,8 @@
   },
   {
     "mob": "unusualprehistory:megalania",
-    "persecond": 0.2,
-    "attempts": 1,
+    "persecond": 0.5,
+    "attempts": 10,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -3152,8 +3152,8 @@
   },
   {
     "mob": "blue_skies:snow_owl",
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 1,
+    "attempts": 50,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -3169,8 +3169,8 @@
   },
   {
     "mob": "blue_skies:reindeer",
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 1,
+    "attempts": 50,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -3204,7 +3204,7 @@
   {
     "mob": "crittersandcompanions:shima_enaga",
     "persecond": 0.1,
-    "attempts": 5,
+    "attempts": 10,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -3222,8 +3222,8 @@
   },
   {
     "mob": "blue_skies:azulfo",
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 1,
+    "attempts": 10,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -3241,8 +3241,8 @@
   },
   {
     "mob": "blue_skies:stardust_ram",
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 1,
+    "attempts": 10,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -3260,7 +3260,7 @@
   },
   {
     "mob": "blue_skies:firefly",
-    "persecond": 0.1,
+    "persecond": 1,
     "attempts": 10,
     "amount": {
       "minimum": 1,
@@ -3610,8 +3610,8 @@
   },
   {
     "mob": "unusualfishmod:skipper",
-    "persecond": 0.1,
-    "attempts": 4,
+    "persecond": 1,
+    "attempts": 10,
     "amount": {
       "minimum": 1,
       "maximum": 1,
@@ -3628,8 +3628,8 @@
   },
   {
     "mob": "iter_rpg:water_elemental",
-    "persecond": 0.1,
-    "attempts": 4,
+    "persecond": 1,
+    "attempts": 10,
     "amount": {
       "minimum": 1,
       "maximum": 1,
