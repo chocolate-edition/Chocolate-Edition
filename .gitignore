@@ -20,9 +20,8 @@ src/overrides/fancymenu_data/
 src/overrides/saves/
 src/overrides/simplebackups/
 src/overrides/config/jei/world/
-src/overrides/shaderpacks/ComplementaryReimagined_r5.0.1.zip.txt
-src/overrides/shaderpacks/ComplementaryReimagined_r5.3 + EuphoriaPatches_1.4.3.txt
 src/overrides/shaderpacks/ComplementaryReimagined_r5.4 + EuphoriaPatches_1.5.2.txt
+src/overrides/shaderpacks/ComplementaryReimagined_r5.4.zip.txt
 src/overrides/config/blockswap/known_states/
 /src/*.zip
 *.bak
