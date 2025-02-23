@@ -61,7 +61,7 @@ CTEventManager.register<GameStageAdded>((event) => {
 	else if (count==3 && !event.player.hasGameStage("one")){
 		event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
 	}
-	else if (event.player.hasGameStage("firstcontact") && !event.player.hasGameStage("zero")){
+	else if (count == 0 && event.player.hasGameStage("firstcontact")){
 		event.player.sendMessage("§bTo get started, open the questbook by clicking §6` §bor by clicking the §6icon in the top left of your inventory screen §band read the welcome page!");
 	}
 		
