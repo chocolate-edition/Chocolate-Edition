@@ -24,5 +24,8 @@ src/overrides/shaderpacks/ComplementaryReimagined_r5.0.1.zip.txt
 src/overrides/shaderpacks/ComplementaryReimagined_r5.3 + EuphoriaPatches_1.4.3.txt
 src/overrides/shaderpacks/ComplementaryReimagined_r5.4 + EuphoriaPatches_1.5.2.txt
 src/overrides/config/blockswap/known_states/
+src/overrides/resourcepacks/SE Vanilla Consistency 1.19.2.zip
+src/overrides/resourcepacks/Infernal Resources.zip
+src/overrides/resourcepacks/Quark Programmer Art.zip
 /src/*.zip
 *.bak
