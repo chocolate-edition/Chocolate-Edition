@@ -722,16 +722,36 @@
       "minecraft:piglin_brute",
       "minecraft:wither_skeleton",
       "minecraft:zoglin",
-      "minecraft:zombified_piglin",
       "rottencreatures:burned",
       "quark:wraith"
     ],
     "mincount": {
-      "amount": 3,
+      "amount": 5,
       "perplayer": true
     },
       "spawner": false,
 "result": "deny"
+  },
+
+
+
+  {
+    "mob": ["minecraft:zombified_piglin"],
+    "mincount": {
+      "amount": 20,
+      "perplayer": true
+    },
+    "spawner": false,
+  "result": "deny"
+  },
+  {
+    "mob": ["minecraft:piglin","minecraft:hoglin"],
+    "mincount": {
+      "amount": 10,
+      "perplayer": true
+    },
+    "spawner": false,
+  "result": "deny"
   },
   {
     "mob": "blue_skies:spewter",
