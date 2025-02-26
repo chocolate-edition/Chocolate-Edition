@@ -19,6 +19,11 @@
 		id: "1F52C530B9B34012"
 		invisible: true
 		invisible_until_tasks: 1
+		rewards: [{
+			id: "04DC5E25A6B6AD0E"
+			item: "waystones:waystone"
+			type: "item"
+		}]
 		size: 5.0d
 		subtitle: "The Realm of Origin, which all other realms are based on."
 		tasks: [{

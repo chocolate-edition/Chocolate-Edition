@@ -1,5 +1,5 @@
 ignoreUpdate:161
-updateNotification:true
+updateNotification:false
 allowInternetAccess:true
 differentiateByServerAddress:true
 caveMapsAllowed:true
@@ -37,7 +37,7 @@ partialYTeleportation:true
 displayStainedGlass:true
 caveModeDepth:30
 caveModeStart:2147483647
-autoCaveMode:1
+autoCaveMode:-1
 legibleCaveMaps:true
 displayCaveModeStart:true
 caveModeToggleTimer:1000

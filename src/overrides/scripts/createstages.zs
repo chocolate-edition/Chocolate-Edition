@@ -61,7 +61,7 @@ CTEventManager.register<GameStageAdded>((event) => {
 	else if (count==3 && !event.player.hasGameStage("one")){
 		event.player.sendMessage("§oyou feel the sudden urge to look in your quest book");
 	}
-	else if (event.player.hasGameStage("firstcontact") && !event.player.hasGameStage("zero")){
+	else if (count == 0 && event.player.hasGameStage("firstcontact")){
 		event.player.sendMessage("§bTo get started, open the questbook by clicking §6` §bor by clicking the §6icon in the top left of your inventory screen §band read the welcome page!");
 	}
 		
@@ -81,7 +81,6 @@ CTEventManager.register<GameStageAdded>((event) => {
 
 // --------------------------------------------------- ITEM STAGE ONE ------------------------------------------------------------------//
 var itemsStageOne = [
-	<item:quark:backpack>,
 	<item:aquaculture:neptunium_axe>,
 	<item:aquaculture:neptunium_block>,
 	<item:aquaculture:neptunium_boots>,
@@ -104,8 +103,10 @@ var itemsStageOne = [
 	<item:predators:sultan_of_fegefeuer>,
 	<item:predators:huntsmans_spear>,
 	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
-	<item:sophisticatedbackpacks:backpack>,
+	<item:sophisticatedbackpacks:copper_backpack>,
 	<item:sophisticatedbackpacks:iron_backpack>,
+	<item:sophisticatedbackpacks:stack_upgrade_starter_tier>,
+	<item:sophisticatedbackpacks:anvil_upgrade>,
 	<item:sophisticatedbackpacks:filter_upgrade>,
 	<item:sophisticatedbackpacks:advanced_filter_upgrade>,
 	<item:sophisticatedbackpacks:restock_upgrade>,
@@ -418,10 +419,10 @@ DimensionStages.stageDimensionWithMessage("minecraft:the_end", "The End requires
 DimensionStages.stageDimensionWithMessage("javd:void", "The Nexus requires 16 eyes worth of power, come back n e v e r...", "four");
 
 
-
-ItemStages.restrict(<item:unusualprehistory:encyclopedia>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
-ItemStages.restrict(<item:supplementaries:sack>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
-ItemStages.restrict(<item:iter_rpg:nightfall>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cForgotten Item");
+ItemStages.restrict(<item:luphieclutteredmod:luphie_ancient_codex>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
+ItemStages.restrict(<item:unusualprehistory:encyclopedia>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
+ItemStages.restrict(<item:supplementaries:sack>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
+ItemStages.restrict(<item:iter_rpg:nightfall>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
 
 // hide create automated shaped crafting from jei so people dont think they can make gated items using mechanical crafters
 Jei.hideCategory(<resource:create:automatic_shaped>);

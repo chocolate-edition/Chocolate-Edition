@@ -1,0 +1,77 @@
+# Chocolate Edition 1.9: The Spawning Update
+**a note about upgrading from previous versions:**
+  this version includes an override for the `options.txt` file. this mean that once updated, you will need to redo any cahnges to keybind and general settings that you may have done
+
+  the reason for this is to ensure all changes to things like resourcepacks and new keybinds are properly applied.
+
+  *I promise we will not do this very often!*
+
+  **also,**
+  journeymap has been removed and fully replaced with xaeros. if you are upgrading from 1.8.3, xaeros should have already been saving map data in the background, but you will still have to re-create your waypoints. there are some tools that exist to automatically transfer the data, but we have not tested them ourselves so use at your own risk/ your mileage may vary
+  [waypoints converter](https://github.com/rfresh2/JMWaypointsToXaero) [map data converter](https://github.com/Entropy5/JMtoXaero)
+
+**Get ready for the long awaited 1.9 update, the Spawning Overhaul**
+
+we have disabled all natural spawns and using tools like Incontrol and SpawnBalanceUtility, meticulously gone through each and every mob to rebalance their spawns, ensuring you should never feel too stuck looking for a specific spawn or finding no mobs at night.
+
+with that being the primary feature of this update, we have also include some other fixes!
+
+## features
+- full rework of the vanilla spawning system, granting much more consistent and varried spawns
+- overhauled the undead raid waves
+- added xaeros minimap and worldmap as the new default. removed journeymap
+- ungate inventory upgrate and base tier backpack (can use without needing any eyes! also the recipe is cheaper)
+- add recipe for precision mechanism (for those of you who despise create)
+- give a free waystone for each dimension
+- added several new resourcepacks including low on fire, better ender dragon, better ui for toms and backpacks, fabulous foliage, simple grass flowers, ui icons, and several xaero minimap icon packs
+- increased better combat range for some weapon types that were way too short
+- configured resourcepacks to hide manadatory ones from the RP selection screen
+
+## Changes
+- updated shaders settings again (use euphoria patches for mid-high end systems, use complimentary(non euphoria patches) on potato preset for low end systems)
+- adjusted the shoulder surfing offset
+- removed uncraftable/duplicate ladder variant from jei
+- added chest recipes for some wood types that didnt have
+- updated unbrella artifact tooltip and jei info to say it does not work as a shield
+- disabled the 3bolt helmet overlay
+- disable dark mode from ftb quests ui, backpacks and toms storage to make them look nicer
+- show roll meter always
+
+## Bug Fixes
+- fixed issues in the shaded citadel
+- fixed sleep crahing issues (updated calm mornings to 4.0.6+)
+- zipped towns and towers datapack so people dont have issues extracting the server pack
+- fixed carryon causeing extreme lag with some mobs
+- fixed some items being consumed in recipes that arent supposed to
+- fixed getting started text showing up in chat every time an eye is crafted
+- fix pumkinhead and enderdragon kills not registering for the related contract
+- fix unable to dismount from some mob grapples (thrasher, crocodile, ignis)
+- fixed questbook mentions of evil eye -> clockwork eye
+- fixed modpack update checker configuration
+
+## mod changes
+
+### updates
+- updated cataclysm 1.99.2 -> 2.25
+- updated easynpc 4.5.1 -> 5.8.1
+- shouldersurfing
+- ftb quests
+- createtweaker
+- nekos enchanted books
+- calm mornings
+- fusion
+- crater lib
+- complimentary shaders + euphoria patches
+
+### added
+- aquaculture delight
+- blueskies tweaks
+- glowing illagers
+- immediatelyfast
+- pekhui
+- better treasure maps
+- vertical slab compat
+
+### removed
+- celestial
+- journeymap and related mods

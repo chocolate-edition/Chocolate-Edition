@@ -1,0 +1,35 @@
+{
+
+
+  "item.creeperoverhaul.badlands_creeper_spawn_egg": "Eroder Spawn Egg",
+  "item.creeperoverhaul.bamboo_creeper_spawn_egg": "Stalker Spawn Egg",
+  "item.creeperoverhaul.beach_creeper_spawn_egg": "Dredger Spawn Egg",
+  "item.creeperoverhaul.cave_creeper_spawn_egg": "Dweller Spawn Egg",
+  "item.creeperoverhaul.dark_oak_creeper_spawn_egg": "Trickster Spawn Egg",
+  "item.creeperoverhaul.desert_creeper_spawn_egg": "Entomber Spawn Egg",
+  "item.creeperoverhaul.dripstone_creeper_spawn_egg": "Quaker Spawn Egg",
+  "item.creeperoverhaul.hills_creeper_spawn_egg": "Rubbler Spawn Egg",
+  "item.creeperoverhaul.jungle_creeper_spawn_egg": "Trapper Spawn Egg",
+  "item.creeperoverhaul.mushroom_creeper_spawn_egg": "Shroomer Spawn Egg",
+  "item.creeperoverhaul.ocean_creeper_spawn_egg": "Deeper Spawn Egg",
+  "item.creeperoverhaul.savannah_creeper_spawn_egg": "Twister Spawn Egg",
+  "item.creeperoverhaul.snowy_creeper_spawn_egg": "Abomineeper Spawn Egg",
+  "item.creeperoverhaul.spruce_creeper_spawn_egg": "Growther Spawn Egg",
+  "item.creeperoverhaul.swamp_creeper_spawn_egg": "Witcher Spawn Egg",
+  "entity.creeperoverhaul.badlands_creeper": "Eroder",
+  "entity.creeperoverhaul.bamboo_creeper": "Stalker",
+  "entity.creeperoverhaul.beach_creeper": "Dredger",
+  "entity.creeperoverhaul.cave_creeper": "Dweller",
+  "entity.creeperoverhaul.dark_oak_creeper": "Trickster",
+  "entity.creeperoverhaul.desert_creeper": "Entomber",
+  "entity.creeperoverhaul.dripstone_creeper": "Quaker",
+  "entity.creeperoverhaul.hills_creeper": "Rubbler",
+  "entity.creeperoverhaul.jungle_creeper": "Trapper",
+  "entity.creeperoverhaul.mushroom_creeper": "Shroomer",
+  "entity.creeperoverhaul.ocean_creeper": "Deeper",
+  "entity.creeperoverhaul.savannah_creeper": "Twister",
+  "entity.creeperoverhaul.snowy_creeper": "Abomineeper",
+  "entity.creeperoverhaul.spruce_creeper": "Growther",
+  "entity.creeperoverhaul.swamp_creeper": "Witcher"
+
+}

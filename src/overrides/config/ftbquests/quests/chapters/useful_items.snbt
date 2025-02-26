@@ -975,6 +975,7 @@
 		}
 		{
 			dependencies: ["3291DD3425A92D43"]
+			description: ["Note: The shield functionality of this item has been disabled due to it having infinite durability."]
 			id: "2542A4FE57D3622A"
 			rewards: [{
 				id: "4491AE05597258D1"
@@ -982,6 +983,7 @@
 				xp: 300
 			}]
 			shape: "square"
+			subtitle: "I'm Mary Poppins, Y'all!"
 			tasks: [{
 				id: "23298698784D3EBD"
 				item: {
@@ -1177,28 +1179,6 @@
 			}]
 			title: "Right click rope to place more rope below it"
 			x: 8.75d
-			y: 10.5d
-		}
-		{
-			disable_toast: true
-			icon: "waystones:waystone"
-			id: "0033D56F43CF73BC"
-			rewards: [{
-				id: "5578CAF9467D49D8"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "waystones:waystone"
-				}
-				type: "item"
-			}]
-			shape: "square"
-			size: 3.0d
-			subtitle: "Place it only once for your base. That is the intended experience; however if you end up carrying it around with you, i can't stop you."
-			title: "Free waystone for your base!"
-			x: 4.5d
 			y: 10.5d
 		}
 		{

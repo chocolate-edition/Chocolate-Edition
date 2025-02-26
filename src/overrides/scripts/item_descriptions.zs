@@ -115,6 +115,10 @@ i(<item:minecraft:green_candle>, "green_candle");
 i(<item:minecraft:red_candle>, "red_candle");
 i(<item:minecraft:black_candle>, "black_candle");
 
+// ----- Artifacts -----
+
+i(<item:artifacts:umbrella>, "umbrella");
+
 // ----- Blue Skies -----
 
 

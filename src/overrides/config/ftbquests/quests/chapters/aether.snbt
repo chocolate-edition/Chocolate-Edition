@@ -23,6 +23,11 @@
 		}
 		id: "1586FC76858DC429"
 		invisible: true
+		rewards: [{
+			id: "3E00A6A582A666E1"
+			item: "waystones:waystone"
+			type: "item"
+		}]
 		size: 5.0d
 		subtitle: "The Realm of Genesis, mythic skies ruled by divine forces seeking justice and purity."
 		tasks: [{

@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "chocolate:white_palace/white_palace_left",
+      "required": false
+    },
+    {
+      "id": "chocolate:white_palace/white_palace_middle",
+      "required": false
+    },
+    {
+      "id": "chocolate:white_palace/white_palace_middle_bottom",
+      "required": false
+    },
+    {
+      "id": "chocolate:white_palace/white_palace_right",
+      "required": false
+    },  
+	{
+      "id": "chocolate:shaded_citadel",
+      "required": false
+    },
+    {
+      "id": "chocolate:white_palace/white_palace_basement",
+      "required": false
+    }
+  ]
+}
