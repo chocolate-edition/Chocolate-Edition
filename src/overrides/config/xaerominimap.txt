@@ -10,7 +10,7 @@ allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:false
 minimap:true
-caveMaps:2
+caveMaps:3
 caveZoom:1
 showWaypoints:true
 showIngameWaypoints:true
@@ -20,7 +20,7 @@ oldDeathpoints:false
 distance:1
 lockNorth:true
 zoom:1
-minimapSize:0
+minimapSize:180
 chunkGrid:-1
 slimeChunks:false
 mapSafeMode:false
@@ -43,7 +43,7 @@ defaultWaypointTPCommandFormat:/tp @s {x} {y} {z}
 defaultWaypointTPCommandRotationFormat:/tp @s {x} {y} {z} {yaw} ~
 arrowScale:1.5
 arrowColour:0
-smoothDots:false
+smoothDots:true
 worldMap:true
 terrainDepth:true
 terrainSlopes:2
@@ -60,11 +60,11 @@ biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180
 centeredEnlarged:false
-zoomOnEnlarged:0
+zoomOnEnlarged:1
 minimapTextAlign:0
 waypointsMutualEdit:true
-compassLocation:2
-compassDirectionScale:0
+compassLocation:1
+compassDirectionScale:2
 caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:true
@@ -75,14 +75,14 @@ lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
-uiScale:1
-bossHealthPushBox:1
-potionEffectPushBox:1
+uiScale:0
+bossHealthPushBox:0
+potionEffectPushBox:0
 minimapFrame:0
 minimapFrameColor:9
-compassColor:9
+compassColor:0
 northCompassColor:-1
-displayMultipleWaypointInfo:0
+displayMultipleWaypointInfo:1
 entityRadar:true
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
@@ -97,11 +97,11 @@ manualCaveModeStart:-1
 chunkGridLineWidth:1
 temporaryWaypointsGlobal:true
 keepUnlockedWhenEnlarged:false
-enlargedMinimapAToggle:false
+enlargedMinimapAToggle:true
 displayStainedGlass:true
 waypointOnMapScale:0
 switchToAutoOnDeath:true
-infoDisplayBackgroundOpacity:40
+infoDisplayBackgroundOpacity:45
 caveModeToggleTimer:1000
 legibleCaveMaps:false
 biomeBlending:true
@@ -128,6 +128,6 @@ infoDisplay:time:0:15:-1
 infoDisplay:real_time:0:15:-1
 infoDisplay:highlights:true:15:-1
 infoDisplay:light_overlay_indicator:true:15:-1
-infoDisplay:manual_cave_mode_indicator:true:15:-1
+infoDisplay:manual_cave_mode_indicator:true:6:6
 infoDisplay:custom_sub_world:true:15:-1
-module;id=xaerominimap:minimap;active=true;x=-37;y=-6;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false;
+module;id=xaerominimap:minimap;active=true;x=-4;y=-18;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false;
