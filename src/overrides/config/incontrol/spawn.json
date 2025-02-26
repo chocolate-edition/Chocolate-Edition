@@ -237,6 +237,7 @@
       "cataclysm:deepling_priest",
       "cataclysm:deepling_warlock",
       "cataclysm:lionfish",
+      "minecraft:guardian",
       "dungeons_mobs:wavewhisperer"
     ],
     "minheight": 30,
