@@ -21,6 +21,16 @@
           "curseforge": "https://www.curseforge.com/minecraft/modpacks/mc-chocolate-edition/files/6105260"
         }
       }
+    },
+    {
+      "id": "1.9",
+      "releasedAt": 1740628800000,
+      "updateType": "major",
+      "promotions": {
+        "downloads": {
+          "curseforge": "https://www.curseforge.com/minecraft/modpacks/mc-chocolate-edition/files/6241367"
+        }
+      }
     }
   ]
 }
