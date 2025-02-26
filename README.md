@@ -48,6 +48,9 @@ if your changes involve deleting a file, instead leave the file blank if possibl
 
 (this is due to a quirk with how ATLauncher automatic updates work and should just generally help reduce the amount of people with broken scripts after an update) 
 
+**note:**
+when modifying resourcepacks through paxi or otherwise, be sure to include it in the proper place in both `src/overrides/config/yosby/options.txt` and `src/overrides/config/resourcepackoverrides.json`
+
 `main` represents the current latest release. It should only be merged to prior to a new version release. Do not touch it unless you just published a new version.
 
 `develop` branch is the main development branch that represents the next release as it is developed. it should be branched from and merged to for tasks on the [Patches and Bugs Board](https://github.com/orgs/chocolate-edition/projects/1) 
