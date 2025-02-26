@@ -11,7 +11,7 @@ menu_blacklist = []
 #End a path using '*' as a wildcard char to include every file (no nested directories) from that directory.
 #Begin with a namespace or skip namespace to apply to all namespaces.
 #Begin with '!' to exclude matches, list those exclusions after entries that would otherwise include them.
-paths = ["textures/gui/*", "!minecraft:textures/gui/icons.png", "!minecraft:textures/gui/options_background.png", "textures/gui/container/*", "minecraft:textures/gui/container/creative_inventory/*", "trinkets:textures/gui/slots/*", "craftingtweaks:gui.png", "dankstorage:textures/container/gui/*", "ae2:textures/guis/*", "!tetra:textures/gui/*", "!configured:textures/gui/*", "!textures/items/*", "quark/matrix_enchanting/*"]
+paths = ["textures/gui/*", "textures/gui/container/*", "minecraft:textures/gui/container/creative_inventory/*", "trinkets:textures/gui/slots/*", "craftingtweaks:gui.png", "quark:textures/misc/backpack_gui.png", "!minecraft:textures/gui/icons.png", "!minecraft:textures/gui/options_background.png", "!ftbquests:textures/gui/*", "!tetra:textures/gui/*", "!configured:textures/gui/*", "!sophisticatedcore:textures/gui/*", "!toms_storage:textures/gui/*"]
 #Use a dark theme for the configuration screens.
 dark_theme = true
 #Percentage of original interface brightness to apply.
@@ -23,4 +23,3 @@ font_brightness = 0.0
 #Algorithm selector for darkening interface pixels.
 #Allowed Values: GRAYSCALE_AND_HSP, HSP, GRAYSCALE_AND_HSL, HSL, GRAYSCALE_AND_LINEAR, LINEAR
 darkening_algorithm = "GRAYSCALE_AND_HSP"
-

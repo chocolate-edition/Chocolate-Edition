@@ -23,7 +23,11 @@ update schedule working document: <https://docs.google.com/document/d/15oeWpq6uO
 
 ### Creating Issues
 
-we use [the todo list](https://github.com/orgs/chocolate-edition/projects/1/views/1) to track our progress and act as a sort of changelog.
+we use a collection of [github Projects](https://github.com/chocolate-edition/Chocolate-Edition/projects) to track work in progress and future plans. 
+
+the [Patches and Bugs Board](https://github.com/orgs/chocolate-edition/projects/1) contains bugs and small features that can be worked on and added at any time. as the list of finsihed tasks grows, we will sometimes release minor patches inbetween major feature releases
+
+the rest of the projects are for categorizing tasks that are focused on one specific major feature update.
 
 1. you can choose an existing issue and assign it to yourself, or create a new one by selecting "add item" at the bottom of a list and give it a title.
 
@@ -33,27 +37,31 @@ we use [the todo list](https://github.com/orgs/chocolate-edition/projects/1/view
 
 4. assign the issue to yourself and move it to the appropriate column
     - "todo" for thing you intend to complete before the next release
-    - "in progress" for issues actively being worked on. if you give up on a fix, move it back to "todo" or "goals for next update"
+    - "in progress" for issues actively being worked on. if you give up on a fix, move it back to "todo"
     - "needs testing" for issues that have a open PR awaiting approval. you can add a comment to the issue and link it to the respective PR with a #
     - once a PR has been merged to develop, the issue can be closed with a comment linking the closing PR, and moved to "Done"
 
 ### Typical Workflow
 
 **note:**
-if your changes involve deleting a file from `/src/overrides/scripts/`, instead leave the file blank, then create a new issue on the todo list to delete the file as part of the next update. 
+if your changes involve deleting a file, instead leave the file blank if possible then create a new issue on the todo list to delete the file as part of the next update. 
 
-(this is due to a quirk with how ATLauncher automatic updates work and should jsut genreally help reduce the amount of people with broken scripts after an update) 
+(this is due to a quirk with how ATLauncher automatic updates work and should just generally help reduce the amount of people with broken scripts after an update) 
+
+**note:**
+when modifying resourcepacks through paxi or otherwise, be sure to include it in the proper place in both `src/overrides/config/yosby/options.txt` and `src/overrides/config/resourcepackoverrides.json`
 
 `main` represents the current latest release. It should only be merged to prior to a new version release. Do not touch it unless you just published a new version.
 
-`develop` branch is the main development branch that represents the next release as it is developed.
+`develop` branch is the main development branch that represents the next release as it is developed. it should be branched from and merged to for tasks on the [Patches and Bugs Board](https://github.com/orgs/chocolate-edition/projects/1) 
+`1.x-develop` branches work similar to develop, but hold changes specific to a certain major feature update. whenever merging to develop or a 1.x branch, a pr should also be opened to merge to each branch ahead of it so they all stay up to date with their predecessors
 
-1. checkout to `develop` and *pull.* this will ensure your local copy of the fiels are caught up with whats on GitHub.
-    - in vscode, you can do this from the *source control* activity tab by clicking the 3 dots, the "checkout to" > develop
-    - then the 3 dots again > "pull" (or press the big blue button if it says "pull)
+1. checkout to your intended base branch. (for Patches and Bugs, use `develop`) and **pull.** this will ensure your local copy of the fiels are caught up with whats on GitHub. always **pull** before starting work on a feature.
+    - in vscode, you can do this from the *source control* activity tab by clicking the 3 dots, the "checkout to" > develop or in a terminal, `git checkout develop`
+    - then the 3 dots again > "pull" (or press the big blue button if it says "pull) or in terminal `git pull`
 
-2. Create a new branch derived from `develop`. name it "feature/my-feature-name"   (be sure to use all lowercase letters)
-    in vscode you can do this from the `source control` activity tab.
+2. Create a new branch derived from your intended base branch. name it "feature/my-feature-name"   (be sure to use all lowercase letters)
+    in vscode you can do this from the `source control` activity tab. or from terminal `git checkout -b feature/my-feature-name`
     ![vscode new branch](<documentation screenshots/vscode new branch.png>)
 
 3. open the repo in the file explorer (you can do this easily from vscode by right clicking any file and chose "reveal in file explorer")
@@ -74,7 +82,7 @@ if your changes involve deleting a file from `/src/overrides/scripts/`, instead 
 7. be sure to test your changes as you make them. once you are satisfied with the changes, *export* your profile from curseforge.
     to do so, click the 3 dots on your profile, and click "export profile"\
     ensure only `config`, `defaultconfigs`, `mods`, `resourcepacks`, `resources`, `scripts`, `shaderpacks`, and `servers.dat` are checked.\
-    save the exported zip somewhere temporarily, like `downloads` or `desktop`
+    save the exported zip somewhere temporarily, like `downloads` or `desktop` or back in your repo /src/ folder
 
 8. extract the zip (right click, choose winrar "extract to"), then open the extracted folder and **copy** the contents.
 
@@ -91,30 +99,31 @@ once you are done copying, it is safe to delete the zip and extracted foler
     - the + button will *add* that file to the *staged changes*.\
         when you make a *commit*, only *staged* files will be included in the commit. if you have unrelated changes in multiple files, you should make several *commits*, each one including only related files.
     - if you *add* a file to *staged changes* by mistake, you will find a - icon that will remove it from *staged changes*.
+    - you can even *add* specific lines from a file by viewing the "working tree" version (click it in the source control tab) and click the + next to the specific line you want to add
 
 12. ensure you revert the changed "name" and "author" in the `manifest.json` file. to do so, you can click the file to view the changes, then with the changes sside by side, click the arrow in the center column to "revert block"
-    ensure that the name remains as `The Chocolate Edition - [FORGE]` and the author is `richestprune`
+    ensure that the name remains as `The Chocolate Edition` and the author is `richestprune`
 
-13. verify the `modlist.html` using [diffsort](https://diffsort.com/).
-    1. with the editor in side-by-side mode, click on the left side and do `ctrl + a`, `ctrl + c` to copy, then paste into the left side of diffsort.
-    2. repeat for the right side, then click "sort lines" at the top of the page.
-    do this to verify that the changes you intened to make to the mods have actually been applied, and nothing has been changed unintentionally. please use the sorted version of the modlist, ensuring it begins with `<ul>` (no /) and ends with `</ul>`
-    3. using [sort json extension](https://marketplace.cursorapi.com/items?itemName=Thinker.sort-json), sort the manifest files array accending by project id.\
+13. sort and verify the manifest and modlist.html using [diffsort](https://diffsort.com/).
+    1. copy and paste the contents of `modlist.html` into [diffsort](https://diffsort.com/)
+    2. click "sort lines" then copy the contents and paste back into the modlist file, overriding the original contents. ensure it begins with `<ul>` (no /) and ends with `</ul>` (these get incorrectly rearranged due to the sort)
+    3. using [sort json extension](https://marketplace.cursorapi.com/items?itemName=Thinker.sort-json), sort the manifest files array accending by project id. note: you may need to correct the indentation by pressing `TAB` with the array selected.\
+    4. once sorted, you can review the changes the same as the other files
     ![sort](<documentation screenshots/sort-ascending.png>)\
     ![projectid](<documentation screenshots/sort-projectid.png>)
 
-14. once you have *added* some files to *staged changes*, you can commit them by writting a short message to describe the changes, then press the blue "commit" button\
-    commit messages should be 1 line sentences to briefly describe what changes are being made in the fiels included in the commit.\
+15. once you have *added* some files to *staged changes*, you can commit them by writting a short message to describe the changes, then press the blue "commit" button\ or in terminal `git commit -m 'my commit message'`
+    commit messages should be 1 line sentences to briefly describe what changes are being made in the files included in the commit.\
     for example, "update readme with detailed isntructions", or "increase spawn rate for \<mobs\>"
 
-15. once all files have been either reverted or commited, you can press the blue "publish" button, or click the 3 dots, then "push."
+16. once all files have been either reverted or commited, you can press the blue "publish" button, or click the 3 dots, then "push." or in terminal, `git push` or `git push -u origin head` for new branches
 
-16. go to [github](https://github.com/chocolate-edition/Chocolate-Edition/pulls) and create a Pull Request. assign reviewers Strix (Jonah-Hansen), Toxin (GildedToxin)
-    1. be sure to change the "base" from `main` to `develop`
-    2. give a more detailed description of the changes made and link the related issues with #issueNumber (example: closes #200)
+17. go to [github](https://github.com/chocolate-edition/Chocolate-Edition/pulls) and create a Pull Request. assign reviewers Strix (Jonah-Hansen), Toxin (GildedToxin), Wik(HomerDoesMoreStuff)
+    1. ensure the "base" is your target development branch
+    2. give a more detailed description of the changes made. include screenshots if applicable, and link the related issues with keyword "closes #issueNumber" (example: closes #200)
     3. carefully review the `files changed`. make sure nothing is included that is not related to the intended changes.
 
-17. Once your Pull Request is reviewed and approved, merge your branch into `develop` and then delete your derived branch.
+18. Once your Pull Request is reviewed and approved, merge your branch.
 
 once complete, you can switch back to develop, pull your changes and get started on the next feature!
 
