@@ -9,7 +9,7 @@
     git checkout -b release/<version number>
     ```
 3. update the version in `src/manifest.json`, `src/overrides/config/bcc-common.toml`, and `src/overrides/config/modpack-update-checker/config.json`
-4. open the root folder of your git repo.
+4. open the `/src/` folder of your git repo.
 5. select all files, and send to a zip archive.
 
 ## client pack
@@ -17,7 +17,7 @@
 5. open curseforge and "import" the .zip as a profile.
 6. start the game an verify everything works in a single player world.
 7. in curseforge, export the profile.
-  when exporting, name it "The Chocolate Edition" and set the package version. ensure `config`, `defaultconfigs`, `mods`, `resourcepacks`, `resources`, `scripts`, `shaderpacks`(uncheck the shaderpack settings.txt file), and `servers.dat` are checked. all others should remain unchecked.
+  when exporting, name it "The Chocolate Edition" and set the package version. ensure `config`, `defaultconfigs`, `mods`, `resourcepacks`, `resources`, `scripts`, `shaderpacks`(**uncheck the shaderpack settings.txt files**), and `servers.dat` are checked. all others should remain unchecked.
 8. once complete, you can safely delete the profile made from the git repo. create a new profile import using the zip you just exported.
 9. start the game and verify everything works in a single player world.
 

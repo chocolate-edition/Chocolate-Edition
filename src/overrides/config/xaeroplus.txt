@@ -19,7 +19,7 @@
 [XP] Portal Highlights Opacity:100.0
 [XP] New Chunks Render Inverse:false
 [XP] 2b2t Highways Width:0
-[XP] Waypoint Beacon Distance Min:24.0
+[XP] Waypoint Beacon Distance Min:16.0
 [XP] Disable Receiving Waypoints:false
 [XP] PortalSkip OldChunks Inverse:true
 [XP] Data Dir Mode:1
@@ -36,7 +36,7 @@
 [XP] Expanded Setting Entries:true
 [XP] Switch to Overworld:false
 [XP] Minimap FPS Limit:30.0
-[XP] Min WorldMap Zoom:0.0
+[XP] Min WorldMap Zoom:0.05
 [XP] Transparent Background:true
 [XP] Minimap FPS Limiter:true
 [XP] Portal Highlights Color:5
@@ -68,7 +68,7 @@
 [XP] PortalSkip Detection:false
 [XP] Waypoint ETA:false
 [XP] Portal Highlights:false
-[XP] Waypoint Beacons:true
+[XP] Waypoint Beacons:false
 [XP] PortalSkip Color:6
 [XP] Palette NewChunks Inverse:false
 [XP] OldChunks Inverse:false

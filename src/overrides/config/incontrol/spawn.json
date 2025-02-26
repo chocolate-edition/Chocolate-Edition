@@ -50,7 +50,8 @@
       "minecraft:deep_dark"
     ],
     "dimension": "minecraft:overworld",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -71,7 +72,8 @@
     ],
     "minheight": 60,
     "dimension": "minecraft:overworld",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -90,7 +92,8 @@
     ],
     "minheight": 0,
     "dimension": "minecraft:overworld",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -98,7 +101,8 @@
     ],
     "maxspawndist": 1000000,
     "dimension": "minecraft:overworld",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -146,7 +150,8 @@
     ],
     "maxheight": 60,
     "dimension": "minecraft:overworld",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -219,7 +224,8 @@
     ],
     "maxtime": 12500,
     "dimension": "minecraft:overworld",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -231,11 +237,13 @@
       "cataclysm:deepling_priest",
       "cataclysm:deepling_warlock",
       "cataclysm:lionfish",
+      "minecraft:guardian",
       "dungeons_mobs:wavewhisperer"
     ],
     "minheight": 30,
     "dimension": "minecraft:overworld",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -361,7 +369,8 @@
       "amount": 2,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mod": "aquaculture",
@@ -369,7 +378,8 @@
       "blue_skies:everbright",
       "blue_skies:everdawn"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -435,7 +445,8 @@
       "amount": 1,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -474,14 +485,16 @@
       "amount": 1,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "aquamirae:maze_mother"
     ],
     "random": 0.9999,
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -629,10 +642,11 @@
       "unusualfishmod:drooping_gourami"
     ],
     "mincount": {
-      "amount": 2,
+      "amount": 3,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -643,21 +657,24 @@
       "amount": 5,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "alexsmobs:bone_serpent"
     ],
     "minheight": 32,
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "iter_rpg:fire_elemental"
     ],
     "minheight": 32,
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -705,15 +722,36 @@
       "minecraft:piglin_brute",
       "minecraft:wither_skeleton",
       "minecraft:zoglin",
-      "minecraft:zombified_piglin",
       "rottencreatures:burned",
       "quark:wraith"
     ],
     "mincount": {
-      "amount": 3,
+      "amount": 5,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
+  },
+
+
+
+  {
+    "mob": ["minecraft:zombified_piglin"],
+    "mincount": {
+      "amount": 20,
+      "perplayer": true
+    },
+    "spawner": false,
+  "result": "deny"
+  },
+  {
+    "mob": ["minecraft:piglin","minecraft:hoglin"],
+    "mincount": {
+      "amount": 10,
+      "perplayer": true
+    },
+    "spawner": false,
+  "result": "deny"
   },
   {
     "mob": "blue_skies:spewter",
@@ -723,21 +761,24 @@
   },
   {
     "mob": "blue_skies:spewter",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "iter_rpg:water_elemental"
     ],
     "minheight": 32,
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "iter_rpg:air_elemental"
     ],
     "maxheight": 128,
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -838,7 +879,8 @@
       "amount": 5,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -855,7 +897,8 @@
       "alexsmobs:mimicube",
       "minecraft:shulker"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -863,7 +906,8 @@
       "enlightened_end:stalker"
     ],
     "minheight": 32,
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -871,7 +915,8 @@
       "enlightened_end:void_leviathan"
     ],
     "maxheight": 100,
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -899,7 +944,8 @@
       "amount": 5,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -909,7 +955,8 @@
       "amount": 3,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -928,7 +975,8 @@
       "amount": 1,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1007,10 +1055,11 @@
       "quark:foxhound"
     ],
     "mincount": {
-      "amount": 2,
+      "amount": 5,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1097,10 +1146,11 @@
       "born_in_chaos_v1:diamond_termite"
     ],
     "mincount": {
-      "amount": 3,
+      "amount": 5,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1165,10 +1215,11 @@
       "iter_rpg:goblin_warrior"
     ],
     "mincount": {
-      "amount": 5,
+      "amount": 10,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1178,7 +1229,8 @@
       "amount": 15,
       "perplayer": true
     },
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1195,7 +1247,8 @@
     "mob": [
       "alexsmobs:anaconda"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1211,7 +1264,8 @@
     "mob": [
       "alexsmobs:anteater"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1237,7 +1291,8 @@
     "mob": [
       "alexsmobs:bald_eagle"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1255,7 +1310,8 @@
     "mob": [
       "alexsmobs:banana_slug"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1274,7 +1330,8 @@
     "mob": [
       "alexsmobs:bison"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1303,7 +1360,8 @@
     "mob": [
       "alexsmobs:blue_jay"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1319,7 +1377,8 @@
     "mob": [
       "alexsmobs:bunfungus"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1339,7 +1398,8 @@
     "mob": [
       "alexsmobs:capuchin_monkey"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1363,7 +1423,8 @@
     "mob": [
       "alexsmobs:cockroach"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1380,7 +1441,8 @@
     "mob": [
       "alexsmobs:elephant"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1398,7 +1460,8 @@
     "mob": [
       "alexsmobs:emu"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1414,7 +1477,8 @@
     "mob": [
       "alexsmobs:flutter"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1453,7 +1517,8 @@
     "mob": [
       "alexsmobs:fly"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1472,7 +1537,8 @@
     "mob": [
       "alexsmobs:froststalker"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1489,7 +1555,8 @@
     "mob": [
       "alexsmobs:gazelle"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1505,7 +1572,8 @@
     "mob": [
       "alexsmobs:gelada_monkey"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1521,7 +1589,8 @@
     "mob": [
       "alexsmobs:gorilla"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1551,7 +1620,8 @@
     "mob": [
       "alexsmobs:grizzly_bear"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1574,7 +1644,8 @@
     "mob": [
       "alexsmobs:guster"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1591,7 +1662,8 @@
     "mob": [
       "alexsmobs:hammerhead_shark"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1612,7 +1684,8 @@
     "mob": [
       "alexsmobs:hummingbird"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1637,7 +1710,8 @@
     "mob": [
       "alexsmobs:jerboa"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1655,7 +1729,8 @@
     "mob": [
       "alexsmobs:kangaroo"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1671,7 +1746,8 @@
     "mob": [
       "alexsmobs:komodo_dragon"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1690,7 +1766,8 @@
     "mob": [
       "alexsmobs:leafcutter_ant"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1709,7 +1786,8 @@
     "mob": [
       "alexsmobs:maned_wolf"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1725,7 +1803,8 @@
     "mob": [
       "alexsmobs:mantis_shrimp"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1740,7 +1819,8 @@
     "mob": [
       "alexsmobs:mimic_octopus"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1765,7 +1845,8 @@
     "mob": [
       "alexsmobs:moose"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1781,7 +1862,8 @@
     "mob": [
       "alexsmobs:mudskipper"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1796,7 +1878,8 @@
     "mob": [
       "alexsmobs:mungus"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1815,7 +1898,8 @@
     "mob": [
       "alexsmobs:potoo"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1836,7 +1920,8 @@
     "mob": [
       "alexsmobs:raccoon"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1859,7 +1944,8 @@
     "mob": [
       "alexsmobs:rain_frog"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1882,7 +1968,8 @@
     "mob": [
       "alexsmobs:rattlesnake"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1899,7 +1986,8 @@
     "mob": [
       "alexsmobs:rhinoceros"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1922,7 +2010,8 @@
     "mob": [
       "alexsmobs:roadrunner"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1939,7 +2028,8 @@
     "mob": [
       "alexsmobs:shoebill"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1955,7 +2045,8 @@
     "mob": [
       "alexsmobs:skreecher"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -1981,7 +2072,8 @@
     "mob": [
       "alexsmobs:skunk"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2006,7 +2098,8 @@
     "mob": [
       "alexsmobs:snow_leopard"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2025,7 +2118,8 @@
     "mob": [
       "alexsmobs:sugar_glider"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2047,7 +2141,8 @@
     "mob": [
       "alexsmobs:tasmanian_devil"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2066,7 +2161,8 @@
     "mob": [
       "alexsmobs:tiger"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2086,7 +2182,8 @@
     "mob": [
       "alexsmobs:toucan"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2102,7 +2199,8 @@
     "mob": [
       "aquamirae:golden_moth"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2119,7 +2217,8 @@
     "mob": [
       "atmospheric:cochineal"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2135,7 +2234,8 @@
     "mob": [
       "autumnity:snail"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2151,7 +2251,8 @@
     "mob": [
       "autumnity:turkey"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2167,7 +2268,8 @@
     "mob": [
       "born_in_chaos_v1:thornshell_crab"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2188,7 +2290,8 @@
     "mob": [
       "cnb:cactem"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2205,7 +2308,8 @@
     "mob": [
       "cnb:lilytad"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2223,7 +2327,8 @@
     "mob": [
       "cnb:little_grebe"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2246,13 +2351,15 @@
       "atmospheric:snowy_scrubland",
       "minecraft:desert"
     ],
+    "seesky": true,
     "result": "allow"
   },
   {
     "mob": [
       "cnb:lizard"
     ],
-    "result": "deny"
+      "spawner": false,
+      "result": "deny"
   },
   {
     "mob": [
@@ -2269,7 +2376,8 @@
     "mob": [
       "cnb:minipad"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2285,7 +2393,8 @@
     "mob": [
       "cnb:sporeling"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2303,7 +2412,8 @@
     "mob": [
       "crittersandcompanions:dragonfly"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2330,7 +2440,8 @@
     "mob": [
       "crittersandcompanions:ferret"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2353,7 +2464,8 @@
     "mob": [
       "crittersandcompanions:leaf_insect"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2368,7 +2480,8 @@
     "mob": [
       "crittersandcompanions:otter"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2385,7 +2498,8 @@
     "mob": [
       "crittersandcompanions:red_panda"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2419,7 +2533,8 @@
     "mob": [
       "crittersandcompanions:shima_enaga"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2437,7 +2552,8 @@
     "mob": [
       "ecologics:camel"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2453,7 +2569,8 @@
     "mob": [
       "ecologics:coconut_crab"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2474,7 +2591,8 @@
     "mob": [
       "ecologics:penguin"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2504,7 +2622,8 @@
     "mob": [
       "ecologics:squirrel"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2532,7 +2651,8 @@
     "mob": [
       "environmental:deer"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2549,7 +2669,8 @@
     "mob": [
       "environmental:pinecone_golem"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2570,7 +2691,8 @@
     "mob": [
       "environmental:reindeer"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2589,7 +2711,8 @@
     "mob": [
       "environmental:tapir"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2607,7 +2730,8 @@
     "mob": [
       "environmental:yak"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2624,7 +2748,8 @@
     "mob": [
       "environmental:zebra"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2640,7 +2765,8 @@
     "mob": [
       "friendsandfoes:glare"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2658,7 +2784,8 @@
     "mob": [
       "friendsandfoes:mauler"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2675,7 +2802,8 @@
     "mob": [
       "friendsandfoes:moobloom"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2704,7 +2832,8 @@
     "mob": [
       "friendsandfoes:rascal"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2720,7 +2849,8 @@
     "mob": [
       "galosphere:sparkle"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2736,7 +2866,8 @@
     "mob": [
       "galosphere:specterpillar"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2752,7 +2883,8 @@
     "mob": [
       "galosphere:spectre"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2767,7 +2899,8 @@
     "mob": [
       "minecraft:allay"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2781,7 +2914,8 @@
     "mob": [
       "minecraft:bat"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2796,7 +2930,8 @@
     "mob": [
       "minecraft:bee"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2847,7 +2982,8 @@
       "minecraft:mule",
       "minecraft:chicken"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2865,7 +3001,8 @@
     "mob": [
       "minecraft:donkey"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2896,7 +3033,8 @@
     "mob": [
       "minecraft:fox"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2915,7 +3053,8 @@
     "mob": [
       "minecraft:frog"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2929,7 +3068,8 @@
     "mob": [
       "minecraft:glow_squid"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2949,7 +3089,8 @@
     "mob": [
       "minecraft:goat"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2966,7 +3107,8 @@
     "mob": [
       "minecraft:horse"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -2985,7 +3127,8 @@
     "mob": [
       "minecraft:llama"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3001,7 +3144,8 @@
     "mob": [
       "minecraft:mooshroom"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3017,7 +3161,8 @@
     "mob": [
       "minecraft:ocelot"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3035,7 +3180,8 @@
     "mob": [
       "minecraft:panda"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3055,7 +3201,8 @@
     "mob": [
       "minecraft:parrot"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3076,7 +3223,8 @@
     "mob": [
       "minecraft:polar_bear"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3093,7 +3241,8 @@
     "mob": [
       "minecraft:pufferfish"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3129,7 +3278,8 @@
     "mob": [
       "minecraft:rabbit"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3147,7 +3297,8 @@
     "mob": [
       "minecraft:snow_golem"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3173,7 +3324,8 @@
     "mob": [
       "minecraft:wolf"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3202,7 +3354,8 @@
     "mob": [
       "naturalist:bear"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3234,7 +3387,8 @@
     "mob": [
       "naturalist:bluejay"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3251,21 +3405,24 @@
     "mob": [
       "naturalist:boar"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "naturalist:butterfly"
     ],
     "weather": "rain",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "naturalist:butterfly"
     ],
     "weather": "thunder",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3296,7 +3453,8 @@
     "mob": [
       "naturalist:butterfly"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3325,7 +3483,8 @@
     "mob": [
       "naturalist:canary"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3354,7 +3513,8 @@
     "mob": [
       "naturalist:cardinal"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3383,7 +3543,8 @@
     "mob": [
       "naturalist:caterpillar"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3402,7 +3563,8 @@
     "mob": [
       "naturalist:coral_snake"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3430,7 +3592,8 @@
     "mob": [
       "naturalist:deer"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3447,7 +3610,8 @@
     "mob": [
       "naturalist:dragonfly"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3464,7 +3628,8 @@
     "mob": [
       "naturalist:elephant"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3506,7 +3671,8 @@
     "mob": [
       "naturalist:firefly"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3523,7 +3689,8 @@
     "mob": [
       "naturalist:giraffe"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3540,7 +3707,8 @@
     "mob": [
       "naturalist:lion"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3570,7 +3738,8 @@
     "mob": [
       "naturalist:lizard"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3590,7 +3759,8 @@
     "mob": [
       "naturalist:rattlesnake"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3607,7 +3777,8 @@
     "mob": [
       "naturalist:rhino"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3639,7 +3810,8 @@
     "mob": [
       "naturalist:robin"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3696,7 +3868,8 @@
     "mob": [
       "naturalist:snail"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3718,7 +3891,8 @@
     "mob": [
       "naturalist:snake"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3741,7 +3915,8 @@
     "mob": [
       "naturalist:tortoise"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3764,7 +3939,8 @@
     "mob": [
       "naturalist:vulture"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3781,7 +3957,8 @@
     "mob": [
       "naturalist:zebra"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3798,7 +3975,8 @@
     "mob": [
       "quark:crab"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3816,7 +3994,8 @@
     "mob": [
       "quark:shiba"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3830,7 +4009,8 @@
     "mob": [
       "quark:stoneling"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3844,7 +4024,8 @@
     "mob": [
       "quark:toretoise"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3858,7 +4039,8 @@
     "mob": [
       "unusualfishmod:blindsailfin"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3872,7 +4054,8 @@
     "mob": [
       "unusualfishmod:copperflame"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3887,7 +4070,8 @@
     "mob": [
       "unusualfishmod:gnasher"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3902,7 +4086,8 @@
     "mob": [
       "unusualfishmod:hatchet_fish"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3927,7 +4112,8 @@
     "mob": [
       "unusualfishmod:prawn"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3945,7 +4131,8 @@
     "mob": [
       "whatareyouvotingfor2023:armadillo"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3961,7 +4148,8 @@
     "mob": [
       "minecraft:warden"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3975,7 +4163,8 @@
     "mob": [
       "alexsmobs:laviathan"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -3992,7 +4181,8 @@
     "mob": [
       "alexsmobs:warped_toad"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4009,7 +4199,8 @@
     "mob": [
       "cnb:cindershell"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4026,7 +4217,8 @@
     "mob": [
       "infernalexp:basalt_giant"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4043,7 +4235,8 @@
     "mob": [
       "infernalexp:glowsilk_moth"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4060,7 +4253,8 @@
     "mob": [
       "infernalexp:warpbeetle"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4078,7 +4272,8 @@
     "mob": [
       "iter_rpg:demonsoul"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4092,7 +4287,8 @@
     "mob": [
       "minecraft:strider"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4110,7 +4306,8 @@
     "mob": [
       "netherdepthsupgrade:blazefish"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4128,7 +4325,8 @@
     "mob": [
       "netherdepthsupgrade:bonefish"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4147,7 +4345,8 @@
     "mob": [
       "netherdepthsupgrade:eyeball_fish"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4161,7 +4360,8 @@
     "mob": [
       "netherdepthsupgrade:fortressgrouper"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4179,7 +4379,8 @@
     "mob": [
       "netherdepthsupgrade:glowdine"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4197,7 +4398,8 @@
     "mob": [
       "netherdepthsupgrade:lava_pufferfish"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4214,7 +4416,8 @@
     "mob": [
       "netherdepthsupgrade:magmacubefish"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4232,7 +4435,8 @@
     "mob": [
       "netherdepthsupgrade:obsidianfish"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4250,7 +4454,8 @@
     "mob": [
       "netherdepthsupgrade:searing_cod"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4268,7 +4473,8 @@
     "mob": [
       "netherdepthsupgrade:soulsucker"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4286,7 +4492,8 @@
     "mob": [
       "netherdepthsupgrade:wither_bonefish"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4306,7 +4513,8 @@
     "mob": [
       "quark:foxhound"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4328,7 +4536,8 @@
     "mob": [
       "unusualprehistory:austroraptor"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4348,7 +4557,8 @@
     "mob": [
       "unusualprehistory:ulughbegsaurus"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4367,7 +4577,8 @@
     "mob": [
       "unusualprehistory:paraceratherium"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4386,7 +4597,8 @@
     "mob": [
       "unusualprehistory:mammoth"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4405,7 +4617,8 @@
     "mob": [
       "unusualprehistory:antarctopelta"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4422,7 +4635,8 @@
     "mob": [
       "unusualprehistory:gigantopithicus"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4440,7 +4654,8 @@
     "mob": [
       "unusualprehistory:majunga"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4482,7 +4697,8 @@
     "mob": [
       "unusualprehistory:encrusted"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4509,7 +4725,8 @@
     "mob": [
       "oddorganisms:apthoroblattina"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4526,7 +4743,8 @@
     "mob": [
       "unusualprehistory:stethacanthus"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4544,7 +4762,8 @@
     "mob": [
       "unusualprehistory:talpanas"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4562,7 +4781,8 @@
     "mob": [
       "unusualprehistory:pachy"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4580,7 +4800,8 @@
     "mob": [
       "unusualprehistory:kentrosaurus"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4598,7 +4819,8 @@
     "mob": [
       "unusualprehistory:rex"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4616,7 +4838,8 @@
     "mob": [
       "oddorganisms:leptictidium"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4634,7 +4857,8 @@
     "mob": [
       "oddorganisms:eolactoria"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4652,7 +4876,8 @@
     "mob": [
       "unusualprehistory:coty"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4670,7 +4895,8 @@
     "mob": [
       "unusualprehistory:veloci"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4688,7 +4914,8 @@
     "mob": [
       "unusualprehistory:hwachavenator"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4706,7 +4933,8 @@
     "mob": [
       "oddorganisms:dawn_horse"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4725,7 +4953,8 @@
     "mob": [
       "unusualprehistory:megatherium"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4746,7 +4975,8 @@
     "mob": [
       "unusualprehistory:megalania"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4764,7 +4994,8 @@
     "mob": [
       "oddorganisms:doedicurus"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4782,7 +5013,8 @@
     "mob": [
       "unusualprehistory:brachi"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4811,7 +5043,8 @@
     "mob": [
       "unusualprehistory:sludge"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4829,7 +5062,8 @@
     "mob": [
       "unusualprehistory:trike"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4847,7 +5081,8 @@
     "mob": [
       "unusualprehistory:barinasuchus"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4866,7 +5101,8 @@
     "mob": [
       "unusualprehistory:smilodon"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4883,7 +5119,8 @@
     "mob": [
       "unusualprehistory:eryon"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4901,7 +5138,8 @@
     "mob": [
       "unusualprehistory:anuro"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4919,7 +5157,8 @@
     "mob": [
       "unusualprehistory:beelz"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4938,7 +5177,8 @@
     "mob": [
       "blue_skies:snow_owl"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4957,7 +5197,8 @@
     "mob": [
       "blue_skies:reindeer"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4974,7 +5215,8 @@
     "mob": [
       "blue_skies:shrumpty"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -4996,7 +5238,8 @@
     "mob": [
       "blue_skies:firefly"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5014,7 +5257,8 @@
     "mob": [
       "blue_skies:cosmic_fox"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5034,7 +5278,8 @@
     "mob": [
       "blue_skies:shade_monitor"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5052,7 +5297,8 @@
     "mob": [
       "blue_skies:sliv"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5070,7 +5316,8 @@
     "mob": [
       "blue_skies:crogre"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5090,7 +5337,8 @@
     "mob": [
       "blue_skies:azulfo"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5110,7 +5358,8 @@
     "mob": [
       "blue_skies:stardust_ram"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5130,7 +5379,8 @@
     "mob": [
       "blue_skies:crystal_camel"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5147,7 +5397,8 @@
     "mob": [
       "unusualfishmod:skipper"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5163,7 +5414,8 @@
     "mob": [
       "unusualprehistory:majunga"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5179,7 +5431,8 @@
     "mob": [
       "unusualfishmod:kalappa"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5204,7 +5457,8 @@
     "mob": [
       "oddorganisms:apthoroblattina"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "born_in_chaos_v1:firelight",
@@ -5229,7 +5483,8 @@
     "dimension": [
       "blue_skies:everdawn"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "born_in_chaos_v1:nightmare_stalker",
@@ -5253,7 +5508,8 @@
       "blue_skies:everdawn",
       "blue_skies:everbright"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5273,7 +5529,8 @@
       "blue_skies:everbright",
       "blue_skies:everdawn"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5293,7 +5550,8 @@
       "blue_skies:everbright",
       "blue_skies:everdawn"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5326,7 +5584,8 @@
       "blue_skies:everbright",
       "blue_skies:everdawn"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5348,7 +5607,8 @@
     "dimension": [
       "blue_skies:everdawn"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5365,7 +5625,8 @@
     "mob": [
       "alexsmobs:cosmaw"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5385,7 +5646,8 @@
     "mob": [
       "alexsmobs:cosmic_cod"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5404,7 +5666,8 @@
     "mob": [
       "alexsmobs:endergrade"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5421,7 +5684,8 @@
     "mob": [
       "unusualend:ender_firefly"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5438,7 +5702,8 @@
     "mob": [
       "alexsmobs:enderiophage"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5458,7 +5723,8 @@
     "mob": [
       "alexsmobs:spectre"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5478,7 +5744,8 @@
     "mob": [
       "cnb:end_whale"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5495,13 +5762,15 @@
     "mob": [
       "enlightened_end:ringling"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "endergetic:booflo"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5518,7 +5787,8 @@
     "mob": [
       "endergetic:booflo"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5535,7 +5805,8 @@
     "mob": [
       "endergetic:booflo_adolescent"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5552,7 +5823,8 @@
     "mob": [
       "endergetic:booflo_baby"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5569,7 +5841,8 @@
     "mob": [
       "endergetic:puff_bug"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5588,7 +5861,8 @@
     "mob": [
       "endergetic:purpoid"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "cataclysm:amethyst_crab",
@@ -5600,7 +5874,8 @@
   },
   {
     "mob": "cataclysm:amethyst_crab",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "iter_rpg:bloated",
@@ -5613,7 +5888,8 @@
   },
   {
     "mob": "iter_rpg:bloated",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "cataclysm:the_watcher",
@@ -5624,7 +5900,8 @@
   },
   {
     "mob": "cataclysm:the_watcher",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "cataclysm:coral_golem",
@@ -5638,7 +5915,8 @@
   },
   {
     "mob": "cataclysm:coral_golem",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "born_in_chaos_v1:dire_hound_leader",
@@ -5663,7 +5941,8 @@
   },
   {
     "mob": "born_in_chaos_v1:dire_hound_leader",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "born_in_chaos_v1:mr_pumpkin",
@@ -5675,7 +5954,8 @@
   },
   {
     "mob": "born_in_chaos_v1:mr_pumpkin",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "quark:forgotten",
@@ -5686,7 +5966,8 @@
   },
   {
     "mob": "quark:forgotten",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "iter_rpg:hobgoblin",
@@ -5707,7 +5988,8 @@
   },
   {
     "mob": "iter_rpg:hobgoblin",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "iter_rpg:goblin",
@@ -5728,7 +6010,8 @@
   },
   {
     "mob": "iter_rpg:goblin",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "iter_rpg:goblin_warrior",
@@ -5749,7 +6032,8 @@
   },
   {
     "mob": "iter_rpg:goblin_warrior",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "cataclysm:ignited_revenant",
@@ -5762,7 +6046,8 @@
   },
   {
     "mob": "cataclysm:ignited_revenant",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "cataclysm:ignited_berserker",
@@ -5775,7 +6060,8 @@
   },
   {
     "mob": "cataclysm:ignited_berserker",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "cataclysm:wadjet",
@@ -5792,7 +6078,8 @@
   },
   {
     "mob": "cataclysm:wadjet",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "cataclysm:koboleton",
@@ -5809,7 +6096,8 @@
   },
   {
     "mob": "cataclysm:koboleton",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "cataclysm:kobolediator",
@@ -5826,7 +6114,8 @@
   },
   {
     "mob": "cataclysm:kobolediator",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "born_in_chaos_v1:diamond_termite",
@@ -5837,7 +6126,8 @@
   },
   {
     "mob": "born_in_chaos_v1:diamond_termite",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "cataclysm:the_prowler",
@@ -5848,7 +6138,8 @@
   },
   {
     "mob": "cataclysm:the_prowler",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
@@ -5935,64 +6226,75 @@
     "mob": [
       "unusualfishmod:celestial"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "unusualfishmod:shockcat"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "unusualfishmod:duality_damselfish"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "unusualfishmod:demon_herring"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "unusualfishmod:volt_angler"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "unusualfishmod:trumpet_squid"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "unusualfishmod:triple_twirl_pleco"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "unusualfishmod:rhino_tetra"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "majruszsdifficulty:tank"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": [
       "whatareyouvotingfor2023:penguin"
     ],
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   },
   {
     "mob": "dungeons_mobs:endersent",
-    "result": "deny"
+      "spawner": false,
+"result": "deny"
   }
 ]

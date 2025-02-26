@@ -12,7 +12,7 @@
 		}
 	}
 	id: "47D2F42931629D19"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -432,13 +432,6 @@
 					value: 1L
 				}
 				{
-					entity: "born_in_chaos_v1:sir_pumpkinhead"
-					icon: "born_in_chaos_v1:evil_carved_pumpkin"
-					id: "6E6B12BBD1A9CDF8"
-					type: "kill"
-					value: 1L
-				}
-				{
 					entity: "blue_skies:alchemist"
 					icon: {
 						Count: 1b
@@ -498,14 +491,20 @@
 					type: "item"
 				}
 				{
-					icon: "minecraft:dragon_head"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "quark:dragon_scale"
+					}
 					id: "68EA2B598091CAA4"
 					item: {
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": { }
 						}
-						id: "minecraft:spawner"
+						id: "quark:dragon_scale"
 					}
 					title: "Kill 1x Ender Dragon"
 					type: "item"
@@ -848,6 +847,21 @@
 					type: "kill"
 					value: 1L
 				}
+				{
+					id: "2641179CFF71EDB3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "born_in_chaos_v1:pumpkin_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Kill Sir Pumpkinhead"
+					type: "item"
+				}
 			]
 			title: "The Final Challenge"
 			x: 20.25d
@@ -1043,17 +1057,6 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "majruszsdifficulty:ender_dragon_treasure_bag"
-					}
-					type: "item"
-				}
-				{
-					id: "3DE0752026878E50"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "majruszsdifficulty:fishing_treasure_bag"
 					}
 					type: "item"
 				}
@@ -9692,6 +9695,7 @@
 					xp: 5000
 				}
 				{
+					count: 250
 					id: "24A97B6FD0A6EEE3"
 					item: {
 						Count: 1b
@@ -9722,6 +9726,18 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "enigmaticlegacy:enchantment_transposer"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2D8E22A7C2E3C0DC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:steak_and_potatoes"
 					}
 					type: "item"
 				}
@@ -10123,17 +10139,6 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "naturalist:cooked_bass"
-					}
-					type: "item"
-				}
-				{
-					id: "0BFE1E6FF539C5A4"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "naturalist:cooked_venison"
 					}
 					type: "item"
 				}
@@ -11732,6 +11737,102 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1CD7B259668ED01C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "iter_rpg:very_good_and_cheerful_rapier"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: -2.8d
+									AttributeName: "generic.attack_speed"
+									Name: "1736986096565"
+									Slot: "mainhand"
+									UUID: [I;
+										-125015
+										18020
+										1974
+										-36040
+									]
+								}
+								{
+									Amount: 6
+									AttributeName: "generic.attack_damage"
+									Name: "1736986521479"
+									Slot: "mainhand"
+									UUID: [I;
+										-125015
+										23520
+										1974
+										-47040
+									]
+								}
+								{
+									Amount: 0.5d
+									AttributeName: "generic.luck"
+									Name: "1736986096565"
+									Slot: "mainhand"
+									UUID: [I;
+										-125015
+										18320
+										1974
+										-36640
+									]
+								}
+								{
+									Amount: 30
+									AttributeName: "generic.max_health"
+									Name: "1736986096565"
+									Slot: "mainhand"
+									UUID: [I;
+										-125015
+										18620
+										1974
+										-37240
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "looting"
+									lvl: 8
+								}
+								{
+									id: "sharpness"
+									lvl: 3
+								}
+								{
+									id: "silk_touch"
+									lvl: 1
+								}
+								{
+									id: "smite"
+									lvl: 8
+								}
+								{
+									id: "sweeping"
+									lvl: 3
+								}
+							]
+							HideFlags: 7
+							Unbreakable: 1
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"By the combined power of the spring bloom\",\"italic\":false,\"color\":\"#6600cc\"}]"
+									"[\"\",{\"text\":\"~~~\",\"italic\":false,\"color\":\"#6600cc\"}]"
+									"[\"\",{\"text\":\"Blade of hidden powers\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Tomorrow is feast, Yesterday is not\",\"italic\":false,\"color\":\"#66cc99\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			subtitle: "Collect all the flowers to create the most perfect of perfume"
@@ -12580,6 +12681,270 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "endergetic:bolloom_bud"
+					}
+					type: "item"
+				}
+				{
+					id: "76B411AFC9DA66C6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:peach_foxglove"
+					}
+					type: "item"
+				}
+				{
+					id: "55BE0ECE2508DFEB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:purple_foxglove"
+					}
+					type: "item"
+				}
+				{
+					id: "4C8FEF6AE837C844"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:white_foxglove"
+					}
+					type: "item"
+				}
+				{
+					id: "652A510E2DEFB395"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:sunset_foxglove"
+					}
+					type: "item"
+				}
+				{
+					id: "6322560E815860EA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:fireweed"
+					}
+					type: "item"
+				}
+				{
+					id: "036315245AE884A9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:hydrangea"
+					}
+					type: "item"
+				}
+				{
+					id: "33F3BA59C3DF5D0B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:purple_hydrangea"
+					}
+					type: "item"
+				}
+				{
+					id: "2172C289BE2DE15A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:red_hydrangea"
+					}
+					type: "item"
+				}
+				{
+					id: "548E30DD63567BA6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:white_hydrangea"
+					}
+					type: "item"
+				}
+				{
+					id: "6619EE1BCB532889"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:red_pansies"
+					}
+					type: "item"
+				}
+				{
+					id: "3E2744083F7E26DC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:yellow_pansies"
+					}
+					type: "item"
+				}
+				{
+					id: "2228E62BAD939E09"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:white_pansies"
+					}
+					type: "item"
+				}
+				{
+					id: "0735F70675B52AA0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:orange_pansies"
+					}
+					type: "item"
+				}
+				{
+					id: "715AFC74F34A3B4A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:pink_pansies"
+					}
+					type: "item"
+				}
+				{
+					id: "584F87559D9B3EBA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:purple_pansies"
+					}
+					type: "item"
+				}
+				{
+					id: "24552CBE0DBF78FD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:twinflower"
+					}
+					type: "item"
+				}
+				{
+					id: "75297428C71A2422"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:blanket_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "0BF55F98279A09F1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:blue_liverwort"
+					}
+					type: "item"
+				}
+				{
+					id: "5D4F75578B4F0F7E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:purple_liverwort"
+					}
+					type: "item"
+				}
+				{
+					id: "422B62226B18D34F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:white_liverwort"
+					}
+					type: "item"
+				}
+				{
+					id: "62C972E9764F6E65"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:purple_lupine"
+					}
+					type: "item"
+				}
+				{
+					id: "3EF5FD1FD2DBB6ED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:lupine_pink"
+					}
+					type: "item"
+				}
+				{
+					id: "1125A14B4ECE0CAE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:lupine_white"
+					}
+					type: "item"
+				}
+				{
+					id: "4EB1FB8ECAD33FEE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "serene_shrubbery:butterfly_bush"
 					}
 					type: "item"
 				}
@@ -13836,6 +14201,31 @@
 					id: "3C16B1E6A43171A0"
 					title: "Talk to Pumpkillager (Dark Forest Villages)"
 					type: "custom"
+				}
+				{
+					id: "55FF7CD824CE1702"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "farmersdelight:melon_popsicle"
+					}
+					type: "item"
+				}
+				{
+					id: "5415B9907EF5FB50"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "create_confectionery:full_chocolate_bar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
 				}
 			]
 			title: "SNACK TIME ! - Fish and Crisp"
