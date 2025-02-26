@@ -548,7 +548,6 @@
 1, frozen_ocean,minecraft:frozen_ocean,MONSTER,dungeons_mobs:iceologer,20,1,2
 1, frozen_ocean,minecraft:frozen_ocean,MONSTER,minecraft:stray,20,1,2
 1, frozen_ocean,minecraft:frozen_ocean,MONSTER,dungeons_mobs:frozen_zombie,20,1,2
-1, frozen_ocean,minecraft:frozen_ocean,MONSTER,,20,1,2
 1, frozen_ocean,minecraft:frozen_ocean,MONSTER,rottencreatures:hunter_wolf,20,1,2
 1, frozen_ocean,minecraft:frozen_ocean,MONSTER,minecraft:spider,20,1,2
 1, frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,aquamirae:anglerfish,20,1,2
@@ -866,79 +865,6 @@
 1, beach,minecraft:snowy_beach,MONSTER,rottencreatures:immortal,10,1,1
 1, none,minecraft:stony_shore,MONSTER,iter_rpg:bloated,10,1,1
 1, none,minecraft:stony_shore,MONSTER,rottencreatures:immortal,10,1,1
-1,savanna, minecraft:savanna, MONSTER,,10,1,1
-1,savanna, minecraft:savanna_plateau, MONSTER,,10,1,1
-1,savanna, minecraft:windswept_savanna, MONSTER,,10,1,1
-1,none,minecraft:mushroom_fields, MONSTER,,10,1,1
-1,beach,minecraft:beach,MONSTER,,10,1,1
-1,beach,minecraft:snowy_beach,MONSTER,,10,1,1
-1,none,minecraft:stony_shore,MONSTER,,10,1,1
-1,forest,minecraft:forest,MONSTER,,10,1,1
-1,forest,atmospheric:laurel_forest,MONSTER,,10,1,1
-1,forest,autumnity:maple_forest,MONSTER,,10,1,1
-1,forest,environmental:blossom_woods,MONSTER,,10,1,1
-1,forest,minecraft:birch_forest,MONSTER,,10,1,1
-1,forest,minecraft:flower_forest,MONSTER,,10,1,1
-1,forest,minecraft:old_growth_birch_forest,MONSTER,,10,1,1
-1,forest,minecraft:windswept_forest,MONSTER,,10,1,1
-1,plains,minecraft:plains,MONSTER,,10,1,1
-1,plains,autumnity:pumpkin_fields,MONSTER,,10,1,1
-1,plains,environmental:blossom_valleys,MONSTER,,10,1,1
-1,plains,minecraft:meadow,MONSTER,,10,1,1
-1,plains,minecraft:sunflower_plains,MONSTER,,10,1,1
-1,river,minecraft:river,MONSTER,,10,1,1
-1,icy,minecraft:snowy_plains,MONSTER,,10,1,1
-1,icy,minecraft:frozen_river,MONSTER,,10,1,1
-1,icy,minecraft:snowy_taiga,MONSTER,,10,1,1
-1,icy,minecraft:ice_spikes,MONSTER,,10,1,1
-1,taiga,minecraft:taiga,MONSTER,,10,1,1
-1,taiga,environmental:pine_barrens,MONSTER,,10,1,1
-1,taiga,environmental:snowy_pine_barrens,MONSTER,,10,1,1
-1,taiga,minecraft:old_growth_pine_taiga,MONSTER,,10,1,1
-1,taiga,minecraft:old_growth_spruce_taiga,MONSTER,,10,1,1
-1,desert,minecraft:desert,MONSTER,,10,1,1
-1,desert,atmospheric:snowy_scrubland,MONSTER,,10,1,1
-1,desert,atmospheric:scrubland,MONSTER,,10,1,1
-1,desert,atmospheric:rocky_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:petrified_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:dunes,MONSTER,,10,1,1
-1,desert,atmospheric:flourishing_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:spiny_thicket,MONSTER,,10,1,1
-1,badlands,minecraft:badlands,MONSTER,,10,1,1
-1,badlands,minecraft:wooded_badlands,MONSTER,,10,1,1
-1,jungle,minecraft:jungle,MONSTER,,10,1,1
-1,jungle,atmospheric:rainforest_basin,MONSTER,,10,1,1
-1,jungle,atmospheric:rainforest,MONSTER,,10,1,1
-1,jungle,atmospheric:sparse_rainforest,MONSTER,,10,1,1
-1,jungle,atmospheric:sparse_rainforest_basin,MONSTER,,10,1,1
-1,jungle,atmospheric:kousa_jungle,MONSTER,,10,1,1
-1,jungle,minecraft:sparse_jungle,MONSTER,,10,1,1
-1,jungle,minecraft:bamboo_jungle,MONSTER,,10,1,1
-1,swamp,minecraft:swamp,MONSTER,,10,1,1
-1,swamp,environmental:marsh,MONSTER,,10,1,1
-1,swamp,minecraft:mangrove_swamp,MONSTER,,10,1,1
-1,ocean,minecraft:ocean,MONSTER,,10,1,1
-1,ocean,minecraft:lukewarm_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_lukewarm_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_cold_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:cold_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:warm_ocean,MONSTER,,10,1,1
-1,frozen_ocean,minecraft:frozen_ocean,MONSTER,,10,1,1
-1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,,10,1,1
-1,dark_forest,minecraft:dark_forest,MONSTER,,10,1,1
-1,dark_forest,atmospheric:aspen_parkland,MONSTER,,10,1,1
-1,mountains,minecraft:frozen_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:windswept_hills,MONSTER,,10,1,1
-1,mountains,minecraft:windswept_gravelly_hills,MONSTER,,10,1,1
-1,mountains,minecraft:grove,MONSTER,,10,1,1
-1,mountains,minecraft:jagged_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:stony_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:snowy_slopes,MONSTER,,10,1,1
-1,lush_caves,minecraft:lush_caves,MONSTER,,10,1,1
-1,none,galosphere:crystal_canyons,MONSTER,,10,1,1
-1,none,galosphere:lichen_caves,MONSTER,,10,1,1
-1,none,minecraft:dripstone_caves,MONSTER,,10,1,1
 1,savanna, minecraft:savanna, MONSTER, alexsmobs:farseer,10,1,1
 1,savanna, minecraft:savanna_plateau, MONSTER, alexsmobs:farseer,10,1,1
 1,savanna, minecraft:windswept_savanna, MONSTER, alexsmobs:farseer,10,1,1
@@ -1012,79 +938,8 @@
 1,none,galosphere:crystal_canyons,MONSTER, alexsmobs:farseer,10,1,1
 1,none,galosphere:lichen_caves,MONSTER, alexsmobs:farseer,10,1,1
 1,none,minecraft:dripstone_caves,MONSTER, alexsmobs:farseer,10,1,1
-1,savanna, minecraft:savanna, MONSTER,,10,1,1
-1,savanna, minecraft:savanna_plateau, MONSTER,,10,1,1
-1,savanna, minecraft:windswept_savanna, MONSTER,,10,1,1
-1,none,minecraft:mushroom_fields, MONSTER,,10,1,1
-1,beach,minecraft:beach,MONSTER,,10,1,1
-1,beach,minecraft:snowy_beach,MONSTER,,10,1,1
-1,none,minecraft:stony_shore,MONSTER,,10,1,1
-1,forest,minecraft:forest,MONSTER,,10,1,1
-1,forest,atmospheric:laurel_forest,MONSTER,,10,1,1
-1,forest,autumnity:maple_forest,MONSTER,,10,1,1
 1,forest,environmental:blossom_woods,MONSTER,alexsmobs:murmur,10,1,1
-1,forest,minecraft:birch_forest,MONSTER,,10,1,1
-1,forest,minecraft:flower_forest,MONSTER,,10,1,1
-1,forest,minecraft:old_growth_birch_forest,MONSTER,,10,1,1
-1,forest,minecraft:windswept_forest,MONSTER,,10,1,1
-1,plains,minecraft:plains,MONSTER,,10,1,1
-1,plains,autumnity:pumpkin_fields,MONSTER,,10,1,1
 1,plains,environmental:blossom_valleys,MONSTER,alexsmobs:murmur,10,1,1
-1,plains,minecraft:meadow,MONSTER,,10,1,1
-1,plains,minecraft:sunflower_plains,MONSTER,,10,1,1
-1,river,minecraft:river,MONSTER,,10,1,1
-1,icy,minecraft:snowy_plains,MONSTER,,10,1,1
-1,icy,minecraft:frozen_river,MONSTER,,10,1,1
-1,icy,minecraft:snowy_taiga,MONSTER,,10,1,1
-1,icy,minecraft:ice_spikes,MONSTER,,10,1,1
-1,taiga,minecraft:taiga,MONSTER,,10,1,1
-1,taiga,environmental:pine_barrens,MONSTER,,10,1,1
-1,taiga,environmental:snowy_pine_barrens,MONSTER,,10,1,1
-1,taiga,minecraft:old_growth_pine_taiga,MONSTER,,10,1,1
-1,taiga,minecraft:old_growth_spruce_taiga,MONSTER,,10,1,1
-1,desert,minecraft:desert,MONSTER,,10,1,1
-1,desert,atmospheric:snowy_scrubland,MONSTER,,10,1,1
-1,desert,atmospheric:scrubland,MONSTER,,10,1,1
-1,desert,atmospheric:rocky_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:petrified_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:dunes,MONSTER,,10,1,1
-1,desert,atmospheric:flourishing_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:spiny_thicket,MONSTER,,10,1,1
-1,badlands,minecraft:badlands,MONSTER,,10,1,1
-1,badlands,minecraft:wooded_badlands,MONSTER,,10,1,1
-1,jungle,minecraft:jungle,MONSTER,,10,1,1
-1,jungle,atmospheric:rainforest_basin,MONSTER,,10,1,1
-1,jungle,atmospheric:rainforest,MONSTER,,10,1,1
-1,jungle,atmospheric:sparse_rainforest,MONSTER,,10,1,1
-1,jungle,atmospheric:sparse_rainforest_basin,MONSTER,,10,1,1
-1,jungle,atmospheric:kousa_jungle,MONSTER,,10,1,1
-1,jungle,minecraft:sparse_jungle,MONSTER,,10,1,1
-1,jungle,minecraft:bamboo_jungle,MONSTER,,10,1,1
-1,swamp,minecraft:swamp,MONSTER,,10,1,1
-1,swamp,environmental:marsh,MONSTER,,10,1,1
-1,swamp,minecraft:mangrove_swamp,MONSTER,,10,1,1
-1,ocean,minecraft:ocean,MONSTER,,10,1,1
-1,ocean,minecraft:lukewarm_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_lukewarm_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_cold_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:cold_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:warm_ocean,MONSTER,,10,1,1
-1,frozen_ocean,minecraft:frozen_ocean,MONSTER,,10,1,1
-1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,,10,1,1
-1,dark_forest,minecraft:dark_forest,MONSTER,,10,1,1
-1,dark_forest,atmospheric:aspen_parkland,MONSTER,,10,1,1
-1,mountains,minecraft:frozen_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:windswept_hills,MONSTER,,10,1,1
-1,mountains,minecraft:windswept_gravelly_hills,MONSTER,,10,1,1
-1,mountains,minecraft:grove,MONSTER,,10,1,1
-1,mountains,minecraft:jagged_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:stony_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:snowy_slopes,MONSTER,,10,1,1
-1,lush_caves,minecraft:lush_caves,MONSTER,,10,1,1
-1,none,galosphere:crystal_canyons,MONSTER,,10,1,1
-1,none,galosphere:lichen_caves,MONSTER,,10,1,1
-1,none,minecraft:dripstone_caves,MONSTER,,10,1,1
 1,savanna, minecraft:savanna, MONSTER, born_in_chaos_v1:baby_skeleton,20,1,1
 1,savanna, minecraft:savanna_plateau, MONSTER, born_in_chaos_v1:baby_skeleton,20,1,1
 1,savanna, minecraft:windswept_savanna, MONSTER, born_in_chaos_v1:baby_skeleton,20,1,1
@@ -1742,79 +1597,6 @@
 1,none,galosphere:crystal_canyons,MONSTER, endermanoverhaul:cave_enderman,20,1,1
 1,none,galosphere:lichen_caves,MONSTER, endermanoverhaul:cave_enderman,20,1,1
 1,none,minecraft:dripstone_caves,MONSTER, endermanoverhaul:cave_enderman,20,1,1
-1,savanna, minecraft:savanna, MONSTER,,10,1,1
-1,savanna, minecraft:savanna_plateau, MONSTER,,10,1,1
-1,savanna, minecraft:windswept_savanna, MONSTER,,10,1,1
-1,none,minecraft:mushroom_fields, MONSTER,,10,1,1
-1,beach,minecraft:beach,MONSTER,,10,1,1
-1,beach,minecraft:snowy_beach,MONSTER,,10,1,1
-1,none,minecraft:stony_shore,MONSTER,,10,1,1
-1,forest,minecraft:forest,MONSTER,,10,1,1
-1,forest,atmospheric:laurel_forest,MONSTER,,10,1,1
-1,forest,autumnity:maple_forest,MONSTER,,10,1,1
-1,forest,environmental:blossom_woods,MONSTER,,10,1,1
-1,forest,minecraft:birch_forest,MONSTER,,10,1,1
-1,forest,minecraft:flower_forest,MONSTER,,10,1,1
-1,forest,minecraft:old_growth_birch_forest,MONSTER,,10,1,1
-1,forest,minecraft:windswept_forest,MONSTER,,10,1,1
-1,plains,minecraft:plains,MONSTER,,10,1,1
-1,plains,autumnity:pumpkin_fields,MONSTER,,10,1,1
-1,plains,environmental:blossom_valleys,MONSTER,,10,1,1
-1,plains,minecraft:meadow,MONSTER,,10,1,1
-1,plains,minecraft:sunflower_plains,MONSTER,,10,1,1
-1,river,minecraft:river,MONSTER,,10,1,1
-1,icy,minecraft:snowy_plains,MONSTER,,10,1,1
-1,icy,minecraft:frozen_river,MONSTER,,10,1,1
-1,icy,minecraft:snowy_taiga,MONSTER,,10,1,1
-1,icy,minecraft:ice_spikes,MONSTER,,10,1,1
-1,taiga,minecraft:taiga,MONSTER,,10,1,1
-1,taiga,environmental:pine_barrens,MONSTER,,10,1,1
-1,taiga,environmental:snowy_pine_barrens,MONSTER,,10,1,1
-1,taiga,minecraft:old_growth_pine_taiga,MONSTER,,10,1,1
-1,taiga,minecraft:old_growth_spruce_taiga,MONSTER,,10,1,1
-1,desert,minecraft:desert,MONSTER,,10,1,1
-1,desert,atmospheric:snowy_scrubland,MONSTER,,10,1,1
-1,desert,atmospheric:scrubland,MONSTER,,10,1,1
-1,desert,atmospheric:rocky_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:petrified_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:dunes,MONSTER,,10,1,1
-1,desert,atmospheric:flourishing_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:spiny_thicket,MONSTER,,10,1,1
-1,badlands,minecraft:badlands,MONSTER,,10,1,1
-1,badlands,minecraft:wooded_badlands,MONSTER,,10,1,1
-1,jungle,minecraft:jungle,MONSTER,,10,1,1
-1,jungle,atmospheric:rainforest_basin,MONSTER,,10,1,1
-1,jungle,atmospheric:rainforest,MONSTER,,10,1,1
-1,jungle,atmospheric:sparse_rainforest,MONSTER,,10,1,1
-1,jungle,atmospheric:sparse_rainforest_basin,MONSTER,,10,1,1
-1,jungle,atmospheric:kousa_jungle,MONSTER,,10,1,1
-1,jungle,minecraft:sparse_jungle,MONSTER,,10,1,1
-1,jungle,minecraft:bamboo_jungle,MONSTER,,10,1,1
-1,swamp,minecraft:swamp,MONSTER,,10,1,1
-1,swamp,environmental:marsh,MONSTER,,10,1,1
-1,swamp,minecraft:mangrove_swamp,MONSTER,,10,1,1
-1,ocean,minecraft:ocean,MONSTER,,10,1,1
-1,ocean,minecraft:lukewarm_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_lukewarm_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_cold_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:cold_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:warm_ocean,MONSTER,,10,1,1
-1,frozen_ocean,minecraft:frozen_ocean,MONSTER,,10,1,1
-1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,,10,1,1
-1,dark_forest,minecraft:dark_forest,MONSTER,,10,1,1
-1,dark_forest,atmospheric:aspen_parkland,MONSTER,,10,1,1
-1,mountains,minecraft:frozen_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:windswept_hills,MONSTER,,10,1,1
-1,mountains,minecraft:windswept_gravelly_hills,MONSTER,,10,1,1
-1,mountains,minecraft:grove,MONSTER,,10,1,1
-1,mountains,minecraft:jagged_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:stony_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:snowy_slopes,MONSTER,,10,1,1
-1,lush_caves,minecraft:lush_caves,MONSTER,,10,1,1
-1,none,galosphere:crystal_canyons,MONSTER,,10,1,1
-1,none,galosphere:lichen_caves,MONSTER,,10,1,1
-1,none,minecraft:dripstone_caves,MONSTER,,10,1,1
 1,savanna, minecraft:savanna, MONSTER, iter_rpg:peeper,1,1,1
 1,savanna, minecraft:savanna_plateau, MONSTER, iter_rpg:peeper,1,1,1
 1,savanna, minecraft:windswept_savanna, MONSTER, iter_rpg:peeper,1,1,1
@@ -2322,7 +2104,6 @@
 1,lush_caves,minecraft:lush_caves,MONSTER, rottencreatures:undead_miner,20,2,4
 1,none,galosphere:crystal_canyons,MONSTER, rottencreatures:undead_miner,20,2,4
 1,none,galosphere:lichen_caves,MONSTER, rottencreatures:undead_miner,20,2,4
-1,none,minecraft:dripstone_caves,,,,,
 1,savanna, minecraft:savanna, MONSTER,born_in_chaos_v1:fallen_chaos_knight,10,1,1
 1,savanna, minecraft:savanna_plateau, MONSTER,born_in_chaos_v1:fallen_chaos_knight,10,1,1
 1,savanna, minecraft:windswept_savanna, MONSTER,born_in_chaos_v1:fallen_chaos_knight,10,1,1
@@ -2396,152 +2177,6 @@
 1,none,galosphere:crystal_canyons,MONSTER,born_in_chaos_v1:fallen_chaos_knight,10,1,1
 1,none,galosphere:lichen_caves,MONSTER,born_in_chaos_v1:fallen_chaos_knight,10,1,1
 1,none,minecraft:dripstone_caves,MONSTER,born_in_chaos_v1:fallen_chaos_knight,10,1,1
-1,savanna, minecraft:savanna, MONSTER,,10,1,1
-1,savanna, minecraft:savanna_plateau, MONSTER,,10,1,1
-1,savanna, minecraft:windswept_savanna, MONSTER,,10,1,1
-1,none,minecraft:mushroom_fields, MONSTER,,10,1,1
-1,beach,minecraft:beach,MONSTER,,10,1,1
-1,beach,minecraft:snowy_beach,MONSTER,,10,1,1
-1,none,minecraft:stony_shore,MONSTER,,10,1,1
-1,forest,minecraft:forest,MONSTER,,10,1,1
-1,forest,atmospheric:laurel_forest,MONSTER,,10,1,1
-1,forest,autumnity:maple_forest,MONSTER,,10,1,1
-1,forest,environmental:blossom_woods,MONSTER,,10,1,1
-1,forest,minecraft:birch_forest,MONSTER,,10,1,1
-1,forest,minecraft:flower_forest,MONSTER,,10,1,1
-1,forest,minecraft:old_growth_birch_forest,MONSTER,,10,1,1
-1,forest,minecraft:windswept_forest,MONSTER,,10,1,1
-1,plains,minecraft:plains,MONSTER,,10,1,1
-1,plains,autumnity:pumpkin_fields,MONSTER,,10,1,1
-1,plains,environmental:blossom_valleys,MONSTER,,10,1,1
-1,plains,minecraft:meadow,MONSTER,,10,1,1
-1,plains,minecraft:sunflower_plains,MONSTER,,10,1,1
-1,river,minecraft:river,MONSTER,,10,1,1
-1,icy,minecraft:snowy_plains,MONSTER,,10,1,1
-1,icy,minecraft:frozen_river,MONSTER,,10,1,1
-1,icy,minecraft:snowy_taiga,MONSTER,,10,1,1
-1,icy,minecraft:ice_spikes,MONSTER,,10,1,1
-1,taiga,minecraft:taiga,MONSTER,,10,1,1
-1,taiga,environmental:pine_barrens,MONSTER,,10,1,1
-1,taiga,environmental:snowy_pine_barrens,MONSTER,,10,1,1
-1,taiga,minecraft:old_growth_pine_taiga,MONSTER,,10,1,1
-1,taiga,minecraft:old_growth_spruce_taiga,MONSTER,,10,1,1
-1,desert,minecraft:desert,MONSTER,,10,1,1
-1,desert,atmospheric:snowy_scrubland,MONSTER,,10,1,1
-1,desert,atmospheric:scrubland,MONSTER,,10,1,1
-1,desert,atmospheric:rocky_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:petrified_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:dunes,MONSTER,,10,1,1
-1,desert,atmospheric:flourishing_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:spiny_thicket,MONSTER,,10,1,1
-1,badlands,minecraft:badlands,MONSTER,,10,1,1
-1,badlands,minecraft:wooded_badlands,MONSTER,,10,1,1
-1,jungle,minecraft:jungle,MONSTER,,10,1,1
-1,jungle,atmospheric:rainforest_basin,MONSTER,,10,1,1
-1,jungle,atmospheric:rainforest,MONSTER,,10,1,1
-1,jungle,atmospheric:sparse_rainforest,MONSTER,,10,1,1
-1,jungle,atmospheric:sparse_rainforest_basin,MONSTER,,10,1,1
-1,jungle,atmospheric:kousa_jungle,MONSTER,,10,1,1
-1,jungle,minecraft:sparse_jungle,MONSTER,,10,1,1
-1,jungle,minecraft:bamboo_jungle,MONSTER,,10,1,1
-1,swamp,minecraft:swamp,MONSTER,,10,1,1
-1,swamp,environmental:marsh,MONSTER,,10,1,1
-1,swamp,minecraft:mangrove_swamp,MONSTER,,10,1,1
-1,ocean,minecraft:ocean,MONSTER,,10,1,1
-1,ocean,minecraft:lukewarm_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_lukewarm_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_cold_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:cold_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:warm_ocean,MONSTER,,10,1,1
-1,frozen_ocean,minecraft:frozen_ocean,MONSTER,,10,1,1
-1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,,10,1,1
-1,dark_forest,minecraft:dark_forest,MONSTER,,10,1,1
-1,dark_forest,atmospheric:aspen_parkland,MONSTER,,10,1,1
-1,mountains,minecraft:frozen_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:windswept_hills,MONSTER,,10,1,1
-1,mountains,minecraft:windswept_gravelly_hills,MONSTER,,10,1,1
-1,mountains,minecraft:grove,MONSTER,,10,1,1
-1,mountains,minecraft:jagged_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:stony_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:snowy_slopes,MONSTER,,10,1,1
-1,lush_caves,minecraft:lush_caves,MONSTER,,10,1,1
-1,none,galosphere:crystal_canyons,MONSTER,,10,1,1
-1,none,galosphere:lichen_caves,MONSTER,,10,1,1
-1,none,minecraft:dripstone_caves,MONSTER,,10,1,1
-1,savanna, minecraft:savanna, MONSTER,,10,1,1
-1,savanna, minecraft:savanna_plateau, MONSTER,,10,1,1
-1,savanna, minecraft:windswept_savanna, MONSTER,,10,1,1
-1,none,minecraft:mushroom_fields, MONSTER,,10,1,1
-1,beach,minecraft:beach,MONSTER,,10,1,1
-1,beach,minecraft:snowy_beach,MONSTER,,10,1,1
-1,none,minecraft:stony_shore,MONSTER,,10,1,1
-1,forest,minecraft:forest,MONSTER,,10,1,1
-1,forest,atmospheric:laurel_forest,MONSTER,,10,1,1
-1,forest,autumnity:maple_forest,MONSTER,,10,1,1
-1,forest,environmental:blossom_woods,MONSTER,,10,1,1
-1,forest,minecraft:birch_forest,MONSTER,,10,1,1
-1,forest,minecraft:flower_forest,MONSTER,,10,1,1
-1,forest,minecraft:old_growth_birch_forest,MONSTER,,10,1,1
-1,forest,minecraft:windswept_forest,MONSTER,,10,1,1
-1,plains,minecraft:plains,MONSTER,,10,1,1
-1,plains,autumnity:pumpkin_fields,MONSTER,,10,1,1
-1,plains,environmental:blossom_valleys,MONSTER,,10,1,1
-1,plains,minecraft:meadow,MONSTER,,10,1,1
-1,plains,minecraft:sunflower_plains,MONSTER,,10,1,1
-1,river,minecraft:river,MONSTER,,10,1,1
-1,icy,minecraft:snowy_plains,MONSTER,,10,1,1
-1,icy,minecraft:frozen_river,MONSTER,,10,1,1
-1,icy,minecraft:snowy_taiga,MONSTER,,10,1,1
-1,icy,minecraft:ice_spikes,MONSTER,,10,1,1
-1,taiga,minecraft:taiga,MONSTER,,10,1,1
-1,taiga,environmental:pine_barrens,MONSTER,,10,1,1
-1,taiga,environmental:snowy_pine_barrens,MONSTER,,10,1,1
-1,taiga,minecraft:old_growth_pine_taiga,MONSTER,,10,1,1
-1,taiga,minecraft:old_growth_spruce_taiga,MONSTER,,10,1,1
-1,desert,minecraft:desert,MONSTER,,10,1,1
-1,desert,atmospheric:snowy_scrubland,MONSTER,,10,1,1
-1,desert,atmospheric:scrubland,MONSTER,,10,1,1
-1,desert,atmospheric:rocky_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:petrified_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:dunes,MONSTER,,10,1,1
-1,desert,atmospheric:flourishing_dunes,MONSTER,,10,1,1
-1,desert,atmospheric:spiny_thicket,MONSTER,,10,1,1
-1,badlands,minecraft:badlands,MONSTER,,10,1,1
-1,badlands,minecraft:wooded_badlands,MONSTER,,10,1,1
-1,jungle,minecraft:jungle,MONSTER,,10,1,1
-1,jungle,atmospheric:rainforest_basin,MONSTER,,10,1,1
-1,jungle,atmospheric:rainforest,MONSTER,,10,1,1
-1,jungle,atmospheric:sparse_rainforest,MONSTER,,10,1,1
-1,jungle,atmospheric:sparse_rainforest_basin,MONSTER,,10,1,1
-1,jungle,atmospheric:kousa_jungle,MONSTER,,10,1,1
-1,jungle,minecraft:sparse_jungle,MONSTER,,10,1,1
-1,jungle,minecraft:bamboo_jungle,MONSTER,,10,1,1
-1,swamp,minecraft:swamp,MONSTER,,10,1,1
-1,swamp,environmental:marsh,MONSTER,,10,1,1
-1,swamp,minecraft:mangrove_swamp,MONSTER,,10,1,1
-1,ocean,minecraft:ocean,MONSTER,,10,1,1
-1,ocean,minecraft:lukewarm_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_lukewarm_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_cold_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:cold_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:deep_ocean,MONSTER,,10,1,1
-1,ocean,minecraft:warm_ocean,MONSTER,,10,1,1
-1,frozen_ocean,minecraft:frozen_ocean,MONSTER,,10,1,1
-1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,,10,1,1
-1,dark_forest,minecraft:dark_forest,MONSTER,,10,1,1
-1,dark_forest,atmospheric:aspen_parkland,MONSTER,,10,1,1
-1,mountains,minecraft:frozen_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:windswept_hills,MONSTER,,10,1,1
-1,mountains,minecraft:windswept_gravelly_hills,MONSTER,,10,1,1
-1,mountains,minecraft:grove,MONSTER,,10,1,1
-1,mountains,minecraft:jagged_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:stony_peaks,MONSTER,,10,1,1
-1,mountains,minecraft:snowy_slopes,MONSTER,,10,1,1
-1,lush_caves,minecraft:lush_caves,MONSTER,,10,1,1
-1,none,galosphere:crystal_canyons,MONSTER,,10,1,1
-1,none,galosphere:lichen_caves,MONSTER,,10,1,1
-1,none,minecraft:dripstone_caves,MONSTER,,10,1,1
 1,savanna, minecraft:savanna, MONSTER,graveyard:ghoul,10,1,1
 1,savanna, minecraft:savanna_plateau, MONSTER,graveyard:ghoul,10,1,1
 1,savanna, minecraft:windswept_savanna, MONSTER,graveyard:ghoul,10,1,1
@@ -3418,8 +3053,6 @@
 1,none,galosphere:crystal_canyons,MONSTER, dungeons_mobs:watchling,10,1,1
 1,none,galosphere:lichen_caves,MONSTER, dungeons_mobs:watchling,10,1,1
 1,none,minecraft:dripstone_caves,MONSTER, dungeons_mobs:watchling,10,1,1
-1,,environmental:marsh,, dungeons_mobs:watchling,,,
-1,,minecraft:river,,,,,
 1,none,atmospheric:sparse_rainforest_basin,WATER_CREATURE,alexsmobs:alligator_snapping_turtle,20,1,3
 1,none,blue_skies:moonlit_reservoir,WATER_CREATURE,alexsmobs:alligator_snapping_turtle,20,1,3
 1,none,atmospheric:rainforest_basin,WATER_CREATURE,alexsmobs:alligator_snapping_turtle,20,1,3
@@ -4168,9 +3801,6 @@
 1,none,blue_skies:crescent_orchard_lake,WATER_AMBIENT,blue_skies:charscale_moki,20,1,3
 1,none,blue_skies:moonlit_reservoir,WATER_AMBIENT,blue_skies:charscale_moki,20,1,3
 1,none,blue_skies:moonlit_reservoir,WATER_AMBIENT,blue_skies:horizofin_tunid,20,1,3
-1,none,,WATER_AMBIENT,,20,1,3
-1,none,,WATER_AMBIENT,,20,1,3
-1,none,,WATER_AMBIENT,,20,1,3
 1,none,blue_skies:peeking_ocean,WATER_AMBIENT,unusualfishmod:aero_mono,20,1,3
 1,none,blue_skies:peeking_ocean,WATER_AMBIENT,unusualfishmod:circus,20,1,3
 1,none,blue_skies:deep_peeking_ocean,WATER_AMBIENT,unusualfishmod:circus,20,1,3
@@ -4343,15 +3973,6 @@
 1,none,blue_skies:brisk_meadow,MONSTER,born_in_chaos_v1:nightmare_stalker,20,1,3
 1,none,blue_skies:frostbitten_forest,MONSTER,born_in_chaos_v1:nightmare_stalker,20,1,3
 1,none,blue_skies:frostbitten_forest_clearing,MONSTER,born_in_chaos_v1:nightmare_stalker,20,1,3
-1,none,blue_skies:brightlands,MONSTER,,20,1,3
-1,none,blue_skies:snow_covered_pines,MONSTER,,20,1,3
-1,none,blue_skies:calming_skies,MONSTER,,20,1,3
-1,none,blue_skies:midday_shore,MONSTER,,20,1,3
-1,none,blue_skies:polar_highland,MONSTER,,20,1,3
-1,none,blue_skies:slushlands,MONSTER,,20,1,3
-1,none,blue_skies:brisk_meadow,MONSTER,,20,1,3
-1,none,blue_skies:frostbitten_forest,MONSTER,,20,1,3
-1,none,blue_skies:frostbitten_forest_clearing,MONSTER,,20,1,3
 1,none,blue_skies:brightlands,MONSTER,graveyard:wraith,20,1,3
 1,none,blue_skies:snow_covered_pines,MONSTER,graveyard:wraith,20,1,3
 1,none,blue_skies:calming_skies,MONSTER,graveyard:wraith,20,1,3
@@ -4474,10 +4095,7 @@
 1,none,blue_skies:frostbitten_forest,MONSTER,creeperoverhaul:snowy_creeper,20,1,3
 1,none,blue_skies:frostbitten_forest_clearing,MONSTER,creeperoverhaul:snowy_creeper,20,1,3
 1,none,blue_skies:brightlands,MONSTER,cnb:yeti,20,1,3
-1,none,blue_skies:snow_covered_pines,MONSTER,,20,1,3
 1,none,blue_skies:polar_highland,MONSTER,cnb:yeti,20,1,3
-1,none,blue_skies:frostbitten_forest,MONSTER,,20,1,3
-1,none,blue_skies:frostbitten_forest_clearing,MONSTER,,20,1,3
 1,none,blue_skies:brightlands,MONSTER,rottencreatures:frostbitten,20,1,3
 1,none,blue_skies:snow_covered_pines,MONSTER,rottencreatures:frostbitten,20,1,3
 1,none,blue_skies:calming_skies,MONSTER,rottencreatures:frostbitten,20,1,3
@@ -4562,9 +4180,6 @@
 1,none,blue_skies:frostbitten_forest_clearing,MONSTER,alexsmobs:underminer,20,1,3
 1,none,blue_skies:crescent_orchard,MONSTER,rottencreatures:swampy,20,1,3
 1,none,blue_skies:crescent_orchard_lake,MONSTER,rottencreatures:swampy,20,1,3
-1,none,,MONSTER,,20,1,3
-1,none,,MONSTER,,20,1,3
-1,none,,MONSTER,,20,1,3
 1,none,blue_skies:moonlit_reservoir,MONSTER,rottencreatures:swampy,20,1,3
 1,none,blue_skies:rising_creek,MONSTER,rottencreatures:swampy,20,1,3
 1,none,blue_skies:searing_grassland,MONSTER,rottencreatures:swampy,20,1,3

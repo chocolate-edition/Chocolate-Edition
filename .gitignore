@@ -24,5 +24,8 @@ src/overrides/shaderpacks/ComplementaryReimagined_r5.0.1.zip.txt
 src/overrides/shaderpacks/ComplementaryReimagined_r5.3 + EuphoriaPatches_1.4.3.txt
 src/overrides/shaderpacks/ComplementaryReimagined_r5.4 + EuphoriaPatches_1.5.2.txt
 src/overrides/config/blockswap/known_states/
+# these are auto generated but dont do anything unless converted to .csv
+src/overrides/config/spawnbalanceutility/BiomeMobWeight.txt
+src/overrides/config/spawnbalanceutility/StructMobWeight.txt
 /src/*.zip
 *.bak
