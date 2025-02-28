@@ -366,8 +366,7 @@
       "rottencreatures:undead_miner"
     ],
     "mincount": {
-      "amount": 2,
-      "perplayer": true
+      "amount": 2
     },
       "spawner": false,
 "result": "deny"
@@ -442,8 +441,7 @@
       "rottencreatures:immortal"
     ],
     "mincount": {
-      "amount": 1,
-      "perplayer": true
+      "amount": 1
     },
       "spawner": false,
 "result": "deny"
@@ -482,8 +480,7 @@
       "rottencreatures:immortal"
     ],
     "mincount": {
-      "amount": 1,
-      "perplayer": true
+      "amount": 1
     },
       "spawner": false,
 "result": "deny"
@@ -642,8 +639,7 @@
       "unusualfishmod:drooping_gourami"
     ],
     "mincount": {
-      "amount": 3,
-      "perplayer": true
+      "amount": 3
     },
       "spawner": false,
 "result": "deny"
@@ -654,8 +650,7 @@
       "born_in_chaos_v1:glutton_fish"
     ],
     "mincount": {
-      "amount": 5,
-      "perplayer": true
+      "amount": 5
     },
       "spawner": false,
 "result": "deny"
@@ -726,8 +721,7 @@
       "quark:wraith"
     ],
     "mincount": {
-      "amount": 5,
-      "perplayer": true
+      "amount": 5
     },
       "spawner": false,
 "result": "deny"
@@ -738,8 +732,7 @@
   {
     "mob": ["minecraft:zombified_piglin"],
     "mincount": {
-      "amount": 20,
-      "perplayer": true
+      "amount": 20
     },
     "spawner": false,
   "result": "deny"
@@ -747,8 +740,7 @@
   {
     "mob": ["minecraft:piglin","minecraft:hoglin"],
     "mincount": {
-      "amount": 10,
-      "perplayer": true
+      "amount": 10
     },
     "spawner": false,
   "result": "deny"
@@ -876,8 +868,7 @@
       "meetyourfight:rose_spirit"
     ],
     "mincount": {
-      "amount": 5,
-      "perplayer": true
+      "amount": 5
     },
       "spawner": false,
 "result": "deny"
@@ -941,8 +932,7 @@
       "upgrade_aquatic:flare"
     ],
     "mincount": {
-      "amount": 5,
-      "perplayer": true
+      "amount": 5
     },
       "spawner": false,
 "result": "deny"
@@ -952,8 +942,7 @@
       "dungeons_mobs:snareling"
     ],
     "mincount": {
-      "amount": 3,
-      "perplayer": true
+      "amount": 3
     },
       "spawner": false,
 "result": "deny"
@@ -972,8 +961,7 @@
       "cataclysm:the_prowler"
     ],
     "mincount": {
-      "amount": 1,
-      "perplayer": true
+      "amount": 1
     },
       "spawner": false,
 "result": "deny"
@@ -1055,8 +1043,7 @@
       "quark:foxhound"
     ],
     "mincount": {
-      "amount": 5,
-      "perplayer": true
+      "amount": 5
     },
       "spawner": false,
 "result": "deny"
@@ -1146,8 +1133,7 @@
       "born_in_chaos_v1:diamond_termite"
     ],
     "mincount": {
-      "amount": 5,
-      "perplayer": true
+      "amount": 5
     },
       "spawner": false,
 "result": "deny"
@@ -1215,8 +1201,7 @@
       "iter_rpg:goblin_warrior"
     ],
     "mincount": {
-      "amount": 10,
-      "perplayer": true
+      "amount": 10
     },
       "spawner": false,
 "result": "deny"
@@ -1226,8 +1211,7 @@
       "alexsmobs:cosmic_cod"
     ],
     "mincount": {
-      "amount": 15,
-      "perplayer": true
+      "amount": 15
     },
       "spawner": false,
 "result": "deny"
