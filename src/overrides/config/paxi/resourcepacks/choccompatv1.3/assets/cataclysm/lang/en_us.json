@@ -2,6 +2,17 @@
   "entity.cataclysm.lionfish": "Deepling Lionfish",
   "item.cataclysm.lionfish": "Deepling Lionfish",
   "item.cataclysm.lionfish_spawn_egg": "Deepling Lionfish Spawn Egg",
+  "item.cataclysm.black_steel_sword": "Mythril Sword",
+  "item.cataclysm.black_steel_axe": "Mythril Axe",
+  "item.cataclysm.black_steel_pickaxe": "Mythril Pickaxe",
+  "item.cataclysm.black_steel_hoe": "Mythril Hoe",
+  "item.cataclysm.black_steel_shovel": "Mythril Shovel",
+  "item.cataclysm.black_steel_targe": "Mythril Targe",
+  "item.cataclysm.black_steel_ingot": "Mythril Targe",
+  "item.cataclysm.black_steel_nugget": "Mythril Targe",
+  "item.cataclysm.black_steel_block": "Mythril Targe",
+  "item.cataclysm.black_steel_fence": "Mythril Targe",
+  "item.cataclysm.black_steel_wall": "Mythril Targe",
 
   "entity.cataclysm.ender_golem": "Obsidian Golem",
   "item.cataclysm.ender_golem_spawn_egg": "Obsidian Golem Spawn Egg"
