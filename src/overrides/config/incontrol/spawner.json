@@ -3045,6 +3045,7 @@
       "maxdist": 128,
       "minheight": 60,
       "maxheight": 400,
+      "inwater": true,
       "norestrictions": true
     }
   },
