@@ -263,7 +263,7 @@
 			id: "68A051FE5006E6C1"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Difficulty Scales in this pack, in that once you enter the Everbright/Everdawn you are put into expert mode. Expert:hundreds of new mobs spawn all over the world, mobs slightly more likely to spawn buffed. Undead Army has two new waves, one with a Tank, the other with Cerberus. All bonuses also increase experience and loot gained from mobs."
+			subtitle: "Difficulty scales in this pack, in that once you defeat the Wither you are put into expert mode. Expert:hundreds of new mobs spawn all over the world, mobs slightly more likely to spawn buffed. Undead Army has two new waves, one with a Tank, the other with Cerberus. All bonuses also increase experience and loot gained from mobs."
 			tasks: [{
 				id: "5822C2F673DC9354"
 				title: "Difficulty Scaling"

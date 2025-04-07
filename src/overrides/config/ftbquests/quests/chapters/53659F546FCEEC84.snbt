@@ -622,7 +622,7 @@
 				"3AA58AD569CB791A"
 				"5B2AFAA309E25971"
 			]
-			description: ["on servers/lan, expert mode is actiavted for everyone once 1 player enters one of the envertwined dimensions."]
+			description: ["On servers/lan, expert mode is activated for everyone once one player defeats the Wither."]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -3002,7 +3002,7 @@
 		}
 		{
 			dependencies: ["3CF60CE0867D9A1A"]
-			description: ["neptunium gear can be found by fishing up neptune's bounties. these arte quite rare, but the item inside can be smelted down to an ingot, and the ingot can be used to upgrade diamond gear."]
+			description: ["Neptunium gear can be found by fishing up Neptune's Bounties. these arte quite rare, but the item inside can be smelted down to an ingot, and the ingot can be used to upgrade diamond gear."]
 			disable_toast: true
 			hide: false
 			icon: {
