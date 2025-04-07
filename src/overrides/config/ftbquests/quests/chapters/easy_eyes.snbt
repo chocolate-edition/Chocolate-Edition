@@ -902,7 +902,7 @@
 			description: [
 				"This item is dropped by &4Sir Pumpkinhead&r, who can be summoned by breaking an &eInfernal Evil Pumpkin&r. You can locate these by just exploring your world, they'll have a ritual taking place with &eCandles&r all around it!"
 				""
-				"commonly found in vanilla plains and forest biomes, set your map to night mode and look for a small grouping of candles"
+				"They are commonly found in vanilla plains and forest biomes! At night, look on your map for a small grouping of candles"
 			]
 			id: "49171FCF7274350A"
 			rewards: [{
