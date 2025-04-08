@@ -162,7 +162,7 @@
 			description: [
 				"This item can be crafted using a &eRed Mushroom&r, a &eBrown Mushroom&r, and &eGlowstone Dust&r&f."
 				""
-				"&eGlowstone Dust&r can be acquired from the Nether, structures, &cWitches&r, and crushing &ePrismarine Crystals&r. See the relevant quest for more!"
+				"&eGlowstone Dust&r can be acquired from the Nether, structures, &cWitches&r, and crushing &ePrismarine Crystals&r. It can also be crafted with ametrine shards, redstone, and various glowing ingredients. See the relevant quest for more!"
 			]
 			id: "1A8A4DEE5F184E8D"
 			rewards: [{
@@ -177,7 +177,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Found in Glimmering Wealds or crafted"
+			subtitle: "Found in caves or crafted"
 			tasks: [{
 				id: "09AC1760CD2AC864"
 				item: {
