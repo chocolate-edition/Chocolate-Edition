@@ -2101,6 +2101,8 @@
 				"This item can be obtained from &eNeptune's Bounty&r boxes, which are very rarely fished up. They can also be smelted down from Neptunium tools and armor, which are also found in &eNeptune's Bounty&r boxes."
 				""
 				"&eNeptunium Ingots&r craft the powerful Neptune gear, which have high affinity with water. They're locked to Stage One, however, so you need three of the Eyes to use them."
+				""
+				"Note that all forms of luck, as well as luck of the sea and lure, will increase the chance of getting a neptunium item. However, unusual catch will decrease the chance."
 			]
 			id: "0AF7A98BF910032D"
 			rewards: [
