@@ -3406,7 +3406,7 @@
 				}
 			}
 			id: "40CC9AECED3C9482"
-			subtitle: "Extremely Rare and Difficult Ash Barrens(Nether) Structure"
+			subtitle: "Extremely Rare and Difficult Nether Structure"
 			tasks: [{
 				id: "4C104B4A95B88589"
 				title: "Piglin Castle"
@@ -4274,7 +4274,7 @@
 				}
 			}
 			id: "63F9E8A0E9CC0996"
-			subtitle: "Rare and Very Difficult Quartz Flats Structure"
+			subtitle: "Rare and Very Difficult Nether Structure" 
 			tasks: [{
 				id: "0202885141731BFE"
 				title: "Sanctum"
@@ -4498,7 +4498,7 @@
 				}
 			}
 			id: "452B09FC0F95ADAC"
-			subtitle: "Rare Infernal Dunes Structure, that Spawns the Hovering Inferno with a Nether Star"
+			subtitle: "Rare Nether Structure, that Spawns the Hovering Inferno with a Nether Star"
 			tasks: [{
 				id: "11CCB8FF25FA0F16"
 				title: "Infernal Altar"

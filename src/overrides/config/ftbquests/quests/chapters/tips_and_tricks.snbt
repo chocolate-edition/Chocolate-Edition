@@ -539,7 +539,7 @@
 			y: -18.5d
 		}
 		{
-			description: ["Expert mode is activated for all players once one person first visits the Everbright or Everdawn. It includes many new difficult mob spawns."]
+			description: ["Expert mode is activated for all players once one person first defeats the Wither. It includes many new difficult mob spawns."]
 			disable_toast: true
 			icon: {
 				Count: 1b
