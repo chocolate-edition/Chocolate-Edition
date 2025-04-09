@@ -127,7 +127,6 @@
       "alexsmobs:platypus",
       "born_in_chaos_v1:bloody_gadfly",
       "cnb:little_grebe",
-      "naturalist:snail",
       "endermanoverhaul:flower_fields_enderman",
       "endermanoverhaul:dark_oak_enderman",
       "alexsmobs:seal",
@@ -360,7 +359,6 @@
       "rottencreatures:frostbitten",
       "rottencreatures:glacial_hunter",
       "rottencreatures:hunter_wolf",
-      "rottencreatures:mummy",
       "rottencreatures:scarab",
       "rottencreatures:swampy",
       "rottencreatures:undead_miner"
@@ -846,7 +844,6 @@
       "graveyard:nightmare",
       "graveyard:ghoul",
       "born_in_chaos_v1:fallen_chaos_knight",
-      "rottencreatures:mummy",
       "endermanoverhaul:desert_enderman",
       "endermanoverhaul:badlands_enderman",
       "born_in_chaos_v1:corpse_fly",
@@ -1024,7 +1021,6 @@
       "naturalist:lion",
       "naturalist:rattlesnake",
       "naturalist:rhino",
-      "naturalist:tortoise",
       "naturalist:zebra",
       "quark:stoneling",
       "quark:toretoise",
@@ -1107,7 +1103,6 @@
       "naturalist:firefly",
       "naturalist:lizard",
       "naturalist:robin",
-      "naturalist:snail",
       "naturalist:snake",
       "naturalist:vulture",
       "quark:shiba",
@@ -3799,64 +3794,6 @@
   },
   {
     "mob": [
-      "naturalist:snail"
-    ],
-    "weather": "rain",
-    "result": "allow"
-  },
-  {
-    "mob": [
-      "naturalist:snail"
-    ],
-    "weather": "thunder",
-    "result": "allow"
-  },
-  {
-    "mob": [
-      "naturalist:snail"
-    ],
-    "mintime": 12500,
-    "result": "allow"
-  },
-  {
-    "mob": [
-      "naturalist:snail"
-    ],
-    "biome": [
-      "minecraft:forest",
-      "minecraft:meadow",
-      "minecraft:birch_forest",
-      "minecraft:old_growth_birch_forest",
-      "autumnity:pumpkin_fields",
-      "autumnity:maple_forest",
-      "minecraft:dark_forest",
-      "minecraft:taiga",
-      "minecraft:old_growth_pine_taiga",
-      "minecraft:old_growth_spruce_taiga",
-      "minecraft:bamboo_jungle",
-      "minecraft:flower_forest",
-      "minecraft:sunflower_plains",
-      "minecraft:swamp",
-      "minecraft:windswept_forest",
-      "environmental:blossom_valleys",
-      "environmental:blossom_woods",
-      "environmental:marsh",
-      "environmental:pine_barrens",
-      "atmospheric:aspen_parkland",
-      "atmospheric:laurel_forest",
-      "minecraft:plains"
-    ],
-    "result": "allow"
-  },
-  {
-    "mob": [
-      "naturalist:snail"
-    ],
-      "spawner": false,
-"result": "deny"
-  },
-  {
-    "mob": [
       "naturalist:snake"
     ],
     "biome": [
@@ -3874,30 +3811,6 @@
   {
     "mob": [
       "naturalist:snake"
-    ],
-      "spawner": false,
-"result": "deny"
-  },
-  {
-    "mob": [
-      "naturalist:tortoise"
-    ],
-    "biome": [
-      "minecraft:eroded_badlands",
-      "minecraft:wooded_badlands",
-      "minecraft:savanna",
-      "minecraft:windswept_savanna",
-      "atmospheric:scrubland",
-      "atmospheric:spiny_thicket",
-      "minecraft:savanna_plateau",
-      "minecraft:badlands"
-    ],
-    "seesky": true,
-    "result": "allow"
-  },
-  {
-    "mob": [
-      "naturalist:tortoise"
     ],
       "spawner": false,
 "result": "deny"
@@ -6276,6 +6189,14 @@
       "spawner": false,
 "result": "deny"
   },
+  {
+    "mob": [
+    "naturalist:snail", 
+    "naturalist:tortoise",
+    "rottencreatures:mummy"],
+          "onjoin": true,
+    "result": "deny"
+     },
   {
     "mob": "dungeons_mobs:endersent",
       "spawner": false,
