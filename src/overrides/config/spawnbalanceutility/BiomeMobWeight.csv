@@ -253,7 +253,6 @@
 1, desert,minecraft:desert,MONSTER,endermanoverhaul:desert_enderman,20,1,2
 1, desert,minecraft:desert,MONSTER,minecraft:husk,20,1,2
 1, desert,minecraft:desert,MONSTER,rottencreatures:flying_scarab,10,1,2
-1, desert,minecraft:desert,MONSTER,rottencreatures:mummy,20,1,2
 1, desert,minecraft:desert,MONSTER,rottencreatures:scarab,10,1,2
 1, desert,minecraft:desert,MONSTER,minecraft:skeleton,20,2,4
 1, desert,minecraft:desert,MONSTER,minecraft:spider,20,1,2
@@ -264,7 +263,6 @@
 1, desert,atmospheric:snowy_scrubland,MONSTER,endermanoverhaul:desert_enderman,20,1,2
 1, desert,atmospheric:snowy_scrubland,MONSTER,minecraft:husk,20,1,2
 1, desert,atmospheric:snowy_scrubland,MONSTER,rottencreatures:flying_scarab,10,1,2
-1, desert,atmospheric:snowy_scrubland,MONSTER,rottencreatures:mummy,20,1,2
 1, desert,atmospheric:snowy_scrubland,MONSTER,rottencreatures:scarab,10,1,2
 1, desert,atmospheric:snowy_scrubland,MONSTER,minecraft:skeleton,20,2,4
 1, desert,atmospheric:snowy_scrubland,MONSTER,minecraft:spider,20,1,2
@@ -275,7 +273,6 @@
 1, desert,atmospheric:scrubland,MONSTER,endermanoverhaul:desert_enderman,20,1,2
 1, desert,atmospheric:scrubland,MONSTER,minecraft:husk,20,1,2
 1, desert,atmospheric:scrubland,MONSTER,rottencreatures:flying_scarab,10,1,2
-1, desert,atmospheric:scrubland,MONSTER,rottencreatures:mummy,20,1,2
 1, desert,atmospheric:scrubland,MONSTER,rottencreatures:scarab,10,1,2
 1, desert,atmospheric:scrubland,MONSTER,minecraft:skeleton,20,2,4
 1, desert,atmospheric:scrubland,MONSTER,minecraft:spider,20,1,2
@@ -286,7 +283,6 @@
 1, desert,atmospheric:rocky_dunes,MONSTER,endermanoverhaul:desert_enderman,20,1,2
 1, desert,atmospheric:rocky_dunes,MONSTER,minecraft:husk,20,1,2
 1, desert,atmospheric:rocky_dunes,MONSTER,rottencreatures:flying_scarab,10,1,2
-1, desert,atmospheric:rocky_dunes,MONSTER,rottencreatures:mummy,20,1,2
 1, desert,atmospheric:rocky_dunes,MONSTER,rottencreatures:scarab,10,1,2
 1, desert,atmospheric:rocky_dunes,MONSTER,minecraft:skeleton,20,2,4
 1, desert,atmospheric:rocky_dunes,MONSTER,minecraft:spider,20,1,2
@@ -297,7 +293,6 @@
 1, desert,atmospheric:petrified_dunes,MONSTER,endermanoverhaul:desert_enderman,20,1,2
 1, desert,atmospheric:petrified_dunes,MONSTER,minecraft:husk,20,1,2
 1, desert,atmospheric:petrified_dunes,MONSTER,rottencreatures:flying_scarab,10,1,2
-1, desert,atmospheric:petrified_dunes,MONSTER,rottencreatures:mummy,20,1,2
 1, desert,atmospheric:petrified_dunes,MONSTER,rottencreatures:scarab,10,1,2
 1, desert,atmospheric:petrified_dunes,MONSTER,minecraft:skeleton,20,2,4
 1, desert,atmospheric:petrified_dunes,MONSTER,minecraft:spider,20,1,2
@@ -308,7 +303,6 @@
 1, desert,atmospheric:dunes,MONSTER,endermanoverhaul:desert_enderman,20,1,2
 1, desert,atmospheric:dunes,MONSTER,minecraft:husk,20,1,2
 1, desert,atmospheric:dunes,MONSTER,rottencreatures:flying_scarab,10,1,2
-1, desert,atmospheric:dunes,MONSTER,rottencreatures:mummy,20,1,2
 1, desert,atmospheric:dunes,MONSTER,rottencreatures:scarab,10,1,2
 1, desert,atmospheric:dunes,MONSTER,minecraft:skeleton,20,2,4
 1, desert,atmospheric:dunes,MONSTER,minecraft:spider,20,1,2
@@ -319,7 +313,6 @@
 1, desert,atmospheric:flourishing_dunes,MONSTER,endermanoverhaul:desert_enderman,20,1,2
 1, desert,atmospheric:flourishing_dunes,MONSTER,minecraft:husk,20,1,2
 1, desert,atmospheric:flourishing_dunes,MONSTER,rottencreatures:flying_scarab,10,1,2
-1, desert,atmospheric:flourishing_dunes,MONSTER,rottencreatures:mummy,20,1,2
 1, desert,atmospheric:flourishing_dunes,MONSTER,rottencreatures:scarab,10,1,2
 1, desert,atmospheric:flourishing_dunes,MONSTER,minecraft:skeleton,20,2,4
 1, desert,atmospheric:flourishing_dunes,MONSTER,minecraft:spider,20,1,2
@@ -330,7 +323,6 @@
 1, desert,atmospheric:spiny_thicket,MONSTER,endermanoverhaul:desert_enderman,20,1,2
 1, desert,atmospheric:spiny_thicket,MONSTER,minecraft:husk,20,1,2
 1, desert,atmospheric:spiny_thicket,MONSTER,rottencreatures:flying_scarab,10,1,2
-1, desert,atmospheric:spiny_thicket,MONSTER,rottencreatures:mummy,20,1,2
 1, desert,atmospheric:spiny_thicket,MONSTER,rottencreatures:scarab,10,1,2
 1, desert,atmospheric:spiny_thicket,MONSTER,minecraft:skeleton,20,2,4
 1, desert,atmospheric:spiny_thicket,MONSTER,minecraft:spider,20,1,2
@@ -4330,9 +4322,6 @@
 1,none,blue_skies:brisk_meadow,MONSTER,born_in_chaos_v1:fallen_chaos_knight,20,1,3
 1,none,blue_skies:frostbitten_forest,MONSTER,born_in_chaos_v1:fallen_chaos_knight,20,1,3
 1,none,blue_skies:frostbitten_forest_clearing,MONSTER,born_in_chaos_v1:fallen_chaos_knight,20,1,3
-1,none,blue_skies:crystal_dunes,MONSTER,rottencreatures:mummy,20,1,3
-1,none,blue_skies:crystal_dunes_spikes,MONSTER,rottencreatures:mummy,20,1,3
-1,none,blue_skies:crystal_roughs,MONSTER,rottencreatures:mummy,20,1,3
 1,none,blue_skies:crystal_dunes,MONSTER,endermanoverhaul:desert_enderman,20,1,3
 1,none,blue_skies:crystal_dunes_spikes,MONSTER,endermanoverhaul:desert_enderman,20,1,3
 1,none,blue_skies:crystal_roughs,MONSTER,endermanoverhaul:desert_enderman,20,1,3
