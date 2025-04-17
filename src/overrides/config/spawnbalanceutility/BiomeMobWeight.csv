@@ -645,7 +645,6 @@
 1, lush_caves,minecraft:lush_caves,MONSTER,iter_rpg:mudkin,10,1,2
 1, lush_caves,minecraft:lush_caves,MONSTER,dungeons_mobs:mossy_skeleton,20,1,2
 1, lush_caves,minecraft:lush_caves,MONSTER,rottencreatures:swampy,20,1,2
-1, none,galosphere:crystal_canyons,MONSTER,alexsmobs:underminer,20,1,2
 1, none,galosphere:crystal_canyons,MONSTER,minecraft:enderman,20,1,2
 1, none,galosphere:lichen_caves,MONSTER,creeperoverhaul:mushroom_creeper,20,1,2
 1, none,galosphere:lichen_caves,MONSTER,endermanoverhaul:mushroom_fields_enderman,20,1,2
@@ -4162,14 +4161,6 @@
 1,none,blue_skies:shaded_woodlands,MONSTER,endermanoverhaul:soulsand_valley_enderman,20,1,3
 1,none,blue_skies:sunset_maple_forest,MONSTER,endermanoverhaul:soulsand_valley_enderman,20,1,3
 1,none,blue_skies:unorthodox_valley,MONSTER,endermanoverhaul:soulsand_valley_enderman,20,1,3
-1,none,blue_skies:brightlands,MONSTER,alexsmobs:underminer,20,1,3
-1,none,blue_skies:snow_covered_pines,MONSTER,alexsmobs:underminer,20,1,3
-1,none,blue_skies:calming_skies,MONSTER,alexsmobs:underminer,20,1,3
-1,none,blue_skies:polar_highland,MONSTER,alexsmobs:underminer,20,1,3
-1,none,blue_skies:slushlands,MONSTER,alexsmobs:underminer,20,1,3
-1,none,blue_skies:brisk_meadow,MONSTER,alexsmobs:underminer,20,1,3
-1,none,blue_skies:frostbitten_forest,MONSTER,alexsmobs:underminer,20,1,3
-1,none,blue_skies:frostbitten_forest_clearing,MONSTER,alexsmobs:underminer,20,1,3
 1,none,blue_skies:crescent_orchard,MONSTER,rottencreatures:swampy,20,1,3
 1,none,blue_skies:crescent_orchard_lake,MONSTER,rottencreatures:swampy,20,1,3
 1,none,blue_skies:moonlit_reservoir,MONSTER,rottencreatures:swampy,20,1,3
