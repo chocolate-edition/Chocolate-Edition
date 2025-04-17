@@ -257,7 +257,6 @@
       "alexsmobs:seagull",
       "alexsmobs:skelewag",
       "alexsmobs:tarantula_hawk",
-      "alexsmobs:underminer",
       "aquamirae:anglerfish",
       "aquamirae:maw",
       "aquamirae:tortured_soul",
@@ -828,7 +827,6 @@
       "dungeons_mobs:mossy_skeleton",
       "minecraft:silverfish",
       "endermanoverhaul:soulsand_valley_enderman",
-      "alexsmobs:underminer",
       "rottencreatures:swampy",
       "born_in_chaos_v1:restless_spirit",
       "mutantmonsters:mutant_skeleton",
@@ -5469,7 +5467,6 @@
       "mutantmonsters:mutant_enderman",
       "alexsmobs:centipede_head",
       "born_in_chaos_v1:restless_spirit",
-      "alexsmobs:underminer",
       "minecraft:silverfish",
       "born_in_chaos_v1:diamond_termite",
       "born_in_chaos_v1:nightmare_stalker",
@@ -6197,6 +6194,12 @@
           "onjoin": true,
     "result": "deny"
      },
+     {
+      "mob": [
+      "alexsmobs:underminer"],
+            "onjoin": true,
+      "result": "deny"
+       },
   {
     "mob": "dungeons_mobs:endersent",
       "spawner": false,
