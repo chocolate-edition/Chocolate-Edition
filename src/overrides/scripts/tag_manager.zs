@@ -4,8 +4,6 @@
 #priority 100
 
 
-<tag:items:curios:charm>.remove(<item:enigmaticlegacy:enigmatic_eye>);
-
 // ----- Windcaller Armor -----
 // Used in Magical Eye
 <tag:items:chocolate:windcaller>.add(<item:dungeons_mobs:windcaller_helmet>);
