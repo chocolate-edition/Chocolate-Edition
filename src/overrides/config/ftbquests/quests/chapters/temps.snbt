@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "temps"
-	group: "124DA5EC6A42A11D"
+	group: ""
 	icon: "minecraft:barrier"
 	id: "2C7D4E108CF721D5"
 	images: [
@@ -451,8 +451,116 @@
 			x: 33.25d
 			y: 31.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:textures/items/abyssal_fruit.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 11.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:textures/unused/crying_helmet.png"
+			rotation: 0.0d
+			width: 1.0625d
+			x: 7.25d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:textures/items/exterminato.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.25d
+			y: 11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iter_rpg:textures/items/divine_sword.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.25d
+			y: 10.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iter_rpg:textures/blocks/arcane_bricks.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.25d
+			y: 17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iter_rpg:textures/blocks/chiseled_arcane_bricks.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.25d
+			y: 17.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iter_rpg:textures/blocks/polished_arcane_block.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 18.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iter_rpg:textures/mob_effect/arcane_conduction.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.75d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iter_rpg:blocks/arthropod_catacombs_gen_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 16.75d
+		}
 	]
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -2426,13 +2534,14 @@
 			icon: "ftbquests:book"
 			id: "2EF26737C23ABDE2"
 			rewards: [{
-				id: "502851144930D88C"
+				id: "3D7A9AB2089C3843"
 				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
-					id: "ftbquests:book"
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -2645,7 +2754,6 @@
 		{
 			can_repeat: true
 			dependencies: ["177CCA876BBC9A3E"]
-			disable_toast: true
 			id: "5B584CE502BC9124"
 			rewards: [
 				{
@@ -2688,10 +2796,30 @@
 					team_reward: false
 					type: "command"
 				}
+				{
+					auto: "no_toast"
+					command: "/execute if predicate is_sky:check_rain if predicate is_sky:check_sky at @p run particle minecraft:snowflake ~ 80 ~ 10 20 10 0.2 2000 normal"
+					exclude_from_claim_all: true
+					id: "125B44D0332186FD"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute if predicate is_sky:check_rain if predicate is_sky:check_sky at @p run particle endermanoverhaul:snow ~ 80 ~ 10 20 10 3 200 normal"
+					exclude_from_claim_all: true
+					id: "1E19E8DF73D36841"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
 			]
 			tasks: [{
 				biome: "#blue_skies:everbright"
-				id: "2A25D06941498859"
+				id: "5D976AE437020B9C"
 				type: "biome"
 			}]
 			title: "Everbright snow particle"
@@ -2701,7 +2829,6 @@
 		{
 			can_repeat: true
 			dependencies: ["572E7C8B81EA10ED"]
-			disable_toast: true
 			id: "71205726B9342781"
 			rewards: [{
 				auto: "no_toast"
@@ -2715,7 +2842,7 @@
 			}]
 			tasks: [{
 				biome: "#blue_skies:everdawn"
-				id: "7DA61A5BF57C66A8"
+				id: "371E3550D1A0EEE7"
 				type: "biome"
 			}]
 			title: "Everdawn Dust particle"
@@ -2725,7 +2852,6 @@
 		{
 			can_repeat: true
 			dependencies: ["5E0D0EFACA192EEB"]
-			disable_toast: true
 			id: "6FB30BCA8CBF9926"
 			rewards: [
 				{
@@ -2898,6 +3024,36 @@
 					team_reward: false
 					type: "command"
 				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run data merge entity @e[type=minecraft:item,nbt= {Item: {ForgeCaps: {\"dungeons_libraries:built_in_enchantments\": {}}, id: \"greater_eye:greater_eye_end\", Count: 1b}},limit=1] {Glowing:1b}"
+					exclude_from_claim_all: true
+					id: "02051A54276CAF99"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run data merge entity @e[type=minecraft:item,nbt= {Item: {ForgeCaps: {\"dungeons_libraries:built_in_enchantments\": {}}, id: \"greater_eye:greater_eye_nether\", Count: 1b}},limit=1] {Glowing:1b}"
+					exclude_from_claim_all: true
+					id: "23E81D8E08D3EA9F"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run data merge entity @e[type=minecraft:item,nbt= {Item: {ForgeCaps: {\"dungeons_libraries:built_in_enchantments\": {}}, id: \"greater_eye:greater_eye_overworld\", Count: 1b}},limit=1] {Glowing:1b}"
+					exclude_from_claim_all: true
+					id: "387869027426CE21"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
 			]
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -2905,7 +3061,7 @@
 				id: "7424D6A7AE552C91"
 				type: "dimension"
 			}]
-			title: "Glowing npcs"
+			title: "Glowing npcs/eyes"
 			x: 20.5d
 			y: 6.25d
 		}
@@ -3760,7 +3916,6 @@
 			y: 4.75d
 		}
 		{
-			disable_toast: true
 			id: "24EC36810521746E"
 			rewards: [{
 				auto: "no_toast"
@@ -3777,7 +3932,6 @@
 			y: -4.5d
 		}
 		{
-			disable_toast: true
 			id: "3F177169BF9FE9F1"
 			rewards: [{
 				auto: "no_toast"
@@ -3794,7 +3948,6 @@
 			y: -4.5d
 		}
 		{
-			disable_toast: true
 			id: "1AEB21C9EF089CCC"
 			rewards: [{
 				auto: "no_toast"
@@ -3809,6 +3962,130 @@
 			title: "Default turn on meadow wind"
 			x: 7.0d
 			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["481D26A5ABCFB6D9"]
+			id: "5371614EE1923DF1"
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute if predicate is_sky:check_rain if predicate is_sky:check_sky at @p run particle cataclysm:sandstorm ~ 80 ~ 10 20 10 3 20 normal"
+					exclude_from_claim_all: true
+					id: "0E855FCFA8BF1190"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute if predicate is_sky:check_rain if predicate is_sky:check_sky at @p run particle cataclysm:sandstorm ~ 120 ~ 10 20 10 3 20 normal"
+					exclude_from_claim_all: true
+					id: "1D3C905531626C6A"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:desert"
+					id: "50CE3943D7EDA2C0"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					biome: "atmospheric:scrubland"
+					id: "715A35A32B69AFD1"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					biome: "atmospheric:dunes"
+					id: "5616A863BC63B712"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					biome: "atmospheric:rocky_dunes"
+					id: "06BF201AFE3897F7"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					biome: "atmospheric:spiny_thicket"
+					id: "79945F05EFAE4F89"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					biome: "atmospheric:petrified_dunes"
+					id: "437016BF027D4200"
+					optional_task: true
+					type: "biome"
+				}
+			]
+			x: 10.75d
+			y: -0.25d
+		}
+		{
+			id: "676832F80CCC8F2B"
+			rewards: [{
+				auto: "no_toast"
+				command: "/ftbquests change_progress @p complete 481D26A5ABCFB6D9"
+				exclude_from_claim_all: true
+				id: "26866863F93D7867"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			title: "Default turn on sandstorm"
+			x: 10.75d
+			y: -4.5d
+		}
+		{
+			id: "28D80ACF43F357B3"
+			rewards: [{
+				auto: "no_toast"
+				command: "/execute at @e[type=minecraft:player] run summon predators:meteor_of_moon ~ ~30 ~"
+				exclude_from_claim_all: true
+				id: "3B6BC134B9BE1BC9"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				biome: "#minecraft:is_overworld"
+				id: "679ED307A2F32915"
+				type: "biome"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			id: "45816CAE35ACB7CA"
+			rewards: [{
+				auto: "enabled"
+				command: "/ftbquests change_progress @p complete 300A2717FAFAFA58"
+				exclude_from_claim_all: true
+				id: "142447DADACF0C76"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "3E37771F22353356"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 	title: "Flags"
