@@ -1154,3 +1154,5 @@
 <tag:items:chocolate:consumable>.add(<item:iter_rpg:twiffle_lump>);
 <tag:items:chocolate:consumable>.add(<item:minecraft:turtle_egg>);
 <tag:items:chocolate:consumable>.add(<item:unusualend:ender_firefly_egg>);
+
+

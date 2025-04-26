@@ -1032,7 +1032,6 @@
 <tag:items:chocolate:blocks>.add(<item:woodworks:warped_chest>);
 <tag:items:chocolate:blocks>.add(<item:woodworks:warped_ladder>);
 <tag:items:chocolate:blocks>.add(<item:woodworks:warped_trapped_chest>);
-
 <tag:items:chocolate:blocks>.add(<item:blue_skies:falsite_ore>);
 <tag:items:chocolate:blocks>.add(<item:alexsmobs:banana_slug_slime_block>);
 <tag:items:chocolate:blocks>.add(<item:blue_skies:horizonite_ore>);
