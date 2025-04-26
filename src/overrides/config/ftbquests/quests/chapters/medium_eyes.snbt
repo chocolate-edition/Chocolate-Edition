@@ -175,7 +175,7 @@
 		{
 			dependencies: ["3901079844A43EC1"]
 			description: [
-				"This item can be obtained by killing a &cGlowsquito&r - which spawn in the Quartz Flats, Glowstone Canyon, and Infernal Dunes biomes"
+				"This item can be obtained by killing a &cGlowsquito&r - which spawn in the Glowstone Canyon biome"
 				""
 				"&eGlowcoke&r can also be used to craft &eGlowlight Torchs&r and &eGlowlight Campfires&r"
 			]
