@@ -48,6 +48,7 @@
 <tag:worldgen/biome:chocolate:forests>.addId(<resource:minecraft:flower_forest>);
 <tag:worldgen/biome:chocolate:forests>.addId(<resource:minecraft:windswept_forest>);
 <tag:worldgen/biome:chocolate:forests>.addId(<resource:minecraft:birch_forest>);
+<tag:worldgen/biome:chocolate:forests>.addId(<resource:minecraft:forest>);
 <tag:worldgen/biome:chocolate:forests>.addId(<resource:atmospheric:laurel_forest>);
 
 <tag:worldgen/biome:chocolate:plains>.addId(<resource:minecraft:plains>);
