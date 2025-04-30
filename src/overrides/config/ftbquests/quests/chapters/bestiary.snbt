@@ -25,11 +25,6 @@
 			}]
 			size: 5.0d
 			subtitle: "&aPRESS CTRL + F TO SEARCH FOR A MOB!&r"
-			tasks: [{
-				icon: "alexsmobs:animal_dictionary"
-				id: "0590D68246D955AB"
-				type: "custom"
-			}]
 			title: "To unlock entries discover a &abiome&r. Then, observe an &danimal&r, bucket a &efish&r or kill a &chostile&r!"
 			x: 12.5d
 			y: -33.25d
@@ -6842,13 +6837,7 @@
 			subtitle: "Marsh, Pine Barrens, Aspen Parkland, Swamp, Mangrove Swamp "
 			tasks: [{
 				id: "6780DEA4179C81A3"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "upgrade_aquatic:perch_bucket"
-				}
+				item: "upgrade_aquatic:perch_bucket"
 				type: "item"
 			}]
 			title: "Perch"
@@ -21510,6 +21499,16 @@
 					structure: "blue_skies:village_sunset_maple_forest"
 					type: "structure"
 				}
+				{
+					dimension: "blue_skies:everbright"
+					id: "1D9FEC18DBFFA926"
+					type: "dimension"
+				}
+				{
+					dimension: "blue_skies:everdawn"
+					id: "1C5DA68803D8E09D"
+					type: "dimension"
+				}
 			]
 			title: "Evertwined Villages"
 			x: -12.75d
@@ -24109,6 +24108,11 @@
 		{
 			disable_toast: true
 			id: "780DFCDD230EE2AA"
+			rewards: [{
+				id: "4497A4C3CD0D3205"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "gear"
 			size: 3.5d
 			subtitle: "Generally, &efish&r and &chostile&r mobs are blocked by spawn blockers. However, most &danimals&r are not. There are some exceptions due to some mobs not spawning correctly, requiring spawning via methods unaffected by spawn blockers. And some &danimals&r are just too powerful to not be blockable."
@@ -24137,6 +24141,11 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "4E6FEAB45B387F1C"
+					title: "Click Me"
+					type: "checkmark"
+				}
 			]
 			title: "Spawn Blockers"
 			x: 7.875d
@@ -24144,16 +24153,17 @@
 		}
 		{
 			disable_toast: true
+			icon: "supplementaries:key"
 			id: "4EDCA53D83EB42E7"
+			rewards: [{
+				id: "4DB90E35D627AC2B"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "gear"
 			size: 3.5d
 			subtitle: "The mobs above the &abiome/category&r are &chostiles,&r while the mobs below are &efish&r/&danimals&r. Click on the &abiome/category,&r to find which areas you need to go to unlock it's mobs. Read a mob's subtitles to see where they spawn. To the right of each dimension are a list of the &bbosses&r in each dimension. Finally, entries with a rounded square only spawn after &cExpert Mode&r(unlocked by killing the &cWither&r)."
-			tasks: [{
-				icon: "supplementaries:key"
-				id: "5D25E8B55D4C8DED"
-				title: "Legend"
-				type: "custom"
-			}]
+			title: "Legend"
 			x: 16.625d
 			y: -32.625d
 		}

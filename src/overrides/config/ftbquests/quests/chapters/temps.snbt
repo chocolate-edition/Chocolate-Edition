@@ -560,7 +560,7 @@
 			y: 16.75d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -3024,36 +3024,6 @@
 					team_reward: false
 					type: "command"
 				}
-				{
-					auto: "no_toast"
-					command: "/execute at @p run data merge entity @e[type=minecraft:item,nbt= {Item: {ForgeCaps: {\"dungeons_libraries:built_in_enchantments\": {}}, id: \"greater_eye:greater_eye_end\", Count: 1b}},limit=1] {Glowing:1b}"
-					exclude_from_claim_all: true
-					id: "02051A54276CAF99"
-					ignore_reward_blocking: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/execute at @p run data merge entity @e[type=minecraft:item,nbt= {Item: {ForgeCaps: {\"dungeons_libraries:built_in_enchantments\": {}}, id: \"greater_eye:greater_eye_nether\", Count: 1b}},limit=1] {Glowing:1b}"
-					exclude_from_claim_all: true
-					id: "23E81D8E08D3EA9F"
-					ignore_reward_blocking: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/execute at @p run data merge entity @e[type=minecraft:item,nbt= {Item: {ForgeCaps: {\"dungeons_libraries:built_in_enchantments\": {}}, id: \"greater_eye:greater_eye_overworld\", Count: 1b}},limit=1] {Glowing:1b}"
-					exclude_from_claim_all: true
-					id: "387869027426CE21"
-					ignore_reward_blocking: true
-					silent: true
-					team_reward: false
-					type: "command"
-				}
 			]
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -4046,26 +4016,6 @@
 			title: "Default turn on sandstorm"
 			x: 10.75d
 			y: -4.5d
-		}
-		{
-			id: "28D80ACF43F357B3"
-			rewards: [{
-				auto: "no_toast"
-				command: "/execute at @e[type=minecraft:player] run summon predators:meteor_of_moon ~ ~30 ~"
-				exclude_from_claim_all: true
-				id: "3B6BC134B9BE1BC9"
-				ignore_reward_blocking: true
-				silent: true
-				team_reward: false
-				type: "command"
-			}]
-			tasks: [{
-				biome: "#minecraft:is_overworld"
-				id: "679ED307A2F32915"
-				type: "biome"
-			}]
-			x: 12.5d
-			y: 2.0d
 		}
 		{
 			id: "45816CAE35ACB7CA"
