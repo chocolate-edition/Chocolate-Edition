@@ -6217,17 +6217,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "29FF2022DD2CC3D8"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "enlightened_end:glacium"
-					}
-					type: "item"
-				}
 			]
 			title: "Master Metalworker"
 			x: -7.5d
