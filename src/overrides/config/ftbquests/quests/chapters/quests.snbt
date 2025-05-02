@@ -577,32 +577,6 @@
 					value: 1L
 				}
 				{
-					entity: "witherstormmod:withered_symbiont"
-					icon: {
-						Count: 1b
-						id: "minecraft:tipped_arrow"
-						tag: {
-							Potion: "mutantmonsters:chemical_x"
-						}
-					}
-					id: "54099B7575B3F289"
-					title: "Kill 1x ???"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "5826B47FB26BAF28"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "witherstormmod:withered_nether_star"
-					}
-					title: "Kill ?̴̩͚͓́̀̌̈́͗́̌̾̽̚?̸̡̤͚͔̰̠͔̂̓̅̎̿̕ͅ?̵̫̰͎̖͇͚̫͕̝͙͉́?̴̙̖͇̖̽͂͐͆̄̾̕?̷̗̬̱͙̯̻͖͍̖̩̬̒͌͜"
-					type: "item"
-				}
-				{
 					entity: "iter_rpg:sorrowsealed"
 					icon: "iter_rpg:grim_keyhole"
 					id: "2AEAB404DFF5E098"
