@@ -618,10 +618,7 @@
 			y: -14.25d
 		}
 		{
-			dependencies: [
-				"3AA58AD569CB791A"
-				"5B2AFAA309E25971"
-			]
+			dependencies: ["15F2D8BAFA731EBC"]
 			description: ["On servers/lan, expert mode is activated for everyone once one player defeats the Wither."]
 			disable_toast: true
 			hide: false
@@ -633,15 +630,15 @@
 				}
 			}
 			id: "3FFC286F3D0CF299"
-			subtitle: "Unlocked by going to the Everbright or Everdawn, which release the spirits of Light and Dark. Spawns hundreds of new, unique mobs all over the world. The new mobs are REALLY tough.."
+			subtitle: "Unlocked by defeating the wither, which release the spirits of Light and Dark. Spawns hundreds of new, unique mobs all over the world. The new mobs can be pretty tough, make sure you are prepared!"
 			tasks: [{
 				disable_toast: true
 				id: "3DE4000CD51C8B52"
 				title: "Expert Mode"
 				type: "checkmark"
 			}]
-			x: 2.25d
-			y: -19.5d
+			x: 9.25d
+			y: -14.5d
 		}
 		{
 			dependencies: ["45057A63E5057167"]
@@ -3006,7 +3003,7 @@
 				"Neptunium gear can be found by fishing up &eNeptune's Bounties&r. These are quite rare, but the item inside can be smelted down to an ingot, and the ingot can be used to upgrade diamond gear."
 				""
 				"Note that all forms of luck, as well as luck of the sea and lure, will increase the chance of getting a neptunium item. However, unusual catch will decrease the chance."
-				]
+			]
 			disable_toast: true
 			hide: false
 			icon: {

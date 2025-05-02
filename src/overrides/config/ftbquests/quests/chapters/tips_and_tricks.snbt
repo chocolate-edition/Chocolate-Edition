@@ -543,13 +543,7 @@
 		{
 			description: ["Expert mode is activated for all players once one person first defeats the Wither. It includes many new difficult mob spawns."]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "blue_skies:everdawn_portal"
-			}
+			icon: "majruszsdifficulty:wither_treasure_bag"
 			id: "259849F8F8F13A0A"
 			size: 2.0d
 			tasks: [{
