@@ -353,7 +353,7 @@
 			]
 			shape: "rsquare"
 			size: 3.0d
-			subtitle: "Kill every boss. Yeah, noones gonna beat this one. But, hey, it acts as sort of a boss checklist. Also, don't worry about the two that are unnamed. You'll know them when you find them.."
+			subtitle: "Kill every boss. Yeah, noones gonna beat this one. But, hey, it acts as sort of a boss checklist."
 			tasks: [
 				{
 					entity: "conjurer_illager:conjurer"
