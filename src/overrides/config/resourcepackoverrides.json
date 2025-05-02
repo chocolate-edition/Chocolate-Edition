@@ -120,7 +120,6 @@
     },
 
     "$include-optional": {
-      "fixed_position": true,
       "force_compatible": true
     },
 
