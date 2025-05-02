@@ -3,6 +3,7 @@
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "the_final_chapter"
 	group: "124DA5EC6A42A11D"
 	hide_quest_until_deps_visible: true
