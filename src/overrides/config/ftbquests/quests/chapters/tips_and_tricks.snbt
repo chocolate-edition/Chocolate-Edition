@@ -67,9 +67,9 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "chocolate:textures/tips-tricks_text_armor-nerf.png"
+			image: "chocolate:textures/tips-tricks-armour-adjustments.png"
 			rotation: 0.0d
-			width: 6.957894736842105d
+			width: 12.871794871794872d
 			x: -0.5d
 			y: -16.5d
 		}
@@ -492,13 +492,18 @@
 			y: 13.0d
 		}
 		{
-			description: ["Damage reduction from basic protection and armour toughness has been reduced. You may be better off having at least one piece of armor with projectile protection as regular prot presents diminished returns. "]
+			description: [
+				"The formulas for damage calculation have been adjusted. "
+				""
+				"general armor and toughness has been buffed on a curve such that 40 armor is 50% damage reduction, 80 armor is 66% etc"
+				""
+				"Every 1 toughness reduces incoming damage by about a quarter heart"
+				""
+				"protection enchantments have been nerfed significantly, making them helpful but not outright broken."
+			]
 			disable_toast: true
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
 				id: "minecraft:diamond_chestplate"
 				tag: {
 					Damage: 0
@@ -512,7 +517,7 @@
 				title: "Mark as Read"
 				type: "checkmark"
 			}]
-			title: "Armour Nerf"
+			title: "Armour Adjustments"
 			x: -0.5d
 			y: -18.0d
 		}
