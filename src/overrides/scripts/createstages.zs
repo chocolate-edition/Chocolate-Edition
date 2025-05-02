@@ -323,7 +323,6 @@ var itemsStageFive = [
 
 var itemsCursed = [
 	<item:enigmaticlegacy:cursed_ring>,
-	<item:enigmaticlegacy:enigmatic_eye>,
 	<item:enigmaticlegacy:recall_potion>,
 	<item:enigmaticlegacy:end_anchor>,
 	<item:enigmaticlegacy:the_infinitum>,

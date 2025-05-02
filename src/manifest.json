@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "The Chocolate Edition",
+  "name": "Chocolate Edition Minecraft",
   "version": "1.9",
   "author": "richestprune",
   "files": [
@@ -77,6 +77,11 @@
     {
       "fileID": 4016732,
       "projectID": 237307,
+      "required": true
+    },
+    {
+      "fileID": 5408722,
+      "projectID": 238086,
       "required": true
     },
     {
