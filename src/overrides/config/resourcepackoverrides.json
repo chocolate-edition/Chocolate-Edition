@@ -45,7 +45,8 @@
     "BS_invalid_ent_weapons_clarification",
     "Alexish Mobs v1.0",
     "Blue Skier Prehistory Ver0.8",
-    "choccompatv1.3"
+    "choccompatv1.3",
+    "choc_nexus-questbook"
   ],
 
   "default_overrides": {
@@ -89,7 +90,8 @@
       "BS_invalid_ent_weapons_clarification",
       "Alexish Mobs v1.0",
       "Blue Skier Prehistory Ver0.8",
-      "choccompatv1.3"
+      "choccompatv1.3",
+      "choc_nexus-questbook"
     ],
 
     "include-optional": [
