@@ -61,7 +61,7 @@
 [XP] Overlay Opacity Fix:true
 [XP] WorldMap Baritone Path Here:false
 [XP] Radar While Dim Switched:true
-[XP] Waystones Sync:true
+[XP] Waystones Sync:false
 [XP] New Chunks Opacity:100.0
 [XP] Hide Invisible Entities:false
 [XP] Show Waypoint Distances:true
