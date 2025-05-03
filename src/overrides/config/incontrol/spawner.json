@@ -147,7 +147,7 @@
       "dimension": "minecraft:overworld",
       "mindist": 20,
       "maxdist": 80,
-      "minheight": 60,
+      "minheight": -60,
       "maxheight": 320,
       "norestrictions": true
     }
@@ -3011,6 +3011,7 @@
       "maxdist": 128,
       "minheight": 60,
       "maxheight": 400,
+      "inwater": true,
       "norestrictions": true
     }
   },

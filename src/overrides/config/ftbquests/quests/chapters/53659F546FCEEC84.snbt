@@ -3251,49 +3251,6 @@
 				}
 				{
 					disable_toast: true
-					id: "570AF537A0F79877"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "quark:backpack"
-						tag: {
-							Inventory: [
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
 					id: "6D8F01FC044EF179"
 					item: {
 						Count: 1b

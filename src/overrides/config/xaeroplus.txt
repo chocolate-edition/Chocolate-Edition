@@ -51,8 +51,8 @@
 [XP] WorldMap Baritone Elytra Here:false
 [XP] Old Biomes:false
 [XP] 2b2t Highways:false
-[XP] Fast Mapping Rate Limit:25.0
-[XP] Fast Mapping:false
+[XP] Fast Mapping Rate Limit:60.0
+[XP] Fast Mapping:true
 [XP] Save/Load NewChunks to Disk:true
 [XP] Save/Load Palette NewChunks to Disk:true
 [XP] Switch to End:false

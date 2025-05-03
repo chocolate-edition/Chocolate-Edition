@@ -1732,7 +1732,6 @@
 		}
 		{
 			dependencies: ["540D082F619C2E91"]
-			description: ["! DO NOT CRAFT UNTIL YOU HAVE 3 EYES. Made from ravager hide, which drops from ravagers."]
 			id: "65F1ADEF2DE1A4D4"
 			rewards: [{
 				id: "7AE45C7E1178EEC6"
