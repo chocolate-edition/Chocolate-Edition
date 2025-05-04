@@ -517,15 +517,17 @@
 			y: -18.0d
 		}
 		{
-			description: ["Spawners now expire and break themselves after 20 uses. They are 8 times harder to break than vanilla and have a farther radius of spawning(about 12(vanilla)->20(chocolate)), so you often get a spawn before you can break it without efficiency five. Oh, and spawning ignores light levels now. This makes dealing with them much harder. However: spawners can be one shot with Flamearangs and Echorangs, upgrades of the Pickarang."]
+			description: [
+				"Spawners now expire and break themselves after 20 waves. "
+				""
+				"They are 8 times harder to break than vanilla and have a farther radius of spawning (about 12 in vanilla -> 20 in chocolate)"
+				""
+				"spawning ignores light levels. "
+				""
+				"spawners are much harder to deal with than in vanilla, however: spawners can be one shot with Flamearangs and Echorangs, upgrades of the Pickarang."
+			]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "iter_rpg:goblin_spawner"
-			}
+			icon: "iter_rpg:goblin_spawner"
 			id: "7842E964EDE06DE6"
 			size: 2.0d
 			tasks: [{
@@ -541,13 +543,7 @@
 		{
 			description: ["Expert mode is activated for all players once one person first defeats the Wither. It includes many new difficult mob spawns."]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "blue_skies:everdawn_portal"
-			}
+			icon: "majruszsdifficulty:wither_treasure_bag"
 			id: "259849F8F8F13A0A"
 			size: 2.0d
 			tasks: [{
@@ -617,19 +613,29 @@
 		{
 			description: [
 				"Use Toms simple storage for all your storage needs! "
-				"craft an inventory connector and a storage/crafting terminal and make a giant clump of chests. so long as the inventory connector is touching any side of one chest, any other chests that are also touching will be combined into one large searchable inventory. "
+				"craft an inventory connector and a storage/crafting terminal and make a giant clump of chests. so long as the inventory connector is touching any side of one chest, any other chests that are also touching will be combined into one large searchable inventory."
+				""
+				"&l&nensure you only have one inventory connector per network of chests&l&o "
 				""
 				"(I personally like to just bury all the chests under my house and have just the connector and terminal sticking up out of the ground)"
+				""
+				"as a reward for actually reading these tips and tricks, take a free connector and terminal, on us :)"
 			]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "toms_storage:ts.crafting_terminal"
-			}
+			icon: "toms_storage:ts.crafting_terminal"
 			id: "47B5100F9B14B1D2"
+			rewards: [
+				{
+					id: "3491C97BF2F72D48"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "3D689661DDE89B84"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				disable_toast: true
@@ -643,19 +649,13 @@
 		}
 		{
 			description: [
-				"Tamed horses can be marked as a personal horse using ‘p’. Your personal horse can be summoned to you with ‘shift + v’"
+				"Tamed horses have been significantly buffed, and can be marked as a personal horse using ‘p’. Your personal horse can be summoned to you with ‘shift + v’"
 				""
 				"Pushing a pet onto a pet bed until you see ‘zzz’ above their head will allow them to respawn there at the next sunrise."
 				" Placing a wayward lantern near your base will allow pets stuck in unloaded chunks to safely teleport to your base."
 			]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "simplehats:horsemask"
-			}
+			icon: "simplehats:horsemask"
 			id: "71F364F74FF84A2A"
 			size: 2.0d
 			tasks: [{

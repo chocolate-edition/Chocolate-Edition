@@ -32,3 +32,4 @@ src/overrides/resourcepacks/Infernal Resources.zip
 src/overrides/resourcepacks/Quark Programmer Art.zip
 src/overrides/config/spawnbalanceutility/BiomeMobWeight.txt
 src/overrides/config/spawnbalanceutility/StructMobWeight.txt
+src/overrides/kubejs/**/example.*

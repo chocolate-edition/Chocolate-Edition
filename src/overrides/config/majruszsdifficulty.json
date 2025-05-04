@@ -20,9 +20,7 @@
           "BOLD"
         ],
         "triggers": {
-          "dimensions": [
-            "{regex}.*"
-          ],
+          "dimensions": [],
           "entities": [
             "minecraft:wither"
           ]
@@ -398,10 +396,6 @@
           "aquamirae:maze_mother",
           "born_in_chaos_v1:glutton_fish",
           "graveyard:ghouling",
-          "mutantmonsters:mutant_creeper",
-          "mutantmonsters:mutant_zombie",
-          "mutantmonsters:mutant_enderman",
-          "mutantmonsters:mutant_skeleton",
           "born_in_chaos_v1:infernal_spirit",
           "iter_rpg:hobgoblin",
           "iter_rpg:goblin",
@@ -416,14 +410,10 @@
           "mutantmonsters:spider_pig",
           "cataclysm:the_prowler",
           "cataclysm:the_watcher",
-          "cataclysm:coral_golem",
           "cataclysm:deepling_angler",
           "cataclysm:deepling_brute",
-          "cataclysm:deepling_priest",
-          "cataclysm:deepling_warlock",
           "cataclysm:lionfish",
           "dungeons_mobs:wavewhisperer",
-          "cataclysm:coralssus",
           "cataclysm:kobolediator",
           "cataclysm:koboleton",
           "cataclysm:wadjet",

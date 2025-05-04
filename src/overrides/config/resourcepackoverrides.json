@@ -19,12 +19,15 @@
     "file/Xaero's Extended Mob Icons v1.6.zip",
     "file/Extra Xaero's Minimap Icons - 1.19.2 - 1.4.zip",
     "file/Icon Xaero's 1.2 1.19.2.zip",
+    "file/JourneyMap Extended Mob Icons v2.0.zip",
+    "file/Some Mobs Icons 1.5.zip",
+    "file/Icon Journey 1.1.zip",
     "file/PS Shielded - Xaero Frame 1.0.0.zip",
 
     "file/3D Tankards.zip",
     "file/Better_Enderdragon.zip",
     "file/Fabulous Foliage.zip",
-    "file/Simple Grass Flowers v1.9.3.zip",
+    "file/Simple Grass Flowers v1.9.5.zip",
     "file/LowOnFire_1.19.zip",
     "file/Icons v.1.9.1\u00A77.zip",
 
@@ -42,7 +45,8 @@
     "BS_invalid_ent_weapons_clarification",
     "Alexish Mobs v1.0",
     "Blue Skier Prehistory Ver0.8",
-    "choccompatv1.3"
+    "choccompatv1.3",
+    "choc_nexus-questbook"
   ],
 
   "default_overrides": {
@@ -67,6 +71,9 @@
       "file/Xaero's Extended Mob Icons v1.6.zip",
       "file/Extra Xaero's Minimap Icons - 1.19.2 - 1.4.zip",
       "file/Icon Xaero's 1.2 1.19.2.zip",
+      "file/JourneyMap Extended Mob Icons v2.0.zip",
+      "file/Some Mobs Icons 1.5.zip",
+      "file/Icon Journey 1.1.zip",
       "file/PS Shielded - Xaero Frame 1.0.0.zip",
 
       "file/Icons Menu (Put Above Icons).zip",
@@ -83,14 +90,15 @@
       "BS_invalid_ent_weapons_clarification",
       "Alexish Mobs v1.0",
       "Blue Skier Prehistory Ver0.8",
-      "choccompatv1.3"
+      "choccompatv1.3",
+      "choc_nexus-questbook"
     ],
 
     "include-optional": [
       "file/3D Tankards.zip",
       "file/Better_Enderdragon.zip",
       "file/Fabulous Foliage.zip",
-      "file/Simple Grass Flowers v1.9.3.zip",
+      "file/Simple Grass Flowers v1.9.5.zip",
       "file/LowOnFire_1.19.zip",
       "file/Icons v.1.9.1\u00A77.zip"
     ],
@@ -120,7 +128,6 @@
     },
 
     "$include-optional": {
-      "fixed_position": true,
       "force_compatible": true
     },
 

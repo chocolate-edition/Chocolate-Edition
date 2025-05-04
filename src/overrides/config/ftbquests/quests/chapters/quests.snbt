@@ -353,7 +353,7 @@
 			]
 			shape: "rsquare"
 			size: 3.0d
-			subtitle: "Kill every boss. Yeah, noones gonna beat this one. But, hey, it acts as sort of a boss checklist. Also, don't worry about the two that are unnamed. You'll know them when you find them.."
+			subtitle: "Kill every boss. Yeah, noones gonna beat this one. But, hey, it acts as sort of a boss checklist."
 			tasks: [
 				{
 					entity: "conjurer_illager:conjurer"
@@ -575,32 +575,6 @@
 					id: "66C99D79987EA253"
 					type: "kill"
 					value: 1L
-				}
-				{
-					entity: "witherstormmod:withered_symbiont"
-					icon: {
-						Count: 1b
-						id: "minecraft:tipped_arrow"
-						tag: {
-							Potion: "mutantmonsters:chemical_x"
-						}
-					}
-					id: "54099B7575B3F289"
-					title: "Kill 1x ???"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "5826B47FB26BAF28"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "witherstormmod:withered_nether_star"
-					}
-					title: "Kill ?̴̩͚͓́̀̌̈́͗́̌̾̽̚?̸̡̤͚͔̰̠͔̂̓̅̎̿̕ͅ?̵̫̰͎̖͇͚̫͕̝͙͉́?̴̙̖͇̖̽͂͐͆̄̾̕?̷̗̬̱͙̯̻͖͍̖̩̬̒͌͜"
-					type: "item"
 				}
 				{
 					entity: "iter_rpg:sorrowsealed"

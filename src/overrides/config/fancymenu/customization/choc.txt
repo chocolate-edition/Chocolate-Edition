@@ -293,22 +293,6 @@ customization {
 
 customization {
   orientation = top-left
-  delayappearanceseconds = 2.0
-  path = config/fancymenu/customguis/logo2.png
-  fadein = true
-  fadeinspeed = 2.0
-  x = -8
-  width = 270
-  action = addtexture
-  actionid = 89ed5beb-aee2-413e-936a-b998ab5994ff1694552698788
-  y = 8
-  delayappearance = true
-  delayappearanceeverytime = false
-  height = 99
-}
-
-customization {
-  orientation = top-left
   hidden = true
   x = 186
   width = 268
@@ -377,6 +361,22 @@ customization {
 
 customization {
   orientation = top-left
+  delayappearanceseconds = 2.0
+  path = config/fancymenu/customguis/logo2.png
+  fadein = true
+  fadeinspeed = 2.0
+  x = -8
+  width = 270
+  action = addtexture
+  actionid = 89ed5beb-aee2-413e-936a-b998ab5994ff1694552698788
+  y = 8
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 99
+}
+
+customization {
+  orientation = top-left
   restartbackgroundanimations = true
   delayappearanceseconds = 1.0
   buttonaction = openlink;https://discord.gg/ejrrmHXFUX%btnaction_splitter_fm%
@@ -385,11 +385,11 @@ customization {
   hoverlabel = Discord
   fadein = true
   fadeinspeed = 1.0
-  x = 70
+  x = 50
   width = 20
   action = addbutton
   actionid = 4bffd2f7-f7e8-4ce0-9a15-25df49bad3961694564652215
-  y = 256
+  y = 285
   delayappearance = true
   backgroundnormal = config/fancymenu/customguis/dicsord.png
   delayappearanceeverytime = false
@@ -406,11 +406,11 @@ customization {
   hoverlabel = Projects
   fadein = true
   fadeinspeed = 1.0
-  x = 102
+  x = 105
   width = 20
   action = addbutton
   actionid = 50883c98-7c74-49d6-bb38-2ab3879312f11694567111319
-  y = 256
+  y = 285
   delayappearance = true
   backgroundnormal = config/fancymenu/customguis/cf.png
   delayappearanceeverytime = false
@@ -427,14 +427,41 @@ customization {
   hoverlabel = Issues
   fadein = true
   fadeinspeed = 1.0
-  x = 134
+  x = 160
   width = 19
   action = addbutton
   actionid = 0eab0573-3030-4e73-9073-c2094914a14e1694581484545
-  y = 256
+  y = 285
   delayappearance = true
   backgroundnormal = config/fancymenu/customguis/ghu.png
   delayappearanceeverytime = false
   height = 20
+}
+
+customization {
+  identifier = %id=376298%
+  orientation = top-left
+  x = 48
+  action = movebutton
+  y = 253
+}
+
+customization {
+  identifier = %id=376298%
+  width = 128
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376298%
+  action = setbuttonlabel
+  value = Pack Updates
+}
+
+customization {
+  identifier = %id=376298%
+  action = setbuttondescription
+  description = See new and past update changelogs!
 }
 

@@ -49,7 +49,7 @@ if your changes involve deleting a file, instead leave the file blank if possibl
 (this is due to a quirk with how ATLauncher automatic updates work and should just generally help reduce the amount of people with broken scripts after an update) 
 
 **note:**
-when modifying resourcepacks through paxi or otherwise, be sure to include it in the proper place in both `src/overrides/config/yosby/options.txt` and `src/overrides/config/resourcepackoverrides.json`
+when modifying resourcepacks through paxi or otherwise, be sure to include it in the proper place in `src/overrides/config/resourcepackoverrides.json`
 
 `main` represents the current latest release. It should only be merged to prior to a new version release. Do not touch it unless you just published a new version.
 
@@ -81,13 +81,13 @@ when modifying resourcepacks through paxi or otherwise, be sure to include it in
 
 7. be sure to test your changes as you make them. once you are satisfied with the changes, *export* your profile from curseforge.
     to do so, click the 3 dots on your profile, and click "export profile"\
-    ensure only `config`, `defaultconfigs`, `mods`, `resourcepacks`, `resources`, `scripts`, `shaderpacks`, and `servers.dat` are checked.\
+    ensure only `config`, `defaultconfigs`, `kubejs`, `mods`, `resourcepacks`, `resources`, `scripts`, `shaderpacks`, and `servers.dat` are checked.\
     save the exported zip somewhere temporarily, like `downloads` or `desktop` or back in your repo /src/ folder
 
 8. extract the zip (right click, choose winrar "extract to"), then open the extracted folder and **copy** the contents.
 
 9. open your git repo in the file explorer, delete the contents of the `/src/` folder, and paste in the ones you copied.\
-once you are done copying, it is safe to delete the zip and extracted foler
+once you are done copying, it is safe to delete the zip and extracted folder
 
 10. open the repo in vscode, and go to the `source control` tab. review your changes by clicking each file and see the lines being added in green, and removed in red.
     if your vscode window is wide enough, you will see the changes side by side, and if you make the window smaller, you can see each change stack in one file.
@@ -102,7 +102,7 @@ once you are done copying, it is safe to delete the zip and extracted foler
     - you can even *add* specific lines from a file by viewing the "working tree" version (click it in the source control tab) and click the + next to the specific line you want to add
 
 12. ensure you revert the changed "name" and "author" in the `manifest.json` file. to do so, you can click the file to view the changes, then with the changes sside by side, click the arrow in the center column to "revert block"
-    ensure that the name remains as `The Chocolate Edition` and the author is `richestprune`
+    ensure that the name remains as `Chocolate Edition Minecraft` and the author is `richestprune`
 
 13. sort and verify the manifest and modlist.html using [diffsort](https://diffsort.com/).
     1. copy and paste the contents of `modlist.html` into [diffsort](https://diffsort.com/)

@@ -7,7 +7,7 @@
   "updateCheckerId": "https://raw.githubusercontent.com/chocolate-edition/Chocolate-Edition/refs/heads/main/modpackUpdateChecker/",
   "advanced": {
     "bccEnabled": false,
-    "expandButton": false,
+    "expandButton": true,
     "updateCheckerType": 2,
     "retroWarning": false,
     "modpackMods": []
