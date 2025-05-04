@@ -176,6 +176,9 @@ var itemsStageTwo = [
 	<item:born_in_chaos_v1:nightmare_mantleofthe_night_leggings>,
 	<item:born_in_chaos_v1:nightmare_mantleofthe_night_chestplate>,
 	<item:born_in_chaos_v1:nightmare_mantleofthe_night_helmet>,
+	<item:cataclysm:ancient_spear>,
+	<item:cataclysm:bone_reptile_helmet>,
+	<item:cataclysm:bone_reptile_chestplate>,
 
 	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:gold_backpack>,
@@ -212,6 +215,13 @@ var itemsStageThree = [
 	<item:born_in_chaos_v1:skullbreaker_hammer>,
 	<item:born_in_chaos_v1:trident_hayfork>,
 	<item:born_in_chaos_v1:dark_ritual_dagger>,
+	<item:cataclysm:soul_render>,
+	<item:cataclysm:cursium_helmet>,
+	<item:cataclysm:cursium_chestplate>,
+	<item:cataclysm:cursium_leggings>,
+	<item:cataclysm:cursium_boots>,
+  <item:cataclysm:the_annihilator>,
+	<item:cataclysm:cursed_bow>,
 	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:diamond_backpack>,
 	<item:sophisticatedbackpacks:feeding_upgrade>,
@@ -316,7 +326,10 @@ var itemsStageFive = [
 	<item:celestisynth:aquaflora>,
 	<item:celestisynth:poltergeist>,
 	<item:celestisynth:breezebreaker>,
-	<item:alexsmobs:dimensional_carver>
+	<item:alexsmobs:dimensional_carver>,
+	<item:cataclysm:the_immolator>,
+	<item:cataclysm:wrath_of_the_desert>,
+	<item:cataclysm:gauntlet_of_maelstrom>
 ];
 
 // --------------------------------------------------- CURSED (DISABLED) ITEMS ------------------------------------------------------------------//
