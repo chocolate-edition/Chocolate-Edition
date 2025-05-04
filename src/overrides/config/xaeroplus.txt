@@ -95,7 +95,7 @@
 [XP] Waystone Color:7
 [XP] Waystone WP Visibility Type:0
 [XP] Waystone Waypoint Set:true
-[XP] Waystones Sync:true
+[XP] Waystones Sync:false
 [XP] WorldMap Baritone Elytra Here:false
 [XP] WorldMap Baritone Goal Here:false
 [XP] WorldMap Baritone Path Here:false
