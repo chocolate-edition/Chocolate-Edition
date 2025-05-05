@@ -1,4 +1,4 @@
-# The Chocolate Edition
+# Minecraft Chocolate Edition
 
 1.19.2 - Custom Reworked Progression, 45+ Balanced Bosses, hundreds of unique areas/mobs to discover, multiple endings, multiplayer, and so much more!
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 9,
-  "currentVersion": "1.9",
-  "modpackName": "The Chocolate Edition",
+  "currentVersion": "1.9.1",
+  "modpackName": "Chocolate Edition Minecraft",
   "modpackAuthor": "richestprune",
   "modpackReleaseType": "stable",
   "updateCheckerId": "https://raw.githubusercontent.com/chocolate-edition/Chocolate-Edition/refs/heads/main/modpackUpdateChecker/",

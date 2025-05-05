@@ -2,7 +2,7 @@
 
 ## to upgrade from a previous version
 
-you will need to **fully replace** `config`, `defaultconfigs`, `mods`, `resources` and `scripts` from your exisiting server folder with the ones from the latest server pack. this means **deleting** the exisiting ones and copying in the contents of the new server pack.
+you will need to **fully replace** `config`, `defaultconfigs`, `kubejs`, `mods`, `resources` and `scripts` from your exisiting server folder with the ones from the latest server pack. this means **deleting** the exisiting ones and copying in the contents of the new server pack.
 
 you should also delete the folder `/world/serverconfig` so it can be regenerated using  the new defaultconfigs
 
