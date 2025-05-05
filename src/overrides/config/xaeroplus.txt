@@ -11,9 +11,9 @@
 [XP] Disable Waypoint Sharing:false
 [XP] Disable Xaero Internet Access:true
 [XP] Expanded Setting Entries:true
-[XP] Fast Mapping:false
+[XP] Fast Mapping:true
 [XP] Fast Mapping Delay:250.0
-[XP] Fast Mapping Rate Limit:25.0
+[XP] Fast Mapping Rate Limit:60.0
 [XP] Fast Zip Writes:true
 [XP] Fix Main Entity Dot:true
 [XP] Hide Invisible Entities:false
@@ -34,12 +34,9 @@
 [XP] New Chunks Render Inverse:false
 [XP] NewChunks Highlighting:false
 [XP] Old Biomes:false
-[XP] 2b2t Highways:false
-[XP] Fast Mapping Rate Limit:60.0
-[XP] Fast Mapping:true
-[XP] Save/Load NewChunks to Disk:true
-[XP] Save/Load Palette NewChunks to Disk:true
-[XP] Switch to End:false
+[XP] Old Chunks Color:3
+[XP] Old Chunks Opacity:100.0
+[XP] OldBiomes Color:1
 [XP] OldBiomes Opacity:100.0
 [XP] OldChunks Highlighting:false
 [XP] OldChunks Inverse:false
