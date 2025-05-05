@@ -202,6 +202,7 @@
 				}
 				{
 					biome: "#chocolate:savannas"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -287,6 +288,7 @@
 				}
 				{
 					biome: "#chocolate:forests"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -360,6 +362,7 @@
 				}
 				{
 					biome: "#chocolate:taigas"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -440,6 +443,7 @@
 				}
 				{
 					biome: "#chocolate:plains"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -526,6 +530,7 @@
 				}
 				{
 					biome: "#chocolate:deserts"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -602,6 +607,7 @@
 				}
 				{
 					biome: "#chocolate:snows"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -643,6 +649,7 @@
 				}
 				{
 					biome: "#chocolate:frozen_oceans"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -745,6 +752,7 @@
 				}
 				{
 					biome: "#chocolate:oceans"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -793,6 +801,7 @@
 				}
 				{
 					biome: "#chocolate:badlands"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -813,7 +822,6 @@
 			disable_toast: true
 			id: "0D99E115AD740A05"
 			invisible_until_tasks: 1
-			optional: true
 			size: 2.0d
 			subtitle: " "
 			tasks: [
@@ -889,6 +897,7 @@
 				}
 				{
 					biome: "#chocolate:jungles"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -938,6 +947,7 @@
 				}
 				{
 					biome: "#chocolate:swamps"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -978,6 +988,7 @@
 				}
 				{
 					biome: "#chocolate:blossoms"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -1042,11 +1053,13 @@
 					biome: "environmental:pine_slopes"
 					icon: "environmental:pine_leaf_pile"
 					id: "4C5994E0D5B0343F"
+					optional_task: true
 					title: "Pine Slopes"
 					type: "biome"
 				}
 				{
 					biome: "#chocolate:mountains"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -1359,6 +1372,7 @@
 				}
 				{
 					biome: "#chocolate:dark_forests"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -1529,6 +1543,7 @@
 				}
 				{
 					biome: "#chocolate:beaches"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -1623,6 +1638,7 @@
 				}
 				{
 					biome: "#chocolate:end_islands"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -1803,6 +1819,7 @@
 				}
 				{
 					biome: "#chocolate:bright_plains"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -1866,6 +1883,7 @@
 				}
 				{
 					biome: "#chocolate:peeking_oceans"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -1912,6 +1930,7 @@
 				}
 				{
 					biome: "#chocolate:frostbitten_forests"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -2036,6 +2055,7 @@
 				}
 				{
 					biome: "#chocolate:crystal_deserts"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -2082,6 +2102,7 @@
 				}
 				{
 					biome: "#chocolate:dawn_plains"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -2171,6 +2192,7 @@
 				}
 				{
 					biome: "#chocolate:crescent_orchards"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -7309,6 +7331,7 @@
 				}
 				{
 					biome: "#chocolate:rivers"
+					disable_toast: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -21501,11 +21524,13 @@
 				}
 				{
 					dimension: "blue_skies:everbright"
+					disable_toast: true
 					id: "1D9FEC18DBFFA926"
 					type: "dimension"
 				}
 				{
 					dimension: "blue_skies:everdawn"
+					disable_toast: true
 					id: "1C5DA68803D8E09D"
 					type: "dimension"
 				}
