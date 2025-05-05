@@ -20,7 +20,7 @@ oldDeathpoints:false
 distance:1
 lockNorth:true
 zoom:1
-minimapSize:180
+minimapSize:0
 chunkGrid:-1
 slimeChunks:false
 mapSafeMode:false
@@ -37,7 +37,7 @@ dotNameScale:1.0
 compassOverEverything:true
 showFlowers:true
 keepWaypointNames:true
-waypointsDistanceExp:0
+waypointsDistanceExp:6
 waypointsDistanceMin:0.0
 defaultWaypointTPCommandFormat:/tp @s {x} {y} {z}
 defaultWaypointTPCommandRotationFormat:/tp @s {x} {y} {z} {yaw} ~

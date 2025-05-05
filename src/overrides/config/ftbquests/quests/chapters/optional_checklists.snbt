@@ -126,7 +126,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/wolf.png"
 				}
 			}
-			id: "52E02F7CE48BBC27"
+			id: "1E21F14388961D62"
 			subtitle: "Pet: Found in Taigas, Tamed with bone, healed with rotten flesh/meats. Attacks enemies, retreating at 20% health and scares off skeletons"
 			tasks: [{
 				id: "15B100BFE3DD411E"
@@ -144,7 +144,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/cat.png"
 				}
 			}
-			id: "784C3F8B5CA2BED0"
+			id: "6BD83C9A1A3BDA58"
 			subtitle: "Pet: Found in villages, Tamed/healed with raw fish. Gives you items if slept in your bed. Scares creepers"
 			tasks: [{
 				id: "18CFECE21A91B6FD"
@@ -163,7 +163,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/horse.png"
 				}
 			}
-			id: "6E587C989AD498CB"
+			id: "75C0EF41C93642C4"
 			subtitle: "Mount: Tamed by riding it with an empty hand until it likes you; saddle makes it move and horse armor can be applied and enchanted. Standard mount."
 			tasks: [{
 				id: "3B4F43ACEA64FFF1"
@@ -182,7 +182,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/donkey.png"
 				}
 			}
-			id: "16B3B90C04EBB90E"
+			id: "50C92ACB838755F5"
 			subtitle: "Mount: Slower than horse, donkeys found in plains as well, mules bred from a donkey and a horse and can be given a chest."
 			tasks: [{
 				id: "62010B3AE207C16C"
@@ -200,7 +200,7 @@
 					Icon: "blue_skies:textures/gui/journal/icons/crystal_camel.png"
 				}
 			}
-			id: "3502A8A202FC4C76"
+			id: "4CC6A6C4B5D65B60"
 			tasks: [{
 				id: "1EDD30A38574C4EA"
 				title: "Crystal Camel"
@@ -217,7 +217,7 @@
 					Icon: "weavers_cosmetics:items/dragon_wings_icon_black"
 				}
 			}
-			id: "56AF701F1BC8539B"
+			id: "72175D348F0E7B99"
 			tasks: [{
 				id: "1AE495F5C4139B4F"
 				title: "Dragon"
@@ -234,7 +234,7 @@
 					Icon: "cataclysm:item/the_baby_leviathan_bucket"
 				}
 			}
-			id: "40F7E3CD8D37449B"
+			id: "7CC4ED9AE038037A"
 			tasks: [{
 				id: "1CF5D56D17DA196F"
 				title: "Baby Leviathan"
@@ -251,7 +251,7 @@
 					Icon: "alexsmobs:textures/mob_effect/power_down.png"
 				}
 			}
-			id: "49D83C01CEA31D7A"
+			id: "391654AED1FEE2E7"
 			subtitle: "Summoned by the bone staff dropped from the Lich, it will only follow its conjurer. Use the staff to command it! And giving it a coffin might help your inventory managment."
 			tasks: [{
 				id: "53E3CAD76F269609"
@@ -281,7 +281,7 @@
 					Icon: "ftbchunks:textures/faces/alexsmobs/spectre.png"
 				}
 			}
-			id: "256207CA4F7DC5F5"
+			id: "7BF4F8D23FEC45AB"
 			tasks: [{
 				id: "3B544CB658A430B7"
 				title: "Spectre"
@@ -298,7 +298,7 @@
 					Icon: "alexsmobs:textures/particle/dna_4.png"
 				}
 			}
-			id: "05B0FAB9F6DCA555"
+			id: "1FA03455ACE35266"
 			tasks: [{
 				id: "57055BDAE35DFAE8"
 				title: "Endergrade"
@@ -315,7 +315,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/blaze.png"
 				}
 			}
-			id: "5AD35EF067CE898E"
+			id: "61EC753A01BE6FB5"
 			tasks: [{
 				id: "2E0D65B6EE0F683F"
 				title: "Rodling"
@@ -326,7 +326,7 @@
 		}
 		{
 			icon: "alexsmobs:straddle_saddle"
-			id: "25FF223D7C9C08F1"
+			id: "39E783AFC813C623"
 			tasks: [{
 				id: "5668B25C4985E805"
 				title: "Laviathan"
@@ -361,7 +361,7 @@
 					Icon: "ftbchunks:textures/faces/alexsmobs/elephant.png"
 				}
 			}
-			id: "269FEC949B24583D"
+			id: "450A2B9F59D3E807"
 			tasks: [{
 				id: "515D1CDC802EF656"
 				title: "Elephant"
@@ -397,7 +397,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/parrot.png"
 				}
 			}
-			id: "7FE1A83FB551A694"
+			id: "2733B78CE91FE9DD"
 			subtitle: "Pet: Found in jungle, Tamed/healed with seeds. Sits on shoulder, flies around, dances to music."
 			tasks: [{
 				id: "7241A893F32D5344"
@@ -410,7 +410,7 @@
 		{
 			hide_dependency_lines: true
 			icon: "alexsmobs:mimic_octopus_bucket"
-			id: "6E1D9136CBD23016"
+			id: "2210D33CEFE7AFF2"
 			tasks: [{
 				id: "6A6A7DC8CA249E9A"
 				title: "Mimic Octopus"
@@ -422,7 +422,7 @@
 		{
 			hide_dependency_lines: true
 			icon: "alexsmobs:shrimp_fried_rice"
-			id: "3CE9DB27082C2A27"
+			id: "5BEBE839AA1E679A"
 			tasks: [{
 				id: "7E150E3545148DB6"
 				title: "Mantis Shrimp"
@@ -434,7 +434,7 @@
 		{
 			hide_dependency_lines: true
 			icon: "environmental:bird_of_paradise"
-			id: "28B3B6343A9C5C0F"
+			id: "0D2D411D2D35FF41"
 			subtitle: "Pet: Goodall Toucan: Jungle. Tamed with apple. When fed golden apples, toucans will apply the regen effect for 10 seconds to all entities within a 5 block radius. If fed a Notch apple, toucans will apply the effects of the apple to all entities in a 5 block radius. Squirrels spawn in the Plains biome. They can be fed walnuts to make them trust the player. If a Squirrel is trusting, they will pick up sapling items and plant them nearby. Squirrels can be bred with honeycomb if they are trusting."
 			tasks: [{
 				id: "77340145FAEAAC43"
@@ -453,7 +453,7 @@
 					Icon: "alexsmobs:item/falconry_glove"
 				}
 			}
-			id: "76474AF8AF3B15F7"
+			id: "6DEAB24CF8EAB730"
 			tasks: [{
 				id: "72D95DB317972911"
 				title: "Eagle"
@@ -470,7 +470,7 @@
 					Icon: "ftbchunks:textures/faces/alexsmobs/raccoon.png"
 				}
 			}
-			id: "7A221ACE6ADDCC52"
+			id: "0FA3185466CFA2EB"
 			tasks: [{
 				id: "0FBBD8CF155493BC"
 				title: "Racoon"
@@ -487,7 +487,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/fox.png"
 				}
 			}
-			id: "7B9520C1FCBC3E13"
+			id: "455F09A5E78A58FB"
 			subtitle: "Pet: Fox: Taigas, can be made to sit, wander and follow like the other pets. To get a tame fox, you need to breed two wild foxes with sweet berries and wait for it to grow up. Note that no matter how tame foxes are, they'll still want to kill any chickens and (untamed) rabbits they can see. Fennec Fox: Desert. Tamed with raw chicken, bred with cooked chicken. "
 			tasks: [{
 				id: "7A60CEF2260C56F9"
@@ -506,7 +506,7 @@
 					Icon: "minecraft:item/axolotl_bucket"
 				}
 			}
-			id: "26A0BA0BAF04A92A"
+			id: "04758B86034F7149"
 			subtitle: "Found in lush caves. Tame with Tropical fish. They can be made to sit, wander and follow like all the other tameable mobs. Note that axolotls are by default very slow on land, dry out and have low health - you have been warned."
 			tasks: [{
 				id: "02085B2EB442F513"
@@ -525,7 +525,7 @@
 					Icon: "ftbchunks:textures/faces/alexsmobs/warped_toad.png"
 				}
 			}
-			id: "478F514886A7A415"
+			id: "69FD1E6FDB8EC825"
 			subtitle: "Warped forest."
 			tasks: [{
 				id: "0EB2CED0244C8D68"
@@ -562,7 +562,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/frog.png"
 				}
 			}
-			id: "77F04840EF7EC481"
+			id: "5D3BB2F7BD09F603"
 			subtitle: "Tame  with a few spider eyes. Frogs can be made to stay, follow or wander like a basic pet, and will come to their owner's defense. They may have low attack and health, but they sure make up for it in cuteness."
 			tasks: [{
 				id: "7D0C3889F8443354"
@@ -580,7 +580,7 @@
 					Icon: "blue_skies:textures/gui/journal/icons/crogre.png"
 				}
 			}
-			id: "2228C8D01D4991C3"
+			id: "1619D43326603181"
 			subtitle: "Mount:"
 			tasks: [{
 				id: "2871ECCC23524BCE"
@@ -598,7 +598,7 @@
 					Icon: "ftbchunks:textures/faces/caverns_and_chasms/skeleton_wolf.png"
 				}
 			}
-			id: "7E87D337BD5DE194"
+			id: "0232A59CBF8CA5CF"
 			tasks: [{
 				id: "7013C45D162BD65C"
 				title: "Skeleton/Zombie Horse"
@@ -615,7 +615,7 @@
 					Icon: "ftbchunks:textures/faces/alexsmobs/snow_leopard.png"
 				}
 			}
-			id: "7E240038E64AD156"
+			id: "74EC0CB1D336C194"
 			tasks: [{
 				id: "2382047C7DB61532"
 				title: "Snow Leopard"
@@ -632,7 +632,7 @@
 					Icon: "ftbchunks:textures/faces/alexsmobs/crow.png"
 				}
 			}
-			id: "37E93A933E632CD3"
+			id: "49AF9477008167C1"
 			subtitle: "Important: Eats your crops. Scare off with a carved pumpkin. Can be set to pick up items if tamed with pumpkin seeds, and will search for a container with an item frame of the same item it's holding to deposit. Deals low damage to not aggro mobs, and extra damage to undead."
 			tasks: [{
 				id: "69F3E20A0932F4EA"
@@ -644,7 +644,7 @@
 		}
 		{
 			icon: "minecraft:bamboo"
-			id: "3AE6ECE034438752"
+			id: "2C8144F1E8D80305"
 			subtitle: "Jungle, sleeps through day, Tameable with sweet berries, breedable with bamboo"
 			tasks: [{
 				id: "5A41691D5E5EF67F"
@@ -656,7 +656,7 @@
 		}
 		{
 			icon: "nameless_trinkets:creeper_sense"
-			id: "68CC57D00F5892DF"
+			id: "2FD34B52DAA8AA84"
 			subtitle: "Pet: Hatched from Mutant Creeper drop, Creeper Egg. Controlled using Creeper Minion tracker, made from Creeper shard, dropped from another Mutant Creeper. "
 			tasks: [{
 				id: "467D2B75E35556B9"
@@ -668,7 +668,7 @@
 		}
 		{
 			icon: "minecraft:glow_berries"
-			id: "20A7ACBC75E2DBF0"
+			id: "7B2FE2CF1E66D213"
 			tasks: [{
 				id: "702053BDC407D2B5"
 				title: "Blue jay"
@@ -685,7 +685,7 @@
 					Icon: "alexsmobs:textures/mob_effect/sunbird_blessing.png"
 				}
 			}
-			id: "29EB743416939B6E"
+			id: "7B7E0031CC8EAD01"
 			tasks: [{
 				id: "174C052CBD936357"
 				title: "Sunbird"
@@ -732,7 +732,7 @@
 					Icon: "minecraft:item/golden_apple"
 				}
 			}
-			id: "4A9069DD161E0DDE"
+			id: "519CC56B1AD84416"
 			subtitle: "Mount: If fed a apple, will let you ride them for 30 seconds; during which map's radiuses are greatly increased. Can float and is fast. Bred using hay bale."
 			tasks: [{
 				id: "420A9A5165B97812"
@@ -744,7 +744,7 @@
 		}
 		{
 			icon: "infernalexp:strider_bucket"
-			id: "5FFA815B418CF816"
+			id: "78F93275F76C2A42"
 			tasks: [{
 				id: "0E23A3D5C5E57168"
 				title: "Strider"
@@ -761,7 +761,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/allay.png"
 				}
 			}
-			id: "36853546F7C55BE5"
+			id: "4931780C488FE451"
 			tasks: [{
 				id: "3D49CFC31A662000"
 				title: "Allay"
@@ -778,7 +778,7 @@
 					Icon: "naturalist:textures/item/tortoise_shell.png"
 				}
 			}
-			id: "303880E47B06BE10"
+			id: "185092B6AEDF29AD"
 			subtitle: "Spawns naturally in various biomes - a few are Deserts, Jungles, and Swamps. There are 3 Tortoise skin variants.Can be tamed and bred with Dandelions, Brown Mushrooms, Bamboo, or Cactus. Items can be defined in a tag.After breeding, will find a spot to lay its eggs."
 			tasks: [{
 				id: "5FB0AB90C764CB9D"
@@ -796,7 +796,7 @@
 					Icon: "ftbchunks:textures/faces/quark/toretoise.png"
 				}
 			}
-			id: "4B54749C0C25E909"
+			id: "0F180B0B4C1534CC"
 			tasks: [{
 				id: "2B64A298485DEC4A"
 				title: "Toretoise"
@@ -814,7 +814,7 @@
 					Icon: "ftbchunks:textures/faces/waddles/adelie_penguin.png"
 				}
 			}
-			id: "7EF0E0FF8B749130"
+			id: "360A5CB0378324DF"
 			subtitle: "Important: Snowy and icy biomes contain Penguins, which spawn in huddles, and being near a huddle of at least 4 penguins grants you a regeneration effect. Penguins will hunt fish and pick up the item, which they will eat. You can breed them with fish and the penguin will keep the egg by its feet, which will eventually hatch. "
 			tasks: [{
 				id: "7341FA25D76F5F29"
@@ -832,7 +832,7 @@
 					Icon: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
 				}
 			}
-			id: "6D70DC707A549A53"
+			id: "6D094A9FB929F40E"
 			subtitle: "Important: Grizzly Bear: Sheared for bear fur, craft teddy bear to sleep while monsters are nearby. If holding food, won't attack player. Useful to throw food to stop a bear charge. Sleeps for half the day. Steals food from berry bushes, campfires, or bee nests. Polar Bear: Snowy biomes. Fights seals. Eats salmon. Black Bear:             All bears aggro if player goes near cub."
 			tasks: [{
 				id: "6EE869C5021F1AB5"
@@ -903,7 +903,7 @@
 					Icon: "quark:block/cactus_block"
 				}
 			}
-			id: "2A17417660B7BB75"
+			id: "37AE0839644DE66A"
 			subtitle: "Important: Prickly little desert friends that live in tribes lead by an elder. Cactem elders will pick up dropped totems of undying and give you either something valuable, or something completely useless in return."
 			tasks: [{
 				id: "0E88694C26F54159"
@@ -940,7 +940,7 @@
 					Icon: "born_in_chaos_v1:textures/mob_effect/vzor.png"
 				}
 			}
-			id: "7623C4589754A79C"
+			id: "7A85614A4E601814"
 			tasks: [{
 				id: "29DC7DB68C809229"
 				title: "Dire Hound Leader"
@@ -951,7 +951,7 @@
 		}
 		{
 			icon: "graveyard:hanged_wither_skeleton"
-			id: "76B57F14675B1D35"
+			id: "304F9BD8CA8B1C3B"
 			subtitle: "suffering in eternal pain, the nameless hanged offers rare artifacts."
 			tasks: [{
 				id: "1E00BE841AB5C3CF"
@@ -987,7 +987,7 @@
 					Icon: "blue_skies:textures/gui/journal/icons/snow_owl.png"
 				}
 			}
-			id: "7EA6D39B99264AA0"
+			id: "07F5993BAE1DCF22"
 			tasks: [{
 				id: "3A3642B6074C0C7B"
 				title: "Snow Owl"
@@ -1004,7 +1004,7 @@
 					Icon: "unusualend:items/firefly_egg"
 				}
 			}
-			id: "0723441F9E87D316"
+			id: "2B545E3214AD437A"
 			subtitle: "Ender Fireflies can be found near nests in the End Highlands. They can be tamed with End Blob, dropped by Enderblobs, and carried in buckets. This small insect will hunt Endermites and Enderblobs, and sometime produce a Firefly Egg or Firefly Bulb block when killing one."
 			tasks: [{
 				id: "05A3FDAE90BEC58E"
@@ -1023,7 +1023,7 @@
 					Icon: "ftbchunks:textures/faces/quark/foxhound.png"
 				}
 			}
-			id: "4FCAF06460D4B056"
+			id: "6253165BA327A49A"
 			tasks: [{
 				id: "62D55E050D077DD2"
 				title: "Foxhound"
@@ -1040,7 +1040,7 @@
 					Icon: "minecraft:block/dark_oak_sapling"
 				}
 			}
-			id: "751DF7F08E7252EB"
+			id: "50F1EB3885370730"
 			subtitle: "Pet: Dark forest. Tamed with rabbit's foot. Tamed owls sat within a 5 blocks radius of an enchantment table will significantly boost enchantments regardless of the amount of bookshelves. "
 			tasks: [{
 				id: "666FAA3F9EDA2871"
@@ -1053,7 +1053,7 @@
 		{
 			hide_dependency_lines: true
 			icon: "minecraft:fern"
-			id: "7279ECDD2AFDAA77"
+			id: "2BF26ECF601DFC32"
 			tasks: [{
 				id: "0A9B81C045F2323D"
 				title: "Ferret: Plains/forests, tamed with raw rabbit and hunts chicken and rabbit. Tamed ferrets dig loot with a five min cooldown after being fed raw chicken"
@@ -1071,7 +1071,7 @@
 					Icon: "crittersandcompanions:item/diamond_dragonfly_armor"
 				}
 			}
-			id: "36CF981ABD05D37A"
+			id: "7371550DCAA544F7"
 			subtitle: "Pet: Found over rivers, tamed/healed with spider eyes. Can be given armor."
 			tasks: [{
 				id: "7CAD32336495F0F5"
@@ -1089,7 +1089,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/rabbit.png"
 				}
 			}
-			id: "132966BE20C1D888"
+			id: "256C4B8DB3F9D6CD"
 			subtitle: "Pet: You can tame rabbits now! Tamed with hay bale, and don't attack but scares off ravagers"
 			tasks: [{
 				id: "322556C7F56B1C28"
@@ -1107,7 +1107,7 @@
 					Icon: "naturalist:item/lizard_tail"
 				}
 			}
-			id: "0C150BEEDD016F82"
+			id: "7FDD9F41EE2BA730"
 			subtitle: "Pet: Tamed with spider eyes, cant be bred. Drops tail when low on health"
 			tasks: [{
 				id: "1D7F19BBAAE0FC0B"
@@ -3406,7 +3406,7 @@
 				}
 			}
 			id: "40CC9AECED3C9482"
-			subtitle: "Extremely Rare and Difficult Ash Barrens(Nether) Structure"
+			subtitle: "Extremely Rare and Difficult Nether Structure"
 			tasks: [{
 				id: "4C104B4A95B88589"
 				title: "Piglin Castle"
@@ -4274,7 +4274,7 @@
 				}
 			}
 			id: "63F9E8A0E9CC0996"
-			subtitle: "Rare and Very Difficult Quartz Flats Structure"
+			subtitle: "Rare and Very Difficult Nether Structure"
 			tasks: [{
 				id: "0202885141731BFE"
 				title: "Sanctum"
@@ -4498,7 +4498,7 @@
 				}
 			}
 			id: "452B09FC0F95ADAC"
-			subtitle: "Rare Infernal Dunes Structure, that Spawns the Hovering Inferno with a Nether Star"
+			subtitle: "Rare Nether Structure, that Spawns the Hovering Inferno with a Nether Star"
 			tasks: [{
 				id: "11CCB8FF25FA0F16"
 				title: "Infernal Altar"
@@ -4992,7 +4992,7 @@
 					Damage: 0
 				}
 			}
-			id: "037487463F294265"
+			id: "5C1E05EB81520242"
 			subtitle: "Illager Theatre in the dark forest. \"The Conjurer inflicts short magic depletion and blindness on hit, makes himself invisible and teleports, spews random trinkets, and is immune to arrows and bad effects.\""
 			tasks: [{
 				id: "104BD2B15023C792"
@@ -5014,7 +5014,7 @@
 				"\"- Finally, it'll swoop down for a bite, inflicting Armor Decrease and Bone Fracture. You can use a melee weapon to get a hit in, or you can shoot it beforehand; damaging Swampjaw will cancel this attack.\""
 			]
 			icon: "aquamirae:anglers_fang"
-			id: "4A4C78CB96D21167"
+			id: "4F1E35A7671F0F2E"
 			subtitle: "BIOME BOSS: Swamp at night"
 			tasks: [{
 				id: "21359B0117D35F43"
@@ -5032,7 +5032,7 @@
 				"\"The Stray Huntsman spawns with a Stray Hunter and frozen wolves. Both of the hunters have high knockback attacks, meanwhile the dogs will swarm you. The Stray Huntsman also has a powerful ice stomp. However, it's nothing that can't be dealt with as long as you have decent armor and something to slash with.\""
 			]
 			icon: "rottencreatures:frozen_rotten_flesh"
-			id: "646E25504B30087A"
+			id: "790CAC035E4A55D2"
 			subtitle: "BIOME BOSS: Frozen Biomes at night"
 			tasks: [{
 				id: "07B5EC64B32A8866"
@@ -5054,7 +5054,7 @@
 				"\"A good way to neutralize her poison, as well as keeping your saturation up to regenerate, is to bring Bottles of Honey. A good ranged weapon is also helpful in avoiding her deadly stinger.\""
 			]
 			icon: "minecraft:honeycomb"
-			id: "5237CCE433D6CBF9"
+			id: "0CE56500091F460B"
 			subtitle: "BIOME BOSS: Jungle at night, Found in large beehives in Jungle biomes"
 			tasks: [{
 				id: "44CEC923F017E29E"
@@ -5076,7 +5076,7 @@
 				"\"Not much else to say here. Hope you like jump rope!\""
 			]
 			icon: "meetyourfight:haunted_bell"
-			id: "51DA82416F5227C8"
+			id: "4A959872EFB7EE17"
 			subtitle: "BIOME BOSS: Taigas at night,"
 			tasks: [{
 				id: "7961137D5A7103C1"
@@ -5120,7 +5120,7 @@
 					Damage: 0
 				}
 			}
-			id: "5DCE99962A6CCA5E"
+			id: "09C4190DCD90E91E"
 			subtitle: "Desert"
 			tasks: [{
 				id: "6FB66480D947BAC6"
@@ -5141,7 +5141,7 @@
 				"\"Will spin his arms towards you to try and suck you into his tornado of punches. He smacks you after a short charge up when up close, dealing more damage when smacked into walls. Will occasionally slam the ground and create a shockwave of Amethyst spikes around him you need to stand in between.\""
 			]
 			icon: "iter_rpg:ametrine_geode"
-			id: "722BA40E8B088F4E"
+			id: "079F1A14ABCDFAC7"
 			subtitle: "BIOME BOSS: Spawns in Deep Caves at night"
 			tasks: [{
 				id: "7883F46C83F4C427"
@@ -5169,7 +5169,7 @@
 					Damage: 0
 				}
 			}
-			id: "4735B54377A5B956"
+			id: "57AE823BEB51F548"
 			subtitle: "Summoned by using a Shell Horn near water in an Ice Maze"
 			tasks: [{
 				id: "5A464903FC5302A6"
@@ -5195,7 +5195,7 @@
 					Damage: 0
 				}
 			}
-			id: "09F9F19EF9D9E3AF"
+			id: "77FE4EEB44AF1FD5"
 			subtitle: "BIOME BOSS: Beach at night"
 			tasks: [{
 				id: "2BF5D687C8928067"
@@ -5218,7 +5218,7 @@
 				"\"Once the Freakager is defeated, Ragno will become enraged, inheriting the Freakager's attacks and gaining a few of its own, such as burrowing underground or charging. When Ragno attacks a certain number of times, it becomes tired; this is your opportunity to get a few hits in.\""
 			]
 			icon: "enigmaticlegacy:darkest_scroll"
-			id: "4555F8BFF2EAB685"
+			id: "39E62CA4E8C5BCB7"
 			subtitle: "Appears on the fourth wave of a Raid"
 			tasks: [{
 				id: "37AF460109F0361C"
@@ -5238,7 +5238,7 @@
 				"\"Cerberus itself isn't a particular threat, it's just a fairly tanky dog that melee attacks and shoots fireballs. All you need is Fire Resistance and some decent armour, and you'll be fine. The &oreal&r problem is the seven bajillion mobs that'll be swarming you as part of the raid; bring a good AoE Smite weapon!\""
 			]
 			icon: "majruszsdifficulty:undead_battle_standard"
-			id: "1345A21D53B8C480"
+			id: "2398A2BDCA5E78DF"
 			subtitle: "Spawns on the final wave of an Undead Army in Expert Mode"
 			tasks: [{
 				id: "3D8CA381195C6A90"
@@ -5261,7 +5261,7 @@
 				"\"When its health is depleted, it will begin glowing and growing bigger. Make sure to grab the Wither Treasure Bag quickly and back away; it's going to EXPLODE.\""
 			]
 			icon: "minecraft:wither_skeleton_skull"
-			id: "268776F573637BA4"
+			id: "14CA6B03F8B68384"
 			size: 1.5d
 			subtitle: "Place four Soul Sand/Soil in a T formation, and three Wither Skeleton Skulls on top"
 			tasks: [{
@@ -5282,7 +5282,7 @@
 				"\"Even though it's possible to fight it in the Ocean, its heavily advised against unless you have some form of knockback resistance and Frost Walker (first time that enchantment has ever been useful!). Still, if you like a challenge, try it! Otherwise, stick to the beaches.\""
 			]
 			icon: "predators:refined_prismarine"
-			id: "794090F5AB2B7D28"
+			id: "4CBD63ED35BAA994"
 			subtitle: "BIOME BOSS: Oceans at night"
 			tasks: [{
 				id: "5D96524D863C288C"
@@ -5304,7 +5304,7 @@
 				"\"Most of its attacks are telegraphed; you'll know they're coming before they happen. Avoid any red spots you see on the ground, any giant floating hands, and when you hear the laser being charged up, run around like crazy!\""
 			]
 			icon: "blue_skies:multi_portal_item"
-			id: "1F34B1CDCB13BF5C"
+			id: "3960948ED9FC34C6"
 			subtitle: "Appears on the fourth wave of a Raid"
 			tasks: [{
 				id: "372185659DA1EFA2"
@@ -5326,7 +5326,7 @@
 				"\"To defeat Dame Fortuna, use a ranged weapon or just jump around swinging your sword. Make sure you fight her in an open area so you can dodge freely!\""
 			]
 			icon: "meetyourfight:slicers_dice"
-			id: "7515C93DA6F6333A"
+			id: "50DBDD54A54924D9"
 			subtitle: "BIOME BOSS: Mesa/Yellowstones at night"
 			tasks: [{
 				id: "18AF5F5991917450"
@@ -5346,7 +5346,7 @@
 				"\"It's best not to just try and wail on this boss. Keep an eye on the floor; make sure you're not standing on any circular sigils, and circle the boss while going in for melee strikes. \""
 			]
 			icon: "enigmaticlegacy:forbidden_fruit"
-			id: "5B026547F6490336"
+			id: "0D948500908C7A11"
 			subtitle: "Find beneath a Sorrow Spire in the Nether"
 			tasks: [{
 				id: "5DC65C1998A8CBF2"
@@ -5368,7 +5368,7 @@
 				"\"Don't forget that in the Everbright, Overworld tools are less effective. Make sure you come prepared with tools made of this dimension's native resources!\""
 			]
 			icon: "enigmaticlegacy:escape_scroll"
-			id: "34BDA2C5DBB921B8"
+			id: "07BBD6C7B88098BC"
 			subtitle: "Unlock the Boss Room at the peak of the Everbright's Blinding Dungeon using four Blinding Keys"
 			tasks: [{
 				id: "3A93A743DF0325FC"
@@ -5390,7 +5390,7 @@
 				"\"Don't forget that in the Everdawn, Overworld tools are less effective. Make sure you come prepared with tools made of this dimension's native resources!\""
 			]
 			icon: "enigmaticlegacy:cursed_scroll"
-			id: "5A553FAEBE8AFB61"
+			id: "593087BBC6D5D242"
 			subtitle: "Unlock the Boss Room at the peak of the Everdawn's Blinding Dungeon using four Blinding Keys"
 			tasks: [{
 				id: "0AF418CE14A5CE94"
@@ -5418,7 +5418,7 @@
 					Icon: "minecraft:item/dragon_breath"
 				}
 			}
-			id: "0CBCB72EE3CED22F"
+			id: "2B3F726786BD838C"
 			size: 1.5d
 			subtitle: "Enter the End"
 			tasks: [{
@@ -5441,7 +5441,7 @@
 				"\"While it's on the ceiling, you won't be doing much damage. It's better to just run around until it falls onto the ground. It'll also occasionally lunge at you; if you time your shield right, you can stun the boss, which'll let you get a good few hits on it!\""
 			]
 			icon: "enigmaticlegacy:abyssal_heart"
-			id: "65C9A4DF9FBFF637"
+			id: "1F4E00BE13CECF73"
 			subtitle: "Unlock the Boss Room in the depths of the Everdawn's Poison Dungeon using four Poison Keys"
 			tasks: [{
 				id: "163663385A8B11D4"
@@ -5469,7 +5469,7 @@
 				id: "enigmaticlegacy:extradimensional_eye"
 				tag: { }
 			}
-			id: "721D83B9F8A0B4F7"
+			id: "7937DE7DDDD038F1"
 			subtitle: "Unlock the Boss Room in the Everbright's Nature Dungeon using four Nature Keys"
 			tasks: [{
 				id: "4A1C6429AE48E55C"
@@ -5491,7 +5491,7 @@
 				"\"At half health, the Rose Spirits are resummoned, and you do the same song and dance you did at the start, only with Rosalyne trying to chop your head off. Once the Rose Spirits are downed a second time, the battle resumes with Rosalyne using much more aggressive attacks.\""
 			]
 			icon: "meetyourfight:dusk_key"
-			id: "2253B05C1B9FF62A"
+			id: "634127E91DAC8495"
 			subtitle: "BIOME BOSS: In Moonlit/Sakura/Mirage/Amethyst biomes at night"
 			tasks: [{
 				id: "60E26036269DA7ED"
@@ -5540,7 +5540,7 @@
 				"\"The key to defeating this trickster is killing anything it summons, running in circles around it while it's attacking, and stabbing or shooting when an opening occurs.\""
 			]
 			icon: "enigmaticlegacy:hunter_guidebook"
-			id: "60742FD7E67C033C"
+			id: "0E88A80EB31C9387"
 			subtitle: "Appears on the final wave of a Level 2+ Bad Omen Raid on Hard difficulty"
 			tasks: [{
 				id: "5986E08AA9AE9BF4"
@@ -5566,7 +5566,7 @@
 					Icon: "cataclysm:textures/mob_effect/monstrous.png"
 				}
 			}
-			id: "150FC914B84E086F"
+			id: "479C447FB31F76B1"
 			subtitle: "Found in the Nether's Soul Forge"
 			tasks: [{
 				id: "2FB4B05427602F92"
@@ -5590,7 +5590,7 @@
 				"\"Once his health is fully depleted &oagain&r, Sir Pumpkinhead will separate from his body. The body will attack you directly as the head floats at a distance and shoots more exploding pumpkins.\""
 			]
 			icon: "born_in_chaos_v1:holiday_candy"
-			id: "56D52D898E5EBB8A"
+			id: "5465C1D28DABDC9C"
 			subtitle: "Can be summoned by breaking an &eInfernal Evil Pumpkin&r. You can locate these by just exploring your world, they'll have a ritual taking place with &eCandles&r all around it! "
 			tasks: [{
 				id: "711135CE8BA725A7"
@@ -5617,7 +5617,7 @@
 					Damage: 0
 				}
 			}
-			id: "5E2C0E85CBCC0610"
+			id: "38FE29F9CF57A6B0"
 			subtitle: "\"Find a naturally spawning Mutant Zombie in the dark or splash Chemical X on a normal Zombie\""
 			tasks: [{
 				id: "7FBFBF40C603082F"
@@ -5644,7 +5644,7 @@
 					Icon: "mutantmonsters:textures/mob_effect/chemical_x.png"
 				}
 			}
-			id: "217FD8FE95575AE3"
+			id: "0CF67D38AF80B108"
 			subtitle: "Find a naturally spawning Mutant Skeleton in the dark or splash Chemical X on a normal Skeleton"
 			tasks: [{
 				id: "0D44126A5F3B8AFC"
@@ -5667,7 +5667,7 @@
 				"\"Lastly, I hear something might happen if this Mutant gets struck by lightning...\""
 			]
 			icon: "iter_rpg:creative_catalyst"
-			id: "6D430ABCC4C39F70"
+			id: "1780B3AC3B0FC0B6"
 			subtitle: "Find a naturally spawning Mutant Creeper in the dark or splash Chemical X on a normal Creeper"
 			tasks: [{
 				id: "2D4F8AF577577E6F"
@@ -5694,7 +5694,7 @@
 					Damage: 0
 				}
 			}
-			id: "07696572F47CA032"
+			id: "17EE18135B101EFC"
 			subtitle: "Find a naturally spawning Mutant Enderman in the dark or the End or splash Chemical X on a normal Enderman"
 			tasks: [{
 				id: "12114F80DE2AF9D9"
@@ -5717,7 +5717,7 @@
 				"\"To prepare for this fight, bring Fire Resistance. Armor pieces with Blast Protection help too. A fast melee weapon is good to break its shields and deal with the Rodlings.\""
 			]
 			icon: "mutantmore:mutant_blaze_core"
-			id: "5C20E06B881D161B"
+			id: "79A823ED407AE548"
 			subtitle: "Splash Formula Y (10%) or Compound Z (100%) on a Blaze"
 			tasks: [{
 				id: "7615C3C6145183A8"
@@ -5744,7 +5744,7 @@
 					Icon: "mutantmore:textures/particle/wither_heart.png"
 				}
 			}
-			id: "4E3417927C03040F"
+			id: "4BEA96C9280CE08A"
 			subtitle: "Splash Formula Y (10%) or Compound Z (100%) on a Wither Skeleton"
 			tasks: [{
 				id: "1C6A17B4E0B388C8"
@@ -5776,7 +5776,7 @@
 				"\"In its final phase, it'll get on all fours and crawl towards you, dealing contact damage and summoning minions. Go for melee swings and back off to heal if your health drops too far. Simple as that.\""
 			]
 			icon: "cataclysm:monstrous_eye"
-			id: "601654897E7167DF"
+			id: "0802E1777DD19053"
 			subtitle: "Open the Quest for summoning details"
 			tasks: [{
 				id: "29DA0E8FBF929A95"
@@ -5800,7 +5800,7 @@
 				"\"Mobility is a big issue in the Ender Guardian boss fight, as the arena is filled with movement inhibiting traps. The Ender Guardian itself can stun you with its big strikes, make you levitate with lines of Shulker Bullets, or draw you in using its End Vortex. Watch your step and stay away when the Ender Guardian rears to attack!\""
 			]
 			icon: "cataclysm:void_eye"
-			id: "3319A93B63F18AAC"
+			id: "1CE8E61A2F2D89D7"
 			subtitle: "Found in the depths of the End's Lost Citadel"
 			tasks: [{
 				id: "2308B270576737BC"
@@ -5842,7 +5842,7 @@
 				"At half health, the Leviathan becomes enraged, unleashing a flurry of homing orbs and becoming much more powerful! To avoid the orbs, circle around the pillars in the arena and let them take care of themselves."
 			]
 			icon: "cataclysm:abyss_eye"
-			id: "5EDA830DEF5BA470"
+			id: "1B85865618D5D986"
 			subtitle: "Offer an Abyssal Sacrifice at the Altar of Abyss in the Sunken City"
 			tasks: [{
 				id: "188B3B72D727A072"
@@ -5868,7 +5868,7 @@
 				"To make things even more difficult, as Ignis smashes and bashes, the Burning Arena will begin to fall apart, leaving cracks of lava that you may accidentally fall into. Watch your step!"
 			]
 			icon: "cataclysm:flame_eye"
-			id: "40AB36184F21875B"
+			id: "1D7B8B315C3942E6"
 			subtitle: "Offer Burning Ashes on the Altar of Fire in the center of the Burning Arena"
 			tasks: [{
 				id: "79FEFF137513491C"
@@ -5882,7 +5882,7 @@
 			dependencies: ["6DF3C5B8D11BC5B5"]
 			description: ["\"Ender Golem | &c375 ❤&r | &712 ⛨\""]
 			icon: "minecraft:crying_obsidian"
-			id: "1AD5296163EDE46B"
+			id: "06E8AFCF3E28D041"
 			tasks: [{
 				id: "095A0171B9BE258A"
 				title: "Ender Golem"
@@ -5912,7 +5912,7 @@
 				}
 				id: "cataclysm:mech_eye"
 			}
-			id: "12E738DAC238B869"
+			id: "323A27BB9B3B73F2"
 			subtitle: "Use a Nether Star on the dormant Harbinger in the underground Ancient Factory"
 			tasks: [{
 				id: "24893BF3F7D553FF"
@@ -5932,7 +5932,7 @@
 				"\"Hits you up close with arms, snaps you with it's pincers for huge damage, slams the ground and medium range in a AoE effect, shoots out amethyst spikes all around it occasionally. A jacked up crab miniboss\""
 			]
 			icon: "cataclysm:amethyst_crab_shell"
-			id: "1D7537DF924D446F"
+			id: "251DA7E81592E0A9"
 			subtitle: "BIOME BOSS: Spawns in Lush Caves rarely"
 			tasks: [{
 				id: "6C377D1D543953B1"
@@ -5952,7 +5952,7 @@
 					Icon: "infernalexp:block/warped_fungus_cap_side"
 				}
 			}
-			id: "0FF400DBD753F318"
+			id: "560B49AD1C7F8998"
 			subtitle: "BIOME BOSS: Mushroom island at night, by having a mosquito eat a mungus"
 			tasks: [{
 				id: "51B041EFEA0170DA"
@@ -5975,7 +5975,7 @@
 				"\"This big slugger is real tanky, with one of the highest HP pools you'll encounter, and will afflict you with Levitation, strike you with lightning, and slam down real hard! If you get caught in one of its slam attacks, your main-hand and off-hand items will lose their right-click functionality for a little bit. Otherwise, like everything else, it'll die if you stab it enough!\""
 			]
 			icon: "enigmaticlegacy:etherium_ore"
-			id: "278887F4ECB4466B"
+			id: "373C99A539BEC359"
 			subtitle: "Use Dragon's Breath on the Endstone Altar at the top of an Ancient End City"
 			tasks: [{
 				id: "1F40177D8FA2CFDD"
@@ -5998,7 +5998,7 @@
 				"\"While you're aiming your attacks, try to aim near the head or the tail, as dealing too much damage to its middle segments will cause it to split into more Void Worms!\""
 			]
 			icon: "enigmaticlegacy:eye_of_nebula"
-			id: "1ADC21166B85E547"
+			id: "53DFBB6CA5429D90"
 			subtitle: "Throw a Mysterious Worm into the void in the End"
 			tasks: [{
 				id: "0E9294BDB834D5BE"
@@ -6021,7 +6021,7 @@
 				"\"When it dies, it'll spew out a ton of giant Shulker bullets and Endermites. Keep a shield up!\""
 			]
 			icon: "mutantmore:mutant_shulker_turret"
-			id: "65D5B84B3595274A"
+			id: "4ABC5371C99D94E3"
 			subtitle: "Splash Formula Y (10%) or Compound Z (100%) on a Shulker"
 			tasks: [{
 				id: "706AADB6D9DF40F0"
@@ -6154,7 +6154,7 @@
 					Icon: "epicsamurai:textures/patchouli_images/kitsune_square.png"
 				}
 			}
-			id: "6E5A00A5057AD27C"
+			id: "63E59DF37E17FA88"
 			subtitle: "Dark Forest. Only spawns in expert mode"
 			tasks: [{
 				id: "4A1DD257A7D3FAC0"
@@ -6199,7 +6199,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/warden.png"
 				}
 			}
-			id: "206D481C09C705A7"
+			id: "0E57850275EB6B38"
 			subtitle: "Found in Ancient City, by alerting sculk sensors that alert a sculk shrieker if nearby. You get two freebies per life."
 			tasks: [{
 				id: "376C80C10C42EDBB"
@@ -6219,7 +6219,7 @@
 					Icon: "epicsamurai:textures/patchouli_images/oni_square.png"
 				}
 			}
-			id: "3BC32BC4654FCC06"
+			id: "5021F535A5D226B0"
 			subtitle: "Only spawns in expert mode"
 			tasks: [{
 				id: "059864ED1D7E426C"
@@ -6273,7 +6273,7 @@
 					Icon: "ftbchunks:textures/faces/upgrade_aquatic/thrasher.png"
 				}
 			}
-			id: "77C8F049750CB8CE"
+			id: "2B97645ECBE60B54"
 			subtitle: "Deep Ocean ravines"
 			tasks: [{
 				id: "6238091E47DEDD46"
@@ -6293,7 +6293,7 @@
 					Icon: "ftbchunks:textures/faces/minecraft/piglin_brute.png"
 				}
 			}
-			id: "548D3402EC160121"
+			id: "629B680EA9C2B5A0"
 			subtitle: "Bastions"
 			tasks: [{
 				id: "511B91D6AD366B51"
@@ -6341,7 +6341,7 @@
 			dependencies: ["4204E8917AA2270C"]
 			hide_dependency_lines: true
 			icon: "artifacts:mimic_spawn_egg"
-			id: "7D66A99C2C46321C"
+			id: "5F9D0F633F91F0B4"
 			subtitle: "Campsites"
 			tasks: [{
 				id: "26531E2B4DAA5555"
@@ -6462,7 +6462,7 @@
 					Icon: "born_in_chaos_v1:textures/mob_effect/run.png"
 				}
 			}
-			id: "41A9493E622CB63C"
+			id: "4EC1B4A5AAC25C55"
 			subtitle: "Night, Only spawns in expert mode.  a deformed creature that moves quicker than it seems. Better stay away and never look at it."
 			tasks: [{
 				id: "5160E5380EFE38FB"
@@ -6482,7 +6482,7 @@
 					Icon: "born_in_chaos_v1:items/nightmaremask"
 				}
 			}
-			id: "457F5D21052C7758"
+			id: "5674F059F7C36552"
 			subtitle: "Night, Every three days will give you a warning that it will spawn. Only spawns in expert mode"
 			tasks: [{
 				id: "7281BEF3103986F2"
@@ -6523,7 +6523,7 @@
 					Icon: "rottencreatures:item/treasure_chest"
 				}
 			}
-			id: "0E541D8A7109221F"
+			id: "6D27B54D0CF57FD3"
 			subtitle: "Beach, Night"
 			tasks: [{
 				id: "6EC1D06EDC4A1CEB"
@@ -6543,7 +6543,7 @@
 					Icon: "aquamirae:item/maze_rose"
 				}
 			}
-			id: "56275AA26BBA3E07"
+			id: "40D237A30E624999"
 			subtitle: "BIOME BOSS: Frozen Ocean, Night"
 			tasks: [{
 				id: "1204EF7C28DB809F"
@@ -6563,7 +6563,7 @@
 					Icon: "aquamirae:textures/gui/perk.png"
 				}
 			}
-			id: "3E777F4E865EBC12"
+			id: "15C9B4CE0E9249D4"
 			subtitle: "Frozen Dungeon"
 			tasks: [{
 				id: "0DE429E1A14D3AAF"
@@ -6610,7 +6610,7 @@
 					Icon: "enlightened_end:textures/mob_effect/dazed.png"
 				}
 			}
-			id: "0A1AEAB627189395"
+			id: "3B78B849A0196FB9"
 			tasks: [{
 				id: "519BD8979ADD96C2"
 				title: "Nexus"
@@ -6627,7 +6627,7 @@
 					Icon: "cataclysm:item/remnant_skull"
 				}
 			}
-			id: "14BCAB9BD5999473"
+			id: "49783742C82625FE"
 			tasks: [{
 				id: "699A884CAA03096B"
 				title: "Modern Remnant"
@@ -6645,7 +6645,7 @@
 				}
 				id: "cataclysm:desert_eye"
 			}
-			id: "4120CC71961EB29F"
+			id: "5BEF5D86D8FF7FA8"
 			tasks: [{
 				id: "56F029E7965F3D1C"
 				title: "Ancient Remnant"
