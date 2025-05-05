@@ -1,5 +1,12 @@
 # Chocolate Edition 1.9.1 Patch Update (Bestiary+)
 
+*this is a reupload of 1.9.1, now with "waystones teleport pets" removed. if you are updating from a previous version and find you cannot use waystones, **remove the "waystones teleport pets" mod**
+
+## Important note about updating worlds from previous versions!!
+due to changing the name in the ModpackUpdateChecker configs, your old worlds will be marked as "incompatible"
+
+**to fix this:** temporarily **remove or disable** the "modpackUpdateChecker" mod. with it removed/disabled, you will be able to **safely load into your world**. once you have loaded into the world at least once, you are safe to **re-add/re-enable the modpackUpdateChecker mod**
+
 **Brand new Bestiary page in the questbook! info on spawn locations of pretty much every mob, and info on boss fights!**
 
 also fixes a bunch of bugs n stuff
@@ -64,7 +71,6 @@ updated forge 43.4.12 -> 43.5.0
 
 
 ### added
-- waystones teleport pets
 - xaero waystones compatibility
 - kubejs
 - some more minimap icon resource packs
