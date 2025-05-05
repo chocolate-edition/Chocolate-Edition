@@ -776,80 +776,80 @@
 1, desert,minecraft:desert,MONSTER,cataclysm:kobolediator,10,1,1
 1, desert,minecraft:desert,MONSTER,cataclysm:koboleton,10,1,1
 1, desert,minecraft:desert,MONSTER,cataclysm:wadjet,10,1,1
-1, desert,minecraft:desert,MONSTER,mutantmore:mutant_husk,10,1,1
-1, desert,atmospheric:dunes,MONSTER,cataclysm:kobolediator,10,1,1
+1, desert,minecraft:desert,MONSTER,mutantmore:mutant_husk,1,1,1
+1, desert,atmospheric:dunes,MONSTER,cataclysm:kobolediator,1,1,1
 1, desert,atmospheric:dunes,MONSTER,cataclysm:koboleton,10,1,1
 1, desert,atmospheric:dunes,MONSTER,cataclysm:wadjet,10,1,1
-1, desert,atmospheric:dunes,MONSTER,mutantmore:mutant_husk,10,1,1
+1, desert,atmospheric:dunes,MONSTER,mutantmore:mutant_husk,1,1,1
 1, desert,atmospheric:spiny_thicket,MONSTER,cataclysm:kobolediator,10,1,1
 1, desert,atmospheric:spiny_thicket,MONSTER,cataclysm:koboleton,10,1,1
 1, desert,atmospheric:spiny_thicket,MONSTER,cataclysm:wadjet,10,1,1
-1, desert,atmospheric:spiny_thicket,MONSTER,mutantmore:mutant_husk,10,1,1
+1, desert,atmospheric:spiny_thicket,MONSTER,mutantmore:mutant_husk,1,1,1
 1, desert,atmospheric:snowy_scrubland,MONSTER,cataclysm:kobolediator,10,1,1
 1, desert,atmospheric:snowy_scrubland,MONSTER,cataclysm:koboleton,10,1,1
 1, desert,atmospheric:snowy_scrubland,MONSTER,cataclysm:wadjet,10,1,1
-1, desert,atmospheric:snowy_scrubland,MONSTER,mutantmore:mutant_husk,10,1,1
+1, desert,atmospheric:snowy_scrubland,MONSTER,mutantmore:mutant_husk,1,1,1
 1, desert,atmospheric:flourishing_dunes,MONSTER,cataclysm:kobolediator,10,1,1
 1, desert,atmospheric:flourishing_dunes,MONSTER,cataclysm:koboleton,10,1,1
 1, desert,atmospheric:flourishing_dunes,MONSTER,cataclysm:wadjet,10,1,1
-1, desert,atmospheric:flourishing_dunes,MONSTER,mutantmore:mutant_husk,10,1,1
+1, desert,atmospheric:flourishing_dunes,MONSTER,mutantmore:mutant_husk,1,1,1
 1, desert,atmospheric:scrubland,MONSTER,cataclysm:kobolediator,10,1,1
 1, desert,atmospheric:scrubland,MONSTER,cataclysm:koboleton,10,1,1
 1, desert,atmospheric:scrubland,MONSTER,cataclysm:wadjet,10,1,1
-1, desert,atmospheric:scrubland,MONSTER,mutantmore:mutant_husk,10,1,1
+1, desert,atmospheric:scrubland,MONSTER,mutantmore:mutant_husk,1,1,1
 1, desert,atmosphericrocky_dunes,MONSTER,cataclysm:kobolediator,10,1,1
 1, desert,atmosphericrocky_dunes,MONSTER,cataclysm:koboleton,10,1,1
 1, desert,atmosphericrocky_dunes,MONSTER,cataclysm:wadjet,10,1,1
-1, desert,atmosphericrocky_dunes,MONSTER,mutantmore:mutant_husk,10,1,1
+1, desert,atmosphericrocky_dunes,MONSTER,mutantmore:mutant_husk,1,1,1
 1, desert,atmospheric:petrified_dunes,MONSTER,cataclysm:kobolediator,10,1,1
 1, desert,atmospheric:petrified_dunes,MONSTER,cataclysm:koboleton,10,1,1
 1, desert,atmospheric:petrified_dunes,MONSTER,cataclysm:wadjet,10,1,1
-1, desert,atmospheric:petrified_dunes,MONSTER,mutantmore:mutant_husk,10,1,1
+1, desert,atmospheric:petrified_dunes,MONSTER,mutantmore:mutant_husk,1,1,1
 1, icy,minecraft:snowy_plains,MONSTER,cataclysm:aptrgangr,10,1,1
 1, icy,minecraft:snowy_plains,MONSTER,cataclysm:royal_draugr,10,1,1
-1, icy,minecraft:snowy_plains,MONSTER,mutantmore:mutant_snow_zombie,10,1,1
+1, icy,minecraft:snowy_plains,MONSTER,mutantmore:mutant_snow_zombie,1,1,1
 1, icy,minecraft:frozen_river,MONSTER,cataclysm:aptrgangr,10,1,1
 1, icy,minecraft:frozen_river,MONSTER,cataclysm:royal_draugr,10,1,1
-1, icy,minecraft:frozen_river,MONSTER,mutantmore:mutant_snow_zombie,10,1,1
+1, icy,minecraft:frozen_river,MONSTER,mutantmore:mutant_snow_zombie,1,1,1
 1, icy,minecraft:ice_spikes,MONSTER,cataclysm:aptrgangr,10,1,1
-1, icy,minecraft:ice_spikes,MONSTER,cataclysm:royal_draugr,10,1,1
-1, icy,minecraft:ice_spikes,MONSTER,mutantmore:mutant_snow_zombie,10,1,1
+1, icy,minecraft:ice_spikes,MONSTER,cataclysm:royal_draugr,1,1,1
+1, icy,minecraft:ice_spikes,MONSTER,mutantmore:mutant_snow_zombie,1,1,1
 1, icy,minecraft:snowy_taiga,MONSTER,cataclysm:aptrgangr,10,1,1
 1, icy,minecraft:snowy_taiga,MONSTER,cataclysm:royal_draugr,10,1,1
-1, icy,minecraft:snowy_taiga,MONSTER,mutantmore:mutant_snow_zombie,10,1,1
+1, icy,minecraft:snowy_taiga,MONSTER,mutantmore:mutant_snow_zombie,1,1,1
 1, jungle,minecraft:jungle,MONSTER,dungeons_mobs:whisperer,10,1,1
 1, jungle,minecraft:jungle,MONSTER,dungeons_mobs:leapleaf,10,1,1
-1, jungle,minecraft:jungle,MONSTER,mutantmore:mutant_jungle_zombie,10,1,1
+1, jungle,minecraft:jungle,MONSTER,mutantmore:mutant_jungle_zombie,1,1,1
 1, jungle,atmospheric:kousa_jungle,MONSTER,dungeons_mobs:whisperer,10,1,1
 1, jungle,atmospheric:kousa_jungle,MONSTER,dungeons_mobs:leapleaf,10,1,1
-1, jungle,atmospheric:kousa_jungle,MONSTER,mutantmore:mutant_jungle_zombie,10,1,1
+1, jungle,atmospheric:kousa_jungle,MONSTER,mutantmore:mutant_jungle_zombie,1,1,1
 1, jungle,atmospheric:sparse_rainforest,MONSTER,dungeons_mobs:whisperer,10,1,1
 1, jungle,atmospheric:sparse_rainforest,MONSTER,dungeons_mobs:leapleaf,10,1,1
-1, jungle,atmospheric:sparse_rainforest,MONSTER,mutantmore:mutant_jungle_zombie,10,1,1
+1, jungle,atmospheric:sparse_rainforest,MONSTER,mutantmore:mutant_jungle_zombie,1,1,1
 1, jungle,atmospheric:sparse_rainforest_basin,MONSTER,dungeons_mobs:whisperer,10,1,1
 1, jungle,atmospheric:sparse_rainforest_basin,MONSTER,dungeons_mobs:leapleaf,10,1,1
-1, jungle,atmospheric:sparse_rainforest_basin,MONSTER,mutantmore:mutant_jungle_zombie,10,1,1
+1, jungle,atmospheric:sparse_rainforest_basin,MONSTER,mutantmore:mutant_jungle_zombie,1,1,1
 1, jungle,atmospheric:rainforest_basin,MONSTER,dungeons_mobs:whisperer,10,1,1
 1, jungle,atmospheric:rainforest_basin,MONSTER,dungeons_mobs:leapleaf,10,1,1
-1, jungle,atmospheric:rainforest_basin,MONSTER,mutantmore:mutant_jungle_zombie,10,1,1
+1, jungle,atmospheric:rainforest_basin,MONSTER,mutantmore:mutant_jungle_zombie,1,1,1
 1, jungle,atmospheric:rainforest,MONSTER,dungeons_mobs:whisperer,10,1,1
 1, jungle,atmospheric:rainforest,MONSTER,dungeons_mobs:leapleaf,10,1,1
-1, jungle,atmospheric:rainforest,MONSTER,mutantmore:mutant_jungle_zombie,10,1,1
+1, jungle,atmospheric:rainforest,MONSTER,mutantmore:mutant_jungle_zombie,1,1,1
 1, jungle,minecraft:bamboo_jungle,MONSTER,dungeons_mobs:whisperer,10,1,1
 1, jungle,minecraft:bamboo_jungle,MONSTER,dungeons_mobs:leapleaf,10,1,1
-1, jungle,minecraft:bamboo_jungle,MONSTER,mutantmore:mutant_jungle_zombie,10,1,1
+1, jungle,minecraft:bamboo_jungle,MONSTER,mutantmore:mutant_jungle_zombie,1,1,1
 1, jungle,minecraft:sparse_jungle,MONSTER,dungeons_mobs:whisperer,10,1,1
 1, jungle,minecraft:sparse_jungle,MONSTER,dungeons_mobs:leapleaf,10,1,1
-1, jungle,minecraft:sparse_jungle,MONSTER,mutantmore:mutant_jungle_zombie,10,1,1
+1, jungle,minecraft:sparse_jungle,MONSTER,mutantmore:mutant_jungle_zombie,1,1,1
 1, swamp,environmental:marsh,MONSTER,dungeons_mobs:whisperer,10,1,1
 1, swamp,environmental:marsh,MONSTER,dungeons_mobs:leapleaf,10,1,1
-1, swamp,environmental:marsh,MONSTER,mutantmore:mutant_jungle_zombie,10,1,1
+1, swamp,environmental:marsh,MONSTER,mutantmore:mutant_jungle_zombie,1,1,1
 1, swamp,minecraft:mangrove_swamp,MONSTER,dungeons_mobs:whisperer,10,1,1
 1, swamp,minecraft:mangrove_swamp,MONSTER,dungeons_mobs:leapleaf,10,1,1
-1, swamp,minecraft:mangrove_swamp,MONSTER,mutantmore:mutant_jungle_zombie,10,1,1
+1, swamp,minecraft:mangrove_swamp,MONSTER,mutantmore:mutant_jungle_zombie,1,1,1
 1, swamp,minecraft:swamp,MONSTER,dungeons_mobs:whisperer,10,1,1
 1, swamp,minecraft:swamp,MONSTER,dungeons_mobs:leapleaf,10,1,1
-1, swamp,minecraft:swamp,MONSTER,mutantmore:mutant_jungle_zombie,10,1,1
+1, swamp,minecraft:swamp,MONSTER,mutantmore:mutant_jungle_zombie,1,1,1
 1, beach,minecraft:beach,MONSTER,iter_rpg:bloated,10,1,1
 1, beach,minecraft:beach,MONSTER,rottencreatures:immortal,10,1,1
 1, beach,minecraft:snowy_beach,MONSTER,iter_rpg:bloated,10,1,1
@@ -2606,298 +2606,298 @@
 1,none,galosphere:crystal_canyons,MONSTER,graveyard:wraith,10,1,1
 1,none,galosphere:lichen_caves,MONSTER,graveyard:wraith,10,1,1
 1,none,minecraft:dripstone_caves,MONSTER,graveyard:wraith,10,1,1
-1,savanna, minecraft:savanna, MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,savanna, minecraft:savanna_plateau, MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,savanna, minecraft:windswept_savanna, MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,none,minecraft:mushroom_fields, MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,beach,minecraft:beach,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,beach,minecraft:snowy_beach,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,none,minecraft:stony_shore,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,forest,minecraft:forest,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,forest,atmospheric:laurel_forest,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,forest,autumnity:maple_forest,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,forest,environmental:blossom_woods,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,forest,minecraft:birch_forest,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,forest,minecraft:flower_forest,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,forest,minecraft:old_growth_birch_forest,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,forest,minecraft:windswept_forest,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,plains,minecraft:plains,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,plains,autumnity:pumpkin_fields,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,plains,environmental:blossom_valleys,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,plains,minecraft:meadow,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,plains,minecraft:sunflower_plains,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,river,minecraft:river,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,icy,minecraft:snowy_plains,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,icy,minecraft:frozen_river,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,icy,minecraft:snowy_taiga,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,icy,minecraft:ice_spikes,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,taiga,minecraft:taiga,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,taiga,environmental:pine_barrens,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,taiga,environmental:snowy_pine_barrens,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,taiga,minecraft:old_growth_pine_taiga,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,taiga,minecraft:old_growth_spruce_taiga,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,desert,minecraft:desert,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,desert,atmospheric:snowy_scrubland,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,desert,atmospheric:scrubland,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,desert,atmospheric:rocky_dunes,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,desert,atmospheric:petrified_dunes,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,desert,atmospheric:dunes,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,desert,atmospheric:flourishing_dunes,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,desert,atmospheric:spiny_thicket,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,badlands,minecraft:badlands,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,badlands,minecraft:wooded_badlands,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,jungle,minecraft:jungle,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,jungle,atmospheric:rainforest_basin,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,jungle,atmospheric:rainforest,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,jungle,atmospheric:sparse_rainforest,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,jungle,atmospheric:sparse_rainforest_basin,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,jungle,atmospheric:kousa_jungle,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,jungle,minecraft:sparse_jungle,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,jungle,minecraft:bamboo_jungle,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,swamp,minecraft:swamp,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,swamp,environmental:marsh,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,swamp,minecraft:mangrove_swamp,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,ocean,minecraft:ocean,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,ocean,minecraft:lukewarm_ocean,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,ocean,minecraft:deep_lukewarm_ocean,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,ocean,minecraft:deep_cold_ocean,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,ocean,minecraft:cold_ocean,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,ocean,minecraft:deep_ocean,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,ocean,minecraft:warm_ocean,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,frozen_ocean,minecraft:frozen_ocean,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,dark_forest,minecraft:dark_forest,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,dark_forest,atmospheric:aspen_parkland,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,mountains,minecraft:frozen_peaks,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,mountains,minecraft:windswept_hills,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,mountains,minecraft:windswept_gravelly_hills,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,mountains,minecraft:grove,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,mountains,minecraft:jagged_peaks,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,mountains,minecraft:stony_peaks,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,mountains,minecraft:snowy_slopes,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,lush_caves,minecraft:lush_caves,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,none,galosphere:crystal_canyons,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,none,galosphere:lichen_caves,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,none,minecraft:dripstone_caves,MONSTER,mutantmonsters:mutant_creeper,10,1,1
-1,savanna, minecraft:savanna, MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,savanna, minecraft:savanna_plateau, MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,savanna, minecraft:windswept_savanna, MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,none,minecraft:mushroom_fields, MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,beach,minecraft:beach,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,beach,minecraft:snowy_beach,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,none,minecraft:stony_shore,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,forest,minecraft:forest,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,forest,atmospheric:laurel_forest,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,forest,autumnity:maple_forest,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,forest,environmental:blossom_woods,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,forest,minecraft:birch_forest,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,forest,minecraft:flower_forest,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,forest,minecraft:old_growth_birch_forest,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,forest,minecraft:windswept_forest,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,plains,minecraft:plains,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,plains,autumnity:pumpkin_fields,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,plains,environmental:blossom_valleys,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,plains,minecraft:meadow,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,plains,minecraft:sunflower_plains,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,river,minecraft:river,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,icy,minecraft:snowy_plains,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,icy,minecraft:frozen_river,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,icy,minecraft:snowy_taiga,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,icy,minecraft:ice_spikes,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,taiga,minecraft:taiga,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,taiga,environmental:pine_barrens,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,taiga,environmental:snowy_pine_barrens,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,taiga,minecraft:old_growth_pine_taiga,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,taiga,minecraft:old_growth_spruce_taiga,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,desert,minecraft:desert,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,desert,atmospheric:snowy_scrubland,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,desert,atmospheric:scrubland,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,desert,atmospheric:rocky_dunes,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,desert,atmospheric:petrified_dunes,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,desert,atmospheric:dunes,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,desert,atmospheric:flourishing_dunes,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,desert,atmospheric:spiny_thicket,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,badlands,minecraft:badlands,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,badlands,minecraft:wooded_badlands,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,jungle,minecraft:jungle,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,jungle,atmospheric:rainforest_basin,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,jungle,atmospheric:rainforest,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,jungle,atmospheric:sparse_rainforest,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,jungle,atmospheric:sparse_rainforest_basin,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,jungle,atmospheric:kousa_jungle,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,jungle,minecraft:sparse_jungle,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,jungle,minecraft:bamboo_jungle,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,swamp,minecraft:swamp,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,swamp,environmental:marsh,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,swamp,minecraft:mangrove_swamp,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,ocean,minecraft:ocean,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,ocean,minecraft:lukewarm_ocean,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,ocean,minecraft:deep_lukewarm_ocean,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,ocean,minecraft:deep_cold_ocean,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,ocean,minecraft:cold_ocean,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,ocean,minecraft:deep_ocean,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,ocean,minecraft:warm_ocean,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,frozen_ocean,minecraft:frozen_ocean,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,dark_forest,minecraft:dark_forest,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,dark_forest,atmospheric:aspen_parkland,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,mountains,minecraft:frozen_peaks,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,mountains,minecraft:windswept_hills,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,mountains,minecraft:windswept_gravelly_hills,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,mountains,minecraft:grove,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,mountains,minecraft:jagged_peaks,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,mountains,minecraft:stony_peaks,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,mountains,minecraft:snowy_slopes,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,lush_caves,minecraft:lush_caves,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,none,galosphere:crystal_canyons,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,none,galosphere:lichen_caves,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,none,minecraft:dripstone_caves,MONSTER,mutantmonsters:mutant_enderman,10,1,1
-1,savanna, minecraft:savanna, MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,savanna, minecraft:savanna_plateau, MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,savanna, minecraft:windswept_savanna, MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,none,minecraft:mushroom_fields, MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,beach,minecraft:beach,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,beach,minecraft:snowy_beach,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,none,minecraft:stony_shore,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,forest,minecraft:forest,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,forest,atmospheric:laurel_forest,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,forest,autumnity:maple_forest,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,forest,environmental:blossom_woods,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,forest,minecraft:birch_forest,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,forest,minecraft:flower_forest,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,forest,minecraft:old_growth_birch_forest,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,forest,minecraft:windswept_forest,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,plains,minecraft:plains,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,plains,autumnity:pumpkin_fields,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,plains,environmental:blossom_valleys,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,plains,minecraft:meadow,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,plains,minecraft:sunflower_plains,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,river,minecraft:river,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,icy,minecraft:snowy_plains,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,icy,minecraft:frozen_river,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,icy,minecraft:snowy_taiga,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,icy,minecraft:ice_spikes,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,taiga,minecraft:taiga,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,taiga,environmental:pine_barrens,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,taiga,environmental:snowy_pine_barrens,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,taiga,minecraft:old_growth_pine_taiga,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,taiga,minecraft:old_growth_spruce_taiga,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,desert,minecraft:desert,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,desert,atmospheric:snowy_scrubland,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,desert,atmospheric:scrubland,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,desert,atmospheric:rocky_dunes,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,desert,atmospheric:petrified_dunes,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,desert,atmospheric:dunes,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,desert,atmospheric:flourishing_dunes,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,desert,atmospheric:spiny_thicket,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,badlands,minecraft:badlands,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,badlands,minecraft:wooded_badlands,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,jungle,minecraft:jungle,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,jungle,atmospheric:rainforest_basin,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,jungle,atmospheric:rainforest,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,jungle,atmospheric:sparse_rainforest,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,jungle,atmospheric:sparse_rainforest_basin,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,jungle,atmospheric:kousa_jungle,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,jungle,minecraft:sparse_jungle,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,jungle,minecraft:bamboo_jungle,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,swamp,minecraft:swamp,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,swamp,environmental:marsh,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,swamp,minecraft:mangrove_swamp,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,ocean,minecraft:ocean,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,ocean,minecraft:lukewarm_ocean,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,ocean,minecraft:deep_lukewarm_ocean,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,ocean,minecraft:deep_cold_ocean,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,ocean,minecraft:cold_ocean,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,ocean,minecraft:deep_ocean,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,ocean,minecraft:warm_ocean,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,frozen_ocean,minecraft:frozen_ocean,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,dark_forest,minecraft:dark_forest,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,dark_forest,atmospheric:aspen_parkland,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,mountains,minecraft:frozen_peaks,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,mountains,minecraft:windswept_hills,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,mountains,minecraft:windswept_gravelly_hills,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,mountains,minecraft:grove,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,mountains,minecraft:jagged_peaks,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,mountains,minecraft:stony_peaks,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,mountains,minecraft:snowy_slopes,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,lush_caves,minecraft:lush_caves,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,none,galosphere:crystal_canyons,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,none,galosphere:lichen_caves,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,none,minecraft:dripstone_caves,MONSTER,mutantmonsters:mutant_skeleton,10,1,1
-1,savanna, minecraft:savanna, MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,savanna, minecraft:savanna_plateau, MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,savanna, minecraft:windswept_savanna, MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,none,minecraft:mushroom_fields, MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,beach,minecraft:beach,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,beach,minecraft:snowy_beach,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,none,minecraft:stony_shore,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,forest,minecraft:forest,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,forest,atmospheric:laurel_forest,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,forest,autumnity:maple_forest,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,forest,environmental:blossom_woods,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,forest,minecraft:birch_forest,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,forest,minecraft:flower_forest,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,forest,minecraft:old_growth_birch_forest,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,forest,minecraft:windswept_forest,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,plains,minecraft:plains,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,plains,autumnity:pumpkin_fields,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,plains,environmental:blossom_valleys,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,plains,minecraft:meadow,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,plains,minecraft:sunflower_plains,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,river,minecraft:river,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,icy,minecraft:snowy_plains,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,icy,minecraft:frozen_river,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,icy,minecraft:snowy_taiga,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,icy,minecraft:ice_spikes,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,taiga,minecraft:taiga,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,taiga,environmental:pine_barrens,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,taiga,environmental:snowy_pine_barrens,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,taiga,minecraft:old_growth_pine_taiga,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,taiga,minecraft:old_growth_spruce_taiga,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,desert,minecraft:desert,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,desert,atmospheric:snowy_scrubland,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,desert,atmospheric:scrubland,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,desert,atmospheric:rocky_dunes,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,desert,atmospheric:petrified_dunes,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,desert,atmospheric:dunes,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,desert,atmospheric:flourishing_dunes,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,desert,atmospheric:spiny_thicket,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,badlands,minecraft:badlands,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,badlands,minecraft:wooded_badlands,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,jungle,minecraft:jungle,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,jungle,atmospheric:rainforest_basin,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,jungle,atmospheric:rainforest,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,jungle,atmospheric:sparse_rainforest,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,jungle,atmospheric:sparse_rainforest_basin,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,jungle,atmospheric:kousa_jungle,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,jungle,minecraft:sparse_jungle,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,jungle,minecraft:bamboo_jungle,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,swamp,minecraft:swamp,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,swamp,environmental:marsh,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,swamp,minecraft:mangrove_swamp,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,ocean,minecraft:ocean,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,ocean,minecraft:lukewarm_ocean,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,ocean,minecraft:deep_lukewarm_ocean,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,ocean,minecraft:deep_cold_ocean,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,ocean,minecraft:cold_ocean,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,ocean,minecraft:deep_ocean,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,ocean,minecraft:warm_ocean,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,frozen_ocean,minecraft:frozen_ocean,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,dark_forest,minecraft:dark_forest,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,dark_forest,atmospheric:aspen_parkland,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,mountains,minecraft:frozen_peaks,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,mountains,minecraft:windswept_hills,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,mountains,minecraft:windswept_gravelly_hills,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,mountains,minecraft:grove,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,mountains,minecraft:jagged_peaks,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,mountains,minecraft:stony_peaks,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,mountains,minecraft:snowy_slopes,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,lush_caves,minecraft:lush_caves,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,none,galosphere:crystal_canyons,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,none,galosphere:lichen_caves,MONSTER, mutantmonsters:mutant_zombie,10,1,1
-1,none,minecraft:dripstone_caves,MONSTER, mutantmonsters:mutant_zombie,10,1,1
+1,savanna, minecraft:savanna, MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,savanna, minecraft:savanna_plateau, MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,savanna, minecraft:windswept_savanna, MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,none,minecraft:mushroom_fields, MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,beach,minecraft:beach,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,beach,minecraft:snowy_beach,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,none,minecraft:stony_shore,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,forest,minecraft:forest,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,forest,atmospheric:laurel_forest,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,forest,autumnity:maple_forest,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,forest,environmental:blossom_woods,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,forest,minecraft:birch_forest,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,forest,minecraft:flower_forest,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,forest,minecraft:old_growth_birch_forest,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,forest,minecraft:windswept_forest,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,plains,minecraft:plains,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,plains,autumnity:pumpkin_fields,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,plains,environmental:blossom_valleys,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,plains,minecraft:meadow,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,plains,minecraft:sunflower_plains,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,river,minecraft:river,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,icy,minecraft:snowy_plains,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,icy,minecraft:frozen_river,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,icy,minecraft:snowy_taiga,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,icy,minecraft:ice_spikes,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,taiga,minecraft:taiga,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,taiga,environmental:pine_barrens,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,taiga,environmental:snowy_pine_barrens,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,taiga,minecraft:old_growth_pine_taiga,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,taiga,minecraft:old_growth_spruce_taiga,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,desert,minecraft:desert,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,desert,atmospheric:snowy_scrubland,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,desert,atmospheric:scrubland,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,desert,atmospheric:rocky_dunes,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,desert,atmospheric:petrified_dunes,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,desert,atmospheric:dunes,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,desert,atmospheric:flourishing_dunes,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,desert,atmospheric:spiny_thicket,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,badlands,minecraft:badlands,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,badlands,minecraft:wooded_badlands,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,jungle,minecraft:jungle,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,jungle,atmospheric:rainforest_basin,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,jungle,atmospheric:rainforest,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,jungle,atmospheric:sparse_rainforest,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,jungle,atmospheric:sparse_rainforest_basin,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,jungle,atmospheric:kousa_jungle,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,jungle,minecraft:sparse_jungle,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,jungle,minecraft:bamboo_jungle,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,swamp,minecraft:swamp,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,swamp,environmental:marsh,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,swamp,minecraft:mangrove_swamp,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,ocean,minecraft:ocean,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,ocean,minecraft:lukewarm_ocean,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,ocean,minecraft:deep_lukewarm_ocean,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,ocean,minecraft:deep_cold_ocean,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,ocean,minecraft:cold_ocean,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,ocean,minecraft:deep_ocean,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,ocean,minecraft:warm_ocean,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,frozen_ocean,minecraft:frozen_ocean,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,dark_forest,minecraft:dark_forest,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,dark_forest,atmospheric:aspen_parkland,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,mountains,minecraft:frozen_peaks,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,mountains,minecraft:windswept_hills,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,mountains,minecraft:windswept_gravelly_hills,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,mountains,minecraft:grove,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,mountains,minecraft:jagged_peaks,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,mountains,minecraft:stony_peaks,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,mountains,minecraft:snowy_slopes,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,lush_caves,minecraft:lush_caves,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,none,galosphere:crystal_canyons,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,none,galosphere:lichen_caves,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,none,minecraft:dripstone_caves,MONSTER,mutantmonsters:mutant_creeper,1,1,1
+1,savanna, minecraft:savanna, MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,savanna, minecraft:savanna_plateau, MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,savanna, minecraft:windswept_savanna, MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,none,minecraft:mushroom_fields, MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,beach,minecraft:beach,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,beach,minecraft:snowy_beach,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,none,minecraft:stony_shore,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,forest,minecraft:forest,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,forest,atmospheric:laurel_forest,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,forest,autumnity:maple_forest,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,forest,environmental:blossom_woods,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,forest,minecraft:birch_forest,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,forest,minecraft:flower_forest,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,forest,minecraft:old_growth_birch_forest,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,forest,minecraft:windswept_forest,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,plains,minecraft:plains,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,plains,autumnity:pumpkin_fields,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,plains,environmental:blossom_valleys,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,plains,minecraft:meadow,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,plains,minecraft:sunflower_plains,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,river,minecraft:river,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,icy,minecraft:snowy_plains,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,icy,minecraft:frozen_river,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,icy,minecraft:snowy_taiga,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,icy,minecraft:ice_spikes,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,taiga,minecraft:taiga,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,taiga,environmental:pine_barrens,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,taiga,environmental:snowy_pine_barrens,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,taiga,minecraft:old_growth_pine_taiga,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,taiga,minecraft:old_growth_spruce_taiga,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,desert,minecraft:desert,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,desert,atmospheric:snowy_scrubland,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,desert,atmospheric:scrubland,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,desert,atmospheric:rocky_dunes,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,desert,atmospheric:petrified_dunes,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,desert,atmospheric:dunes,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,desert,atmospheric:flourishing_dunes,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,desert,atmospheric:spiny_thicket,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,badlands,minecraft:badlands,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,badlands,minecraft:wooded_badlands,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,jungle,minecraft:jungle,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,jungle,atmospheric:rainforest_basin,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,jungle,atmospheric:rainforest,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,jungle,atmospheric:sparse_rainforest,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,jungle,atmospheric:sparse_rainforest_basin,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,jungle,atmospheric:kousa_jungle,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,jungle,minecraft:sparse_jungle,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,jungle,minecraft:bamboo_jungle,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,swamp,minecraft:swamp,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,swamp,environmental:marsh,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,swamp,minecraft:mangrove_swamp,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,ocean,minecraft:ocean,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,ocean,minecraft:lukewarm_ocean,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,ocean,minecraft:deep_lukewarm_ocean,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,ocean,minecraft:deep_cold_ocean,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,ocean,minecraft:cold_ocean,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,ocean,minecraft:deep_ocean,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,ocean,minecraft:warm_ocean,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,frozen_ocean,minecraft:frozen_ocean,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,dark_forest,minecraft:dark_forest,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,dark_forest,atmospheric:aspen_parkland,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,mountains,minecraft:frozen_peaks,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,mountains,minecraft:windswept_hills,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,mountains,minecraft:windswept_gravelly_hills,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,mountains,minecraft:grove,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,mountains,minecraft:jagged_peaks,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,mountains,minecraft:stony_peaks,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,mountains,minecraft:snowy_slopes,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,lush_caves,minecraft:lush_caves,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,none,galosphere:crystal_canyons,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,none,galosphere:lichen_caves,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,none,minecraft:dripstone_caves,MONSTER,mutantmonsters:mutant_enderman,1,1,1
+1,savanna, minecraft:savanna, MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,savanna, minecraft:savanna_plateau, MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,savanna, minecraft:windswept_savanna, MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,none,minecraft:mushroom_fields, MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,beach,minecraft:beach,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,beach,minecraft:snowy_beach,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,none,minecraft:stony_shore,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,forest,minecraft:forest,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,forest,atmospheric:laurel_forest,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,forest,autumnity:maple_forest,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,forest,environmental:blossom_woods,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,forest,minecraft:birch_forest,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,forest,minecraft:flower_forest,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,forest,minecraft:old_growth_birch_forest,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,forest,minecraft:windswept_forest,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,plains,minecraft:plains,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,plains,autumnity:pumpkin_fields,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,plains,environmental:blossom_valleys,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,plains,minecraft:meadow,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,plains,minecraft:sunflower_plains,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,river,minecraft:river,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,icy,minecraft:snowy_plains,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,icy,minecraft:frozen_river,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,icy,minecraft:snowy_taiga,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,icy,minecraft:ice_spikes,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,taiga,minecraft:taiga,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,taiga,environmental:pine_barrens,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,taiga,environmental:snowy_pine_barrens,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,taiga,minecraft:old_growth_pine_taiga,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,taiga,minecraft:old_growth_spruce_taiga,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,desert,minecraft:desert,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,desert,atmospheric:snowy_scrubland,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,desert,atmospheric:scrubland,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,desert,atmospheric:rocky_dunes,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,desert,atmospheric:petrified_dunes,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,desert,atmospheric:dunes,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,desert,atmospheric:flourishing_dunes,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,desert,atmospheric:spiny_thicket,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,badlands,minecraft:badlands,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,badlands,minecraft:wooded_badlands,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,jungle,minecraft:jungle,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,jungle,atmospheric:rainforest_basin,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,jungle,atmospheric:rainforest,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,jungle,atmospheric:sparse_rainforest,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,jungle,atmospheric:sparse_rainforest_basin,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,jungle,atmospheric:kousa_jungle,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,jungle,minecraft:sparse_jungle,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,jungle,minecraft:bamboo_jungle,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,swamp,minecraft:swamp,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,swamp,environmental:marsh,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,swamp,minecraft:mangrove_swamp,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,ocean,minecraft:ocean,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,ocean,minecraft:lukewarm_ocean,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,ocean,minecraft:deep_lukewarm_ocean,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,ocean,minecraft:deep_cold_ocean,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,ocean,minecraft:cold_ocean,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,ocean,minecraft:deep_ocean,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,ocean,minecraft:warm_ocean,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,frozen_ocean,minecraft:frozen_ocean,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,dark_forest,minecraft:dark_forest,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,dark_forest,atmospheric:aspen_parkland,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,mountains,minecraft:frozen_peaks,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,mountains,minecraft:windswept_hills,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,mountains,minecraft:windswept_gravelly_hills,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,mountains,minecraft:grove,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,mountains,minecraft:jagged_peaks,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,mountains,minecraft:stony_peaks,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,mountains,minecraft:snowy_slopes,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,lush_caves,minecraft:lush_caves,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,none,galosphere:crystal_canyons,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,none,galosphere:lichen_caves,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,none,minecraft:dripstone_caves,MONSTER,mutantmonsters:mutant_skeleton,1,1,1
+1,savanna, minecraft:savanna, MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,savanna, minecraft:savanna_plateau, MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,savanna, minecraft:windswept_savanna, MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,none,minecraft:mushroom_fields, MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,beach,minecraft:beach,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,beach,minecraft:snowy_beach,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,none,minecraft:stony_shore,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,forest,minecraft:forest,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,forest,atmospheric:laurel_forest,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,forest,autumnity:maple_forest,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,forest,environmental:blossom_woods,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,forest,minecraft:birch_forest,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,forest,minecraft:flower_forest,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,forest,minecraft:old_growth_birch_forest,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,forest,minecraft:windswept_forest,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,plains,minecraft:plains,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,plains,autumnity:pumpkin_fields,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,plains,environmental:blossom_valleys,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,plains,minecraft:meadow,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,plains,minecraft:sunflower_plains,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,river,minecraft:river,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,icy,minecraft:snowy_plains,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,icy,minecraft:frozen_river,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,icy,minecraft:snowy_taiga,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,icy,minecraft:ice_spikes,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,taiga,minecraft:taiga,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,taiga,environmental:pine_barrens,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,taiga,environmental:snowy_pine_barrens,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,taiga,minecraft:old_growth_pine_taiga,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,taiga,minecraft:old_growth_spruce_taiga,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,desert,minecraft:desert,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,desert,atmospheric:snowy_scrubland,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,desert,atmospheric:scrubland,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,desert,atmospheric:rocky_dunes,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,desert,atmospheric:petrified_dunes,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,desert,atmospheric:dunes,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,desert,atmospheric:flourishing_dunes,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,desert,atmospheric:spiny_thicket,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,badlands,minecraft:badlands,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,badlands,minecraft:wooded_badlands,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,jungle,minecraft:jungle,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,jungle,atmospheric:rainforest_basin,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,jungle,atmospheric:rainforest,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,jungle,atmospheric:sparse_rainforest,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,jungle,atmospheric:sparse_rainforest_basin,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,jungle,atmospheric:kousa_jungle,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,jungle,minecraft:sparse_jungle,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,jungle,minecraft:bamboo_jungle,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,swamp,minecraft:swamp,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,swamp,environmental:marsh,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,swamp,minecraft:mangrove_swamp,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,ocean,minecraft:ocean,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,ocean,minecraft:lukewarm_ocean,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,ocean,minecraft:deep_lukewarm_ocean,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,ocean,minecraft:deep_cold_ocean,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,ocean,minecraft:cold_ocean,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,ocean,minecraft:deep_ocean,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,ocean,minecraft:warm_ocean,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,frozen_ocean,minecraft:frozen_ocean,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,frozen_ocean,minecraft:deep_frozen_ocean,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,dark_forest,minecraft:dark_forest,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,dark_forest,atmospheric:aspen_parkland,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,mountains,minecraft:frozen_peaks,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,mountains,minecraft:windswept_hills,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,mountains,minecraft:windswept_gravelly_hills,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,mountains,minecraft:grove,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,mountains,minecraft:jagged_peaks,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,mountains,minecraft:stony_peaks,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,mountains,minecraft:snowy_slopes,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,lush_caves,minecraft:lush_caves,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,none,galosphere:crystal_canyons,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,none,galosphere:lichen_caves,MONSTER, mutantmonsters:mutant_zombie,1,1,1
+1,none,minecraft:dripstone_caves,MONSTER, mutantmonsters:mutant_zombie,1,1,1
 1,savanna, minecraft:savanna, MONSTER, cataclysm:endermaptera,10,1,3
 1,savanna, minecraft:savanna_plateau, MONSTER, cataclysm:endermaptera,10,1,3
 1,savanna, minecraft:windswept_savanna, MONSTER, cataclysm:endermaptera,10,1,3
@@ -4193,17 +4193,17 @@
 1,none,blue_skies:brisk_meadow,MONSTER,mutantmonsters:mutant_zombie,20,1,3
 1,none,blue_skies:frostbitten_forest,MONSTER,mutantmonsters:mutant_zombie,20,1,3
 1,none,blue_skies:frostbitten_forest_clearing,MONSTER,mutantmonsters:mutant_zombie,20,1,3
-1,none,blue_skies:crescent_orchard,MONSTER,mutantmonsters:mutant_creeper,20,1,3
-1,none,blue_skies:crescent_orchard_lake,MONSTER,mutantmonsters:mutant_creeper,20,1,3
-1,none,blue_skies:crystal_dunes,MONSTER,mutantmonsters:mutant_creeper,20,1,3
-1,none,blue_skies:crystal_dunes_spikes,MONSTER,mutantmonsters:mutant_creeper,20,1,3
-1,none,blue_skies:crystal_roughs,MONSTER,mutantmonsters:mutant_creeper,20,1,3
-1,none,blue_skies:moonlit_reservoir,MONSTER,mutantmonsters:mutant_creeper,20,1,3
-1,none,blue_skies:rising_creek,MONSTER,mutantmonsters:mutant_creeper,20,1,3
-1,none,blue_skies:searing_grassland,MONSTER,mutantmonsters:mutant_creeper,20,1,3
-1,none,blue_skies:shaded_woodlands,MONSTER,mutantmonsters:mutant_creeper,20,1,3
-1,none,blue_skies:sunset_maple_forest,MONSTER,mutantmonsters:mutant_creeper,20,1,3
-1,none,blue_skies:unorthodox_valley,MONSTER,mutantmonsters:mutant_creeper,20,1,3
+1,none,blue_skies:crescent_orchard,MONSTER,mutantmonsters:mutant_creeper,2,1,3
+1,none,blue_skies:crescent_orchard_lake,MONSTER,mutantmonsters:mutant_creeper,2,1,3
+1,none,blue_skies:crystal_dunes,MONSTER,mutantmonsters:mutant_creeper,2,1,3
+1,none,blue_skies:crystal_dunes_spikes,MONSTER,mutantmonsters:mutant_creeper,2,1,3
+1,none,blue_skies:crystal_roughs,MONSTER,mutantmonsters:mutant_creeper,2,1,3
+1,none,blue_skies:moonlit_reservoir,MONSTER,mutantmonsters:mutant_creeper,2,1,3
+1,none,blue_skies:rising_creek,MONSTER,mutantmonsters:mutant_creeper,2,1,3
+1,none,blue_skies:searing_grassland,MONSTER,mutantmonsters:mutant_creeper,2,1,3
+1,none,blue_skies:shaded_woodlands,MONSTER,mutantmonsters:mutant_creeper,2,1,3
+1,none,blue_skies:sunset_maple_forest,MONSTER,mutantmonsters:mutant_creeper,2,1,3
+1,none,blue_skies:unorthodox_valley,MONSTER,mutantmonsters:mutant_creeper,2,1,3
 1,none,blue_skies:crescent_orchard,MONSTER,mutantmonsters:mutant_enderman,20,1,3
 1,none,blue_skies:crescent_orchard_lake,MONSTER,mutantmonsters:mutant_enderman,20,1,3
 1,none,blue_skies:crystal_dunes,MONSTER,mutantmonsters:mutant_enderman,20,1,3

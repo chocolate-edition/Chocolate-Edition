@@ -18,6 +18,11 @@
 	decoupled_camera = false
 	#Whether or not to orient the camera rotation when the player is teleported. This includes passenger (dis-)mounting and traveling through portals.
 	orient_camera_on_teleport = true
+	#Whether or not to apply the FOV override when in shoulder surfing perspective.
+	fov_override_enabled = false
+	#The camera FOV when in shoulder surfing perspective. Depends on config option 'fov_override_enabled'.
+	#Range: 30.0 ~ 110.0
+	fov_override = 70.0
 
 	[camera.offset]
 		#Third person camera x-offset.
@@ -282,4 +287,10 @@
 [audio]
 	#Whether to center sounds made by the player.
 	center_player_sounds = false
+
+[integrations]
+
+	[integrations.epicfight]
+		#Whether to allow target lock-on when camera is decoupled.
+		decoupled_camera_lock_on = false
 

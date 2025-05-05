@@ -48,9 +48,6 @@
 	#Void Core's Cooldown
 	#Range: 0 ~ 1000000
 	VoidCoreCooldown = 160
-	#Sandstorm's Timer
-	#Range: 0 ~ 1000000
-	SandstormTimer = 160
 	#Soul Render's Timer
 	#Range: 0 ~ 1000000
 	SoulRenderCooldown = 100
@@ -60,6 +57,9 @@
 	#The Immolator's Timer
 	#Range: 0 ~ 1000000
 	immolatorCooldown = 300
+	#Sandstorm's cooldown
+	#Range: 0 ~ 1000000
+	Sandstormcooldown = 300
 
 [Block]
 	#Cursed Tombstone Summon cooldown Minute
@@ -127,6 +127,12 @@
 	#Cursed Sandstorm's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Cursed Sandstorm Damage" = 6.0
+	#Flame jet's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Flame Jet Damage" = 7.0
+	#Flare Bomb's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Flare Bomb Damage" = 7.0
 
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
@@ -204,6 +210,8 @@
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Monstrosity's prevent attacks from far away Range" = 18.0
+	#Monstrosity's block breaking ignore the MobGriefing
+	monstrosityBlockBreaking = true
 
 ["Ender Golem"]
 	#Ender Golem's block breaking ignore the MobGriefing
@@ -515,4 +523,9 @@
 	#Allowed height variance for the check - if the variance is lower than this value the structure will not spawn (has no effect if the are check is disabled)
 	#Range: 0 ~ 32
 	cursedPyramidHeightVariance = 7
+
+["Netherite Ministrosity"]
+	#Ministrosity's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MinistrosityHealthMultiplier = 1.0
 

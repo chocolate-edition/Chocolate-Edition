@@ -114,7 +114,8 @@
 			dependencies: ["7CFCF3BA7E2B325C"]
 			description: [
 				"To access progress Stages in creative, type:"
-				"&o/gamestage add <stage>"
+				"&o/gamestage add @p <stage>"
+				"example: /gamestage add @p one"
 				""
 				"Stages:"
 				"&n&lone&r: 3 eyes | &n&ltwo&r: 6 eyes"
@@ -224,6 +225,11 @@
 				}
 			}
 			id: "26AC58AF24712F48"
+			rewards: [{
+				id: "2C84ABBBD3F6F45D"
+				type: "xp"
+				xp: 1
+			}]
 			size: 1.25d
 			subtitle: "We advise against using ftb teams, as our hidden utility quests can behave inconsistently for teams. "
 			title: "Important!"

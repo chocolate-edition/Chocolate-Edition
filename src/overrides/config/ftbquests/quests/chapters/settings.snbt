@@ -188,6 +188,35 @@
 			x: -5.0d
 			y: -2.0d
 		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_eye"
+				tag: { }
+			}
+			id: "1E084B54D67F711E"
+			rewards: [{
+				auto: "no_toast"
+				id: "23FEB9D609A1A426"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				id: "3022F2C783DDEF12"
+				title: "give"
+				type: "checkmark"
+			}]
+			title: "Form a New Eye"
+			x: 14.0d
+			y: -2.0d
+		}
 	]
 	title: "SETTINGS"
 }

@@ -618,10 +618,7 @@
 			y: -14.25d
 		}
 		{
-			dependencies: [
-				"3AA58AD569CB791A"
-				"5B2AFAA309E25971"
-			]
+			dependencies: ["15F2D8BAFA731EBC"]
 			description: ["On servers/lan, expert mode is activated for everyone once one player defeats the Wither."]
 			disable_toast: true
 			hide: false
@@ -633,15 +630,15 @@
 				}
 			}
 			id: "3FFC286F3D0CF299"
-			subtitle: "Unlocked by going to the Everbright or Everdawn, which release the spirits of Light and Dark. Spawns hundreds of new, unique mobs all over the world. The new mobs are REALLY tough.."
+			subtitle: "Unlocked by defeating the wither, which release the spirits of Light and Dark. Spawns hundreds of new, unique mobs all over the world. The new mobs can be pretty tough, make sure you are prepared!"
 			tasks: [{
 				disable_toast: true
 				id: "3DE4000CD51C8B52"
 				title: "Expert Mode"
 				type: "checkmark"
 			}]
-			x: 2.25d
-			y: -19.5d
+			x: 9.25d
+			y: -14.5d
 		}
 		{
 			dependencies: ["45057A63E5057167"]
@@ -871,7 +868,7 @@
 				}
 			]
 			title: "Dark Metal Gear and other weapons"
-			x: -5.5d
+			x: -5.0d
 			y: -23.0d
 		}
 		{
@@ -905,7 +902,7 @@
 			}]
 			title: "Disenchanting"
 			x: -6.25d
-			y: -22.0d
+			y: -22.25d
 		}
 		{
 			dependencies: ["52CBD524A88A8E7E"]
@@ -1772,10 +1769,43 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0B6424AE585FE72F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:gauntlet_of_maelstrom"
+					}
+					type: "item"
+				}
+				{
+					id: "4E55BD45D165373B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:the_immolator"
+					}
+					type: "item"
+				}
+				{
+					id: "7DBC56E821C9A15B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:wrath_of_the_desert"
+					}
+					type: "item"
+				}
 			]
 			title: "Godlike Unbreakable Boss Weapons"
-			x: -13.5d
-			y: -6.25d
+			x: -14.75d
+			y: -7.0d
 		}
 		{
 			dependencies: ["033E7215F1636702"]
@@ -1822,8 +1852,8 @@
 				}
 			]
 			title: "Advanced Elytra"
-			x: -13.0d
-			y: -8.75d
+			x: -12.25d
+			y: -9.25d
 		}
 		{
 			dependencies: ["033E7215F1636702"]
@@ -1930,8 +1960,8 @@
 				}
 			]
 			title: "Ignitium Gear"
-			x: -14.0d
-			y: -8.25d
+			x: -13.75d
+			y: -9.25d
 		}
 		{
 			dependencies: ["033E7215F1636702"]
@@ -1981,8 +2011,8 @@
 				}
 			]
 			title: "Witherite weapons"
-			x: -14.25d
-			y: -7.25d
+			x: -14.5d
+			y: -8.25d
 		}
 		{
 			dependencies: ["766544EE45C62981"]
@@ -2008,8 +2038,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.25d
-			y: -5.25d
+			x: -14.5d
+			y: -3.25d
 		}
 		{
 			dependencies: ["581D0DDCE25134AA"]
@@ -2026,8 +2056,8 @@
 				type: "checkmark"
 			}]
 			title: "Something 1,000,000 blocks out"
-			x: -18.375d
-			y: -3.75d
+			x: -17.625d
+			y: -1.5d
 		}
 		{
 			dependencies: ["033E7215F1636702"]
@@ -2137,8 +2167,8 @@
 				}
 			]
 			title: "celestial weapons"
-			x: -11.75d
-			y: -8.25d
+			x: -11.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4E676F48B6C7955B"]
@@ -2271,8 +2301,8 @@
 					type: "item"
 				}
 			]
-			x: -4.25d
-			y: -23.0d
+			x: -3.75d
+			y: -22.25d
 		}
 		{
 			dependencies: ["52CBD524A88A8E7E"]
@@ -2963,8 +2993,8 @@
 				}
 			]
 			title: "Stage Five Items"
-			x: -12.5d
-			y: -7.25d
+			x: -12.75d
+			y: -6.75d
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
@@ -2997,8 +3027,8 @@
 				title: "The Nexus"
 				type: "dimension"
 			}]
-			x: -12.25d
-			y: -4.75d
+			x: -11.5d
+			y: -4.25d
 		}
 		{
 			dependencies: ["3CF60CE0867D9A1A"]
@@ -3006,7 +3036,7 @@
 				"Neptunium gear can be found by fishing up &eNeptune's Bounties&r. These are quite rare, but the item inside can be smelted down to an ingot, and the ingot can be used to upgrade diamond gear."
 				""
 				"Note that all forms of luck, as well as luck of the sea and lure, will increase the chance of getting a neptunium item. However, unusual catch will decrease the chance."
-				]
+			]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -3249,49 +3279,6 @@
 							"dungeons_libraries:built_in_enchantments": { }
 						}
 						id: "sophisticatedbackpacks:iron_backpack"
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "570AF537A0F79877"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "quark:backpack"
-						tag: {
-							Inventory: [
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-							]
-						}
 					}
 					type: "item"
 				}
@@ -4454,8 +4441,8 @@
 				type: "item"
 			}]
 			title: "Murasama Blade"
-			x: -3.25d
-			y: -21.75d
+			x: -4.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["52CBD524A88A8E7E"]
@@ -4547,6 +4534,108 @@
 			title: "Lich's bone staffs"
 			x: -12.75d
 			y: -16.5d
+		}
+		{
+			dependencies: ["45057A63E5057167"]
+			description: ["Gear crafted from cursium, a metal you get from defeating maledictus"]
+			disable_toast: true
+			hide: false
+			icon: "cataclysm:the_annihilator"
+			id: "06D153CC931C76DE"
+			tasks: [
+				{
+					id: "734B8886E6897429"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E5946EC5BC3A3D2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "657A5CB1D2E15DAC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11DA2386AE03DD3E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AA7F1A1248BF6FC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:cursed_bow"
+					}
+					type: "item"
+				}
+				{
+					id: "42598A7A64713735"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:the_annihilator"
+					}
+					type: "item"
+				}
+				{
+					id: "6DC856F4F15F7625"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:soul_render"
+					}
+					type: "item"
+				}
+			]
+			title: "Cursium Gear"
+			x: -6.25d
+			y: -20.75d
 		}
 	]
 	title: "&4Entries"

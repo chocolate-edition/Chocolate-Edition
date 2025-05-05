@@ -176,6 +176,9 @@ var itemsStageTwo = [
 	<item:born_in_chaos_v1:nightmare_mantleofthe_night_leggings>,
 	<item:born_in_chaos_v1:nightmare_mantleofthe_night_chestplate>,
 	<item:born_in_chaos_v1:nightmare_mantleofthe_night_helmet>,
+	<item:cataclysm:ancient_spear>,
+	<item:cataclysm:bone_reptile_helmet>,
+	<item:cataclysm:bone_reptile_chestplate>,
 
 	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:gold_backpack>,
@@ -212,6 +215,13 @@ var itemsStageThree = [
 	<item:born_in_chaos_v1:skullbreaker_hammer>,
 	<item:born_in_chaos_v1:trident_hayfork>,
 	<item:born_in_chaos_v1:dark_ritual_dagger>,
+	<item:cataclysm:soul_render>,
+	<item:cataclysm:cursium_helmet>,
+	<item:cataclysm:cursium_chestplate>,
+	<item:cataclysm:cursium_leggings>,
+	<item:cataclysm:cursium_boots>,
+  <item:cataclysm:the_annihilator>,
+	<item:cataclysm:cursed_bow>,
 	//--//---------------------------------------------------- BACKPACK --------------------------------------------------------------//--//
 	<item:sophisticatedbackpacks:diamond_backpack>,
 	<item:sophisticatedbackpacks:feeding_upgrade>,
@@ -316,14 +326,16 @@ var itemsStageFive = [
 	<item:celestisynth:aquaflora>,
 	<item:celestisynth:poltergeist>,
 	<item:celestisynth:breezebreaker>,
-	<item:alexsmobs:dimensional_carver>
+	<item:alexsmobs:dimensional_carver>,
+	<item:cataclysm:the_immolator>,
+	<item:cataclysm:wrath_of_the_desert>,
+	<item:cataclysm:gauntlet_of_maelstrom>
 ];
 
 // --------------------------------------------------- CURSED (DISABLED) ITEMS ------------------------------------------------------------------//
 
 var itemsCursed = [
 	<item:enigmaticlegacy:cursed_ring>,
-	<item:enigmaticlegacy:enigmatic_eye>,
 	<item:enigmaticlegacy:recall_potion>,
 	<item:enigmaticlegacy:end_anchor>,
 	<item:enigmaticlegacy:the_infinitum>,
@@ -419,10 +431,11 @@ DimensionStages.stageDimensionWithMessage("minecraft:the_end", "The End requires
 DimensionStages.stageDimensionWithMessage("javd:void", "The Nexus requires 16 eyes worth of power, come back n e v e r...", "four");
 
 
-ItemStages.restrict(<item:luphieclutteredmod:luphie_ancient_codex>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
-ItemStages.restrict(<item:unusualprehistory:encyclopedia>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
-ItemStages.restrict(<item:supplementaries:sack>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
+ItemStages.restrict(<item:luphieclutteredmod:luphie_ancient_codex>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(true).hiddenName("§cDisabled Item");
+ItemStages.restrict(<item:unusualprehistory:encyclopedia>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(true).hiddenName("§cDisabled Item");
+ItemStages.restrict(<item:supplementaries:sack>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(true).hiddenName("§cDisabled Item");
 ItemStages.restrict(<item:iter_rpg:nightfall>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(false).hiddenName("§cDisabled Item");
+ItemStages.restrict(<item:alexsmobs:transmutation_table>, "disabled").preventInventory(false).preventPickup(false).setHiddenInJEI(true).hiddenName("§cDisabled Item");
 
 // hide create automated shaped crafting from jei so people dont think they can make gated items using mechanical crafters
 Jei.hideCategory(<resource:create:automatic_shaped>);
