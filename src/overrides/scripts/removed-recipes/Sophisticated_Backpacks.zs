@@ -1,3 +1,3 @@
 #priority -20
 
-recipes.removeByName("recipestages:sophisticatedbackpacks_backpack");
+recipes.removeByName("sophisticatedbackpacks:backpack");

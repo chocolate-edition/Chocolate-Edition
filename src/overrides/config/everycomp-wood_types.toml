@@ -162,6 +162,9 @@
 			chorus = true
 			frosted_stone_brick = true
 			stone_tile = true
+			azure_seastone = true
+			azure_seastone_brick = true
+			polished_azure_seastone = true
 
 		[types.cut_block_type.nourished_nether]
 			netherrack = true

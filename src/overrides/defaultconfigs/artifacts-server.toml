@@ -163,10 +163,10 @@
 		#The maximum amount of time (in ticks) a player can fly using the helium flamingo
 		#Set to 0 to allow swimming indefinitely
 		#Range: > 0
-		max_flight_time = 30
+		max_flight_time = 50
 		#The amount of time (in ticks) it takes for the helium flamingo to recharge
 		#Range: > 0
-		recharge_time = 300
+		recharge_time = 200
 
 	[items.kitty_slippers]
 		#Affects how many creepers the player can attack using the kitty slippers before breaking
@@ -368,4 +368,3 @@
 		#Affects the amount of farts farted by players wearing the whoopee cushion
 		#Range: 0.0 ~ 1.0
 		flatulence = 0.125
-

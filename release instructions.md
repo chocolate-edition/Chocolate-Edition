@@ -17,7 +17,7 @@
 5. open curseforge and "import" the .zip as a profile.
 6. start the game an verify everything works in a single player world.
 7. in curseforge, export the profile.
-  when exporting, name it "The Chocolate Edition" and set the package version. ensure `config`, `defaultconfigs`, `mods`, `resourcepacks`, `resources`, `scripts`, `shaderpacks`(**uncheck the shaderpack settings.txt files**), and `servers.dat` are checked. all others should remain unchecked.
+  when exporting, name it "Chocolate Edition Minecraft" and set the package version. ensure `config`, `defaultconfigs`,`kubejs`, `mods`, `resourcepacks`, `resources`, `scripts`, `shaderpacks`(**uncheck the shaderpack settings.txt files**), and `servers.dat` are checked. all others should remain unchecked.
 8. once complete, you can safely delete the profile made from the git repo. create a new profile import using the zip you just exported.
 9. start the game and verify everything works in a single player world.
 
@@ -29,7 +29,7 @@
     - click the green folder for `server icon` and choose the image found in this repo
 11. click "Generate."
 12. once the server pack has completed, run the server and connect to it via local host to verify everything works.
-13. open your server pack folder and find the server pack zip that was just created. rename it to `The_Chocolate_Edition-<version>_server_pack.zip`.
+13. open your server pack folder and find the server pack zip that was just created. rename it to `Chocolate_Edition_Minecraft-<version>_server_pack.zip`.
 14. copy the `how to start the server` instructions into the zip.
 
 ## verifying changes
@@ -52,7 +52,7 @@
 ## uploading
 
 18. go [here](https://authors.curseforge.com/#/projects/888414/files) and click "upload file."
-19. choose the profile export zip with the corrected manifest, bcc and modpacka update checker configs, set the modloader to forge and set the minecraft version to 1.19.2
+19. choose the profile export zip with the corrected manifest, bcc and modpack update checker configs, set the modloader to forge and set the minecraft version to 1.19.2
 20. while it is uploading, use the items in the "done for this update" column of the [todo list](https://github.com/orgs/chocolate-edition/projects/1) to write the changelog.
   the changelog can be split up into `features`, `changes`, and `bug fixes`. use your discretion as to what is what. be descriptive yet succinct about the changes. see past changelogs for examples.
 21. once the file upload is complete, click "upload file" at the bottom of the page.
@@ -62,7 +62,7 @@
 24. choose your server pack zip with the instructions included.
 25. under "additional info" choose "server pack"
 26. copy the changelog from the client pack.
-27. once the uplaod is ready, press "upload file" at the bottom of the page.
+27. once the upload is ready, press "upload file" at the bottom of the page.
 28. the page will not refresh or indicate that the upload was successful, so in a new tab, check the [project files page](https://authors.curseforge.com/#/projects/888414/files) and see that the new release is `processing` or `under review`. periodically refresh this page to monitor the status.
   if the status is changed to denied, check your curseforge notifications for the reason. resolve the issues, then start over from step 10.
 

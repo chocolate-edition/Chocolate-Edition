@@ -69,16 +69,29 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			click: "https://thechocolateedition.wiki.gg/wiki/The_Chocolate_Edition_Wiki"
+			corner: false
+			dependency: "7CFCF3BA7E2B325C"
+			dev: false
+			height: 1.0d
+			hover: ["You crave knowledge!!!"]
+			image: "minecraft:item/knowledge_book"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.75d
+			y: -4.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"Welcome to Chocolate Edition, this book will guide you through getting all 16 eyes, if you want more information about content in the pack head to &l&9thechocolateedition.wiki.gg"
+				"Welcome to Chocolate Edition, this book will guide you through getting all 16 eyes."
 				""
-				"Occasionally(especially at the start) you will get an item that's necessary to craft a harder eye. In that case, I would ignore it for now."
-				"If an eye is not possible to get yet, then don't sweat trying to get it's ingredients early game. Most of the time the eyes in the \"Medium\" section are way more manageable after unlocking the nether, and the eyes in the hard section are much easier when you have at least most of the others. Some hard eyes are locked until later."
+				"Occasionally (especially at the start) you will get an item that's necessary to craft a harder eye. In that case, I would ignore it for now."
+				"If an eye is not possible to get yet, then don't sweat trying to get its ingredients early game. Most of the time the eyes in the \"Medium\" section are way more manageable after unlocking the nether, and the eyes in the hard section are much easier when you have at least most of the others. Some hard eyes are locked until later."
 				""
 				"Anyway, that's all for now. Have fun!"
 			]
@@ -101,7 +114,8 @@
 			dependencies: ["7CFCF3BA7E2B325C"]
 			description: [
 				"To access progress Stages in creative, type:"
-				"&o/gamestage add <stage>"
+				"&o/gamestage add @p <stage>"
+				"example: /gamestage add @p one"
 				""
 				"Stages:"
 				"&n&lone&r: 3 eyes | &n&ltwo&r: 6 eyes"
@@ -202,6 +216,7 @@
 				"to share progress, you can simply pass items around as tasks are triggered as items enter ones inventory"
 			]
 			disable_toast: true
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -210,11 +225,16 @@
 				}
 			}
 			id: "26AC58AF24712F48"
+			rewards: [{
+				id: "2C84ABBBD3F6F45D"
+				type: "xp"
+				xp: 1
+			}]
 			size: 1.25d
 			subtitle: "We advise against using ftb teams, as our hidden utility quests can behave inconsistently for teams. "
 			title: "Important!"
-			x: 0.0d
-			y: 4.6875d
+			x: -3.75d
+			y: -4.5d
 		}
 	]
 	title: "Welcome!"

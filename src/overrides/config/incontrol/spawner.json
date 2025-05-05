@@ -147,7 +147,7 @@
       "dimension": "minecraft:overworld",
       "mindist": 20,
       "maxdist": 80,
-      "minheight": 60,
+      "minheight": -60,
       "maxheight": 320,
       "norestrictions": true
     }
@@ -1938,41 +1938,7 @@
     }
   },
   {
-    "mob": "naturalist:snail",
-    "persecond": 0.1,
-    "attempts": 4,
-    "amount": {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "mindist": 20,
-      "maxdist": 80,
-      "minheight": 50,
-      "maxheight": 320,
-      "norestrictions": true
-    }
-  },
-  {
     "mob": "naturalist:snake",
-    "persecond": 0.1,
-    "attempts": 4,
-    "amount": {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "mindist": 20,
-      "maxdist": 80,
-      "minheight": 60,
-      "maxheight": 320,
-      "norestrictions": true
-    }
-  },
-  {
-    "mob": "naturalist:tortoise",
     "persecond": 0.1,
     "attempts": 4,
     "amount": {
@@ -3045,6 +3011,7 @@
       "maxdist": 128,
       "minheight": 60,
       "maxheight": 400,
+      "inwater": true,
       "norestrictions": true
     }
   },

@@ -80,7 +80,6 @@
 <tag:items:chocolate:blocks>.add(<item:everycomp:q/ecologics/hollow_walnut_log>);
 <tag:items:chocolate:blocks>.add(<item:everycomp:q/ecologics/stripped_azalea_post>);
 <tag:items:chocolate:blocks>.add(<item:everycomp:q/ecologics/stripped_coconut_post>);
-<tag:items:chocolate:blocks>.add(<item:everycomp:q/ecologics/stripped_flowering_azalea_post>);
 <tag:items:chocolate:blocks>.add(<item:everycomp:q/ecologics/stripped_walnut_post>);
 <tag:items:chocolate:blocks>.add(<item:everycomp:q/ecologics/vertical_azalea_planks>);
 <tag:items:chocolate:blocks>.add(<item:everycomp:q/ecologics/vertical_coconut_planks>);

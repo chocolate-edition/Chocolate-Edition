@@ -115,7 +115,7 @@
 				""
 				"   You, for the first time in eons, have inspired hope in my people, thank you. Contiune on your adventure young one. Venture to the Everbright and Everdawn, summon ancient demons, and empower yourself with Netherite."
 				""
-				"    But becareful, long forgotten foes have started to rise...feeling the pull of the &lGods&r power. You have a long road ahead, I offer you another &eHeart&r as a sign of apperciation from my people. "
+				"    But be careful, long forgotten foes have started to rise...feeling the pull of the &lGods&r power. You have a long road ahead, I offer you another &eHeart&r as a sign of apperciation from my people. "
 			]
 			hide: true
 			icon: {
@@ -618,11 +618,8 @@
 			y: -14.25d
 		}
 		{
-			dependencies: [
-				"3AA58AD569CB791A"
-				"5B2AFAA309E25971"
-			]
-			description: ["on servers/lan, expert mode is actiavted for everyone once 1 player enters one of the envertwined dimensions."]
+			dependencies: ["15F2D8BAFA731EBC"]
+			description: ["On servers/lan, expert mode is activated for everyone once one player defeats the Wither."]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -633,15 +630,15 @@
 				}
 			}
 			id: "3FFC286F3D0CF299"
-			subtitle: "Unlocked by going to the Everbright or Everdawn, which release the spirits of Light and Dark. Spawns hundreds of new, unique mobs all over the world. The new mobs are REALLY tough.."
+			subtitle: "Unlocked by defeating the wither, which release the spirits of Light and Dark. Spawns hundreds of new, unique mobs all over the world. The new mobs can be pretty tough, make sure you are prepared!"
 			tasks: [{
 				disable_toast: true
 				id: "3DE4000CD51C8B52"
 				title: "Expert Mode"
 				type: "checkmark"
 			}]
-			x: 2.25d
-			y: -19.5d
+			x: 9.25d
+			y: -14.5d
 		}
 		{
 			dependencies: ["45057A63E5057167"]
@@ -871,20 +868,20 @@
 				}
 			]
 			title: "Dark Metal Gear and other weapons"
-			x: -5.5d
+			x: -5.0d
 			y: -23.0d
 		}
 		{
 			dependencies: ["45057A63E5057167"]
 			description: [
-				"to transfer enchantments:"
-				"1. right cloick the infusion table with a book"
-				"2. right click with the item you want to pull enchantments from"
-				"3. right click with flint and steel"
+				"To transfer enchantments:"
+				"1. Right click the infusion table with a book"
+				"2. Right click with the item you want to pull enchantments from"
+				"3. Right click with flint and steel"
 				""
 				"&l&oThe item will be destroyed&l&n"
 				""
-				"left click to pick up the enchanted book"
+				"Left click to pick up the enchanted book"
 			]
 			disable_toast: true
 			hide: false
@@ -905,11 +902,11 @@
 			}]
 			title: "Disenchanting"
 			x: -6.25d
-			y: -22.0d
+			y: -22.25d
 		}
 		{
 			dependencies: ["52CBD524A88A8E7E"]
-			description: ["abyssal quartz can be crafted or dropped by the mother of the maze in the ice maze (deep cold ocean)"]
+			description: ["Abyssal quartz can be crafted or dropped by the mother of the maze in the ice maze (deep cold ocean)"]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -1245,7 +1242,7 @@
 		}
 		{
 			dependencies: ["52CBD524A88A8E7E"]
-			description: ["increased armor and health but decreased damage and speed. you can be a true tank.. or more like a steel wall"]
+			description: ["Increased armor and health but decreased damage and speed. You can be a true tank.. or more like a steel wall"]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -1402,7 +1399,7 @@
 		}
 		{
 			dependencies: ["52CBD524A88A8E7E"]
-			description: ["overall good armor with some end-related set bonuses"]
+			description: ["Overall good armor with some end-related set bonuses"]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -1559,7 +1556,7 @@
 		}
 		{
 			dependencies: ["52CBD524A88A8E7E"]
-			description: ["provides less armour and reduces health, but increases damage. live your best glass cannon life"]
+			description: ["Provides less armour and reduces health, but increases damage. Live your best glass cannon life"]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -1772,10 +1769,43 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0B6424AE585FE72F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:gauntlet_of_maelstrom"
+					}
+					type: "item"
+				}
+				{
+					id: "4E55BD45D165373B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:the_immolator"
+					}
+					type: "item"
+				}
+				{
+					id: "7DBC56E821C9A15B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:wrath_of_the_desert"
+					}
+					type: "item"
+				}
 			]
 			title: "Godlike Unbreakable Boss Weapons"
-			x: -13.5d
-			y: -6.25d
+			x: -14.75d
+			y: -7.0d
 		}
 		{
 			dependencies: ["033E7215F1636702"]
@@ -1822,8 +1852,8 @@
 				}
 			]
 			title: "Advanced Elytra"
-			x: -13.0d
-			y: -8.75d
+			x: -12.25d
+			y: -9.25d
 		}
 		{
 			dependencies: ["033E7215F1636702"]
@@ -1930,8 +1960,8 @@
 				}
 			]
 			title: "Ignitium Gear"
-			x: -14.0d
-			y: -8.25d
+			x: -13.75d
+			y: -9.25d
 		}
 		{
 			dependencies: ["033E7215F1636702"]
@@ -1981,8 +2011,8 @@
 				}
 			]
 			title: "Witherite weapons"
-			x: -14.25d
-			y: -7.25d
+			x: -14.5d
+			y: -8.25d
 		}
 		{
 			dependencies: ["766544EE45C62981"]
@@ -2008,8 +2038,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.25d
-			y: -5.25d
+			x: -14.5d
+			y: -3.25d
 		}
 		{
 			dependencies: ["581D0DDCE25134AA"]
@@ -2026,8 +2056,8 @@
 				type: "checkmark"
 			}]
 			title: "Something 1,000,000 blocks out"
-			x: -18.375d
-			y: -3.75d
+			x: -17.625d
+			y: -1.5d
 		}
 		{
 			dependencies: ["033E7215F1636702"]
@@ -2137,8 +2167,8 @@
 				}
 			]
 			title: "celestial weapons"
-			x: -11.75d
-			y: -8.25d
+			x: -11.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4E676F48B6C7955B"]
@@ -2271,8 +2301,8 @@
 					type: "item"
 				}
 			]
-			x: -4.25d
-			y: -23.0d
+			x: -3.75d
+			y: -22.25d
 		}
 		{
 			dependencies: ["52CBD524A88A8E7E"]
@@ -2709,7 +2739,7 @@
 		}
 		{
 			dependencies: ["7E7A9B546C15BE8A"]
-			description: ["the task list will always be accurate. the surrounding quests may be outdated* and are only here to provide more information."]
+			description: ["The task list will always be accurate. The surrounding quests may be outdated* and are only here to provide more information."]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -2768,7 +2798,7 @@
 		}
 		{
 			dependencies: ["318AC3A4B80FAB8E"]
-			description: ["the task list will always be accurate. the surrounding quests may be outdated* and are only here to provide more information."]
+			description: ["The task list will always be accurate. The surrounding quests may be outdated* and are only here to provide more information."]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -2842,7 +2872,7 @@
 		}
 		{
 			dependencies: ["33B00255BDE26589"]
-			description: ["the task list will always be accurate. the surrounding quests may be outdated* and are only here to provide more information."]
+			description: ["The task list will always be accurate. The surrounding quests may be outdated* and are only here to provide more information."]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -2884,7 +2914,7 @@
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
-			description: ["the task list will always be accurate. the surrounding quests may be outdated* and are only here to provide more information."]
+			description: ["The task list will always be accurate. The surrounding quests may be outdated* and are only here to provide more information."]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -2926,7 +2956,7 @@
 		}
 		{
 			dependencies: ["766544EE45C62981"]
-			description: ["the task list will always be accurate. the surrounding quests may be outdated* and are only here to provide more information."]
+			description: ["The task list will always be accurate. The surrounding quests may be outdated* and are only here to provide more information."]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -2963,8 +2993,8 @@
 				}
 			]
 			title: "Stage Five Items"
-			x: -12.5d
-			y: -7.25d
+			x: -12.75d
+			y: -6.75d
 		}
 		{
 			dependencies: ["51E899661EDC06BD"]
@@ -2997,12 +3027,16 @@
 				title: "The Nexus"
 				type: "dimension"
 			}]
-			x: -12.25d
-			y: -4.75d
+			x: -11.5d
+			y: -4.25d
 		}
 		{
 			dependencies: ["3CF60CE0867D9A1A"]
-			description: ["neptunium gear can be found by fishing up neptune's bounties. these arte quite rare, but the item inside can be smelted down to an ingot, and the ingot can be used to upgrade diamond gear."]
+			description: [
+				"Neptunium gear can be found by fishing up &eNeptune's Bounties&r. These are quite rare, but the item inside can be smelted down to an ingot, and the ingot can be used to upgrade diamond gear."
+				""
+				"Note that all forms of luck, as well as luck of the sea and lure, will increase the chance of getting a neptunium item. However, unusual catch will decrease the chance."
+			]
 			disable_toast: true
 			hide: false
 			icon: {
@@ -3250,49 +3284,6 @@
 				}
 				{
 					disable_toast: true
-					id: "570AF537A0F79877"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "quark:backpack"
-						tag: {
-							Inventory: [
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-								{ }
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
 					id: "6D8F01FC044EF179"
 					item: {
 						Count: 1b
@@ -3469,7 +3460,7 @@
 				"&3Weathering Tome (Prisnautilus)"
 				"&3Wave of Abyss (Prisnautilus)"
 				""
-				"these weapons arent necessarily any good, but damn do they look cool!"
+				"These weapons aren't necessarily any good, but damn do they look cool!"
 			]
 			disable_toast: true
 			hide: false
@@ -3583,19 +3574,19 @@
 		{
 			dependencies: ["3CF60CE0867D9A1A"]
 			description: [
-				"tetra scrolls for:"
+				"Tetra scrolls for:"
 				""
 				"- Mace head (single head)"
-				"- quarry hammer (hammer)"
-				"- compound string (bow string)"
-				"- key guard (sword)"
-				"- dreadnaught stave (bow staves)"
-				"- halberd head (single head)"
-				"- howling blade (sword)"
-				"- throwing knife (sword)"
-				"- sturdy guard (sword)"
+				"- Quarry hammer (hammer)"
+				"- Compound string (bow string)"
+				"- Key guard (sword)"
+				"- Dreadnaught stave (bow staves)"
+				"- Halberd head (single head)"
+				"- Howling blade (sword)"
+				"- Throwing knife (sword)"
+				"- Sturdy guard (sword)"
 				""
-				"place these down within a 5x5x5 area centered one block above a workbench to unlock new tool parts"
+				"Place these down within a 5x5x5 area centered one block above a workbench to unlock new tool parts"
 			]
 			disable_toast: true
 			hide: false
@@ -4262,12 +4253,12 @@
 		{
 			dependencies: ["4E676F48B6C7955B"]
 			description: [
-				"tetra scrolls for "
+				"Tetra scrolls for "
 				""
-				"- katana blade (sword)"
-				"- crucible blade (sword)"
-				"- flamberg blade (sword)"
-				"- rending scissors (sword)"
+				"- Katana blade (sword)"
+				"- Crucible blade (sword)"
+				"- Flamberg blade (sword)"
+				"- Rending scissors (sword)"
 			]
 			disable_toast: true
 			hide: false
@@ -4405,7 +4396,7 @@
 		{
 			dependencies: ["45057A63E5057167"]
 			description: [
-				"the murasama schematic is crafted as such"
+				"The murasama schematic is crafted as such"
 				""
 				"[              ,   sword  ,              ]"
 				""
@@ -4413,7 +4404,7 @@
 				"     ingot        quil         ingot"
 				"[             ,   sword   ,              ]"
 				""
-				"it provides a new blade option when upgrading a katana in a workbench"
+				"It provides a new blade option when upgrading a katana in a workbench"
 			]
 			disable_toast: true
 			hide: false
@@ -4450,8 +4441,8 @@
 				type: "item"
 			}]
 			title: "Murasama Blade"
-			x: -3.25d
-			y: -21.75d
+			x: -4.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["52CBD524A88A8E7E"]
@@ -4543,6 +4534,108 @@
 			title: "Lich's bone staffs"
 			x: -12.75d
 			y: -16.5d
+		}
+		{
+			dependencies: ["45057A63E5057167"]
+			description: ["Gear crafted from cursium, a metal you get from defeating maledictus"]
+			disable_toast: true
+			hide: false
+			icon: "cataclysm:the_annihilator"
+			id: "06D153CC931C76DE"
+			tasks: [
+				{
+					id: "734B8886E6897429"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E5946EC5BC3A3D2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "657A5CB1D2E15DAC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11DA2386AE03DD3E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AA7F1A1248BF6FC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:cursed_bow"
+					}
+					type: "item"
+				}
+				{
+					id: "42598A7A64713735"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:the_annihilator"
+					}
+					type: "item"
+				}
+				{
+					id: "6DC856F4F15F7625"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "cataclysm:soul_render"
+					}
+					type: "item"
+				}
+			]
+			title: "Cursium Gear"
+			x: -6.25d
+			y: -20.75d
 		}
 	]
 	title: "&4Entries"

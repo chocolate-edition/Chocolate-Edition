@@ -1,0 +1,73 @@
+# Chocolate Edition 1.9.1 Patch Update (Bestiary+)
+
+**Brand new Bestiary page in the questbook! info on spawn locations of pretty much every mob, and info on boss fights!**
+
+also fixes a bunch of bugs n stuff
+
+## features
+- new tetra materials thanks to tetranomicon update!
+- add dedicated wiki link to the questbook welcome page
+- replace questbook item with the enigmatic eye (right click functions as a questbook, but you now get cool dialogue for some ingame events!)
+- award a free inventory connector and storage terminal (read the tips and tricks!)
+
+## Changes
+- disable force loaded spawn chunks (should help stop mob spawn caps being reached due to structures at spawn)
+- gated maledictus cursium items to stage 3
+- set xaeros minimap default size to auto
+- set xaero world waypoint render distance to max 256m
+- disable xaeroplus auto waystone waypoints in favour of xaero waystone compatibility mod auto waypoints
+- update text of some questbook entries
+- disable useless enchants (demon slayer, wrath, slayer)
+- update recommended memory settings to max 8GB (the pack runs well with 8, and it is known that 10+ can actually cause problems so now regardless of if you have 32+ GB available it will always recommend 8GB allocated)
+- fix modpack updates button on the title screen
+- no longer require purchase of previous tier for shop items
+- disable transmutation table (if you already have one placed itll still work, but you wont be able to craft one or place one down)
+- return vanilla shield recipe
+- increase drop rate of drowned necromancer gear
+
+
+## Bug Fixes
+- fixed added resourcepacks not being applied
+- fix ftb chunks death waypoint appearing
+- fix some quests that were uncompletable
+- block some problematic mobs from spawning (naturalist snail, rotten creatures mummy, naturalist tortoise, underminer again)
+- unblock eye related mobs from spawning pre-expert mode (mutants, sunken city mobs)
+- fix expert mode trigger (expert mode is now activated when the first person defeats the wither, no longer from entering the nether or other dimensions)
+- fix some broken mob spawns (cockroaches, encrusted, barinasuchus)
+- add wildfire crown drops to dungeon mobs wildfires (now both versions of the wildfire drop the fragments)
+
+
+## mod changes
+
+updated forge 43.4.12 -> 43.5.0
+
+### updates
+- cataclysm 2.25 -> 2.46
+- rotten creatures 1.0.1 -> 1.1.0
+- friends and foes 3.07 -> 3.09
+- everycompat 2.5.31 -> 2.5.33
+- xaero minimap 25.1.0 -> 25.2.0
+- xaero worldmap 1.39.2 -> 1.39.4
+- xaeroplus 2.26.2 -> 2.26.7
+- shoulder surfing 4.9.1 -> 4.11.0
+- crafttweaker 10.1.55 -> 10.1.56
+- placebo 7.4.0 -> 7.4.1
+- first person model 2.4.8 -> 2.4.9
+- connected glass 1.1.12 -> 1.1.13
+- not enough animations 1.9.2 -> 1.9.3
+- tetranomicon 1.5.3 -> 1.6.0
+- calm mornings 4.0.6 -> 4.0.7
+- immediatelyfast 1.3.4 -> 1.4.0
+- e4mc 5.2.1 -> 5.3.1
+- craterlib 2.1.3 -> 2.1.4
+- trinkets 1.8.0 -> 1.9.0
+
+
+### added
+- waystones teleport pets
+- xaero waystones compatibility
+- kubejs
+- some more minimap icon resource packs
+
+### removed
+- archeology api (was removed from curseforge)
