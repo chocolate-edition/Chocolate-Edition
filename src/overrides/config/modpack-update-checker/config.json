@@ -6,6 +6,7 @@
   "modpackReleaseType": "stable",
   "updateCheckerId": "https://raw.githubusercontent.com/chocolate-edition/Chocolate-Edition/refs/heads/main/modpackUpdateChecker/",
   "advanced": {
+    "forceModpackCompatible": true,
     "bccEnabled": false,
     "expandButton": true,
     "updateCheckerType": 2,
