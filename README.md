@@ -14,6 +14,7 @@ Available on CurseForge at <https://www.curseforge.com/minecraft/modpacks/mc-cho
     - [linking to GitHub](#linking-to-github)
     - [setting up VScode](#setting-up-vscode)
   - [useful git commands](#git-terminal-notes)
+  - [Custom spawning system](#custom-spawning-system)
 
 ### for a better github notification experience without having your email spammed, try [notifier for github extension](https://github.com/sindresorhus/notifier-for-github)
 
@@ -23,7 +24,7 @@ update schedule working document: <https://docs.google.com/document/d/15oeWpq6uO
 
 ### Creating Issues
 
-we use a collection of [github Projects](https://github.com/chocolate-edition/Chocolate-Edition/projects) to track work in progress and future plans. 
+we use a collection of [github Projects](https://github.com/chocolate-edition/Chocolate-Edition/projects) to track work in progress and future plans.
 
 the [Patches and Bugs Board](https://github.com/orgs/chocolate-edition/projects/1) contains bugs and small features that can be worked on and added at any time. as the list of finsihed tasks grows, we will sometimes release minor patches inbetween major feature releases
 
@@ -44,16 +45,16 @@ the rest of the projects are for categorizing tasks that are focused on one spec
 ### Typical Workflow
 
 **note:**
-if your changes involve deleting a file, instead leave the file blank if possible then create a new issue on the todo list to delete the file as part of the next update. 
+if your changes involve deleting a file, instead leave the file blank if possible then create a new issue on the todo list to delete the file as part of the next update.
 
-(this is due to a quirk with how ATLauncher automatic updates work and should just generally help reduce the amount of people with broken scripts after an update) 
+(this is due to a quirk with how ATLauncher automatic updates work and should just generally help reduce the amount of people with broken scripts after an update)
 
 **note:**
 when modifying resourcepacks through paxi or otherwise, be sure to include it in the proper place in `src/overrides/config/resourcepackoverrides.json`
 
 `main` represents the current latest release. It should only be merged to prior to a new version release. Do not touch it unless you just published a new version.
 
-`develop` branch is the main development branch that represents the next release as it is developed. it should be branched from and merged to for tasks on the [Patches and Bugs Board](https://github.com/orgs/chocolate-edition/projects/1) 
+`develop` branch is the main development branch that represents the next release as it is developed. it should be branched from and merged to for tasks on the [Patches and Bugs Board](https://github.com/orgs/chocolate-edition/projects/1)
 `1.x-develop` branches work similar to develop, but hold changes specific to a certain major feature update. whenever merging to develop or a 1.x branch, a pr should also be opened to merge to each branch ahead of it so they all stay up to date with their predecessors
 
 1. checkout to your intended base branch. (for Patches and Bugs, use `develop`) and **pull.** this will ensure your local copy of the fiels are caught up with whats on GitHub. always **pull** before starting work on a feature.
@@ -112,18 +113,18 @@ once you are done copying, it is safe to delete the zip and extracted folder
     ![sort](<documentation screenshots/sort-ascending.png>)\
     ![projectid](<documentation screenshots/sort-projectid.png>)
 
-15. once you have *added* some files to *staged changes*, you can commit them by writting a short message to describe the changes, then press the blue "commit" button\ or in terminal `git commit -m 'my commit message'`
+14. once you have *added* some files to *staged changes*, you can commit them by writting a short message to describe the changes, then press the blue "commit" button\ or in terminal `git commit -m 'my commit message'`
     commit messages should be 1 line sentences to briefly describe what changes are being made in the files included in the commit.\
     for example, "update readme with detailed isntructions", or "increase spawn rate for \<mobs\>"
 
-16. once all files have been either reverted or commited, you can press the blue "publish" button, or click the 3 dots, then "push." or in terminal, `git push` or `git push -u origin head` for new branches
+15. once all files have been either reverted or commited, you can press the blue "publish" button, or click the 3 dots, then "push." or in terminal, `git push` or `git push -u origin head` for new branches
 
-17. go to [github](https://github.com/chocolate-edition/Chocolate-Edition/pulls) and create a Pull Request. assign reviewers Strix (Jonah-Hansen), Toxin (GildedToxin), Wik(HomerDoesMoreStuff)
+16. go to [github](https://github.com/chocolate-edition/Chocolate-Edition/pulls) and create a Pull Request. assign reviewers Strix (Jonah-Hansen), Toxin (GildedToxin), Wik(HomerDoesMoreStuff)
     1. ensure the "base" is your target development branch
     2. give a more detailed description of the changes made. include screenshots if applicable, and link the related issues with keyword "closes #issueNumber" (example: closes #200)
     3. carefully review the `files changed`. make sure nothing is included that is not related to the intended changes.
 
-18. Once your Pull Request is reviewed and approved, merge your branch.
+17. Once your Pull Request is reviewed and approved, merge your branch.
 
 once complete, you can switch back to develop, pull your changes and get started on the next feature!
 
@@ -230,3 +231,19 @@ In the **Git Terminal**, running commands is how you *pull, commit, push, and so
 **$ git branch -D "branch name"** - Useful if you name a branch wrong
 
 **$ git checkout -b "name-of-branch"** - You should always **$ git pull** before doing this, so you have the most recent files
+
+## Custom Spawning System
+
+the 1.9 update introduced a full overhaul of the spawning system, so we can be in full control of all mob spawns across the entire pack. here is a genreal overview of how this system works:
+
+the spawning system is comprised of 2 key mods: [Spawn Balance Utility](https://www.curseforge.com/minecraft/mc-mods/spawn-balance-utility) and [InControl](https://www.mcjty.eu/docs/mods/control-mods/control-mods-18)
+
+InControl is primarily used to restrict spawns based on certain parameters such as time of day, y level, total amount already in the world, etc this is done through the file at `config/incontrol/spawn.json`. this file is only used for applying rules and restrictions around spawns through a combination of *deny* and *allow* rulesets.
+
+Spawn Balance Utility is used to define Biome spawns and their spawn weights. by editting the csv file at `config/spawnbalanceutility/BiomeMobWeight.csv` we can specify the biomes in which mobs will attempt to spawn. the columns are as follows:
+
+Line#, Biome Category, Biome, Classification, Mod:Monster, Spawnweight, MinGroup#, MaxGroup#
+
+in chocolate edition, we only use BiomeMobWeight for monsters and water mobs.
+
+for animals and mobs that SBU doesnt work on, we have another file as part of the InControl suiite: `config/incontrol/spawner.json`. this file runs spawner functions in game. it is more configurable but also causes more lag, and the spawns are not blocked by spawn blocking tools like warding pearl and staff of surpression so we limit the use to only whats necessary (animals, so that they spawn more frequently then they would with SBU, and other mobs that dont work with SBU for whatever reason, like some cataclysm mobs that are intended to only spawn in structures).
