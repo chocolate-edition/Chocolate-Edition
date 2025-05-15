@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ftb_teams"
+	group: "124DA5EC6A42A11D"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftbteams:textures/teams.png"
+		}
+	}
+	id: "5DFF02ACBF6E8837"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Use the command "
+				"&a&o/ftbteams party create (team-name)&o&r "
+				""
+				"or open your inventory, press the &eMy Team&r button on the top left, and then press &eCreate a Party&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "4D4F01B2BA662380"
+			size: 2.0d
+			subtitle: "There are two ways to create a team"
+			tasks: [{
+				id: "3DCA9E23F5F4CE49"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Creating a Team"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Use command:"
+				"&a&o/ftbteams party allies add (player-name)&r&r"
+				""
+				"This allows players to interact with any chunks that are claimed by your team."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/members.png"
+				}
+			}
+			id: "12A0A80B274BCB3A"
+			size: 2.0d
+			subtitle: "A player can indirectly be part of your team as an ally"
+			tasks: [{
+				id: "391E79EED46B28C1"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Making Allies"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12A0A80B274BCB3A"]
+			description: [
+				"&c&o*Currently not recommended!&o&r"
+				""
+				"If you still want to try out adding players to your team, you can do so using the command"
+				"&o&a/ftbteams party invite (player-name)&r&r"
+				""
+				"or by going to the &eMy Team&r menu, pressing the &eInvite Player(s)&r button"
+				"{image:ftblibrary:icons/add width:20 height:20 align:1}"
+				"on the top right, and inviting a player from the player list."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/add.png"
+				}
+			}
+			id: "7FFCA45E07B08EF8"
+			optional: true
+			size: 2.0d
+			subtitle: "You can invite other players into your team"
+			tasks: [{
+				id: "5EC895AEB7D5DD32"
+				title: "Teaming Up"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"To access the FTB Chunks map, open your inventory and press on the &eClaim Manager&r button on the top left."
+				"{image:ftblibrary:icons/map width:20 height:20 align:1}"
+				"On the map, you press &aLMB to claim&r a chunk and &cRMB to unclaim&r a chunk."
+				""
+				"To change whether a chunk is force-loaded you hold the &eShift key&r, and then you &aLMB to enable force-load&r and &cRMB to disable force-load&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/waypoint_home.png"
+				}
+			}
+			id: "2515396277C7C283"
+			size: 2.0d
+			subtitle: "You can claim chunks and force-load them to keep them active"
+			tasks: [{
+				id: "647306A4C1C0E6D7"
+				title: "Mark as Read"
+				type: "checkmark"
+			}]
+			title: "Chunk Claiming"
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "FTB Teams"
+}
