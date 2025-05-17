@@ -2388,17 +2388,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "1A622E9240AA8A17"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "enigmaticlegacy:void_pearl"
-					}
-					type: "item"
-				}
 			]
 			shape: "rsquare"
 			size: 2.5d
