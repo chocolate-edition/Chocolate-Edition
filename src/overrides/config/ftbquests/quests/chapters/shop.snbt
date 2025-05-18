@@ -5289,8 +5289,8 @@
 			shape: "circle"
 			size: 2.0d
 			title: "Other Unlocks"
-			x: 2.25d
-			y: -7.25d
+			x: 2.242346938775512d
+			y: -5.994897959183675d
 		}
 		{
 			can_repeat: true
@@ -5437,8 +5437,8 @@
 				type: "item"
 			}]
 			title: "64x Gems"
-			x: 1.0d
-			y: -6.25d
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -5509,80 +5509,8 @@
 				type: "item"
 			}]
 			title: "64x Gems"
-			x: 0.5d
-			y: -7.5d
-		}
-		{
-			can_repeat: true
-			dependencies: [
-				"20F2C6E5C8B5D747"
-				"53D0FA1AA4F83273"
-			]
-			disable_toast: true
-			hide: true
-			icon: "enigmaticlegacy:void_pearl"
-			id: "55C27D3B81A52389"
-			rewards: [{
-				id: "4AB8A214FCD00FAE"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "enigmaticlegacy:void_pearl"
-				}
-				type: "item"
-			}]
-			subtitle: "64 rubies/jade/aquamarine/onyx"
-			tasks: [{
-				consume_items: true
-				count: 64L
-				disable_toast: true
-				id: "56548129960848EF"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:ruby"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:jade"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:aquamarine"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": { }
-								}
-								id: "epicsamurai:onyx"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "64x Gems"
-			x: 3.5d
-			y: -6.25d
+			x: 2.25d
+			y: -8.0d
 		}
 		{
 			can_repeat: true
@@ -5654,7 +5582,7 @@
 			}]
 			title: "64x Gems"
 			x: 4.0d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -5732,7 +5660,7 @@
 			}]
 			title: "64x Gems"
 			x: 2.25d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -5810,7 +5738,7 @@
 			}]
 			title: "64x Gems"
 			x: 2.25d
-			y: -4.25d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
