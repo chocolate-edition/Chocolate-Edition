@@ -2389,15 +2389,12 @@
 					type: "item"
 				}
 				{
-					id: "1A622E9240AA8A17"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "enigmaticlegacy:void_pearl"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5008E9219153F379"
+					table_id: 8411969201439975834L
+					team_reward: false
+					title: "+1 Inventory Artifact Slot"
+					type: "choice"
 				}
 			]
 			shape: "rsquare"

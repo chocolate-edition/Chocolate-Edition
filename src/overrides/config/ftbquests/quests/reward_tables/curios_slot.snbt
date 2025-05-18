@@ -1,0 +1,24 @@
+{
+	id: "74BD516B915B299A"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			command: "/execute at @p run curios add trinkets @p 1"
+			icon: "nameless_trinkets:ice_cube"
+			silent: true
+			team_reward: false
+			title: "Add Trinket"
+			type: "command"
+		}
+		{
+			command: "/execute at @p run curios add charm @p 1"
+			icon: "minecraft:totem_of_undying"
+			silent: true
+			team_reward: false
+			title: "Add Charm"
+			type: "command"
+		}
+	]
+	title: "Curios Slot"
+}
