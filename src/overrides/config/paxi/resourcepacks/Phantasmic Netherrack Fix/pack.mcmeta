@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "Fixes missing texture for phantasmic netherrack blocks",
+        "pack_format": 9
+    }
+}
