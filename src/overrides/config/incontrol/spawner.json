@@ -4205,5 +4205,24 @@
       "maxheight": 0,
       "norestrictions": true
     }
+  },
+  {
+    "mob": "born_in_chaos_v1:nightmare_stalker",
+    "persecond": 0.1,
+    "attempts": 4,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 1
+    },
+    "conditions": {
+      "dimension": [
+        "blue_skies:everbright",
+        "blue_skies:everdawn"
+      ],
+      "mindist": 20,
+      "maxdist": 128,
+      "norestrictions": true
+    }
   }
 ]

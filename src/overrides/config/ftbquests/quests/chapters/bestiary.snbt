@@ -4225,7 +4225,7 @@
 			}
 			id: "457F5D21052C7758"
 			shape: "rsquare"
-			subtitle: "Everbright/Everdawn Caves, Will give you a warning when it spawns. Only spawns in expert mode"
+			subtitle: "Everbright/Everdawn, Will give you a warning when it spawns. Only spawns in expert mode"
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
 				icon: {
