@@ -16532,6 +16532,7 @@
 			disable_toast: true
 			icon: "enigmaticlegacy:void_pearl"
 			id: "0CBCB72EE3CED22F"
+			progression_mode: "flexible"
 			size: 2.5d
 			subtitle: "Enter the End, found in the Main End Island at 0,0; resummonable with End Crystals"
 			tasks: [{
@@ -18074,7 +18075,7 @@
 			y: 37.5d
 		}
 		{
-			dependencies: ["0CBCB72EE3CED22F"]
+			dependencies: ["322876A0FCF22949"]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -18084,6 +18085,7 @@
 				}
 			}
 			id: "1AE38DDCE49E6258"
+			progression_mode: "flexible"
 			size: 3.5d
 			subtitle: " Click this checkmark to unlock the Postgame Boss Checklist"
 			tasks: [{
