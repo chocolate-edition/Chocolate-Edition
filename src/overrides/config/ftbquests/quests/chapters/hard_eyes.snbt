@@ -2916,7 +2916,7 @@
 		}
 		{
 			dependencies: ["5DA4FF9594050625"]
-			description: ["This item can be obtained by killing &cNightmare Stalkers&r, which spawn at night "]
+			description: ["This item can be obtained by killing &cNightmare Stalkers&r, which spawn at night in the everbright and everdawn"]
 			id: "6A0D1506919C6916"
 			rewards: [
 				{

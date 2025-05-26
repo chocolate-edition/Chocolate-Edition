@@ -5398,17 +5398,7 @@
       "blue_skies:everdawn",
       "blue_skies:everbright"
     ],
-    "maxheight": 60,
     "result": "allow"
-  },
-  {
-    "mob": "born_in_chaos_v1:nightmare_stalker",
-    "dimension": [
-      "blue_skies:everdawn",
-      "blue_skies:everbright"
-    ],
-    "spawner": false,
-    "result": "deny"
   },
   {
     "mob": [
@@ -5473,7 +5463,6 @@
       "born_in_chaos_v1:restless_spirit",
       "minecraft:silverfish",
       "born_in_chaos_v1:diamond_termite",
-      "born_in_chaos_v1:nightmare_stalker",
       "graveyard:wraith",
       "iter_rpg:peeper"
     ],
