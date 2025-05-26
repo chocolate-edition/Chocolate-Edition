@@ -5785,13 +5785,7 @@
 				consume_items: true
 				count: 16L
 				id: "1EAAA67A975758C4"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "minecraft:decorated_pot"
-				}
+				item: "ecologics:pot"
 				type: "item"
 			}]
 			x: 19.5d
