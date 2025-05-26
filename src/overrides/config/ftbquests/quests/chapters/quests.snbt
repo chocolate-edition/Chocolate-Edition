@@ -5160,24 +5160,12 @@
 			tasks: [
 				{
 					id: "655FFD58A288DDFD"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:stonecutter"
-					}
+					item: "tetra:stonecutter"
 					type: "item"
 				}
 				{
 					id: "666A52E55F675BB3"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "tetra:earthpiercer"
-					}
+					item: "tetra:earthpiercer"
 					type: "item"
 				}
 				{
@@ -5318,9 +5306,6 @@
 					id: "2C9A9BA96E0E7C9D"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -5341,6 +5326,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]

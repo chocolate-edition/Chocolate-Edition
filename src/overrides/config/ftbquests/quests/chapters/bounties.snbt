@@ -3123,14 +3123,13 @@
 							Damage: 0
 							"double/basic_hammer_left_material": "basic_hammer/blackstone"
 							"double/basic_hammer_right_material": "basic_hammer/blackstone"
-							"double/basic_handle_material": "basic_handle/spruce"
-							"double/handle": "double/basic_handle"
 							"double/head_left": "double/basic_hammer_left"
 							"double/head_right": "double/basic_hammer_right"
-							id: "0aecfd34-e202-4bf7-9995-a08217f1c1d3"
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					consume_items: true
