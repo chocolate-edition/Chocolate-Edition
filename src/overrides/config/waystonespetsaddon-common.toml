@@ -1,0 +1,18 @@
+
+[general]
+	#If true, sitting pets will be teleported.
+	teleportSittingPets = false
+	#Force pets to stand up before teleporting, even if they are sitting. Only applies if teleportSittingPets is true.
+	forceUnsitPets = false
+	#The radius (in blocks) around the player to detect tamed pets.
+	#Range: 1.0 ~ 100.0
+	teleportRadius = 10.0
+	#Maximum number of pets to teleport at once.
+	#Range: 1 ~ 1000
+	maxPetsToTeleport = 5
+	#Randomize the offset of teleported pets to avoid stacking.
+	randomizeTeleportOffset = true
+	#Delay (in ticks) before pets are teleported. 0 = instant.
+	#Range: 0 ~ 200
+	teleportDelayTicks = 0
+
