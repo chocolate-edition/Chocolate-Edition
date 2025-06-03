@@ -1754,7 +1754,7 @@
 		{
 			dependencies: ["5DA4FF9594050625"]
 			description: [
-				"This item can be obtainted by killing &cFrostbitten&r, which can be found in cold and snowy biomes at night"
+				"This item can be obtainted by killing &cFrostbitten&r, which can be found in everbright biomes at night"
 				""
 				"&eFrozen Rotten Flesh&r can be brewed into &eSplash Potions of Freeze&r and &eArrows of Freeze&r are extreamly useful in combat"
 			]
