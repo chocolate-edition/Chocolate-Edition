@@ -319,9 +319,6 @@
 				id: "0E7E914E3F562351"
 				item: {
 					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
 					id: "tetra:scroll_rolled"
 					tag: {
 						BlockEntityTag: {
@@ -345,6 +342,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "Hone: Gild III (Nether Eye)"

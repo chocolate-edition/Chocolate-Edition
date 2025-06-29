@@ -3597,9 +3597,6 @@
 					id: "486F8A9C906E929A"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3619,6 +3616,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -3626,9 +3624,6 @@
 					id: "60CA3479F1CE1F30"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3648,6 +3643,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -3655,9 +3651,6 @@
 					id: "4B9CD9B328386B85"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3677,6 +3670,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -3684,9 +3678,6 @@
 					id: "6CEE551075CE5514"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3707,6 +3698,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -3714,9 +3706,6 @@
 					id: "5FD3F6DCE5AF0897"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3740,6 +3729,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -3747,9 +3737,6 @@
 					id: "757B02C0FEFCCD6E"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3773,6 +3760,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -3780,9 +3768,6 @@
 					id: "019E2AF14B7D4568"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3803,6 +3788,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -3810,9 +3796,6 @@
 					id: "6B7205E8C3572D20"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3833,6 +3816,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -3840,9 +3824,6 @@
 					id: "07C72FF4BF557D60"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3863,6 +3844,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -4270,9 +4252,6 @@
 					id: "1F2E57631CD7C628"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -4293,6 +4272,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -4300,9 +4280,6 @@
 					id: "1AD86C65113C3F73"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -4323,6 +4300,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -4330,9 +4308,6 @@
 					id: "30318042CE73A5E7"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -4353,6 +4328,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -4360,9 +4336,6 @@
 					id: "3DBCCD2272CA9688"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -4386,6 +4359,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -4415,9 +4389,6 @@
 				id: "199DBE048F1F7A27"
 				item: {
 					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
 					id: "tetra:scroll_rolled"
 					tag: {
 						BlockEntityTag: {
@@ -4438,6 +4409,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "Murasama Blade"
