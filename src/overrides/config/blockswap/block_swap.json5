@@ -85,7 +85,7 @@ to make editing this file much easier.
 	   	}
 	*/
 	"swapper": {
-		"minecraft:decorated_pot": "minecraft:air",
+		"minecraft:decorated_pot": "ecologics:pot",
 		"supplementaries:sack": "minecraft:air",
  		"epicsamurai:silver_ore": "galosphere:silver_ore",
  		"paraglider:goddess_statue": "minecraft:air",
