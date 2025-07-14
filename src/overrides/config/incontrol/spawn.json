@@ -246,6 +246,16 @@
   },
   {
     "mob": [
+      "rottencreatures:dead_beard"
+    ],
+    "mincount": {
+      "amount": 1
+    },
+    "spawner": false,
+    "result": "deny"
+  },
+  {
+    "mob": [
       "alexsmobs:centipede_head",
       "minecraft:pillager",
       "minecraft:evoker",
@@ -353,7 +363,6 @@
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
       "quark:forgotten",
-      "rottencreatures:dead_beard",
       "rottencreatures:flying_scarab",
       "rottencreatures:frostbitten",
       "rottencreatures:glacial_hunter",
