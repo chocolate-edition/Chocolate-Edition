@@ -46,7 +46,7 @@
 1, beach,minecraft:beach,MONSTER,born_in_chaos_v1:zombie_fisherman,20,1,2
 1, beach,minecraft:beach,MONSTER,creeperoverhaul:beach_creeper,20,1,2
 1, beach,minecraft:beach,MONSTER,iter_rpg:scallop,20,1,2
-1, beach,minecraft:beach,MONSTER,rottencreatures:dead_beard,10,1,1
+1, beach,minecraft:beach,MONSTER,rottencreatures:dead_beard,1,1,1
 1, beach,minecraft:beach,MONSTER,minecraft:enderman,20,1,2
 1, beach,minecraft:beach,MONSTER,minecraft:skeleton,20,1,2
 1, beach,minecraft:beach,MONSTER,minecraft:spider,20,1,2
@@ -54,7 +54,7 @@
 1, beach,minecraft:snowy_beach,MONSTER,born_in_chaos_v1:zombie_fisherman,20,1,2
 1, beach,minecraft:snowy_beach,MONSTER,creeperoverhaul:beach_creeper,20,1,2
 1, beach,minecraft:snowy_beach,MONSTER,iter_rpg:scallop,20,1,2
-1, beach,minecraft:snowy_beach,MONSTER,rottencreatures:dead_beard,10,1,1
+1, beach,minecraft:snowy_beach,MONSTER,rottencreatures:dead_beard,1,1,1
 1, beach,minecraft:snowy_beach,MONSTER,minecraft:enderman,20,1,2
 1, beach,minecraft:snowy_beach,MONSTER,minecraft:skeleton,20,1,2
 1, beach,minecraft:snowy_beach,MONSTER,minecraft:spider,20,1,2
@@ -62,7 +62,7 @@
 1, none,minecraft:stony_shore,MONSTER,born_in_chaos_v1:zombie_fisherman,20,1,2
 1, none,minecraft:stony_shore,MONSTER,creeperoverhaul:beach_creeper,20,1,2
 1, none,minecraft:stony_shore,MONSTER,iter_rpg:scallop,20,1,2
-1, none,minecraft:stony_shore,MONSTER,rottencreatures:dead_beard,10,1,1
+1, none,minecraft:stony_shore,MONSTER,rottencreatures:dead_beard,1,1,1
 1, none,minecraft:stony_shore,MONSTER,minecraft:enderman,20,1,2
 1, none,minecraft:stony_shore,MONSTER,minecraft:skeleton,20,1,2
 1, none,minecraft:stony_shore,MONSTER,minecraft:spider,20,1,2
