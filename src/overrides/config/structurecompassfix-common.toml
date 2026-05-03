@@ -1,0 +1,11 @@
+
+#General settings
+[general]
+	#Maximum range in blocks for the compass to locate structures [default: 10000]
+	#Range: > 0
+	compassRange = 10000
+	#Only locate unexplored structures [default: false]
+	locateUnexplored = false
+	#Blacklisted structures (supports wildcards, e.g. 'minecraft:*')
+	structureBlacklist = [""]
+
