@@ -17,6 +17,10 @@
 		identifier = "overworld"
 	[[triggers.mob]]
 		detection_range = "32"
+		identifier = "mutantoverworld"
+		resource_name = [ "mutantmonsters:mutant_zombie" "mutantmonsters:mutant_skeleton" "mutantmonsters:mutant_creeper"]
+	[[triggers.mob]]
+		detection_range = "32"
 		identifier = "mutantnether"
 		resource_name = [ "mutantmore:mutant_blaze" "mutantmore:mutant_wither_skeleton" ]
 	[[triggers.mob]]
@@ -33,7 +37,7 @@
 		detection_range = "32"
 		identifier = "early_bosses"
 		persistence = "100"
-		resource_name = [ "meetyourfight:bellringer" "meetyourfight:swampjaw" "predators:huntsman" "iter_rpg:insatiable" "queen_bee:queen_bee" "mutantmonsters:mutant_creeper" "mutantmonsters:mutant_enderman" "predators:scarab" "minecraft:elder_guardian" "mutantmonsters:mutant_zombie" "mutantmonsters:mutant_skeleton" ]
+		resource_name = [ "meetyourfight:bellringer" "meetyourfight:swampjaw" "predators:huntsman" "iter_rpg:insatiable" "queen_bee:queen_bee" "mutantmonsters:mutant_enderman" "predators:scarab" "minecraft:elder_guardian" ]
 	[[triggers.mob]]
 		detection_range = "32"
 		identifier = "strong_enemies"
@@ -250,23 +254,26 @@
 		stop_delay = "0"
 		fade_in = "20"
 [songs]
-	[songs.creepy]
+	[songs.ph_corundum_guardian]
 		resume_on_play = true
 		triggers = [ "mob-corundum_guardian" ]
+	[songs.first_x_posure]
+		resume_on_play = true
+		triggers = [ "mob-mutantoverworld" ]
 	[[songs.crystal_cave_pause_menu_open_ver]]
 		resume_on_play = true
 		triggers = [ "structure-blue_skies" ]
-	[songs.white_palace]
+	[songs.ph_white_palace]
 		resume_on_play = true
 		play_x = "100"
 		triggers = [ "structure-white_palace" ]
-	[songs.shaded_citadel]
+	[songs.ph_shaded_citadel]
 		resume_on_play = true
 		triggers = [ "structure-shaded_citadel" ]
-	[[songs.yes]]
+	[[songs.ph_strong_enemies]]
 		resume_on_play = true
 		triggers = [ "mob-strong_enemies" ]
-	[songs.status_palcow_stracone]
+	[songs.ph_status]
 		resume_on_play = true
 		triggers = [ ]
 	[songs.soup_can_vigil_ex_machina]
@@ -281,7 +288,7 @@
 	[[songs.anthropophagus]]
 		resume_on_play = true
 		triggers = [ "mob-mutant_shulker" ]
-	[[songs.yes]]
+	[[songs.ph_obsidilith]]
 		resume_on_play = true
 		triggers = [ "mob-obsidilith" ]
 	[songs.contagion]
